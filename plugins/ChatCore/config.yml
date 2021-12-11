@@ -113,7 +113,7 @@ command-delay-msg: '&cYou cannot run a command for another %time% seconds.'
 #############################################################
 
 staff-chat-enabled: true
-staff-chat-format: '&8[&b&lSTAFF&8] &c%player%&f: %message%'
+staff-chat-format: '&e[STAFF] &e%player%&e:&r %message%'
 staff-chat-on-msg: '&aStaff chat has been enabled.'
 staff-chat-off-msg: '&cStaff chat has been disabled.'
 
@@ -229,7 +229,7 @@ blocked-commands-punishments:
 #############################################################
 
 command-spy-enabled: true
-command-spy-format: '&d%player%&f %command%'
+command-spy-format: '&7%player%&7: %command%'
 command-spy-on-msg: '&aYou have enabled command spy.'
 command-spy-off-msg: '&cYou have disabled command spy.'
 command-spy-enabled-on-join: false
@@ -335,10 +335,10 @@ anti-ad-whitelist:
 custom-join-quit-messages-enabled: false
 
 # Set to '' to disable join and quit messages (custom-join-quit-messages-enabled must be true then)
-join-msg: '&8[&a&l+&8] &f%player%' 
-quit-msg: '&8[&c&l-&8] &f%player%'
-vip-join-msg: '&8[&a&l+&8] &b%player%'
-vip-quit-msg: '&8[&c&l-&8] &b%player%'
+join-msg: '' 
+quit-msg: ''
+vip-join-msg: ''
+vip-quit-msg: ''
 
 
 #############################################################
@@ -351,12 +351,10 @@ custom-chat-format-enabled: true
 
 # If name-hover-enabled is true and you have factions, use the following format instead:
 #default-format: '%rel_factionsuuid_relation_color%%factionsuuid_player_role%%factionsuuid_faction_name% %prefix%%name%%suffix% &8>> &f%message%'
-default-format: '&f[%prefix%&f] &7%name% &f: %message%'
+default-format: '&f[%prefix%&f] &7%name%&f: %message%'
 
 # Make sure the name of the rank matches your permissions plugin. Vault is required for rank-formats to work.
-rank-formats:
-  group1: '%prefix%%name%%suffix% &8>> &f%message%'
-  group2: '%prefix%%name%%suffix% &8>> &b%message%'
+rank-formats: []
 
 name-hover-enabled: false
 

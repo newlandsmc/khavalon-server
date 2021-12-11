@@ -372,13 +372,13 @@ remove-god-on-disconnect: true
 # After this timeout in seconds, the user will be set as AFK.
 # This feature requires the player to have essentials.afk.auto node.
 # Set to -1 for no timeout.
-auto-afk: 900
+auto-afk: 300
 
 # Auto-AFK Kick
 # After this timeout in seconds, the user will be kicked from the server.
 # essentials.afk.kickexempt node overrides this feature.
 # Set to -1 for no timeout.
-auto-afk-kick: -1
+auto-afk-kick: 900
 
 # Set this to true, if you want to freeze the player, if the player is AFK.
 # Other players or monsters can't push the player out of AFK mode then.
@@ -456,8 +456,8 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "&a* {PLAYER} has returned from their expedition!"
-custom-quit-message: "&c* {PLAYER} leaves on an expedition..."
+custom-join-message: "&a* {USERNAME} has returned from their expedition!"
+custom-quit-message: "&c* {USERNAME} left on an expedition..."
 
 # You can set a custom join message for users who join with a new username here.
 # This message will only be used if a user has joined before and have since changed their username.
@@ -818,7 +818,7 @@ chat:
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
   format: '<{DISPLAYNAME}> {MESSAGE}'
-  #format: '&f[{GROUP}&f]&7 {DISPLAYNAME}&f: {MESSAGE}'
+  #format: '&f[{PREFIX}&f]&7 {NICKNAME}&f: {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
   group-formats:
