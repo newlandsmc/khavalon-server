@@ -12,8 +12,8 @@
 
 settings:
   debug: false
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
+  moved-wrongly-threshold: 1000
+  moved-too-quickly-multiplier: 1000
   save-user-cache-on-stop-only: false
   bungeecord: false
   user-cache-size: 1000
@@ -137,6 +137,8 @@ world-settings:
       tile: 50
       entity: 50
     dragon-death-sound-radius: 0
+  worldeditregentempworld:
+    verbose: false
 commands:
   silent-commandblock-console: false
   log: true

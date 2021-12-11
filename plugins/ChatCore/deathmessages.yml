@@ -13,7 +13,7 @@
 # 
 #  This way, you can disable all death messages except for pvp-related deaths.
 disable-all-death-messages: false
-enable-custom-death-messages: true
+enable-custom-death-messages: false
 unknown:
 - '&c%player%&7 died.'
 - '&c%player%&7 mysteriously died.'

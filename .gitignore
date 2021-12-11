@@ -1,10 +1,22 @@
 # Ignore user data in plugins
 /plugins/Essentials/warps/
+/plugins/Essentials/usermap.csv
+/plugins/Essentials/userdata/
+/plugins/Essentials/userdata-npc-backup/
+/plugins/WorldEdit/sessions/
+/plugins/LiteBans/litebans.mv.db
+
 
 # Ignore bloat in plugins
 /plugins/ChatCore/Chat Logs/
 /plugins/ChatCore/Command Logs/
 /plugins/LuckPerms/libs/
+/plugins/WorldEdit/.archive-unpack/
+/plugins/WorldGuard/cache/
+/plugins/Pl3xMap/data/
+/plugins/Pl3xMap/web/
+/plugins/LiteBans/lib/
+/plugins/LiteBans/.version/
 
 # Ignore worlds
 /worlds/

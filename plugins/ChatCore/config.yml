@@ -17,7 +17,7 @@
 #############################################################
 
 reload-msg: '&aChatCore has been reloaded.'
-no-permission-msg: '&cNo permission.'
+no-permission-msg: '&cYou do not have permission to do that.'
 # Useful tip: If you want to change the unknown command message, there is no need
 # to download a plugin to do this for you. Simply go to spigot.yml, change the
 # field 'unknown-command', and use § for color codes instead of &
@@ -91,7 +91,7 @@ unslow-silent-msg: '&aYou silently removed the slow delay in chat.'
 #############################################################
 
 # Set to 0 to disable
-delay-in-millis: 500
+delay-in-millis: 0
 delay-msg: '&cYou cannot talk for another %time% seconds.'
 
 
@@ -102,7 +102,7 @@ delay-msg: '&cYou cannot talk for another %time% seconds.'
 #############################################################
 
 # Set to 0 to disable
-command-delay-in-millis: 250
+command-delay-in-millis: 0
 command-delay-msg: '&cYou cannot run a command for another %time% seconds.'
 
 
@@ -139,7 +139,7 @@ anti-caps-min-length: 10
 ## +------------------------------------------------------+ #
 #############################################################
 
-add-period-enabled: true
+add-period-enabled: false
 add-period-min-length: 10
 
 
@@ -154,22 +154,24 @@ blocked-words-replace-char: '*'
 
 # to disable, do:   blocked-words: []
 blocked-words:
-  - 'wtf'                 # Will not run a punishment
-  - 'shit, minor'         # Will run commands from punishment 'minor'
-  - 'kys, severe'         # Will run commands from punishment 'severe'
+#  - 'wtf'                 # Will not run a punishment
+#  - 'shit, minor'         # Will run commands from punishment 'minor'
+#  - 'kys, severe'         # Will run commands from punishment 'severe'
+   - 'nigger, severe'
+   - 'faggot, severe'
 
 # "Ass" will be detected but "compass" will not
 # (Don't put the same word in both categories, just choose one)
-blocked-words-ignore-in-bigger-words:
-  - 'ass, minor'
+blocked-words-ignore-in-bigger-words: []
+#  - 'ass, minor'
 
 # Add as many categories and name them whatever you would like
 blocked-words-punishments:
   minor:
-    - 'mute %player% -s 1m &fSwearing (&c%word%&f)'        # Or use %message% as a placeholder
+    - 'mute %player% -s 5m &fAuto-detected Swearing (&c%word%&f)'        # Or use %message% as a placeholder
   severe:
-    - 'chat staffannounce &e%player% &fswore (&e%word%&f)'
-    - 'mute %player% -s 3m &fSwearing (&c%word%&f)'
+#    - 'chat staffannounce &e%player% &fswore (&e%word%&f)'
+    - 'mute %player% -s 10m &fAuto-detected Swearing (&c%word%&f)'
 
 
 #############################################################
@@ -185,35 +187,35 @@ blocked-commands-warn-staff-msg: '&c&lWARNING&f: &c%player% &ftried to use the c
 # In general, this is recommended to avoid players from seeing what plugins you have installed
 # If you want to block suggestions with colon, thus preventing them from seeing your plugins,
 # set 'send-namespaced' in spigot.yml to false
-block-all-commands-containing-colon: true
+block-all-commands-containing-colon: false
 
 # Set to '' to disable
 block-all-commands-containing-colon-msg: '&cYou cannot use colons in commands.'
 # IMPORTANT TIP: if you want to block players from using '/ver ' or '/about ' (which shows all plugins!), negate the permission 'bukkit.command.version'
 # This removes the need for external plugins that will only slow down your server!
-blocked-commands:      # to disable, do:   blocked-commands: []
-  - '//calc, crash'
-  - '//calculate, crash'
-  - '/?'
-  - '/help'
-  - '/ehelp'
-  - '/about'
-  - '/eabout'
-  - '/info'
-  - '/bukkit:?'
-  - '/bukkit:about'
-  - '/bukkit:help'
-  - '/bukkit:pl'
-  - '/bukkit:plugins'
-  - '/bukkit:ver'
-  - '/bukkit:version'
-  - '/icanhasbukkit'
-  - '/minecraft:help'
-  - '/pl'
-  - '/plugin'
-  - '/plugins'
-  - '/ver'
-  - '/version'
+blocked-commands: []      # to disable, do:   blocked-commands: []
+#  - '//calc, crash'
+#  - '//calculate, crash'
+#  - '/?'
+#  - '/help'
+#  - '/ehelp'
+#  - '/about'
+#  - '/eabout'
+#  - '/info'
+#  - '/bukkit:?'
+#  - '/bukkit:about'
+#  - '/bukkit:help'
+#  - '/bukkit:pl'
+#  - '/bukkit:plugins'
+#  - '/bukkit:ver'
+#  - '/bukkit:version'
+#  - '/icanhasbukkit'
+#  - '/minecraft:help'
+#  - '/pl'
+#  - '/plugin'
+#  - '/plugins'
+#  - '/ver'
+#  - '/version'
 
 blocked-commands-punishments:
   crash:
@@ -242,7 +244,7 @@ command-spy-ignored-commands:     # to disable, do:   command-spy-ignored-comman
 ## +------------------------------------------------------+ #
 #############################################################
 
-auto-caps-enabled: true
+auto-caps-enabled: false
 auto-caps-min-length: 3
 
 
@@ -288,7 +290,7 @@ staff-announce-sound: 'NONE'
 
 # Players with permission 'chatcore.coloredtext' can use & to send colored text in chat
 # If using essentials, set to false and use the permissions 'essentials.chat.color' and 'essentials.msg.color' instead
-colored-chat-enabled: true
+colored-chat-enabled: false
 
 
 #############################################################
@@ -297,7 +299,7 @@ colored-chat-enabled: true
 ## +------------------------------------------------------+ #
 #############################################################
 
-disable-chat-until-move: true
+disable-chat-until-move: false
 disable-chat-until-move-msg: '&cYou cannot talk in chat until you move.'
 disable-command-until-move-msg: '&cYou cannot use that command until you move.'
 
@@ -312,7 +314,7 @@ disable-commands-until-move:
 ## +------------------------------------------------------+ #
 #############################################################
 
-anti-ad-enabled: true
+anti-ad-enabled: false
 anti-ad-msg: '&cAdvertising is not allowed.'
 anti-ad-inform-msg: '&c&lWARNING: &f%player% tried to advertise: %message%'
 
@@ -330,10 +332,10 @@ anti-ad-whitelist:
 ## +------------------------------------------------------+ #
 #############################################################
 
-custom-join-quit-messages-enabled: true
+custom-join-quit-messages-enabled: false
 
 # Set to '' to disable join and quit messages (custom-join-quit-messages-enabled must be true then)
-join-msg: '&8[&a&l+&8] &f%player%'
+join-msg: '&8[&a&l+&8] &f%player%' 
 quit-msg: '&8[&c&l-&8] &f%player%'
 vip-join-msg: '&8[&a&l+&8] &b%player%'
 vip-quit-msg: '&8[&c&l-&8] &b%player%'
@@ -349,14 +351,14 @@ custom-chat-format-enabled: true
 
 # If name-hover-enabled is true and you have factions, use the following format instead:
 #default-format: '%rel_factionsuuid_relation_color%%factionsuuid_player_role%%factionsuuid_faction_name% %prefix%%name%%suffix% &8>> &f%message%'
-default-format: '%prefix%%name%%suffix% &8>> &f%message%'
+default-format: '&f[%prefix%&f] &7%name% &f: %message%'
 
 # Make sure the name of the rank matches your permissions plugin. Vault is required for rank-formats to work.
 rank-formats:
   group1: '%prefix%%name%%suffix% &8>> &f%message%'
   group2: '%prefix%%name%%suffix% &8>> &b%message%'
 
-name-hover-enabled: true
+name-hover-enabled: false
 
 # This example uses PlaceholderAPI placeholders. You may need to use /papi ecloud download (expansion name).
 # List of placeholders here: https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders
@@ -381,7 +383,7 @@ click-action: '/msg %name% '
 #############################################################
 
 mention-enabled: true
-mention-color: '&a&l'
+mention-color: '&a'
 
 # set to NONE or something from this list:
 # 1.7: https://pastebin.com/9jbmgjHb
@@ -404,7 +406,7 @@ mention-sound: 'NONE'
 ## +------------------------------------------------------+ #
 #############################################################
 
-motd-enabled: true
+motd-enabled: false
 motd:
   - '&8&m                                                                                '
   - ''
@@ -423,7 +425,7 @@ motd:
 ## +------------------------------------------------------+ #
 #############################################################
 
-auto-broadcast-enabled: true
+auto-broadcast-enabled: false
 auto-broadcast-delay: 30
 # True = random message, false = in order
 auto-broadcast-random: true
@@ -441,8 +443,8 @@ auto-broadcast-messages:
 ## +------------------------------------------------------+ #
 #############################################################
 
-chat-logger-enabled: true
-chat-logger-staff-chat-enabled: true
+chat-logger-enabled: false
+chat-logger-staff-chat-enabled: false
 chat-logger-included-commands:
   - '/m'
   - '/em'
@@ -460,7 +462,7 @@ chat-logger-included-commands:
   - '/er'
   - '/reply'
   - '/ereply'
-command-logger-enabled: true
+command-logger-enabled: false
 command-logger-ignored-commands:
   - '/help'
 logger-format: '[%time%] %player%: %message% '
@@ -475,6 +477,6 @@ logger-format: '[%time%] %player%: %message% '
 # This disables all characters with an ASCII code >= 128 (pretty much anything not on the standard keyboard)
 # This is recommended to stop bypassing swear and anti-advertising filter
 disable-ascii: true
-ascii-cancel: true          # If true, cancels the message. If false, replaces the ASCII symbol with the replace character
+ascii-cancel: false         # If true, cancels the message. If false, replaces the ASCII symbol with the replace character
 ascii-cancel-msg: '&cYou cannot use ASCII characters.'
 ascii-replace-character: '*'

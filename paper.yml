@@ -16,9 +16,8 @@ messages:
     authentication-servers-down: ''
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
-    connection-throttle: Connection throttled! Please wait before reconnecting.
-  no-permission: '&cI''m sorry, but you do not have permission to perform this command.
-    Please contact the server administrators if you believe that this is in error.'
+    connection-throttle: You're connecting too fast! Please wait before reconnecting.
+  no-permission: '&cYou do not have permission to do that.'
 timings:
   enabled: false
   verbose: true
@@ -30,7 +29,7 @@ timings:
   - settings.velocity-support.secret
   history-interval: 300
   history-length: 3600
-  server-name: Unknown Server
+  server-name: SemiVanilla MC
 config-version: 24
 settings:
   send-full-pos-for-hard-colliding-entities: true

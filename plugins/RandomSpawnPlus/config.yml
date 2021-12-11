@@ -62,22 +62,22 @@ unsafe-blocks:
 randomspawn-enabled: true
 
 # Will RandomSpawnPlus give players random spawns on death?
-on-death: true
+on-death: false
 
 # Will RandomSpawnPlus give players random spawns on first join?
 on-first-join: true
 
 # Will RandomSpawnPlus send the players to their bed spawn on death?
-spawn-at-bed: true
+spawn-at-bed: false
 
 # Will RandomSpawnPlus only random spawn players if they have the `randomspawnplus.randomspawn` permission node?
 use-permission-node: false
 
 # Essentials integration: teleport to home instead of random spawn on-death
-essentials-home-teleport: false
+essentials-home-teleport: true
 
 # Should RandomSpawnPlus set the user's Essentials home 'home' on first-join random spawn?
-essentials-home-on-first-spawn: false
+essentials-home-on-first-spawn: true
 
 # The spawn range RandomSpawnPlus will look within.
 spawn-range:
@@ -118,7 +118,7 @@ spawn-finder-tries-before-timeout: 35
 #############
 
 # Note: changes to this variable will require a restart.
-wild-enabled: true
+wild-enabled: false
 
 # In seconds, how long between /wild uses?
 # Set to 0 to disable.
