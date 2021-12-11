@@ -1,0 +1,23 @@
+# Ignore user data in plugins
+/plugins/Essentials/warps/
+
+# Ignore bloat in plugins
+/plugins/ChatCore/Chat Logs/
+/plugins/ChatCore/Command Logs/
+/plugins/LuckPerms/libs/
+
+# Ignore worlds
+/worlds/
+
+# Ignore root directory user data files
+/*.json
+
+# Ignore root directory bloat files
+/.console_history
+/versions/
+/logs/
+/libraries/
+/cache/
+
+# Ignore jars
+*.jar

@@ -1,0 +1,25 @@
+settings:
+  web-directory:
+    path: web
+    auto-update: true
+  ui:
+    coordinates:
+      enabled: true
+    link:
+      enabled: true
+    sidebar:
+      pinned: pinned
+  commands:
+    main-command-label: pl3xmap
+    main-command-aliases:
+    - map
+  language-file: lang-en.yml
+  debug-mode: false
+  web-address: http://localhost:8080
+  image-quality:
+    compress-images: 0.0
+  internal-webserver:
+    enabled: true
+    bind: 0.0.0.0
+    port: 8080
+config-version: 1

@@ -1,0 +1,357 @@
+#                _____             _   _       __  __
+#                |  __ \           | | | |     |  \/  |
+#                | |  | | ___  __ _| |_| |__   | \  / | ___  ___ ___  __ _  __ _  ___  ___
+#                | |  | |/ _ \/ _` | __| '_ \  | |\/| |/ _ \/ __/ __|/ _` |/ _` |/ _ \/ __|
+#                | |__| |  __/ (_| | |_| | | | | |  | |  __/\__ \__ \ (_| | (_| |  __/\__ \
+#                |_____/ \___|\__,_|\__|_| |_| |_|  |_|\___||___/___/\__,_|\__, |\___||___/
+#                                                                           __/ |
+#                                                                          |___/
+#  
+#  You can add multiple lines to have a random death message chosen.
+#  And, you can disable certain death messages by setting the death message to '', see the following example:
+#  unknown: '
+# 
+#  This way, you can disable all death messages except for pvp-related deaths.
+disable-all-death-messages: false
+enable-custom-death-messages: true
+unknown:
+- '&c%player%&7 died.'
+- '&c%player%&7 mysteriously died.'
+projectile-unknown:
+- '&c%player%&7 was shot to death.'
+pvp-unknown:
+- '&c%player%&7 was killed by %killer%&7.'
+explosion-unknown:
+- '&c%player%&7 was exploded.'
+magic-unknown:
+- '&c%player%&7 was killed by magic from a dispenser.'
+melee-unknown:
+- '&c%player%&7 was meleed to death.'
+fireball-unknown:
+- '&c%player%&7 was blown up by a fireball.'
+pvp-thorns:
+- '&c%player%&7 was killed trying to hurt %killer%&7.'
+pvp-explosion:
+- '&c%player%&7 was blown up while fighting %killer%&7.'
+pvp-magic:
+- '&c%player%&7 was killed by %killer%&7 using magic.'
+pvp-drown:
+- '&c%player%&7 drowned while fighting %killer%&7.'
+pvp-burn:
+- '&c%player%&7 burned to death while fighting %killer%&7.'
+pvp-fire-tick:
+- '&c%player%&7 burned to death while fighting %killer%&7.'
+pvp-magma:
+- '&c%player%&7 was burned by a magma block while fighting %killer%&7.'
+pvp-lava:
+- '&c%player%&7 burned in lava while fighting %killer%&7.'
+pvp-starvation:
+- '&c%player%&7 starved to death while fighting %killer%&7.'
+pvp-suffocation:
+- '&c%player%&7 suffocated to death while fighting %killer%&7.'
+pvp-cramming:
+- '&c%player%&7 was crammed to death while fighting %killer%&7.'
+pvp-freeze:
+- '&c%player%&7 froze to death while fighting %killer%&7.'
+pvp-void:
+- '&c%player%&7 fell out of the world while fighting %killer%&7.'
+pvp-fall-far:
+- '&c%player%&7 fell quite far while fighting %killer%&7.'
+pvp-fall-short:
+- '&c%player%&7 broke their legs while fighting %killer%&7.'
+pvp-fly-into-wall:
+- '&c%player%&7 flew into a wall while fighting %killer%&7.'
+pvp-pricked:
+- '&c%player%&7 was pricked to death while fighting %killer%&7.'
+pvp-lightning:
+- '&c%player%&7 was struck by lightning while fighting %player%&7.'
+pvp-enderpearl:
+- '&c%player%&7 enderpearled into a wall while fighting %player%&7.'
+pvp-tnt:
+- '&c%player%&7 was blown up while fighting %player%&7.'
+pvp-custom-sword:
+- '&c%player%&7 was stabbed by %killer%&7 using %item%&7.'
+pvp-custom-axe:
+- '&c%player%&7 was hacked by %killer%&7 using %item%&7.'
+pvp-custom-bow:
+- '&c%player%&7 was shot by %killer%&7 using %item%&7.'
+pvp-custom-crossbow:
+- '&c%player%&7 was shot by %killer%&7 using %item%.'
+pvp-custom-trident:
+- '&c%player%&7 was impaled by %killer%&7 using %item%&7.'
+pvp-custom-other:
+- '&c%player%&7 was killed by %killer%&7 using %item%&7.'
+pvp-sword:
+- '&c%player%&7 was stabbed by %killer%&7.'
+pvp-axe:
+- '&c%player%&7 was hacked by %killer%&7.'
+pvp-bow:
+- '&c%player%&7 was shot by %killer%&7.'
+pvp-crossbow:
+- '&c%player%&7 was shot by %killer%&7.'
+pvp-trident:
+- '&c%player%&7 was impaled by %killer%&7''s trident.'
+pvp-fists:
+- '&c%player%&7 was punched to death by %killer%&7.'
+pvp-suicide:
+- '&c%player%&7 committed suicide while fighting %player%&7.'
+pvp-other:
+- '&c%player%&7 was killed by %killer%&7.'
+bee:
+- '&c%player%&7 was stung by a lot of bees.'
+blaze-melee:
+- '&c%player%&7 was punched by a blaze.'
+blaze-fireball:
+- '&c%player%&7 was fireballed by a blaze.'
+cavespider:
+- '&c%player%&7 was bitten by a cave spider.'
+creeper:
+- '&c%player%&7 was blown up by a creeper.'
+creeper-charged:
+- '&c%player%&7 was blown up by a charged creeper.'
+drowned-trident:
+- '&c%player%&7 was impaled by a drowned''s trident.'
+drowned-melee:
+- '&c%player%&7 was punched by a drowned really hard.'
+elderguardian:
+- '&7An elder guardian got to &c%player%&7.'
+enderdragon-breath:
+- '&c%player%&7 was killed by the ender dragon''s breath.'
+enderdragon-fireball:
+- '&c%player%&7 was fireballed by the ender dragon.'
+enderdragon-magic:
+- '&c%player%&7 was killed by the ender dragon''s magic.'
+enderdragon:
+- '&c%player%&7 was killed by the ender dragon.'
+enderman:
+- '&c%player%&7 was killed by an enderman. Ouch.'
+endermite:
+- '&c%player%&7 was killed by an endermite.'
+evoker:
+- '&c%player%&7 was killed by an evoker.'
+ghast:
+- '&c%player%&7 was blown up by a ghast.'
+guardian:
+- '&c%player%&7 was killed by a guardian.'
+illusioner:
+- '&c%player%&7 was illusioned by an illusioner.'
+irongolem:
+- '&c%player%&7 was thrown by an iron golem.'
+llama:
+- '&c%player%&7 was killed by a llama.'
+magmacube:
+- '&c%player%&7 was stomped on by a magma cube.'
+panda:
+- '&c%player%&7 was rekt by a panda.'
+phantom:
+- '&c%player%&7 was killed by a phantom.'
+pillager-crossbow:
+- '&c%player%&7 was shot by a pillager.'
+pillager-melee:
+- '&c%player%&7 was hit by a pillager.'
+polarbear:
+- '&c%player%&7 was hugged by a polar bear.'
+pufferfish:
+- '&c%player%&7 was stung by a puffer fish.'
+ravager:
+- '&c%player%&7 was ravaged by a ravager.'
+shulker:
+- '&c%player%&7 was killed by a shulker.'
+silverfish:
+- '&c%player%&7 was killed by a silverfish.'
+stray-arrow:
+- '&c%player%&7 was shot by a stray.'
+stray-melee:
+- '&c%player%&7 was punched by a stray.'
+witherskeleton:
+- '&c%player%&7 was nae-naed by a wither skeleton.'
+skeleton-arrow:
+- '&c%player%&7 was shot by a skeleton.'
+skeleton-melee:
+- '&c%player%&7 was punched by a skeleton.'
+slime:
+- '&c%player%&7 was stomped on by a slime.'
+spider:
+- '&c%player%&7 was bit by a spider.'
+vex:
+- '&c%player%&7 was killed by a vex.'
+vindicator:
+- '&c%player%&7 was killed by a vindicator.'
+witch:
+- '&c%player%&7 was killed by a witch.'
+wither:
+- '&c%player%&7 was killed by a wither.'
+wither-explosion:
+- '&c%player%&7 was exploded by a wither.'
+wolf:
+- '&c%player%&7 was ripped apart by wolves.'
+zombiepigman:
+- '&c%player%&7 was killed by a zombie pigman.'
+zombievillager:
+- '&c%player%&7 was eaten by a zombie villager.'
+hoglin:
+- '&c%player%&7 was rammed by a hoglin.'
+zoglin:
+- '&c%player%&7 was rammed by a zoglin.'
+piglin:
+- '&c%player%&7 forgot to wear gold in the nether.'
+piglin-brute:
+- '&c%player%&7 forgot to wear gold in the nether.'
+husk:
+- '&c%player%&7 was eaten by a husk.'
+zombie:
+- '&c%player%&7 was eaten by a zombie.'
+named-hoglin:
+- '&c%player%&7 was rammed by %mob%&7.'
+named-zoglin:
+- '&c%player%&7 was rammed by %mob%&7.'
+named-piglin:
+- '&c%player%&7 was killed by %mob%&7.'
+named-piglin-brute:
+- '&c%player%&7 was killed by %mob%&7.'
+named-bee:
+- '&c%player%&7 was stung by %mob%&7.'
+named-blaze-melee:
+- '&c%player%&7 was punched by %mob%&7.'
+named-blaze-fireball:
+- '&c%player%&7 was fireballed by %mob%&7.'
+named-cavespider:
+- '&c%player%&7 was bitten by %mob%&7.'
+named-creeper:
+- '&c%player% was&7 blown up by %mob%&7.'
+named-creeper-charged:
+- '&c%player%&7 was blown up by %mob%&7.'
+named-drowned-trident:
+- '&c%player%&7 was impaled by %mob%&7''s trident.'
+named-drowned-melee:
+- '&c%player%&7 was punched by %mob%&7 really hard.'
+named-elderguardian:
+- '&c%mob%&7 got to %player%&7.'
+named-enderdragon-breath:
+- '&c%player%&7 was killed by %mob%&7''s breath.'
+named-enderdragon:
+- '&c%player%&7 was killed by %mob%&7.'
+named-enderdragon-fireball:
+- '&c%player%&7 was fireballed by %mob%&7.'
+named-enderdragon-magic:
+- '&c%player%&7 was killed by %mob%&7''s magic.'
+named-melee-unknown:
+- '&c%player%&7 was meleed to death by %mob%&7.'
+named-enderman:
+- '&c%player%&7 was killed by %mob%&7. Ouch.'
+named-endermite:
+- '&c%player%&7 was killed by %mob%&7.'
+named-evoker:
+- '&c%player%&7 was killed by %mob%&7.'
+named-ghast:
+- '&c%player%&7 was blown up by %mob%&7.'
+named-guardian:
+- '&c%player%&7 was killed by %mob%&7.'
+named-illusioner:
+- '&c%player%&7 was illusioned by %mob%&7.'
+named-irongolem:
+- '&c%player%&7 was thrown by %mob%&7.'
+named-magmacube:
+- '&c%player%&7 was stomped on by %mob%&7.'
+named-panda:
+- '&c%player%&7 was rekt by %mob%&7.'
+named-phantom:
+- '&c%player%&7 was killed by %mob%&7.'
+named-pillager-crossbow:
+- '&c%player%&7 was shot by %mob%&7.'
+named-pillager-melee:
+- '&c%player%&7 was hit by %mob%&7.'
+named-polarbear:
+- '&c%player%&7 was hugged by %mob%&7.'
+named-pufferfish:
+- '&c%player%&7 was stung by %mob%&7.'
+named-ravager:
+- '&c%player%&7 was ravaged by %mob%&7.'
+named-shulker:
+- '&c%player%&7 was killed by %mob%&7.'
+named-silverfish:
+- '&c%player%&7 was killed by %mob%&7.'
+wither-skull:
+- '&c%player%&7 was shot by a wither.'
+named-wither-skull:
+- '&c%player%&7 was shot by %mob%&7.'
+named-stray-arrow:
+- '&c%player%&7 was shot by %mob%&7.'
+named-stray-melee:
+- '&c%player%&7 was punched by %mob%&7.'
+named-witherskeleton:
+- '&c%player%&7 was nae-naed by %mob%&7.'
+named-skeleton-arrow:
+- '&c%player%&7 was shot by %mob%&7.'
+named-skeleton-melee:
+- '&c%player%&7 was punched by %mob%&7.'
+named-slime:
+- '&c%player%&7 was stomped on by %mob%&7.'
+named-spider:
+- '&c%player%&7 was bit by %mob%&7.'
+named-vex:
+- '&c%player%&7 was killed by %mob%&7.'
+named-vindicator:
+- '&c%player%&7 was killed by %mob%&7.'
+named-witch:
+- '&c%player%&7 was killed by %mob%&7.'
+named-wither:
+- '&c%player%&7 was killed by %mob%&7.'
+named-wither-explosion:
+- '&c%player%&7 was exploded by %mob%&7.'
+named-wolf:
+- '&c%player%&7 was ripped apart by %mob%&7.'
+named-pigzombie:
+- '&c%player%&7 was killed by %mob%&7.'
+named-zombievillager:
+- '&c%player%&7 was eaten by %mob%&7.'
+named-husk:
+- '&c%player%&7 was eaten by %mob%&7.'
+named-zombie:
+- '&c%player%&7 was eaten by %mob%&7.'
+freeze:
+- '&c%player%&7 froze to death.'
+endercrystal:
+- '&c%player%&7 was exploded by an ender crystal.'
+anvil:
+- '&c%player%&7 was crushed by an anvil.'
+lightning:
+- '&c%player%&7 was struck by lightning.'
+enderpearl:
+- '&c%player%&7 used an ender pearl at the wrong time.'
+pricked:
+- '&c%player%&7 was pricked to death.'
+tnt:
+- '&c%player%&7 was exploded by TNT.'
+drown:
+- '&c%player%&7 drowned.'
+wither-potion:
+- '&c%player%&7 withered away.'
+burn:
+- '&c%player%&7 burned to death.'
+fire-tick:
+- '&c%player%&7 burned to death.'
+magma:
+- '&c%player%&7 was burned by a magma block.'
+lava:
+- '&c%player%&7 fell in lava.'
+starvation:
+- '&c%player%&7 starved to death.'
+suffocation:
+- '&c%player%&7 suffocated to death.'
+cramming:
+- '&c%player%&7 was crammed to death.'
+void:
+- '&c%player%&7 fell into the void.'
+fall-far:
+- '&c%player%&7 fell quite far.'
+fall-short:
+- '&c%player%&7 hit the ground too hard.'
+fly-into-wall:
+- '&c%player%&7 flew into a wall.'
+suicide-magic:
+- '&c%player%&7 killed themselves using magic.'
+block-explosion:
+- '&c%player%&7 set their spawn point in the wrong world.'
+suicide:
+- '&c%player%&7 committed suicide.'
