@@ -1,0 +1,19 @@
+DefaultMOTD:
+    - '                      &c&lSe&6&lmi&a&lVa&b&lni&d&llla&5&l MC'
+    - '         &aHome of your survival adventure'
+SecondaryMOTD:
+    - '                      &c&lSe&6&lmi&a&lVa&b&lni&d&llla&5&l MC'
+    - '         &aHome of your survival adventure'
+COUNTER: 0
+
+CUSTOM_MOTDS:
+    MOTD1NameHere:
+        ACTIVE: false
+        LINES:
+        - '          &cThis is the first line'
+        - '    &4This is the second line!'
+    MOTD2NameHere:
+        ACTIVE: false
+        LINES:
+        - '          &4This is the first line'
+        - '    &4This is the second line!'
