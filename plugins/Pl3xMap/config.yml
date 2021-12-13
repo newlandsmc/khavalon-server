@@ -48,7 +48,7 @@ world-settings:
         extra: 2
     player-tracker:
       enabled: true
-      update-interval-seconds: 1
+      update-interval-seconds: 5
       show-controls: true
       default-hidden: false
       layer-priority: 2
@@ -57,8 +57,8 @@ world-settings:
         enabled: true
         show-head: true
         heads-url: https://mc-heads.net/avatar/{uuid}/16
-        show-armor: true
-        show-health: true
+        show-armor: false
+        show-health: false
       hide:
         invisible: true
         spectators: true
