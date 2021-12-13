@@ -5,6 +5,7 @@
 /plugins/Essentials/userdata-npc-backup/
 /plugins/WorldEdit/sessions/
 /plugins/LiteBans/litebans.mv.db
+/plugins/RejoinRewards/data/
 
 
 # Ignore bloat in plugins

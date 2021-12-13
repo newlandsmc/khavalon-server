@@ -1045,7 +1045,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&a* {DISPLAYNAME} has awoken in a strange place...'
+  announce-format: ''
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
@@ -1062,7 +1062,7 @@ newbies:
 # Set this to high, if you want EssentialsSpawn to handle the respawning.
 # Set this to highest, if you want to force EssentialsSpawn to handle the respawning.
 # Note: Changes will not apply until after the server is restarted.
-respawn-listener-priority: lowest
+respawn-listener-priority: highest
 
 # What priority should we use for handling spawning on joining the server?
 # See respawn-listener-priority for possible values.

@@ -62,7 +62,7 @@ unsafe-blocks:
 randomspawn-enabled: true
 
 # Will RandomSpawnPlus give players random spawns on death?
-on-death: false
+on-death: true
 
 # Will RandomSpawnPlus give players random spawns on first join?
 on-first-join: true

@@ -2,7 +2,7 @@ world-settings:
   default:
     map:
       enabled: true
-      display-name: '{world}'
+      display-name: SemiVanilla MC
       order: 0
       icon: ''
       max-render-threads: -1
@@ -15,7 +15,7 @@ world-settings:
         enabled: false
       markers:
         spawn-icon:
-          enabled: true
+          enabled: false
           show-controls: true
           default-hidden: false
           layer-priority: 0

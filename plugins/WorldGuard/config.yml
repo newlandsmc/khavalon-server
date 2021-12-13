@@ -120,7 +120,7 @@ player-damage:
     reset-fall-on-void-teleport: false
     disable-explosion-damage: false
     disable-mob-damage: false
-    disable-death-messages: false
+    disable-death-messages: true
 chest-protection:
     enable: false
     disable-off-check: false
