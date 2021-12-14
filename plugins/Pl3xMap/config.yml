@@ -64,7 +64,7 @@ world-settings:
         spectators: true
 settings:
   web-directory:
-    path: C:/Users/brayd/Documents/SemiVanilla MC - Website/html/map
+    path: /var/minecraft/website/map
     auto-update: false
   ui:
     coordinates:

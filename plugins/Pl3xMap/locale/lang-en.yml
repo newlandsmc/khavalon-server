@@ -42,7 +42,7 @@ command:
 click-for-help: Click for help
 click-to-confirm: Click to confirm
 ui:
-  page-title: Pl3xMap - {world}
+  page-title: SemiVanilla Minecraft Server - Map
   coordinates: Coordinates<br/>{x}, {z}
   sidebar:
     player-list: Players ({cur}/{max})
