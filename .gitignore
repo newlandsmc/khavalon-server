@@ -8,6 +8,7 @@
 /plugins/RejoinRewards/data/
 /plugins/GriefPreventionData/ClaimData/
 /plugins/GriefPreventionData/PlayerData/
+/plugins/CoreProtect/database.db
 
 
 # Ignore bloat in plugins
