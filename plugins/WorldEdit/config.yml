@@ -148,6 +148,6 @@ wand-item: minecraft:wooden_axe
 shell-save-type:
 no-op-permissions: false
 debug: false
-show-help-on-first-use: true
-server-side-cui: true
+show-help-on-first-use: false
+server-side-cui: false
 command-block-support: false

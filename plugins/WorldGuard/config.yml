@@ -12,7 +12,7 @@ regions:
         password: worldguard
         table-prefix: ''
     use-paper-entity-origin: false
-    enable: true
+    enable: false
     invincibility-removes-mobs: false
     cancel-chat-without-recipients: true
     nether-portal-protection: true
@@ -29,9 +29,9 @@ regions:
 auto-invincible: false
 auto-invincible-group: false
 auto-no-drowning-group: false
-use-player-move-event: true
-use-player-teleports: true
-use-particle-effects: true
+use-player-move-event: false
+use-player-teleports: false
+use-particle-effects: false
 disable-permission-cache: false
 security:
     deop-everyone-on-join: false
@@ -79,7 +79,7 @@ ignition:
     block-lighter: false
 fire:
     disable-lava-fire-spread: false
-    disable-all-fire-spread: true
+    disable-all-fire-spread: false
     disable-fire-spread-blocks: []
     lava-spread-blocks: []
 mobs:
@@ -89,7 +89,7 @@ mobs:
     block-wither-block-damage: false
     block-wither-skull-explosions: false
     block-wither-skull-block-damage: false
-    block-enderdragon-block-damage: true
+    block-enderdragon-block-damage: false
     block-enderdragon-portal-creation: false
     block-fireball-explosions: false
     block-fireball-block-damage: false

@@ -1,9 +1,9 @@
 DefaultMOTD:
-    - '                      &c&lSe&6&lmi&a&lVa&b&lni&d&llla&5&l MC'
-    - '         &aHome of your survival adventure'
+    - '                      &5&lSemi&d&lVanilla&b&l MC'
+    - '         &fHome of your survival adventure'
 SecondaryMOTD:
-    - '                      &c&lSe&6&lmi&a&lVa&b&lni&d&llla&5&l MC'
-    - '         &aHome of your survival adventure'
+    - '                      &5&lSemi&d&lVanilla&b&l MC'
+    - '         &fHome of your survival adventure'
 COUNTER: 0
 
 CUSTOM_MOTDS:

@@ -64,8 +64,8 @@ world-settings:
         spectators: true
 settings:
   web-directory:
-    path: web
-    auto-update: true
+    path: C:/Users/brayd/Documents/SemiVanilla MC - Website/html/map
+    auto-update: false
   ui:
     coordinates:
       enabled: true
@@ -79,11 +79,11 @@ settings:
     - map
   language-file: lang-en.yml
   debug-mode: false
-  web-address: http://localhost:8080
+  web-address: http://semivanilla.com/map
   image-quality:
     compress-images: 0.0
   internal-webserver:
-    enabled: true
+    enabled: false
     bind: 0.0.0.0
     port: 8080
 config-version: 1
