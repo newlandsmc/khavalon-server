@@ -1,0 +1,31 @@
+
+
+Crafting:
+--Four coral fans or plants can craft a coral block of the same color
+--Nametags are craftable from iron, paper, and string
+--Droppers can be crafted into dispensers using bows or string and sticks in a bow pattern
+--Stair recipes give 8 stairs
+--Trapdoor recipe gives 12 trapdoors
+--Wood recipe gives 4 wood
+--Sand and sandstone can be dyed red
+--Slabs and stairs can be converted back to their respective block form
+--Dyed blocks can be re-dyed
+--Charcoal can be crafted into coal blocks and black dye
+--Concrete powder can be crafted into concrete using ice
+--Stonecutter can craft sand from sandstone and all variants, clay from sand, cobble from stone, and gravel from cobble
+--Rotten flesh can be smelted into rabbit hide
+--Chain recipe produces 4 chains
+--Chainmail can be crafted from chains
+
+Loot Tables:
+-Chests:
+--Loot chests are modified and generally improved
+
+-Mobs:
+--Cows drop more leather
+--Shulkers drop zero or one shell without looting, and up to two shells with looting
+--Phantom drops elytra *very rarely* when killed by player
+--Ender dragon drops a dragon egg, and a second item that has a 50% chance of being an elytra and a 50% chance of being diamond armor or sword
+
+
+

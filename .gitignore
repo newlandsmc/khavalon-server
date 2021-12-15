@@ -24,8 +24,17 @@
 /plugins/GriefPreventionData/Logs/
 
 # Ignore worlds
-/worlds/
-!/worlds/world/datapacks/semivanillamc/
+!worlds/
+worlds/*
+!worlds/world/
+worlds/world/*
+!worlds/world/datapacks/
+worlds/world/datapacks/*
+!worlds/world/datapacks/semivanillamc
+
+application/language/*
+!application/language/gr/
+
 
 # Ignore root directory user data files
 /*.json

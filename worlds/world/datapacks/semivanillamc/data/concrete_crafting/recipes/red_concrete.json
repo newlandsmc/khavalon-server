@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_concrete_powder"
+    },
+    "X": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_concrete",
+    "count": 8
+  }
+}
