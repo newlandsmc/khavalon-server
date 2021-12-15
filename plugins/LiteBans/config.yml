@@ -216,9 +216,9 @@ geoip:
 security:
   # If enabled, only the console can see IP addresses in /dupeip output.
   # This does not prevent players from using /dupeip. It only prevents them from seeing IP addresses.
-  dupeip: false
+  dupeip: true
   # If enabled, only the console can use /iphistory.
-  iphistory: false
+  iphistory: true
 
 # If enabled, punishments will be silent by default.
 # This can be overridden per-punishment by using the "-p" (public) flag (the opposite of "-s").
