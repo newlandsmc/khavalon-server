@@ -10,10 +10,10 @@ bungeecord: false
 sync: true
 
 # If enabled, broadcasts will be synchronized.
-sync_broadcasts: true
+sync_broadcasts: false
 
 # If enabled, notifications will be synchronized.
-sync_notifications: true
+sync_notifications: false
 
 # If enabled, dupeip notifications will be synchronized.
 # This will appear multiple times if a player joins multiple servers, so you might want to leave this disabled.
@@ -24,7 +24,7 @@ sync_dupeip_notifications: false
 # If you need per-server bans, you have to change server_name on all instances
 # The "$serverScope" and "$serverOrigin" variables can be used in messages.
 # Maximum length is 32 characters.
-server_name: 'litebans'
+server_name: 'semivanillamc'
 
 # This option decides which server(s) will be affected in commands by default.
 default_server_scope: '*'
@@ -88,20 +88,20 @@ durations:
   limits:
     moderator:
       permission: litebans.group.moderator
-      tempban: 1 month
-      tempmute: 1 month
+      tempban: 7 days
+      tempmute: 2 hours
     helper:
       permission: litebans.group.helper
-      tempban: 15 days
-      tempmute: 7 days
+      tempban: 7 days
+      tempmute: 2 hours
     other:
       permission: none
       tempban: 7 days
-      tempmute: 1 day
-      cooldown_ban: 20 seconds
-      cooldown_mute: 20 seconds
-      cooldown_warn: 20 seconds
-      cooldown_kick: 20 seconds
+      tempmute: 2 hours
+      cooldown_ban: 5 seconds
+      cooldown_mute: 5 seconds
+      cooldown_warn: 5 seconds
+      cooldown_kick: 5 seconds
   # If true, when using a duration higher than the configured limit,
   # the given duration will be rounded down to the maximum duration.
   # Otherwise, this will result in an error.
@@ -144,26 +144,26 @@ warnings:
   # Format: <amount>[+]:<action>
   # If '+' is provided after the amount, the action will execute if the player has that amount of warnings or more.
   actions:
-  - '3:/kick -s:$silent $player Final warning: $reason'
-  - '4:/tempban -s:$silent $player 1 day Reached 4 warnings: $list'
+  #- '3:/kick -s:$silent $player Final warning: $reason'
+  - '4:/tempban -s:$silent $player 2 days Reached 4 warnings: $list'
   # If enabled, the console will execute warning actions.
   # Otherwise, the player who executes the last warning also executes the warning action.
   actions_execute_as_console: false
 
   # If enabled, all active warnings will be deactivated after a warning action is executed.
-  delete_warnings_after_action: false
+  delete_warnings_after_action: true
 
 notify:
   # If enabled, players with the permission 'litebans.notify.banned_join' will be notified when a banned player tries to join.
-  banned_player_join: true
+  banned_player_join: false
   # If enabled, players with the permission "litebans.notify.mute" will be notified when a muted player tries to chat.
-  muted_player_chat: true
+  muted_player_chat: false
   # If enabled, /dupeip output will be shown on join if the player meets certain conditions.
   dupeip_on_join: true
   # This limits the amount of accounts which can be shown in /dupeip output per IP address.
   # Accounts are sorted by last login date, so if the limit is reached,
   # the accounts not shown will be the ones which have joined least recently.
-  dupeip_scan_limit: 20
+  dupeip_scan_limit: 5
   # Notify if the player has one or more banned accounts on the same IP.
   # This requires `dupeip_on_join: true` but does not depend on `dupeip_on_join_threshold`.
   dupeip_on_banned_account: true
@@ -216,13 +216,13 @@ geoip:
 security:
   # If enabled, only the console can see IP addresses in /dupeip output.
   # This does not prevent players from using /dupeip. It only prevents them from seeing IP addresses.
-  dupeip: true
+  dupeip: false
   # If enabled, only the console can use /iphistory.
-  iphistory: true
+  iphistory: false
 
 # If enabled, punishments will be silent by default.
 # This can be overridden per-punishment by using the "-p" (public) flag (the opposite of "-s").
-silent: false
+silent: true
 
 # Instead of "CONSOLE", this name will be used to represent the console.
 console_sender_name: Console
@@ -239,7 +239,7 @@ use_display_names: false
 dupeip_scan_all_ips: false
 
 # If disabled, all previous IP addresses will be recorded, allowing /iphistory to work.
-delete_previous_history: true
+delete_previous_history: false
 
 # If enabled, LiteBans performs an additional database query on login to provide case-insensitive name bans.
 # This also prevents players from evading bans by switching from offline-mode to online-mode (through FastLogin, for example).
@@ -260,7 +260,7 @@ notification_throttle_ticks: 12000
 
 # If enabled, a ban or mute reason must be provided, otherwise players will get an error.
 # When set to false, "default_ban_reason" and "default_mute_reason" in messages.yml are used as reasons when no reason is provided.
-require_ban_mute_reason: false
+require_ban_mute_reason: true
 
 # If enabled, an unban or unmute reason must be provided, otherwise players will get an error.
 require_unban_unmute_reason: false
@@ -348,7 +348,7 @@ autocomplete_online_player_names: false
 
 # If enabled, AuthMe will be detected and IP history will only be added after a player has successfully logged in.
 # This option will only work under Spigot, since AuthMe is a Spigot plugin.
-support_authme: true
+support_authme: false
 
 # If enabled, ProtocolLib will be detected and chat events will be cancelled before they can be processed by any other plugins.
 # This can help prevent plugin conflicts which allow muted players to chat.
@@ -369,6 +369,6 @@ disable_login_ban_check: false
 disable_login_ban_check_servers: []
 
 # If enabled, LiteBans will notify you when an update is available.
-update_check: true
+update_check: false
 
 debug_level: 0
