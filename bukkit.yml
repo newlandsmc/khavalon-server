@@ -20,7 +20,7 @@ settings:
   world-container: worlds
   plugin-profiling: false
   connection-throttle: 1500
-  query-plugins: true
+  query-plugins: false
   deprecated-verbose: default
   shutdown-message: Server rebooting, please check back in a few minutes!
   minimum-api: none
