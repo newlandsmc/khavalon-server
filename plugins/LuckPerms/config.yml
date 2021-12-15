@@ -518,12 +518,12 @@ apply-default-negated-permissions-before-wildcards: false
 #
 # - If set to true, LuckPerms will detect regex permissions, marked with "r=" at the start of the
 #   node, and resolve & apply all registered permissions matching the regex.
-apply-regex: true
+apply-regex: false
 
 # If the plugin should complete and apply shorthand permissions.
 #
 # - If set to true, LuckPerms will detect and expand shorthand node patterns.
-apply-shorthand: true
+apply-shorthand: false
 
 # If the plugin should apply Bukkit child permissions.
 #
@@ -536,7 +536,7 @@ apply-bukkit-child-permissions: true
 # - Plugin authors can define permissions which should be given to all users by default, or setup
 #   permissions which should/shouldn't be given to opped players.
 # - If this option is set to false, LuckPerms will ignore these defaults.
-apply-bukkit-default-permissions: true
+apply-bukkit-default-permissions: false
 
 # If the plugin should apply attachment permissions.
 #
@@ -545,7 +545,7 @@ apply-bukkit-default-permissions: true
 #   session, or until they're removed.
 # - If this option is set to false, LuckPerms will not include these attachment permissions when
 #   considering if a player should have access to a certain permission.
-apply-bukkit-attachment-permissions: true
+apply-bukkit-attachment-permissions: false
 
 # +----------------------------------------------------------------------------------------------+ #
 # | Extra settings                                                                               | #

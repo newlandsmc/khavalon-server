@@ -180,8 +180,8 @@ blocked-words-punishments:
 ## +------------------------------------------------------+ #
 #############################################################
 
-blocked-commands-msg: '&cThat command is disabled.' #another fun option would be to make this message the same as your unknown command message
-blocked-commands-warn-staff: true
+blocked-commands-msg: '&fUnknown command. Type "/help" for help.' #another fun option would be to make this message the same as your unknown command message
+blocked-commands-warn-staff: false
 blocked-commands-warn-staff-msg: '&c&lWARNING&f: &c%player% &ftried to use the command ''&c%command%&f'''
 
 # In general, this is recommended to avoid players from seeing what plugins you have installed
@@ -193,7 +193,7 @@ block-all-commands-containing-colon: false
 block-all-commands-containing-colon-msg: '&cYou cannot use colons in commands.'
 # IMPORTANT TIP: if you want to block players from using '/ver ' or '/about ' (which shows all plugins!), negate the permission 'bukkit.command.version'
 # This removes the need for external plugins that will only slow down your server!
-blocked-commands: []      # to disable, do:   blocked-commands: []
+blocked-commands: []     # to disable, do:   blocked-commands: []
 #  - '//calc, crash'
 #  - '//calculate, crash'
 #  - '/?'

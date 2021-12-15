@@ -7,7 +7,7 @@
 
 # Should we load this config? If false, this config will not be usable anywhere.
 # For finer control, enable or disable command-enabled and require-explicit-permission.
-enabled: true
+enabled: false
 
 # Can a player use this config with `/rtp`?
 # Set to false if you plan on having this config exclusively for rtp-on-first-join, rtp-on-death, or through the

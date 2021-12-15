@@ -12,17 +12,17 @@ enabled: true
 # Can a player use this config with `/rtp`?
 # Set to false if you plan on having this config exclusively for rtp-on-first-join, rtp-on-death, or through the
 #   `forcertp` command (the `forcertp` command is what you would use for portals).
-command-enabled: false
+command-enabled: true
 
 # The player will only be able to use this config if they have the permission:
 #   'jakesrtp.use.[name]' where the default config would be 'jakesrtp.use.default-settings'.
 # This setting is most useful when there are overlapping configurations.
 # Note: If used along side `rtp-on-death.require-permission` then the player will need both permissions.
-require-explicit-permission: false
+require-explicit-permission: true
 
 # The priority of the config. Higher priority are preferred over lower ones.
 # Only useful if there are overlapping configurations (multiple configs that include the same worlds).
-priority: 100
+priority: 1
 
 # The world that the user is teleported to.
 landing-world: 'world'
@@ -73,8 +73,7 @@ warmup:
 #   %location_old%        The location of the player before they moved.
 #   %world_old%           The world the player was in before they are moved.
 #   %x_old% or %y_old% or %z_old% The x or y or z location of the player before they were moved.
-then-execute:
-  - 'spawnpoint %player% %x% %y% %z%'
+then-execute: []
 
 # This only is used if you have an economy plugin.
 # If you do have an economy plugin and you want to disable this feature, set cost to 0.

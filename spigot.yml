@@ -150,14 +150,14 @@ commands:
   - testforblock
   - tellraw
   tab-complete: 0
-  send-namespaced: true
+  send-namespaced: false
 messages:
-  whitelist: You are not whitelisted on this server!
+  whitelist: Server is under maintenance, please check back later.
   unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
+  server-full: Server full!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  restart: Server rebooting, please check back in a few minutes!
 advancements:
   disable-saving: false
   disabled:

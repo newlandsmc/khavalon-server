@@ -17,7 +17,7 @@ messages:
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
     connection-throttle: You're connecting too fast! Please wait before reconnecting.
-  no-permission: '&cYou do not have permission to do that.'
+  no-permission: Unknown command. Type "/help" for help.
 timings:
   enabled: false
   verbose: true
