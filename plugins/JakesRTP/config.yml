@@ -17,7 +17,7 @@ config-version: 2.0
 # If you give a player the `jakesrtp.nofirstjoinrtp` permission, this will not affect them.
 rtp-on-first-join:
   enabled: true
-  settings: 'default-settings'
+  settings: 'random-spawn'
 
 #### rtp-on-death
 # Should we have players respawn at a random location after dying?
