@@ -64,7 +64,7 @@ world-settings:
         spectators: true
 settings:
   web-directory:
-    path: /var/minecraft/website/map
+    path: /var/minecraft/website/map/fullscreen
     auto-update: false
   ui:
     coordinates:

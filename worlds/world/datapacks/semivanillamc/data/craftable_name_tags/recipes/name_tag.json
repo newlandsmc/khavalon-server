@@ -5,14 +5,11 @@
         "count": 1
     },
     "pattern": [
-        " IS",
-        " PI",
+        "  S",
+        " P ",
         "P  "
     ],
     "key": {
-        "I": {
-            "item": "minecraft:iron_ingot"
-        },
         "P": {
             "item": "minecraft:paper"
         },

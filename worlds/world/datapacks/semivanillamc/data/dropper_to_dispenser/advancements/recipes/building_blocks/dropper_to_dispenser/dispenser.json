@@ -1,12 +1,22 @@
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-        "has_bow": {
+        "has_string": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bow"
+                        "item": "minecraft:string"
+                    }
+                ]
+            }
+        },
+        "has_stick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stick"
                     }
                 ]
             }
@@ -25,7 +35,8 @@
     "requirements": [
         [
             "has_block",
-			"has_bow"
+			"has_string",
+            "has_stick"
         ]
     ],
     "rewards": {
