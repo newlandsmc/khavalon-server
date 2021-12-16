@@ -149,7 +149,7 @@ commands:
   - summon
   - testforblock
   - tellraw
-  tab-complete: 0
+  tab-complete: 1
   send-namespaced: false
 messages:
   whitelist: Server is under maintenance, please check back later.
