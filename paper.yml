@@ -135,50 +135,26 @@ world-settings:
           day: 5
     prevent-tnt-from-moving-in-water: false
     iron-golems-can-spawn-in-air: false
-    non-player-arrow-despawn-rate: -1
+    non-player-arrow-despawn-rate: 10
     creative-arrow-despawn-rate: -1
     spawner-nerfed-mobs-should-jump: false
     entities-target-with-follow-range: false
-    container-update-tick-rate: 1
+    container-update-tick-rate: 2
     portal-search-radius: 128
     portal-create-radius: 16
     portal-search-vanilla-dimension-scaling: true
-    keep-spawn-loaded: true
+    keep-spawn-loaded: false
     anti-xray:
-      enabled: true
+      enabled: false
       engine-mode: 1
       max-block-height: 64
       update-radius: 2
       lava-obscures: false
       use-permission: false
-      hidden-blocks:
-      - copper_ore
-      - deepslate_copper_ore
-      - gold_ore
-      - deepslate_gold_ore
-      - iron_ore
-      - deepslate_iron_ore
-      - coal_ore
-      - deepslate_coal_ore
-      - lapis_ore
-      - deepslate_lapis_ore
-      - mossy_cobblestone
-      - obsidian
-      - chest
-      - diamond_ore
-      - deepslate_diamond_ore
-      - redstone_ore
-      - deepslate_redstone_ore
-      - clay
-      - emerald_ore
-      - deepslate_emerald_ore
-      - ender_chest
-      replacement-blocks:
-      - stone
-      - oak_planks
-      - deepslate
+      hidden-blocks: []
+      replacement-blocks: []
     grass-spread-tick-rate: 1
-    armor-stands-do-collision-entity-lookups: true
+    armor-stands-do-collision-entity-lookups: false
     skeleton-horse-thunder-spawn-chance: 0.01
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
@@ -222,7 +198,7 @@ world-settings:
     mobs-can-always-pick-up-loot:
       zombies: false
       skeletons: false
-    update-pathfinding-on-block-update: true
+    update-pathfinding-on-block-update: false
     map-item-frame-cursor-update-interval: 10
     allow-player-cramming-damage: false
     anticheat:
@@ -231,7 +207,7 @@ world-settings:
           hide-itemmeta: false
           hide-durability: false
     water-over-lava-flow-speed: 5
-    use-faster-eigencraft-redstone: false
+    use-faster-eigencraft-redstone: true
     show-sign-click-command-failure-msgs-to-player: false
     light-queue-size: 20
     auto-save-interval: -1
@@ -240,7 +216,7 @@ world-settings:
     max-leash-distance: 10.0
     split-overstacked-loot: true
     per-player-mob-spawns: true
-    optimize-explosions: false
+    optimize-explosions: true
     should-remove-dragon: false
     piglins-guard-chests: true
     experience-merge-max-value: -1
@@ -303,7 +279,7 @@ world-settings:
     phantoms-only-attack-insomniacs: true
     map-item-frame-cursor-limit: 128
     zombie-villager-infection-chance: -1.0
-    zombies-target-turtle-eggs: true
+    zombies-target-turtle-eggs: false
     unsupported-settings:
       fix-invulnerable-end-crystal-exploit: true
     all-chunks-are-slime-chunks: false
@@ -311,7 +287,7 @@ world-settings:
     treasure-maps-return-already-discovered: false
     generator-settings:
       flat-bedrock: false
-    armor-stands-tick: true
+    armor-stands-tick: false
     disable-teleportation-suffocation-check: false
     delay-chunk-unloads-by: 10s
     entity-per-chunk-save-limit:
@@ -334,3 +310,42 @@ world-settings:
       behavior:
         villager:
           validatenearbypoi: -1
+  world:
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      max-block-height: 64
+      update-radius: 2
+      lava-obscures: false
+      use-permission: false
+      hidden-blocks:
+      - copper_ore
+      - deepslate_copper_ore
+      - gold_ore
+      - deepslate_gold_ore
+      - iron_ore
+      - deepslate_iron_ore
+      - coal_ore
+      - deepslate_coal_ore
+      - lapis_ore
+      - deepslate_lapis_ore
+      - mossy_cobblestone
+      - obsidian
+      - chest
+      - diamond_ore
+      - deepslate_diamond_ore
+      - redstone_ore
+      - deepslate_redstone_ore
+      - clay
+      - emerald_ore
+      - deepslate_emerald_ore
+      - ender_chest
+      replacement-blocks:
+      - stone
+      - oak_planks
+      - deepslate
+  world_nether:
+    grass-spread-tick-rate: 3
+  world_the_end:
+    grass-spread-tick-rate: 3
+    ender-dragons-death-always-places-dragon-egg: true
