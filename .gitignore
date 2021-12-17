@@ -9,7 +9,10 @@
 /plugins/GriefPreventionData/ClaimData/
 /plugins/GriefPreventionData/PlayerData/
 /plugins/CoreProtect/database.db
-
+/plugins/Expeditions/data/
+/plugins/HolographicDisplays/database.yml
+/plugins/MMOCore/userdata/
+/plugins/MythicMobs/SavedData/
 
 # Ignore bloat in plugins
 /plugins/ChatCore/Chat Logs/
@@ -22,6 +25,7 @@
 /plugins/LiteBans/lib/
 /plugins/LiteBans/.version/
 /plugins/GriefPreventionData/Logs/
+/plugins/BuycraftX/cache/
 
 # Ignore worlds
 !worlds/
