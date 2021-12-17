@@ -21,7 +21,7 @@ world-settings:
           layer-priority: 0
           z-index: 0
         world-border:
-          enabled: true
+          enabled: false
           show-controls: true
           default-hidden: false
           layer-priority: 1
@@ -44,7 +44,7 @@ world-settings:
         clear: true
       zoom:
         maximum: 3
-        default: 3
+        default: 1
         extra: 2
     player-tracker:
       enabled: true

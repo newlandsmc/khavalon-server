@@ -456,8 +456,8 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "&a* {USERNAME} has returned from their expedition!"
-custom-quit-message: "&c* {USERNAME} left on an expedition..."
+# custom-join-message: "&a* {USERNAME} has returned from their expedition!"
+# custom-quit-message: "&c* {USERNAME} left on an expedition..."
 
 # You can set a custom join message for users who join with a new username here.
 # This message will only be used if a user has joined before and have since changed their username.
@@ -497,7 +497,7 @@ world-teleport-permissions: false
 # The number of items given if the quantity parameter is left out in /item or /give.
 # If this number is below 1, the maximum stack size size is given. If over-sized stacks.
 # are not enabled, any number higher than the maximum stack size results in more than one stack.
-default-stack-size: -1
+default-stack-size: 1
 
 # Over-sized stacks are stacks that ignore the normal max stack size.
 # They can be obtained using /give and /item, if the player has essentials.oversizedstacks permission.

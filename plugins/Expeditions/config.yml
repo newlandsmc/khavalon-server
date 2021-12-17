@@ -1,0 +1,5 @@
+
+# Player placeholder support (playerName), (playerHealth), for other player options please message me so I can implement them
+# This group of messages has that support
+# Please use MiniMessage for color and other formatting
+claim-reminder: "<yellow>You found some treasure while you were away! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><yellow> to claim your treasure."

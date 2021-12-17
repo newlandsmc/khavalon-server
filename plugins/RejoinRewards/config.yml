@@ -1,8 +1,0 @@
-
-# Player placeholder support (playerName), (playerHealth), for other player options please message me so I can implement them
-# This group of messages has that support
-# Please use MiniMessage for color and other formatting
-welcome-back: "<green>(playerName) has returned from their expedition!"
-no-permission: "<red>(playerName), you have no permission to execute this command!"
-invalid-usage: "<red>Incorrect command usage."
-claim-reminder: "<yellow>You found some treasure while you were away! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/jrewards claim><gradient:#fff200:#ffa700>/jrewards claim</gradient></insert></hover><yellow> to claim your treasure."

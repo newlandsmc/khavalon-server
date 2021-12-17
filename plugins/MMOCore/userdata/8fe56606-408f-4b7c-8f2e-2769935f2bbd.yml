@@ -1,0 +1,17 @@
+class-points: 0
+skill-points: 0
+attribute-points: 0
+attribute-realloc-points: 0
+level: 1
+experience: 9
+class: HUMAN
+waypoints: []
+friends: []
+last-login: 1639782780931
+bound-skills: []
+attribute: {}
+profession:
+  farming:
+    exp: 5
+    level: 0
+quest: {}

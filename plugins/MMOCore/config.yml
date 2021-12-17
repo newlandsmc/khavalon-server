@@ -77,7 +77,7 @@ action-bar:
 
   # Whether or not to use the default action bar.
   # (This doesn't change any other action bars provided by MMOCore.)
-  enabled: true
+  enabled: false
 
   # The decimal format for stats (not including stat formats in stats.yml)
   decimal: "0.#"
