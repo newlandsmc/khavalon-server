@@ -24,7 +24,7 @@
                 {"item": "minecraft:black_terracotta"}
             ],
         "O": {
-            "tag": "universal_dyeing:dyes/brown_dye"
+            "item": "minecraft:brown_dye"
         }
     },
     "result": {

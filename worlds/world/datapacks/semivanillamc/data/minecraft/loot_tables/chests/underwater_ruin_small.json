@@ -3,10 +3,11 @@
   "pools": [
     {
       "rolls": {
-        "min": 5.0,
-        "max": 10.0,
-        "type": "minecraft:uniform"
+        "type": "minecraft:uniform",
+        "min": 4.0,
+        "max": 8.0
       },
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -15,51 +16,28 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
+                "type": "minecraft:uniform",
+                "min": 5.0,
+                "max": 14.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:coal"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:sea_pickle"
+          "weight": 1,
+          "name": "minecraft:stone_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:rotten_flesh"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:salmon"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:emerald"
         },
         {
@@ -69,63 +47,20 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
+                "max": 3.0
+              },
+              "add": false
             }
           ],
-          "name": "minecraft:seagrass"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:gold_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:chain"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:iron_nugget"
+          "name": "minecraft:wheat"
         }
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -137,7 +72,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:enchant_randomly"

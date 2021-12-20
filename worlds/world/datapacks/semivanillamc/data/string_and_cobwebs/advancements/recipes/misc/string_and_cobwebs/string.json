@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_wool": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:white_wool"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_wool"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "string_and_cobwebs:string"
+        ]
+    }
+}

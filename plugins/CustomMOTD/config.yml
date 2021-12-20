@@ -1,9 +1,9 @@
 DefaultMOTD:
-    - '                      &5&lSemi&d&lVanilla&b&l MC'
-    - '         &fHome of your survival adventure'
+    - '            &7&m-]----&r &e&lSemi&6&lVanilla&c&l MC &7&m----[-&r'
+    - '          &b&lSurvival with a Scoop of RPG'
 SecondaryMOTD:
-    - '                      &5&lSemi&d&lVanilla&b&l MC'
-    - '         &fHome of your survival adventure'
+    - '            &7&m-]----&r &e&lSemi&6&lVanilla&c&l MC &7&m----[-&r'
+    - '          &b&lSurvival with a Scoop of RPG'
 COUNTER: 0
 
 CUSTOM_MOTDS:

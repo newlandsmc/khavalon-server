@@ -24,7 +24,7 @@
                 {"item": "minecraft:red_stained_glass"}
             ],
         "O": {
-            "tag": "universal_dyeing:dyes/black_dye"
+            "item": "minecraft:black_dye"
         }
     },
     "result": {

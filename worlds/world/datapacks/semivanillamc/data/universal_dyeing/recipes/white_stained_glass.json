@@ -24,7 +24,7 @@
                 {"item": "minecraft:black_stained_glass"}
             ],
         "O": {
-            "tag": "universal_dyeing:dyes/white_dye"
+            "item": "minecraft:white_dye"
         }
     },
     "result": {

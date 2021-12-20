@@ -24,7 +24,7 @@
                 {"item": "minecraft:black_stained_glass_pane"}
             ],
         "O": {
-            "tag": "universal_dyeing:dyes/white_dye"
+            "item": "minecraft:white_dye"
         }
     },
     "result": {

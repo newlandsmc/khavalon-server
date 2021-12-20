@@ -12,13 +12,16 @@ Crafting:
 --Stonecutter can craft sand from sandstone and all variants, and gravel from all stone types and variants (stone, diorite, granite, andesite, blackstone, deepslate)
 --Glass bottles can be smelted into glass
 --Chainmail can be crafted from chains
+--White wool can make three string
+--String and slime make cobweb
 
 Loot Tables:
 -Chests:
 --Loot chests are modified and generally improved
 
 -Mobs:
---Ender dragon drops a dragon egg, and a second item that has a 50% chance of being an elytra and a 50% chance of being diamond armor or sword
+-- Ender dragon drops a dragon egg, an elytra, and four random enchanted netherite tools and armor pieces
+
 
 
 

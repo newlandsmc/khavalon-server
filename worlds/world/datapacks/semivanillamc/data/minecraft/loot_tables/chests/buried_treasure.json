@@ -2,7 +2,8 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -12,11 +13,44 @@
     },
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 7.0,
-        "max": 12.0,
-        "type": "minecraft:uniform"
+        "max": 9.0
       },
+      "bonus_rolls": 0.0,
       "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 7.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 7.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
         {
           "type": "minecraft:item",
           "weight": 4,
@@ -24,94 +58,85 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
+                "max": 2.0
+              },
+              "add": false
             }
           ],
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:gold_ingot"
+          "name": "minecraft:tnt"
         }
       ]
     },
     {
       "rolls": {
-        "min": 1.0,
-        "max": 3.0,
-        "type": "minecraft:uniform"
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 4.0
       },
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 4.0,
-                "max": 8.0,
-                "type": "minecraft:uniform"
-              }
+                "type": "minecraft:uniform",
+                "min": 7.0,
+                "max": 11.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:emerald"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 9.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:diamond"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
-                "type": "minecraft:uniform"
-              }
+                "type": "minecraft:uniform",
+                "min": 11.0,
+                "max": 25.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:prismarine_crystals"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
-                "type": "minecraft:uniform"
-              }
+                "type": "minecraft:uniform",
+                "min": 11.0,
+                "max": 25.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:prismarine_shard"
@@ -119,7 +144,26 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0.0,
+        "max": 1.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword"
+        }
+      ]
+    },
+    {
+      "rolls": 2.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -127,13 +171,49 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:cooked_cod"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:cooked_salmon"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_potion",
+          "id": "minecraft:water_breathing"
         }
       ]
     },
@@ -187,7 +267,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 3,
           "name": "minecraft:trident"
         },
         {

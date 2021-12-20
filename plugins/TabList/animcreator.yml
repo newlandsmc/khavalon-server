@@ -1,0 +1,69 @@
+animations:
+#  tablist:
+#    # Text changing interval in milliseconds (ticks).
+#    interval: 60
+#
+#    # Display the text randomly?
+#    random: true
+#
+#    # The list of texts that will appear
+#    texts:
+#    - "&b&lTabList"
+#    - "&6&lTabList"
+#    - "&4&lTabList"
+#    - "&9&lTabList"
+#    - "&a&lTabList"
+#    - "&e&lTabList"
+#    - "&5&lTabList"
+#    - "&b&lTabList"
+#    - "&6&lTabList"
+#    - "&4&lTabList"
+#    - "&9&lTabList"
+#    - "&a&lTabList"
+#    - "&e&lTabList"
+#    - "&5&lTabList"
+#    - "&b&lTabList"
+#    - "&6&lTabList"
+#    - "&4&lTabList"
+#    - "&9&lTabList"
+#    - "&a&lTabList"
+#    - "&e&lTabList"
+#    - "&5&lTabList"
+#    - "&b&lTabList"
+
+  title:
+    interval: 120
+    texts:
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lMC&r"
+    - "&f&lS&e&lemi&6&lVanilla &c&lMC&r"
+    - "&f&lSe&e&lmi&6&lVanilla &c&lMC&r"
+    - "&f&lSem&e&li&6&lVanilla &c&lMC&r"
+    - "&e&lS&f&lemi&6&lVanilla &c&lMC&r"
+    - "&e&lSe&f&lmiV&6&lanilla &c&lMC&r"
+    - "&e&lSem&f&liVa&6&lnilla &c&lMC&r"
+    - "&e&lSemi&f&lVan&6&lilla &c&lMC&r"
+    - "&e&lSemi&6&lV&f&lani&6&llla &c&lMC&r"
+    - "&e&lSemi&6&lVa&f&lnil&6&lla &c&lMC&r"
+    - "&e&lSemi&6&lVan&f&lill&6&la &c&lMC&r"
+    - "&e&lSemi&6&lVani&f&llla &c&lMC&r"
+    - "&e&lSemi&6&lVanil&f&lla &c&lMC&r"
+    - "&e&lSemi&6&lVanill&f&la M&c&lC&r"
+    - "&e&lSemi&6&lVanilla&f&l MC&r"
+    - "&e&lSemi&6&lVanilla &f&lMC&r"
+    - "&e&lSemi&6&lVanilla &c&lM&f&lC&r"

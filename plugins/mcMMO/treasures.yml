@@ -1,0 +1,249 @@
+#
+#  Settings for Excavation's Archaeology
+###
+Excavation:
+    GUNPOWDER:
+        Amount: 1
+        XP: 30
+        Drop_Chance: 10.0
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    BONE:
+        Amount: 1
+        XP: 30
+        Drop_Chance: 10.0
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    SLIME_BALL:
+        Amount: 1
+        XP: 100
+        Drop_Chance: 5.0
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Clay, Sand]
+    BUCKET:
+        Amount: 1
+        XP: 500
+        Drop_Chance: 0.1
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    STRING:
+        Amount: 1
+        XP: 50
+        Drop_Chance: 5.0
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    GLOWSTONE_DUST:
+        Amount: 1
+        XP: 50
+        Drop_Chance: 5.0
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_13:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_CAT:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_BLOCKS:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_CHIRP:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_FAR:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_MALL:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_MELLOHI:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_STAL:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_STRAD:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_WARD:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_WAIT:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    MUSIC_DISC_OTHERSIDE:
+        Amount: 1
+        XP: 3000
+        Drop_Chance: 0.05
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    DIAMOND:
+        Amount: 1
+        XP: 500
+        Drop_Chance: 0.13
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    QUARTZ:
+        Amount: 1
+        XP: 300
+        Drop_Chance: 1.0
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+    NAME_TAG:
+        Amount: 1
+        XP: 500
+        Drop_Chance: 0.5
+        Level_Requirement:
+            Standard_Mode: 1
+            Retro_Mode: 1
+        Drops_From: [Sand]
+#
+#  Settings for Hylian Luck
+#  If you are in retro mode, Level_Requirement is multiplied by 10.
+###
+Hylian_Luck:
+    MELON_SEEDS:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Bushes]
+    PUMPKIN_SEEDS:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Bushes]
+    COCOA_BEANS:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Bushes]
+    CARROT:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Flowers]
+    POTATO:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Flowers]
+    APPLE:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Flowers]
+    EMERALD:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Pots]
+    DIAMOND:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Pots]
+    GOLD_NUGGET:
+        Amount: 1
+        XP: 0
+        Drop_Chance: 100.0
+        Level_Requirement:
+            Standard_Mode: 0
+            Retro_Mode: 0
+        Drops_From: [Pots]

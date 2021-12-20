@@ -3,10 +3,11 @@
   "pools": [
     {
       "rolls": {
-        "min": 3.0,
-        "max": 8.0,
-        "type": "minecraft:uniform"
+        "type": "minecraft:uniform",
+        "min": 6.0,
+        "max": 9.0
       },
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -15,10 +16,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 7.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:diamond"
@@ -30,10 +32,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 5.0,
-                "type": "minecraft:uniform"
-              }
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 12.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:iron_ingot"
@@ -45,10 +48,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
-                "max": 7.0,
-                "type": "minecraft:uniform"
-              }
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 11.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:gold_ingot"
@@ -60,25 +64,27 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
+                "max": 3.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:bamboo"
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 9.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:emerald"
@@ -90,10 +96,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4.0,
-                "max": 6.0,
-                "type": "minecraft:uniform"
-              }
+                "max": 6.0
+              },
+              "add": false
             }
           ],
           "name": "minecraft:bone"
@@ -105,13 +112,14 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3.0,
-                "max": 7.0,
-                "type": "minecraft:uniform"
-              }
+                "max": 7.0
+              },
+              "add": false
             }
           ],
-          "name": "minecraft:gunpowder"
+          "name": "minecraft:rotten_flesh"
         },
         {
           "type": "minecraft:item",
@@ -132,11 +140,11 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30,
+              "levels": 30.0,
               "treasure": true
             }
           ],
