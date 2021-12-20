@@ -23,7 +23,7 @@
 #SOLID
 #   The bar is one solid piece
 EarlyGameBoost:
-    Enabled: false
+    Enabled: true
 ExploitFix:
     COTWBreeding: false
     UnsafeEnchantments: false
@@ -60,63 +60,63 @@ Experience_Bars:
     Acrobatics:
         Enable: true
         Color: PINK
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Alchemy:
         Enable: true
         Color: PURPLE
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Archery:
         Enable: true
         Color: BLUE
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Axes:
         Enable: true
         Color: BLUE
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Excavation:
         Enable: true
         Color: YELLOW
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Fishing:
         Enable: true
         Color: PURPLE
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Herbalism:
         Enable: true
         Color: GREEN
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Mining:
         Enable: true
         Color: YELLOW
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Repair:
         Enable: true
         Color: PURPLE
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Salvage:
         Enable: true
         Color: PURPLE
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Smelting:
         Enable: true
         Color: PURPLE
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Swords:
         Enable: true
         Color: BLUE
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Taming:
         Enable: true
         Color: RED
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Unarmed:
         Enable: true
         Color: BLUE
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
     Woodcutting:
         Enable: true
         Color: GREEN
-        BarStyle: SEGMENTED_4
+        BarStyle: SEGMENTED_10
 #
 #  Settings for XP formula
 ###
@@ -125,16 +125,16 @@ Experience_Formula:
     # If an invalid value is entered, this will reset to the default setting, which is LINEAR
     # LINEAR:      base + (level * multiplier)
     # EXPONENTIAL: multiplier * level ^ exponent + base
-    Curve: EXPONENTIAL
+    Curve: LINEAR
 
     # If invalid values are entered mcMMO will not start and print an error in the console
     Linear_Values:
-        base: 1020
-        multiplier: 20
+        base: 1000
+        multiplier: 100
     Exponential_Values:
-        multiplier: 0.33
-        exponent: 3
-        base: 18000
+        multiplier: 1
+        exponent: 2
+        base: 1000
 
     # Cumulative experience curves will use a players power level instead of their skill level,
     # players with high power levels will have to gain a lot more experience to reach the next level in every skill.

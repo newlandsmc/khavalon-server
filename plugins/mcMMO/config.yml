@@ -386,7 +386,7 @@ Skills:
         Level_Cap: 100
         Detonator_Name: FLINT_AND_STEEL
     Repair:
-        Level_Cap: 0
+        Level_Cap: 100
         Anvil_Messages: false
         Anvil_Placed_Sounds: false
         Anvil_Use_Sounds: false
@@ -394,7 +394,7 @@ Skills:
         # Ask for a confirmation when a player tries to repair an enchanted item
         Confirm_Required: true
     Salvage:
-        Level_Cap: 0
+        Level_Cap: 100
         Anvil_Messages: false
         Anvil_Placed_Sounds: false
         Anvil_Use_Sounds: false
@@ -410,7 +410,7 @@ Skills:
     Taming:
         Enabled_For_PVP: true
         Enabled_For_PVE: true
-        Level_Cap: 0
+        Level_Cap: 100
         Call_Of_The_Wild: []
             # Item_Material: Material of the item needed to summon the pet
             # Item_Amount: Amount of items required to summon the pet
@@ -639,7 +639,7 @@ Commands:
     mcmmo:
         Donate_Message: false
     inspect:
-        Max_Distance: -1
+        Max_Distance: 30
     ptp:
         Cooldown: 120
         Warmup: 5
