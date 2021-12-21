@@ -1,20 +1,24 @@
 # Accepts any spigot material https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 # Possibly add support for custom items? I'm not sure if this server will have custom items.
 Rewards:
-  GOLDEN_APPLE:
-    weight: 2
-  GOLD_INGOT:
-    weight: 1
+#  GOLDEN_APPLE:
+#    weight: 2
+#  GOLD_INGOT:
+#    weight: 1
+#  IRON_INGOT:
+#    weight: 1
+#  DIAMOND:
+#    weight: 6
   IRON_INGOT:
     weight: 1
-  DIAMOND:
-    weight: 6
 
 Tiers:
   # Time is in minutes
-  120:
-    weight: 8
-  240:
-    weight: 16
-  480:
-    weight: 24
+#  120:
+#    weight: 8
+#  240:
+#    weight: 16
+#  480:
+#    weight: 24
+  1:
+    weight: 1

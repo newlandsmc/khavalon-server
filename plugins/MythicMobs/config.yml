@@ -4,8 +4,8 @@
 Configuration:
   Version: 4.11
   General:
-    AllowMetrics: true
-    CheckForUpdates: true
+    AllowMetrics: false
+    CheckForUpdates: false
     CompatibilityMode: false
     DebugLevel: 0
     ErrorLogging: true
@@ -19,7 +19,7 @@ Configuration:
     ScannerInterval: 10
     CleanupInterval: 600
   Components:
-    CustomSpawners: true
+    CustomSpawners: false
     RandomSpawning: true
   Mobs:
     DespawnByDefault: true
@@ -32,10 +32,10 @@ Configuration:
     PreventOtherDropsByDefault: false
     Scaling:
       Default:
-        Enabled: true
+        Enabled: false
         PerBlocksFromSpawn: 250
       world2:
-        Enabled: true
+        Enabled: false
         PerBlocksFromSpawn: 250
       world2_nether:
         Enabled: false
@@ -65,16 +65,16 @@ Configuration:
       Ground: 0
   Compatibility:
     Heroes:
-      Enabled: true
+      Enabled: false
     McMMO:
       Enabled: true
-      ShowXPMessage: true
+      ShowXPMessage: false
       XPMessageFormat: '&7You receive <drop.amount> experience for slaying <dropper.name>'
     SkillAPI:
-      Enabled: true
+      Enabled: false
       ShowXPMessage: true
       XPMessageFormat: '&7You receive <drop.amount> experience for slaying <dropper.name>'
     Vault:
-      Enabled: true
+      Enabled: false
       ShowMoneyMessage: true
       MoneyMessageFormat: '&7You receive <drop.amount> currency for slaying <dropper.name>'
