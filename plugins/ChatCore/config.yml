@@ -290,7 +290,7 @@ staff-announce-sound: 'NONE'
 
 # Players with permission 'chatcore.coloredtext' can use & to send colored text in chat
 # If using essentials, set to false and use the permissions 'essentials.chat.color' and 'essentials.msg.color' instead
-colored-chat-enabled: false
+colored-chat-enabled: true
 
 
 #############################################################

@@ -1,19 +1,16 @@
-DefaultMOTD:
-    - '            &7&m-]----&r &e&lSemi&6&lVanilla&c&l MC &7&m----[-&r'
-    - '          &b&lSurvival with a Scoop of RPG'
-SecondaryMOTD:
-    - '            &7&m-]----&r &e&lSemi&6&lVanilla&c&l MC &7&m----[-&r'
-    - '          &b&lSurvival with a Scoop of RPG'
-COUNTER: 0
 
-CUSTOM_MOTDS:
-    MOTD1NameHere:
-        ACTIVE: false
-        LINES:
-        - '          &cThis is the first line'
-        - '    &4This is the second line!'
-    MOTD2NameHere:
-        ACTIVE: false
-        LINES:
-        - '          &4This is the first line'
-        - '    &4This is the second line!'
+verbose: false
+config-version: 1
+counter:
+  count: 0
+  motd: mcmmo
+messages:
+  motd:
+    set-motd: Custom MOTD has been set to <motdname>
+    current-motd: Custom MOTD is <motdname>
+  command:
+    no-permission: You don't have permission to run this command.
+    command-help: TODO
+    command-help-list: '<command>: <usage> - <description>'
+    command-list: 'Available motd: <list>'
+    command-check: The current active motd is <motd>.
