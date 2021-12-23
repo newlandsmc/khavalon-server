@@ -5,23 +5,7 @@ Excavation:
     GUNPOWDER:
         Amount: 1
         XP: 30
-        Drop_Chance: 1.0
-        Level_Requirement:
-            Standard_Mode: 0
-            Retro_Mode: 0
-        Drops_From: [Sand]
-    BONE:
-        Amount: 1
-        XP: 30
-        Drop_Chance: 1.0
-        Level_Requirement:
-            Standard_Mode: 0
-            Retro_Mode: 0
-        Drops_From: [Sand]
-    FEATHER:
-        Amount: 1
-        XP: 30
-        Drop_Chance: 0.5
+        Drop_Chance: 2.0
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -29,7 +13,7 @@ Excavation:
     SLIME_BALL:
         Amount: 1
         XP: 100
-        Drop_Chance: 0.5
+        Drop_Chance: 0.1
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -45,7 +29,7 @@ Excavation:
     GLOWSTONE_DUST:
         Amount: 1
         XP: 50
-        Drop_Chance: 1.0
+        Drop_Chance: 2.0
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -53,7 +37,7 @@ Excavation:
     MUSIC_DISC_13:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -61,7 +45,7 @@ Excavation:
     MUSIC_DISC_CAT:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -69,7 +53,7 @@ Excavation:
     MUSIC_DISC_BLOCKS:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -77,15 +61,15 @@ Excavation:
     MUSIC_DISC_CHIRP:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
-        Level_Requirement:
+        Drop_Chance: 0.02
+        Level_Requirement::
             Standard_Mode: 0
             Retro_Mode: 0
         Drops_From: [Sand]
     MUSIC_DISC_FAR:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -93,7 +77,7 @@ Excavation:
     MUSIC_DISC_MALL:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -101,7 +85,7 @@ Excavation:
     MUSIC_DISC_MELLOHI:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -109,7 +93,7 @@ Excavation:
     MUSIC_DISC_STAL:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -117,7 +101,7 @@ Excavation:
     MUSIC_DISC_STRAD:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -125,7 +109,7 @@ Excavation:
     MUSIC_DISC_WARD:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -133,7 +117,7 @@ Excavation:
     MUSIC_DISC_WAIT:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -141,15 +125,7 @@ Excavation:
     MUSIC_DISC_OTHERSIDE:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    DIAMOND:
-        Amount: 1
-        XP: 500
-        Drop_Chance: 0.1
+        Drop_Chance: 0.02
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -157,71 +133,7 @@ Excavation:
     REDSTONE:
         Amount: 1
         XP: 500
-        Drop_Chance: 0.25
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    AMETHYST_SHARD:
-        Amount: 1
-        XP: 500
-        Drop_Chance: 0.25
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    EMERALD:
-        Amount: 1
-        XP: 500
-        Drop_Chance: 0.1
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    LAPIS_LAZULI:
-        Amount: 1
-        XP: 500
-        Drop_Chance: 0.25
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    COAL:
-        Amount: 1
-        XP: 500
-        Drop_Chance: 0.25
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    COPPER_INGOT:
-        Amount: 1
-        XP: 500
-        Drop_Chance: 0.25
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    NETHERITE_INGOT:
-        Amount: 1
-        XP: 500
-        Drop_Chance: 0.1
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    IRON_INGOT:
-        Amount: 1
-        XP: 500
-        Drop_Chance: 0.25
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    GOLD_INGOT:
-        Amount: 1
-        XP: 500
-        Drop_Chance: 0.25
+        Drop_Chance: 2.0
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -229,14 +141,6 @@ Excavation:
     QUARTZ:
         Amount: 1
         XP: 300
-        Drop_Chance: 1.0
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    NAME_TAG:
-        Amount: 1
-        XP: 500
         Drop_Chance: 0.5
         Level_Requirement:
             Standard_Mode: 1
