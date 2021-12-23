@@ -170,10 +170,10 @@ blocked-words-ignore-in-bigger-words:
 # Add as many categories and name them whatever you would like
 blocked-words-punishments:
   minor:
-    - 'mute %player% -s 5m Auto-detected Swearing.'
+    - 'mute %player% -s 5m Auto-mute: Prohibited language.'
   severe:
 #   - 'chat staffannounce &e%player% &fswore (&e%word%&f)'        # Or use %message% as a placeholder
-    - 'mute %player% -s 10m Auto-detected Swearing.'
+    - 'mute %player% -s 10m Auto-mute: Prohibited language.'
 
 
 #############################################################
