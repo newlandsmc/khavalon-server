@@ -40,10 +40,10 @@ header:
 - " %anim:title% "
 - " &6%online-players%&f/&6%max-players% &fOnline&r "
 - ""
-- " &7&m----[-&r   &7&m-]----&r "
+- " &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
 
 footer:
-- " &7&m----[-&r   &7&m-]----&r "
+- " &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
 - ""
 - " &fWorld time: &6%player_world_time_12%&r "
 - " &fPing: &6%ping%&r "

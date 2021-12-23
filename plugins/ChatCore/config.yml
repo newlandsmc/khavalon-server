@@ -23,23 +23,17 @@ no-permission-msg: '&cYou do not have permission to do that.'
 # field 'unknown-command', and use § for color codes instead of &
 # Example: unknown-command: §8[§bServer§8] §7Unknown command.
 help-msg:
-  - '&8&m                                                                                '
-  - ''
-  - '&d&l                 CHAT CORE'
-  - ''
-  - '&d        MC-Market Page &8>> &fhttps://www.mc-market.org/resources/13998/'
-  - ''
-  - '&d/chat &f- Bring up this help page'
-  - '&d/chat clear &7<-s/-a> &f- Clears the chat'
-  - '&d/chat slow &7<time> <-s/-a> &f- Slow the chat'
-  - '&d/chat lock &7<-s/-a> &f- Lock the chat'
-  - '&d/chat staff <message> &f- Toggle or send a message to staff chat'
-  - '&d/chat spy &f- Enable command spy'
-  - '&d/chat announce &f- Announce a message to the server'
-  - '&d/chat warn &f- Warn a message to the server'
-  - '&d/chat staffannounce &f- Announce a message to the online staff'
-  - ''
-  - '&8&m                                                                                '
+  - '&e&m--------------------&r Help &e&m--------------------'
+  - '&6/chat&f: Bring up this help page'
+  - '&6/chat clear &7<-s/-a>&f: Clears the chat'
+  - '&6/chat slow &7<time> <-s/-a>&f: Slow the chat'
+  - '&6/chat lock &7<-s/-a>&f: Lock the chat'
+  - '&6/chat staff <message>&f: Toggle or send a message to staff chat'
+  - '&6/chat spy&f: Enable command spy'
+  - '&6/chat announce&f: Announce a message to the server'
+  - '&6/chat warn&f: Warn a message to the server'
+  - '&6/chat staffannounce&f: Announce a message to the online staff'
+  - '&e&m---------------------------------------------'
 
 
 #############################################################
@@ -157,21 +151,29 @@ blocked-words:
 #  - 'wtf'                 # Will not run a punishment
 #  - 'shit, minor'         # Will run commands from punishment 'minor'
 #  - 'kys, severe'         # Will run commands from punishment 'severe'
-   - 'nigger, severe'
-   - 'faggot, severe'
+  - 'nigger, severe'
+  - 'ni66er, severe'
+  - 'n1gger, severe'
+  - 'nigg3r, severe'
+  - 'nigga'
+  - 'faggot, severe'
+  - 'fagg0t, severe'
+  - 'fa66ot, severe'
 
 # "Ass" will be detected but "compass" will not
 # (Don't put the same word in both categories, just choose one)
-blocked-words-ignore-in-bigger-words: []
+blocked-words-ignore-in-bigger-words:
 #  - 'ass, minor'
+  - 'niga'
+  - 'fag'
 
 # Add as many categories and name them whatever you would like
 blocked-words-punishments:
   minor:
-    - 'mute %player% -s 5m &fAuto-detected Swearing (&c%word%&f)'        # Or use %message% as a placeholder
+    - 'mute %player% -s 5m Auto-detected Swearing.'
   severe:
-#    - 'chat staffannounce &e%player% &fswore (&e%word%&f)'
-    - 'mute %player% -s 10m &fAuto-detected Swearing (&c%word%&f)'
+#   - 'chat staffannounce &e%player% &fswore (&e%word%&f)'        # Or use %message% as a placeholder
+    - 'mute %player% -s 10m Auto-detected Swearing.'
 
 
 #############################################################
@@ -232,10 +234,10 @@ command-spy-enabled: true
 command-spy-format: '&7%player%&7: %command%'
 command-spy-on-msg: '&aYou have enabled command spy.'
 command-spy-off-msg: '&cYou have disabled command spy.'
-command-spy-enabled-on-join: false
-command-spy-ignored-commands:     # to disable, do:   command-spy-ignored-commands: []
-  - '/example'
-  - '/test2'
+command-spy-enabled-on-join: true
+command-spy-ignored-commands: []
+# - '/example'
+# - '/test2'
 
 
 #############################################################
@@ -254,7 +256,7 @@ auto-caps-min-length: 3
 ## +------------------------------------------------------+ #
 #############################################################
 
-announce-enabled: true
+announce-enabled: false
 announce-format: '&a&lAnnouncement&f: %message%'
 announce-usage: '&cUsage: /chat announce <message>'
 
@@ -272,11 +274,11 @@ announce-usage: '&cUsage: /chat announce <message>'
 # 1.17: https://pastebin.com/X0US4f7D
 announce-sound: 'NONE'
 
-warning-enabled: true
+warning-enabled: false
 warning-format: '&c&lWarning&f: %message%'
 warning-usage: '&cUsage: /chat warn <message>'
 warning-sound: 'NONE'
-staff-announce-enabled: true
+staff-announce-enabled: false
 staff-announce-format: '&d&lStaff Announcement&f: %message%'
 staff-announce-usage: '&cUsage: /chat staffannounce <message>'
 staff-announce-sound: 'NONE'
@@ -319,7 +321,7 @@ anti-ad-msg: '&cAdvertising is not allowed.'
 anti-ad-inform-msg: '&c&lWARNING: &f%player% tried to advertise: %message%'
 
 # Setting 1 will cancel the message, setting 2 will modify the message to remove periods from the link
-anti-ad-setting: 1
+anti-ad-setting: 2
 
 anti-ad-whitelist:
   - 'minecraft.net'
@@ -406,7 +408,7 @@ mention-sound: 'NONE'
 
 motd-enabled: false
 motd:
-  - '&8&m                                                                                '
+  - '&8&m                                                     '
   - ''
   - '&d&l                 SERVER NAME'
   - ''
@@ -414,7 +416,7 @@ motd:
   - '&d&l        WEBSITE &8>> &fwebsite.com'
   - '&d&l        STORE &8>> &fshop.website.com'
   - ''
-  - '&8&m                                                                                '
+  - '&8&m                                                     '
 
 
 #############################################################
@@ -424,15 +426,15 @@ motd:
 #############################################################
 
 auto-broadcast-enabled: false
-auto-broadcast-delay: 30
+auto-broadcast-delay: 900
 # True = random message, false = in order
 auto-broadcast-random: true
 
 # Separate lines with %newline%
-auto-broadcast-messages:
-  - '&8&m                                                                                %newline%%newline%&d&l                 Announcement%newline%%newline%&e    Insiding is a bannable offense!%newline%%newline%&8&m                                                                                '
-  - '&eHelp&f: Use &e/auction &fto access the auction house!'
-  - '&eHelp&f: Visit our website for updates at &ewebsite.com'
+auto-broadcast-messages: []
+#  - '&8&m           %newline%%newline%&d&lAnnouncement%newline%%newline%&eInsiding is a bannable offense!%newline%%newline%&8&m       '
+#  - '&eHelp&f: Use &e/auction &fto access the auction house!'
+#  - '&eHelp&f: Visit our website for updates at &ewebsite.com'
 
 
 #############################################################

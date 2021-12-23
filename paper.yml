@@ -32,6 +32,7 @@ timings:
   server-name: SemiVanilla MC
 config-version: 24
 settings:
+  fix-target-selector-tag-completion: true
   send-full-pos-for-hard-colliding-entities: true
   bungee-online-mode: true
   max-joins-per-tick: 3
@@ -104,6 +105,7 @@ settings:
         action: DROP
 world-settings:
   default:
+    monster-spawn-max-light-level: -1
     mob-spawner-tick-rate: 1
     only-players-collide: false
     allow-vehicle-collisions: true
