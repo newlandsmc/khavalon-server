@@ -5,7 +5,7 @@ Excavation:
     GUNPOWDER:
         Amount: 1
         XP: 30
-        Drop_Chance: 2.0
+        Drop_Chance: 2.5
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -13,7 +13,7 @@ Excavation:
     SLIME_BALL:
         Amount: 1
         XP: 100
-        Drop_Chance: 0.1
+        Drop_Chance: 0.5
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -29,7 +29,7 @@ Excavation:
     GLOWSTONE_DUST:
         Amount: 1
         XP: 50
-        Drop_Chance: 2.0
+        Drop_Chance: 2.5
         Level_Requirement:
             Standard_Mode: 0
             Retro_Mode: 0
@@ -126,14 +126,6 @@ Excavation:
         Amount: 1
         XP: 3000
         Drop_Chance: 0.02
-        Level_Requirement:
-            Standard_Mode: 1
-            Retro_Mode: 1
-        Drops_From: [Sand]
-    REDSTONE:
-        Amount: 1
-        XP: 500
-        Drop_Chance: 2.0
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
