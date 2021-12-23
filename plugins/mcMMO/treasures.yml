@@ -157,7 +157,7 @@ Excavation:
     REDSTONE:
         Amount: 1
         XP: 500
-        Drop_Chance: 0.33
+        Drop_Chance: 0.25
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -165,7 +165,7 @@ Excavation:
     AMETHYST_SHARD:
         Amount: 1
         XP: 500
-        Drop_Chance: 0.33
+        Drop_Chance: 0.25
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -181,7 +181,7 @@ Excavation:
     LAPIS_LAZULI:
         Amount: 1
         XP: 500
-        Drop_Chance: 0.33
+        Drop_Chance: 0.25
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -189,7 +189,7 @@ Excavation:
     COAL:
         Amount: 1
         XP: 500
-        Drop_Chance: 0.33
+        Drop_Chance: 0.25
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -197,7 +197,7 @@ Excavation:
     COPPER_INGOT:
         Amount: 1
         XP: 500
-        Drop_Chance: 0.33
+        Drop_Chance: 0.25
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -213,7 +213,7 @@ Excavation:
     IRON_INGOT:
         Amount: 1
         XP: 500
-        Drop_Chance: 0.33
+        Drop_Chance: 0.25
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
@@ -221,7 +221,7 @@ Excavation:
     GOLD_INGOT:
         Amount: 1
         XP: 500
-        Drop_Chance: 0.33
+        Drop_Chance: 0.25
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 1
