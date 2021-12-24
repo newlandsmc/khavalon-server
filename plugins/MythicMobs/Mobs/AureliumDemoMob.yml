@@ -4,5 +4,5 @@ DEMO_HUSK:
   Health: 100
   Damage: 0
   Skills:
-  - skill{s=MCMMO_LEVEL_SET_ONHIT} @Trigger ~onDamaged
+  - skill{s=AURELIUM_LEVEL_SET_ONHIT} @Trigger ~onDamaged
   
