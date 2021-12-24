@@ -31,7 +31,7 @@ default_server_scope: '*'
 
 sql:
   # H2, MySQL, MariaDB, and PostgreSQL are supported database drivers.
-  driver: H2
+  driver: MariaDB
 
   ## MySQL/PostgreSQL settings ##
   # If using H2, the database will be stored in the LiteBans plugin folder,
@@ -42,8 +42,8 @@ sql:
 
   # Database name, username and password.
   database: 'litebans'
-  username: ''
-  password: ''
+  username: 'litebans'
+  password: 'TA6gFmSbUqj8WexX'
 
   # LiteBans utilizes connection pooling for extra performance and reliability.
   # min_connections: Minimum amount of pooled connections.
@@ -66,7 +66,7 @@ sql:
 
   options: 'useSSL=false&serverTimezone=UTC'
 
-  table_prefix: 'litebans_'
+  table_prefix: ''
 
   # Format: <name>:<class>[:URL:version]
   # SQLite is only included here for backwards compatibility, it's no longer supported (use H2 instead).

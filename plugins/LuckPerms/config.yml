@@ -83,7 +83,7 @@ use-server-uuid-cache: false
 #
 # - A H2 database is the default option.
 # - If you want to edit data manually in "traditional" storage files, we suggest using YAML.
-storage-method: h2
+storage-method: MariaDB
 
 # The following block defines the settings for remote database storage methods.
 #
@@ -99,11 +99,11 @@ data:
 
   # The name of the database to store LuckPerms data in.
   # - This must be created already. Don't worry about this setting if you're using MongoDB.
-  database: minecraft
+  database: luckperms
 
   # Credentials for the database.
-  username: root
-  password: ''
+  username: luckperms
+  password: 'D744wXcSQr6hSwYQ'
 
   # These settings apply to the MySQL connection pool.
   # - The default values will be suitable for the majority of users.
@@ -157,7 +157,7 @@ data:
   #
   # - This only applies for remote SQL storage types (MySQL, MariaDB, etc).
   # - Change this if you want to use different tables for different servers.
-  table-prefix: 'luckperms_'
+  table-prefix: ''
 
   # The prefix to use for all LuckPerms MongoDB collections.
   #
