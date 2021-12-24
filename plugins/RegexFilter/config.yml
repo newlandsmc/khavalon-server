@@ -39,6 +39,14 @@ filters:
 # Apart from the regular formatting codes, you can now use '§p' to restore the text formatting as it were before the replacement
 # NB: this does not take the 'base' text color into account as it is usually handled by a chat plugin at a later stage
 
+  - pattern: "^\\./" # you have to escape . as it would match any character
+    replace: "/"
+    # show commands to players without thinking
+
+  - pattern: "(?i)(nigger|nigga|n1gg3r|nagger|ni@@er|rape|rapist|faggot|fag\\b|faggit|fa@@ot)"
+    exec: "warn %player_name% Auto-detected: Prohibited language"
+    deny: true
+
 # Now let's demonstrate features with some clbuttical examples
   #- pattern:      "fuck"
   #  exec:         "kick %player_name% No, he's talking about {MATCH}. You can't say {MATCH} in school, you {MATCH}ing fatass!"
@@ -75,10 +83,6 @@ filters:
     # greentext
     # this time, we used the 1st matching group for demonstration,
     # but this could also be simplified as "^>" -> "§2>"
-
-  - pattern:      "^\\./" # you have to escape . as it would match any character
-    replace:      "/"
-    # show commands to players without thinking
 
   #- pattern:      "(?i)(?<=^|\\s+):format:(?=\\s+|$)"
     # NB: \b does not work here, as ":" is not considered a word character
