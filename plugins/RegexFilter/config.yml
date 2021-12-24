@@ -2,7 +2,7 @@
 ######################
 
 # prefix to show in front of the few command responses RegexFilter has
-prefix: "&4RegexFilter: &r"
+prefix: "RegexFilter: "
 
 # debug mode, log every matching pattern and fired filter action in console
 debug: false
