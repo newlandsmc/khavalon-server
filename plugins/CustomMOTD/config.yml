@@ -2,14 +2,14 @@
 verbose: false
 config-version: 1
 counter:
-  count: 0
-  motd: mcmmo
+  enabled: true
+  counter-motd: multiplebooster
 messages:
   motd:
     set-motd: Custom MOTD has been set to <motdname>
     current-motd: Custom MOTD is <motdname>
   command:
-    no-permission: You don't have permission to run this command.
+    no-permission: You do not have permission to do this.
     command-help: TODO
     command-help-list: '<command>: <usage> - <description>'
     command-list: 'Available motd: <list>'

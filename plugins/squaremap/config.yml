@@ -1,0 +1,94 @@
+config-version: 1
+settings:
+    language-file: lang-en.yml
+    debug-mode: false
+    web-address: http://semivanilla.com/map
+    web-directory:
+        path: /var/minecraft/website/map
+        auto-update: false
+    image-quality:
+        compress-images: false
+    internal-webserver:
+        enabled: false
+        bind: 0.0.0.0
+        port: 8080
+    ui:
+        coordinates:
+            enabled: true
+        link:
+            enabled: false
+        sidebar:
+            pinned: unpinned
+    commands:
+        main-command-label: squaremap
+        main-command-aliases:
+        - map
+    render-progress-logging:
+        enabled: true
+        interval-seconds: 1
+world-settings:
+    default:
+        map:
+            enabled: true
+            display-name: Overworld
+            icon: ''
+            max-render-threads: -1
+            iterate-up: false
+            max-height: -1
+            biomes:
+                enabled: true
+                blend-biomes: 3
+            glass:
+                clear: true
+            lava:
+                checkerboard: false
+            water:
+                clear-depth: true
+                checkerboard: false
+            zoom:
+                maximum: 3
+                default: 2
+                extra: 3
+            background-render:
+                enabled: true
+                max-chunks-per-interval: 1024
+                interval-seconds: 15
+                max-render-threads: -1
+            markers:
+                update-interval-seconds: 30
+                spawn-icon:
+                    enabled: false
+                    show-controls: true
+                    default-hidden: false
+                world-border:
+                    enabled: true
+                    show-controls: true
+                    default-hidden: false
+                    layer-priority: 1
+                    z-index: 1
+            visibility-limits:
+            -   enabled: 'true'
+                type: world-border
+        player-tracker:
+            enabled: true
+            update-interval-seconds: 30
+            show-controls: false
+            default-hidden: true
+            layer-priority: 2
+            z-index: 2
+            nameplate:
+                enabled: false
+                show-head: false
+                heads-url: https://mc-heads.net/avatar/{uuid}/16
+                show-armor: false
+                show-health: false
+            hide:
+                invisible: false
+                spectators: false
+            use-display-names: false
+    world_nether:
+        map:
+            enabled: false
+    world_the_end:
+        map:
+            enabled: false

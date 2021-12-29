@@ -7,9 +7,9 @@ center:
     x: 0
     z: 0
 radius:
-  max: 3000
+  max: 5000
   min: 0
 gaussian-distribution: # Enabling this will make the points no longer evenly distributed, but instead follow a
   enabled: true       #   gaussian centered between the min and max radius (represented by setting center to
-  shrink: 4            #   0 for min, 1 for max, or anything in between). Shrink makes the distribution denser,
+  shrink: 3            #   0 for min, 1 for max, or anything in between). Shrink makes the distribution denser,
   center: 0.5         #   my preference is to keep it near 3 for a center of 0 or 1, and 6 for a center of 0.5

@@ -13,6 +13,8 @@
 /plugins/HolographicDisplays/database.yml
 /plugins/MMOCore/userdata/
 /plugins/MythicMobs/SavedData/
+/plugins/LWCTrust/trusts/
+/plugins/ChunkyBorder/borders.json
 
 # Ignore bloat in plugins
 /plugins/ChatCore/Chat Logs/
