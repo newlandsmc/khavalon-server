@@ -35,8 +35,8 @@ languages:
 - ru
 - it
 action-bar:
-  enabled: false
-  idle: true
+  enabled: true
+  idle: false
   ability: true
   xp: false
   maxed: false
@@ -46,7 +46,7 @@ action-bar:
 boss-bar:
   enabled: true
   mode: single
-  stay-time: 60
+  stay-time: 80
   update-every: 1
   round-xp: false
   display-maxed: true
