@@ -3,7 +3,7 @@ verbose: false
 config-version: 1
 counter:
   enabled: true
-  counter-motd: multiplebooster
+  counter-motd: multipleboost
 messages:
   motd:
     set-motd: Custom MOTD has been set to <motdname>
