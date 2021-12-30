@@ -15,6 +15,7 @@
 /plugins/MythicMobs/SavedData/
 /plugins/LWCTrust/trusts/
 /plugins/ChunkyBorder/borders.json
+/plugins/AureliumSkills/regiondata/
 
 # Ignore bloat in plugins
 /plugins/ChatCore/Chat Logs/
