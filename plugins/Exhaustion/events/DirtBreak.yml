@@ -1,0 +1,37 @@
+# Chance this occurs over another event. If the other sound is '2' then it means 1 of 3 chance to play.
+Chance: 1
+# This section can be absent, will default to 0 chance of another effect
+MultipleEffects:
+  # Chance for each extra effect to play. 0.5 means 50% chance for 2 effects. Then another 50% for 3 effects.
+  Chance: 0.5
+  # Max effects that can play. 1 by default
+  Amount: 3
+  # Wait at least X ticks before playing next random effect
+  MinDelay: 5
+  # Wait at most X ticks before playing next random effect
+  MaxDelay: 20
+
+# What blocks must be nearby to play this
+Blocks:
+  - Stone
+  - Dirt
+
+# This can be ommitted which means there's no other criteria for the event to play.
+# The plugin will check if any of the Criterias work for the player, they do not stack!
+# If you have 3 criterias listed, only 1 needs to work!
+Criteria:
+  - Underground
+Effects:
+  # You can play potion effect, send a message, or play a sound.
+  # Here I show you sounds.
+  # Sound name, followed by the tick delay. If absent, will be played immediately.
+  # 10t = 10 ticks, or just 10 will mean 10 ticks. 1v = 1 volume (default). 1p = 1 pitch (default).
+  # 2a = (Acts like you put 2 of this sound in the list, defaults to 1)
+  # If the 't' 'v' 'p' letters are absent but numbers are there, the plugin will assume based on this order.
+  # The sound will be picked at random from this list if `MultipleEffects` is present.
+  # Futhermore, the tick delay will not affect this.
+
+  # Sounds must be prefixed with the "minecraft:" to work. You can find more sounds ingame, or on
+  # https://minecraft.gamepedia.com/Sounds.json#Java_Edition_values
+  - minecraft:block.grass.break
+  - minecraft:block.gravel.break

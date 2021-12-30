@@ -1,0 +1,6 @@
+Chance: 0
+Effects:
+  - minecraft:entity.generic.splash
+  - minecraft:ambient.underwater.enter
+  - minecraft:entity.generic.swim 4a 50t
+  - minecraft:entity.player.hurt_drown 5a 50t

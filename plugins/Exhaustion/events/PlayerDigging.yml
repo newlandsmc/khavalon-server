@@ -1,0 +1,42 @@
+# Default config is combined total of 1.2, plugin rolls a number and there is 0.2 out of 1.2 chance
+# that this section will play instead of the other one.
+Chance: 0.2
+# Only activate if player near Stone or Cobblestone
+Blocks:
+  - Stone
+Effects:
+# Played immediately as tick delay is absent and it's first sound
+  - minecraft:block.stone.break 0.5v
+# Played 15 ticks after above
+  - minecraft:block.stone.break 15t 0.7v
+# Played 20 ticks after above with a pitch of 1
+  - minecraft:block.gravel.break 1p 0.8v
+# Played 35 ticks after above
+  - minecraft:block.stone.break 30t 0.9v
+# Pause, make player wonder if it stopped, with some footsteps heard.
+  - minecraft:block.stone.step 40t
+  - minecraft:block.stone.step 30t
+  - minecraft:block.stone.step 20t
+# Then dig once more after 4.5 seconds
+  - minecraft:block.stone.break 90t
+# Another big pause. Then a small fall
+  - minecraft:entity.player.small_fall 0.7v 120t
+# Another pause. A small fall
+  - minecraft:entity.player.small_fall 60t
+# Final pause, then place blocks rapidly to get away
+  - minecraft:block.stone.place 50t
+  - minecraft:block.stone.place 10t 0.9v
+  - minecraft:block.stone.place 9t 0.8v
+  - minecraft:block.stone.place 12t 0.7v
+  - minecraft:block.gravel.place 7t 0.6v
+  - minecraft:block.gravel.place 6t 0.5v
+  - minecraft:block.stone.place 12t 0.45v
+  - minecraft:block.gravel.place 7t 0.4v
+  - minecraft:block.gravel.place 6t 0.35v
+  - minecraft:block.stone.place 12t 0.3v
+  - minecraft:block.stone.place 7t 0.25v
+  - minecraft:block.stone.place 6t 0.2v
+  - minecraft:block.gravel.place 12t 0.15v
+  - minecraft:block.gravel.place 7t 0.1v
+  - minecraft:block.gravel.place 6t 0.05v
+  - minecraft:block.stone.place 12t 0.02v

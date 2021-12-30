@@ -1,0 +1,23 @@
+# If a setting is not set, will be ignored.
+# The min and max height player must be in
+MinY: 0
+MaxY: 50
+# The min and max lighting levels of player's head location. 15 is max.
+#MinLight: 0
+# Don't play if they're in the light!
+MaxLight: 11
+# The player must not be outside
+SeeSky: false
+# The player must not have any players nearby in this radius
+NoPlayersRadius: 16
+# There must be a player nearby in this radius (Commented out as I don't want to use it)
+# FoundPlayersRadius: 30
+
+# Health uses a percentage type system, 0 to 1. 1 means 100%. 0.5 = 10/20 health. 0 = 0/20 health.
+# You'll notice that here, it's not actually putting any health limits.
+#MinHealth: 0.0
+#MaxHealth: 1.0
+# They must have been at least 1 day exhausted. This can be a decimal, so 0.5 = half a day.
+#MinDays: 1.0
+# They cannot be more than 3 days exhausted
+MaxDays: 3.0

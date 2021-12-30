@@ -1,0 +1,12 @@
+Chance: 0.2
+# The player hears fire and lava about them
+MultipleEffects:
+  Chance: 0.9
+  Amount: 15
+  MinDelay: 20
+  MaxDelay: 50
+Effects:
+  - minecraft:block.fire.ambient 6a
+  - minecraft:block.fire.extinguish
+  - minecraft:block.lava.ambient 3a
+  - minecraft:block.lava.pop 2a

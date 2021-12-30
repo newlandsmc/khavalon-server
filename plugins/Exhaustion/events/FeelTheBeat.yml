@@ -1,0 +1,23 @@
+Chance: 0.5
+Effects:
+  - minecraft:block.note_block.basedrum 20t
+  - minecraft:block.note_block.basedrum 25t
+  - minecraft:block.note_block.basedrum 45t
+  - minecraft:block.note_block.basedrum 50t
+  - minecraft:block.note_block.basedrum 70t
+  - minecraft:block.note_block.basedrum 75t
+  - minecraft:block.note_block.basedrum 95t
+  - minecraft:block.note_block.basedrum 100t
+  - minecraft:block.note_block.basedrum 120t
+  - minecraft:block.note_block.basedrum 125t
+  - &cI need to find a bed...
+  - minecraft:block.note_block.basedrum 145t 0.9v
+  - minecraft:block.note_block.basedrum 150t 0.9v
+  - minecraft:block.note_block.basedrum 170t 0.7v
+  - minecraft:block.note_block.basedrum 175t 0.7v
+  - minecraft:block.note_block.basedrum 195t 0.5v
+  - minecraft:block.note_block.basedrum 200t 0.5v
+  - minecraft:block.note_block.basedrum 220t 0.3v
+  - minecraft:block.note_block.basedrum 225t 0.3v
+  - minecraft:block.note_block.basedrum 245t 0.1v
+  - minecraft:block.note_block.basedrum 250t 0.1v

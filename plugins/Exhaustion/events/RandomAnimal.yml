@@ -1,0 +1,14 @@
+Chance: 0
+Criteria:
+  - RecentlySlept
+MultipleEffects:
+  Chance: 0.5
+  Amount: 3
+  MinDelay: 50
+  MaxDelay: 90
+Effects:
+  - minecraft:entity.sheep.ambient 40t
+  - minecraft:entity.wolf.ambient 50t
+  - minecraft:entity.cow.ambient 50t
+  - minecraft:entity.sheep.ambient 60t
+  - minecraft:entity.chicken.ambient 40t

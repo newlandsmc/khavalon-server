@@ -1,0 +1,25 @@
+Chance: 0.3
+Criteria:
+  - WhoIsFighting
+Blocks:
+  - NotAir
+MultipleEffects:
+  Chance: 0.9
+  Amount: 30
+  MinDelay: 5
+  MaxDelay: 20
+Effects:
+  - minecraft:entity.arrow.shoot
+  - minecraft:entity.arrow.hit
+  - minecraft:entity.skeleton.hurt 2a
+  - minecraft:entity.skeleton.shoot 2a
+  - minecraft:entity.skeleton.ambient
+  - minecraft:entity.creeper.hurt
+  - minecraft:entity.creeper.death
+  - minecraft:entity.creeper.primed
+  - minecraft:entity.zombie.death
+  - minecraft:entity.zombie.hurt 3a
+  - minecraft:entity.zombie.ambient 2a
+  - minecraft:entity.player.hurt 2a
+  - minecraft:entity.player.attack.strong 2a
+  - minecraft:entity.player.attack.crit 2a

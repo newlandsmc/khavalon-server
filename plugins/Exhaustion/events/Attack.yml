@@ -1,0 +1,13 @@
+Chance: 0.3
+Blocks:
+  - NotAir
+MultipleEffects:
+  Chance: 0.9
+  Amount: 15
+  MinDelay: 5
+  MaxDelay: 20
+Effects:
+  - minecraft:entity.arrow.shoot
+  - minecraft:entity.arrow.hit
+  - minecraft:entity.player.attack.strong 2a
+  - minecraft:entity.player.attack.crit 2a

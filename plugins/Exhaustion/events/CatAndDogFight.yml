@@ -1,0 +1,31 @@
+Chance: 0.1
+Criteria:
+  - NotRecentlySlept
+Effects:
+  - minecraft:entity.cat.ambient 5v
+  - minecraft:entity.wolf.ambient
+  - minecraft:entity.wolf.ambient 1.2p
+  - minecraft:entity.cat.ambient 5v
+  - minecraft:entity.cat.hiss 5v
+  - minecraft:entity.wolf.ambient
+  - minecraft:entity.wolf.growl
+  - minecraft:entity.cat.ambient 5v
+  - minecraft:entity.cat.hiss 5v
+  - minecraft:entity.wolf.growl
+  - minecraft:entity.cat.hiss 5v
+  - minecraft:entity.wolf.hurt
+  - minecraft:entity.cat.ambient 5v
+  - minecraft:entity.cat.hiss 5v
+  - minecraft:entity.wolf.growl
+  - minecraft:entity.cat.hurt 0.9p
+  - minecraft:entity.wolf.growl
+  - minecraft:entity.wolf.hurt
+  - minecraft:entity.cat.hurt 0.9p 5v
+  - minecraft:entity.cat.ambient 5v
+  - minecraft:entity.wolf.hurt 1.4p
+  - minecraft:entity.wolf.hurt 1.2p
+  - minecraft:entity.wolf.death 1.2p
+  - $ItsBeenDaysSinceSlept
+  - minecraft:entity.cat.hiss 5v
+  - minecraft:entity.cat.ambient 5v
+  - minecraft:entity.cat.ambient 1.1p 5v

@@ -1,0 +1,20 @@
+Chance: 0.2
+Blocks:
+  - Air
+Criteria:
+  - ScarySky
+MultipleEffects:
+  Chance: 0.9
+  Amount: 30
+  MinDelay: 5
+  MaxDelay: 30
+Effects:
+  - minecraft:entity.phantom.bite 0.5p
+  - minecraft:entity.phantom.swoop 0p
+  - minecraft:entity.phantom.death 0p
+  - minecraft:entity.phantom.hurt 0p
+  - minecraft:entity.bat.ambient 0p 0.5v
+  - minecraft:entity.bat.loop 0p
+  - minecraft:entity.blaze.death 0p
+  - minecraft:entity.ender_dragon.growl 0.4p
+  - minecraft:entity.cat.purreow 0p

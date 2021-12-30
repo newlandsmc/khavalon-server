@@ -1,0 +1,6 @@
+Chance: 0.6
+Criteria:
+  - NotRecentlySlept
+Effects:
+  - BLINDNESS 120p
+  - "&cA bed, I'd do anything for a bed... So exhausted, can barely keep my eyes open... 0t"
