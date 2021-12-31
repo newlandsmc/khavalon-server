@@ -151,10 +151,10 @@ IndicationFeatures:
   # Only players who are allowed to see the player will see this effect; this helps other staff with
   # differentiating them from players they should talk to
   # If this feature causes conflicts with tablist/nametag plugins, you can try the next setting instead
-  MarkVanishedPlayersAsSpectators: true
+  MarkVanishedPlayersAsSpectators: false
   # Should vanished players show up as glowing? It's recommended to turn off the TargetGlows option of the
   # scoreboard to avoid conflicts when using this
-  MarkVanishedPlayersWithGlow: false
+  MarkVanishedPlayersWithGlow: true
 ##################################################
 ########### Survival Friendly Features ###########
 ##################################################
@@ -367,9 +367,9 @@ HookOptions:
   # Should PV hide invisible players in /who, /list, /online, /near, etc?
   # Note: Players with the permission essentials.vanish.interact can still see invisible players in these commands
   # Important: You have to reload both PV and Essentials if you change this setting (reload PV first)
-  EnableEssentialsHook: true
+  EnableEssentialsHook: false
   # Should PV hide invisible players on your dynamic map and broadcast join/leave messages if you use Dynmap?
-  EnableDynmapHook: true
+  EnableDynmapHook: false
   # Should PV send fake join/leave messages in dynmap's web-chat?
   # You can configure the join/leave messages in the messages.yml file
   DynmapSendJoinLeaveMessages: false

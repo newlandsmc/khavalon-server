@@ -10,10 +10,10 @@ DaysAwake: 3
 # This will start at 0 after "DaysAwake" days, so 5 days awake, minus 3... 2 days awake.
 TimeAwakeMultiplier: 3.0
 # The max multiplier the plugin will hit, otherwise it could start spamming them. Default means 4 days.
-TimeAwakeMaxMultiplier: 12.0
+TimeAwakeMaxMultiplier: 15.0
 
 # This is the chance of the sound playing every second, so 0.01 = 1% chance
-RandomChance: 0.02
+RandomChance: 0.03
 
 # Plugin will attempt to play an event between the below min & max interval, chance of success is determined by above.
 # The next time after (success/failure) will be determined by EventMinInterval

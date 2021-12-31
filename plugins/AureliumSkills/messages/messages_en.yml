@@ -549,7 +549,7 @@ commands:
 leveler:
   title: '&e{skill} Level Up'
   subtitle: '&6{old} -> {new}'
-  level_up: '&c&m                                                                \n&r &6Skill Level Up! &e&l{skill} &6{old} -> &6&l{new}\n \n &7Rewards:{stat_level}{ability_unlock}{ability_level_up}{mana_ability_unlock}{mana_ability_level_up}{money_reward}\n&c&m                                                                '
+  level_up: '&c&m                                                                \n&r &fSkill Level Up! &f&l{skill} &f{old} -> {new}\n \n &7Rewards:{stat_level}{ability_unlock}{ability_level_up}{mana_ability_unlock}{mana_ability_level_up}{money_reward}\n&c&m                                                                '
   stat_level: '\n  {color}+{num}{symbol} {stat}'
   ability_unlock: '\n  &aAbility Unlock! &7- {ability} has been unlocked'
   ability_level_up: '\n  &aAbility Level Up! &7- {ability} is now level {level}'

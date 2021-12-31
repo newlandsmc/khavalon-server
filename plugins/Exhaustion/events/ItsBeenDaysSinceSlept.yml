@@ -1,4 +1,4 @@
-Chance: 1
+Chance: 0.5
 Criteria:
   - RecentlySlept
 Effects:

@@ -1,23 +1,69 @@
 # Accepts any spigot material https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 # Possibly add support for custom items? I'm not sure if this server will have custom items.
 Rewards:
-  GOLDEN_APPLE:
-    weight: 2
-  GOLD_INGOT:
-    weight: 1
-  IRON_INGOT:
-    weight: 1
   DIAMOND:
+    weight: 16
+  EMERALD:
+    weight: 16
+  LAPIS_LAZULI:
+    weight: 5
+  REDSTONE:
+    weight: 5
+  AMETHYST_SHARD:
+    weight: 5
+  RAW_IRON:
+    weight: 3
+  RAW_COPPER:
+    weight: 3
+  RAW_GOLD:
+    weight: 5
+  COAL:
+    weight: 2
+  FEATHER:
+    weight: 2
+  GUNPOWDER:
+    weight: 4
+  RABBIT_FOOT:
+    weight: 8
+  LEATHER:
+    weight: 4
+  SLIME_BALL:
+    weight: 4
+  BONE:
+    weight: 1
+  NAUTILUS_SHELL:
+    weight: 8
+  PHANTOM_MEMBRANE:
     weight: 6
+  HONEYCOMB:
+    weight: 6
+  WHEAT:
+    weight: 2
+  APPLE:
+    weight: 2
+  BREAD:
+    weight: 2
+  PORKCHOP:
+    weight: 3
+  BEEF:
+    weight: 3
+  MUTTON:
+    weight: 3
 
 Tiers:
   # Time is in minutes
-  120:
-    weight: 8
+  1:
+    weight: 32
   240:
-    weight: 16
+    weight: 32
+  360:
+    weight: 48
   480:
-    weight: 24
+    weight: 64
+  720:
+    weight: 80
+  1440:
+    weight: 96
 
 VoteTier:
-  weight: 24
+  weight: 96
