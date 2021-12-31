@@ -1,4 +1,4 @@
-line1: '<gray>            <strikethrough>  ]     <reset> <yellow><bold>Semi<gold><bold>Vanilla<red><bold> MC <gray><strikethrough>     [  <reset>'
+line1: '<dark_gray>            <strikethrough>  ]<white><strikethrough>     <reset> <yellow><bold>Semi<gold><bold>Vanilla<red><bold> MC <white><strikethrough>     <dark_gray><strikethrough>[  <reset>'
 line2: '<yellow>           <bold>Defense XP Booster Active!'
 active: false
 restricted: true
