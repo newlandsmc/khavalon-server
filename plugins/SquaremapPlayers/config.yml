@@ -1,0 +1,22 @@
+update-interval: 15
+radius: 500
+marker:
+  color: ff674d
+  weight: 3
+  opacity: 1.0
+  fill-color: ff674d
+  fill-opacity: 0.3
+  hover-tooltip: ''
+  click-tooltip: ''
+world-settings:
+  default:
+    enabled: true
+    layer:
+      label: Players
+      controls:
+        enabled: true
+        hide-by-default: false
+    player:
+      hide-vanished: false
+      update-radius: 4
+config-version: 1

@@ -6,7 +6,7 @@
 # |      Config Guide: https://wiki.aurelium.dev/skills/config/main-config     | #
 # +----------------------------------------------------------------------------+ #
 # Plugin made by Archy
-# 
+#
 # MySql Options
 mysql:
   enabled: true

@@ -13,8 +13,8 @@ Rewards:
     weight: 5
   RAW_IRON:
     weight: 3
-  RAW_COPPER:
-    weight: 3
+#  RAW_COPPER:
+#    weight: 3
   RAW_GOLD:
     weight: 5
   COAL:
@@ -41,6 +41,10 @@ Rewards:
     weight: 2
   APPLE:
     weight: 2
+#  CARROT:
+#    weight: 2
+#  POTATO:
+#    weight: 2
   BREAD:
     weight: 2
   PORKCHOP:
