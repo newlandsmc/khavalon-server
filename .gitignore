@@ -17,6 +17,7 @@
 /plugins/ChunkyBorder/borders.json
 /plugins/AureliumSkills/regiondata/
 /plugins/squaremap/web/tiles/
+/plugins/squaremap/web/map/tiles/
 
 # Ignore bloat in plugins
 /plugins/ChatCore/Chat Logs/
