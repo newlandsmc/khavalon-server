@@ -76,13 +76,12 @@ banned_message_base: |
 banned_message: |-
   $base
   &cExpires in $duration.
-  &cYou will be given another chance.
   $appealMessage
 banned_message_permanent: |-
   $base
   &cYou are permanently banned!
   $appealMessage
-banned_message_appeal_message: '&8Appeal&7: semivanilla.com/appeal'
+banned_message_appeal_message: '&8Appeal&7: semivanilla.com/contact'
 banned_message_geoip_blacklist: |-
   &cYou are banned from this server
   &7Your location is blacklisted:  $geoip
