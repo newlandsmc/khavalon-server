@@ -16,6 +16,7 @@
 /plugins/LWCTrust/trusts/
 /plugins/ChunkyBorder/borders.json
 /plugins/AureliumSkills/regiondata/
+/plugins/squaremap/web/tiles/
 
 # Ignore bloat in plugins
 /plugins/ChatCore/Chat Logs/
