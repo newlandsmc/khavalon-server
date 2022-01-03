@@ -4,7 +4,7 @@ settings:
     debug-mode: false
     web-address: http://semivanilla.com/map
     web-directory:
-        path: web/map
+        path: web
         auto-update: false
     image-quality:
         compress-images: false
@@ -70,7 +70,7 @@ world-settings:
             -   enabled: 'true'
                 type: world-border
         player-tracker:
-            enabled: true
+            enabled: false
             update-interval-seconds: 30
             show-controls: false
             default-hidden: true

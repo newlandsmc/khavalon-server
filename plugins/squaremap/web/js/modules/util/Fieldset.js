@@ -1,4 +1,5 @@
 import { P } from '../Squaremap.js';
+
 class Fieldset {
     constructor(id, title) {
         this.element = P.createElement("fieldset", id);

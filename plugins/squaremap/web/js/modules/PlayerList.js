@@ -41,12 +41,12 @@ class PlayerList {
         span.innerHTML = player.displayName
 
         const link = P.createElement("a", player.uuid, this);
-        //link.onclick = function (e) {
-        //    if (this.parent.showPlayer(this.id)) {
-        //        this.parent.followPlayerMarker(this.id);
-        //        e.stopPropagation();
-        //    }
-        //};
+        link.onclick = function (e) {
+            if (this.parent.showPlayer(this.id)) {
+                this.parent.followPlayerMarker(this.id);
+                e.stopPropagation();
+            }
+        };
         link.appendChild(head);
         link.appendChild(span);
         const fieldset = P.sidebar.players.element;
