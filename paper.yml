@@ -93,7 +93,7 @@ settings:
       to use TNT duplication, but this also allows duplicating carpet, rails and potentially
       other items
   async-chunks:
-    threads: 8
+    threads: 2
   packet-limiter:
     kick-message: '&cSent too many packets'
     limits:
@@ -148,14 +148,36 @@ world-settings:
     portal-search-vanilla-dimension-scaling: true
     keep-spawn-loaded: false
     anti-xray:
-      enabled: false
+      enabled: true
       engine-mode: 1
       max-block-height: 64
       update-radius: 2
       lava-obscures: false
       use-permission: false
-      hidden-blocks: []
-      replacement-blocks: []
+      hidden-blocks:
+      - copper_ore
+      - deepslate_copper_ore
+      - gold_ore
+      - deepslate_gold_ore
+      - iron_ore
+      - deepslate_iron_ore
+      - coal_ore
+      - deepslate_coal_ore
+      - lapis_ore
+      - deepslate_lapis_ore
+      - mossy_cobblestone
+      - obsidian
+      - chest
+      - diamond_ore
+      - deepslate_diamond_ore
+      - redstone_ore
+      - deepslate_redstone_ore
+      - clay
+      - emerald_ore
+      - deepslate_emerald_ore
+      - ender_chest
+      replacement-blocks:
+      - stone
     grass-spread-tick-rate: 1
     armor-stands-do-collision-entity-lookups: false
     skeleton-horse-thunder-spawn-chance: 0.01
@@ -207,8 +229,8 @@ world-settings:
     anticheat:
       obfuscation:
         items:
-          hide-itemmeta: false
-          hide-durability: false
+          hide-itemmeta: true
+          hide-durability: true
     water-over-lava-flow-speed: 5
     use-faster-eigencraft-redstone: true
     show-sign-click-command-failure-msgs-to-player: false
@@ -313,41 +335,16 @@ world-settings:
       behavior:
         villager:
           validatenearbypoi: -1
-  world:
-    anti-xray:
-      enabled: true
-      engine-mode: 1
-      max-block-height: 64
-      update-radius: 2
-      lava-obscures: false
-      use-permission: false
-      hidden-blocks:
-      - copper_ore
-      - deepslate_copper_ore
-      - gold_ore
-      - deepslate_gold_ore
-      - iron_ore
-      - deepslate_iron_ore
-      - coal_ore
-      - deepslate_coal_ore
-      - lapis_ore
-      - deepslate_lapis_ore
-      - mossy_cobblestone
-      - obsidian
-      - chest
-      - diamond_ore
-      - deepslate_diamond_ore
-      - redstone_ore
-      - deepslate_redstone_ore
-      - clay
-      - emerald_ore
-      - deepslate_emerald_ore
-      - ender_chest
-      replacement-blocks:
-      - stone
-      - oak_planks
-      - deepslate
   world_nether:
+    anti-xray:
+      max-chunk-section-index: 7
+      max-block-height: 128
+      hidden-blocks:
+      - ancient_debris
+      - nether_gold_ore
+      - nether_quartz_ore
+      replacement-blocks:
+      - netherrack
     grass-spread-tick-rate: 3
   world_the_end:
     grass-spread-tick-rate: 3
