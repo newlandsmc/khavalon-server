@@ -1,0 +1,9 @@
+host: 'localhost'
+user: 'spartan'
+password: 'bP2rrqXZCry6C5U5'
+database: 'spartan'
+table: spartan_logs
+port: '3306'
+driver: mysql
+tls_Version: ''
+use_SSL: false
