@@ -1,0 +1,235 @@
+[01-05-2022] [04:44:43] devilsmiata failed Scaffold (Type I) [VL: 2] [Ping: 33] [TPS: 20] [Version: 1.18] acceleration=0.0059893352500415 deltaYaw=197.64853 deltaPitch=35.19555
+[01-05-2022] [04:44:48] devilsmiata failed Scaffold (Type D) [VL: 2] [Ping: 33] [TPS: 20] [Version: 1.18] rotation=559
+[01-05-2022] [04:44:49] devilsmiata failed Scaffold (Type D) [VL: 3] [Ping: 33] [TPS: 20] [Version: 1.18] rotation=174
+[01-05-2022] [04:44:49] devilsmiata failed Scaffold (Type D) [VL: 4] [Ping: 33] [TPS: 20] [Version: 1.18] rotation=257
+[01-05-2022] [04:44:50] devilsmiata failed Scaffold (Type H) [VL: 2] [Ping: 33] [TPS: 20] [Version: 1.18] final=-12.247459709487796
+[01-05-2022] [04:44:51] devilsmiata failed Scaffold (Type K) [VL: 2] [Ping: 33] [TPS: 20] [Version: 1.18] amount=6
+[01-05-2022] [04:44:51] devilsmiata failed Scaffold (Type H) [VL: 3] [Ping: 33] [TPS: 20] [Version: 1.18] final=-27.67157799353338
+[01-05-2022] [04:44:51] devilsmiata failed Scaffold (Type D) [VL: 5] [Ping: 33] [TPS: 20] [Version: 1.18] rotation=230
+[01-05-2022] [04:44:51] devilsmiata failed Scaffold (Type I) [VL: 3] [Ping: 33] [TPS: 20] [Version: 1.18] acceleration=0.004044967771846264 deltaYaw=185.89626 deltaPitch=57.499825
+[01-05-2022] [04:44:51] devilsmiata failed Scaffold (Type H) [VL: 4] [Ping: 33] [TPS: 20] [Version: 1.18] final=-31.808111740582678
+[01-05-2022] [04:44:55] devilsmiata failed Scaffold (Type D) [VL: 6] [Ping: 33] [TPS: 20] [Version: 1.18] rotation=264
+[01-05-2022] [04:44:55] devilsmiata failed Scaffold (Type H) [VL: 5] [Ping: 33] [TPS: 20] [Version: 1.18] final=-30.146040762302885
+[01-05-2022] [04:44:56] devilsmiata failed Scaffold (Type D) [VL: 7] [Ping: 33] [TPS: 20] [Version: 1.18] rotation=167
+[01-05-2022] [04:44:57] devilsmiata failed Scaffold (Type D) [VL: 8] [Ping: 33] [TPS: 20] [Version: 1.18] rotation=168
+[01-05-2022] [04:44:57] devilsmiata failed Scaffold (Type H) [VL: 6] [Ping: 33] [TPS: 20] [Version: 1.18] final=-35.23127316241322
+[01-05-2022] [04:45:01] devilsmiata failed Scaffold (Type D) [VL: 9] [Ping: 55] [TPS: 20] [Version: 1.18] rotation=743
+[01-05-2022] [04:45:03] devilsmiata failed Scaffold (Type H) [VL: 7] [Ping: 55] [TPS: 20] [Version: 1.18] final=-29.8543833650297
+[01-05-2022] [04:45:04] devilsmiata failed Scaffold (Type D) [VL: 10] [Ping: 55] [TPS: 20] [Version: 1.18] rotation=856
+[01-05-2022] [04:45:04] devilsmiata failed Scaffold (Type D) [VL: 11] [Ping: 55] [TPS: 20] [Version: 1.18] rotation=715
+[01-05-2022] [04:45:22] devilsmiata failed Scaffold (Type J) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=2.1659555085429272E-5 deltaPitch=50.822426
+[01-05-2022] [04:45:23] devilsmiata failed Scaffold (Type J) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=3.7527415814309073E-6 deltaPitch=50.061455
+[01-05-2022] [04:45:23] devilsmiata failed Scaffold (Type G) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] angle=0.011438088 delay=213 acceleration=9.240762860351914E-6
+[01-05-2022] [04:45:23] devilsmiata failed Scaffold (Type J) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=9.240762860351914E-6 deltaPitch=50.97215
+[01-05-2022] [04:45:24] devilsmiata failed Scaffold (Type J) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=5.007889675817667E-5 deltaPitch=50.583504
+[01-05-2022] [04:45:24] devilsmiata failed Scaffold (Type M) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] [1] face=NORTH direction=NORTH distance=1.121061025539843
+[01-05-2022] [04:45:24] devilsmiata failed Scaffold (Type G) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18] angle=0.021203116 delay=238 acceleration=1.948234196139098E-5
+[01-05-2022] [04:45:24] devilsmiata failed Scaffold (Type J) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=1.948234196139098E-5 deltaPitch=50.46707
+[01-05-2022] [04:45:24] devilsmiata failed Scaffold (Type M) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18] [1] face=NORTH direction=NORTH distance=1.0122191201196356
+[01-05-2022] [04:45:24] devilsmiata failed Scaffold (Type J) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=3.437668728381582E-5 deltaPitch=54.198982
+[01-05-2022] [04:45:24] devilsmiata failed Scaffold (Type M) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18] [1] face=NORTH direction=NORTH distance=1.0069323512511783
+[01-05-2022] [04:45:24] devilsmiata failed Scaffold (Type G) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18] angle=0.042540595 delay=236 acceleration=5.0081682365477054E-5
+[01-05-2022] [04:45:24] devilsmiata failed Scaffold (Type J) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=5.0081682365477054E-5 deltaPitch=56.648666
+[01-05-2022] [04:45:25] devilsmiata failed Scaffold (Type I) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=3.135933392342527E-5 deltaYaw=224.1955 deltaPitch=46.94134
+[01-05-2022] [04:45:25] devilsmiata failed Scaffold (Type J) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=3.135933392342527E-5 deltaPitch=46.94134
+[01-05-2022] [04:45:25] devilsmiata failed Scaffold (Type G) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18] angle=0.044721235 delay=48 acceleration=3.306861873422773E-5
+[01-05-2022] [04:45:25] devilsmiata failed Scaffold (Type I) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=3.306861873422773E-5 deltaYaw=320.6247 deltaPitch=52.80548
+[01-05-2022] [04:45:25] devilsmiata failed Scaffold (Type J) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=3.306861873422773E-5 deltaPitch=52.80548
+[01-05-2022] [04:45:25] devilsmiata failed Scaffold (Type I) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=3.7368921390029675E-5 deltaYaw=218.65692 deltaPitch=57.383427
+[01-05-2022] [04:45:25] devilsmiata failed Scaffold (Type J) [VL: 11] [Ping: 0] [TPS: 20] [Version: 1.18] acceleration=3.7368921390029675E-5 deltaPitch=57.383427
+[01-05-2022] [04:45:47] devilsmiata failed Jesus (Type A) [VL: 3] [Ping: 56] [TPS: 20] [Version: 1.18] 
+[01-05-2022] [04:45:48] devilsmiata failed Jesus (Type A) [VL: 5] [Ping: 56] [TPS: 20] [Version: 1.18] 
+[01-05-2022] [04:45:50] devilsmiata failed Jesus (Type A) [VL: 7] [Ping: 56] [TPS: 20] [Version: 1.18] 
+[01-05-2022] [04:45:51] devilsmiata failed Jesus (Type A) [VL: 9] [Ping: 56] [TPS: 20] [Version: 1.18] 
+[01-05-2022] [04:46:25] devilsmiata failed Improbable (Type F) [VL: 2] [Ping: 85] [TPS: 20] [Version: 1.18] scaffoldViolations=27
+[01-05-2022] [04:47:55] devilsmiata failed Boat Fly (Type C) [VL: 2] [Ping: 103] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:47:55] devilsmiata failed Boat Fly (Type C) [VL: 3] [Ping: 103] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:47:55] devilsmiata failed Boat Fly (Type C) [VL: 4] [Ping: 103] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:47:55] devilsmiata failed Boat Fly (Type C) [VL: 5] [Ping: 103] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:47:55] devilsmiata failed Boat Fly (Type C) [VL: 6] [Ping: 103] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:47:56] devilsmiata failed Boat Fly (Type C) [VL: 7] [Ping: 103] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:47:56] devilsmiata failed Boat Fly (Type C) [VL: 8] [Ping: 103] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:47:56] devilsmiata failed Boat Fly (Type C) [VL: 9] [Ping: 103] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:47:56] devilsmiata failed Boat Fly (Type C) [VL: 10] [Ping: 103] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:47:56] devilsmiata failed Boat Fly (Type C) [VL: 11] [Ping: 103] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:06] devilsmiata failed Boat Fly (Type C) [VL: 12] [Ping: 111] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=0.26000000089406683
+[01-05-2022] [04:48:06] devilsmiata failed Boat Fly (Type C) [VL: 13] [Ping: 111] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:06] devilsmiata failed Boat Fly (Type C) [VL: 14] [Ping: 111] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:06] devilsmiata failed Boat Fly (Type C) [VL: 15] [Ping: 111] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:07] devilsmiata failed Boat Fly (Type C) [VL: 16] [Ping: 111] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:17] devilsmiata failed Boat Fly (Type C) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:17] devilsmiata failed Boat Fly (Type C) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:17] devilsmiata failed Boat Fly (Type C) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:18] devilsmiata failed Boat Fly (Type C) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:18] devilsmiata failed Boat Fly (Type C) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:18] devilsmiata failed Boat Fly (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] deltaXZ=0.3454569732274066 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:18] devilsmiata failed Boat Fly (Type C) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:18] devilsmiata failed Boat Fly (Type C) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:48:18] devilsmiata failed Boat Fly (Type C) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18] accel=0.0 deltaY=-0.03999999910593033
+[01-05-2022] [04:53:28] devilsmiata failed Motion (Type B) [VL: 2] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:29] devilsmiata failed Motion (Type B) [VL: 3] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:29] devilsmiata failed Motion (Type B) [VL: 4] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:29] devilsmiata failed Motion (Type B) [VL: 5] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:29] devilsmiata failed Motion (Type B) [VL: 6] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:30] devilsmiata failed Motion (Type B) [VL: 7] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474123083
+[01-05-2022] [04:53:35] devilsmiata failed Motion (Type B) [VL: 8] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:35] devilsmiata failed Motion (Type B) [VL: 9] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:35] devilsmiata failed Motion (Type B) [VL: 10] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:36] devilsmiata failed Motion (Type B) [VL: 11] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:36] devilsmiata failed Motion (Type B) [VL: 12] [Ping: 127] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:43] devilsmiata failed Motion (Type B) [VL: 13] [Ping: 133] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:43] devilsmiata failed Motion (Type B) [VL: 14] [Ping: 133] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:44] devilsmiata failed Motion (Type B) [VL: 15] [Ping: 133] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:44] devilsmiata failed Motion (Type B) [VL: 16] [Ping: 133] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:56] devilsmiata failed Motion (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:57] devilsmiata failed Motion (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:53:57] devilsmiata failed Motion (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18] deltaY=0.021599998474115978
+[01-05-2022] [04:57:54] devilsmiata failed Motion (Type C) [VL: 2] [Ping: 114] [TPS: 20] [Version: 1.18] deltaY=0.4200000000000017
+[01-05-2022] [04:57:55] devilsmiata failed Motion (Type C) [VL: 3] [Ping: 114] [TPS: 20] [Version: 1.18] deltaY=0.4200000000000017
+[01-05-2022] [04:58:02] devilsmiata failed Motion (Type C) [VL: 4] [Ping: 114] [TPS: 20] [Version: 1.18] deltaY=0.4200000000000017
+[01-05-2022] [04:58:04] devilsmiata failed Motion (Type C) [VL: 5] [Ping: 114] [TPS: 20] [Version: 1.18] deltaY=0.4200000000000017
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 2] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 2] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 3] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 3] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 4] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 4] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 5] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 5] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 6] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 6] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 7] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 7] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 8] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 8] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 9] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 9] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 10] [Ping: 123] [TPS: 20] [Version: 1.18] delay=1
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 10] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 11] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 11] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 12] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 12] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 13] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 13] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 14] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 14] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 15] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 1) [VL: 15] [Ping: 123] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:08] devilsmiata failed Bad Packets (Type 2) [VL: 16] [Ping: 123] [TPS: 20] [Version: 1.18] delay=1
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 2] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 2] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 3] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 3] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 4] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 4] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 5] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 5] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 6] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 6] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 7] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 7] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 8] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 8] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 9] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 9] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 10] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 10] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 11] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 11] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 12] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 12] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 13] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 13] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 14] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 14] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 15] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 2) [VL: 15] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:01:45] devilsmiata failed Bad Packets (Type 1) [VL: 16] [Ping: 54] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 2] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 2] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 3] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 3] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 4] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 4] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 5] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 5] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 6] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 6] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 7] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 7] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 8] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 8] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 9] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 9] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 10] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 10] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 11] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 11] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 12] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 12] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 13] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 13] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 14] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 14] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 15] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 2) [VL: 15] [Ping: 72] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:46] devilsmiata failed Bad Packets (Type 1) [VL: 16] [Ping: 72] [TPS: 20] [Version: 1.18] delay=1
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18] delay=2
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18] delay=2
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 11] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 11] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.18] delay=1
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 13] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 13] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 15] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 2) [VL: 15] [Ping: 0] [TPS: 20] [Version: 1.18] delay=1
+[01-05-2022] [05:02:55] devilsmiata failed Bad Packets (Type 1) [VL: 16] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18] delay=1
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 11] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 11] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 13] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 13] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 15] [Ping: 0] [TPS: 20] [Version: 1.18] delay=1
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 2) [VL: 15] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
+[01-05-2022] [05:03:04] devilsmiata failed Bad Packets (Type 1) [VL: 16] [Ping: 0] [TPS: 20] [Version: 1.18] delay=0
