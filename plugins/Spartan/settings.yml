@@ -1,7 +1,7 @@
 Punishments:
   Commands:
-    '1': spartan {player} if {ping} < 250 do spartan {player} if {tps} > 18.0 do kick
-      {player} {detections}
+    '1': 'spartan {player} if {ping} < 250 do spartan {player} if {tps} > 18.0 do warn
+      {player} Hacked client detected: {detections}'
     '2': ''
     '3': ''
     '4': ''
@@ -20,7 +20,7 @@ Notifications:
   cross_server_notifications: specify server name
   awareness_notifications: false
   enable_notifications_on_login: false
-  send_silent_notifications: false
+  send_silent_notifications: true
 Chat:
   message_cooldown: 0
   command_cooldown: 0
@@ -39,12 +39,12 @@ Protections:
   disallowed_building: true
 Important:
   op_bypass: false
-  enable_permissions: false
+  enable_permissions: true
   violations_reset_seconds: 60
   violations_reset_on_kick: false
   modify_server_configuration: true
   bedrock_player_prefix: '*'
-  cloud_feature: true
+  cloud_feature: false
   use_permission_cache: false
 Detections:
   ground_teleport_on_detection: false

@@ -1,0 +1,292 @@
+(1)[2022/01/05 03:12:55]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Exploits (VL: 2) [(Version: Paper 1.18), (C-V: 3) (Silent: false), (Ping:
+  122ms), (TPS: 19.829), (Plib: false), (Online: 2), (t: head-position(pitch), p:
+  99.0)]'
+(2)[2022/01/05 03:13:00]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Exploits (VL: 3) [(Version: Paper 1.18), (C-V: 3) (Silent: false), (Ping:
+  122ms), (TPS: 19.968), (Plib: false), (Online: 2), (t: head-position(pitch), p:
+  91.0)]'
+(3)[2022/01/05 03:13:00]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Exploits (VL: 4) [(Version: Paper 1.18), (C-V: 3) (Silent: false), (Ping:
+  122ms), (TPS: 19.996), (Plib: false), (Online: 2), (t: head-position(pitch), p:
+  97.0)]'
+(4)[2022/01/05 03:13:10]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Exploits (VL: 5) [(Version: Paper 1.18), (C-V: 3) (Silent: false), (Ping:
+  122ms), (TPS: 19.829), (Plib: false), (Online: 2), (t: head-position(pitch), p:
+  98.0)]'
+(5)[2022/01/05 03:13:15]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Exploits (VL: 6) [(Version: Paper 1.18), (C-V: 3) (Silent: false), (Ping:
+  122ms), (TPS: 20.0), (Plib: false), (Online: 2), (t: head-position(pitch), p: 92.0)]'
+(6)[2022/01/05 03:16:23]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Jesus (VL: 1) [(Version: Paper 1.18), (C-V: 3) (Silent: false), (Ping: 125ms),
+  (TPS: 19.821), (Plib: false), (Online: 2), (t: repeated, ms: 50, d: 0.19600000893510877,
+  l: 0.1, a: false, b: 0)]'
+(7)[2022/01/05 03:16:24]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Jesus (VL: 2) [(Version: Paper 1.18), (C-V: 3) (Silent: false), (Ping: 125ms),
+  (TPS: 19.996), (Plib: false), (Online: 2), (t: speed(17), d: 0.19600000690984418,
+  dm: 0.19, dm_s: 0.19)]'
+(8)[2022/01/05 03:16:24]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 1) [(Version: Paper 1.18), (C-V: 4) (Silent: false), (Ping: 125ms),
+  (TPS: 19.829), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 31/31, r: 0.0, h: 0.19600000690984418)]'
+(9)[2022/01/05 03:16:25]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 2) [(Version: Paper 1.18), (C-V: 4) (Silent: false), (Ping: 125ms),
+  (TPS: 19.825), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 32/32, r: 0.0, h: 0.19600000690984418)]'
+(10)[2022/01/05 03:16:25]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 3) [(Version: Paper 1.18), (C-V: 4) (Silent: false), (Ping: 125ms),
+  (TPS: 19.837), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 33/33, r: 0.0, h: 0.19600000690984418)]'
+(11)[2022/01/05 03:16:25]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 4) [(Version: Paper 1.18), (C-V: 4) (Silent: false), (Ping: 125ms),
+  (TPS: 20.0), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 34/34, r: 0.0, h: 0.19600000690984418)]'
+(12)[2022/01/05 03:16:25]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 5) [(Version: Paper 1.18), (C-V: 4) (Silent: false), (Ping: 125ms),
+  (TPS: 19.833), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 37/37, r: 0.0, h: 0.19599999992581105)]'
+(13)[2022/01/05 03:16:25]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 6) [(Version: Paper 1.18), (C-V: 4) (Silent: false), (Ping: 125ms),
+  (TPS: 19.821), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 42/42, r: 0.0, h: 0.19599999992581105)]'
+(14)[2022/01/05 03:16:25]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 7) [(Version: Paper 1.18), (C-V: 4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.833), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 47/47, r: 0.0, h: 0.19599999992581105)]'
+(15)[2022/01/05 03:16:26]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 8) [(Version: Paper 1.18), (C-V: 4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.964), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 53/53, r: 0.0, h: 0.19599999992581105)]'
+(16)[2022/01/05 03:16:26]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 9) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.968), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 60/60, r: 0.0, h: 0.19599999992581105)]'
+(17)[2022/01/05 03:16:26]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 10) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.968), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 65/65, r: 0.0, h: 0.19600001032868256)]'
+(18)[2022/01/05 03:16:26]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 11) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.968), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 70/70, r: 0.0, h: 0.19600000778212948)]'
+(19)[2022/01/05 03:16:27]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 12) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.972), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 75/75, r: 0.0, h: 0.19600000778212948)]'
+(20)[2022/01/05 03:16:27]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 13) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.968), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 80/80, r: 0.0, h: 0.19600000778212948)]'
+(21)[2022/01/05 03:16:27]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 14) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.972), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 85/85, r: 0.0, h: 0.19600000778212948)]'
+(22)[2022/01/05 03:16:27]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 15) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.976), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 90/90, r: 0.0, h: 0.19600000778212948)]'
+(23)[2022/01/05 03:16:28]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 16) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.972), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 95/95, r: 0.0, h: 0.1960000091596662)]'
+(24)[2022/01/05 03:16:28]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 17) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.972), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 100/100, r: 0.0, h: 0.19600001388948673)]'
+(25)[2022/01/05 03:16:28]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 18) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.972), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 105/105, r: 0.0, h: 0.19600000698844372)]'
+(26)[2022/01/05 03:16:28]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 19) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.821), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 110/110, r: 0.0, h: 0.19599999992581105)]'
+(27)[2022/01/05 03:16:29]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 20) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.98), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 115/115, r: 0.0, h: 0.19600000337837908)]'
+(28)[2022/01/05 03:16:29]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 21) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.968), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 120/120, r: 0.0, h: 0.19600000665357123)]'
+(29)[2022/01/05 03:16:29]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 22) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.98), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 125/125, r: 0.0, h: 0.19600000563339473)]'
+(30)[2022/01/05 03:16:29]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 23) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.98), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 130/130, r: 0.0, h: 0.19600000563339473)]'
+(31)[2022/01/05 03:16:30]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 24) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 124ms),
+  (TPS: 19.984), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 135/135, r: 0.0, h: 0.19600000563339473)]'
+(32)[2022/01/05 03:17:31]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Jesus (VL: 1) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping: 0ms),
+  (TPS: 19.817), (Plib: false), (Online: 2), (t: repeated, ms: 49, d: 0.28, l: 0.1,
+  a: true, b: 0)]'
+(33)[2022/01/05 03:17:32]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Jesus (VL: 2) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping: 0ms),
+  (TPS: 19.813), (Plib: false), (Online: 2), (t: speed(14), d: 0.2596807297028316,
+  dm: 0.225, dm_s: 0.225)]'
+(34)[2022/01/05 03:17:32]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Jesus (VL: 3) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping: 0ms),
+  (TPS: 19.813), (Plib: false), (Online: 2), (t: speed(14), d: 0.260721690470429,
+  dm: 0.225, dm_s: 0.225)]'
+(35)[2022/01/05 03:17:32]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Jesus (VL: 4) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping: 0ms),
+  (TPS: 20.0), (Plib: false), (Online: 2), (t: speed(14), d: 0.2577623577232495, dm:
+  0.225, dm_s: 0.225)]'
+(36)[2022/01/05 03:17:33]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Jesus (VL: 5) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping: 31ms),
+  (TPS: 19.817), (Plib: false), (Online: 2), (t: speed(14), d: 0.2441822141796304,
+  dm: 0.225, dm_s: 0.225)]'
+(37)[2022/01/05 03:17:39]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Jesus (VL: 6) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping: 31ms),
+  (TPS: 19.98), (Plib: false), (Online: 2), (t: speed(14), d: 0.25566891759035015,
+  dm: 0.225, dm_s: 0.225)]'
+(38)[2022/01/05 03:19:00]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 1) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 54ms),
+  (TPS: 19.813), (Plib: false), (Online: 2), (t: calculated, d: -0.20000000298023224,
+  ds: 0.0, diff: 0.06702999999999999, a: 15, r: 0.3999999910593033)]'
+(39)[2022/01/05 03:19:01]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed IrregularMovements (VL: 1) [(Version: Paper 1.18), (C-V: -4) (Silent: false),
+  (Ping: 54ms), (TPS: 20.0), (Plib: false), (Online: 2), (t: jump(unusual), d: 0.20000000298023224,
+  a: 32, r: 0.20000000298023224)]'
+(40)[2022/01/05 03:19:02]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 2) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 54ms),
+  (TPS: 19.821), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.20000000298023224,
+  ds: 0.0, ods: 0.0, a: 53/53, r: 0.20000000298023224, h: 0.0)]'
+(41)[2022/01/05 03:19:02]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 3) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 54ms),
+  (TPS: 20.0), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.20000000298023224,
+  ds: 0.0, ods: 0.0, a: 58/58, r: 0.4000000059604645, h: 0.0)]'
+(42)[2022/01/05 03:19:03]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 4) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 54ms),
+  (TPS: 20.0), (Plib: false), (Online: 2), (t: stable, c: 1, d: 0.0, ds: 0.0, ods:
+  0.0, a: 74/74, r: 0.0, h: 0.19600001073383902)]'
+(43)[2022/01/05 03:19:03]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 5) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 54ms),
+  (TPS: 19.825), (Plib: false), (Online: 2), (t: illegal, d: -0.20000000298023224,
+  ds: 0.20000000298023224, a: 82, r: 0.7999999970197678)]'
+(44)[2022/01/05 03:19:04]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Fly (VL: 6) [(Version: Paper 1.18), (C-V: -4) (Silent: false), (Ping: 54ms),
+  (TPS: 20.0), (Plib: false), (Online: 2), (t: stable, c: 1, d: -0.20000000298023224,
+  ds: 0.0, ods: 0.0, a: 88/88, r: 0.3999999910593033, h: 0.0)]'
+(1)[2022/01/05 03:25:21]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 2) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  188ms), (TPS: 19.992), (Plib: true), (Online: 2), (t: delay, ms: 497, l: 540.0,
+  d: 43.0, p: 92.03, b: sand, i: sand, m: 0, e: 0)]'
+(2)[2022/01/05 03:25:34]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed IrregularMovements (VL: 1) [(Version: Paper 1.18), (C-V: -4) (Silent: false),
+  (Ping: 990ms), (TPS: 20.0), (Plib: true), (Online: 2), (t: jump(unusual), d: 0.27512500000000273,
+  a: 2, r: 0.8788886546968087)]'
+(3)[2022/01/05 03:25:50]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed GhostHand (VL: 1) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  788ms), (TPS: 19.996), (Plib: true), (Online: 2), (t: break, c: sand, r: sand)]'
+(1)[2022/01/05 03:26:50]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed KillAura (VL: 1) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.829), (Plib: true), (Online: 1), (t: direction, d: 4.35631957298004,
+  t: 23, l: 100)]'
+(2)[2022/01/05 03:26:52]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 2) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.86), (Plib: true), (Online: 1), (t: delay, ms: 488, l: 540.0, d:
+  52.0, p: 90.37, b: sand, i: oak-planks, m: 0, e: 0)]'
+(3)[2022/01/05 03:26:53]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed KillAura (VL: 2) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  31ms), (TPS: 19.841), (Plib: true), (Online: 1), (t: direction, d: 4.281572629520172,
+  t: 44, l: 100)]'
+(4)[2022/01/05 03:26:54]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 3) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  31ms), (TPS: 19.853), (Plib: true), (Online: 1), (t: delay, ms: 496, l: 540.0, d:
+  44.0, p: 91.85, b: sand, i: oak-planks, m: 0, e: 0)]'
+(5)[2022/01/05 03:26:55]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed KillAura (VL: 3) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  31ms), (TPS: 19.845), (Plib: true), (Online: 1), (t: direction, d: 5.825617854779548,
+  t: 45, l: 200)]'
+(6)[2022/01/05 03:27:03]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed HitReach (VL: 1) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping:
+  0ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: horizontal(short), d: 5.442054442699627,
+  l: 4.2, m: 4.2, e: 1)]'
+(7)[2022/01/05 03:27:03]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed HitReach (VL: 2) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping:
+  0ms), (TPS: 19.817), (Plib: true), (Online: 1), (t: horizontal(short), d: 4.775313197612011,
+  l: 4.2, m: 4.2, e: 1)]'
+(8)[2022/01/05 03:27:04]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed HitReach (VL: 3) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping:
+  0ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: horizontal(short), d: 5.258395393998219,
+  l: 4.2, m: 4.2, e: 1)]'
+(9)[2022/01/05 03:27:05]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed HitReach (VL: 4) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping:
+  0ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: horizontal(short), d: 4.643000318850903,
+  l: 4.2, m: 4.2, e: 1)]'
+(10)[2022/01/05 03:27:05]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed HitReach (VL: 5) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping:
+  0ms), (TPS: 19.821), (Plib: true), (Online: 1), (t: horizontal(short), d: 5.115192433710633,
+  l: 4.2, m: 4.2, e: 1)]'
+(11)[2022/01/05 03:27:06]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed HitReach (VL: 6) [(Version: Paper 1.18), (C-V: -3) (Silent: false), (Ping:
+  0ms), (TPS: 19.825), (Plib: true), (Online: 1), (t: horizontal(short), d: 4.500438980158735,
+  l: 4.2, m: 4.2, e: 1)]'
+(12)[2022/01/05 03:27:19]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 4) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.809), (Plib: true), (Online: 1), (t: delay, ms: 500, l: 540.0, d:
+  40.0, p: 92.59, b: sand, i: oak-planks, m: 0, e: 0)]'
+(13)[2022/01/05 03:27:19]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed GhostHand (VL: 1) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.805), (Plib: true), (Online: 1), (t: break, c: sand, r: sand)]'
+(14)[2022/01/05 03:27:21]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 5) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.817), (Plib: true), (Online: 1), (t: delay, ms: 499, l: 540.0, d:
+  41.0, p: 92.4, b: sand, i: oak-planks, m: 0, e: 0)]'
+(15)[2022/01/05 03:27:22]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 6) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: delay, ms: 499, l: 540.0, d:
+  41.0, p: 92.4, b: sand, i: oak-planks, m: 0, e: 0)]'
+(16)[2022/01/05 03:27:30]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed GhostHand (VL: 2) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.992), (Plib: true), (Online: 1), (t: break, c: sand, r: sand)]'
+(17)[2022/01/05 03:27:30]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 7) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.853), (Plib: true), (Online: 1), (t: delay, ms: 499, l: 540.0, d:
+  41.0, p: 92.4, b: sand, i: oak-planks, m: 0, e: 0)]'
+(18)[2022/01/05 03:27:32]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 8) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.857), (Plib: true), (Online: 1), (t: delay, ms: 500, l: 540.0, d:
+  40.0, p: 92.59, b: sand, i: oak-planks, m: 0, e: 0)]'
+(19)[2022/01/05 03:27:32]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 9) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.86), (Plib: true), (Online: 1), (t: delay, ms: 500, l: 540.0, d:
+  40.0, p: 92.59, b: sand, i: oak-planks, m: 0, e: 0)]'
+(20)[2022/01/05 03:28:10]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed GhostHand (VL: 1) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: break, c: sand, r: sand)]'
+(21)[2022/01/05 03:28:10]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 1) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.984), (Plib: true), (Online: 1), (t: delay, ms: 503, l: 540.0, d:
+  37.0, p: 93.14, b: sand, i: oak-planks, m: 0, e: 0)]'
+(22)[2022/01/05 03:28:13]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 2) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.988), (Plib: true), (Online: 1), (t: delay, ms: 455, l: 540.0, d:
+  85.0, p: 84.25, b: sand, i: oak-planks, m: 0, e: 0)]'
+(23)[2022/01/05 03:28:13]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 3) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.86), (Plib: true), (Online: 1), (t: delay, ms: 487, l: 540.0, d:
+  53.0, p: 90.18, b: sand, i: oak-planks, m: 0, e: 0)]'
+(24)[2022/01/05 03:28:13]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 4) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: delay, ms: 501, l: 540.0, d:
+  39.0, p: 92.77, b: sand, i: oak-planks, m: 0, e: 0)]'
+(25)[2022/01/05 03:28:15]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 5) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.821), (Plib: true), (Online: 1), (t: delay, ms: 499, l: 540.0, d:
+  41.0, p: 92.4, b: sand, i: oak-planks, m: 0, e: 0)]'
+(26)[2022/01/05 03:28:16]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed Velocity (VL: 1) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (d: 0.0, h: 0.0, ddiff: 0.2999999999998272,
+  hdiff: 0.023720592385053862, dcorr: 0.0, hcorr: 0.0, dthr: 1.0, lcorr: 0.0, in:
+  0.3, mp: 0.3, kb: false)]'
+(27)[2022/01/05 03:28:18]: '[Spartan Build 442.1/3319-46166/*1758183-456232] devilsmiata
+  failed FastBreak (VL: 6) [(Version: Paper 1.18), (C-V: -2) (Silent: false), (Ping:
+  0ms), (TPS: 19.825), (Plib: true), (Online: 1), (t: delay, ms: 500, l: 540.0, d:
+  40.0, p: 92.59, b: sand, i: oak-planks, m: 0, e: 0)]'
