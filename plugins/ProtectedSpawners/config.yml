@@ -1,0 +1,15 @@
+#
+
+verbose: false
+config-version: 1
+enabled:
+  minecartchest: false
+messages:
+  break-block-failed: <red>Are you sure you want to break this? Loot regenerates and
+    spawners are limited! Use /confirm to confirm breaking.
+  player-command-can-break: <green>You can now break protected blocks.
+  player-command-time-out: ''
+materials-enabled:
+- CHEST
+- SPAWNER
+command-time-out: 300
