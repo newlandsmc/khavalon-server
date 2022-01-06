@@ -6,7 +6,7 @@ core:
     showNotices: true
     showMyNotices: true
     opIsLWCAdmin: true
-    disableHistory: true
+    disableHistory: false
     factionCheck: false
     groupPrefix: group.
     updateNotifier: false
