@@ -50,7 +50,7 @@ world-settings:
     end-portal-sound-radius: 0
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
-    mob-spawn-range: 8
+    mob-spawn-range: 7
     zombie-aggressive-towards-villager: true
     growth:
       cactus-modifier: 100
@@ -99,7 +99,7 @@ world-settings:
       villagers-active-for-panic: true
       tick-inactive-villagers: true
     entity-tracking-range:
-      players: 48
+      players: 64
       animals: 48
       monsters: 48
       misc: 32

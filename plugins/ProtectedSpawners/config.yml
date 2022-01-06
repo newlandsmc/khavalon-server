@@ -3,6 +3,7 @@
 verbose: false
 config-version: 1
 enabled:
+  loot-chest: false
   minecartchest: false
 messages:
   break-block-failed: <red>Are you sure you want to break this? Loot regenerates and

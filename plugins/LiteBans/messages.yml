@@ -68,20 +68,21 @@ history_time_format: yyyy-MM-dd
 banned_message_base: |
   &f&m      &8&m[  &c Banned &8&m  ]&f&m      &r
 
-  &fBanned on&7: $dateStart
-  &fBanned by&7: $executor
-  &fReason&7: $reason
+  &fBanned on:&7 $dateStart
+  &fBanned by:&7 $executor
+  &fReason:&7 $reason
 
   &f&m      &8&m[  &r    &8&m  ]&f&m      &r
 banned_message: |-
   $base
   &cExpires in $duration.
+  &cYou will be given another chance.
   $appealMessage
 banned_message_permanent: |-
   $base
   &cYou are permanently banned!
   $appealMessage
-banned_message_appeal_message: '&8Appeal&7: semivanilla.com/contact'
+banned_message_appeal_message: '&8Appeal Email:&7 appeal@semivanilla.com'
 banned_message_geoip_blacklist: |-
   &cYou are banned from this server
   &7Your location is blacklisted:  $geoip

@@ -12,7 +12,16 @@ alerts:
   # %severity% for changing colors depending on the violations (options found in severity option below), %x% (player's X-coordinate),
   # %y% (player's Y-coordinate), %z% (player's Z-coordinate), %world% (player's world), %complex-type% which will show a more
   # advanced name for the check, such as Speed (Ground) instead of Speed (Type B)
+  # This is the chat format that will be followed when a player fails a check.
+  # Valid placeholders are %player% (player name), %max-vl% (max violations), %check% (name of check), %description% (check description),
+  # %version% (player's client version), %dev% (* for whether or not the check is experimental), %vl% (violation level),
+  # %ping% (the player's ping), %tps% (the server's TPS), and %type% (character denoting the type for the check, A, B, C, etc),
+  # %severity% for changing colors depending on the violations (options found in severity option below), %x% (player's X-coordinate),
+  # %y% (player's Y-coordinate), %z% (player's Z-coordinate), %world% (player's world), %complex-type% which will show a more
+  # advanced name for the check, such as Speed (Ground) instead of Speed (Type B)
   format: '%prefix% &f%player% &7failed &f%check% %dev%&7(&fType %type%&7)%dev% &7[&4%vl%&7/&4%max-vl%&7]'
+  # This is the hover text that will be displayed when you hover over the alert message in chat.
+  # All of the same placeholders as the ones for the format are valid.
   # This is the hover text that will be displayed when you hover over the alert message in chat.
   # All of the same placeholders as the ones for the format are valid.
   hover-message:
@@ -29,19 +38,30 @@ alerts:
   # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
   # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
   # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
   click-commands:
   - /vulcan clickalert %player%
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
   # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
   # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
   click-alert-command-commands:
   - tp %player%
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
   toggled-on-message: '%prefix% Alerts enabled.'
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   toggled-off-message: '%prefix% Alerts disabled.'
   # Whether or not alerts will be printed to the console.
   # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
   print-to-console: true
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
   # The format for printing alerts to the console
   # The format for printing alerts to the console
   console-format: '[Vulcan] %player% failed %check% %dev%(Type %type%)%dev% (%vl%/%max-vl%)'
@@ -51,7 +71,15 @@ alerts:
   # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
   # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
   # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
   custom-commands: []
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
   # You can use this section to color code your alerts or add chances to them depending on the violation level.
   # You can use this section to color code your alerts or add chances to them depending on the violation level.
   severity:
@@ -78,8 +106,13 @@ alerts:
       '10': '&4' # The color that this severity should be, whatever is less than '11' and greater than or equal to '10' in the section above
   # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
   # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
   experimental-symbol: '*'
 verbose:
+  # Verbose notifications are sent whenever a player increases the buffer on a check. Only really here for developer
+  # purposes as it is very very spammy. All of the same info from above applies here. Not really recommended to be used
+  # as it will just completely spam your chat.
   # Verbose notifications are sent whenever a player increases the buffer on a check. Only really here for developer
   # purposes as it is very very spammy. All of the same info from above applies here. Not really recommended to be used
   # as it will just completely spam your chat.
@@ -97,10 +130,15 @@ verbose:
   # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
   # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
   # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
   click-commands:
   - /tp %player%
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
   toggled-on-message: '%prefix% Vulcan verbose enabled'
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   toggled-off-message: '%prefix% Vulcan verbose disabled'
 
@@ -122,16 +160,21 @@ log-file:
 # This section deals with the punishments.txt file
 punishment-file:
   # Whether or not the punishments.txt file is enabled.
+  # Whether or not the punishments.txt file is enabled.
   enabled: false
 
 # This section deals with automatic violation resets
 violation-reset:
   # Whether or not violations should reset automatically
+  # Whether or not violations should reset automatically
   enabled: true
+  # The interval (in minutes) in which violations should automatically be reset.
   # The interval (in minutes) in which violations should automatically be reset.
   interval-in-minutes: 8
   # Whether or not a message will be sent when violations are reset (this is only sent to staff who have /alerts enabled).
+  # Whether or not a message will be sent when violations are reset (this is only sent to staff who have /alerts enabled).
   message-enabled: false
+  # The message that is sent (only to staff with /alerts enabled) when violations are reset.
   # The message that is sent (only to staff with /alerts enabled) when violations are reset.
   message: '%prefix% Violations for all online players were reset!'
 
@@ -139,27 +182,42 @@ violation-reset:
 client-brand-alerts:
   # Whether or not Vulcan should even try to resolve the player's client brand - disabling this won't register
   # the messaging channel at all.
+  # Whether or not Vulcan should even try to resolve the player's client brand - disabling this won't register
+  # the messaging channel at all.
   resolve: true
   # Whether or not client brand alerts are enabled.
+  # Whether or not client brand alerts are enabled.
   enabled: false
+  # A list of client brands for which alerts will not be sent for. This doesn't have to match exactly, i.e
+  # 'lunar' will be able to pick up 'lunarclient', etc.
   # A list of client brands for which alerts will not be sent for. This doesn't have to match exactly, i.e
   # 'lunar' will be able to pick up 'lunarclient', etc.
   ignore-alerts-list:
   - vanilla
   # The message sent when a player joins the server. Valid placeholder are %player (player name), %prefix% (plugin prefix),
   # %client-brand% (the user's client brand), and %client-version% (the user's client version).
+  # The message sent when a player joins the server. Valid placeholder are %player (player name), %prefix% (plugin prefix),
+  # %client-brand% (the user's client brand), and %client-version% (the user's client version).
   message: '%prefix% &c%player% &7joined using &f%client-brand%&7!'
+  # A list of client brands that will not be allowed and will be kicked automatically when they join. This uses
+  # string comparison so it doesnt need to be exact, for example, 'forge' will block Forge, 'lunar' will block lunar, etc.
   # A list of client brands that will not be allowed and will be kicked automatically when they join. This uses
   # string comparison so it doesnt need to be exact, for example, 'forge' will block Forge, 'lunar' will block lunar, etc.
   blocked-client-brands: []
   unallowed-client-brand-kick-message: '&cYou can''t join with %client-brand%!'
   # Whether or not client brand alerts should be sent to the console
+  # Whether or not client brand alerts should be sent to the console
   console: false
+  # The message that should be printed to the console (if the above option is enabled)
   # The message that should be printed to the console (if the above option is enabled)
   console-message: '[Vulcan] %player% joined using %client-brand%!'
   # Whether or not the client brand whitelist should be enabled. Anyone joining with a client brand that is not
   # included in the list below will not be allowed to join
+  # Whether or not the client brand whitelist should be enabled. Anyone joining with a client brand that is not
+  # included in the list below will not be allowed to join
   whitelist-enabled: false
+  # The client brands that will be whitelisted This uses string comparison so it doesnt need to be exact, for example,
+  # 'forge' will block Forge, 'lunar' will block lunar, etc.
   # The client brands that will be whitelisted This uses string comparison so it doesnt need to be exact, for example,
   # 'forge' will block Forge, 'lunar' will block lunar, etc.
   whitelisted-client-brands: []
@@ -192,7 +250,9 @@ connection:
 # This section deals with punishment.s
 punishments:
   # The message that is sent when a player is punished (only sent to staff with /alerts enabled)
+  # The message that is sent when a player is punished (only sent to staff with /alerts enabled)
   message: '%prefix% %player% was punished for %check% (Type %type%) [x%vl%]'
+  # The message that will be broadcast to the whole server when a player is punished
   # The message that will be broadcast to the whole server when a player is punished
   broadcast:
   - '&e&m                                                   '
@@ -202,37 +262,47 @@ punishments:
 #Judgement Day options
 judgement-days:
   # The message that wil be broadcast to the server when someone has executed /jday start
+  # The message that wil be broadcast to the server when someone has executed /jday start
   started-broadcast:
   - '&e&m                                                   '
   - '&fVulcan Judgement Day v1 has commenced...'
   - '&e&m                                                   '
+  # The message that will be broadcast to the server when the judgement day has ended.
   # The message that will be broadcast to the server when the judgement day has ended.
   ended-broadcast:
   - '&e&m                                                   '
   - '&fThe Judgement Day has ended... %amount% players were punished.'
   - '&e&m                                                   '
   # The commands that will be executed, %player% indicates a player who was added to judgement day (/jday add (name)))
+  # The commands that will be executed, %player% indicates a player who was added to judgement day (/jday add (name)))
   commands:
   - ban %player% &c[Vulcan] Judgement Day v1
+  # The broadcast that will be sent to the server when someone is punished in a judgement day.
   # The broadcast that will be sent to the server when someone is punished in a judgement day.
   broadcast:
   - '&e&m                                                   '
   - '&f%player% was banned for &f[Vulcan] Judgement Day v1.'
   - '&e&m                                                   '
   # How long we should wait in between players who are queued in judgement days
+  # How long we should wait in between players who are queued in judgement days
   cooldown: 1000
+  # Whether or not judgement days should run automatically at a specified interval (if the above is true)
   # Whether or not judgement days should run automatically at a specified interval (if the above is true)
   run-at-interval: false
   # If the above is true, the interval at which they should run (in ticks, 20 ticks = 1 second. default = 36000 ticks = 30mins)
+  # If the above is true, the interval at which they should run (in ticks, 20 ticks = 1 second. default = 36000 ticks = 30mins)
   interval: 36000
 freeze:
+  # A customizable list of commands that will be executed when a player logs out while frozen
   # A customizable list of commands that will be executed when a player logs out while frozen
   logged-out-while-frozen-commands: []
 
 # Options regarding the join message
 join-message:
   # Whether or not the join message is enabled
+  # Whether or not the join message is enabled
   enabled: false
+  # The message that will be sent when a player joins the server.
   # The message that will be sent when a player joins the server.
   message:
   - ''
@@ -254,35 +324,49 @@ kick-alert-messages:
 gui:
   # Title of the main menu in /vulcan gui. Doesn't support color codes. /vulcan reload won't reload this value
   # since it's only initialized onEnable.
+  # Title of the main menu in /vulcan gui. Doesn't support color codes. /vulcan reload won't reload this value
+  # since it's only initialized onEnable.
   title: Vulcan AntiCheat
 
 # Whether or not ghost block fix should be enabled. Players will be set back and the blocks will be updated.
 ghost-blocks-fix:
   # Whether or not ghost block fix should be enabled at all.
+  # Whether or not ghost block fix should be enabled at all.
   enabled: true
   # Whether or not Vulcan should try to account for ghost water blocks
+  # Whether or not Vulcan should try to account for ghost water blocks
   ghost-water-fix: true
+  # Buffer settings
   # Buffer settings
   buffer:
     max: 3
     decay: 0.1
   # Whether or not setbacks for ghost blocks should be enabled.
+  # Whether or not setbacks for ghost blocks should be enabled.
   setback: true
+  # Whether or not block change packets should be sent around the bottom of the player reupdating the blocks below them
   # Whether or not block change packets should be sent around the bottom of the player reupdating the blocks below them
   update-blocks: false
   # How many ticks should they be in the air before being flagged as on a ghost block (default 3)
+  # How many ticks should they be in the air before being flagged as on a ghost block (default 3)
   ticks: 3
+  # Whether or not the player will get sent a message when ghost blocks around them are updated
   # Whether or not the player will get sent a message when ghost blocks around them are updated
   message-enabled: false
   # The message that will get sent to players when they're on a ghost block (if the above is enabled)
+  # The message that will get sent to players when they're on a ghost block (if the above is enabled)
   message: '&cYou were walking on a ghost block. It has been updated!'
   # Whether or not staff should be sent a message when someone is setback for being on a ghost block
+  # Whether or not staff should be sent a message when someone is setback for being on a ghost block
   staff-message-enabled: true
+  # The message that will be sent to staff when a player's position is updated for being on a ghost block.
   # The message that will be sent to staff when a player's position is updated for being on a ghost block.
   staff-message: '%prefix% %player%''s position was updated for being on a ghost block!
     (%world%, %x%, %y%, %z%) [%ticks%]'
   # Whether or not the ghost block message should be printed to console
+  # Whether or not the ghost block message should be printed to console
   print-to-console: true
+  # The message that is printed to console if the above is true.
   # The message that is printed to console if the above is true.
   console-message: '%player% position was updated for being on a ghost block! (%world%,
     %x%, %y%, %z%) [%ticks%]'
@@ -382,6 +466,7 @@ messages:
 # Command configuration options.
 commands:
   # Vulcan help command message.
+  # Vulcan help command message.
   help:
   - '&e&m                                                   '
   - '&cVulcan Cheat Detection v%version% by &cfrep (frap#0002)'
@@ -411,14 +496,17 @@ commands:
   - '&e&m                                                   '
   ban:
     # The commands that will be executed when /vulcan ban (player) is executed
+    # The commands that will be executed when /vulcan ban (player) is executed
     commands:
     - ban %player% Hacked client detected.
+    # The messages that will be broadcast when /vulcan ban (player) is executed
     # The messages that will be broadcast when /vulcan ban (player) is executed
     broadcast:
     - '&e&m                                                   '
     - '&fVulcan has detected %player% to be cheating and has removed them from the
       network.'
     - '&e&m                                                   '
+  # Options for the /vulcan profile (name) command
   # Options for the /vulcan profile (name) command
   profile:
   - '&e&m                                                   '
@@ -494,9 +582,12 @@ commands:
     header-footer: '&e&m          &r Punishment Logs for %player% &e&m           '
 punishment-statistics-broadcast:
   # Whether or not Vulcan should broadcast how many players it has punished.
+  # Whether or not Vulcan should broadcast how many players it has punished.
   enabled: false
   # The interval at which the message should be broadcasted in (in ticks) (default = 18000 = 15min)
+  # The interval at which the message should be broadcasted in (in ticks) (default = 18000 = 15min)
   interval: 18000
+  # The message that should be broadcasted
   # The message that should be broadcasted
   broadcast:
   - '&e&m                                                   '
@@ -506,9 +597,14 @@ punishment-statistics-broadcast:
 # Some simple settings
 settings:
   # Whether or not alerts will automatically be enabled on-join for players who have the permission "vulcan.alerts"
+  # Whether or not alerts will automatically be enabled on-join for players who have the permission "vulcan.alerts"
   toggle-alerts-on-join: true
   # Whether or not the severity placeholder should be based off of per-check violations or the total violations of the player
+  # Whether or not the severity placeholder should be based off of per-check violations or the total violations of the player
   per-check-severities: true
+  # Whether or not cinematic mode will be checked for certain aim checks. This isn't really a big deal and can be
+  # left disabled as this will pretty much NEVER happen unless done intentionally. Enabling this will slow
+  # detection speeds for certain checks.
   # Whether or not cinematic mode will be checked for certain aim checks. This isn't really a big deal and can be
   # left disabled as this will pretty much NEVER happen unless done intentionally. Enabling this will slow
   # detection speeds for certain checks.
@@ -516,17 +612,27 @@ settings:
   # This is just here in case I forget to remove a debug message when I post an update. If I forget to remove a debug
   # message and you see [Vulcan Debug] on your server, disable this (it won't effect you if this is enabled or disabled
   # unless I forget to remove a debug message, but if you see [Vulcan Debug] in chat, then set this to false and reload).
+  # This is just here in case I forget to remove a debug message when I post an update. If I forget to remove a debug
+  # message and you see [Vulcan Debug] on your server, disable this (it won't effect you if this is enabled or disabled
+  # unless I forget to remove a debug message, but if you see [Vulcan Debug] in chat, then set this to false and reload).
   debug: false
   # Whether or not 'A new update is available!' message will be set on join for players with 'vulcan.admin' permission
+  # Whether or not 'A new update is available!' message will be set on join for players with 'vulcan.admin' permission
   check-for-updates: false
+  # A setting for PacketEvents, we may ask you to change this if you're having issues injecting. If everything is working
+  # fine, don't touch this.
   # A setting for PacketEvents, we may ask you to change this if you're having issues injecting. If everything is working
   # fine, don't touch this.
   inject-early: true
   # This is the time (in ticks - 20 ticks per second - default value is 80 (4 seconds)) of how long players should be exempt from certain
   # checks after velocity gets applied to them via another plugin or something (such as Launchpads, crate plugins, etc etc).
+  # This is the time (in ticks - 20 ticks per second - default value is 80 (4 seconds)) of how long players should be exempt from certain
+  # checks after velocity gets applied to them via another plugin or something (such as Launchpads, crate plugins, etc etc).
   max-velocity-ticks: 50
   # This is the max file size (in KB) before the violations.txt should be zipped and put into the logs folder
+  # This is the max file size (in KB) before the violations.txt should be zipped and put into the logs folder
   max-logs-file-size: 7500
+  # If you have a bungee network and want to have a specific server name for punishment/alert messages, etc
   # If you have a bungee network and want to have a specific server name for punishment/alert messages, etc
   server-name: Default
   # Whether or not alert messages should be sent on the main thread or asynchronously. If your server is on bungee, it is recommended to keep this
@@ -601,11 +707,11 @@ settings:
   # For plugin messaging, don't touch this
   split-character: '#'
 hooks:
-  ######################################################################################################################
+  # #####################################################################################################################
   # Discord Configuration                                                                                              #
   # enable-hook: Enable/Disable discord support. You must have DiscordBotAPI installed.                                #
   # Requires https://www.spigotmc.org/resources/discordbotapi.86518/                                                   #
-  ######################################################################################################################
+  # #####################################################################################################################
   discord:
     enable-hook: false
     alerts-channel-id: channel_id_here
@@ -3250,6 +3356,18 @@ checks:
         punishment-commands:
         - 'warn %player% Hacked client detected: Player - Ghost Hand'
         cancel: true
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
     # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
     # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
     # packets after 30 seconds.

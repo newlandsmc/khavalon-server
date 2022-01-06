@@ -3,7 +3,7 @@
 verbose: false
 config-version: 1
 enderdragon:
-  killed: <gray> * The ender dragon was killed by <players>!
-  spawned: <gray> * The ender dragon has respawned!
+  killed: <gray> * The Ender Dragon was killed by <players>!
+  spawned: <gray> * The Ender Dragon has respawned!
   respawn-delay: 36000
   exp-to-drop: 6000
