@@ -108,22 +108,22 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 2
     hopper-amount: 1
-    seed-village: 10387312
-    seed-desert: 14357617
-    seed-igloo: 14357618
-    seed-jungle: 14357619
-    seed-swamp: 14357620
-    seed-monument: 10387313
-    seed-shipwreck: 165745295
-    seed-ocean: 14357621
-    seed-outpost: 165745296
-    seed-endcity: 10387313
-    seed-slime: 987234911
-    seed-bastion: 30084232
-    seed-fortress: 30084232
-    seed-mansion: 10387319
-    seed-fossil: 14357921
-    seed-portal: 34222645
+    seed-village: 10387111
+    seed-desert: 14357111
+    seed-igloo: 14357111
+    seed-jungle: 14357111
+    seed-swamp: 14357111
+    seed-monument: 10387111
+    seed-shipwreck: 165745111
+    seed-ocean: 14357111
+    seed-outpost: 165745111
+    seed-endcity: 10387111
+    seed-slime: 987234111
+    seed-bastion: 30084111
+    seed-fortress: 30084111
+    seed-mansion: 10387111
+    seed-fossil: 14357111
+    seed-portal: 34222111
     max-tnt-per-tick: 100
     hunger:
       jump-walk-exhaustion: 0.05

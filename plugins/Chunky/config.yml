@@ -5,11 +5,29 @@ language: en
 continue-on-restart: false
 tasks:
   world:
-    cancelled: false
+    cancelled: true
     radius: 15000.0
     x-center: 0.0
     z-center: 0.0
     iterator: concentric
     shape: square
-    count: 1077485
-    time: 14101059
+    count: 3523079
+    time: 95672824
+  world_the_end:
+    cancelled: true
+    radius: 15000.0
+    x-center: 0.0
+    z-center: 0.0
+    iterator: concentric
+    shape: square
+    count: 3523079
+    time: 90603708
+  world_nether:
+    cancelled: true
+    radius: 15000.0
+    x-center: 0.0
+    z-center: 0.0
+    iterator: concentric
+    shape: square
+    count: 3523079
+    time: 96427346

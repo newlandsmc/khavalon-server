@@ -93,7 +93,7 @@ settings:
       to use TNT duplication, but this also allows duplicating carpet, rails and potentially
       other items
   async-chunks:
-    threads: 2
+    threads: -1
   packet-limiter:
     kick-message: '&cSent too many packets'
     limits:

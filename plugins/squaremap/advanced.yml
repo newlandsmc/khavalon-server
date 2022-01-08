@@ -4,7 +4,7 @@ settings:
         EntityChangeBlockEvent: false
         BlockGrowEvent: false
         StructureGrowEvent: false
-        ChunkPopulateEvent: false
+        ChunkPopulateEvent: true
         FluidLevelChangeEvent: false
         BlockBreakEvent: false
         BlockSpreadEvent: false

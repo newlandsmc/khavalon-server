@@ -23,3 +23,9 @@ expansions:
       medium: '&e'
       high: '&c'
       low: '&a'
+  server:
+    tps_color:
+      high: '&a'
+      low: '&c'
+      medium: '&e'
+    server_name: A Minecraft Server

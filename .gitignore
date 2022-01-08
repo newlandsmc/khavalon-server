@@ -14,10 +14,13 @@
 /plugins/MMOCore/userdata/
 /plugins/MythicMobs/SavedData/
 /plugins/LWCTrust/trusts/
+/plugins/Chunky/config.yml
 /plugins/ChunkyBorder/borders.json
 /plugins/AureliumSkills/regiondata/
 /plugins/squaremap/web/tiles/
 /plugins/squaremap/web/map/tiles/
+/plugins/squaremap/data/
+/plugins/AFKPlus/statistics.yml/
 
 # Ignore bloat in plugins
 /plugins/ChatCore/Chat Logs/

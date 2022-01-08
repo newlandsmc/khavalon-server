@@ -35,7 +35,7 @@ call-from-worlds:
 # There exists a dynamic distribution named `world-border` that automatically makes a distribution to perfectly
 #   fill a world border managed by ChunkyBorder (or any future supported world border plugin), or the default minecraft
 #   world border if no plugin is found.
-distribution: 'random-death-overworld'
+distribution: 'random-death'
 
 # Which method should we use to find a safe location? Since this plugin is meant to work 'out-of-the-box' without need
 #   of configuring, the 'auto' option has been included.
