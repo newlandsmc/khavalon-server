@@ -3,7 +3,7 @@
 ##############################################
 
 # The prefix that will be used for all of the %prefix% messages throughout the plugin
-prefix: '&4&lVulcan &8»'
+prefix: '&7Vulcan:'
 
 alerts:
   # This is the chat format that will be followed when a player fails a check.
@@ -35,9 +35,9 @@ alerts:
   click-alert-command-commands:
     - 'tp %player%'
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
-  toggled-on-message: '%prefix% &7Vulcan alerts &aenabled&7!'
+  toggled-on-message: '%prefix% Alerts enabled.'
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
-  toggled-off-message: '%prefix% &7Vulcan alerts &cdisabled&7!'
+  toggled-off-message: '%prefix% Alerts disabled.'
   # Whether or not alerts will be printed to the console.
   print-to-console: true
   # The format for printing alerts to the console
@@ -76,7 +76,7 @@ verbose:
   # Verbose notifications are sent whenever a player increases the buffer on a check. Only really here for developer
   # purposes as it is very very spammy. All of the same info from above applies here. Not really recommended to be used
   # as it will just completely spam your chat.
-  format: '%prefix% &f%player% &7verbosed &f%check% &7(&f%type%&7) %dev% &7[&4%percent%%&7]'
+  format: '%prefix% %player% verbosed %check% (%type%) %dev% [%percent%%]'
   hover-message:
     - '&7Ping: &c%ping% &8| &7TPS: &c%tps% &8| &7Version: &c%version%'
     - ''
@@ -89,13 +89,13 @@ verbose:
     - '&7Click to teleport to &b%player%&7.'
   click-commands:
     - '/tp %player%'
-  toggled-on-message: '%prefix% &7Vulcan verbose &aenabled&7!'
-  toggled-off-message: '%prefix% &7Vulcan verbose &cdisabled&7!'
+  toggled-on-message: '%prefix% Vulcan verbose enabled'
+  toggled-off-message: '%prefix% Vulcan verbose disabled'
 
 #This section deals with the log file (violations.txt)
 log-file:
   # Whether or not the log file is enabled
-  enabled: true
+  enabled: false
   # The message that is logged when a player fails a check.
   # Valid placeholders are %player% (player name), %max-vl% (max violations), %check% (name of check), %description% (check description),
   # %version% (player's client version), %dev% (* for whether or not the check is experimental), %vl% (violation level),
@@ -108,7 +108,7 @@ log-file:
 # This section deals with the punishments.txt file
 punishment-file:
   # Whether or not the punishments.txt file is enabled.
-  enabled: true
+  enabled: false
 
 # This section deals with automatic violation resets
 violation-reset:
@@ -117,9 +117,9 @@ violation-reset:
   # The interval (in minutes) in which violations should automatically be reset.
   interval-in-minutes: 8
   # Whether or not a message will be sent when violations are reset (this is only sent to staff who have /alerts enabled).
-  message-enabled: true
+  message-enabled: false
   # The message that is sent (only to staff with /alerts enabled) when violations are reset.
-  message: '%prefix% &7Violations for all online players were reset!'
+  message: '%prefix% Violations for all online players were reset!'
 
 # This section deals with client brand alerts and client brand blacklisting.
 client-brand-alerts:
@@ -127,18 +127,18 @@ client-brand-alerts:
   # the messaging channel at all.
   resolve: true
   # Whether or not client brand alerts are enabled.
-  enabled: true
+  enabled: false
   # A list of client brands for which alerts will not be sent for. This doesn't have to match exactly, i.e
   # 'lunar' will be able to pick up 'lunarclient', etc.
   ignore-alerts-list:
     - 'vanilla'
   # The message sent when a player joins the server. Valid placeholder are %player (player name), %prefix% (plugin prefix),
   # %client-brand% (the user's client brand), and %client-version% (the user's client version).
-  message: '%prefix% &c%player% &7joined using &f%client-brand%&7!'
+  message: '%prefix% %player% joined using %client-brand% (this can be spoofed)'
   # A list of client brands that will not be allowed and will be kicked automatically when they join. This uses
   # string comparison so it doesnt need to be exact, for example, 'forge' will block Forge, 'lunar' will block lunar, etc.
   blocked-client-brands: []
-  unallowed-client-brand-kick-message: '&cYou can''t join with %client-brand%!'
+  unallowed-client-brand-kick-message: '&cYou can''t join with %client-brand% (this can be spoofed)'
   # Whether or not client brand alerts should be sent to the console
   console: false
   # The message that should be printed to the console (if the above option is enabled)
@@ -155,52 +155,52 @@ connection:
     kick-enabled: true
     max-delay: 45000
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-    staff-alert-message: '%prefix% &c%player% &7was kicked for not replying to Transaction Packets! &7(&c%delay%ms&7)'
-    console-message: '[Vulcan] &c%player% &7was kicked for not replying to Transaction Packets! &7(&c%delay%ms&7)'
+    staff-alert-message: '%prefix% %player% was kicked for not replying to Transaction Packets! (%delay%ms)'
+    console-message: '[Vulcan] %player% was kicked for not replying to Transaction Packets! (%delay%ms)'
   keepalive:
     kick-enabled: true
     max-delay: 45000
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-    staff-alert-message: '%prefix% &c%player% &7was kicked for not replying to KeepAlive Packets! &7(&c%delay%ms&7)'
-    console-message: '[Vulcan] &c%player% &7was kicked for not replying to KeepAlive Packets! &7(&c%delay%ms&7)'
+    staff-alert-message: '%prefix% %player% was kicked for not replying to KeepAlive Packets! (%delay%ms)'
+    console-message: '[Vulcan] %player% was kicked for not replying to KeepAlive Packets! (%delay%ms)'
   max-ping:
     kick-enabled: true
     max-ping: 20000
     max-ticks: 20
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-    staff-alert-message: '%prefix% &c%player% &7was kicked for having too high ping! &7(&c%ping%ms&7)'
-    console-message: '[Vulcan] &c%player% &7kicked for having too high ping! &7(&c%ping%ms&7)'
+    staff-alert-message: '%prefix% %player% was kicked for having too high ping! (%ping%ms)'
+    console-message: '[Vulcan] %player% kicked for having too high ping! (%ping%ms)'
 
 # This section deals with punishment.s
 punishments:
   # The message that is sent when a player is punished (only sent to staff with /alerts enabled)
-  message: '%prefix% &c%player% &7was punished for &f%check% &7(&fType %type%&7) &7[&4x%vl%&7]'
+  message: '%prefix% %player% was punished for %check% (Type %type%) [x%vl%]'
   # The message that will be broadcast to the whole server when a player is punished
   broadcast:
-    - "&7&m---»--*-------------------------------------*--«---"
-    - "&cVulcan &7has detected &c%player% &7to be cheating and has removed them from the network."
-    - "&7&m---»--*-------------------------------------*--«---"
+    - "&e&m                                                   "
+    - "&fVulcan detected %player% to be cheating and has removed them from the server."
+    - "&e&m                                                   "
 
 #Judgement Day options
 judgement-days:
   # The message that wil be broadcast to the server when someone has executed /jday start
   started-broadcast:
-    - "&7&m---»--*-------------------------------------*--«---"
-    - "&cVulcan Judgement Day v1 has commenced..."
-    - "&7&m---»--*-------------------------------------*--«---"
+    - "&e&m                                                   "
+    - "&fVulcan Judgement Day has commenced..."
+    - "&e&m                                                   "
   # The message that will be broadcast to the server when the judgement day has ended.
   ended-broadcast:
-    - "&7&m---»--*-------------------------------------*--«---"
-    - "&cThe Judgement Day has ended... %amount% players were punished."
-    - "&7&m---»--*-------------------------------------*--«---"
+    - "&e&m                                                   "
+    - "&fVulcan Judgement Day has ended... %amount% players were punished."
+    - "&e&m                                                   "
   # The commands that will be executed, %player% indicates a player who was added to judgement day (/jday add (name)))
   commands:
-    - "ban %player% &c[Vulcan] Judgement Day v1"
+    - "ban %player% Vulcan Judgement Day"
   # The broadcast that will be sent to the server when someone is punished in a judgement day.
   broadcast:
-    - '&7&m---»--*-------------------------------------*--«---'
-    - '&c%player% &7was banned for &c[Vulcan] Judgement Day v1&7.'
-    - '&7&m---»--*-------------------------------------*--«---'
+    - '&e&m                                                   '
+    - '&f%player% was banned during Vulcan Judgement Day.'
+    - '&e&m                                                   '
   # How long we should wait in between players who are queued in judgement days
   cooldown: 1000
   # Whether or not judgement days should run automatically at a specified interval (if the above is true)
@@ -225,11 +225,11 @@ join-message:
 # Whether or not staff will /alerts enabled will be notified when players get kicked for any of these reasons by
 # Spigot itself (these are just messages, Vulcan is not actually kicking the player for any of these things)
 kick-alert-messages:
-  enabled: true
+  enabled: false
   messages:
-    flying-not-enabled: '%prefix% &c%player% &7was kicked for &bFlying is Not Enabled&7!'
-    invalid-move-packet: '%prefix% &c%player% &7was kicked for &bInvalid Movement Packet&7!'
-    too-many-packets: '%prefix% &c%player% &7was kicked for &bToo Many Packets&7!'
+    flying-not-enabled: '%prefix% %player% was kicked for Flying is Not Enabled!'
+    invalid-move-packet: '%prefix% %player% was kicked for Invalid Movement Packet!'
+    too-many-packets: '%prefix% %player% was kicked for Too Many Packets!'
 
 # GUI Options.
 gui:
@@ -260,137 +260,137 @@ ghost-blocks-fix:
   # Whether or not staff should be sent a message when someone is setback for being on a ghost block
   staff-message-enabled: true
   # The message that will be sent to staff when a player's position is updated for being on a ghost block.
-  staff-message: '%prefix% &c%player%''s &7position was updated for being on a ghost block! (%world%, %x%, %y%, %z%) &7[%ticks%]'
+  staff-message: '%prefix% %player%''s position was updated for being on a ghost block! (%world%, %x%, %y%, %z%) [%ticks%]'
   # Whether or not the ghost block message should be printed to console
   print-to-console: true
   # The message that is printed to console if the above is true.
-  console-message: '%player% position was updated for being on a ghost block! (%world%, %x%, %y%, %z%) &7[%ticks%]'
+  console-message: '%player% position was updated for being on a ghost block! (%world%, %x%, %y%, %z%) [%ticks%]'
 
 
 # Message options - these are all pretty self explanatory.
 messages:
-  no-permission: '&cYou don''t have permission to execute this command!'
+  no-permission: '&cYou do not have permission to do this.'
   cant-execute-from-console: '&cYou can''t execute this command from console!'
-  ban-command-syntax: '%prefix% &7Proper Syntax: &c/vulcan ban (player)&7.'
-  kb-command-syntax: '%prefix% &7Proper Syntax: &c/vulcan knockback (player) &8| &c/vulcan kb (player)&7.'
-  profile-command-syntax: '%prefix% &7Proper Syntax: &c/vulcan profile (player)&7.'
-  jday-command-syntax: '%prefix% &7Proper Syntax: &c/jday add (player) &8| &c/jday execute &8| &c/jday list &8| &c/jday remove (player)&7.'
-  reload-success: '%prefix% &aSuccessfully reloaded Vulcan!'
-  invalid-target: '%prefix% &cThe specified player could not be found!'
-  kb-test-success: '%prefix% &aSuccessfully performed knockback test on %player%!'
-  jday-no-pending-bans: '%prefix% &cThere are no pending bans!'
-  jday-added-to-list: '%prefix% &c%player% &7was successfully added to the list!'
-  reset-command: '%prefix% &7Violations for all online players were reset!'
-  no-next-page: '%prefix% &cThere is no next page!'
-  no-previous-page: '%prefix% &cThere is no previous page!'
-  enabled-all-checks: '%prefix% &aEnabled all checks!'
-  disabled-all-checks: '%prefix% &cDisabled all checks!'
-  enabled-all-punishments: '%prefix% &aEnabled all punishments!'
-  disabled-all-punishments: '%prefix% &cDisabled all punishments!'
-  disabled-check: '%prefix% &cDisabled check %check%!'
-  enabled-check: '%prefix% &aEnabled check %check%!'
-  disabled-punishment: '%prefix% &cDisabled punishment for %check%!'
-  enabled-punishment: '%prefix% &aEnabled punishment for %check%!'
-  disabled-hotbar-shuffle: '%prefix% &cHotbar shuffle for %check% disabled!'
-  enabled-hotbar-shuffle: '%prefix% &aHotbar shuffle for %check% enabled!'
-  disabled-random-rotation: '%prefix% &cRandom rotation for %check% disabled!'
-  enabled-random-rotation: '%prefix% &aRandom rotation for %check% enabled!'
-  disabled-broadcast-punishment: '%prefix% &cBroadcast punishment for %check% disabled!'
-  enabled-broadcast-punishment: '%prefix% &aBroadcast punishment for %check% enabled!'
+  ban-command-syntax: '&fProper Syntax: /vulcan ban (player).'
+  kb-command-syntax: '&fProper Syntax: /vulcan knockback (player) &8| &c/vulcan kb (player).'
+  profile-command-syntax: '&fProper Syntax: /vulcan profile (player).'
+  jday-command-syntax: '&fProper Syntax: /jday add (player) | /jday execute | /jday list | /jday remove (player).'
+  reload-success: '&aSuccessfully reloaded Vulcan!'
+  invalid-target: '&cThe specified player could not be found!'
+  kb-test-success: '&aSuccessfully performed knockback test on %player%!'
+  jday-no-pending-bans: '&cThere are no pending bans!'
+  jday-added-to-list: '&a%player% was successfully added to the list!'
+  reset-command: '&aViolations for all online players were reset!'
+  no-next-page: '&cThere is no next page!'
+  no-previous-page: '&cThere is no previous page!'
+  enabled-all-checks: '&aEnabled all checks!'
+  disabled-all-checks: '&cDisabled all checks!'
+  enabled-all-punishments: '&aEnabled all punishments!'
+  disabled-all-punishments: '&cDisabled all punishments!'
+  disabled-check: '&cDisabled check %check%!'
+  enabled-check: '&aEnabled check %check%!'
+  disabled-punishment: '&cDisabled punishment for %check%!'
+  enabled-punishment: '&aEnabled punishment for %check%!'
+  disabled-hotbar-shuffle: '&cHotbar shuffle for %check% disabled!'
+  enabled-hotbar-shuffle: '&aHotbar shuffle for %check% enabled!'
+  disabled-random-rotation: '&cRandom rotation for %check% disabled!'
+  enabled-random-rotation: '&aRandom rotation for %check% enabled!'
+  disabled-broadcast-punishment: '&cBroadcast punishment for %check% disabled!'
+  enabled-broadcast-punishment: '&aBroadcast punishment for %check% enabled!'
   must-be-an-integer: '&cMust be an integer!'
   must-be-positive: '&cMust be positive!'
   must-be-number: '&cMust be a number!'
-  set-max-buffer: '%prefix% &aSet max buffer for %check% to %value%!'
-  set-hotbar-shuffle-minimum-violations: '%prefix% &aSet minimum violations to shuffle hotbar for %check% to %value%!'
-  set-hotbar-shuffle-interval: '%prefix% &aSet hotbar shuffle interval for %check% to %value%!'
-  set-random-rotation-minimum-violations: '%prefix% &aSet minimum violations to randomly rotate for %check% to %value%!'
-  set-random-rotation-interval: '%prefix% &aSet random rotation interval for %check% to %value%!'
-  set-alert-interval: '%prefix% &aSet alert interval for %check% to %value%!'
-  set-buffer-decay: '%prefix% &aSet buffer decay for %check% to %value%!'
-  set-buffer-multiple: '%prefix% &aSet buffer multiple for %check% to %value%!'
-  set-max-violations: '%prefix% &aSet max violations for %check% to %value%!'
-  set-minimum-violations-to-alert: '%prefix% &aSet minimum violations to alert for %check% to %value%!'
-  set-maximum-ping: '%prefix% &aSet maximum ping for %check% to %value%!'
-  set-minimum-tps: '%prefix% &aSet minimum TPS for %check% to %value%!'
-  removed-punishment-command: '%prefix% &aRemoved command %command% from check %check%!'
-  invalid-index-number: '%prefix% &cInvalid index number!'
-  stopped-editing-punishment-commands: '%prefix% &cStopped editing punishment commands!'
-  added-punishment-command: '%prefix% &aAdded punishment command %command% to check %check%!'
-  enter-punishment-command: '%prefix% &aEnter the command you want to add! Type STOP or CANCEL to exit!'
-  remove-punishment-command: '%prefix% &cEnter the index of the command you want to remove. Type STOP or CANCEL to exit!'
-  disable-check-command-syntax: '%prefix% &cProper Syntax: /vulcan disablecheck (check name) - case sensitive.'
-  invalid-check: '%prefix% &cInvalid check name! Examples: AimA, BadPacketsF, AutoClickerJ.'
-  removed-check: '%prefix% &cDisabled check %check%!'
-  violations-command-syntax: '%prefix% &cProper Syntax: /vulcan violations (player)'
-  no-logs: '%prefix% &cThis player set off no logs!'
-  cps-command-syntax: '%prefix% &cProper Syntax: /vulcan cps (player)'
-  connection-command-syntax: '%prefix% &cProper Syntax: /vulcan connection (player)'
-  logs-command-syntax: '%prefix% &cProper Syntax: /logs (player) (page)'
-  no-logs-file: '%prefix% &cThere is no logs file!'
-  logs-command-no-logs: '%prefix% &cThere were no logs found for %player%!'
-  no-page: '%prefix% &cThere is no page %page% for %player%!'
-  update-available: '%prefix% &7A new update for &cVulcan &7is available! (&cv%new-version%&7)'
-  latest-version: '%prefix% &aYou are running the latest version of Vulcan!'
-  injection-failure: 'You joined too quickly. Please try again!'
+  set-max-buffer: '&fSet max buffer for %check% to %value%!'
+  set-hotbar-shuffle-minimum-violations: '&fSet minimum violations to shuffle hotbar for %check% to %value%!'
+  set-hotbar-shuffle-interval: '&fSet hotbar shuffle interval for %check% to %value%!'
+  set-random-rotation-minimum-violations: '&fSet minimum violations to randomly rotate for %check% to %value%!'
+  set-random-rotation-interval: '&fSet random rotation interval for %check% to %value%!'
+  set-alert-interval: '&fSet alert interval for %check% to %value%!'
+  set-buffer-decay: '&fSet buffer decay for %check% to %value%!'
+  set-buffer-multiple: '&fSet buffer multiple for %check% to %value%!'
+  set-max-violations: '&fSet max violations for %check% to %value%!'
+  set-minimum-violations-to-alert: '&fSet minimum violations to alert for %check% to %value%!'
+  set-maximum-ping: '&fSet maximum ping for %check% to %value%!'
+  set-minimum-tps: '&fSet minimum TPS for %check% to %value%!'
+  removed-punishment-command: '&aRemoved command %command% from check %check%!'
+  invalid-index-number: '&cInvalid index number!'
+  stopped-editing-punishment-commands: '&cStopped editing punishment commands!'
+  added-punishment-command: '&aAdded punishment command %command% to check %check%!'
+  enter-punishment-command: '&fEnter the command you want to add! Type STOP or CANCEL to exit!'
+  remove-punishment-command: '&fEnter the index of the command you want to remove. Type STOP or CANCEL to exit!'
+  disable-check-command-syntax: '&cProper Syntax: /vulcan disablecheck (check name) - case sensitive.'
+  invalid-check: '&cInvalid check name! Examples: AimA, BadPacketsF, AutoClickerJ.'
+  removed-check: '&cDisabled check %check%!'
+  violations-command-syntax: '&cProper Syntax: /vulcan violations (player)'
+  no-logs: '&cThis player set off no logs!'
+  cps-command-syntax: '&cProper Syntax: /vulcan cps (player)'
+  connection-command-syntax: '&cProper Syntax: /vulcan connection (player)'
+  logs-command-syntax: '&cProper Syntax: /logs (player) (page)'
+  no-logs-file: '&cThere is no logs file!'
+  logs-command-no-logs: '&cThere were no logs found for %player%!'
+  no-page: '&cThere is no page %page% for %player%!'
+  update-available: '&fA new update for Vulcan is available! (v%new-version%)'
+  latest-version: '&aYou are running the latest version of Vulcan!'
+  injection-failure: You joined too quickly. Please try again!
   frozen: '&cYou are frozen! Please await instructions from staff.'
-  logged-out-while-frozen: '%prefix% &c%player% logged out while frozen!'
-  froze: '%prefix% &7You froze &a%player%&7!'
-  unfroze: '%prefix% &7You unfroze &c%player%!'
-  freeze-command-syntax: '%prefix% &cProper Syntax: /vulcan freeze (player)'
-  shuffle-command-syntax: '%prefix% &cProper Syntax: /vulcan shuffle (player)'
-  shuffled-hotbar: '%prefix% &aSuccessfully shuffled hotbar for %player%!'
-  rotate-command-syntax: '%prefix% &cProper Syntax: /vulcan rotate (player)'
-  randomly-rotated: '%prefix% &aSuccessfully rotated %player%!'
-  reset-command-syntax: '%prefix% &cProper Syntax: /vulcan reset (player)'
-  violations-reset: '%prefix% &aSuccessfully reset violations for %player%!'
-  unknown-command: '%prefix% &cUnknown command!'
-  unfroze-staff-broadcast: '%prefix% &c%player% &7was unfrozen by &c%staff%&7!'
-  froze-staff-broadcast: '%prefix% &c%player% &7was frozen by &c%staff%&7!'
-  removed-from-jday: '%prefix% &aSuccesfully removed %player% from Judgement Day!'
-  jday-remove-syntax: '%prefix% &cProper Syntax: /jday remove (player)'
-  punishlogs-syntax: '%prefix% &cProper Syntax: /punishlogs (player)'
+  logged-out-while-frozen: '&c%player% logged out while frozen!'
+  froze: '&fYou froze &a%player%!'
+  unfroze: '&fYou unfroze %player%!'
+  freeze-command-syntax: '&cProper Syntax: /vulcan freeze (player)'
+  shuffle-command-syntax: '&cProper Syntax: /vulcan shuffle (player)'
+  shuffled-hotbar: '&aSuccessfully shuffled hotbar for %player%!'
+  rotate-command-syntax: '&cProper Syntax: /vulcan rotate (player)'
+  randomly-rotated: '&aSuccessfully rotated %player%!'
+  reset-command-syntax: '&cProper Syntax: /vulcan reset (player)'
+  violations-reset: '&aSuccessfully reset violations for %player%!'
+  unknown-command: '&fUnknown command. Type /help for help.'
+  unfroze-staff-broadcast: '%prefix% %player% was unfrozen by %staff%!'
+  froze-staff-broadcast: '%prefix% %player% was frozen by %staff%!'
+  removed-from-jday: '&aSuccesfully removed %player% from Judgement Day!'
+  jday-remove-syntax: '&cProper Syntax: /jday remove (player)'
+  punishlogs-syntax: '&cProper Syntax: /punishlogs (player)'
 
 # Command configuration options.
 commands:
   # Vulcan help command message.
   help:
-    - "&7&m---»--*-------------------------------------*--«---"
+    - "&e&m                                                   "
     - "&cVulcan Cheat Detection v%version% by &cfrep (frap#0002)"
     - "&r"
-    - "&c/vulcan help &8- &7Opens this help menu"
-    - "&c/vulcan menu &8| &c/vulcan gui &8- &7Open Vulcan's GUI"
-    - "&c/vulcan profile &8 - &7Show's a player's Vulcan profile."
-    - "&c/vulcan ban (player) &8- &7Ban a player through Vulcan."
-    - "&c/vulcan reload &8- &7Reload all files."
-    - "&c/vulcan disablecheck (check) &8- &7Disables a check (case sensitive)."
-    - "&c/vulcan violations (player) &8- &7Shows all violations of the specified player."
-    - "&c/vulcan cps (player) &8- &7Displays the CPS of the player."
-    - "&c/vulcan kb (player) &8 | &c/vulcan knockback (player) &8- &7Applies knockback to a player."
-    - "&c/vulcan checks &8- &7Shows all enabled checks."
-    - "&c/vulcan connection (player) &8- &7Shows connection info of the player."
-    - "&c/vulcan freeze (player) &8- &7Freezes/unfreezes a player."
-    - "&c/vulcan rotate (player) &8- &7Randomly rotates a player's yaw/pitch."
-    - "&c/vulcan shuffle (player) &8- &7Randomly shuffle a player's hotbar slot."
-    - "&c/vulcan top &8- &7Display the players with highest violations for each category."
+    - "&c/vulcan help &f- Opens this help menu"
+    - "&c/vulcan menu &f| &c/vulcan gui &f- Open Vulcan's GUI"
+    - "&c/vulcan profile &f - Show's a player's Vulcan profile."
+    - "&c/vulcan ban (player) &f- Ban a player through Vulcan."
+    - "&c/vulcan reload &f- Reload all files."
+    - "&c/vulcan disablecheck (check) &f- Disables a check (case sensitive)."
+    - "&c/vulcan violations (player) &f- Shows all violations of the specified player."
+    - "&c/vulcan cps (player) &f- Displays the CPS of the player."
+    - "&c/vulcan kb (player) &f | &c/vulcan knockback (player) &f- Applies knockback to a player."
+    - "&c/vulcan checks &f- Shows all enabled checks."
+    - "&c/vulcan connectio0n (player) &f- Shows connection info of the player."
+    - "&c/vulcan freeze (player) &f- Freezes/unfreezes a player."
+    - "&c/vulcan rotate (player) &f- Randomly rotates a player's yaw/pitch."
+    - "&c/vulcan shuffle (player) &f- Randomly shuffle a player's hotbar slot."
+    - "&c/vulcan top &f- Display the players with highest violations for each category."
     - "&r"
-    - "&c/jday add (name) &8- &7Adds a player to Judgement Day."
-    - "&c/jday execute &8- &7Executes a Judgement Day."
+    - "&c/jday add (name) &f- Adds a player to Judgement Day."
+    - "&c/jday execute &f- Executes a Judgement Day."
     - ""
-    - "&c/verbose &8- &7Turn on and off verbose notifications."
-    - "&c/alerts &8- &7Turn on and off cheat alerts."
-    - "&7&m---»--*-------------------------------------*--«---"
+    - "&c/verbose &f- Turn on and off verbose notifications."
+    - "&c/alerts &f- Turn on and off cheat alerts."
+    - "&e&m                                                   "
   ban:
     # The commands that will be executed when /vulcan ban (player) is executed
     commands:
-      - 'ban %player% &c[Vulcan] Unfair Advantage'
+      - 'ban %player% Hacked client detected.'
     # The messages that will be broadcast when /vulcan ban (player) is executed
     broadcast:
-      - "&7&m---»--*-------------------------------------*--«---"
-      - "&cVulcan &7has detected &c%player% &7to be cheating and has removed them from the network."
-      - "&7&m---»--*-------------------------------------*--«---"
+      - "&e&m                                                   "
+      - "&fVulcan detected %player% to be cheating and has removed them from the server."
+      - "&e&m                                                   "
   # Options for the /vulcan profile (name) command
   profile:
-    - "&7&m---»--*-------------------------------------*--«---"
+    - "&e&m                                                   "
     - "&cVulcan Profile for %player%:"
     - " &8» &7%uuid%"
     - ""
@@ -409,10 +409,10 @@ commands:
     - "&8» &7Nearby Entities: %nearby-entities%"
     - ""
     - "&7Potion Effects: %potion-effects%"
-    - "&7&m---»--*-------------------------------------*--«---"
-  cps: "%prefix% &7CPS for &c%player%&7: &c%cps%"
+    - "&e&m                                                   "
+  cps: "&fCPS for %player%: %cps%"
   connection:
-    - "&7&m---»--*-------------------------------------*--«---"
+    - "&e&m                                                   "
     - "&cConnection Information for %player%:"
     - ""
     - "&7Transaction Ping: &c%transaction-ping%ms"
@@ -422,12 +422,12 @@ commands:
     - "&7Queued Transactions: &c%queued-transactions%"
     - ""
     - "&7Flying Delay: &c%flying-delay%ms"
-    - "&7&m---»--*-------------------------------------*--«---"
+    - "&e&m                                                   "
   logs:
     color: '&7'
-    header-footer: '&7&m---»--*--&r&7[ Logs for &c%player% &7(&c%page%&8/&c%max-pages%&7) &7]&7&m--*--«---'
+    header-footer: '&e&m          &r Logs for %player% (%page%/%max-pages%) &e&m           '
   top:
-    - "&7&m---»--*-------------------------------------*--«---"
+    - "&e&m                                                   "
     - "&cTop Total Violations:"
     - " &8- &7%total-1-name% &7(&c%total-1-violations% VL&7)"
     - " &8- &7%total-2-name% &7(&c%total-2-violations% VL&7)"
@@ -455,12 +455,12 @@ commands:
     - " &8- &7%player-3-name% &7(&c%player-3-violations% VL&7)"
     - " &8- &7%player-4-name% &7(&c%player-4-violations% VL&7)"
     - " &8- &7%player-5-name% &7(&c%player-5-violations% VL&7)"
-    - "&7&m---»--*-------------------------------------*--«---"
+    - "&e&m                                                   "
   jday:
-    list-header-footer: "&7&m---»--*-------------------------------------*--«---"
+    list-header-footer: "&e&m                                                   "
     list-format: " &8- &7%name%"
   punishlogs:
-    header-footer: '&7&m---»--*--&r&7[ Punishment Logs for &c%player% &7]&7&m--*--«---'
+    header-footer: "&e&m          &r Punishment Logs for %player% &e&m           "
 
 punishment-statistics-broadcast:
   # Whether or not Vulcan should broadcast how many players it has punished.
@@ -469,9 +469,9 @@ punishment-statistics-broadcast:
   interval: 18000
   # The message that should be broadcasted
   broadcast:
-    - '&7&m---»--*-------------------------------------*--«---'
-    - '&7In the past 7 days, &cVulcan &7has punished &c%amount% &7players.'
-    - '&7&m---»--*-------------------------------------*--«---'
+    - '&e&m                                                   '
+    - '&fIn the past 7 days, Vulcan has punished %amount% players.'
+    - '&e&m                                                   '
 
 # Some simple settings
 settings:
@@ -486,9 +486,9 @@ settings:
   # This is just here in case I forget to remove a debug message when I post an update. If I forget to remove a debug
   # message and you see [Vulcan Debug] on your server, disable this (it won't effect you if this is enabled or disabled
   # unless I forget to remove a debug message, but if you see [Vulcan Debug] in chat, then set this to false and reload).
-  debug: true
+  debug: false
   # Whether or not 'A new update is available!' message will be set on join for players with 'vulcan.admin' permission
-  check-for-updates: true
+  check-for-updates: false
   # A setting for PacketEvents, we may ask you to change this if you're having issues injecting. If everything is working
   # fine, don't touch this.
   inject-early: true
@@ -505,13 +505,13 @@ settings:
   # TLDR:
   # - Bungeecord Networks: leave this FALSE
   # - Single servers: set this to TRUE to save some performance
-  async-alerts: false
+  async-alerts: true
   # Whether or not the API should be enabled. If you want to hook into Vulcan and do anything fancy, then enable this, however
   # the majority of people will never use this and disabling it allows for less runnables and more performance as the events dont
   # need to be called at all (they are also forced to be called sync, so this is a win win performance gain)
   enable-api: false
   # Whether or not the update checker should be enabled
-  update-checker: true
+  update-checker: false
   # The delay in milliseconds (1000ms = 1 second)
   punishment-delay: 10000
   # Whether or not Vulcan should automatically ignore Bedrock players using Floodgate's API.
@@ -545,7 +545,7 @@ settings:
   # Whether or not Vulcan should account for server lag spikes for certain checks (beta feature)
   server-lag-spike: false
   # Whether or not bStats should be loaded
-  bstats: true
+  bstats: false
   # Whether or not Vulcan should account for entity collisions
   entity-collision: true
   # Whether or not Vulcan should hook into mcMMO if it is available.
@@ -699,7 +699,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 3
           multiple: .75
@@ -723,7 +723,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 6
           multiple: .5
@@ -747,7 +747,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 5
           multiple: .5
@@ -771,7 +771,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 8
           multiple: .5
@@ -795,7 +795,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 4
           multiple: .75
@@ -819,7 +819,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 12
           multiple: .5
@@ -843,7 +843,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 4
           multiple: .5
@@ -867,7 +867,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 7
           multiple: .5
@@ -891,7 +891,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 7
           multiple: .5
@@ -915,7 +915,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 6
           multiple: .5
@@ -939,7 +939,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 10
           multiple: .45
@@ -962,7 +962,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 2
           multiple: .4
@@ -986,7 +986,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 5
           multiple: .5
@@ -1010,7 +1010,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 5
           multiple: .5
@@ -1034,7 +1034,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 2
           multiple: .4
@@ -1058,7 +1058,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 6
           multiple: .5
@@ -1082,7 +1082,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 20
           multiple: .3
@@ -1106,7 +1106,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 20
           multiple: .25
@@ -1130,7 +1130,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1150,7 +1150,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 20
           multiple: .25
@@ -1174,7 +1174,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 12
           multiple: .25
@@ -1199,7 +1199,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoblock)'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1219,7 +1219,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoblock)'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1239,7 +1239,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoblock)'
         buffer:
           max: 2
           multiple: .5
@@ -1256,7 +1256,7 @@ checks:
     # the violations you should be fine but it's all just probability / statistics.
     autoclicker:
       a:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1266,10 +1266,10 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         max-cps: 25
       b:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1279,13 +1279,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 3
           multiple: .5
           decay: .5
       c:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1295,13 +1295,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 3
           multiple: .5
           decay: 1
       d:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1311,13 +1311,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 3
           multiple: .5
           decay: .5
       e:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1327,13 +1327,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 3
           multiple: .5
           decay: .75
       f:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1343,13 +1343,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .5
           decay: 1.25
       g:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1359,13 +1359,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 5
           multiple: .25
           decay: 1.25
       h:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1375,13 +1375,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .5
           decay: 1
       i:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1391,13 +1391,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 5
           multiple: .5
           decay: 1.25
       j:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1407,13 +1407,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .5
           decay: 1.25
       k:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1423,13 +1423,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .5
           decay: .75
       l:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1439,13 +1439,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .25
           decay: 1
       m:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1455,13 +1455,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .25
           decay: .75
       n:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1471,13 +1471,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 25
           multiple: .15
           decay: .75
       o:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1487,13 +1487,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 5
           multiple: .25
           decay: 1.25
       p:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1503,12 +1503,12 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 2
           multiple: .25
       q:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1518,13 +1518,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 35
           multiple: .3
           decay: 2.0
       r:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1534,13 +1534,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 50
           multiple: .15
           decay: 10
       s:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1550,13 +1550,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 30
           multiple: .15
           decay: .825
       t:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -1566,7 +1566,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 25
           multiple: .15
@@ -1583,7 +1583,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Reach)'
         buffer:
           max: 3
           multiple: .25
@@ -1600,7 +1600,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Reach)'
         buffer:
           max: 6
           multiple: .25
@@ -1618,7 +1618,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Fastbow)'
         buffer:
           max: 3
           multiple: .5
@@ -1643,7 +1643,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Criticals)'
         buffer:
           max: 1
           multiple: .5
@@ -1667,7 +1667,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Criticals)'
         buffer:
           max: 1
           multiple: .5
@@ -1692,7 +1692,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 3
           multiple: .5
@@ -1716,7 +1716,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 5
           multiple: .6
@@ -1740,7 +1740,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 2
           multiple: .5
@@ -1764,7 +1764,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
       f:
         enabled: true
         punishable: true
@@ -1776,7 +1776,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 10
           multiple: .25
@@ -1792,7 +1792,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 3
           multiple: .5
@@ -1808,7 +1808,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
       j:
         enabled: true
         punishable: true
@@ -1820,7 +1820,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 1
           multiple: .5
@@ -1836,7 +1836,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 3
           multiple: .5
@@ -1853,7 +1853,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Hitbox)'
         buffer:
           max: 4
           multiple: .25
@@ -1870,7 +1870,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Hitbox)'
         buffer:
           max: 6
           multiple: .25
@@ -1888,7 +1888,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Velocity)'
         buffer:
           max: 4
           multiple: .25
@@ -1904,7 +1904,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Velocity)'
         buffer:
           max: 4
           multiple: .35
@@ -1920,7 +1920,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Velocity)'
         buffer:
           max: 5
           multiple: .25
@@ -1938,7 +1938,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (No Slow)'
         buffer:
           max: 3
           multiple: .25
@@ -1954,7 +1954,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (No Slow)'
         buffer:
           max: 7
           multiple: .25
@@ -1970,7 +1970,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (No Slow)'
         buffer:
           max: 7
           multiple: .25
@@ -1986,7 +1986,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (No Slow)'
         buffer:
           max: 7
           multiple: .25
@@ -2002,7 +2002,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (No Slow)'
         buffer:
           max: 7
           multiple: .25
@@ -2021,7 +2021,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 3
           multiple: .25
@@ -2039,7 +2039,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 3
           multiple: .25
@@ -2057,7 +2057,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 1
           multiple: .5
@@ -2075,7 +2075,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 3
           multiple: .25
@@ -2093,7 +2093,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 1
           multiple: .5
@@ -2111,7 +2111,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 2
           multiple: .25
@@ -2129,7 +2129,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 4
           multiple: .25
@@ -2148,7 +2148,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Jump)'
         buffer:
           max: 2
           multiple: .25
@@ -2166,7 +2166,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Jump)'
         buffer:
           max: 2
           multiple: .25
@@ -2184,7 +2184,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Step)'
       b:
         enabled: true
         punishable: true
@@ -2197,7 +2197,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Step)'
         buffer:
           max: 6
           multiple: .25
@@ -2214,7 +2214,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Boat Fly)'
         buffer:
           max: 4
           multiple: .33
@@ -2231,7 +2231,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Boat Fly)'
         buffer:
           max: 5
           multiple: .25
@@ -2248,7 +2248,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Boat Fly)'
         buffer:
           max: 5
           multiple: .25
@@ -2266,7 +2266,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Entity Flight)'
         buffer:
           max: 5
           multiple: .5
@@ -2283,7 +2283,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Entity Flight)'
         buffer:
           max: 5
           multiple: .5
@@ -2300,7 +2300,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Anti Levitation)'
         buffer:
           max: 8
           multiple: .25
@@ -2317,7 +2317,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (No Saddle)'
         buffer:
           max: 6
           multiple: .5
@@ -2334,7 +2334,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Entity Speed)'
         buffer:
           max: 5
           multiple: .5
@@ -2352,7 +2352,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 1
           multiple: .5
@@ -2369,7 +2369,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 8
           multiple: .25
@@ -2385,7 +2385,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 6
           multiple: .5
@@ -2401,7 +2401,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 6
           multiple: .25
@@ -2417,7 +2417,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 3
           multiple: .25
@@ -2433,7 +2433,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 4
           multiple: .25
@@ -2449,7 +2449,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 4
           multiple: .25
@@ -2468,7 +2468,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Speed)'
         buffer:
           max: 3
           multiple: .35
@@ -2486,7 +2486,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Speed)'
         buffer:
           max: 3
           multiple: .25
@@ -2505,7 +2505,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Speed)'
         buffer:
           max: 3
           multiple: .25
@@ -2524,7 +2524,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Speed)'
         buffer:
           max: 3
           multiple: .25
@@ -2544,7 +2544,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Fast Climb)'
         buffer:
           max: 4
           multiple: .5
@@ -2563,7 +2563,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Wall Climb)'
         buffer:
           max: 4
           multiple: .35
@@ -2582,7 +2582,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Jesus)'
         buffer:
           max: 3
           multiple: .5
@@ -2600,7 +2600,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Jesus)'
         buffer:
           max: 4
           multiple: .5
@@ -2618,7 +2618,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Jesus)'
         buffer:
           max: 10
           multiple: .45
@@ -2636,7 +2636,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Jesus)'
         buffer:
           max: 4
           multiple: .45
@@ -2654,7 +2654,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Jesus)'
         buffer:
           max: 10
           multiple: .25
@@ -2673,7 +2673,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Flight)'
         buffer:
           max: 3
           multiple: .65
@@ -2695,7 +2695,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Flight)'
         buffer:
           max: 3
           multiple: .5
@@ -2713,7 +2713,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Flight)'
         buffer:
           max: 4
           multiple: .75
@@ -2735,7 +2735,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Flight)'
         buffer:
           max: 4
           multiple: .35
@@ -2757,7 +2757,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Flight)'
         buffer:
           max: 3
           multiple: .4
@@ -2779,7 +2779,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Vclip)'
     sprint:
       a:
         enabled: true
@@ -2792,7 +2792,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Sprint)'
         buffer:
           max: 6
           multiple: .25
@@ -2811,7 +2811,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Strafe)'
         buffer:
           max: 2
           multiple: .5
@@ -2827,7 +2827,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (Strafe)'
         buffer:
           max: 4
           multiple: .15
@@ -2835,7 +2835,7 @@ checks:
   player:
     fastuse:
       a:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -2845,7 +2845,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Fast Use)'
     fastplace:
       a:
         enabled: true
@@ -2858,7 +2858,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Fast Place)'
         max-blocks: 15
     fastbreak:
       a:
@@ -2872,7 +2872,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Fast Break)'
         buffer:
           max: 2
           multiple: .25
@@ -2890,7 +2890,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Tower)'
         buffer:
           max: 4
           multiple: .5
@@ -2907,7 +2907,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
       b:
         enabled: true
         punishable: true
@@ -2919,7 +2919,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 3
           multiple: .25
@@ -2935,7 +2935,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 2
           multiple: .25
@@ -2951,7 +2951,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 4
           multiple: .25
@@ -2967,7 +2967,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 4
           multiple: .25
@@ -2983,7 +2983,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 2
           multiple: .25
@@ -2999,7 +2999,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 8
           multiple: .25
@@ -3015,7 +3015,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
       j:
         enabled: true
         punishable: true
@@ -3027,7 +3027,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
       k:
         enabled: true
         punishable: true
@@ -3039,7 +3039,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 1
           multiple: .5
@@ -3056,7 +3056,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 1
           multiple: .5
@@ -3098,7 +3098,7 @@ checks:
         max-balance: 75
     hackedclient:
       a:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3106,11 +3106,11 @@ checks:
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
-        minimum-tps: 19.0
+        minimum-tps: 1.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       b:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3118,9 +3118,9 @@ checks:
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
-        minimum-tps: 19.0
+        minimum-tps: 1.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     baritone:
       a:
         enabled: true
@@ -3133,7 +3133,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Baritone)'
         buffer:
           max: 20
           multiple: .5
@@ -3149,7 +3149,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Baritone)'
         buffer:
           max: 2
           multiple: .5
@@ -3166,7 +3166,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Crash)'
       b:
         enabled: true
         punishable: true
@@ -3178,7 +3178,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Crash)'
         buffer:
           max: 3
           multiple: .5
@@ -3194,7 +3194,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Crash)'
       d:
         enabled: true
         punishable: true
@@ -3206,7 +3206,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Crash)'
     ghosthand:
       a:
         enabled: true
@@ -3219,7 +3219,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Ghost Hand)'
         cancel: true
     # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
     # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
@@ -3236,7 +3236,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Transaction)'
         max-delay: 30000
     selfleash:
       a:
@@ -3250,7 +3250,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Self Leash)'
         buffer:
           max: 5
           multiple: .5
@@ -3267,7 +3267,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 2
           multiple: .5
@@ -3283,7 +3283,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       c:
         enabled: true
         punishable: true
@@ -3295,7 +3295,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       d:
         enabled: true
         punishable: true
@@ -3307,7 +3307,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 3
           multiple: .25
@@ -3323,7 +3323,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       f:
         enabled: true
         punishable: true
@@ -3335,7 +3335,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       g:
         enabled: true
         punishable: true
@@ -3347,7 +3347,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       h:
         enabled: true
         punishable: true
@@ -3359,7 +3359,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       i:
         enabled: true
         punishable: true
@@ -3371,7 +3371,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       j:
         enabled: true
         punishable: true
@@ -3383,7 +3383,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       k:
         enabled: true
         punishable: true
@@ -3395,7 +3395,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 3
           multiple: .5
@@ -3411,7 +3411,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 5
           multiple: .33
@@ -3427,7 +3427,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 20
           multiple: .25
@@ -3443,7 +3443,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 3
           multiple: .5
@@ -3459,7 +3459,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 3
           multiple: .5
@@ -3475,7 +3475,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 3
           multiple: .5
@@ -3491,7 +3491,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 6
           multiple: .5
@@ -3507,7 +3507,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       t:
         enabled: true
         punishable: true
@@ -3519,7 +3519,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       u:
         enabled: true
         punishable: true
@@ -3531,7 +3531,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       v:
         enabled: true
         punishable: true
@@ -3543,7 +3543,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 8
           multiple: .5
@@ -3560,7 +3560,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 8
           multiple: .5
@@ -3576,7 +3576,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 6
           multiple: .5
@@ -3592,7 +3592,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       z:
         enabled: true
         punishable: true
@@ -3604,7 +3604,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &cBoat Glitch Detected'
+          - 'warn -s %player% Hacked client detected - Player (Boat Glitch)'
       1:
         enabled: true
         punishable: true
@@ -3616,7 +3616,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 12
           multiple: .25
@@ -3632,7 +3632,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 12
           multiple: .25
@@ -3648,14 +3648,14 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 4
           multiple: .25
           decay: .025
     inventory:
       a:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3665,13 +3665,13 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Inventory)'
         buffer:
           max: 2
           multiple: .25
           decay: .25
       b:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3681,7 +3681,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Inventory)'
         buffer:
           max: 2
           multiple: .25
@@ -3700,7 +3700,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 1
           multiple: .5
@@ -3716,7 +3716,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 8
           multiple: .25
@@ -3734,7 +3734,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 1
           multiple: .5
@@ -3752,7 +3752,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 1
           multiple: .5
@@ -3770,7 +3770,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+            - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 2
           multiple: .5
@@ -3788,7 +3788,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 3
           multiple: .5
@@ -3806,7 +3806,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 3
           multiple: .5
@@ -3824,7 +3824,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 1
           multiple: .5
@@ -3841,7 +3841,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Groundspoof)'
         buffer:
           max: 4
           multiple: .5
@@ -3857,7 +3857,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Groundspoof)'
         buffer:
           max: 4
           multiple: .5
@@ -3873,7 +3873,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Groundspoof)'
         buffer:
           max: 4
           multiple: .5
@@ -3890,7 +3890,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (General)'
         max-combat-violations: 25
       b:
         enabled: true
@@ -3903,7 +3903,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Movement (General)'
         max-movement-violations: 30
       c:
         enabled: true
@@ -3916,7 +3916,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (General)'
         max-player-violations: 30
       d:
         enabled: true
@@ -3929,7 +3929,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         max-autoclicker-violations: 30
       e:
         enabled: true
@@ -3942,7 +3942,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Multiple Violations'
         max-total-violations: 50
       f:
         enabled: true
@@ -3955,5 +3955,5 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         max-scaffold-violations: 25
