@@ -292,6 +292,9 @@ world-settings:
       azalea_tree: -5406688656918486007
       ore_dirt: 5388643638267303083
   default:
+    wateranimal-spawn-height:
+      maximum: default
+      minimum: default
     monster-spawn-max-light-level: -1
     mob-spawner-tick-rate: 1
     only-players-collide: false
