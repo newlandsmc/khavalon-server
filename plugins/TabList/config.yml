@@ -131,7 +131,7 @@ placeholder-format:
 
 # Enable changing of prefix & suffix in player list?
 change-prefix-suffix-in-tablist:
-  enable: false
+  enable: true
 
   # Disable groups in these worlds.
   disabled-worlds:
@@ -143,7 +143,7 @@ change-prefix-suffix-in-tablist:
 
   # Automatically add groups from another plugins to the tablist groups.yml on every reload?
   # If a plugin does not support Vault, it will not be added.
-  sync-plugins-groups-with-tablist: true
+  sync-plugins-groups-with-tablist: false
 
   # Hide player's group in player list when the player is vanished?
   # Requires Essentials, SuperVanish, PremiumVanish or CMI plugin!
@@ -156,7 +156,7 @@ change-prefix-suffix-in-tablist:
   # Do you want to assign global group to normal groups?
   # true - "globalGroupPrefix + normalGroupPrefix"
   # false - "normalGroupPrefix"
-  assign-global-group-to-normal: false
+  assign-global-group-to-normal: true
 
   # Prefer player's primary Vault group when assigning tablist group from groups.yml?
   # true - player will be assigned their primary vault group where possible
@@ -166,7 +166,7 @@ change-prefix-suffix-in-tablist:
   # Refresh interval in server ticks.
   # Set to 0 if you don't want to refresh the groups.
   # If 0, then you will need to execute the /tl reload command to refresh the groups.
-  refresh-interval: 30
+  refresh-interval: 10
 
 # Tablist objective types
 # Shows your current health (with life indicator), your current ping or any NUMBER placeholder

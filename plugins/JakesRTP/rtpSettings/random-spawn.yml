@@ -75,6 +75,7 @@ warmup:
 #   %x_old% or %y_old% or %z_old% The x or y or z location of the player before they were moved.
 then-execute:
   - 'spawnpoint %player% %x% %y% %z%'
+  - 'spawncampfire %player%'
 
 # This only is used if you have an economy plugin.
 # If you do have an economy plugin and you want to disable this feature, set cost to 0.

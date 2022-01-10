@@ -32,6 +32,7 @@ timings:
   server-name: SemiVanilla MC
 config-version: 24
 settings:
+  time-command-affects-all-worlds: false
   fix-target-selector-tag-completion: true
   send-full-pos-for-hard-colliding-entities: true
   bungee-online-mode: true
@@ -339,7 +340,7 @@ world-settings:
     anti-xray:
       enabled: true
       engine-mode: 1
-      max-block-height: 64
+      max-block-height: 128
       update-radius: 2
       lava-obscures: false
       use-permission: false
