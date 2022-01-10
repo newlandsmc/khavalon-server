@@ -41,21 +41,49 @@ alerts:
   # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
   # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
   # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
   click-commands:
   - /vulcan clickalert %player%
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
   # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
   # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
   click-alert-command-commands:
   - tp %player%
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
   toggled-on-message: '%prefix% Alerts enabled.'
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   toggled-off-message: '%prefix% Alerts disabled.'
   # Whether or not alerts will be printed to the console.
   # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
   print-to-console: true
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
   # The format for printing alerts to the console
   # The format for printing alerts to the console
   console-format: '[Vulcan] %player% failed %check% %dev%(Type %type%)%dev% (%vl%/%max-vl%)'
@@ -65,7 +93,31 @@ alerts:
   # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
   # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
   # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
   custom-commands: []
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
   # You can use this section to color code your alerts or add chances to them depending on the violation level.
   # You can use this section to color code your alerts or add chances to them depending on the violation level.
   severity:
@@ -92,6 +144,12 @@ alerts:
       '10': '&4' # The color that this severity should be, whatever is less than '11' and greater than or equal to '10' in the section above
   # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
   # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
   experimental-symbol: '*'
 verbose:
   # Verbose notifications are sent whenever a player increases the buffer on a check. Only really here for developer
@@ -114,22 +172,32 @@ verbose:
   # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
   # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
   # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
   click-commands:
   - /tp %player%
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
   toggled-on-message: '%prefix% Vulcan verbose enabled'
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   toggled-off-message: '%prefix% Vulcan verbose disabled'
 
 #This section deals with the log file (violations.txt)
 log-file:
   # Whether or not the log file is enabled
-  # Whether or not the log file is enabled
   enabled: false
-  # The message that is logged when a player fails a check.
-  # Valid placeholders are %player% (player name), %max-vl% (max violations), %check% (name of check), %description% (check description),
-  # %version% (player's client version), %dev% (* for whether or not the check is experimental), %vl% (violation level),
-  # %ping% (the player's ping), %tps% (the server's TPS), and %type% (character denoting the type for the check, A, B, C, etc).
   # The message that is logged when a player fails a check.
   # Valid placeholders are %player% (player name), %max-vl% (max violations), %check% (name of check), %description% (check description),
   # %version% (player's client version), %dev% (* for whether or not the check is experimental), %vl% (violation level),
@@ -686,8 +754,6 @@ settings:
   # Whether or not Vulcan should setback players when they are lower than their last onGround position (this can lead to
   # things such as anti-voids, so not particularly recommended if you have something like a SkyWars/BedWars server)
   dont-setback-lower-positions: false
-  # For plugin messaging, don't touch this
-  split-character: '#'
 hooks:
   # #####################################################################################################################
   # Discord Configuration                                                                                              #
@@ -3370,6 +3436,96 @@ checks:
         punishment-commands:
         - warn -s %player% Hacked client detected - Player (Ghost Hand)
         cancel: true
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
     # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
     # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
     # packets after 30 seconds.

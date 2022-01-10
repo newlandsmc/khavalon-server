@@ -8,3 +8,31 @@ groups:
     prefix: ''
     tabname: '%player%'
     suffix: ''
+  diamond:
+    prefix: ''
+    tabname: '%player%'
+    suffix: ''
+  moderator:
+    prefix: ''
+    tabname: '%player%'
+    suffix: ''
+  admin:
+    prefix: ''
+    tabname: '%player%'
+    suffix: ''
+  developer:
+    prefix: ''
+    tabname: '%player%'
+    suffix: ''
+  lapis:
+    prefix: ''
+    tabname: '%player%'
+    suffix: ''
+  emerald:
+    prefix: ''
+    tabname: '%player%'
+    suffix: ''
+  owner:
+    prefix: ''
+    tabname: '%player%'
+    suffix: ''
