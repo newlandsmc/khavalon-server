@@ -7,7 +7,7 @@ center:
     x: 0
     z: 0
 radius:
-  max: 10000
+  max: 9000
   min: 0
 gaussian-distribution: # Enabling this will make the points no longer evenly distributed, but instead follow a
   enabled: true       #   gaussian centered between the min and max radius (represented by setting center to

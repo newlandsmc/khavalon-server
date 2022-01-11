@@ -50,7 +50,7 @@ world-settings:
                 default: 2
                 extra: 3
             background-render:
-                enabled: true
+                enabled: false
                 max-chunks-per-interval: 1024
                 interval-seconds: 15
                 max-render-threads: -1

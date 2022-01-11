@@ -37,6 +37,7 @@
 /plugins/GriefPreventionData/Logs/
 /plugins/BuycraftX/cache/
 /plugins/Votifier/rsa/
+/plugins/squaremap/web/tiles-bak/
 
 # Ignore worlds
 !worlds/
