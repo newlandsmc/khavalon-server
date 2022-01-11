@@ -568,8 +568,6 @@ settings:
   # Whether or not Vulcan should setback players when they are lower than their last onGround position (this can lead to
   # things such as anti-voids, so not particularly recommended if you have something like a SkyWars/BedWars server)
   dont-setback-lower-positions: false
-  # For plugin messaging, don't touch this
-  split-character: '#'
 
 hooks:
   ######################################################################################################################
