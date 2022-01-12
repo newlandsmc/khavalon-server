@@ -36,17 +36,18 @@ random: false
 
 header:
 - ""
-#- " &e&lSemi&6&lVanilla &c&lMC&r "
-- " %anim:title% "
-- " &6%online-players%&f/&6%max-players% &fOnline&r "
+#- " &e&lSemi&6&lVanilla &c&lMC "
+- "%anim:title%"
+- " Days left: 365 "
 - ""
-- " &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+- " &m      &8&m[  &r   &8&m  ]&f&m      &r "
 
 footer:
-- " &f&m      &8&m[  &r   &8&m  ]&f&m      &r "
+- " &m      &8&m[  &r   &8&m  ]&f&m      &r "
 - ""
-- " &fWorld time: &6%player_world_time_12%&r "
-- " &fPing: &6%ping%&r "
+#- " World time: %player_world_time_12% "
+- " %online-players%/%max-players% Online "
+- " &7Ping: %ping% "
 - ""
 
 # Defines per world tablist for different worlds

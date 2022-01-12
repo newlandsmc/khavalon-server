@@ -104,8 +104,6 @@ Rewards:
 
 Tiers:
   # Time is in minutes
-  1:
-    weight: 32
   240:
     weight: 32
   360:

@@ -38,7 +38,7 @@ rewards:
 
 ##The message that would parse when %bs_tag% is used if the player is bounty
 ##NOTE: PlaceholderAPI doesn't support MiniMessage, so use Legacy Color Codes
-placeholder-tag-message: ' (bounty)'
+placeholder-tag-message: '&c'
 
 ##Configuration for GUI's
 #name -> Name of the GUI

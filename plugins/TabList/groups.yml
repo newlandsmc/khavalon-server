@@ -2,37 +2,37 @@
 globalGroup:
   prefix: ''
   tabname: ''
-  suffix: '&c%bs_tag%'
+  suffix: ''
 groups:
   Default:
     prefix: ''
-    tabname: '%player%'
+    tabname: '%bs_tag%%player%'
     suffix: ''
   diamond:
     prefix: ''
-    tabname: '%player%'
+    tabname: '%bs_tag%%player%'
     suffix: ''
   moderator:
     prefix: ''
-    tabname: '%player%'
+    tabname: '%bs_tag%%player%'
     suffix: ''
   admin:
     prefix: ''
-    tabname: '%player%'
+    tabname: '%bs_tag%%player%'
     suffix: ''
   developer:
     prefix: ''
-    tabname: '%player%'
+    tabname: '%bs_tag%%player%'
     suffix: ''
   lapis:
     prefix: ''
-    tabname: '%player%'
+    tabname: '%bs_tag%%player%'
     suffix: ''
   emerald:
     prefix: ''
-    tabname: '%player%'
+    tabname: '%bs_tag%%player%'
     suffix: ''
   owner:
     prefix: ''
-    tabname: '%player%'
+    tabname: '%bs_tag%%player%'
     suffix: ''
