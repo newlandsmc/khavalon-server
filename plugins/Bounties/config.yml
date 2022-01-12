@@ -8,10 +8,11 @@
 
 ##Prefix of the plugin
 ##You can leave it blank if you don't wish to set one
-prefix: ""
+prefix: ''
 
 ##Duration of a bounty in sec. How long does a bounty stay on a player
 bounty-duration-in-sec: 86400
+
 #################################################################
 # Reward levels = number of kills needed
 
@@ -25,20 +26,28 @@ bounty-duration-in-sec: 86400
 #Available Placeoholders For Command and Messages
 # %dead-bounty% -> The player who is dead or the player who was the bounty
 # %killer% -> Player who killed the bounty
-rewards: 
-   level: 
-      1: 
+rewards:
+  level:
+    1:
       - '[XP]:500'
-      2: 
+    2:
       - '[XP]:1000'
-      3: 
+    3:
       - '[XP]:1500'
-      4: 
+    4:
       - '[XP]:2000'
 
 ##The message that would parse when %bs_tag% is used if the player is bounty
 ##NOTE: PlaceholderAPI doesn't support MiniMessage, so use Legacy Color Codes
-placeholder-tag-message: '&c'
+placeholder-tag-message: "&c"
+
+##The message that would be parsed when %bs_online_formatted% is used
+## zero-online: What would the plugin parse if there are no online bounties
+## online: The no of online players when the list is not empty in a formatted way
+##The available placeholder for parsing online player list is %online%
+placeholder-tag-bounty-online-formatted:
+  zero-online: ""
+  online: "\n&cBounties Online: %online%"
 
 ##Configuration for GUI's
 #name -> Name of the GUI
@@ -47,48 +56,47 @@ placeholder-tag-message: '&c'
 #next -> Display name for the next-button. %player% -> displays the playername
 #name-player-placeholder -> The text to be displayed on each bounty head
 #lore-placeholder -> The lore to be added on to each bounty had
-gui: 
-   name: <red>Bounties
-   rows: 3
-   previous: <color:#FFE400>« Previous
-   next: <color:#FFE400>» Next
-   name-player-placeholder: <color:#00FFF0>%player%
-   lore-placeholder: 
-   - <color:#00FFF0>Time left <color:#A9A7A2>» %timeleft%
-   - <color:#00FFF0>Current Kills <color:#A9A7A2>» %kills%
+gui:
+  name: "<red>Bounties"
+  rows: 3
+  previous: "<color:#FFE400>« Previous"
+  next: "<color:#FFE400>» Next"
+  name-player-placeholder: "<color:#00FFF0>%player%"
+  lore-placeholder:
+    - "<color:#00FFF0>Time left <color:#A9A7A2>» %timeleft%"
+    - "<color:#00FFF0>Current Kills <color:#A9A7A2>» %kills%"
 
 ##Amount of time in ticks wait before sending in each message.
-interval-during-each-message-in-ticks: 20
+interval-during-each-message-in-ticks: 10
 
 ##The radius of marker that comes up on the square map plugin.
 ##NOTE FOR Devs: These values are passed along side the META_DATA `bounty`, so this value can be fetched from anywhere
-square-map-radius: 
-   1: 400
-   2: 300
-   3: 200
-
+square-map-radius:
+  1: 400
+  2: 300
+  3: 200
 #################################################################
 #Messages that are used in the game. Almost all the messages support multiple placeholders. The placeholders for each
 #message has been documented above its key.
 #All the messages in the config support MiniMessages from kyori's Adventure API.
 #All the messages down here support PlaceholderAPI Support...The placeholders are parsed for the player to whom the
 #message has been sent. Not the killer or Dead Player. This is done to make consistency in the plugin messaging
-messages: 
+messages:
   #Available Placeholders:
   #%dead_player% -> Name of the dead player
   #%killer% -> Name of the killer
   #%rand_loc% -> A random location of radius 50 of the bounty player
-   new-bounty-broadcast: 
-   - <gray> * %dead_player%'s was slain by %killer%
-   - <gray> * %killer% now has a bounty on their head!
+  new-bounty-broadcast:
+    - "<red>%dead_player%'s was slain by %killer%"
+    - "<red>%killer% now has a bounty on their head!"
   #Available Placeholders:
   #%dead_player% -> Name of the dead player
   #%killer% -> Name of the killer
   #%rand_loc% -> A random location of radius 50 of the bounty player
   #%kills% -> Gets no of kills the killer player have
-   existing-bounty-broadcast: 
-   - <gray> * %dead_player% was slain by %killer%
-   - <gray> * %killer%'s bounty grows...
+  existing-bounty-broadcast:
+    - "<red>%dead_player% was slain by %killer%"
+    - "<red>%killer%'s bounty grows..."
   #Available Placeholders:
   #%dead_player% -> Name of the dead player
   #%player_x% -> X Location X of the dead bounty
@@ -97,6 +105,6 @@ messages:
   #%killer% -> Name of the killer
   #%player_kills% -> The consecutive kills bounty had
   #%player_level% -> The current reward level the player had
-   player-bounty-released-broadcast: 
-   - <gray> * %dead_player%'s bounty has been claimed by %killer%
+  player-bounty-released-broadcast:
+    - "<gray>%dead_player%'s bounty has been claimed by %killer%"
 version: 1.0
