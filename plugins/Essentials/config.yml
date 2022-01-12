@@ -165,7 +165,6 @@ notify-player-of-mail-cooldown: 60
 overridden-commands:
 #  - god
 #  - info
-  - recipe
 
 # Disabling commands here will prevent Essentials handling the command, this will not affect command conflicts.
 # You should not have to disable commands used in other plugins, they will automatically get priority.

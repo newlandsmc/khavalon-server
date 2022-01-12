@@ -17,26 +17,26 @@ Rewards:
     weight: 5
     chance-again: 75
     weight-again: 2
-  AMETHYST_SHARD:
-    weight: 5
-    chance-again: 75
-    weight-again: 2
+#  AMETHYST_SHARD:
+#    weight: 5
+#    chance-again: 75
+#    weight-again: 2
   RAW_IRON:
     weight: 3
     chance-again: 90
     weight-again: 1
-  RAW_COPPER:
-    weight: 3
-    chance-again: 90
-    weight-again: 1
+#  RAW_COPPER:
+#    weight: 3
+#    chance-again: 90
+#    weight-again: 1
   RAW_GOLD:
     weight: 5
     chance-again: 75
     weight-again: 2
-  COAL:
-    weight: 2
-    chance-again: 90
-    weight-again: 1
+#  COAL:
+#    weight: 2
+#    chance-again: 90
+#    weight-again: 1
   FEATHER:
     weight: 2
     chance-again: 33
@@ -77,10 +77,10 @@ Rewards:
     weight: 2
     chance-again: 90
     weight-again: 1
-  APPLE:
-    weight: 2
-    chance-again: 75
-    weight-again: 1
+#  APPLE:
+#    weight: 2
+#    chance-again: 75
+#    weight-again: 1
 #  CARROT:
 #    weight: 2
 #  POTATO:
@@ -89,18 +89,18 @@ Rewards:
     weight: 2
     chance-again: 75
     weight-again: 1
-  PORKCHOP:
-    weight: 3
-    chance-again: 90
-    weight-again: 1
-  BEEF:
-    weight: 3
-    chance-again: 90
-    weight-again: 1
-  MUTTON:
-    weight: 3
-    chance-again: 90
-    weight-again: 1
+#  PORKCHOP:
+#    weight: 3
+#    chance-again: 90
+#    weight-again: 1
+#  BEEF:
+#    weight: 3
+#    chance-again: 90
+#    weight-again: 1
+#  MUTTON:
+#    weight: 3
+#    chance-again: 90
+#    weight-again: 1
 
 Tiers:
   # Time is in minutes
