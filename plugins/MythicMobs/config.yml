@@ -26,7 +26,7 @@ Configuration:
     EnableAIModifiers: true
     EnableTimerSkills: true
     EnableThreatTables: true
-    EnablePlayerFactions: true
+    EnablePlayerFactions: false
     EnableLegacySkills: false
     KillMessagePrefix: ''
     PreventOtherDropsByDefault: false
@@ -67,14 +67,14 @@ Configuration:
     Heroes:
       Enabled: false
     McMMO:
-      Enabled: true
+      Enabled: false
       ShowXPMessage: false
       XPMessageFormat: '&7You receive <drop.amount> experience for slaying <dropper.name>'
     SkillAPI:
       Enabled: false
-      ShowXPMessage: true
+      ShowXPMessage: false
       XPMessageFormat: '&7You receive <drop.amount> experience for slaying <dropper.name>'
     Vault:
       Enabled: false
-      ShowMoneyMessage: true
+      ShowMoneyMessage: false
       MoneyMessageFormat: '&7You receive <drop.amount> currency for slaying <dropper.name>'

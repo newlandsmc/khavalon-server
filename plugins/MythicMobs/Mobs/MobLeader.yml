@@ -1,0 +1,10 @@
+MobLeader:
+  Type: ILLUSIONER
+  Health: 30
+  Damage: 2
+  Skills:
+   - summon{type=ZOMBIE;amount=5;radius=5;itt=true} @self ~onSpawn
+   - summon{type=SKELETON;amount=2;radius=5;itt=true} @self ~onSpawn
+   - rally{type=SKELETON,ZOMBIE,CREEPER;r=60;ot=false} @target ~onSpawn
+   - summon{type=ZOMBIE;amount=1;radius=5;itt=true} @self ~onTimer:1200
+   - rally{type=SKELETON,ZOMBIE,CREEPER;r=60;ot=false} @target ~onTimer:600

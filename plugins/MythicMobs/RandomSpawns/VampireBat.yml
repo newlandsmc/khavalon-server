@@ -1,0 +1,34 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+VampireBatSpawn:
+  MobType: VampireBat
+  Worlds: world
+  Chance: 0.003
+  Priority: 1
+  Action: REPLACE
+  Conditions:
+  - inside true
+  - lightlevel{l=0} true
+  - playerWithin{d=40} true
+  - biome RIVER,FROZEN_RIVER,WARM_OCEAN,LUKEWARM_OCEAN,OCEAN,DEEP_OCEAN,COLD_OCEAN,DEEP_COLD_OCEAN,FROZEN_OCEAN,DEEP_FROZEN_OCEAN false
+
+
+
+
+
+#RandomSkeletonKing:
+#  MobType: SkeletonKing
+#  Worlds: world
+#  Chance: 0.001
+#  Priority: 1
+#  Action: REPLACE
+#  Conditions:
+#  - outside true
+#RandomSkeletalKnight:
+#  MobType: SkeletalKnight
+#  Worlds: world
+#  Chance: 0.008
+#  Priority: 1
+#  Action: REPLACE

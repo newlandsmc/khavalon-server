@@ -38,7 +38,7 @@ header:
 - ""
 #- " &e&lSemi&6&lVanilla &c&lMC "
 - "%anim:title%"
-- " Days left: 365 "
+- " Days left: %timer_of% "
 - ""
 - " &m      &8&m[  &r   &8&m  ]&f&m      &r "
 

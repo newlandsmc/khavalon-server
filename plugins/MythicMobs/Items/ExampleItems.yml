@@ -17,6 +17,7 @@ SkeletonKingSword:
     MainHand:
       Health: 10
       MovementSpeed: 0.1
+
 KingsCrown:
   Id: GOLDEN_HELMET
   Data: 0
@@ -37,11 +38,3 @@ KingsCrown:
     Head:
       Health: 10
       KnockbackResistance: 10
-BanditTunic:
-  Id: LEATHER_CHESTPLATE
-  Display: '&aBandit Tunic'
-  Lore:
-  - '&6A leather tunic taken from'
-  - '&6the corpse of a bandit.'
-  Options:
-    Color: 255,40,40

@@ -7,18 +7,15 @@ SmashAttack:
   Conditions:
   - targetwithin 25
   Skills:
-  - message{cooldown=30;m="<mob.name><&co> Hahahah! I will crush you, fool!"} @PlayersInRadius{r=40}
   - teleport @target
   - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
   - delay 10
-  - damage{amount=5;ignorearmor=true} @PlayersInRadius{r=5}
+  - damage{amount=3;ignorearmor=true} @PlayersInRadius{r=5}
   - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
   - effect:explosion @Self
 SummonSkeletons:
   Cooldown: 15
   Skills:
-  - message{m="<mob.name><&co> Arise, my minions!"} @PlayersInRadius{r=40}
-  - delay 20
   - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
   - delay 20
   - summon{mob=SkeletalMinion;amount=2;noise=5} @Self

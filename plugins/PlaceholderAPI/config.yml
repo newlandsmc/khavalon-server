@@ -8,7 +8,7 @@
 # Discord: https://helpch.at/discord
 # No placeholders are provided with this plugin by default.
 # Download placeholders: /papi ecloud
-check_updates: true
+check_updates: false
 cloud_enabled: true
 cloud_sorting: name
 cloud_allow_unverified_expansions: false
@@ -23,3 +23,5 @@ expansions:
       medium: '&e'
       high: '&c'
       low: '&a'
+  timer:
+    date: 13/01/2023

@@ -82,21 +82,27 @@ square-map-radius:
 #All the messages down here support PlaceholderAPI Support...The placeholders are parsed for the player to whom the
 #message has been sent. Not the killer or Dead Player. This is done to make consistency in the plugin messaging
 messages:
+  help-message:
+    header:
+    - "<yellow><strikethrough>                         <reset> Bounty Help <yellow><strikethrough>                         <reset>"
+    comand-description: "<gold>%command%<white>: %description%"
+    fotter:
+    - "<yellow><strikethrough>                                                                  <reset>"
   #Available Placeholders:
   #%dead_player% -> Name of the dead player
   #%killer% -> Name of the killer
   #%rand_loc% -> A random location of radius 50 of the bounty player
   new-bounty-broadcast:
-    - "<red>%dead_player%'s was slain by %killer%"
-    - "<red>%killer% now has a bounty on their head!"
+    - "<gray> * %dead_player%'s was slain by %killer%"
+    - "<gray> * %killer% now has a bounty on their head!"
   #Available Placeholders:
   #%dead_player% -> Name of the dead player
   #%killer% -> Name of the killer
   #%rand_loc% -> A random location of radius 50 of the bounty player
   #%kills% -> Gets no of kills the killer player have
   existing-bounty-broadcast:
-    - "<red>%dead_player% was slain by %killer%"
-    - "<red>%killer%'s bounty grows..."
+    - "<gray> * %dead_player% was slain by %killer%"
+    - "<gray> * %killer%'s bounty grows..."
   #Available Placeholders:
   #%dead_player% -> Name of the dead player
   #%player_x% -> X Location X of the dead bounty
@@ -106,5 +112,5 @@ messages:
   #%player_kills% -> The consecutive kills bounty had
   #%player_level% -> The current reward level the player had
   player-bounty-released-broadcast:
-    - "<gray>%dead_player%'s bounty has been claimed by %killer%"
+    - "<gray> * %dead_player%'s bounty has been claimed by %killer%"
 version: 1.0

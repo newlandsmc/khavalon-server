@@ -1,0 +1,29 @@
+VampireBat:
+  Type: PARROT
+  Display: '&cVampire Bat'
+  Health: 14
+  Damage: 2
+  Disguise: BAT setCustomNameVisible false
+  Options:
+    KnockbackResistance: 1
+    MovementSpeed: 0.3
+    Silent: true
+    PreventOtherDrops: true
+    ShowName: false
+    Despawn: true
+  AITargetSelectors:
+  - 0 hurtbytarget
+  - 1 players
+  AIGoalSelectors:
+  - 0 meleeattack
+  - 1 randomfly
+  - 2 randomfly
+  - 3 randomfly
+  Skills:
+  - consume{damage=1;heal=2} @target ~onAttack
+  - rally{radius=30;types=VampireBat} @target ~onAttack
+  - effect:sound{s=entity.bat.loop;p=0.1;v=0.05} @self ~onTimer:40
+  - effect:sound{s=entity.bat.ambient;p=0.1;v=0.02} @self ~onTimer:4 0.1
+  - effect:sound{s=entity.bat.takeoff;p=0.1;v=0.05} @self ~onAttack
+  - effect:sound{s=entity.bat.hurt;p=0.1;v=0.05} @self ~onDamaged
+  - effect:sound{s=entity.bat.death;p=0.1;v=0.05} @self ~onDeath

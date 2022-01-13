@@ -1,8 +1,0 @@
-DEMO_HUSK:
-  Type: Husk
-  Display: '&dMy Custom Husk [Lvl ???]'
-  Health: 100
-  Damage: 0
-  Skills:
-  - skill{s=AURELIUM_LEVEL_SET_ONHIT} @Trigger ~onDamaged
-  

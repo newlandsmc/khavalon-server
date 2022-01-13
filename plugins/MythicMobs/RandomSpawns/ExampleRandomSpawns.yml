@@ -10,9 +10,14 @@ RandomSkeletonKing:
   Action: REPLACE
   Conditions:
   - outside true
+  - biome RIVER,FROZEN_RIVER,WARM_OCEAN,LUKEWARM_OCEAN,OCEAN,DEEP_OCEAN,COLD_OCEAN,DEEP_COLD_OCEAN,FROZEN_OCEAN,DEEP_FROZEN_OCEAN false
+
 RandomSkeletalKnight:
   MobType: SkeletalKnight
   Worlds: world
   Chance: 0.008
   Priority: 1
   Action: REPLACE
+  Conditions:
+  - biome RIVER,FROZEN_RIVER,WARM_OCEAN,LUKEWARM_OCEAN,OCEAN,DEEP_OCEAN,COLD_OCEAN,DEEP_COLD_OCEAN,FROZEN_OCEAN,DEEP_FROZEN_OCEAN false
+
