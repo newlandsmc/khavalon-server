@@ -69,6 +69,11 @@ gui:
 ##Amount of time in ticks wait before sending in each message.
 interval-during-each-message-in-ticks: 10
 
+##Secs in which the player data should be cached after they leave,
+##This cache helps to reduce I/O writes if there are too much players
+##A good value should be somewhere between 15-30 sec
+cache-player-data-after-the-leave-in-sec: 3
+
 ##The radius of marker that comes up on the square map plugin.
 ##NOTE FOR Devs: These values are passed along side the META_DATA `bounty`, so this value can be fetched from anywhere
 square-map-radius:
