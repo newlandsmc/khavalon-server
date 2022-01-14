@@ -3,13 +3,13 @@ first-join: "<green> * (playerName) joins and a new fire is lit somewhere..."
 first-join-dialogue:
   1: # Doesn't matter what this is called, as long as it is unique and different from the different lines
     message: "You awake in a strange place...\nThere's leaves rustling nearby and a flame flickers catching your attention...\nDid you build this fire? How could you have forgotten?\n<gray>(Type /skip to skip)"
-    delay: 3
+    delay: 0
   2:
-    message: "How you got here is not important now...\nYou're hungry and unarmed, and you can't shake the feeling something lurks in the shadows...\nThere must be something you can eat in that chest.\n<gray>(Type /skip to skip)"
-    delay: 9
+    message: "How you got here is not important now...\nYou're hungry and unarmed, and you can't shake the feeling something lurks in the shadows...\n<yellow>There must be something you can eat in that chest.\n<gray>(Type /skip to skip)"
+    delay: 8
   3:
-    message: "You'll need some tools to survive this strange new world...\nSomething tells you not all players will be friendly...\nA sword should be your top priority.\n<gray>(Good luck!)"
-    delay: 9
+    message: "You'll need some tools to survive this strange new world...\nSomething tells you not all players will be friendly...\n<yellow>A sword should be your top priority.\n<gray>(Good luck!)"
+    delay: 8
 
 revert-spawn-structure: false
 

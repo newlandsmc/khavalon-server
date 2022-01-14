@@ -41,8 +41,78 @@ alerts:
   # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
   # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
   # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
   click-commands:
   - /vulcan clickalert %player%
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
+  # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
   # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
   # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
   # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
@@ -51,7 +121,35 @@ alerts:
   - tp %player%
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
   toggled-on-message: '%prefix% Alerts enabled.'
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   toggled-off-message: '%prefix% Alerts disabled.'
@@ -59,7 +157,63 @@ alerts:
   # Whether or not alerts will be printed to the console.
   # Whether or not alerts will be printed to the console.
   # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
+  # Whether or not alerts will be printed to the console.
   print-to-console: true
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
+  # The format for printing alerts to the console
   # The format for printing alerts to the console
   # The format for printing alerts to the console
   # The format for printing alerts to the console
@@ -77,7 +231,119 @@ alerts:
   # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
   # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
   # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
+  # This is a fully customizable list of commands that will be executed each time a player flags a check, just in case
+  # you want to do anything special when they flag without needing to use the API. All valid placeholders are the same
+  # as listed above once again.
   custom-commands: []
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
+  # You can use this section to color code your alerts or add chances to them depending on the violation level.
   # You can use this section to color code your alerts or add chances to them depending on the violation level.
   # You can use this section to color code your alerts or add chances to them depending on the violation level.
   # You can use this section to color code your alerts or add chances to them depending on the violation level.
@@ -108,6 +374,34 @@ alerts:
   # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
   # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
   # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
+  # The symbol that will be displayed for the %dev% placeholder to denote experimental checks.
   experimental-symbol: '*'
 verbose:
   # Verbose notifications are sent whenever a player increases the buffer on a check. Only really here for developer
@@ -133,11 +427,81 @@ verbose:
   # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
   # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
   # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
+  # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
+  # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
+  # Valid placeholders
   click-commands:
   - /tp %player%
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
   toggled-on-message: '%prefix% Vulcan verbose enabled'
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
+  # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
   toggled-off-message: '%prefix% Vulcan verbose disabled'
@@ -3384,6 +3748,1518 @@ checks:
         punishment-commands:
         - warn -s %player% Hacked client detected - Player (Ghost Hand)
         cancel: true
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
+    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
+    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
+    # packets after 30 seconds.
     # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
     # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
     # packets after 30 seconds.
