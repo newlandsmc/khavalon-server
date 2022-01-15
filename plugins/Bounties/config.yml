@@ -37,6 +37,9 @@ rewards:
     4:
       - '[XP]:2000'
 
+##Amount of xp that one gets if killed a player without bounty
+xp-for-killing-non-bounty: 250
+
 ##The message that would parse when %bs_tag% is used if the player is bounty
 ##NOTE: PlaceholderAPI doesn't support MiniMessage, so use Legacy Color Codes
 placeholder-tag-message: "&c"
@@ -57,7 +60,7 @@ placeholder-tag-bounty-online-formatted:
 #name-player-placeholder -> The text to be displayed on each bounty head
 #lore-placeholder -> The lore to be added on to each bounty had
 gui:
-  name: "<red>Bounties"
+  name: "Bounties"
   rows: 3
   previous: "<color:#FFE400>« Previous"
   next: "<color:#FFE400>» Next"

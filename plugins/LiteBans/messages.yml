@@ -170,7 +170,7 @@ command:
     start: '&e&m                      &r History (Limit $limit) &e&m                      &r'
     ban_entry: |2-
 
-      &e$named banned $timeSince ago:&r
+      &e$name banned $timeSince ago:&r
       &fBy: $executor
       &fReason: $reason
     mute_entry: |2-

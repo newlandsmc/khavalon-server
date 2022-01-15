@@ -1,6 +1,17 @@
 
-# Player placeholder support (playerName), (playerHealth), for other player options please message me so I can implement them
+# Player placeholder support: (playerName), (playerHealth), (playerVotesToday). for other player options please message me, so I can implement them
+# There's also some server placeholders as well: (voteServices) <- returns the number of services enabled
 # This group of messages has that support
 # Please use MiniMessage for color and other formatting
 claim-reminder: "<yellow>You found some treasure while you were away! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><yellow> to claim your treasure."
 add-old-rewards: false # Stack old rewards to new ones, if set to false only the newest rewards will be shown
+vote-services:
+  - "MinecraftServers.org"
+  - "TopMinecraftServers"
+  - "PlanetMinecraft.com"
+  - "Minecraft.Buzz"
+  - "Minecraft-Server.net"
+  - "Minecraft-MP.com"
+vote-incomplete-message: "<green>Vote received! Vote on all (voteServices) sites to receive a reward! [(playerVotesToday)/(voteServices)]"
+vote-complete-message: "<gold>Thank you for voting on all sites! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><yellow> to claim your treasure."
+instant-package-message: "<green>Thank you for voting! Because you have the instant reward package you do not receive any extra rewards."

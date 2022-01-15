@@ -27,3 +27,5 @@ aliases:
   - einfo
   store:
   - einfo
+  vote:
+  - einfo
