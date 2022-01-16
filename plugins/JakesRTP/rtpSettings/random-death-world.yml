@@ -35,7 +35,7 @@ call-from-worlds:
 # There exists a dynamic distribution named `world-border` that automatically makes a distribution to perfectly
 #   fill a world border managed by ChunkyBorder (or any future supported world border plugin), or the default minecraft
 #   world border if no plugin is found.
-distribution: 'random-spawn'
+distribution: 'random-death'
 
 # Which method should we use to find a safe location? Since this plugin is meant to work 'out-of-the-box' without need
 #   of configuring, the 'auto' option has been included.
@@ -58,7 +58,7 @@ cooldown: 0
 # Can be bypassed in a similar way to the cooldown (`jakesrtp.nowarmup` or 'jakesrtp.nowarmup.[rtpSettings]')
 # The warmup is only used when the rtp is from a player run `/rtp` command, not from any type of force-rtp.
 warmup:
-  time: 0
+  time: -1
   cancel-on-move: true
   count-down: true
 
@@ -73,9 +73,7 @@ warmup:
 #   %location_old%        The location of the player before they moved.
 #   %world_old%           The world the player was in before they are moved.
 #   %x_old% or %y_old% or %z_old% The x or y or z location of the player before they were moved.
-then-execute:
-  - 'spawnpoint %player% %x% %y% %z%'
-  - 'spawncampfire %player%'
+then-execute: []
 
 # This only is used if you have an economy plugin.
 # If you do have an economy plugin and you want to disable this feature, set cost to 0.
@@ -84,8 +82,8 @@ cost: 0.0
 
 ############## # Everything past this point in the config probably does not need to get changed
 bounds: # The lowest and highest points a player can be RTP'd to.
-  low: 64     # Default: 32
-  high: 127   # Default: 255  | SET THIS TO 127 FOR NETHER WORLDS IF location-checking-profile IS NOT ON AUTO
+  low: 32     # Default: 32
+  high: 255   # Default: 255  | SET THIS TO 127 FOR NETHER WORLDS IF location-checking-profile IS NOT ON AUTO
 check-radius: # How many blocks away from the initial spot to check.
   x-z: 2      # Default: 2    | Max spots to check per attempt is equal to:
   vert: 2     # Default: 2    | (2*vert+1)*(2*(x-z)+1)^2
@@ -94,4 +92,4 @@ max-attempts: # If the random location, and all (by default 125) close spots are
 preparations: # Preparing spots to teleport to. Note: These will be ignored if the center is players location.
   cache-locations: 10 # The number of safe rtp spots to hold on to. For best performance, keep this larger than 2.
 prefer-sync-tp: # Players can be teleported either synchronously or asynchronously. Sync is faster, but can (not always)
-  command: true #  produce lag-spikes that are felt by other players. Async is slower, but only for the person rtp-ing.
+  command: false #  produce lag-spikes that are felt by other players. Async is slower, but only for the person rtp-ing.

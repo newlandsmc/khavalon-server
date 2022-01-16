@@ -29,3 +29,5 @@ aliases:
   - einfo
   vote:
   - einfo
+  spawnmob:
+  - espawnmob

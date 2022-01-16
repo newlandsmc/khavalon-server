@@ -1,5 +1,6 @@
 Chance: 0.5
 Effects:
+  - BLINDNESS 120p
   - minecraft:block.note_block.basedrum 20t
   - minecraft:block.note_block.basedrum 25t
   - minecraft:block.note_block.basedrum 45t

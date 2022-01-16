@@ -30,7 +30,10 @@ rtp-on-first-join:
 # The world given for `world` MUST be listed as an `enabled-world` in the given rtpSettings.
 rtp-on-death:
   enabled: true
-  settings: 'random-death'
+  settings:
+    world: 'random-death-world'
+    world_nether: 'random-death-nether'
+    world_the_end: 'random-death-end'
   respect-beds: false
   respect-anchors: true
   require-permission: false
