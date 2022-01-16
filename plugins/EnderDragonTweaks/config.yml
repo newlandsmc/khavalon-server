@@ -1,9 +1,126 @@
 #
 
-verbose: false
 config-version: 1
 enderdragon:
-  killed: <gray> * The Ender Dragon was killed by <players>!
-  spawned: <gray> * The Ender Dragon has respawned!
+  remove-drops: true
+  killed: <gray> * The ender dragon was killed by <players>!
+  spawned: <gray> * The ender dragon has been respawned!
   respawn-delay: 36000
-  exp-to-drop: 6000
+  exp-to-drop: 500
+lootdrops:
+  min-x: -31
+  max-x: 31
+  min-z: -31
+  max-z: 31
+  min-y: 70
+  max-y: 80
+  min-player-count: 1
+  max-player-count: 10
+worldname: ''
+drops:
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 5
+      Damage: 1020
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"color":"gold","text":"Destro''s sword"}'
+      enchants:
+        KNOCKBACK: 2
+        LOOT_BONUS_MOBS: 3
+        MENDING: 1
+        DURABILITY: 3
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1400
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DRAGON_EGG
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 200
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        DURABILITY: 3
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      Damage: 461
+      charged: false
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      Damage: 238
+      charged: false
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      enchants:
+        QUICK_CHARGE: 3
+      Damage: 461
+      charged: false
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 3
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 3
+      Damage: 670
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: DIAMOND_SWORD

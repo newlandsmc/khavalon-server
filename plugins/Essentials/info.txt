@@ -5,4 +5,4 @@ Map: &7https://semivanilla.com/map
 Vote: &7https://semivanilla.com/vote
 Store: &7https://store.semivanilla.com
 
-&e&m                                                                  &r
+&e&m                                                                 &r

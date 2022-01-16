@@ -14,4 +14,5 @@ vote-services:
   - "Minecraft-MP.com"
 vote-incomplete-message: "<green>Vote received! Vote on all (voteServices) sites to receive a reward! [(playerVotesToday)/(voteServices)]"
 vote-complete-message: "<gold>Thank you for voting on all sites! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><yellow> to claim your treasure."
-instant-package-message: "<green>Thank you for voting! Because you have the instant reward package you do not receive any extra rewards."
+vote-complete-announce: "<green> * (playerName) voted for us! Use /vote to vote."
+instant-package-message: "<gold>Thank you for voting! Because you have the instant reward package you do not receive any extra rewards."
