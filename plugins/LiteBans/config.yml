@@ -86,18 +86,14 @@ durations:
   # Cooldowns can be bypassed with: "litebans.cooldown.bypass", "litebans.cooldown.bypass.ban", "litebans.cooldown.bypass.mute", etc.
   # Cooldowns default to 5 seconds if not specified.
   limits:
-    moderator:
-      permission: litebans.group.moderator
-      tempban: 7 days
-      tempmute: 2 hours
-    helper:
-      permission: litebans.group.helper
-      tempban: 7 days
-      tempmute: 2 hours
+    # moderator:
+    #   permission: litebans.group.moderator
+    #   tempban: 7 days
+    #   tempmute: 2 hours
     other:
       permission: none
       tempban: 7 days
-      tempmute: 2 hours
+      tempmute: 24 hours
       cooldown_ban: 5 seconds
       cooldown_mute: 5 seconds
       cooldown_warn: 5 seconds

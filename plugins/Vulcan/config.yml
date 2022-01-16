@@ -167,28 +167,28 @@ punishments:
   message: '%prefix% %player% was punished for %check% (Type %type%) [x%vl%]'
   # The message that will be broadcast to the whole server when a player is punished
   broadcast:
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   - '&fVulcan detected %player% to be cheating and has removed them from the server.'
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
 judgement-days:
   # The message that wil be broadcast to the server when someone has executed /jday start
   started-broadcast:
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   - '&fVulcan Judgement Day has commenced...'
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   # The message that will be broadcast to the server when the judgement day has ended.
   ended-broadcast:
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   - '&fVulcan Judgement Day has ended... %amount% players were punished.'
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   # The commands that will be executed, %player% indicates a player who was added to judgement day (/jday add (name)))
   commands:
   - ban %player% Vulcan Judgement Day
   # The broadcast that will be sent to the server when someone is punished in a judgement day.
   broadcast:
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   - '&f%player% was banned during Vulcan Judgement Day.'
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   # How long we should wait in between players who are queued in judgement days
   cooldown: 1000
   # Whether or not judgement days should run automatically at a specified interval (if the above is true)
@@ -339,7 +339,7 @@ messages:
 commands:
   # Vulcan help command message.
   help:
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   - '&cVulcan Cheat Detection v%version% by &cfrep (frap#0002)'
   - '&r'
   - '&c/vulcan help &f- Opens this help menu'
@@ -364,19 +364,19 @@ commands:
   - ''
   - '&c/verbose &f- Turn on and off verbose notifications.'
   - '&c/alerts &f- Turn on and off cheat alerts.'
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   ban:
     # The commands that will be executed when /vulcan ban (player) is executed
     commands:
     - ban %player% Hacked client detected.
     # The messages that will be broadcast when /vulcan ban (player) is executed
     broadcast:
-    - '&e&m                                                   '
+    - '&e&m                                                               '
     - '&fVulcan detected %player% to be cheating and has removed them from the server.'
-    - '&e&m                                                   '
+    - '&e&m                                                               '
   # Options for the /vulcan profile (name) command
   profile:
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   - '&cVulcan Profile for %player%:'
   - ' &8» &7%uuid%'
   - ''
@@ -395,10 +395,10 @@ commands:
   - '&8» &7Nearby Entities: %nearby-entities%'
   - ''
   - '&7Potion Effects: %potion-effects%'
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   cps: '&fCPS for %player%: %cps%'
   connection:
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   - '&cConnection Information for %player%:'
   - ''
   - '&7Transaction Ping: &c%transaction-ping%ms'
@@ -408,12 +408,12 @@ commands:
   - '&7Queued Transactions: &c%queued-transactions%'
   - ''
   - '&7Flying Delay: &c%flying-delay%ms'
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   logs:
     color: '&7'
-    header-footer: '&e&m          &r Logs for %player% (%page%/%max-pages%) &e&m           '
+    header-footer: '&e&m              &r Logs for %player% (%page%/%max-pages%) &e&m               '
   top:
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   - '&cTop Total Violations:'
   - ' &8- &7%total-1-name% &7(&c%total-1-violations% VL&7)'
   - ' &8- &7%total-2-name% &7(&c%total-2-violations% VL&7)'
@@ -441,12 +441,12 @@ commands:
   - ' &8- &7%player-3-name% &7(&c%player-3-violations% VL&7)'
   - ' &8- &7%player-4-name% &7(&c%player-4-violations% VL&7)'
   - ' &8- &7%player-5-name% &7(&c%player-5-violations% VL&7)'
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   jday:
-    list-header-footer: '&e&m                                                   '
+    list-header-footer: '&e&m                                                                 '
     list-format: ' &8- &7%name%'
   punishlogs:
-    header-footer: '&e&m          &r Punishment Logs for %player% &e&m           '
+    header-footer: '&e&m              &r Punishment Logs for %player% &e&m               '
 punishment-statistics-broadcast:
   # Whether or not Vulcan should broadcast how many players it has punished.
   enabled: false
@@ -454,9 +454,9 @@ punishment-statistics-broadcast:
   interval: 18000
   # The message that should be broadcasted
   broadcast:
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
   - '&fIn the past 7 days, Vulcan has punished %amount% players.'
-  - '&e&m                                                   '
+  - '&e&m                                                                 '
 settings:
   # Whether or not alerts will automatically be enabled on-join for players who have the permission "vulcan.alerts"
   toggle-alerts-on-join: true

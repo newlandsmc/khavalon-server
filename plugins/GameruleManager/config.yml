@@ -8,7 +8,7 @@ world-settings:
   default:
     gamerules:
       announceAdvancements: false
-      maxEntityCramming: 8
+      maxEntityCramming: 24
       showDeathMessages: false
       doInsomnia: false
       playersSleepingPercentage: 50

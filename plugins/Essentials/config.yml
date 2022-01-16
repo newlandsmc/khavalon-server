@@ -186,35 +186,15 @@ verbose-command-usages: false
 # remove commands that are used for something you dont want to spy on.
 # Set - '*' in order to listen on all possible commands.
 socialspy-commands:
-  - msg
-  - w
-  - r
-  - mail
-  - m
-  - t
-  - whisper
-  - emsg
-  - tell
-  - er
-  - reply
-  - ereply
-  - email
-  - action
-  - describe
-  - eme
-  - eaction
-  - edescribe
-  - etell
-  - ewhisper
-  - pm
+  - '*'
 
 # Whether the private and public messages from muted players should appear in the social spy.
 # If so, they will be differentiated from those sent by normal players.
-socialspy-listen-muted-players: true
+socialspy-listen-muted-players: false
 
 # Whether social spy should spy on private messages or just the commands from the list above.
 # If false, social spy will only monitor commands from the list above.
-socialspy-messages: true
+socialspy-messages: false
 
 # The following settings listen for when a player changes worlds.
 # If you use another plugin to control speed and flight, you should change these to false.

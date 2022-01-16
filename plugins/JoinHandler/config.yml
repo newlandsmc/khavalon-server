@@ -15,7 +15,7 @@ first-join-dialogue:
     delay: 8
   5:
     message: "\n<yellow><strikethrough>                                                                  <reset>\n\n            <white><bold>Welcome to SemiVanilla MC!<reset>\n             A new adventure lies ahead,\n                with lots to discover!\n         Need help along the way? Discord!\n           <gray>https://semivanilla.com/discord\n\n<yellow><strikethrough>                                                                  <reset>"
-    delay: 8
+    delay: 6
     mute-chat-for: 0
 
 revert-spawn-structure: false
