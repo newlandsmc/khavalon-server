@@ -31,3 +31,7 @@ aliases:
   - einfo
   spawnmob:
   - espawnmob
+  ac:
+  - sc
+  mute:
+  - tempmute

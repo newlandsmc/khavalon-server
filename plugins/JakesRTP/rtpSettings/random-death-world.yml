@@ -83,7 +83,7 @@ cost: 0.0
 ############## # Everything past this point in the config probably does not need to get changed
 bounds: # The lowest and highest points a player can be RTP'd to.
   low: 32     # Default: 32
-  high: 255   # Default: 255  | SET THIS TO 127 FOR NETHER WORLDS IF location-checking-profile IS NOT ON AUTO
+  high: 319   # Default: 255  | SET THIS TO 127 FOR NETHER WORLDS IF location-checking-profile IS NOT ON AUTO
 check-radius: # How many blocks away from the initial spot to check.
   x-z: 2      # Default: 2    | Max spots to check per attempt is equal to:
   vert: 2     # Default: 2    | (2*vert+1)*(2*(x-z)+1)^2

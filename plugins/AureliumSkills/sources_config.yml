@@ -187,7 +187,7 @@ sources:
     mob_damage: 1
     player_damage: 2
   fighting:
-    player: 50.0
+    player: 500.0
     bat: 1.0
     cat: 1.0
     chicken: 1.0
@@ -229,7 +229,7 @@ sources:
     blaze: 10.0
     creeper: 10.0
     drowned: 7.0
-    elder_guardian: 100.0
+    elder_guardian: 150.0
     endermite: 5.0
     evoker: 35.0
     ghast: 17.0

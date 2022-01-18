@@ -2,7 +2,7 @@
 ######################
 
 # prefix to show in front of the few command responses RegexFilter has
-prefix: ""
+prefix: "RegexFilter: "
 
 # debug mode, log every matching pattern and fired filter action in console
 debug: false
@@ -47,12 +47,8 @@ filters:
     exec: "warn %player_name% Auto-detected: Prohibited language"
     deny: true
 
-  - pattern: "(\\w)\\1{3,}"
+  - pattern: "(\w)\1{3,}"
     replace: "$1$1$1"
-
-  - pattern: "([A-Z]|\\W){9,}"
-    warn-text: "Please do not use so much caps."
-    deny: true
 
 # Now let's demonstrate features with some clbuttical examples
   #- pattern:      "fuck"

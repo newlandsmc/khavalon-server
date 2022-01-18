@@ -1,0 +1,53 @@
+#
+# Language-File created by:		Gecolay
+#
+
+
+
+Plugin:
+
+  plugin-enabled: "[P]&aThe Plugin was successfully enabled."
+  plugin-link: "[P]&aLink with&6 %Link%&a successful!"
+  plugin-update: "[P]&aNew Version available:&6 %NewVersion%&a!\n[P]&a You are currently running Version:&6 %Version%&a!\n[P]&a Download the latest Version at:\n[P]&6 %Path%"
+  plugin-version: "[P]&cThis Plugin can not be used with this Server Version! (&b%Version%&c)"
+  plugin-disabled: "[P]&aThe Plugin was successfully disabled."
+  plugin-prefix: ""
+
+
+
+Messages:
+
+  command-reload: "[P]&aThe Settings were successfully reloaded."
+  command-permission-error: "[P]&cYou do not have Permission to do that."
+  command-sender-error: "[P]&cThis Sender cannot execute that command."
+  command-version-error: "[P]&cYou can't use that feature with this server version! (&b%Version%&c)"
+
+  command-gsit-toggle-on: "[P]&aYou have enabled click-interactions for sit."
+  command-gsit-toggle-off: "[P]&aYou have disabled click-interactions for sit."
+  command-gsit-playertoggle-on: "[P]&aYou have enabled click-interactions for playersit."
+  command-gsit-playertoggle-off: "[P]&aYou have disabled click-interactions for playersit."
+
+  action-sit-now-error: "[P]&cYou can't sit right now!"
+  action-sit-world-error: "[P]&cYou can't sit in this world!"
+  action-sit-location-error: "[P]&cYou can't sit here!"
+  action-sit-safe-error: "[P]&cIt's not safe to sit here!"
+  action-sit-region-error: "[P]&cYou can't sit in this region!"
+  action-sit-kick-error: "[P]&cSomeone is already sitting here!"
+  action-sit-info: "&aUse your&6 <translatekey:key.sneak>&a Key to get up."
+
+  action-playersit-info: "&aUse your&6 <translatekey:key.sneak>&a Key to get up."
+
+  action-pose-now-error: "[P]&cYou can't pose right now!"
+  action-pose-world-error: "[P]&cYou can't pose in this world!"
+  action-pose-location-error: "[P]&cYou can't pose here!"
+  action-pose-safe-error: "[P]&cIt's not safe to pose here!"
+  action-pose-region-error: "[P]&cYou can't pose in this region!"
+  action-pose-kick-error: "[P]&cSomeone is already posing here!"
+  action-pose-info: "&aUse your&6 <translatekey:key.sneak>&a Key to get up."
+
+  action-crawl-now-error: "[P]&cYou can't crawl right now!"
+  action-crawl-world-error: "[P]&cYou can't crawl in this world!"
+  action-crawl-region-error: "[P]&cYou can't crawl in this region!"
+  action-crawl-info: "&aUse your&6 <translatekey:key.sneak>&a Key to get up."
+
+  action-blocked-error: "[P]&cYou are not allowed to execute this command right now!"
