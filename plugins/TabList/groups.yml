@@ -37,4 +37,6 @@ groups:
     tabname: '%bs_tag%%player%'
     suffix: ''
   tester:
-    prefix: '&6tester&r - '
+    prefix: ''
+    tabname: '%bs_tag%%player%'
+    suffix: ''
