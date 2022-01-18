@@ -15,14 +15,11 @@ optional:
     onlyProtectWhenOwnerIsOffline: false
     exemptBlocks: []
     optOut: false
-    blacklistedBlocks:
-    - '166'
-    - hopper
-    blacklistedPlayers:
-    - player
+    blacklistedBlocks: []
+    blacklistedPlayers: []
     useProtectionLimits: false
     useActionBar: true
-    alternativeHopperProtection: false
+    alternativeHopperProtection: true
     useFormattedInfo: true
 database:
     adapter: mysql
@@ -66,6 +63,9 @@ protections:
             enabled: true
             autoRegister: private
         dropper:
+            enabled: true
+            autoRegister: private
+        hopper:
             enabled: true
             autoRegister: private
         barrel:

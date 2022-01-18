@@ -187,7 +187,7 @@ sources:
     mob_damage: 1
     player_damage: 2
   fighting:
-    player: 500.0
+    player: 0.0
     bat: 1.0
     cat: 1.0
     chicken: 1.0

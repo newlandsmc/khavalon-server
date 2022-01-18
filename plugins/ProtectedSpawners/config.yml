@@ -12,5 +12,5 @@ messages:
   player-command-time-out: ''
 materials-enabled:
 - CHEST
-#- SPAWNER
+# - SPAWNER
 command-time-out: 300

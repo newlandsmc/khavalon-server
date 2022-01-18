@@ -209,6 +209,7 @@ agility:
   check-cancelled: true
   check-multiplier-permissions: true
 alchemy:
+  ignore-custom-potions: false
   enabled: true
   max-level: 97
   check-cancelled: true
