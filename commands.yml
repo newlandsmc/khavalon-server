@@ -30,8 +30,8 @@ aliases:
   vote:
   - einfo
   spawnmob:
-  - espawnmob
+  - espawnmob $1-
   ac:
-  - sc
+  - sc $1-
   mute:
-  - tempmute
+  - tempmute $1-

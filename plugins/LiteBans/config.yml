@@ -141,7 +141,7 @@ warnings:
   # If '+' is provided after the amount, the action will execute if the player has that amount of warnings or more.
   actions:
   #- '3:/kick -s:$silent $player Final warning: $reason'
-  - '3:/tempban -s:$silent $player 2 days Reached 3 warnings: $list'
+  - '3:/ban -s:$silent $player Reached 3 warnings: $list'
   # If enabled, the console will execute warning actions.
   # Otherwise, the player who executes the last warning also executes the warning action.
   actions_execute_as_console: false

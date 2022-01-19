@@ -95,10 +95,11 @@ cache-player-data-after-the-leave-in-sec: 3
 ##The radius of marker that comes up on the square map plugin.
 ##NOTE FOR Devs: These values are passed along side the META_DATA `bounty`, so this value can be fetched from anywhere
 square-map-radius:
-  1: 400
-  2: 300
-  3: 200
-  4: 100
+  1: 450
+  2: 400
+  3: 350
+  4: 250
+  5: 150
 #################################################################
 #Messages that are used in the game. Almost all the messages support multiple placeholders. The placeholders for each
 #message has been documented above its key.
@@ -117,7 +118,7 @@ messages:
   #%killer% -> Name of the killer
   #%rand_loc% -> A random location of radius 50 of the bounty player
   new-bounty-broadcast:
-    - "<gray> * %dead_player%'s was slain by %killer%"
+    - "<gray> * %dead_player% was slain by %killer%"
     - "<gray> * %killer% now has a bounty on their head!"
   #Available Placeholders:
   #%dead_player% -> Name of the dead player

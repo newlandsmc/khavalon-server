@@ -1,7 +1,8 @@
 # PremiumVanish v2.7.9 - Data file
 
 # PremiumVanish v2.7.8 - Data file
-InvisiblePlayers: []
+InvisiblePlayers:
+- 244a663c-bc0a-465e-8697-0c00ca7c5906
 PlayerData:
   244a663c-bc0a-465e-8697-0c00ca7c5906:
     information:
