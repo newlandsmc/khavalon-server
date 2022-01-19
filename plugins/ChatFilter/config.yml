@@ -1,0 +1,140 @@
+# ##################################################################
+#                                                                 #
+#                  ChatFilter config file                         #
+#                                                                 #
+#   If you need any help with this plugin or have any problems    #
+#   feel free to message me on discord: A4Papers#3211             #
+#                                                                 #
+#                                                                 #
+# ##################################################################
+
+#  Command aliases: /chatfilter, /cf and /clearchat(for clearing chat only)
+#  /cf help - no permission needed 
+#  /cf reload - chatfilter.reload - reload plugin config
+#  /cf blacklist (list/ip/word) <args/word> - chatfilter.blacklist
+#  /cf whitelist (list/ip/word) <args/word> - chatfilter.whitelist
+#  /cf pause - chatfilter.pause
+
+#  Other permissions: 
+#  chatfilter.bypass - bypass all filters(inc: chat, books, signs and anvils)
+#  chatfilter.bypass.chat - bypass in chat only
+#  chatfilter.bypass.command - bypass in commands only
+#  chatfilter.bypass.sign - bypass on a sign only
+#  chatfilter.bypass.anvil - bypass in a anvil only
+#  chatfilter.bypass.book - bypass in books only
+#  chatfilter.bypass.repeat - bypass repeat messsages only
+#  chatfilter.bypass.caps - bypass decapping only
+#  chatfilter.bypass.pause - bypass paused chat only
+#  chatfilter.bypass.swear - bypass all swear filters
+#  chatfilter.bypass.ip - bypass all ip filters
+
+#  chatfilter.view - players with this perm can view filtered messages
+#  chatfilter.blacklist.remove - Able to remove works via the list
+#  chatfilter.whitelist.remove - Able to remove works via the list
+
+
+# #Alvalable languages: - If you make a custom lang file, Feel free to contact me and I'll add it to the plugin for others
+
+# en = English
+# zh = Chinese
+# es = Spanish
+# pl = Polish
+
+# File can be edited to support custom messages etc.
+
+locale: en
+
+
+
+settings:
+  # #Block fancy text? Often used with hacked clients 
+  blockFancyChat: true
+  
+  # #Prevent repeat message spam?
+  antiRepeatEnabled: true
+  
+  # #How long till the player can say the same message again (In seconds)
+  repeatDelay: 30
+  
+  # #How similar does the players message need be before it's considered repeating? 0-100%
+  similarMessagePercent: 80%
+  
+  # #Remove excessive caps? Names are exempt
+  deCap: true
+  # #How many UPPERCASE letters before we lower the text string?
+  capsAmount: 6
+  
+  # #Allow URLs? If set to false all URLs will be filtered as advertising
+  allowURL: false
+  
+  # #Colour we use to highlight the matched swear.
+  swearHighLight: '&c'
+  
+  # #Cancel the players chat message when the filter catches a message?
+  cancelChat: true
+  
+  # #If above is false, Replace the swear/ip with what?
+  cancelChatReplace: '*'
+
+
+# # Check commands for swearing/ips?  
+checkCommands: false
+
+# # Run a command when the player swears?  
+CommandsOnSwear: # # Word placeholder - %placeholder%
+  enabled: true
+  command: warn %player% Chat detected - Prohibited language
+
+# # Run a command when the player advertises?  
+CommandsOnAdvertises:
+  enabled: false
+  command: warn %player% Chat detected - Advertising
+
+# # Run a command when the player swears and advertises?
+CommandsOnSwearAndAdvertises:
+  enabled: false
+  command: warn %player% Chat detected - Prohibited language and advertising
+
+# # Run a command when the player uses a font?
+CommandsOnFont:
+  enabled: false
+  command: warn %player% Chat detected - Prohibited fonts
+
+
+
+# # Commands to you wish to check
+commands:
+  # #Command name
+  command-name-here: # This is the command we want to filter
+    # #Check the commad for swearing?
+    swear: false
+    # #Check the command for ips?
+    ip: true
+  msg:
+    swear: false
+    ip: true
+
+
+# # Words that are allowed to pass filter, Used to prevent false positives
+# # Example: Having the word "anal" in the filter will also no allow "an alt" to pass
+bypassWords: []
+
+# # IPs or DNS that are able to pass though the advertising filter
+bypassIP:
+- semivanilla.com
+- discord.gg
+- discord.com
+
+
+# # Regex used to identify links
+URL_REGEX: ^((https?|ftp)://|(www|ftp)\\.)
+
+# # DNS/IP filter 
+filteredIPandDNS:
+- \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+- ([a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;)(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|io))
+
+
+# # Regex words - More presets https://pastebin.com/A67cK3SD
+filteredWords: # Note: Custom regex filteres can not be removed ingame.
+  - \b(nigger|nigga|n1gg3r|nagger|ni@@er|rape|rapist|faggot|fag\\b|faggit|fa@@ot)
