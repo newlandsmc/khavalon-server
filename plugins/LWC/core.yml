@@ -15,7 +15,9 @@ optional:
     onlyProtectWhenOwnerIsOffline: false
     exemptBlocks: []
     optOut: false
-    blacklistedBlocks: []
+    blacklistedBlocks:
+    - '166'
+    - hopper
     blacklistedPlayers: []
     useProtectionLimits: false
     useActionBar: true
@@ -63,9 +65,6 @@ protections:
             enabled: true
             autoRegister: private
         dropper:
-            enabled: true
-            autoRegister: private
-        hopper:
             enabled: true
             autoRegister: private
         barrel:

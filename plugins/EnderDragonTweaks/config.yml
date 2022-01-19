@@ -3,8 +3,8 @@
 config-version: 1
 enderdragon:
   remove-drops: false
-  killed: <gray> * The ender dragon was killed by <players>!
-  spawned: <gray> * The ender dragon has been respawned!
+  killed: <gray> * The Ender Dragon was killed by <players>!
+  spawned: <gray> * The Ender Dragon has been respawned!
   respawn-delay: 36000
   exp-to-drop: 500
 lootdrops:
