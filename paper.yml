@@ -740,6 +740,7 @@ world-settings:
       - netherrack
     grass-spread-tick-rate: 3
   world_the_end:
+    keep-spawn-loaded: true
     feature-seeds:
       patch_red_mushroom: 4455016647077990293
       fossil_diamonds: 3977270382160694502

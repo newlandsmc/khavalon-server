@@ -24,5 +24,4 @@ sleep 1
 
 sleep 1
 
-systemctl restart minecraft
-
+/var/minecraft/mcrcon/mcrcon -H localhost -P 25575 -p a8Haw76Oaj2e9WJ2b 'stop'

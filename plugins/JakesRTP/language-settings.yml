@@ -26,7 +26,7 @@ language: 'en'
 
 # For when an RTP action is denied such as trying to rtp in a world that does not allow rtp.
 #   {0} - The reason the action was denied.
-not-permitted-generic: '&cYou do not have permission to do this.'
+not-permitted-generic: 'Unknown command. Type "/help" for help.'
 # For when an RTP action is denied because an issue occurred. Ex: an exception occurs while waiting for an rtp location.
 #   {0} - The message from the exception that caused this message to appear.
 #   Note: This is always followed in console by a stack trace (which can not be configured)

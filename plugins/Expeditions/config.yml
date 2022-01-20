@@ -8,7 +8,7 @@ add-old-rewards: false # Stack old rewards to new ones, if set to false only the
 vote-services:
   - "MinecraftServers.org"
   - "TopMinecraftServers"
-  - "PlanetMinecraft.com"
+  - "Top Minecraft Servers"
   - "Minecraft.Buzz"
   - "Minecraft-Server.net"
   - "Minecraft-MP.com"

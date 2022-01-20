@@ -1,0 +1,6 @@
+spawn:
+  enabled: true
+  message: "<red>There is no /spawn on this server! Use /home to go home."
+back:
+  enabled: true
+  message: "<red>There is no /back on this server!"

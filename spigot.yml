@@ -135,9 +135,11 @@ world-settings:
       sprint-multiplier: 0.1
       other-multiplier: 0.0
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: 10000
+      entity: 10000
     dragon-death-sound-radius: 0
+  world_the_end:
+    view-distance: 16
   worldeditregentempworld:
     verbose: false
 commands:
