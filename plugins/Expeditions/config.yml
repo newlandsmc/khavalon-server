@@ -7,12 +7,12 @@ claim-reminder: "<gold>You found some treasure while you were away! Use <hover:s
 add-old-rewards: false # Stack old rewards to new ones, if set to false only the newest rewards will be shown
 vote-services:
   - "MinecraftServers.org"
-  - "TopMinecraftServers"
   - "Top Minecraft Servers"
-  - "Minecraft.Buzz"
-  - "Minecraft-Server.net"
+  - "MCSL"
+  - "PlanetMinecraft.com"
   - "Minecraft-MP.com"
-vote-incomplete-message: "<green>Vote received! Vote on all sites to receive a reward! [(playerVotesToday)/(voteServices)]"
+  - "TopMinecraftServers"
+vote-incomplete-message: "<gray>Vote received! Vote on all sites to receive a reward! [(playerVotesToday)/(voteServices)]"
 vote-complete-message: "<gold>Thank you for voting! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><gold> to claim your treasure."
-vote-complete-announce: "<green> * (playerName) voted and received an Instant Expedition! Use /vote to vote."
+vote-complete-announce: "<yellow> * (playerName) voted and received an Instant Expedition! Use /vote to vote."
 instant-package-message: "<gold>Thank you for voting! Because you have the instant reward package you do not receive any extra rewards."

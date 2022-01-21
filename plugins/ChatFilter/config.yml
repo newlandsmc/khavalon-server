@@ -82,7 +82,7 @@ checkCommands: false
 
 # # Run a command when the player swears?  
 CommandsOnSwear: # # Word placeholder - %placeholder%
-  enabled: true
+  enabled: false
   command: warn %player% Chat detected - Prohibited language
 
 # # Run a command when the player advertises?  
@@ -104,16 +104,36 @@ CommandsOnFont:
 
 # # Commands to you wish to check
 commands:
-  # #Command name
-  command-name-here: # This is the command we want to filter
-    # #Check the commad for swearing?
+  mail:
     swear: false
-    # #Check the command for ips?
     ip: true
   msg:
     swear: false
     ip: true
-
+  tell:
+    swear: false
+    ip: true
+  whisper:
+    swear: false
+    ip: true
+  r:
+    swear: false
+    ip: true
+  etell:
+    swear: false
+    ip: true
+  ewhisper:
+    swear: false
+    ip: true
+  er:
+    swear: false
+    ip: true
+  emsg:
+    swear: false
+    ip: true
+  email:
+    swear: false
+    ip: true
 
 # # Words that are allowed to pass filter, Used to prevent false positives
 # # Example: Having the word "anal" in the filter will also no allow "an alt" to pass
@@ -137,4 +157,5 @@ filteredIPandDNS:
 
 # # Regex words - More presets https://pastebin.com/A67cK3SD
 filteredWords: # Note: Custom regex filteres can not be removed ingame.
-  - \b(nigger|nigga|n1gg3r|nagger|ni@@er|rape|rapist|faggot|fag\\b|faggit|fa@@ot)
+  - \b(nigger|nigga|n1gg3r|nagger|ni@@er|rape|rapist|faggot|fag\b|faggit|fa@@ot)
+  - \b(a|4)b(o|0)rt(i|1)(o|0)n

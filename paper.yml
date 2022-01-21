@@ -485,11 +485,11 @@ world-settings:
     max-entity-collisions: 3
     lootables:
       auto-replenish: true
-      restrict-player-reloot: true
+      restrict-player-reloot: false
       reset-seed-on-fill: true
       max-refills: -1
-      refresh-min: 12h
-      refresh-max: 2d
+      refresh-min: 2h
+      refresh-max: 12h
     mob-effects:
       undead-immune-to-certain-effects: true
       spiders-immune-to-poison-effect: true
