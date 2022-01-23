@@ -12,25 +12,25 @@ patterns:
       start: 2
       interval: 2
 levels:
-  20:
+  2:
     - type: command
       executor: console
       command: lp user {player} parent add awoken
       menu_message: \n\n&eRank up!\n  &7Wanderer > Awoken
       chat_message: \n  &eRank up!&7 - Wanderer > Awoken
-  40:
+  26:
     - type: command
       executor: console
       command: lp user {player} parent add adept
       menu_message: \n\n&eRank up!\n  &7Awoken > Adept
       chat_message: \n  &eRank up!&7 - Awoken > Adept
-  60:
+  50:
     - type: command
       executor: console
       command: lp user {player} parent add savant
       menu_message: \n\n&eRank up!\n  &7Adept > Savant
       chat_message: \n  &eRank up!&7 - Adept > Savant
-  80:
+  74:
     - type: command
       executor: console
       command: lp user {player} parent add legend

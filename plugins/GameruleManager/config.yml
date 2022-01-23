@@ -11,4 +11,4 @@ world-settings:
       maxEntityCramming: 24
       showDeathMessages: false
       doInsomnia: false
-      playersSleepingPercentage: 50
+      playersSleepingPercentage: 33

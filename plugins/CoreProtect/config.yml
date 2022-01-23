@@ -34,7 +34,7 @@ default-radius: 10
 
 # The maximum radius that can be used in a command. Set to "0" to disable.
 # To run a rollback or restore without a radius, you can use "r:#global".
-max-radius: 100
+max-radius: 200
 
 # If enabled, items taken from containers (etc) will be included in rollbacks.
 rollback-items: true
@@ -116,10 +116,10 @@ liquid-tracking: true
 item-transactions: true
 
 # Logs items dropped by players.
-item-drops: false
+item-drops: true
 
 # Logs items picked up by players.
-item-pickups: false
+item-pickups: true
 
 # Track all hopper transactions, such as when a hopper removes items from a
 # chest, furnace, or dispenser.
@@ -127,7 +127,7 @@ hopper-transactions: true
 
 # Track player interactions, such as when a player opens a door, presses
 # a button, or opens a chest. Player interactions can't be rolled back.
-player-interactions: false
+player-interactions: true
 
 # Logs messages that players send in the chat.
 player-messages: false

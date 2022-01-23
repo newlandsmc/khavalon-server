@@ -2,6 +2,7 @@
 
 # PremiumVanish v2.7.8 - Data file
 InvisiblePlayers:
+- 029222b0-1e18-4499-aecd-ad7e6f3569ba
 - 244a663c-bc0a-465e-8697-0c00ca7c5906
 PlayerData:
   244a663c-bc0a-465e-8697-0c00ca7c5906:
@@ -19,3 +20,9 @@ PlayerData:
   9c18ffd7-603b-47bc-9391-96e8a02b16a4:
     information:
       name: hiddensquid___
+  999bec33-0469-4d3a-baf7-bfa7a5103adb:
+    information:
+      name: ladysquid___
+  9b68bd26-4944-402b-9170-fe33ba066185:
+    information:
+      name: Sentrees

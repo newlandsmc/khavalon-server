@@ -27,7 +27,7 @@ InvisibilityFeatures:
   OpenChestsSilently: true
   # Should invisible players be able to open a player's inventory by right-clicking the player?
   # Permission: pv.openplayerinv
-  OpenPlayerInventoryOnRightClick: true
+  OpenPlayerInventoryOnRightClick: false
   # Should invisible players be able to edit inventories (including their own) even if they're in spectator mode?
   # Permission: pv.spectatoreditinv
   AllowSpectatorInventoryEdit: true
@@ -154,7 +154,7 @@ IndicationFeatures:
   MarkVanishedPlayersAsSpectators: false
   # Should vanished players show up as glowing? It's recommended to turn off the TargetGlows option of the
   # scoreboard to avoid conflicts when using this
-  MarkVanishedPlayersWithGlow: true
+  MarkVanishedPlayersWithGlow: false
 ##################################################
 ########### Survival Friendly Features ###########
 ##################################################
@@ -311,7 +311,7 @@ ScoreboardOptions:
   #
   # Note: If you are disabling this because it causes problems with other scoreboards/prefixes
   # then you probably want to disable 'DisablePush' above as well since it uses the scoreboard too
-  Enable: false
+  Enable: true
 
   # Should players require the permission pv.scoreboard to view the scoreboard?
   Permission: false
@@ -320,7 +320,7 @@ ScoreboardOptions:
     # The header/title of the scoreboard, default: '&6>       PremiumVanish       <'
     # The length cannot be longer than 32 characters(including color codes) but can cause flickering
     # if it isn't longer than the lines below it
-    ScoreboardHeader: "&6>       PremiumVanish       <"
+    ScoreboardHeader: "&f&lPremiumVanish"
     # The lines of PremiumVanish's scoreboard
     # Prefix a line with a # if it should only show up if there is a target (the placeholders will
     # also be based on the target)
@@ -329,16 +329,15 @@ ScoreboardOptions:
     # Additionally to the messages.yml placeholders you can use %target% and %locked% (if the target has been fixed).
     Lines:
     - ""
-    - "&aTarget: &f%target% %locked%"
-    - "#"
+    - "&cTarget: &f%target% %locked%"
+    - "#&cHealth: &f%health%/%maxhealth%hp"
     # The color of the ping is based on how good the ping is, use %plain_ping% for no colors; same with tps
-    - "#&aPing: &f%ping%"
+    - "#&cPing: &f%plain_ping%"
     - ""
-    - "&aTPS: &f%tps%"
-    - "#"
-    - "#&aHealth: &f%health%/%maxhealth%hp"
+    - "&cTime: &f%time{hh:mma}%"
+    - "&cDate: &f%time{yyyy/MM/dd}%"
     - ""
-    - "&aTime: &f%time{hh:mma | yyyy/MM/dd}%"
+    - "&cTPS: &f%plain_tps%"
     - ""
     # The interval between each update of the info on the scoreboard
     # in ticks, decreasing this might decrease performance slightly

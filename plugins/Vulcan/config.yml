@@ -1,4 +1,4 @@
-prefix: '&7Vulcan:'
+prefix: '&cVulcan:'
 alerts:
   # This is the chat format that will be followed when a player fails a check.
   # Valid placeholders are %player% (player name), %max-vl% (max violations), %check% (name of check), %description% (check description),
@@ -7,7 +7,7 @@ alerts:
   # %severity% for changing colors depending on the violations (options found in severity option below), %x% (player's X-coordinate),
   # %y% (player's Y-coordinate), %z% (player's Z-coordinate), %world% (player's world), %complex-type% which will show a more
   # advanced name for the check, such as Speed (Ground) instead of Speed (Type B)
-  format: '%prefix% &f%player% &7failed &f%check% %dev%&7(&fType %type%&7)%dev% &7[&4%vl%&7/&4%max-vl%&7]'
+  format: '%prefix% %player% failed %check% %dev%(Type %type%)%dev% [%vl%/%max-vl%]'
   # This is the hover text that will be displayed when you hover over the alert message in chat.
   # All of the same placeholders as the ones for the format are valid.
   hover-message:
@@ -390,10 +390,10 @@ commands:
   - ' &8» &7Movement: &c%movement-violations%'
   - ' &8» &7Player: &c%player-violations%'
   - ''
-  - '&7Collisions:'
-  - '&8» &7Nearby Blocks: %nearby-blocks%'
-  - '&8» &7Nearby Entities: %nearby-entities%'
-  - ''
+#  - '&7Collisions:'
+#  - '&8» &7Nearby Blocks: %nearby-blocks%'
+#  - '&8» &7Nearby Entities: %nearby-entities%'
+#  - ''
   - '&7Potion Effects: %potion-effects%'
   - '&e&m                                                                 '
   cps: '&fCPS for %player%: %cps%'

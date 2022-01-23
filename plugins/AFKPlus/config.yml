@@ -7,7 +7,7 @@ UpdateDownload: false
 #this may cause issues if you attempt to teleport or move the player etc.
 #The action command must either make the player no longer AFK or remove them from the server
 Commands:
-  Action: "kick [PLAYER] Auto-kick: You were AFK for too long."
+  Action: "minecraft:kick [PLAYER] You were AFK for too long."
   AFKStart: ""
   AFKStop: ""
   Warn: ""

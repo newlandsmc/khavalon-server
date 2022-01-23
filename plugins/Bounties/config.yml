@@ -30,30 +30,30 @@ rewards:
   level:
     1:
       - '[XP]:100'
-      - '[CONSOLE]:sk xp add %killer% fighting 7000'
-      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 7000'
+      - '[CONSOLE]:sk xp add %killer% fighting 1000'
+      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 1000'
     2:
       - '[XP]:100'
-      - '[CONSOLE]:sk xp add %killer% fighting 10500'
-      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 10500'
+      - '[CONSOLE]:sk xp add %killer% fighting 1500'
+      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 1500'
     3:
       - '[XP]:150'
-      - '[CONSOLE]:sk xp add %killer% fighting 14000'
-      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 14000'
+      - '[CONSOLE]:sk xp add %killer% fighting 2000'
+      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 2000'
     4:
       - '[XP]:150'
-      - '[CONSOLE]:sk xp add %killer% fighting 17500'
-      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 17500'
+      - '[CONSOLE]:sk xp add %killer% fighting 2500'
+      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 2500'
     5:
       - '[XP]:150'
-      - '[CONSOLE]:sk xp add %killer% fighting 21000'
-      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 21000'
+      - '[CONSOLE]:sk xp add %killer% fighting 3000'
+      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 3000'
 
 ##Amount of xp that one gets if killed a player without bounty
 xp-for-killing-non-bounty:
   - '[XP]:50'
-  - '[CONSOLE]:sk xp add %killer% fighting 3500'
-  - '[CONSOLE]:sk xp remove %dead-bounty% fighting 3500'
+  - '[CONSOLE]:sk xp add %killer% fighting 500'
+  - '[CONSOLE]:sk xp remove %dead-bounty% fighting 500'
 
 ##The message that would parse when %bs_tag% is used if the player is bounty
 ##NOTE: PlaceholderAPI doesn't support MiniMessage, so use Legacy Color Codes

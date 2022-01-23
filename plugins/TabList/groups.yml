@@ -36,15 +36,23 @@ groups:
     prefix: ''
     tabname: '%bs_tag%%player%'
     suffix: ''
-  tester:
+  helper:
     prefix: ''
     tabname: '%bs_tag%%player%'
     suffix: ''
   adept:
-    prefix: '&dadept&r - '
+    prefix: ''
+    tabname: '%bs_tag%%player%'
+    suffix: ''
   legend:
-    prefix: '&7legend&r - '
+    prefix: ''
+    tabname: '%bs_tag%%player%'
+    suffix: ''
   savant:
-    prefix: '&1savant&r - '
+    prefix: ''
+    tabname: '%bs_tag%%player%'
+    suffix: ''
   awoken:
-    prefix: '&2awoken&r - '
+    prefix: ''
+    tabname: '%bs_tag%%player%'
+    suffix: ''

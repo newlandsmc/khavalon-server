@@ -11,7 +11,7 @@ vote-services:
   - "MCSL"
   - "PlanetMinecraft.com"
   - "Minecraft-MP.com"
-  - "TopMinecraftServers"
+  - "Minecraft-Server.net"
 vote-incomplete-message: "<gray>Vote received! Vote on all sites to receive a reward! [(playerVotesToday)/(voteServices)]"
 vote-complete-message: "<gold>Thank you for voting! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><gold> to claim your treasure."
 vote-complete-announce: "<yellow> * (playerName) voted and received an Instant Expedition! Use /vote to vote."
