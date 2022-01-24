@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCIPrE.woff2" as="font" crossorigin="anonymous">
-
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-    <meta name="theme-color" content="#222222">
-	<link rel="manifest" href="./live-atlas/favicons/site.webmanifest">
-    <link rel=”mask-icon” href="./live-atlas/favicons/mask.svg" color="#cccccc">
-    <link rel="apple-touch-icon" sizes="180x180" href="./live-atlas/favicons/apple-touch-icon.png">
-
-    <meta name="keywords" content="semi, vanilla, java, minecraft, mc, survival, rpg, multiplayer, map, dynmap, squaremap, pl3xmap" />
-    <meta name="description" content="Welcome to SemiVanilla MC! We are a semi-vanilla survival 1.18.1 Java Minecraft server hosting hard difficulty survival with RPG elements and competitive multiplayer. Dynamic map provided by squaremap." />
-
+    <meta charset="utf-8" />
     <title>SemiVanilla Minecraft Server - Map</title>
-
-    <!-- Remove this if you are using the servers config below -->
-    <!-- <script src="./standalone/config.js"></script> -->
-
+    <meta name="description" content="Welcome to SemiVanilla MC! We are a semi-vanilla survival 1.18.1 Java Minecraft server hosting hard difficulty survival with RPG elements and competitive multiplayer. Dynamic map provided by squaremap." />
+    <meta property="og:url" content="https://semivanilla.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SemiVanilla MC" />
+    <meta property="og:description" content="A semi-vanilla survival 1.18.1 Java Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
+    <meta property="og:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="semivanilla.com" />
+    <meta property="twitter:url" content="https://semivanilla.com" />
+    <meta name="twitter:title" content="SemiVanilla MC" />
+    <meta name="twitter:description" content="A semi-vanilla survival 1.18.1 Java Minecraft server with RPG elements and competitive multiplayer. Vote for the server!" />
+    <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://semivanilla.com/assets/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#000000" />
+    <meta name="keywords" content="semi, vanilla, java, minecraft, mc, survival, rpg, multiplayer, map, dynmap, squaremap, pl3xmap" />
     <link rel="icon" href="https://semivanilla.com/assets/images/favicon.ico" />
     <link rel="stylesheet" href="https://semivanilla.com/assets/css/cookienotice.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-492PDMS8SH');
+    </script>
+    <script>
+      document.addEventListener("touchstart", function(){}, true);
+    </script>
     <script type="text/javascript">
       function downloadJSAtOnload() {
         var cookie_notice = document.createElement("script");
@@ -37,6 +47,11 @@
       window.attachEvent("onload", downloadJSAtOnload);
       else window.onload = downloadJSAtOnload;
     </script>
+
+    <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCIPrE.woff2" as="font" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <link rel="manifest" href="./live-atlas/favicons/site.webmanifest" />
 
     <script>
         window.liveAtlasConfig = {

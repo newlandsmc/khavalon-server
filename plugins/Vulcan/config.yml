@@ -390,10 +390,6 @@ commands:
   - ' &8» &7Movement: &c%movement-violations%'
   - ' &8» &7Player: &c%player-violations%'
   - ''
-#  - '&7Collisions:'
-#  - '&8» &7Nearby Blocks: %nearby-blocks%'
-#  - '&8» &7Nearby Entities: %nearby-entities%'
-#  - ''
   - '&7Potion Effects: %potion-effects%'
   - '&e&m                                                                 '
   cps: '&fCPS for %player%: %cps%'
@@ -1119,6 +1115,26 @@ checks:
           enabled: false
           minimum-vl-to-randomly-rotate: 2
           rotate-every: 2
+      y:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Unfair Advantage
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
     autoblock:
       a:
         enabled: true
@@ -1184,8 +1200,26 @@ checks:
           enabled: false
           minimum-vl-to-randomly-rotate: 2
           rotate-every: 2
-    # AutoClicker checks not really recommended for banning since you can't ever be 100% certain, if you crank up
-    # the violations you should be fine but it's all just probability / statistics.
+      d:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 3
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Unfair Advantage
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
     autoclicker:
       a:
         enabled: false
@@ -1857,6 +1891,22 @@ checks:
           max: 5
           multiple: 0.25
           decay: 0.175
+      d:
+        enabled: false
+        punishable: false
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 15
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Unfair Advantage
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.05
   movement:
     noslow:
       a:
@@ -3000,6 +3050,22 @@ checks:
           max: 1
           multiple: 0.5
           decay: 0.25
+      n:
+        enabled: false
+        punishable: true
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 12
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - warn -s %player% Hacked client detected - Player (Scaffold)
+        buffer:
+          max: 2
+          multiple: 0.5
+          decay: 0.25
     timer:
       a:
         enabled: true
@@ -3160,23 +3226,6 @@ checks:
         punishment-commands:
         - warn -s %player% Hacked client detected - Player (Ghost Hand)
         cancel: true
-    # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
-    # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
-    # packets after 30 seconds.
-    transaction:
-      a:
-        enabled: false
-        punishable: false
-        discord-alert-interval: 1
-        broadcast-punishment: false
-        max-violations: 3
-        alert-interval: 1
-        dont-alert-until: 1
-        maximum-ping: 100000
-        minimum-tps: 19.0
-        punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Transaction)
-        max-delay: 30000
     selfleash:
       a:
         enabled: true
@@ -3194,6 +3243,19 @@ checks:
           max: 5
           multiple: 0.5
           decay: 0.25
+    airplace:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 10
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Unfair Advantage
     badpackets:
       a:
         enabled: true

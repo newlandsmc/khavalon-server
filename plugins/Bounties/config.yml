@@ -29,31 +29,19 @@ bounty-duration-in-sec: 86400
 rewards:
   level:
     1:
-      - '[XP]:100'
-      - '[CONSOLE]:sk xp add %killer% fighting 1000'
-      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 1000'
+      - '[FXP]:1000'
     2:
-      - '[XP]:100'
-      - '[CONSOLE]:sk xp add %killer% fighting 1500'
-      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 1500'
+      - '[FXP]:1500'
     3:
-      - '[XP]:150'
-      - '[CONSOLE]:sk xp add %killer% fighting 2000'
-      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 2000'
+      - '[FXP]:2000'
     4:
-      - '[XP]:150'
-      - '[CONSOLE]:sk xp add %killer% fighting 2500'
-      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 2500'
+      - '[FXP]:2500'
     5:
-      - '[XP]:150'
-      - '[CONSOLE]:sk xp add %killer% fighting 3000'
-      - '[CONSOLE]:sk xp remove %dead-bounty% fighting 3000'
+      - '[FXP]:3000'
 
 ##Amount of xp that one gets if killed a player without bounty
 xp-for-killing-non-bounty:
-  - '[XP]:50'
-  - '[CONSOLE]:sk xp add %killer% fighting 500'
-  - '[CONSOLE]:sk xp remove %dead-bounty% fighting 500'
+  - '[FXP]:500'
 
 ##The message that would parse when %bs_tag% is used if the player is bounty
 ##NOTE: PlaceholderAPI doesn't support MiniMessage, so use Legacy Color Codes
@@ -83,6 +71,7 @@ gui:
   lore-placeholder:
     - "<color:#00FFF0>Time left <color:#A9A7A2>» %timeleft%"
     - "<color:#00FFF0>Current Kills <color:#A9A7A2>» %kills%"
+    - "<color:#00FFF0>Worth: <color:#A9A7A2>» %fxp% XP"
 
 ##Amount of time in ticks wait before sending in each message.
 interval-during-each-message-in-ticks: 10

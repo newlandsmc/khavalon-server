@@ -60,6 +60,8 @@ world-settings:
                     enabled: false
                     show-controls: true
                     default-hidden: false
+                    layer-priority: 0
+                    z-index: 0
                 world-border:
                     enabled: true
                     show-controls: true
@@ -69,6 +71,7 @@ world-settings:
             visibility-limits:
             -   enabled: 'true'
                 type: world-border
+            order: 0
         player-tracker:
             enabled: false
             update-interval-seconds: 30

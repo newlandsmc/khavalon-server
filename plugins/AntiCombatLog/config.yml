@@ -1,0 +1,38 @@
+combat-log-seconds: 30
+npc-combat-log: true # set to true to spawn a npc - false to insta kill
+combat-logged-message-radius: 100 # set to -1 to broadcast to everyone
+combat-tag-seconds: 15
+npc-hit-reset-seconds: -1 #set to -1 to disable
+only-show-player-name: true # set to true to only show player name, instead of the 'DISCONNECTED: name'
+enable-hologram: true # enable the countdown timer hologram
+#Wether to use a scoreboard, actionbar, or both
+#Values: BOARD ACTIONBAR BOTH
+notify-type: ACTIONBAR
+login-after-combat-log-add-timer-seconds: 5 #seconds to add to the combat timer if you log out and back in while in combat
+blocked-commands:
+  enabled: true
+  blocked:
+    - teleport
+    - tpa
+    - tpaccept
+    - etpa
+    - etpaccept
+    - eteleport
+    - ehome
+    - ehomes
+    - home
+    - homes
+    - waypoint
+    - fasttravel
+    - spawn
+    - back
+messages:
+  combat-tagged: '&cYou have been combat tagged. If you log out right now, you will not be safe.'
+  un-combat-tagged: '&aYou are no longer in combat.'
+  logged-out-combat: '&7 * %1 has logged out while in combat! You can still kill them for %2 seconds.'
+  action-bar-message: '&cYou are in combat for %1 seconds.'
+  log-in-after-kill: '&cYou logged out while in combat and were killed by %1.'
+  combat-expired: '&aYou are no longer in combat..'
+  kill-message: '&7 * %1 was killed while combat logged.'
+  blocked-command: '&cYou cannot use that command while in combat.'
+update-check: false
