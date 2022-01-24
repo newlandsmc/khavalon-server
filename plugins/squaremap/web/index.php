@@ -25,28 +25,17 @@
     <link rel="stylesheet" href="https://semivanilla.com/assets/css/cookienotice.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script>
-    <script>
+    <script async>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'G-492PDMS8SH');
     </script>
-    <script>
+    <script async>
       document.addEventListener("touchstart", function(){}, true);
     </script>
-    <script type="text/javascript">
-      function downloadJSAtOnload() {
-        var cookie_notice = document.createElement("script");
-        cookie_notice.src = "https://semivanilla.com/assets/javascript/cookie_notice.js";
-        document.body.appendChild(cookie_notice);
-      }
-      if (window.addEventListener)
-      window.addEventListener("load", downloadJSAtOnload, false);
-      else if (window.attachEvent)
-      window.attachEvent("onload", downloadJSAtOnload);
-      else window.onload = downloadJSAtOnload;
-    </script>
+    <script async src="/assets/javascript/cookie_notice.js"></script>
 
     <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2" as="font" crossorigin="anonymous" />
     <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCIPrE.woff2" as="font" crossorigin="anonymous" />
