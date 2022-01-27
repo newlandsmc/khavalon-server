@@ -159,4 +159,4 @@ filteredIPandDNS:
 filteredWords: # Note: Custom regex filteres can not be removed ingame.
   - \b(nigger|nigga|n1gg3r|nagger|ni@@er|rape|rapist|faggot|fag\b|faggit|fa@@ot)
   - \b(a|4)b(o|0)rt(i|1)(o|0)n
-  - (\w)\1{3,}
+  - (\w)\1{4,}

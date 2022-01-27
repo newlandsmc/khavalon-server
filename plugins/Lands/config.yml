@@ -504,6 +504,7 @@ area:
       - tnt_griefing
       - piston_griefing
       - fire_spread
+      - waterflow_allow
 
     monster_spawn:
       # Prevent spawning from spawner blocks?
