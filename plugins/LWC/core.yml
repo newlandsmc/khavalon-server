@@ -127,8 +127,9 @@ protections:
         black_shulker_box:
             enabled: true
             autoRegister: private
-        sign:
+        beacon:
             enabled: true
+            autoRegister: private
 modes:
     droptransfer:
         enabled: false

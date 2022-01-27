@@ -1,0 +1,18 @@
++ Added: [Suggestion] You can now use color codes in the "eco-format" option
++ Improved: The default GUI menu translation got a overhaul
+    Changes were only made to the default language file. No steps from your side a needed,
+    if you want to keep your current translation.
++ Improved: All GUI menus now use the same size by default: 45
++ Improved: Added visual indicators in the menus: which items are clickable
++ Improved: Group information in the menu: making it easier to read
+- Fixed: Nation menu not opening the war menu, if state is preparation
+- Fixed: Some invalid items in the GUI menus: The default translation was wrong
+
+--> Flags (roles.yml and config.yml)
++ snow_melt
+
+--> GUI file (en-US.yml): 
++ Item: gui.main.f.limitation
+
+--> GUI file (en-US.yml): 
++ Item: gui.land.f.taxes

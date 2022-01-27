@@ -59,7 +59,7 @@ Northeast:
    icon-name: quadrantmarker.png
    lore:
    - <white>Northeast Quadrant
-   icon: SNOW_BLOCK
+   icon: GRASS_BLOCK
    location:
       x: 5000
       y: 71

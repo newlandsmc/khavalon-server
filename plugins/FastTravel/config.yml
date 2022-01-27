@@ -50,7 +50,7 @@ messages:
    waypoint-discovered: <green>You discovered %waypoint_name%! Now you can teleport to this waypoint!
    waypoint-locked: <red>You must visit this location to unlock this waypoint.
   ## Available Placeholder: %cool-down% -> Cooldown in secs
-   player-in-cooldown: <red>You cannot type that command for %cool-down% secsonds.
+   player-in-cooldown: <red>You cannot fast travel for %cool-down% seconds.
    no-permission: <red>You do not have permission to do that.
    unknown-command: <red>Incorrect parameters.
 version: 1.0

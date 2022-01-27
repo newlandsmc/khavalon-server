@@ -11,4 +11,178 @@ patterns:
     pattern:
       start: 2
       interval: 2
+  - type: command
+    executor: console
+    command: lp user {player} permission set lands.chunks.%math_0:0_{level}+15%
+    menu_message: \n\n&eMore land!\n  &7+5 chunk per land
+    chat_message: \n  &eMore land!&7 - +5 chunk per land
+    pattern:
+      start: 5
+      interval: 5
+  - type: command
+    executor: console
+    command: lp user {player} permission unset lands.chunks.%math_0:0_{level}+10%
+    pattern:
+      start: 5
+      interval: 5
 levels:
+  50:
+    - type: permission
+      permission: lands.ownlands.2
+      menu_message: \n\n&eMore land!\n  &7+1 own land
+      chat_message: \n  &eMore land!&7 - +1 own land
+  97:
+    - type: permission
+      permission: lands.ownlands.3
+      menu_message: \n\n&eMore land!\n  &7+1 own land
+      chat_message: \n  &eMore land!&7 - +1 own land
+  5:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.11
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  5:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.11
+  10:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.12
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  10:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.12
+  15:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.13
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  15:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.13
+  20:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.14
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  20:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.14
+  25:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.15
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  25:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.15
+  30:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.16
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  30:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.16
+  35:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.17
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  35:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.17
+  40:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.18
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  40:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.18
+  45:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.19
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  45:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.19
+  50:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.20
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  50:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.20
+  55:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.21
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  55:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.21
+  60:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.22
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  60:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.22
+  65:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.23
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  65:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.23
+  70:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.24
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  70:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.24
+  75:
+    - type: command
+      executor: console
+      command: lp user {player} permission set lands.chunks.support.25
+      menu_message: \n\n&eMore land!\n  &7+1 support for other lands
+      chat_message: \n  &eMore land!&7 - +1 support for other lands
+  75:
+    - type: command
+      executor: console
+      command: lp user {player} permission unset lands.chunks.support.25

@@ -1,0 +1,143 @@
+No_Permissions: '&cYou do not have permission to do that.'
+Only_for_Player: '&cOnly for players!'
+No_Money: '&cYou have no money!'
+Enter_Correct_Amount: '&cPlease enter a valid amount.'
+Only_X_Amount: '&cYou only have %amount% %type%.'
+Trade_Was_Cancelled: '&cThe trade was cancelled.'
+Trade_Was_Finished: '&7The trade was finished.'
+Cannot_Trade_With_Yourself: '&cYou cannot trade with yourself.'
+Player_Not_Online: '&cThis player is not online.'
+Want_To_Trade: |-
+  &e%player% has requested to trade with you.
+  &7To accept, click:  %accept%
+  &7To deny, click: %deny%
+  &7This request will timeout after 60 seconds.
+Want_To_Trade_Accept: '&aAccept'
+Want_To_Trade_Deny: '&cDeny'
+Want_To_Trade_Hover: '&7» Click «'
+Player_Is_Invited: '&aTrade request sent to %player%&a.'
+Command_How_To: '&7Use: /trade <player, accept, deny, toggle>'
+Command_How_To_Accept: '&7Use: /trade accept <Player>'
+Command_How_To_Deny: '&7Use: /trade deny <Player>'
+Player_Of_Request_Not_Online: '&cThe player of the trade request is no longer online!'
+Request_Accepted: '&aYou have accepted the trade request.'
+Request_Was_Accepted: '&aYour trade request to %player% was accepted.'
+Request_Denied: '&7You have denied the trade request.'
+Request_Was_Denied: '&cYour trade request to %player% was denied.'
+No_Request_Found: '&cYou have not received any trade requests from this player!'
+No_Requests_Found: '&cYou have not received any trade requests!'
+Too_many_requests: '&cYou have several requests, please specify the player name.'
+GUI_Title: 'Trade with %player%%tradesystem_countdown_fancy%'
+Money_Amount: Amount of money
+Coin: Coin
+Coins: Coins
+Status: Status
+Ready: Ready
+Not_Ready: Not ready
+Wait_For_Other_Player: Wait for other player...
+Trade_Only_With_Objects: You have to offer something to complete your trade.
+Click_To_Change: Click to change
+Cancel_Trade: Click to cancel
+Not_Able_To_Trade: You are not allowed to trade.
+Player_Is_Not_Able_Trade: This player is not allowed to trade.
+TRADE_EDITOR: Editor - Trading GUI
+TRADE_EDITOR_FUNCTIONS: Editor - Functions
+EDITOR_RESET: Your temporarily saved gui was reset.
+Editor_Command_How_To: '&7Use: /tradeEditor [reset]'
+Editor_Not_Empty: No empty slot!
+Editor_No_Item: No Item!
+Layout_Name: Layout-Name
+Layout_Name_Already_Exists: This layout name is already taken!
+Layout_Finished: was created successfully.
+Layout_Edited: was edited successfully.
+Layout_Editor: Layout - Editor
+Save: Save
+Not_Ready_For_Saving: '&cThis layout cannot be saved yet'
+Items: Items
+Set: Set
+Not_Set: Not set
+Functions: Functions
+Name: Name
+Ambiguous_Functions: Ambiguous functions
+Layout_Set_Items: Fill standard trade gui
+Layout_Set_Functions: Set functions
+Layout_Set_Name: Set layout name
+Layout_Set_Ambiguous_Functions: Set ambiguous functions
+Layout_Editor_Set_Items: '&cClose to continue'
+Back: Back
+Trader: Trader
+Other: Other
+Layout_Set_Own_Slots: Set own trade slots
+Layout_Set_Other_Slots: Set trade slots from partner
+Layout_Set_Cancel: Set cancel icon
+Layout_Set_Other_Not_Ready: Set 'Not ready' icon from partner
+Layout_Set_Status: Set own status icon
+Layout_Set_Money: Set own money icon
+Layout_Set_Other_Money: Set money icon from partner
+Help_TradeSystem: '&7Use /%label% <layout, reload>'
+Help_TradeSystem_Layout: '&7Use &e/%label% layout <create, edit, delete, activate>'
+Help_TradeSystem_Layout_Create: '&7Use &e/%label% layout create <name>'
+Help_TradeSystem_Layout_Activate: '&7Use &e/%label% layout activate <name>'
+Help_TradeSystem_Layout_Delete: '&7Use &e/%label% layout delete <name>'
+Help_TradeSystem_Layout_Edit: '&7Use &e/%label% layout edit <name>'
+Help_TradeLog: '&7Use &e/%label% <name>'
+Layout_Does_Not_Exist: '&cThis layout does not exist!'
+Layout_Activated: '&aThe layout ''%name%'' was activated.'
+Layout_Deleted: '&cThe layout ''%name%'' was deleted.'
+Enter_Correct_Name_Space: '&cPlease don''t use spaces.'
+Sure_That_You_Want_To_Loose_Your_Data: '&cAre you sure that you don''t want to save
+  your changes?'
+Close: Close
+Layout_Already_Activated: '&7This layout was already activated.'
+Layout_Set_Replacement_For_Money: '&7Icon, which replaces the money icon, when no
+  economy plugin is detected.'
+Layout_Hint_Same_Slot_Amount: '&7Both traders must have the same amount of slots.'
+Current_Amount: Current amount
+Trade_Spam: '&cThis player has already received a trade request.'
+Plugin_Reloading: '&7The plugin will be reloaded now...'
+Success_Plugin_Reloaded: '&aThe plugin has been reloaded.'
+Player_is_not_in_range: '&cThe player %player% is not in range.'
+Cannot_trade_in_that_GameMode: '&cYou are not able to trade in that gamemode.'
+Other_cannot_trade_in_that_GameMode: '&cThat player cannot trade with their gamemode.'
+Trade_cancelled_by_attack: '&cThe trade was canceled due to an attack.'
+Trade_Partner_No_Space: '&cYour trade partner has no space in his inventory.'
+Trade_Offline: '&cYou are no longer available for trade requests.'
+Trade_Online: '&aYou are now available for trade requests.'
+Trade_Partner_is_Offline: '&cThis player is not available for trade requests.'
+Trade_You_are_Offline: '&7Use "%command%/trade toggle%command%" to trade again.'
+Trade_Placed_Blocked_Item: '&cThis item cannot be traded!'
+Cannot_trade_in_bed: '&cYou cannot trade while you''re lying in bed.'
+Cannot_trade_in_world: '&cYou cannot trade in this world.'
+Other_cannot_trade_in_world: '&cThat player cannot trade in their world.'
+Cannot_trade_while_invisible: '&cYou cannot trade while you''re invisible.'
+Other_is_already_trading: '&cThis player is already trading at the moment.'
+Online: Online
+Offline: Offline
+Your_request_expired: '&7Your trade request to %player% has expired.'
+Request_expired: '&7The trade request from %player% has expired.'
+Fancy_Countdown: ' &7- &e%seconds%s'
+Economy_Error: '&cThe trade was cancelled due to an economy error.'
+Items_Dropped: '&cYour inventory was full, some items were dropped on the ground!'
+TradeLog_Disabled: '&7Trade logging is disabled.'
+Sign_Enter_Amount: |-
+  ^^^^^^^^
+  Enter amount
+  above
+Leftclick: Leftclick
+Rightclick: Rightclick
+Shift_Leftclick: Shift-Leftclick
+Shift_Rightclick: Shift-Rightclick
+Select: Select
+Select_Foreign_Preview: Select foreign preview
+Edit: Edit
+Edit_Variant: Edit variant
+Variant: Variant
+Cancel: Cancel
+Finish: Finish
+Levels: Levels
+Level: Level
+Too_Little_Exp: '&cYou have no exp to trade.'
+Exp_Points: Exp points
+Exp_Point: Exp point
+Open_GUI_Error: '&cThe trade was cancelled due to an open inventory.'
+Reset: Reset
