@@ -1,8 +1,0 @@
-
-Website: &7https://semivanilla.com
-Discord: &7https://semivanilla.com/discord
-Map: &7https://semivanilla.com/map
-Store: &7https://store.semivanilla.com
-Vote: &7https://semivanilla.com/vote
-
-&e&m                                                                 &r
