@@ -266,8 +266,8 @@ gui:
       land:
         name: '&a{land}'
         lore:
-        - '&7You''re trusted in this land.'
-        - '&7Chunks: {chunks} / {max-chunks}'
+        - '&fYou''re trusted in this land.'
+        - '&fChunks: {chunks} / {max-chunks}'
         - ''
         - ' &f• &aLEFT CLICK'
         - '   &7Manage this land'
@@ -280,8 +280,8 @@ gui:
       land_own:
         name: '&a{land}'
         lore:
-        - '&7You own this land.'
-        - '&7Chunks: {chunks} / {max-chunks}'
+        - '&fYou own this land.'
+        - '&fChunks: {chunks} / {max-chunks}'
         - ''
         - ' &f• &aLEFT CLICK'
         - '   &7Manage this land'
@@ -294,9 +294,9 @@ gui:
       camp:
         name: '&a{land}'
         lore:
-        - '&7You''re trusted in this camp.'
-        - '&7Camps are lands that can''t be'
-        - '&7expanded.'
+        - '&fYou''re trusted in this camp.'
+        - '&fCamps are lands that can''t be'
+        - '&fexpanded.'
         - ''
         - '&7This camp expires in:'
         - '&c{time}'
@@ -312,8 +312,8 @@ gui:
       camp_own:
         name: '&a{land}'
         lore:
-        - '&7You own this camp. Camps are lands'
-        - '&7that can''t be expanded.'
+        - '&fYou own this camp. Camps are lands'
+        - '&fthat can''t be expanded.'
         - ''
         - '&7This camp expires in:'
         - '&c{time}'
@@ -1373,7 +1373,7 @@ gui:
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM2YjgyMWMxYWZkZDVhNWQxNGUzYjNiZDBhMzIyNjNjOGRmNWRmNWRiNmUxZTg4YmY2NWU5N2IyN2E4NTMwIn19fQ==
         slot: 31
       management:
-        name: '&6&lManagement Flags'
+        name: '&6Management Flags'
         lore:
         - '&fToggle administratoral flags like'
         - '&ftrusting players, claiming etc.'
@@ -2515,12 +2515,12 @@ gui:
       level:
         name: ' '
         lore: []
-        material: BLACK_STAINED_GLASS
+        material: BLACK_STAINED_GLASS_PANE
         slot: 45
       level_camp:
         name: ' '
         lore: []
-        material: BLACK_STAINED_GLASS
+        material: BLACK_STAINED_GLASS_PANE
         slot: 45
       war:
         name: '&6War Stats'
@@ -2752,7 +2752,7 @@ gui:
         material: RED_STAINED_GLASS_PANE
         slot: 37
       toggle-allowed:
-        name: '&6Show only public Lands'
+        name: '&6Show Public Lands'
         lore:
         - '&fShow only lands which you''re'
         - '&fallowed to enter and teleport to?'
@@ -2781,14 +2781,17 @@ gui:
       object:
         name: '&a{land}'
         lore:
-        - '&f{title}'
+        - '&fMessage:'
+        - '&7{title}'
+        - '&fOwner:'
+        - '&7{owner}'
         - ''
         - ' &f• &aLEFT CLICK'
-        - '   &7Teleport to the land spawn'
+        - '   &7Teleport to the spawn'
         - '   &7of this land.'
         - ' &f• &aRIGHT CLICK'
-        - '   &7Open the land information'
-        - '   &7menu of this land.'
+        - '   &7View information'
+        - '   &7about this land.'
         material: PLAYER_HEAD
         from: 10
         to: 36

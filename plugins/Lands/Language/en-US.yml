@@ -218,81 +218,80 @@ general:
 
 help:
   command:
-    help: '[T]&e/lands help [page] - &7Get help[H]&7Click to copy.[/H][SC]lands help[/SC][/T]'
-    edit: '[T]&e/lands edit <land> &8- &7Enter edit mode for land[H]&7The edit land
+    help: '[T]&e/lands help [page] &7- Get help[H]&7Click to copy.[/H][SC]lands help[/SC][/T]'
+    edit: '[T]&e/lands edit <land> &7- Enter edit mode for land[H]&7The edit land
       is used for commands like /lands claim. &7Click to copy.[/H][SC]lands edit[/SC][/T]'
-    claim: '[T]&e/lands claim [land | radius | auto] - &7Claim chunk[H]&7Claim the
-      chunk at your current position. You can also specify a land to which this claim
-      should go to. &7Click to copy.[/H][SC]lands claim[/SC][/T]'
-    create: '[T]&e/lands create <name> - &7Create land[H]&7Click to copy.[/H][SC]lands
+    claim: '[T]&e/lands claim [land|radius|auto] &7- Claim chunk[H]&7Claim the chunk
+      at your current position. You can also specify a land to which this claim should
+      go to. &7Click to copy.[/H][SC]lands claim[/SC][/T]'
+    create: '[T]&e/lands create <name> &7- Create land[H]&7Click to copy.[/H][SC]lands
       create[/SC][/T]'
-    createcamp: '[T]&e/lands createcamp [name] - &7Create camp[H]&7Click to copy.[/H][SC]lands
+    createcamp: '[T]&e/lands createcamp [name] &7- Create camp[H]&7Click to copy.[/H][SC]lands
       createcamp[/SC][/T]'
-    merge: '[T]&e/lands merge <land> - &7Merge land into your current[H]&7Click to
+    merge: '[T]&e/lands merge <land> &7- Merge land into your current[H]&7Click to
       copy.[/H][SC]lands merge[/SC][/T]'
-    leave: '[T]&e/lands leave [land] &8- &7Leave a land or area.[H]&7If you don''t
-      specify a land, you''ll leave the area at your current position. &7Click to
-      copy.[/H][SC]lands leave[/SC][/T]'
-    unclaim: '[T]&e/lands unclaim &8- &7Unclaim chunk[H]&7This also supports /Lands
+    leave: '[T]&e/lands leave [land] &7- Leave a land or area.[H]&7If you don''t specify
+      a land, you''ll leave the area at your current position. &7Click to copy.[/H][SC]lands
+      leave[/SC][/T]'
+    unclaim: '[T]&e/lands unclaim &7- Unclaim chunk[H]&7This also supports /Lands
       selection. &7Click to copy.[/H][SC]lands unclaim[/SC][/T]'
-    unclaimall: '[T]&e/lands unclaimall &8- &7Unclaim all chunks[H]&7Click to copy.[/H][SC]lands
+    unclaimall: '[T]&e/lands unclaimall &7- Unclaim all chunks[H]&7Click to copy.[/H][SC]lands
       unclaimall[/SC][/T]'
-    delete: '[T]&e/lands delete <land> &8- &7Delete land[H]&7Click to copy.[/H][SC]lands
+    delete: '[T]&e/lands delete <land> &7- Delete land[H]&7Click to copy.[/H][SC]lands
       delete[/SC][/T]'
-    trust: '[T]&e/lands trust <player> [&earea&8] - &7Trust player[H]&7Use * as the
-      area name to trust the player to the whole land. &7Click to copy.[/H][SC]lands
-      trust[/SC][/T]'
-    untrust: '[T]&e/lands untrust [area] - &7Untrust player[H]&7Use * as the area
+    trust: '[T]&e/lands trust <player> [area] &7- Trust player[H]&7Use * as the area
+      name to trust the player to the whole land. &7Click to copy.[/H][SC]lands trust[/SC][/T]'
+    untrust: '[T]&e/lands untrust [area] &7- Untrust player[H]&7Use * as the area
       name to untrust the player from the whole land. &7Click to copy.[/H][SC]lands
       untrust[/SC][/T]'
-    setRole: '[T]&e/lands setrole <player> <area> <role> - &7Set role[H]&7Click to
+    setRole: '[T]&e/lands setrole <player> <area> <role> &7- Set role[H]&7Click to
       copy.[/H][SC]lands setrole[/SC][/T]'
-    accept: '[T]&e/lands accept <land> - &7Accept invite[H]&7You can view all received
+    accept: '[T]&e/lands accept <land> &7- Accept invite[H]&7You can view all received
       invites by executing /lands invites. &7Click to copy.[/H][SC]lands accept[/SC][/T]'
-    deny: '[T]&e/lands deny <land> - &7Deny invite[H]&7Click to copy.[/H][SC]lands
+    deny: '[T]&e/lands deny <land> &7- Deny invite[H]&7Click to copy.[/H][SC]lands
       deny[/SC][/T]'
-    view: '[T]&e/lands view [disable] &8- &7Information about claims[H]&7This command
+    view: '[T]&e/lands view [disable] &7- Information about claims[H]&7This command
       will visualize nearby claims too. &7Click to copy.[/H][SC]lands view[/SC][/T]'
-    menu: '[T]&e/lands menu [here] &8- &7Open land / area menu[H]&7Click to copy.[/H][SC]lands
+    menu: '[T]&e/lands menu [here] &7- Open land / area menu[H]&7Click to copy.[/H][SC]lands
       menu[/SC][/T]'
-    setSpawn: '[T]&e/lands setspawn - &7Set landspawn[H]&7Click to copy.[/H][SC]lands
+    setSpawn: '[T]&e/lands setspawn &7- Set landspawn[H]&7Click to copy.[/H][SC]lands
       setspawn[/SC][/T]'
-    spawn: '[T]&e/lands spawn [land] - &7Teleport to land[H]&7Click to copy.[/H][SC]lands
+    spawn: '[T]&e/lands spawn [land] &7- Teleport to land[H]&7Click to copy.[/H][SC]lands
       spawn[/SC][/T]'
     wild: ''
-    top: '[T]&e/lands top [mode] [&epage&8] &8- &7Shows top 10 lands[H]&7Click to
-      copy.[/H][SC]lands top[/SC][/T]'
-    selection: '[T]&e/lands selection &8[&eassign &8| &aexpand &8| &apos1 &8| &apos2&8]
-      &8- &7Selection mode[H]&7With this command you can resize a subarea or expand
-      your selection to infinite y levels. &7Click to copy.[/H][SC]lands selection[/SC][/T]'
-    chat: '[T]&e/lands chat [land] <&emessage&8> &8- &7Land chat[H]&7Click to copy.[/H][SC]lands
+    top: '[T]&e/lands top [mode] [&epage&8] &7- Shows top 10 lands[H]&7Click to copy.[/H][SC]lands
+      top[/SC][/T]'
+    selection: '[T]&e/lands selection [assign|expand|pos1|pos2] &7- Selection mode[H]&7With
+      this command you can resize a subarea or expand your selection to infinite y
+      levels. &7Click to copy.[/H][SC]lands selection[/SC][/T]'
+    chat: '[T]&e/lands chat [land] <message> &7- Land chat[H]&7Click to copy.[/H][SC]lands
       chat[/SC][/T]'
-    rename: '[T]&e/lands rename <name> - &7Rename land[H]&7Click to copy.[/H][SC]lands
+    rename: '[T]&e/lands rename <name> &7- Rename land[H]&7Click to copy.[/H][SC]lands
       rename[/SC][/T]'
     teleport: ''
-    invites: '[T]&e/lands invites &8- &7Show received invites[H]&7Click to copy.[/H][SC]lands
+    invites: '[T]&e/lands invites &7- Show received invites[H]&7Click to copy.[/H][SC]lands
       invites[/SC][/T]'
-    info: '[T]&e/lands info [land] - &7View information about land[H]&7Click to copy.[/H][SC]lands
+    info: '[T]&e/lands info [land] &7- View information about land[H]&7Click to copy.[/H][SC]lands
       info[/SC][/T]'
-    player: '[T]&e/lands player <player> - &7View information about player[H]&7Click
+    player: '[T]&e/lands player <player> &7- View information about player[H]&7Click
       to copy.[/H][SC]lands player[/SC][/T]'
-    map: '[T]&e/lands map &8- &7View map[H]&7Click to copy.[/H][SC]lands map[/SC][/T]'
+    map: '[T]&e/lands map &7- View map[H]&7Click to copy.[/H][SC]lands map[/SC][/T]'
     balance: ''
     deposit: ''
     withdraw: ''
-    list: '[T]&e/lands list [world] - &7List all lands[H]&7Click to copy.[/H][SC]lands
+    list: '[T]&e/lands list [world] &7- List all lands[H]&7Click to copy.[/H][SC]lands
       list[/SC][/T]'
-    assign: '[T]&e/lands assign <area> - &7Assign selection to area[H]&7Click to copy.[/H][SC]lands
+    assign: '[T]&e/lands assign <area> &7- Assign selection to area[H]&7Click to copy.[/H][SC]lands
       assign[/SC][/T]'
-    setowner: '[T]&e/lands setowner <player> - &7Transfer ownership[H]&7Click to copy.[/H][SC]lands
+    setowner: '[T]&e/lands setowner <player> &7- Transfer ownership[H]&7Click to copy.[/H][SC]lands
       setowner[/SC][/T]'
     ban: ''
     unban: ''
     taxes: ''
     upkeep: ''
-    unstuck: '[T]&e/lands unstuck &8- &7Teleport out of traps[H]&7In case you got
-      stuck in a land. &7Click to copy.[/H][SC]lands unstuck[/SC][/T]'
-    claimlist: '[T]&e/lands claimlist [land] &8- &7List claims oFf your land[H]&7This
+    unstuck: '[T]&e/lands unstuck &7- Teleport out of traps[H]&7In case you got stuck
+      in a land. &7Click to copy.[/H][SC]lands unstuck[/SC][/T]'
+    claimlist: '[T]&e/lands claimlist [land] &7- List claims oFf your land[H]&7This
       command will show you all /lands claim''s of your land. &7Click to execute.[/H][C]lands
       claimlist[/C][/T]'
     rent: ''
@@ -303,11 +302,11 @@ help:
         to copy.[/H][SC]wars declare[/SC][/T]'
       info: '[T]&e/Wars info - &7Show current or upcoming war[H]&7Click to copy.[/H][SC]wars
         info[/SC][/T]'
-      menu: '[T]&e/Wars menu &8- &7Open war menu[H]&7Click to copy.[/H][SC]wars menu[/SC][/T]'
-      deny: '[T]&e/Wars deny &8- &7Deny mutual war declaration[H]&7Click to copy.[/H][SC]wars
+      menu: '[T]&e/Wars menu &7- Open war menu[H]&7Click to copy.[/H][SC]wars menu[/SC][/T]'
+      deny: '[T]&e/Wars deny &7- Deny mutual war declaration[H]&7Click to copy.[/H][SC]wars
         deny[/SC][/T]'
     nations:
-      chat: '[T]&e/nations chat &8[&enation&8] <&emessage&8> &8- &7Nation chat[H]&7Click
+      chat: '[T]&e/nations chat &8[&enation&8] <&emessage&8> &7- Nation chat[H]&7Click
         to copy.[/H][SC]nations chat[/SC][/T]'
       trust: '[T]&e/nations trust &8<&eland&8> - &7Invite land[H]&7Click to copy.[/H][SC]nations
         trust[/SC][/T]'
@@ -317,33 +316,33 @@ help:
         copy.[/H][SC]nations accept[/SC][/T]'
       deny: '[T]&e/nations deny &8<&enation&8> - &7Deny invite[H]&7Click to copy.[/H][SC]nations
         deny[/SC][/T]'
-      menu: '[T]&e/nations menu &8- &7Menu[H]&7Click to copy.[/H][SC]nations menu[/SC][/T]'
+      menu: '[T]&e/nations menu &7- Menu[H]&7Click to copy.[/H][SC]nations menu[/SC][/T]'
       create: '[T]&e/nations create &8[&ename&8] - &7Create nation[H]&7Click to copy.[/H][SC]nations
         create[/SC][/T]'
-      delete: '[T]&e/nations delete &8<&enation&8> &8- &7Delete nation[H]&7Click to
+      delete: '[T]&e/nations delete &8<&enation&8> &7- Delete nation[H]&7Click to
         copy.[/H][SC]nations delete[/SC][/T]'
-      leave: '[T]&e/nations leave &8- &7Leave nation[H]&7Click to copy.[/H][SC]nations
+      leave: '[T]&e/nations leave &7- Leave nation[H]&7Click to copy.[/H][SC]nations
         leave[/SC][/T]'
-      spawn: '[T]&e/nations spawn &8- &7Capital spawn[H]&7Click to copy.[/H][SC]nations
+      spawn: '[T]&e/nations spawn &7- Capital spawn[H]&7Click to copy.[/H][SC]nations
         spawn[/SC][/T]'
-      rename: '[T]&e/nations rename &8- &7Rename nation[H]&7Click to copy.[/H][SC]nations
+      rename: '[T]&e/nations rename &7- Rename nation[H]&7Click to copy.[/H][SC]nations
         rename[/SC][/T]'
-      setcapital: '[T]&e/nations setcapital &8- &7Set capital[H]&7Click to copy.[/H][SC]nations
+      setcapital: '[T]&e/nations setcapital &7- Set capital[H]&7Click to copy.[/H][SC]nations
         setcapital[/SC][/T]'
       level: '[T]&e/nations level&8- &7View level progress[H]&7View the progress of
         unlocking the next level and benefits of the current and the next level. &7Click
         to execute.[/H][C]nations level[/C][/T]'
     admin:
-      admin: '[T]&e/lands admin <sub-command> &8- &7Admin commands[H]&7Click to copy.[/H][SC]lands
+      admin: '[T]&e/lands admin <sub-command> &7- Admin commands[H]&7Click to copy.[/H][SC]lands
         admin[/SC][/T]'
-      debug: '[T]&e/lands debug &8- &7Shows loaded data stats[H]&7Click to copy.[/H][SC]lands
+      debug: '[T]&e/lands debug &7- Shows loaded data stats[H]&7Click to copy.[/H][SC]lands
         debug[/SC][/T]'
-      reload: '[T]&e/lands reload &8- &7Reload config and messages[H]&7Click to copy.[/H][SC]lands
+      reload: '[T]&e/lands reload &7- Reload config and messages[H]&7Click to copy.[/H][SC]lands
         reload[/SC][/T]'
-      about: '[T]&e/lands about &8- &7Show information about Lands[H]&7Click to copy.[/H][SC]lands
+      about: '[T]&e/lands about &7- Show information about Lands[H]&7Click to copy.[/H][SC]lands
         about[/SC][/T]'
     mod:
-      chatspy: '[T]&e/lands chatspy [land] - &7Listen to land chat[H]&7Click to copy.[/H][SC]lands
+      chatspy: '[T]&e/lands chatspy [land] &7- Listen to land chat[H]&7Click to copy.[/H][SC]lands
         chatspy[/SC][/T]'
 message:
   world-not-exist: '&cThe world name {world} doesn''t exist.'
@@ -407,7 +406,8 @@ message:
     chunk: ''
     plugin: '&cPending teleportation cancelled.'
     unsafe: |
-      &cThe teleportation has been cancelled, because the destination is not safe. [T]Teleport anyway[H]&cWarning: The teleportation destination is not safe and might be dangerous for you.[/H][C]{cmd}[/C][/T]
+      &cThe teleportation has been cancelled, because the destination is not safe.
+      [T]&eClick here to teleport anyway.[H]&cWarning: The teleportation destination is not safe and might be dangerous for you.[/H][C]{cmd}[/C][/T]
     corrected: '&7The original teleport destination was unsafe. Your final destination
       has been corrected to a safe location.'
   claimblock:
@@ -655,7 +655,7 @@ command:
           [T]&7- Trust players: [SC]/lands trust[/SC][H]Click to copy.[/H][/T]
       camp: '&aYou created the camp {land}. The camp can''t be expanded and will expire
         in {time}.'
-    broadcast: '&7 * Land {land} was created by {player}.'
+    broadcast: ''
   rename:
     success: '&aSuccessfully set the new name "{name}" for {land}.'
   edit:
@@ -712,7 +712,7 @@ command:
           [T]&7 - Unclaim: /lands unclaim [H]Click here to unclaim this selection.[/H][C]lands unclaim[/C][/T]
           [T]&7 - Subarea: /lands assign [H]Assign this selection to a subarea.[/H][SC]lands assign <area>[/SC][/T]
       not-complete: '&cYour selection is not complete. Please make sure that both
-        positions are set. Cancel with [T]/lands selection [H]&7Click here to toggle
+        positions are set. Cancel with [T]&c/lands selection [H]&7Click here to toggle
         the selection mode.[/H][C]lands selection[/C][/T]'
       disabled: '&dSelection Mode disabled.'
   claim:
@@ -750,9 +750,9 @@ command:
       chunks: '&cYou can''t merge {merge} into {land}. The total chunks, {amount},
         exceeds the limit of {max} chunks.'
     connection: '&cYou can''t merge {merge} into {land}.'
-    confirm: that you want to merge {merge} into {land} with [T]/lands merge {merge}
-      confirm.[H]&7Click to confirm.[/H][C]lands merge {merge} confirm[/C][/T]
-    success: '&aYou successfully merged {merge} into {land}.'
+    confirm: '&cConfirm that you want to merge {merge} into {land} with [T]&c/lands
+      merge {merge} confirm.[H]&7Click to confirm.[/H][C]lands merge {merge} confirm[/C][/T]'
+    success: '&aSuccessfully merged {merge} into {land}.'
   assign:
     selection: '&cYou need to create a selection first. Use /lands selection to create
       one.'
@@ -760,7 +760,7 @@ command:
       in the areas menu of the land.'
     size: '&cYour selection is too small. The minimum size is {min} blocks (current:
       {current}).'
-    success: '&aYou successfully resized the area {area} of {land}.'
+    success: '&aSuccessfully resized the area {area} of {land}.'
     conflict:
       land: '&cYour selection conflicts with {land}.'
       area: '&cYour selection conflicts with area {area}.'
@@ -786,22 +786,22 @@ command:
       split: '&aYou unclaimed {success} / {size} chunks of this selection, &abut {failed}
         could not be unclaimed because it would result in your land being split up
         into parts.'
-      partly: '&aYou successfully unclaimed {success} / {size} chunks of this selection.'
-      success: '&aYou successfully unclaimed all chunks of this selection.'
+      partly: '&aSuccessfully unclaimed {success} / {size} chunks of this selection.'
+      success: '&aSuccessfully unclaimed all chunks of this selection.'
   unclaimall:
-    confirm: '&cConfirm that you want to unclaim all chunks of {land} with [T]/lands
+    confirm: '&cConfirm that you want to unclaim all chunks of {land} with [T]&c/lands
       unclaimall confirm.[H]&7Click to confirm.[/H][C]lands unclaimall confirm[/C][/T]'
-    success: '&aYou successfully unclaimed all chunks for {land}.'
+    success: '&aSuccessfully unclaimed all chunks for {land}.'
   delete:
     nation: '&cYou can''t delete this land, because it''s the capital of nation&4
       {nation}&c. &7You need to delete the nation first: &e/nations delete'
-    confirm: '&cConfirm the deletion of {land} with [T]/lands delete {land} confirm[H]&7Click
+    confirm: '&cConfirm the deletion of {land} with [T]&c/lands delete {land} confirm[H]&7Click
       to confirm.[/H][C]lands delete {land} confirm[/C][/T].'
     success: '&aSuccessfully deleted {land}.'
     rented: '&cYou can''t delete this land, because its area&4 {area} &cis rented
       or bought by&4 {player}&c. &7To remove the tenant, execute &e/lands rent removetenant
       &7while standing in that area.'
-    broadcast: '&7 * Land {land} was deleted by {player}.'
+    broadcast: ''
   trust:
     own-land: '&c{player} can''t be invited to join another land. They already own
       one.'
@@ -813,14 +813,14 @@ command:
       invited: '&c{player} is already invited to {area} of {land}.'
       trusted: '&c{player} is already trusted in {area} of {land}.'
       success: '&aSuccessfully invited {player} to {area} of {land}!'
-      target: '&a{player} invited you to join {area} of {land}. [H]&aClick to open
-        your invites menu.[/H][C]lands invites[/C][/T].'
+      target: '&a{player} invited you to join {area} of {land}. [T]&aUse /lands invites
+        to view your invites.[H]&7Click to open your invites menu.[/H][C]lands invites[/C][/T].'
     land:
       invited: '&c{player} is already invited to {land}.'
       trusted: '&c{player} is already trusted in {land}.'
       success: '&aSuccessfully invited {player} to {land}!'
-      target: '&a{player} invited you to join {land}. [H]&aClick to open your invites
-        menu.[/H][C]lands invites[/C][/T].'
+      target: '&a{player} invited you to join {land}. [T]&aUse /lands invites to view
+        your invites.[H]&7Click to open your invites menu.[/H][C]lands invites[/C][/T].'
   untrust:
     area:
       already: '&c{player} isn''t trusted in {area} of {land}.'
@@ -852,19 +852,19 @@ command:
       of {members} members in their land.'
     war: '&cYou currently can''t join {land}, because it is engaged in a war against
       {object}.'
-    notification: '&7You have {invites} invites from other lands. [T]Use /lands invites
-      to get a list of them.[C]lands invites[/C][H]&7View received invites from other
-      lands.[/H][/T]'
+    notification: '&7You have {invites} invites from other lands. [T]&7Use /lands
+      invites to get a list of them.[C]lands invites[/C][H]&7View received invites
+      from other lands.[/H][/T]'
     area:
       success: '&aSuccessfully accepted invite from {land} for area {area}.'
-      broadcast: '&7 * {player} is now a member of {area} of {land}.'
+      broadcast: ''
     land:
       success: '&aSuccessfully accepted the invite from {land}.'
-      broadcast: '&7 * {player} is now a member of {land}.'
+      broadcast: ''
   setowner:
     max-lands: '&c{player} isn''t allowed to own any more lands.'
     confirm: '&cConfirm you want to transfer the ownership of {land} to {player} with
-      [T]/lands setowner {player} confirm[H]&7Click to confirm.[/H][C]lands setowner
+      [T]&c/lands setowner {player} confirm[H]&7Click to confirm.[/H][C]lands setowner
       {player} confirm[/C][/T].'
     success: '&aSuccessfully set {player} as the owner of {land}.'
   deny:
@@ -920,7 +920,7 @@ command:
     activated: '&7Activated land chat. Send a message in public chat to chat with
       your land.'
     deactivated: '&7Successfully deactivated land chat.'
-    none: '&cNo land found for land chat. Use [T]/lands chat toggle[H]&7Click here
+    none: '&cNo land found for land chat. Use [T]&c/lands chat toggle[H]&7Click here
       to deactivate the chat mode.[/H][C]lands chat toggle[/C][/T] to disable.'
     format:
       minecraft: '[NoPrefix]&a[{land}] {player}: {message}'
@@ -1064,7 +1064,7 @@ wars:
           &8&l- &7&lDefender &8(&3{def_points} points&8)
               &7Captures: {def_cap}
               &7Kills: {def_kills}
-          &8- &7Time: &5{time}
+          &7- Time: &5{time}
         defenders: |
           &aThe War is over:
           &7The defenders &8({team}&8) &7won.
@@ -1075,7 +1075,7 @@ wars:
           &8&l- &7&lDefender &8(&3{def_points} points&8)
               &7Captures: {def_cap}
               &7Kills: {def_kills}
-          &8- &7Time: &5~{time}
+          &7- Time: &5~{time}
     war-shield:
       set: '&7The new war shield for {object} &7will be active for&5 {time}&7.'
     kill:
@@ -1199,7 +1199,7 @@ wars:
             &7Kills: {def_kills}
             &3= {def_points} / {towin} &7points to win
             {def_bar}
-        &8- &7Timeout:&5 ~{time}
+        &7- Timeout:&5 ~{time}
       declaration:
         normal: |
           &4War Declaration:

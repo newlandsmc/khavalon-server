@@ -25,3 +25,7 @@ expansions:
       low: '&a'
   timer:
     date: 13/01/2023
+  math:
+    Precision: 3
+    Rounding: half_up
+    Debug: false

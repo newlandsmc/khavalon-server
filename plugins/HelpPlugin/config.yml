@@ -1,0 +1,167 @@
+commands:
+  - help
+  - discord
+  - map
+  - website
+  - vote
+  - donate
+  - store
+  - info
+  - rules
+  - help
+
+menu-name: 'Help Menu'
+
+items:
+  0:
+    material: 'EMERALD'
+    name: '&aStore'
+    lore:
+      - '&fClick to open the store'
+    commands:
+      - 'info store'
+  1:
+    material: 'MAP'
+    name: '&aMap'
+    lore:
+      - '&fClick to open the map'
+    commands:
+      - 'info map'
+  2:
+    material: 'NETHER_STAR'
+    name: '&aVote'
+    lore:
+      - '&fClick to open the vote'
+    commands:
+      - 'info vote'
+  3:
+    material: 'CAMPFIRE'
+    name: '&aWebsite'
+    lore:
+      - '&fClick to open the website'
+    commands:
+      - 'info website'
+  4:
+    material: 'AMETHYST_SHARD'
+    name: '&aDiscord'
+    lore:
+      - '&fClick to join the discord'
+    commands:
+      - 'info discord'
+  5:
+    material: 'GLOBE_BANNER_PATTERN'
+    name: '&aRules'
+    lore:
+      - '&fClick to open the rules page'
+    commands:
+      - 'info rules'
+  6:
+    material: 'BOOK'
+    name: '&aHelp'
+    lore:
+      - '&fClick to open the help book'
+    commands:
+      - 'info help'
+links:
+  store: 'https://store.semivanilla.com/'
+  map: 'https://semivanilla.com/map'
+  vote: 'https://semivanilla.com/vote'
+  website: 'https://semivanilla.com/'
+  discord: 'https://discord.gg/3WzZ3x6wGp'
+  rules: 'https://semivanilla.com/rules'
+
+book:
+  help:
+    pages: 1
+    0:
+      - 'Coming soon!'
+  store:
+    pages: 1
+    0:
+      - '    <gradient:gold:#b24747><bold>SemiVanilla MC<reset>'
+      - '         <bold>Store<reset>'
+      - ''
+      - 'Help us share the'
+      - 'adventure for years'
+      - 'to come!'
+      - ''
+      - 'Donate to support the'
+      - 'server. Thank you!'
+      - ''
+      - ''
+      - '<click:open_url:%store-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
+  map:
+    pages: 1
+    0:
+      - '    <gradient:gold:#b24747><bold>SemiVanilla MC<reset>'
+      - '           <bold>Map<reset>'
+      - ''
+      - 'View the entire'
+      - 'overworld and'
+      - 'player''s locations in'
+      - 'real time!'
+      - ''
+      - 'Shows approximate'
+      - 'location.'
+      - ''
+      - '<click:open_url:%map-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
+  vote:
+    pages: 1
+    0:
+      - '    <gradient:gold:#b24747><bold>SemiVanilla MC<reset>'
+      - '     <bold>Vote Portal<reset>'
+      - ''
+      - 'Support us by voting'
+      - 'every day and get'
+      - 'rewarded for it!'
+      - ''
+      - '/spoils to claim'
+      - 'rewards.'
+      - ''
+      - ''
+      - '<click:open_url:%vote-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
+  website:
+    pages: 1
+    0:
+      - '    <gradient:gold:#b24747><bold>SemiVanilla MC<reset>'
+      - '        <bold>Website<reset>'
+      - ''
+      - 'Bookmark us! Favorite'
+      - 'us! Whatever you wish.'
+      - ''
+      - 'This is the portal to'
+      - 'our vote sites, store,'
+      - 'Discord, and more.'
+      - ''
+      - ''
+      - '<click:open_url:%website-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
+  discord:
+    pages: 1
+    0:
+      - '    <gradient:gold:#b24747><bold>SemiVanilla MC<reset>'
+      - '        <bold>Discord<reset>'
+      - ''
+      - 'Join the community!'
+      - ''
+      - 'Discord is the official'
+      - 'place for server'
+      - 'announcements and'
+      - 'discussion!'
+      - ''
+      - ''
+      - '<click:open_url:%discord-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
+  rules:
+    pages: 1
+    0:
+      - '    <gradient:gold:#b24747><bold>SemiVanilla MC<reset>'
+      - '          <bold>Rules<reset>'
+      - ''
+      - '1) Be careful'
+      - '2) Be kind'
+      - '3) Be fair'
+      - '4) Be SVMC'
+      - ''
+      - ''
+      - ''
+      - ''
+      - '<click:open_url:%rules-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'

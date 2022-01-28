@@ -12,7 +12,7 @@ vote-services:
   - "PlanetMinecraft.com"
   - "Minecraft-MP.com"
   - "Minecraft-Server.net"
-vote-incomplete-message: "<gray>Vote received! Vote on all sites to receive a reward! [(playerVotesToday)/(voteServices)]"
+vote-incomplete-message: "<gray>Vote received! [(playerVotesToday)/(voteServices)]"
 vote-complete-message: "<gold>Thank you for voting! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><gold> to claim your treasure."
 vote-complete-announce: "<yellow> * (playerName) voted and received an Instant Expedition! Use /vote to vote."
 instant-package-message: "<gold>Thank you for voting! Because you have the instant reward package you do not receive any extra rewards."
