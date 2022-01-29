@@ -11,7 +11,7 @@ Effects:
   - minecraft:block.note_block.basedrum 100t
   - minecraft:block.note_block.basedrum 120t
   - minecraft:block.note_block.basedrum 125t
-  - "&cI need to find a bed..."
+  - "&cYou need to find a bed..."
   - minecraft:block.note_block.basedrum 145t 0.9v
   - minecraft:block.note_block.basedrum 150t 0.9v
   - minecraft:block.note_block.basedrum 170t 0.7v

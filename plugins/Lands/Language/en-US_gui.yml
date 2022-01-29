@@ -1735,7 +1735,7 @@ gui:
         from: 10
         to: 36
       harvest:
-        name: '&fHarvest Crops and Berries'
+        name: '&6Harvest Crops and Berries'
         lore:
         - '&fAllow this role to harvest'
         - '&fcrops and berries?'

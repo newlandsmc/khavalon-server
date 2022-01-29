@@ -363,7 +363,7 @@ message:
     spawn_teleport: '&cYou cannot teleport to {land}.'
     land_enter: '#a#&cYou cannot enter {area} of {land}.'
     vehicle_use: '#a#&cYou cannot use vehicles in {land}.'
-    item_pickup: '#a#&cYou cannot drop and pickup items in {land}.'
+    item_pickup: '#a#&cYou cannot drop or pickup items in {land}.'
     ender_pearl: '#a#&cYou cannot teleport into {land}.'
     attack_animal: '#a#&cYou cannot attack animals in {land}.'
     attack_monster: '#a#&cYou cannot attack monsters in {land}.'

@@ -1,0 +1,110 @@
+# The amount of time used for the interval
+interval: 15
+# The unit of time used for the interval
+#  Can be SECONDS, MINUTES, or HOURS
+interval-time-unit: 'MINUTES'
+random-message-order: true
+gradient:
+  color-1: 'yellow'
+  color-2: 'red'
+  color-3: 'yellow'
+  speed: 0.1
+returning-player:
+  title-settings:
+    enabled: true
+    duration-seconds: 4
+    fade-in: 1000
+    fade-out: 1000
+    title: '<animate>SemiVanilla MC</animate>'
+    subtitle: 'The Adventure Continues'
+  join-sounds:
+    enabled: true
+    name: 'ui.toast.challenge_complete'
+    pitch: 1
+    source: master
+    volume: 0.8
+new-player:
+  title-settings:
+    enabled: true
+    duration-seconds: 4
+    fade-in: 500
+    fade-out: 500
+    title: '<animate>SemiVanilla MC</animate>'
+    subtitle: 'The Adventure Begins'
+  join-sounds:
+    enabled: true
+    name: 'UI_TOAST_CHALLENGE_COMPLETE'
+    pitch: 1
+    source: master
+    volume: 0.8
+messages:
+  0:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Vote every day to support the server and get '
+    - 'rewarded for it! <gradient:yellow:red>https://semivanilla.com/vote</gradient>'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  1:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Enjoying the server? Please consider donating'
+    - 'at <gradient:yellow:red>https://store.semivanilla.com</gradient>!'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  2:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Join the community! Find us on Discord'
+    - 'at <gradient:yellow:red>https://discord.gg/3WzZ3x6wGp</gradient>!'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  3:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Check the map! All players locations can be'
+    - 'seen at <gradient:yellow:red>https://semivanilla.com/map</gradient>!'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  4:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Want to keep your items when you die? Make them '
+    - 'SoulBound with <gradient:#ac2626:#720a0a>/soulbind</gradient>! <gray>(Coming soon)</gray>'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  5:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Kill a player to get Fighting XP. Kill a bounty to'
+    - 'steal all the Fighting XP they stole from others!'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  6:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Complete Expeditions by spending time offline and '
+    - 'voting every day! Claim rewards with <gradient:yellow:red>/spoils</gradient>.'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  7:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Grinding Skills XP? Boost XP earned for the entire'
+    - 'server at <gradient:yellow:red>http://store.semivanilla.com</gradient>.'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  8:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Get around faster! Use <gradient:yellow:red>/fasttravel</gradient> to visit'
+    - 'official locations around the map.'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  9:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Heads up! Land claims disappear after a player is gone'
+    - 'for 90 consecutive days!'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'

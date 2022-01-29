@@ -12,6 +12,10 @@ TimeAwakeMultiplier: 3.0
 # The max multiplier the plugin will hit, otherwise it could start spamming them. Default means 4 days.
 TimeAwakeMaxMultiplier: 15.0
 
+# If the player's last rest time has been set to more recent than before... It plays this message.
+# Set to empty for no message
+RestedMessage: "&6You feel well rested, maybe the sounds will stop now..."
+
 # This is the chance of the sound playing every second, so 0.01 = 1% chance
 RandomChance: 0.03
 
