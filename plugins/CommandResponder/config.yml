@@ -1,9 +1,9 @@
 spawn:
-  enabled: false
-  message: "<red>There is no spawn on this server! Use /home to go home."
+  enabled: true
+  message: "<red>There is no spawn on this server! Everyone spawns somewhere random."
 lobby:
-  enabled: false
-  message: "<red>There is no spawn on this server! Use /home to go home."
+  enabled: true
+  message: "<red>There is no spawn on this server! Everyone spawns somewhere random."
 back:
   enabled: true
   message: "<red>There is no /back on this server!"

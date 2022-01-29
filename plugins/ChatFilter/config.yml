@@ -62,7 +62,7 @@ settings:
   # #Remove excessive caps? Names are exempt
   deCap: true
   # #How many UPPERCASE letters before we lower the text string?
-  capsAmount: 6
+  capsAmount: 7
   
   # #Allow URLs? If set to false all URLs will be filtered as advertising
   allowURL: false

@@ -594,7 +594,7 @@ command:
         untrusted: '&cYou''re not allowed to do that for {land}.'
     no-edit-land: '&cYou haven''t selected your edit land yet. Use /lands edit <land>
       to select it.'
-    name-exists: '&cThe name "{name}" is already taken by another land or nation.'
+    name-exists: '&cThe name "{name}" is already taken by another land.'
     swear-word: ''
     action-cooldown: '&cYou can''t use that command for {time}.'
     world-invalid: '&cLands is disabled in this world.'
@@ -649,10 +649,9 @@ command:
     success:
       land: |
         &aSuccessfully created {land}!
-          [T]&7- Change edit land: [SC]/lands edit[/SC][H]{land} has been set as your edit land for actions like trusting players etc. To change that execute this command. Click to copy.[/H][/T]
-          [T]&7- Claim chunk: [C]/lands claim[/C][H]Click here to claim the chunk you're standing in.[/H][/T]
-          [T]&7- Claim selection: [C]/lands selection[/C][H]Click here to claim a selection of chunks.[/H][/T]
-          [T]&7- Trust players: [SC]/lands trust[/SC][H]Click to copy.[/H][/T]
+          &7- Claim chunk: [T]&7/lands claim[C]lands claim[/C][H]Click to claim the chunk you're standing in.[/H][/T]
+          &7- Claim selection: [T]&7/lands selection[C]lands selection[/C][H]&7Click to claim a selection of chunks.[/H][/T]
+          &7- Trust players: [T]&7/lands trust[SC]lands trust[/SC][H]&7Click to trust others..[/H][/T]
       camp: '&aYou created the camp {land}. The camp can''t be expanded and will expire
         in {time}.'
     broadcast: ''
@@ -704,17 +703,19 @@ command:
         and max claim height).'
       disabled: '&aYour current selection is no longer expanded to all y levels.'
     status:
-      complete: '&dSelection: First: {first} &dSecond: {second}'
+      complete: '&dSelection: Complete! Use: [T]&d/claim[H]&7Claim this selection[/H][C]lands
+        claim[/C][/T]&d, [T]&d/unclaim[H]&7Unclaim this selection[/H][C]lands unclaim[/C][/T]&d,
+        or [T]&d/assign[H]&7Assign selection to subarea[/H][SC]lands assign <area>[/SC][/T]'
       progress: '&dSelection: First: {first} &dSecond: {second}'
       reminder: |
         &7Your selection is complete. Following actions can be executed:
-          [T]&7 - Claim: /lands claim [H]Click here to claim this selection.[/H][C]lands claim[/C][/T]
-          [T]&7 - Unclaim: /lands unclaim [H]Click here to unclaim this selection.[/H][C]lands unclaim[/C][/T]
-          [T]&7 - Subarea: /lands assign [H]Assign this selection to a subarea.[/H][SC]lands assign <area>[/SC][/T]
+          &7 - Claim: [T]&7/lands claim [H]Click here to claim this selection.[/H][C]lands claim[/C][/T]
+          &7 - Unclaim: [T]&7/lands unclaim [H]Click here to unclaim this selection.[/H][C]lands unclaim[/C][/T]
+          &7 - Subarea: [T]&7/lands assign [H]Assign this selection to a subarea.[/H][SC]lands assign <area>[/SC][/T]
       not-complete: '&cYour selection is not complete. Please make sure that both
         positions are set. Cancel with [T]&c/lands selection [H]&7Click here to toggle
         the selection mode.[/H][C]lands selection[/C][/T]'
-      disabled: '&dSelection Mode disabled.'
+      disabled: '&dSelection mode cancelled.'
   claim:
     camp: '&cYour camp can''t be expanded.'
     create:

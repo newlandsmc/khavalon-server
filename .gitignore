@@ -5,39 +5,34 @@
 /plugins/Essentials/userdata-npc-backup/
 /plugins/WorldEdit/sessions/
 /plugins/LiteBans/litebans.mv.db
-/plugins/RejoinRewards/data/
-/plugins/GriefPreventionData/ClaimData/
-/plugins/GriefPreventionData/PlayerData/
 /plugins/CoreProtect/database.db
 /plugins/Expeditions/data/
-/plugins/HolographicDisplays/database.yml
-/plugins/MMOCore/userdata/
 /plugins/MythicMobs/SavedData/
-/plugins/LWCTrust/trusts/
 /plugins/Chunky/config.yml
-/plugins/ChunkyBorder/borders.json
 /plugins/AureliumSkills/regiondata/
 /plugins/squaremap/web/tiles/
 /plugins/squaremap/web/map/tiles/
 /plugins/squaremap/data/
-/plugins/AFKPlus/statistics.yml/
+/plugins/AFKPlus/statistics.yml
 /plugins/Bounties/data-storage/
 /plugins/CookieCore/data/
+/plugins/FastTravel/storage/
+/plugins/LibsDisguises/SavedDisguises/
+/plugins/PremiumVanish/data.yml
+/plugins/Citizens/saves.yml
+/plugins/Lands/Data/ 
 
 # Ignore bloat in plugins
-/plugins/ChatCore/Chat Logs/
-/plugins/ChatCore/Command Logs/
 /plugins/LuckPerms/libs/
 /plugins/WorldEdit/.archive-unpack/
 /plugins/WorldGuard/cache/
-/plugins/Pl3xMap/data/
-/plugins/Pl3xMap/web/
 /plugins/LiteBans/lib/
 /plugins/LiteBans/.version/
-/plugins/GriefPreventionData/Logs/
 /plugins/BuycraftX/cache/
+/plugins/BuycraftX/gui.cache
 /plugins/Votifier/rsa/
 /plugins/squaremap/web/tiles-bak/
+/plugins/Vulcan/stats.yml
 
 # Ignore worlds
 !worlds/
@@ -64,3 +59,7 @@ application/language/*
 
 # Ignore jars
 *.jar
+
+# Ignore keys
+*.pem
+*.key
