@@ -81,7 +81,7 @@ settings:
       page: 16384
   suggest-player-names-when-null-tab-completions: true
   unsupported-settings:
-    perform-username-validation: true
+    perform-username-validation: false
     allow-permanent-block-break-exploits: false
     allow-headless-pistons: false
     allow-piston-duplication: false

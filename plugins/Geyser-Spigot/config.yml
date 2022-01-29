@@ -25,7 +25,7 @@ bedrock:
   server-name: "SemiVanilla"
   # How much to compress network traffic to the Bedrock client. The higher the number, the more CPU usage used, but
   # the smaller the bandwidth used. Does not have any effect below -1 or above 9. Set to -1 to disable.
-  compression-level: 7
+  compression-level: 6
   # Whether to enable PROXY protocol or not for clients. You DO NOT WANT this feature unless you run UDP reverse proxy
   # in front of your Geyser instance.
   enable-proxy-protocol: false
@@ -112,15 +112,15 @@ debug-mode: false
 
 # Allow third party capes to be visible. Currently allowing:
 # OptiFine capes, LabyMod capes, 5Zig capes and MinecraftCapes
-allow-third-party-capes: true
+allow-third-party-capes: false
 
 # Allow third party deadmau5 ears to be visible. Currently allowing:
 # MinecraftCapes
-allow-third-party-ears: true
+allow-third-party-ears: false
 
 # Allow a fake cooldown indicator to be sent. Bedrock players do not see a cooldown as they still use 1.8 combat
 # Can be title, actionbar or false
-show-cooldown: actionbar
+show-cooldown: false
 
 # Controls if coordinates are shown to players.
 show-coordinates: false
@@ -163,7 +163,7 @@ above-bedrock-nether-building: false
 # Force clients to load all resource packs if there are any.
 # If set to false, it allows the user to connect to the server even if they don't
 # want to download the resource packs.
-force-resource-packs: true
+force-resource-packs: false
 
 # Allows Xbox achievements to be unlocked.
 # THIS DISABLES ALL COMMANDS FROM SUCCESSFULLY RUNNING FOR BEDROCK IN-GAME, as otherwise Bedrock thinks you are cheating.
@@ -175,7 +175,7 @@ xbox-achievements-enabled: false
 # https://bstats.org/plugin/server-implementation/GeyserMC
 metrics:
   # If metrics should be enabled
-  enabled: true
+  enabled: false
   # UUID of server, don't change!
   uuid: b8c42e7a-5cdd-405e-9180-25ff7d8ef557
 

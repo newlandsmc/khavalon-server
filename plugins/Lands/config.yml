@@ -16,7 +16,7 @@ general:
   # German (de-DE) by Cryper
   # Hungarian (hu-HU) by gbalint
   # Italian (it-IT) by MiniMoro
-  # Russian (ru-RU) by Envel
+  # Russian (ru-RU) by _sil3nce
   # Spanish (es-ES) by Port
   # Swedish (sv-SE) by Broken_Arrow1
   # Polish (pl-PL) by Nideon
@@ -847,6 +847,9 @@ integration:
     land:
       # Opactiy of the land. Needs to be between 0 (lowest) and 255 (highest).
       opacity_3: 125
+      # Should only lands, that are part of a nation, appear on the map?
+      # Note: This option requires server reload / restart.
+      only-nation: false
       # To edit the color you need to insert the hex values given here:
       # https://www.google.com/search?q=color+picker
       color:

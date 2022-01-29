@@ -754,6 +754,9 @@ command:
     confirm: '&cConfirm that you want to merge {merge} into {land} with [T]&c/lands
       merge {merge} confirm.[H]&7Click to confirm.[/H][C]lands merge {merge} confirm[/C][/T]'
     success: '&aSuccessfully merged {merge} into {land}.'
+    nation: |
+      &cYou can't merge land&4 {merge} &cinto&4 {land}&c. &7Land&2 {merge} &7is the capital of nation&9 {nation}&7.
+        [T]&7✖ Change capital: &e/nations setcapital &8<&eland&8>[H]&7Click here to change the nations capital. This will allow you to merge land {merge}. Click to copy.[/H][SC]nations setcapital[/SC][/T]
   assign:
     selection: '&cYou need to create a selection first. Use /lands selection to create
       one.'
@@ -1277,6 +1280,9 @@ nations:
       success: '&7You successfully created the nation&9 {nation} &7with the land&2
         {land} &7as the capital. [T]&7Click here to open the menu.[H]&7Open the menu.[/H][C]nations
         menu[/C][/T]'
+      camp: |
+        &cYou can't create a nation with a camp &8(&4{land}&8) &cas the capital.
+          [T]&7✖ Change edit land: &3/edit &8<&3land&8> &8[CLICK][SC]lands edit[/SC][H]&7Use this command to change the edit land, which you want to be the capital of your nation. Click to copy.[/H][/T]
     trust:
       already: '&cThe land&4 {land} &cis already part of the nation&4 {nation}&c.
         &7They need to leave it first by using &e/nations leave&7.'
