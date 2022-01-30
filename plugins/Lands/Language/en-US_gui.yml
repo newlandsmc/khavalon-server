@@ -125,7 +125,7 @@ physical-item:
     - '&7Owner: {owner}'
     - ''
     - '&7This is a land claiming tool!'
-    - '&7Use /lands for more info.'
+    - '&7Use /lands help for more info.'
     material: GRASS_BLOCK
   capture_block:
     name: '&aCapture Block'
@@ -134,7 +134,7 @@ physical-item:
     - '&fduring war in order to capture it.'
     - ''
     - '&7This is a land claiming tool!'
-    - '&7Use /lands for more info.'
+    - '&7Use /lands help for more info.'
     material: BEACON
   selection:
     name: '&6Selection Tool'
@@ -146,7 +146,7 @@ physical-item:
     - ' &f- &7/assign'
     - ''
     - '&7This is a land claiming tool!'
-    - '&7Use /lands for more info.'
+    - '&7Use /lands help for more info.'
     material: GOLDEN_HOE
   info:
     name: '&6Info Tool'
@@ -156,7 +156,7 @@ physical-item:
     - '&fyou''re pointing at.'
     - ''
     - '&7This is a land claiming tool!'
-    - '&7Use /lands for more info.'
+    - '&7Use /lands help for more info.'
     material: FEATHER
   camp:
     name: '&6Camp'
@@ -169,7 +169,7 @@ physical-item:
     - '&7Camps can''t be expanded.'
     - ''
     - '&7This is a land claiming tool!'
-    - '&7Use /lands for more info.'
+    - '&7Use /lands help for more info.'
     material: CAMPFIRE
   currency:
     name: ''

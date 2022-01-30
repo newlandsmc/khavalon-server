@@ -1,5 +1,13 @@
 #!/bin/bash
 
+set -e
+
+if [ "$EUID" -ne 0 ]
+then
+  echo "You must run this script as root."
+  exit 1
+fi
+
 backupDir='/var/minecraft/backups'
 currentDate=$(date +%b-%d-%Y-%H%M%Z)
 
@@ -11,24 +19,31 @@ do
   aws --profile default s3 cp --no-progress $backupDir/sql/$sqlDatabase-$currentDate.sql.gz s3://svmc-prod-backups-sql/
 done
 
-find /var/minecraft/server -name *.jar > tempignore.txt
+find /var/minecraft/server -name "*.jar" > tempignore.txt
+echo "/var/minecraft/server/plugins/squaremap/web/tiles/" >> tempignore.txt
 
-tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/server/server-$currentDate.tar.gz  /var/minecraft/server
-aws --profile default s3 cp --no-progress $backupDir/server/server-$currentDate.tar.gz s3://svmc-prod-backups-server/
+for world in $(ls /var/minecraft/server/worlds/)
+do
+  tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/server/server-$world-$currentDate.tar.gz  /var/minecraft/server/worlds/$world
+  aws --profile default s3 cp --no-progress $backupDir/server/server-$world-$currentDate.tar.gz s3://svmc-prod-backups-server/
+done
+
+tar --exclude-from=tempignore.txt --warning=no-file-changed -czpf $backupDir/server/server-plugins-$currentDate.tar.gz  /var/minecraft/server/plugins
+aws --profile default s3 cp --no-progress $backupDir/server/server-plugins-$currentDate.tar.gz s3://svmc-prod-backups-server/
 
 aws --profile default s3 ls s3://svmc-prod-backups-server | while read -r remoteBackup
 do
-  if [[ $(date -d $(echo $remoteBackup | awk '{ print $1 }') +%s) > $(date -d "$(date) - 7 days" +%s) ]]
+  if [[ $(date -d $(echo $remoteBackup | awk '{ print $1 }') +%s) > $(date -d "$(date) - 30 days" +%s) ]]
     then
-      aws--profile default s3 rm s3://svmc-prod-backups-server/$(echo $remoteBackup | awk '{ print $4 }')
+      aws --profile default s3 rm s3://svmc-prod-backups-server/$(echo $remoteBackup | awk '{ print $4 }')
     fi
 done
 
 aws --profile default s3 ls s3://svmc-prod-backups-sql| while read -r remoteBackup
 do
-  if [[ $(date -d $(echo $remoteBackup | awk '{ print $1 }') +%s) > $(date -d "$(date) - 7 days" +%s) ]]
+  if [[ $(date -d $(echo $remoteBackup | awk '{ print $1 }') +%s) > $(date -d "$(date) - 30 days" +%s) ]]
     then
-      aws--profile default s3 rm s3://svmc-prod-backups-sql/$(echo $remoteBackup | awk '{ print $4 }')
+      aws --profile default s3 rm s3://svmc-prod-backups-sql/$(echo $remoteBackup | awk '{ print $4 }')
     fi
 done
 
