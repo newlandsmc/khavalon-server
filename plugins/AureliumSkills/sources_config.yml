@@ -185,7 +185,7 @@ sources:
     goat: 3.0
   defense:
     mob_damage: 1
-    player_damage: 2
+    player_damage: 3
   fighting:
     player: 0.0
     bat: 1.0

@@ -26,12 +26,12 @@ patterns:
       start: 5
       interval: 5
 levels:
-  50:
+  5:
     - type: permission
       permission: lands.ownlands.2
       menu_message: \n\n&eMore land!\n  &7+1 own land
       chat_message: \n  &eMore land!&7 - +1 own land
-  97:
+  50:
     - type: permission
       permission: lands.ownlands.3
       menu_message: \n\n&eMore land!\n  &7+1 own land

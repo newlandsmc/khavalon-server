@@ -152,7 +152,7 @@ URL_REGEX: ^((https?|ftp)://|(www|ftp)\\.)
 # # DNS/IP filter 
 filteredIPandDNS:
 - \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
-- ([a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;)(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|io))\b
+- ([a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;)(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|io|be))\b
 
 
 # # Regex words - More presets https://pastebin.com/A67cK3SD

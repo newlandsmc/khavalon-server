@@ -20,7 +20,8 @@
 /plugins/LibsDisguises/SavedDisguises/
 /plugins/PremiumVanish/data.yml
 /plugins/Citizens/saves.yml
-/plugins/Lands/Data/ 
+/plugins/Lands/Data/
+/plugins/Geyser-Spigot/cache/
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/
