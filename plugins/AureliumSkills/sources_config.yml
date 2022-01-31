@@ -40,6 +40,9 @@ sources:
     flowering_azalea: 9.1
     azalea_leaves: 1.5
     flowering_azalea_leaves: 2.0
+    mushroom_stem: 4.0
+    brown_mushroom_block: 4.0
+    red_mushroom_block: 4.0
   mining:
     stone: 0.2
     cobblestone: 0.2

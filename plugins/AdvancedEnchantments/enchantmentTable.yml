@@ -13,6 +13,7 @@ groupChances:
   ELITE: 30
   ULTIMATE: 20
   LEGENDARY: 10
+  FABLED: 5
 
 
 # Set how many custom enchantments is possible

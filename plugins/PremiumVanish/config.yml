@@ -5,7 +5,7 @@
 ##################################################
 InvisibilityFeatures:
   # Should invisible players get night vision? (client-side)
-  NightVisionEffect: false
+  NightVisionEffect: true
   # Should PV disable damage for invisible players?
   DisableDamage: true
   # Should PV disable hunger for invisible players?

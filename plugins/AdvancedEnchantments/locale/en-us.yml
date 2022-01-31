@@ -1,15 +1,15 @@
 # Use %p% to insert the plugins prefix.
 # All messages support HEX color codes on 1.16+. Format: {#FFFFFF}
 # Almost all messages support PlaceholderAPI.
-prefix: "&7[&9AdvancedEnchantments&7]&r "
+prefix: ""
 
 effects:
-  steal-money: "&6%attacker% &7stole &6%amount% &7from &6%victim%&7!"
+  steal-money: "&7 * %attacker% &7stole %amount% &7from %victim%&7!"
 
 commands:
   no-permission: "&cYou don't have permission to do that!"
   offline-player: "&cThat player is not online!"
-  enchantment-not-found: "&cEnchantment &c&n%enchant%&c could not be found."
+  enchantment-not-found: "&cEnchantment &c%enchant%&c could not be found."
   invalid-amount: "&cInvalid amount. Must be between 1-64."
   invalid-enchant: "&c%enchant% is not a valid enchant!"
   invalid-level: "&cInvalid enchant level! Try using: %levels%"
@@ -35,7 +35,7 @@ commands:
     invalid-material: "&cInvalid material. Please reference the 'materials.yml' file for all valid materials."
     invalid-item-flag: "&cInvalid ItemFlag! You can choose from the following: %itemflags%"
     invalid-enchantment: "&cInvalid Enchantment!"
-    success: "&aGave &2%amount%x %material% &ato %player%&a!"
+    success: "&aGave %amount%x %material% &ato %player%&a!"
   gedit:
     unknown-gkit: "&c%gkit% is not a valid gkit!"
     edit:
@@ -52,7 +52,7 @@ commands:
       invalid-delay: "&c%delay% is not a valid integer!"
       success: "&eChanged &6%gkit%&e kit delay to &6%delay%"
   main:
-    unknown-command: "&cIncorrect command usage! Type \"/ae\" for the correct usage."
+    unknown-command: "&fUnknown command. Use \"/help\" for help."
     setsouls:
       invalid-usage: "&cInvalid usage: /ae setsouls <amount>"
       invalid-item: "&cInvalid item."
@@ -61,7 +61,7 @@ commands:
       invalid-usage: "&cInvalid usage: /ae unenchant <enchant>"
       invalid-enchant: "&c%enchant% is not a valid enchant!"
       not-holding-item: "&cYou must be holding an item!"
-      does-not-have-enchant: "&cThat item doesn't have &4%enchant%&c!"
+      does-not-have-enchant: "&cThat item doesn't have %enchant%&c!"
       success: "&aRemoved enchant %enchant%!"
     zip:
       zip-exists: "&cPlease try again."
@@ -142,7 +142,7 @@ gkits:
 
 heroic:
   cannot-apply: "&cYou can't apply a crystal upgrade to this item."
-  upgrade-failed: "&cThe crystal upgrade &nfailed&c!"
+  upgrade-failed: "&cThe crystal upgrade failed&c!"
 
 orbs:
   cannot-apply: "&cCannot apply orb to this item!"
@@ -193,7 +193,7 @@ items:
 
 combining:
   already-max-level: "This enchantment is already max level!"
-  success: "&aSuccess! &7%enchant% is now level %level%!"
+  success: "&aSuccess! %enchant% is now level %level%!"
   failure: "&cCombining failed!"
   something-went-wrong: "&cSomething went wrong with combining."
 
@@ -201,8 +201,8 @@ enchant-limitations:
   cannot-be-modified: "&cThis item cannot be modified!"
 
 applying:
-  not-applicable-with: "&cThe &4%enchant1% &cenchantment cannot be applied together with the &4%enchant2%&7 &cenchant!"
-  requires-enchant: "&cThe &4%enchant1% &cenchantment requires the &4%enchant2%&7 &cenchant to be applied!"
+  not-applicable-with: "&cThe %enchant1% &cenchantment cannot be applied together with the %enchant2% &cenchant!"
+  requires-enchant: "&cThe %enchant1% &cenchantment requires the %enchant2% &cenchant to be applied!"
   already-applied: "&cThe item already has this enchantment."
   applied: "&aEnchantment was applied to your item."
   max-level: "&cThis enchantment is already at max level!"

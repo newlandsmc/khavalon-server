@@ -88,6 +88,7 @@ strike:
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
+    - BOOK
     - TRIDENT
     - BOW
     - CROSSBOW
@@ -117,6 +118,7 @@ impact:
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
+    - BOOK
     - TRIDENT
   levels:
     1:
@@ -148,6 +150,7 @@ twinge:
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
+    - BOOK
     - TRIDENT
   levels:
     1:
@@ -201,6 +204,7 @@ jellylegs:
   type: "FALL_DAMAGE"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_BOOTS
   levels:
     1:
@@ -214,28 +218,6 @@ jellylegs:
     3:
       effects:
         - "STOP_ATTACK"
-smelting:
-  display: "%group-color%Smelting"
-  description: "Chance to smelt mined blocks."
-  applies-to: "Pickaxes"
-  type: "MINING"
-  group: "SIMPLE"
-  applies:
-    - ALL_PICKAXE
-    - ALL_SHOVEL
-  levels:
-    1:
-      chance: 33
-      effects:
-        - "SMELT"
-    2:
-      chance: 66
-      effects:
-        - "SMELT"
-    3:
-      chance: 100
-      effects:
-        - "SMELT"
 experience:
   display: "%group-color%Experience"
   description: "Chance to get more experience from ores."
@@ -243,6 +225,7 @@ experience:
   type: "MINING"
   group: "SIMPLE"
   applies:
+    - BOOK
     - ALL_PICKAXE
     - ALL_SPADE
     - ALL_AXE
@@ -284,6 +267,7 @@ hasten:
   type: "MINING"
   group: "SIMPLE"
   applies:
+    - BOOK
     - ALL_PICKAXE
     - ALL_SPADE
     - ALL_AXE
@@ -310,6 +294,7 @@ haste:
   type: "HELD"
   group: "FABLED"
   applies:
+    - BOOK
     - ALL_PICKAXE
     - ALL_SPADE
     - ALL_AXE
@@ -330,6 +315,7 @@ rebreather:
   type: "MINING"
   group: "SIMPLE"
   applies:
+    - BOOK
     - ALL_PICKAXE
   levels:
     1:
@@ -349,6 +335,7 @@ decapitation:
   type: "KILL_PLAYER"
   group: "SIMPLE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -374,6 +361,7 @@ forcefield:
   type: "ATTACK;ATTACK_MOB"
   group: "SIMPLE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -401,33 +389,6 @@ forcefield:
       cooldown: 13
       effects:
         - "PULL_AWAY:3.0 %victim%"
-epicness:
-  display: "%group-color%Epicness"
-  description: "Gives particles and sound effects."
-  applies-to: "Swords"
-  type: "ATTACK;ATTACK_MOB"
-  group: "SIMPLE"
-  applies:
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 20
-      cooldown: 3
-      effects:
-        - "PARTICLE:SMOKE_LARGE:50:1 %victim%"
-        - "PLAY_SOUND:ENTITY_GHAST_SCREAM"
-    2:
-      chance: 40
-      cooldown: 3
-      effects:
-        - "PARTICLE:SMOKE_LARGE:50:1 %victim%"
-        - "PLAY_SOUND:ENTITY_GHAST_SCREAM"
-    3:
-      chance: 60
-      cooldown: 3
-      effects:
-        - "PARTICLE:SMOKE_LARGE:50:1 %victim%"
-        - "PLAY_SOUND:ENTITY_GHAST_SCREAM"
 famine:
   display: "%group-color%Famine"
   description: "A chance to give your opponent the hunger effect."
@@ -435,6 +396,7 @@ famine:
   type: "ATTACK"
   group: "UNIQUE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -465,6 +427,7 @@ berserk:
   type: "ATTACK;ATTACK_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -505,6 +468,7 @@ reflect:
   type: "DEFENSE;DEFENSE_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -549,6 +513,7 @@ ward:
   type: "DEFENSE;DEFENSE_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -578,6 +543,7 @@ explosive:
   type: "BOW;BOW_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - BOW
     - CROSSBOW
   levels:
@@ -613,6 +579,7 @@ featherweight:
   type: "ATTACK;ATTACK_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -638,6 +605,7 @@ molten:
   type: "DEFENSE;DEFENSE_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -667,6 +635,7 @@ ravenous:
   type: "ATTACK;ATTACK_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -697,6 +666,7 @@ veinminer:
   group: "ELITE"
   type: "MINING"
   applies:
+    - BOOK
     - ALL_PICKAXE
   levels:
     1:
@@ -717,23 +687,12 @@ telepathy:
   description: "Automatically places blocks broken\nby tools in your inventory."
   applies-to: "Tools"
   type: "MINING"
-  group: "UNIQUE"
+  group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_TOOLS
   levels:
     1:
-      chance: 40
-      effects:
-        - "TP_DROPS"
-    2:
-      chance: 60
-      effects:
-        - "TP_DROPS"
-    3:
-      chance: 80
-      effects:
-        - "TP_DROPS"
-    4:
       effects:
         - "TP_DROPS"
 enderslayer:
@@ -743,6 +702,7 @@ enderslayer:
   type: "ATTACK_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -788,6 +748,7 @@ deathpunch:
   type: "ATTACK_MOB"
   group: "SIMPLE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -832,6 +793,7 @@ bonecrusher:
   type: "ATTACK_MOB"
   group: "SIMPLE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -863,6 +825,7 @@ slayer:
   type: "ATTACK_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -898,6 +861,7 @@ hunter:
   type: "BOW_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - TRIDENT
     - BOW
     - CROSSBOW
@@ -936,6 +900,7 @@ beastslayer:
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -971,6 +936,7 @@ hook:
   type: "CATCH_FISH"
   group: "ELITE"
   applies:
+    - BOOK
     - FISHING_ROD
   levels:
     1:
@@ -995,6 +961,7 @@ bait:
   type: "CATCH_FISH"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - FISHING_ROD
   levels:
     1:
@@ -1019,6 +986,7 @@ snap:
   type: "CATCH_FISH"
   group: "ELITE"
   applies:
+    - BOOK
     - FISHING_ROD
   levels:
     1:
@@ -1043,6 +1011,7 @@ lucky:
   type: "RIGHT_CLICK"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - FISHING_ROD
   levels:
     1:
@@ -1067,6 +1036,7 @@ permafrost:
   type: "ATTACK;ATTACK_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -1141,6 +1111,7 @@ soulless:
   type: "BOW_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - TRIDENT
     - BOW
     - CROSSBOW
@@ -1177,6 +1148,7 @@ reaper:
   type: "ATTACK"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_AXE
   levels:
     1:
@@ -1210,6 +1182,7 @@ netherslayer:
   type: "ATTACK_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -1255,6 +1228,7 @@ blind:
   type: "ATTACK"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -1279,6 +1253,7 @@ allure:
   type: "ATTACK_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -1299,6 +1274,7 @@ frozen:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -1323,6 +1299,7 @@ paralyze:
   type: "ATTACK;ATTACK_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -1365,6 +1342,7 @@ poison:
   type: "ATTACK;ATTACK_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -1390,6 +1368,7 @@ virus:
   type: "BOW_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - TRIDENT
     - BOW
     - CROSSBOW
@@ -1416,6 +1395,7 @@ poisoned:
   type: "DEFENSE;DEFENSE_MOB;DEFENSE_BOW"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -1438,57 +1418,6 @@ poisoned:
       cooldown: 6
       effects:
         - "POTION:POISON:1:120 %attacker%"
-reforged:
-  display: "%group-color%Reforged"
-  description: "Protects weapons and tools durability, items will be take\nlonger to break."
-  applies-to: "Weapons and tools"
-  type: "ATTACK_MOB;MINING"
-  group: "ELITE"
-  applies:
-    - ALL_AXE
-    - ALL_SWORD
-    - ALL_PICKAXE
-    - ALL_SPADE
-  levels:
-    1:
-      chance: 10
-      effects:
-        - "ADD_DURABILITY_ITEM:-1"
-    2:
-      chance: 20
-      effects:
-        - "ADD_DURABILITY_ITEM:-1"
-    3:
-      chance: 30
-      effects:
-        - "ADD_DURABILITY_ITEM:-2"
-    4:
-      chance: 40
-      effects:
-        - "ADD_DURABILITY_ITEM:-2"
-    5:
-      chance: 50
-      effects:
-        - "ADD_DURABILITY_ITEM:-2"
-    6:
-      chance: 60
-      effects:
-        - "ADD_DURABILITY_ITEM:-3"
-    7:
-      chance: 70
-      effects:
-        - "ADD_DURABILITY_ITEM:-3"
-    8:
-      chance: 80
-      effects:
-        - "ADD_DURABILITY_ITEM:-4"
-    9:
-      chance: 90
-      effects:
-        - "ADD_DURABILITY_ITEM:-4"
-    10:
-      effects:
-        - "ADD_DURABILITY_ITEM:-5"
 snare:
   display: "%group-color%Snare"
   description: "Chance to slow and fatigue\nenemies with projectiles."
@@ -1496,6 +1425,7 @@ snare:
   type: "BOW;BOW_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - BOW
     - CROSSBOW
   levels:
@@ -1530,6 +1460,7 @@ springs:
   type: "EFFECT_STATIC"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_BOOTS
   levels:
     1:
@@ -1548,6 +1479,7 @@ voodoo:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -1587,6 +1519,7 @@ wither:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -1621,6 +1554,7 @@ perish:
   type: "BOW;BOW_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - TRIDENT
     - BOW
     - CROSSBOW
@@ -1657,6 +1591,7 @@ smokebomb:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_HELMET
   levels:
     1:
@@ -1730,6 +1665,7 @@ infernal:
   type: "ATTACK;ATTACK_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -1758,6 +1694,7 @@ extinguish:
   type: "DEFENSE;DEFENSE_MOB;FIRE"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_LEGGINGS
   levels:
     1:
@@ -1782,6 +1719,7 @@ shockwave:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_CHESTPLATE
   levels:
     1:
@@ -1826,6 +1764,7 @@ vampire:
   type: "ATTACK;ATTACK_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -1853,6 +1792,7 @@ greatsword:
   type: "ATTACK"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -1897,6 +1837,7 @@ bowmaster:
   type: "BOW"
   group: "ELITE"
   applies:
+    - BOOK
     - TRIDENT
     - BOW
     - CROSSBOW
@@ -1943,6 +1884,7 @@ hardened:
   type: "DEFENSE"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -1967,6 +1909,7 @@ patch:
   type: "DEFENSE_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -1991,6 +1934,7 @@ rocketescape:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_BOOTS
   levels:
     1:
@@ -2021,6 +1965,7 @@ trickster:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -2070,6 +2015,7 @@ timber:
   group: "ULTIMATE"
   type: "MINING"
   applies:
+    - BOOK
     - "ALL_AXE"
   levels:
     1:
@@ -2094,6 +2040,7 @@ distance:
   type: "ATTACK"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -2128,6 +2075,7 @@ cleave:
   type: "ATTACK"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_AXE
   levels:
     1:
@@ -2172,6 +2120,7 @@ ambit:
   type: "ATTACK"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -2217,6 +2166,7 @@ arrowdeflect:
   type: "DEFENSE_BOW"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -2246,6 +2196,7 @@ arrowbreak:
   type: "DEFENSE_BOW"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_AXE
   levels:
     1:
@@ -2291,6 +2242,7 @@ curse:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -2309,6 +2261,7 @@ exalted:
   type: "ATTACK"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -2366,6 +2319,7 @@ ragdoll:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -2395,6 +2349,7 @@ block:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -2422,6 +2377,7 @@ trench:
   type: "MINING"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_PICKAXE
     - ALL_SPADE
   levels:
@@ -2468,6 +2424,7 @@ dodge:
   type: "DEFENSE"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -2517,6 +2474,7 @@ fumble:
   type: "DEFENSE_BOW"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_CHESTPLATE
   levels:
     1:
@@ -2544,6 +2502,7 @@ iceaspect:
   type: "ATTACK;ATTACK_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -2568,6 +2527,7 @@ momentum:
   type: "RIGHT_CLICK"
   group: "ELITE"
   applies:
+    - BOOK
     - ELYTRA
   levels:
     1:
@@ -2595,6 +2555,7 @@ reinforced:
   type: "DEFENSE;DEFENSE_MOB;DEFENSE_BOW"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ELYTRA
   levels:
     1:
@@ -2624,6 +2585,7 @@ restore:
   type: "ITEM_BREAK"
   group: "FABLED"
   applies:
+    - BOOK
     - ALL_PICKAXE
     - ALL_SPADE
     - ALL_AXE
@@ -2660,6 +2622,7 @@ implants:
   time: 5
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_HELMET
   levels:
     1:
@@ -2681,6 +2644,7 @@ piercing:
   type: "BOW;BOW_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - BOW
     - CROSSBOW
   levels:
@@ -2716,6 +2680,7 @@ archer:
   type: "BOW;BOW_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - BOW
   levels:
     1:
@@ -2753,6 +2718,7 @@ marksman:
   type: "BOW;BOW_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - CROSSBOW
   levels:
     1:
@@ -2790,6 +2756,7 @@ poseidon:
   type: "BOW;BOW_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - TRIDENT
   levels:
     1:
@@ -2827,6 +2794,7 @@ safeguard:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - "ALL_ARMOR"
   levels:
     1:
@@ -2846,6 +2814,7 @@ disappear:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - "ALL_ARMOR"
   levels:
     1:
@@ -2883,6 +2852,7 @@ confuse:
   type: "ATTACK"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -2912,6 +2882,7 @@ disintegrate:
   type: "ATTACK"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -2941,6 +2912,7 @@ shatter:
   type: "ATTACK"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_AXE
   levels:
     1:
@@ -2970,6 +2942,7 @@ heavy:
   type: "DEFENSE;DEFENSE_BOW"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -3014,6 +2987,7 @@ devour:
   type: "KILL_MOB"
   group: "UNIQUE"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -3036,6 +3010,7 @@ replenish:
   type: "MINING"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_PICKAXE
   levels:
     1:
@@ -3057,6 +3032,7 @@ hellfire:
   type: "BOW;BOW_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - BOW
     - CROSSBOW
   levels:
@@ -3092,6 +3068,7 @@ longbow:
   type: "BOW"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - BOW
     - CROSSBOW
   levels:
@@ -3130,6 +3107,7 @@ tank:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -3167,6 +3145,7 @@ swordsman:
   type: "DEFENSE;DEFENSE_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -3211,6 +3190,7 @@ critical:
   type: "ATTACK_MOB;ATTACK"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -3238,6 +3218,7 @@ rebound:
   type: "KILL_PLAYER;KILL_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_AXE
     - ALL_SWORD
   levels:
@@ -3263,6 +3244,7 @@ thunderlord:
   type: "ATTACK_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_AXE
     - ALL_SWORD
   levels:
@@ -3297,6 +3279,7 @@ creeperarmor:
   type: "EXPLOSION"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -3319,6 +3302,7 @@ bleed:
   type: "ATTACK;ATTACK_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_AXE
   levels:
     1:
@@ -3382,6 +3366,7 @@ lavawalker:
   type: "EFFECT_STATIC"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_BOOTS
   levels:
     1:
@@ -3394,6 +3379,7 @@ aqua:
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_BOOTS
   levels:
     1:
@@ -3431,6 +3417,7 @@ judgement:
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ELYTRA
   levels:
     1:
@@ -3470,6 +3457,7 @@ divert:
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -3509,6 +3497,7 @@ unholy:
   type: "DEFENSE"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -3548,6 +3537,7 @@ chaos:
   type: "BOW;BOW_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - TRIDENT
   levels:
     1:
@@ -3587,6 +3577,7 @@ convulse:
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_BOOTS
   levels:
     1:
@@ -3626,6 +3617,7 @@ chunky:
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_CHESTPLATE
   levels:
     1:
@@ -3665,6 +3657,7 @@ barbarian:
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_AXE
   levels:
     1:
@@ -3702,6 +3695,7 @@ lucid:
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -3729,6 +3723,7 @@ doublestrike:
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -3759,6 +3754,7 @@ gears:
   type: "EFFECT_STATIC"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_BOOTS
   levels:
     1:
@@ -3777,6 +3773,7 @@ inflame:
   group: "LEGENDARY"
   type: "ATTACK"
   applies:
+    - BOOK
     - "ALL_AXE"
   levels:
     1:
@@ -3804,6 +3801,7 @@ immolation:
   group: "ULTIMATE"
   type: "ATTACK_MOB"
   applies:
+    - BOOK
     - "ALL_SWORD"
   levels:
     1:
@@ -3831,6 +3829,7 @@ killaura:
   group: "LEGENDARY"
   type: "ATTACK_MOB"
   applies:
+    - BOOK
     - "ALL_SWORD"
   levels:
     1:
@@ -3870,6 +3869,7 @@ inquisitive:
   type: "KILL_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -3899,6 +3899,7 @@ lifesteal:
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -3933,6 +3934,7 @@ overload:
   type: "EFFECT_STATIC"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -3951,6 +3953,7 @@ armored:
   type: "DEFENSE"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_ARMOR
   levels:
     1:
@@ -3988,6 +3991,7 @@ blacksmith:
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_AXE
   levels:
     1:
@@ -4025,99 +4029,6 @@ blacksmith:
         - "ADD_DURABILITY:-2"
         - "HALF_DAMAGE"
         - "PARTICLE:BLOCK_DUST:20:1"
-unbreakable:
-  display: "%group-color%Unbreakable"
-  description: "Tools with this enchant become unbreakable"
-  applies-to: "Tools"
-  type: "MINING;ATTACK;ATTACK_MOB"
-  group: "FABLED"
-  applies:
-    - ALL_TOOLS
-  levels:
-    1:
-      effects:
-        - "REPAIR"
-disarmor:
-  display: "%group-color%Disarmor"
-  description: "Chance of unequipping random\narmor piece from your opponent."
-  applies-to: "Sword"
-  type: "ATTACK"
-  group: "LEGENDARY"
-  applies:
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 0.4
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    2:
-      chance: 0.8
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    3:
-      chance: 1.0
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    4:
-      chance: 1.2
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    5:
-      chance: 1.4
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    6:
-      chance: 1.6
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    7:
-      chance: 1.8
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    8:
-      chance: 2
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-striker:
-  display: "%group-color%Striker"
-  description: "Rain arrows over opponent."
-  applies-to: "Bow"
-  type: "BOW;BOW_MOB"
-  group: "ULTIMATE"
-  applies:
-    - BOW
-  levels:
-    1:
-      chance: 15
-      cooldown: 8
-      effects:
-        - "SPAWN_ARROWS %victim%"
-    2:
-      chance: 18
-      cooldown: 8
-      effects:
-        - "SPAWN_ARROWS %victim%"
-    3:
-      chance: 22
-      cooldown: 8
-      effects:
-        - "SPAWN_ARROWS %victim%"
 sniper:
   display: "%group-color%Sniper"
   description: "Headshots with bows\ndeal double damage."
@@ -4125,6 +4036,7 @@ sniper:
   type: "BOW;BOW_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - BOW
   levels:
     1:
@@ -4169,6 +4081,7 @@ deadshot:
   type: "BOW;BOW_MOB"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - TRIDENT
   levels:
     1:
@@ -4213,6 +4126,7 @@ neutralize:
   type: "BOW"
   group: "FABLED"
   applies:
+    - BOOK
     - BOW
     - CROSSBOW
   levels:
@@ -4233,6 +4147,7 @@ disarm:
   type: "ATTACK"
   group: "FABLED"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -4257,6 +4172,7 @@ phoenix:
   type: "DEATH"
   group: "FABLED"
   applies:
+    - BOOK
     - ALL_CHESTPLATE
   levels:
     1:
@@ -4281,6 +4197,7 @@ scare:
   type: "ATTACK"
   group: "FABLED"
   applies:
+    - BOOK
     - ALL_SWORD
     - ALL_AXE
   levels:
@@ -4323,6 +4240,7 @@ strife:
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
+    - BOOK
     - TRIDENT
   levels:
     1:
@@ -4349,6 +4267,7 @@ spark:
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
+    - BOOK
     - TRIDENT
   levels:
     1:
@@ -4373,6 +4292,7 @@ bluntforce:
   group: "ELITE"
   type: "ATTACK"
   applies:
+    - BOOK
     - "ALL_AXE"
   levels:
     1:
@@ -4402,6 +4322,7 @@ aegis:
   type: "FALL_DAMAGE"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_BOOTS
   levels:
     1:
@@ -4426,6 +4347,7 @@ plummet:
   type: "FALL_DAMAGE"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_BOOTS
   levels:
     1:
@@ -4446,6 +4368,7 @@ suspend:
   type: "ATTACK_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -4466,6 +4389,7 @@ nightowl:
   type: "ATTACK_MOB"
   group: "ULTIMATE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -4490,6 +4414,7 @@ nightwalker:
   type: "ATTACK_MOB"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -4514,6 +4439,7 @@ launch:
   type: "RIGHT_CLICK"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
@@ -4541,6 +4467,7 @@ slingshot:
   type: "RIGHT_CLICK"
   group: "LEGENDARY"
   applies:
+    - BOOK
     - ELYTRA
   levels:
     1:
@@ -4568,6 +4495,7 @@ magnet:
   type: "ATTACK"
   group: "ELITE"
   applies:
+    - BOOK
     - ALL_SWORD
   levels:
     1:
