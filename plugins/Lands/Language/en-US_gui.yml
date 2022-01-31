@@ -116,7 +116,7 @@ skull:
 
 physical-item:
   claim_block:
-    name: '&6Claimblock'
+    name: '&6&lClaimblock'
     lore:
     - '&fYou can claim a chunk'
     - '&fby placing this block'
@@ -128,7 +128,7 @@ physical-item:
     - '&7Use /lands help for more info.'
     material: GRASS_BLOCK
   capture_block:
-    name: '&aCapture Block'
+    name: '&6&lCapture Block'
     lore:
     - '&fPlace this block on the enemy land'
     - '&fduring war in order to capture it.'
@@ -137,7 +137,7 @@ physical-item:
     - '&7Use /lands help for more info.'
     material: BEACON
   selection:
-    name: '&6Selection Tool'
+    name: '&6&lSelection Tool'
     lore:
     - '&fUse this tool to create a selection.'
     - '&fSelections can be used for:'
@@ -149,7 +149,7 @@ physical-item:
     - '&7Use /lands help for more info.'
     material: GOLDEN_HOE
   info:
-    name: '&6Info Tool'
+    name: '&6&lInfo Tool'
     lore:
     - '&fUse this tool to get'
     - '&finformation about the claim'
@@ -159,7 +159,7 @@ physical-item:
     - '&7Use /lands help for more info.'
     material: FEATHER
   camp:
-    name: '&6Camp'
+    name: '&6&lCamp'
     lore:
     - '&fPlace this item to create a temporary'
     - '&fcamp that will be deleted after'
