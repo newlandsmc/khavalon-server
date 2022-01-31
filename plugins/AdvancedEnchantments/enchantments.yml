@@ -417,78 +417,6 @@ forcefield:
       cooldown: 13
       effects:
         - "PULL_AWAY:3.0 %victim%"
-famine:
-  display: "%group-color%Famine"
-  description: "A chance to give your opponent the hunger effect."
-  applies-to: "Weapons"
-  type: "ATTACK"
-  group: "UNIQUE"
-  applies:
-    - BOOK
-    - ALL_SWORD
-    - ALL_AXE
-  levels:
-    1:
-      chance: 12
-      cooldown: 8
-      effects:
-        - "POTION:HUNGER:0:80 %victim%"
-    2:
-      chance: 15
-      cooldown: 8
-      effects:
-        - "POTION:HUNGER:0:120 %victim%"
-    3:
-      chance: 18
-      cooldown: 8
-      effects:
-        - "POTION:HUNGER:1:80 %victim%"
-    4:
-      chance: 22
-      cooldown: 8
-      effects:
-        - "POTION:HUNGER:1:120 %victim%"
-berserk:
-  display: "%group-color%Berserk"
-  description: "Chance of strength\nand mining fatigue."
-  applies-to: "Swords, Axes"
-  type: "ATTACK;ATTACK_MOB"
-  group: "UNIQUE"
-  applies:
-    - BOOK
-    - ALL_SWORD
-    - ALL_AXE
-  levels:
-    1:
-      chance: 4
-      cooldown: 8
-      effects:
-        - "POTION:SLOW_DIGGING:0:60 %attacker%"
-        - "POTION:INCREASE_DAMAGE:0:60 %attacker%"
-    2:
-      chance: 8
-      cooldown: 7
-      effects:
-        - "POTION:SLOW_DIGGING:0:80 %attacker%"
-        - "POTION:INCREASE_DAMAGE:0:80 %attacker%"
-    3:
-      chance: 12
-      cooldown: 6
-      effects:
-        - "POTION:SLOW_DIGGING:0:100 %attacker%"
-        - "POTION:INCREASE_DAMAGE:0:100 %attacker%"
-    4:
-      chance: 16
-      cooldown: 5
-      effects:
-        - "POTION:SLOW_DIGGING:1:80 %attacker%"
-        - "POTION:INCREASE_DAMAGE:1:80 %attacker%"
-    5:
-      chance: 20
-      cooldown: 4
-      effects:
-        - "POTION:SLOW_DIGGING:1:100 %attacker%"
-        - "POTION:INCREASE_DAMAGE:1:100 %attacker%"
 reflect:
   display: "%group-color%Reflect"
   description: "Absorb enemy damage and\nreflect it back."
@@ -1033,7 +961,7 @@ snap:
       effects:
         - "PULL_CLOSER:2 %victim%"
 lucky:
-  display: "%group-color%Hook"
+  display: "%group-color%Lucky"
   description: "Chance to increase luck while fishing."
   applies-to: "Fishing Rod"
   type: "RIGHT_CLICK"
@@ -1260,18 +1188,18 @@ blind:
     - ALL_SWORD
   levels:
     1:
-      chance: 17
-      cooldown: 3
+      chance: 5
+      cooldown: 5
       effects:
         - "POTION:BLINDNESS:0:60 %victim%"
     2:
-      chance: 25
-      cooldown: 3
+      chance: 10
+      cooldown: 5
       effects:
         - "POTION:BLINDNESS:1:80 %victim%"
     3:
-      chance: 33
-      cooldown: 3
+      chance: 15
+      cooldown: 5
       effects:
         - "POTION:BLINDNESS:2:100 %victim%"
 allure:
@@ -1389,63 +1317,32 @@ poison:
       cooldown: 2
       effects:
         - "POTION:POISON:1:80 %victim%"
-virus:
-  display: "%group-color%Virus"
+venom:
+  display: "%group-color%Venom"
   description: "A chance of giving poison effect."
-  applies-to: "Bow, Crossbow, Trident"
+  applies-to: "Bow, Crossbow"
   type: "BOW_MOB"
   group: "UNIQUE"
   applies:
     - BOOK
-    - TRIDENT
     - BOW
     - CROSSBOW
   levels:
     1:
-      chance: 6
+      chance: 5
       cooldown: 2
       effects:
         - "POTION:POISON:0:80 %victim%"
     2:
-      chance: 22
+      chance: 10
       cooldown: 2
       effects:
-        - "POTION:POISON:0:120 %victim%"
+        - "POTION:POISON:0:80 %victim%"
     3:
-      chance: 35
+      chance: 15
       cooldown: 2
       effects:
         - "POTION:POISON:1:80 %victim%"
-poisoned:
-  display: "%group-color%Poisoned"
-  description: "Chance to give poison to your attacker."
-  applies-to: "Armor"
-  type: "DEFENSE;DEFENSE_MOB;DEFENSE_BOW"
-  group: "ELITE"
-  applies:
-    - BOOK
-    - ALL_ARMOR
-  levels:
-    1:
-      chance: 8
-      cooldown: 6
-      effects:
-        - "POTION:POISON:0:60 %attacker%"
-    2:
-      chance: 12
-      cooldown: 6
-      effects:
-        - "POTION:POISON:0:120 %attacker%"
-    3:
-      chance: 17
-      cooldown: 6
-      effects:
-        - "POTION:POISON:1:60 %attacker%"
-    4:
-      chance: 23
-      cooldown: 6
-      effects:
-        - "POTION:POISON:1:120 %attacker%"
 snare:
   display: "%group-color%Snare"
   description: "Chance to slow and fatigue\nenemies with projectiles."
@@ -1612,80 +1509,6 @@ perish:
       cooldown: 3
       effects:
         - "POTION:WITHER:1:100 %victim%"
-smokebomb:
-  display: "%group-color%Smoke Bomb"
-  description: "When you are near death, you\nwill spawn a smoke bomb to\ndistract your enemies."
-  applies-to: "Helmet"
-  type: "DEFENSE;DEFENSE_MOB"
-  group: "ELITE"
-  applies:
-    - BOOK
-    - ALL_HELMET
-  levels:
-    1:
-      chance: 9
-      cooldown: 2
-      condition:
-        - "%victim health% > 4 : %stop%"
-      effects:
-        - "PARTICLE:CLOUD:200:3 %victim%"
-        - "POTION:BLINDNESS:0:60 %attacker%"
-    2:
-      chance: 15
-      cooldown: 2
-      condition:
-        - "%victim health% > 4 : %stop%"
-      effects:
-        - "PARTICLE:CLOUD:200:3 %victim%"
-        - "POTION:BLINDNESS:0:60 %attacker%"
-    3:
-      chance: 23
-      cooldown: 2
-      condition:
-        - "%victim health% > 4 : %stop%"
-      effects:
-        - "PARTICLE:CLOUD:200:3 %victim%"
-        - "POTION:BLINDNESS:0:100 %attacker%"
-    4:
-      chance: 28
-      cooldown: 2
-      condition:
-        - "%victim health% > 5 : %stop%"
-      effects:
-        - "PARTICLE:CLOUD:200:3 %victim%"
-        - "POTION:BLINDNESS:0:100 %attacker%"
-    5:
-      chance: 30
-      cooldown: 2
-      condition:
-        - "%victim health% > 5 : %stop%"
-      effects:
-        - "PARTICLE:CLOUD:200:3 %victim%"
-        - "POTION:BLINDNESS:1:60 %attacker%"
-    6:
-      chance: 34
-      cooldown: 2
-      condition:
-        - "%victim health% > 5 : %stop%"
-      effects:
-        - "PARTICLE:CLOUD:200:3 %victim%"
-        - "POTION:BLINDNESS:1:100 %attacker%"
-    7:
-      chance: 36
-      cooldown: 2
-      condition:
-        - "%victim health% > 6 : %stop%"
-      effects:
-        - "PARTICLE:CLOUD:200:3 %victim%"
-        - "POTION:BLINDNESS:1:140 %attacker%"
-    8:
-      chance: 38
-      cooldown: 2
-      condition:
-        - "%victim health% > 6 : %stop%"
-      effects:
-        - "PARTICLE:CLOUD:200:3 %victim%"
-        - "POTION:BLINDNESS:2:120 %attacker%"
 infernal:
   display: "%group-color%Infernal"
   description: "Explosive fire effect."
@@ -1955,87 +1778,6 @@ patch:
       cooldown: 7
       effects:
         - "ADD_DURABILITY:-2 %victim%"
-rocketescape:
-  display: "%group-color%Rocket Escape"
-  description: "Blast off into the air at low HP."
-  applies-to: "Boots"
-  type: "DEFENSE;DEFENSE_MOB"
-  group: "ELITE"
-  applies:
-    - BOOK
-    - ALL_BOOTS
-  levels:
-    1:
-      chance: 20
-      cooldown: 8
-      condition:
-        - "%victim health% > 6 : %stop%"
-      effects:
-        - "BOOST:UP:10 %victim%"
-    2:
-      chance: 34
-      cooldown: 8
-      condition:
-        - "%victim health% > 6 : %stop%"
-      effects:
-        - "BOOST:UP:15 %victim%"
-    3:
-      chance: 40
-      cooldown: 8
-      condition:
-        - "%victim health% > 6 : %stop%"
-      effects:
-        - "BOOST:UP:20 %victim%"
-trickster:
-  display: "%group-color%Trickster"
-  description: "When hit you have a\nchance to teleport directly\nbehind you opponent."
-  applies-to: "Armor"
-  type: "DEFENSE;DEFENSE_MOB"
-  group: "ELITE"
-  applies:
-    - BOOK
-    - ALL_ARMOR
-  levels:
-    1:
-      chance: 8
-      cooldown: 5
-      effects:
-        - "TELEPORT_BEHIND %victim%"
-    2:
-      chance: 14
-      cooldown: 5
-      effects:
-        - "TELEPORT_BEHIND %victim%"
-    3:
-      chance: 17
-      cooldown: 5
-      effects:
-        - "TELEPORT_BEHIND %victim%"
-    4:
-      chance: 21
-      cooldown: 5
-      effects:
-        - "TELEPORT_BEHIND %victim%"
-    5:
-      chance: 29
-      cooldown: 5
-      effects:
-        - "TELEPORT_BEHIND %victim%"
-    6:
-      chance: 37
-      cooldown: 5
-      effects:
-        - "TELEPORT_BEHIND %victim%"
-    7:
-      chance: 46
-      cooldown: 5
-      effects:
-        - "TELEPORT_BEHIND %victim%"
-    8:
-      chance: 51
-      cooldown: 5
-      effects:
-        - "TELEPORT_BEHIND %victim%"
 timber:
   display: "%group-color%Timber"
   description: "Chance to break a tree in one hit"
@@ -2061,41 +1803,6 @@ timber:
       cooldown: 6
       effects:
         - "BREAK_TREE"
-distance:
-  display: "%group-color%Distance"
-  description: "Chance to distance yourself from your enemies\nand gain regeneration."
-  applies-to: "Weapons"
-  type: "ATTACK"
-  group: "ULTIMATE"
-  applies:
-    - BOOK
-    - ALL_SWORD
-    - ALL_AXE
-  levels:
-    1:
-      chance: 16
-      cooldown: 6
-      effects:
-        - "PULL_AWAY:3.0 %victim%"
-        - "POTION:REGENERATION:0:20 %attacker%"
-    2:
-      chance: 20
-      cooldown: 6
-      effects:
-        - "PULL_AWAY:4.5 %victim%"
-        - "POTION:REGENERATION:0:20 %attacker%"
-    3:
-      chance: 24
-      cooldown: 6
-      effects:
-        - "PULL_AWAY:5.0 %victim%"
-        - "POTION:REGENERATION:1:20 %attacker%"
-    4:
-      chance: 28
-      cooldown: 6
-      effects:
-        - "PULL_AWAY:6.5 %victim%"
-        - "POTION:REGENERATION:1:40 %attacker%"
 cleave:
   display: "%group-color%Cleave"
   description: "Damages players within a radius\nthat increases with the level of enchant."
@@ -2263,25 +1970,6 @@ arrowbreak:
       effects:
         - "STOP_ATTACK"
         - "PLAY_SOUND:ENTITY_ITEM_BREAK:2 %victim%"
-curse:
-  display: "%group-color%Curse"
-  description: "Chance to give your enemy mining fatigue."
-  applies-to: "Armor"
-  type: "DEFENSE;DEFENSE_MOB"
-  group: "ELITE"
-  applies:
-    - BOOK
-    - ALL_ARMOR
-  levels:
-    1:
-      chance: 13
-      effects:
-        - "POTION:SLOW_DIGGING:0:100 %attacker%"
-    2:
-      chance: 17
-      cooldown: 15
-      effects:
-        - "POTION:SLOW_DIGGING:1:100 %attacker%"
 exalted:
   display: "%group-color%Exalted"
   description: "A chance of removing\nbad potion effects."
@@ -2340,36 +2028,6 @@ exalted:
         - "CURE:HUNGER %attacker%"
         - "CURE:WEAKNESS %attacker%"
         - "CURE:SLOW_DIGGING %attacker%"
-ragdoll:
-  display: "%group-color%Ragdoll"
-  description: "Chance to be pushed\nback when getting hit."
-  applies-to: "Armor"
-  type: "DEFENSE;DEFENSE_MOB"
-  group: "ULTIMATE"
-  applies:
-    - BOOK
-    - ALL_ARMOR
-  levels:
-    1:
-      chance: 10
-      cooldown: 4
-      effects:
-        - "PULL_AWAY:0.1 %victim%"
-    2:
-      chance: 20
-      cooldown: 4
-      effects:
-        - "PULL_AWAY:0.2 %victim%"
-    3:
-      chance: 30
-      cooldown: 4
-      effects:
-        - "PULL_AWAY:0.3 %victim%"
-    4:
-      chance: 50
-      cooldown: 4
-      effects:
-        - "PULL_AWAY:0.4 %victim%"
 block:
   display: "%group-color%Block"
   description: "A chance to negate an attack\nand deal up to 4 damage back."
@@ -2495,34 +2153,6 @@ dodge:
       effects:
         - "STOP_ATTACK"
         - "PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 %victim%"
-fumble:
-  display: "%group-color%Fumble"
-  description: "Chance to explode enemy\nwhen hit by their arrows."
-  applies-to: "Chestplate"
-  type: "DEFENSE_BOW"
-  group: "LEGENDARY"
-  applies:
-    - BOOK
-    - ALL_CHESTPLATE
-  levels:
-    1:
-      chance: 10
-      cooldown: 8
-      effects:
-        - "TNT:1 %attacker%"
-        - "PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 %victim%"
-    2:
-      chance: 15
-      cooldown: 8
-      effects:
-        - "TNT:1 %attacker%"
-        - "PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 %victim%"
-    3:
-      chance: 25
-      cooldown: 8
-      effects:
-        - "TNT:1 %attacker%"
-        - "PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 %victim%"
 iceaspect:
   display: "%group-color%Ice Aspect"
   description: "A chance of causing the slowness\neffect on your enemy."
@@ -2835,74 +2465,6 @@ safeguard:
       cooldown: 5
       effects:
         - "POTION:DAMAGE_RESISTANCE:1:60 %victim%"
-disappear:
-  display: "%group-color%Disappear"
-  description: "Chance to become invisible when\nlow on health."
-  applies-to: "Armor"
-  type: "DEFENSE;DEFENSE_MOB"
-  group: "ULTIMATE"
-  applies:
-    - BOOK
-    - "ALL_ARMOR"
-  levels:
-    1:
-      chance: 20
-      cooldown: 20
-      condition:
-        - "%victim health% > 5 : %stop%"
-      effects:
-        - "POTION:INVISIBILITY:2:60 %victim%"
-    2:
-      chance: 23
-      cooldown: 20
-      condition:
-        - "%victim health% > 6 : %stop%"
-      effects:
-        - "POTION:INVISIBILITY:2:80 %victim%"
-    3:
-      chance: 26
-      cooldown: 20
-      condition:
-        - "%victim health% > 7 : %stop%"
-      effects:
-        - "POTION:INVISIBILITY:2:100 %victim%"
-    4:
-      chance: 30
-      cooldown: 20
-      condition:
-        - "%victim health% > 8 : %stop%"
-      effects:
-        - "POTION:INVISIBILITY:2:120 %victim%"
-confuse:
-  display: "%group-color%Confuse"
-  description: "Chance to give nausea effect."
-  applies-to: "Swords"
-  type: "ATTACK"
-  group: "ULTIMATE"
-  applies:
-    - BOOK
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 12
-      cooldown: 6
-      effects:
-        - "POTION:CONFUSION:0:60"
-    2:
-      chance: 14
-      cooldown: 7
-      effects:
-        - "POTION:CONFUSION:1:60"
-    3:
-      chance: 16
-      cooldown: 8
-      effects:
-        - "POTION:CONFUSION:2:60"
-    4:
-      chance: 18
-      cooldown: 8
-      effects:
-        - "POTION:CONFUSION:3:60"
 disintegrate:
   display: "%group-color%Disintegrate"
   description: "Chance to deal extra durability damage to\nall enemy armor with every attack."
@@ -3400,15 +2962,15 @@ lavawalker:
     1:
       effects:
         - "LAVA_WALKER"
-aqua:
-  display: "%group-color%Aqua"
+torrent:
+  display: "%group-color%Torrent"
   description: "Deal double damage while in water."
-  applies-to: "Boots"
+  applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
   applies:
     - BOOK
-    - ALL_BOOTS
+    - ALL_SWORDS
   levels:
     1:
       chance: 8
@@ -3598,86 +3160,6 @@ chaos:
       effects:
         - "POTION:WITHER:1:60 %victim%"
         - "POTION:WEAKNESS:0:100 %victim%"
-convulse:
-  display: "%group-color%Convulse"
-  description: "Chance to throw your\nattackers into the air."
-  applies-to: "Boots"
-  type: "DEFENSE;DEFENSE_MOB"
-  group: "LEGENDARY"
-  applies:
-    - BOOK
-    - ALL_BOOTS
-  levels:
-    1:
-      chance: 8
-      cooldown: 10
-      effects:
-        - "BOOST:UP:5 %attacker%"
-    2:
-      chance: 10
-      cooldown: 10
-      effects:
-        - "BOOST:UP:6 %attacker%"
-    3:
-      chance: 12
-      cooldown: 10
-      effects:
-        - "BOOST:UP:7 %attacker%"
-    4:
-      chance: 14
-      cooldown: 10
-      effects:
-        - "BOOST:UP:8 %attacker%"
-    5:
-      chance: 16
-      cooldown: 10
-      effects:
-        - "BOOST:UP:9 %attacker%"
-    6:
-      chance: 18
-      cooldown: 10
-      effects:
-        - "BOOST:UP:10 %attacker%"
-chunky:
-  display: "%group-color%Chunky"
-  description: "Chance to receive less damage."
-  applies-to: "Chestplates"
-  type: "DEFENSE;DEFENSE_MOB"
-  group: "LEGENDARY"
-  applies:
-    - BOOK
-    - ALL_CHESTPLATE
-  levels:
-    1:
-      chance: 5
-      cooldown: 10
-      effects:
-        - "NEGATE_DAMAGE:10 %victim%"
-    2:
-      chance: 10
-      cooldown: 10
-      effects:
-        - "NEGATE_DAMAGE:20 %victim%"
-    3:
-      chance: 12
-      cooldown: 10
-      effects:
-        - "NEGATE_DAMAGE:30 %victim%"
-    4:
-      chance: 15
-      cooldown: 10
-      effects:
-        - "NEGATE_DAMAGE:40 %victim%"
-    5:
-      chance: 18
-      cooldown: 10
-      effects:
-        - "NEGATE_DAMAGE:50 %victim%"
-    6:
-      chance: 20
-      cooldown: 10
-      effects:
-        - "NEGATE_DAMAGE:60 %victim%"
 barbarian:
   display: "%group-color%Barbarian"
   description: "Chance to inflicts more axe damage."
@@ -3716,34 +3198,6 @@ barbarian:
         - "%attacker is holding% contains AXE : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>25-100</random number> %victim%"
-lucid:
-  display: "%group-color%Lucid"
-  description: "Chance to cure blindness and\ngain night vision when hit."
-  applies-to: "Armor"
-  type: "DEFENSE;DEFENSE_MOB"
-  group: "LEGENDARY"
-  applies:
-    - BOOK
-    - ALL_ARMOR
-  levels:
-    1:
-      chance: 22
-      cooldown: 5
-      effects:
-        - "CURE:BLINDNESS %victim%"
-        - "POTION:NIGHT_VISION:0:40 %victim%"
-    2:
-      chance: 32
-      cooldown: 5
-      effects:
-        - "CURE:BLINDNESS %victim%"
-        - "POTION:NIGHT_VISION:0:60 %victim%"
-    3:
-      chance: 42
-      cooldown: 5
-      effects:
-        - "CURE:BLINDNESS %victim%"
-        - "POTION:NIGHT_VISION:0:80 %victim%"
 doublestrike:
   display: "%group-color%Double Strike"
   description: "A chance to strike twice."
@@ -3955,25 +3409,6 @@ lifesteal:
       cooldown: 15
       effects:
         - "STEAL_HEALTH:<random number>1-5</random number> %attacker%"
-overload:
-  display: "%group-color%Overload"
-  description: "Unlocks additional hearts."
-  applies-to: "Armor"
-  type: "EFFECT_STATIC"
-  group: "LEGENDARY"
-  applies:
-    - BOOK
-    - ALL_ARMOR
-  levels:
-    1:
-      effects:
-        - "POTION:HEALTH_BOOST:0"
-    2:
-      effects:
-        - "POTION:HEALTH_BOOST:1"
-    3:
-      effects:
-        - "POTION:HEALTH_BOOST:2"
 armored:
   display: "%group-color%Armored"
   description: "Decreases damage from enemy\nswords by 2% per level."
@@ -4302,31 +3737,6 @@ bluntforce:
       cooldown: 5
       effects:
         - "EXTRA_DAMAGE:4 %attacker%"
-aegis:
-  display: "%group-color%Aegis"
-  description: "Chance to gain speed when taking fall damage."
-  applies-to: "Boots"
-  type: "FALL_DAMAGE"
-  group: "ULTIMATE"
-  applies:
-    - BOOK
-    - ALL_BOOTS
-  levels:
-    1:
-      chance: 40
-      cooldown: 3
-      effects:
-        - "POTION:SPEED:0:60"
-    2:
-      chance: 60
-      cooldown: 3
-      effects:
-        - "POTION:SPEED:1:60"
-    3:
-      chance: 70
-      cooldown: 3
-      effects:
-        - "POTION:SPEED:2:60"
 plummet:
   display: "%group-color%Plummet"
   description: "Deal damage to nearby mobs\nwhen taking fall damage."
@@ -4348,27 +3758,6 @@ plummet:
     3:
       effects:
         - "ADD_HARM:5 <aoe> radius=8 target=mobs </aoe>"
-suspend:
-  display: "%group-color%Suspend"
-  description: "Chance to cause no knockback to mobs."
-  applies-to: "Swords"
-  type: "ATTACK_MOB"
-  group: "ELITE"
-  applies:
-    - BOOK
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 40
-      effects:
-        - "STOP_KNOCKBACK %victim%"
-    2:
-      chance: 80
-      effects:
-        - "STOP_KNOCKBACK %victim%"
-    3:
-      effects:
-        - "STOP_KNOCKBACK %victim%"
 nightowl:
   display: "%group-color%Night Owl"
   description: "Deal more damage to mobs at night."
@@ -4394,31 +3783,6 @@ nightowl:
       condition: "%time% > 12300 or %time% < 23850 : %allow%"
       effects:
         - "INCREASE_DAMAGE:45"
-nightwalker:
-  display: "%group-color%Nightwalker"
-  description: "Freeze mobs at night."
-  applies-to: "Swords"
-  type: "ATTACK_MOB"
-  group: "ELITE"
-  applies:
-    - BOOK
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 40
-      condition: "%is night% = true : %allow%"
-      effects:
-        - "POTION:SLOW:10:400 %victim%"
-    2:
-      chance: 70
-      condition: "%is night% = true : %allow%"
-      effects:
-        - "POTION:SLOW:10:400 %victim%"
-    3:
-      chance: 100
-      condition: "%is night% = true : %allow%"
-      effects:
-        - "POTION:SLOW:10:400 %victim%"
 launch:
   display: "%group-color%Launch"
   description: "Launch yourself by right-clicking."
