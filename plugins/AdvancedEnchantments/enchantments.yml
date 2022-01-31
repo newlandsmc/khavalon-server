@@ -316,6 +316,11 @@ hasten:
   applies-to: "Tools"
   type: "MINING"
   group: "SIMPLE"
+  settings:
+    not-applyable-with:
+      - "haste"
+      - "trench"
+      - "veinminer"
   applies:
     - BOOK
     - ALL_PICKAXE
@@ -343,6 +348,11 @@ haste:
   applies-to: "Tools"
   type: "HELD"
   group: "FABLED"
+  settings:
+    not-applyable-with:
+      - "hasten"
+      - "trench"
+      - "veinminer"
   applies:
     - BOOK
     - ALL_PICKAXE
@@ -550,32 +560,6 @@ explosive:
       cooldown: 9
       effects:
         - "TNT %victim%"
-featherweight:
-  display: "%group-color%Featherweight"
-  description: "Chance to get a burst of haste."
-  applies-to: "Swords, Axes"
-  type: "ATTACK;ATTACK_MOB"
-  group: "UNIQUE"
-  applies:
-    - BOOK
-    - ALL_SWORD
-    - ALL_AXE
-  levels:
-    1:
-      chance: 35
-      cooldown: 2
-      effects:
-        - "POTION:FAST_DIGGING:0:60"
-    2:
-      chance: 55
-      cooldown: 2
-      effects:
-        - "POTION:FAST_DIGGING:1:80"
-    3:
-      chance: 75
-      cooldown: 2
-      effects:
-        - "POTION:FAST_DIGGING:2:100"
 ravenous:
   display: "%group-color%Ravenous"
   description: "Chance to regain hunger\nwhile fighting."
@@ -613,6 +597,11 @@ veinminer:
   applies-to: "Pickaxes"
   group: "ELITE"
   type: "MINING"
+  settings:
+    not-applyable-with:
+      - "hasten"
+      - "haste"
+      - "trench"
   applies:
     - BOOK
     - ALL_PICKAXE
@@ -907,18 +896,12 @@ snap:
     - FISHING_ROD
   levels:
     1:
-      chance: 15
-      cooldown: 4
       effects:
         - "PULL_CLOSER:1 %victim%"
     2:
-      chance: 25
-      cooldown: 6
       effects:
         - "PULL_CLOSER:1.5 %victim%"
     3:
-      chance: 35
-      cooldown: 8
       effects:
         - "PULL_CLOSER:2 %victim%"
 lucky:
@@ -1770,6 +1753,11 @@ trench:
   applies-to: "Pickaxes, Shovels"
   type: "MINING"
   group: "ULTIMATE"
+  settings:
+    not-applyable-with:
+      - "hasten"
+      - "haste"
+      - "veinminer"
   applies:
     - BOOK
     - ALL_PICKAXE
@@ -3509,24 +3497,18 @@ endershift:
     - ALL_BOOTS
   levels:
     1:
-      chance: 16
-      cooldown: 6
       condition:
         - "%victim health% > 6 : %stop%"
       effects:
-        - 'POTION:SPEED:1:120 %victim%'
-        - 'POTION:ABSORPTION:0:80 %victim%'
+        - 'POTION:SPEED:1:40 %victim%'
+        - 'POTION:ABSORPTION:0:20 %victim%'
     2:
-      chance: 17
-      cooldown: 8
       condition:
         - "%victim health% > 6 : %stop%"
       effects:
-        - 'POTION:SPEED:1:120 %victim%'
-        - 'POTION:ABSORPTION:1:80 %victim%'
+        - 'POTION:SPEED:1:60 %victim%'
+        - 'POTION:ABSORPTION:1:40 %victim%'
     3:
-      chance: 18
-      cooldown: 12
       condition:
         - "%victim health% > 6 : %stop%"
       effects:

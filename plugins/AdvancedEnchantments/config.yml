@@ -198,6 +198,8 @@ slots:
   # Should it be displayed in lore?
   display-in-lore: false
   display: '&eItem Slots&7: %left%'
+  message:
+  - '&cYou cannot apply that enchantment! There are no free slots left!'
 
 applying:
   cosmetics:
@@ -292,7 +294,6 @@ items:
     type: PAPER
     id: 0
     custom-model-data: 0
-    name: '&f&lRandomization Scroll'
     name: '%group-color%%group-name%&l%group-color% Randomization Scroll'
     lore:
     - '&fApply to any %group-color%%group-name% Enchantment Book'
