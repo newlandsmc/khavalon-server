@@ -79,6 +79,34 @@
 #    disable-in-enchanter: true # Players can no longer obtain enchantment from Enchanter
 #    disabled-worlds: # List worlds in which enchantment will not work (cAsE sEnSiTiVe)
 #      - "My_World"
+replanter:
+  display: "%group-color%Replanter"
+  description: "Replants crops when you break them."
+  applies-to: "Hoes"
+  type: "MINING"
+  group: "UNIQUE"
+  applies:
+    - ALL_HOE
+  levels:
+    1:
+      condition:
+        - "%is crop% = false : %stop%"
+        - "%is fully grown% = false : %stop%"
+      effects:
+        - "PLANT_SEEDS:0:%block drop type%"
+loyal:
+  display: "%group-color%Loyal"
+  description: "Finally a hoe that's loyal."
+  applies-to: "Hoes"
+  type: "MINING"
+  group: "FABLED"
+  applies:
+    - ALL_HOE
+  levels:
+    1:
+      chance: 100
+      effects:
+        - "KEEP_ON_DEATH"
 strike:
   display: "%group-color%Strike"
   description: "Chance to strike lightning\nat the opponent."
@@ -4190,47 +4218,6 @@ phoenix:
       cooldown: 20
       effects:
         - "REVIVE %victim%"
-scare:
-  display: "%group-color%Scare"
-  description: "Chance to replace your opponents helmet\nto a pumpkin for a short time."
-  applies-to: "Weapons"
-  type: "ATTACK"
-  group: "FABLED"
-  applies:
-    - BOOK
-    - ALL_SWORD
-    - ALL_AXE
-  levels:
-    1:
-      chance: 1.8
-      cooldown: 20
-      effects:
-        - "PUMPKIN:40 %victim%"
-        - "PLAY_SOUND_OUTLOUD:BLOCK_ANVIL_LAND"
-    2:
-      chance: 3.6
-      cooldown: 20
-      effects:
-        - "PUMPKIN:40 %victim%"
-        - "PLAY_SOUND_OUTLOUD:BLOCK_ANVIL_LAND"
-    3:
-      chance: 4.4
-      cooldown: 20
-      effects:
-        - "PUMPKIN:60 %victim%"
-        - "PLAY_SOUND_OUTLOUD:BLOCK_ANVIL_LAND"
-    4:
-      chance: 5.2
-      cooldown: 20
-      effects:
-        - "PUMPKIN:60 %victim%"
-        - "PLAY_SOUND_OUTLOUD:BLOCK_ANVIL_LAND"
-    5:
-      chance: 6
-      cooldown: 20
-      effects:
-        - "PUMPKIN:80 %victim%"
-        - "PLAY_SOUND_OUTLOUD:BLOCK_ANVIL_LAND"
 strife:
   display: "%group-color%Strife"
   description: "Increases Trident melee damage."
