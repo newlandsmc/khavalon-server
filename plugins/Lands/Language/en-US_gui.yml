@@ -116,60 +116,60 @@ skull:
 
 physical-item:
   claim_block:
-    name: '&6&lClaimblock'
+    name: '&6Claimblock'
     lore:
-    - '&fYou can claim a chunk'
-    - '&fby placing this block'
-    - '&fin the wilderness.'
+    - '&7You can claim a chunk'
+    - '&7by placing this block'
+    - '&7in the wilderness.'
     - ''
-    - '&7Owner: {owner}'
+    - '&8Owner: {owner}'
     - ''
-    - '&7This is a land claiming tool!'
-    - '&7Use /lands help for more info.'
+    - '&8This is a land claiming tool!'
+    - '&8Use /lands help for more info.'
     material: GRASS_BLOCK
   capture_block:
-    name: '&6&lCapture Block'
+    name: '&6Capture Block'
     lore:
-    - '&fPlace this block on the enemy land'
-    - '&fduring war in order to capture it.'
+    - '&7Place this block on the enemy land'
+    - '&7during war in order to capture it.'
     - ''
-    - '&7This is a land claiming tool!'
-    - '&7Use /lands help for more info.'
+    - '&8This is a land claiming tool!'
+    - '&8Use /lands help for more info.'
     material: BEACON
   selection:
-    name: '&6&lSelection Tool'
+    name: '&6Selection Tool'
     lore:
-    - '&fUse this tool to create a selection.'
-    - '&fSelections can be used for:'
-    - ' &f- &7/claim'
-    - ' &f- &7/unclaim'
-    - ' &f- &7/assign'
+    - '&7Use this tool to create a selection.'
+    - '&7Selections can be used for:'
+    - ' &7- &7/claim'
+    - ' &7- &7/unclaim'
+    - ' &7- &7/assign'
     - ''
-    - '&7This is a land claiming tool!'
-    - '&7Use /lands help for more info.'
+    - '&8This is a land claiming tool!'
+    - '&8Use /lands help for more info.'
     material: GOLDEN_HOE
   info:
-    name: '&6&lInfo Tool'
+    name: '&6Info Tool'
     lore:
-    - '&fUse this tool to get'
-    - '&finformation about the claim'
-    - '&fyou''re pointing at.'
+    - '&7Use this tool to get'
+    - '&7information about the claim'
+    - '&7you''re pointing at.'
     - ''
-    - '&7This is a land claiming tool!'
-    - '&7Use /lands help for more info.'
+    - '&8This is a land claiming tool!'
+    - '&8Use /lands help for more info.'
     material: FEATHER
   camp:
-    name: '&6&lCamp'
+    name: '&6Camp'
     lore:
-    - '&fPlace this item to create a temporary'
-    - '&fcamp that will be deleted after'
-    - '&c{time}&f.'
+    - '&7Place this item to create a temporary'
+    - '&7camp that will be deleted after'
+    - '&c{time}&7.'
     - ''
-    - '&7Radius: {radius} chunk(s)'
-    - '&7Camps can''t be expanded.'
+    - '&8Radius: {radius} chunk(s)'
+    - '&8Camps can''t be expanded.'
     - ''
-    - '&7This is a land claiming tool!'
-    - '&7Use /lands help for more info.'
+    - '&8This is a land claiming tool!'
+    - '&8Use /lands help for more info.'
     material: CAMPFIRE
   currency:
     name: ''

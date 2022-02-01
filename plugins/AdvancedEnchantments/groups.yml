@@ -14,7 +14,7 @@ settings:
   fallback-group: SIMPLE
 groups:
   SIMPLE:
-    global-color: "&7"
+    global-color: "&f"
     group-name: "Simple"
     # Use this to change the type of item per group
     item:
@@ -72,7 +72,7 @@ groups:
       # Chance to give Magic dust instead of Mystery dust
       chance: 22
   ULTIMATE:
-    global-color: "&e"
+    global-color: "&d"
     group-name: "Ultimate"
     item:
       type: FIREWORK_CHARGE
@@ -110,7 +110,7 @@ groups:
       # Chance to give Magic dust instead of Mystery dust
       chance: 22
   FABLED:
-    global-color: "&d"
+    global-color: "&e"
     group-name: "Fabled"
     item:
       type: FIREWORK_CHARGE

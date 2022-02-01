@@ -18,9 +18,7 @@ randomLoot:
   # ITEM_NAME: Chance (0 to 100)
   chances:
     SLOT_INCREASER: 5
-    WHITE_SCROLL: 15
     BLACK_SCROLL: 7
-    RANDOMIZER: 10
     BLOCKTRAK: 4
     STATTRAK: 4
     MOBTRAK: 4
@@ -46,9 +44,7 @@ villagerTrades:
   # ITEM_NAME: Chance (0 to 100)
   chances:
     SLOT_INCREASER: 5
-    WHITE_SCROLL: 15
     BLACK_SCROLL: 7
-    RANDOMIZER: 10
     BLOCKTRAK: 4
     STATTRAK: 4
     MOBTRAK: 4
