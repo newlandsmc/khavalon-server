@@ -1,13 +1,5 @@
-+ Added: Russian language (ru-RU) by @_sil3nce
-- Fixed: Able to create a nation with a camp as the capital
-- Fixed: Camps limit failing due invalid comp check
-- Fixed: [#1643] Error trying to disable war_info menu item, that does not exist
-- Fixed: [#1644] Able to move selection toll when selection is active
-    It will now disable the selection mode, if you move the tool
-- Fixed: Missing eco format for next chunk cost papi placeholder
-- Fixed: Missing eco format for upcoming upkeep payments
-- Fixed: [#1646] Missing message: merge.nation
-
---> Language file (en-US.yml): 
-+ Message: command.merge.nation
-+ Message: nations.command.create.camp
++ Added: [Suggestions] Able to register custom squaremap spawn icon
+    Please see your config on how to do that.
++ Changed: Jukebox is now under the interact_container flag
+- Fixed: Flower pot protection
+- Fixed: [#1652] Rent signs or holograms not getting removed on land deletion

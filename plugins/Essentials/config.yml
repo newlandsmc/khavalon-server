@@ -175,6 +175,7 @@ disabled-commands:
   - mute
   - unmute
   - tempban
+  - nickname
 
 # Whether or not Essentials should show detailed command usages.
 # If set to false, Essentials will collapse all usages in to one single usage message.
@@ -184,8 +185,7 @@ verbose-command-usages: false
 # You can add commands from other plugins you may want to track or
 # remove commands that are used for something you dont want to spy on.
 # Set - '*' in order to listen on all possible commands.
-socialspy-commands:
-  - '*'
+socialspy-commands: []
 
 # Whether the private and public messages from muted players should appear in the social spy.
 # If so, they will be differentiated from those sent by normal players.
@@ -193,7 +193,7 @@ socialspy-listen-muted-players: false
 
 # Whether social spy should spy on private messages or just the commands from the list above.
 # If false, social spy will only monitor commands from the list above.
-socialspy-messages: true
+socialspy-messages: false
 
 # The following settings listen for when a player changes worlds.
 # If you use another plugin to control speed and flight, you should change these to false.
@@ -670,7 +670,7 @@ sethome-multiple:
 #
 # Leaving this as false will retain Essentials' original behaviour, which is to always
 # change the compass' direction to point towards their first home.
-compass-towards-home-perm: true
+compass-towards-home-perm: false
 
 # If no home is set, would you like to send the player to spawn?
 # If set to false, players will not be teleported when they run /home without setting a home first.

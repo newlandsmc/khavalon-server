@@ -35,12 +35,12 @@ items:
     commands:
       - 'info vote'
   3:
-    material: 'CAMPFIRE'
-    name: '&aWebsite'
+    material: 'ENCHANTED_BOOK'
+    name: '&aHelp'
     lore:
-      - '&fClick to open the website'
+      - '&fClick to open the help book'
     commands:
-      - 'info website'
+      - 'info help'
   4:
     material: 'AMETHYST_SHARD'
     name: '&aDiscord'
@@ -56,12 +56,12 @@ items:
     commands:
       - 'info rules'
   6:
-    material: 'BOOK'
-    name: '&aHelp'
+    material: 'CAMPFIRE'
+    name: '&aWebsite'
     lore:
-      - '&fClick to open the help book'
+      - '&fClick to open the website'
     commands:
-      - 'info help'
+      - 'info website'
 links:
   store: 'https://store.semivanilla.com/'
   map: 'https://semivanilla.com/map'

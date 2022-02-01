@@ -131,9 +131,9 @@ land:
     color_2: false
     # Should numbers be allowed in land names?
     numbers: true
-    # Claim a radius of chunks at land creation.
-    # These initial claims won't cost the land anything.
-    # 0 = only the chunk in which the player currently stands.
+    # Claim a radius of chunks at land creation. These initial claims won't cost the land anything.
+    # NOTE: 0 = only the chunk in which the player currently stands.
+    # NOTE: This value can't be higher than your servers view distance.
     claim-radius: 0
 
   # Set the minimum distance in chunks (16 blocks) between different lands that do not belong to the same owner.
@@ -827,7 +827,8 @@ integration:
     # You can disable this by setting icon to ''
     spawn:
       # Set the icon
-      # NOTE: For BlueMap this needs to be a direct image web address. Recommended imgage size: 32 x 32 pixels
+      # NOTE: For BlueMap and squaremap this needs to be a direct image address. Recommended imgage size: 32 x 32 pixels
+      #       Example: FOLDER_PATH\spawn.png
       icon: greenflag
       # Set minimum zoom. The icon won't display, if the zoom in your browser is smaller (mousewheel).
       # NOTE: Recommended value for BlueMap, squaremap: 126

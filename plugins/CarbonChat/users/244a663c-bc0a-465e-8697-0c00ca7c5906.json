@@ -1,0 +1,48 @@
+{
+  "muted": false,
+  "deafened": false,
+  "username": "sudokou",
+  "uuid": "244a663c-bc0a-465e-8697-0c00ca7c5906",
+  "displayName": {
+    "color": "#006f90",
+    "extra": [
+      {
+        "color": "#2b84a2",
+        "extra": [
+          {
+            "color": "#469ab4",
+            "extra": [
+              {
+                "color": "#5fb1c7",
+                "extra": [
+                  {
+                    "color": "#78c7d9",
+                    "extra": [
+                      {
+                        "color": "#91dfec",
+                        "extra": [
+                          {
+                            "color": "#abf6ff",
+                            "text": "u"
+                          }
+                        ],
+                        "text": "o"
+                      }
+                    ],
+                    "text": "k"
+                  }
+                ],
+                "text": "o"
+              }
+            ],
+            "text": "d"
+          }
+        ],
+        "text": "u"
+      }
+    ],
+    "text": "S"
+  },
+  "spying": false,
+  "ignoredPlayers": []
+}
