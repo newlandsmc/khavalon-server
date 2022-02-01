@@ -22,6 +22,8 @@
 /plugins/Citizens/saves.yml
 /plugins/Lands/Data/
 /plugins/Geyser-Spigot/cache/
+/plugins/CarbonChat/users/
+/plugins/BetterCommandSpy/data.yml
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/
