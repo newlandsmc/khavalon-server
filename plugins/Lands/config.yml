@@ -235,7 +235,7 @@ land:
   # Settings for /lands chat
   chat:
     # Should /lands chat messages be forwarded to console?
-    forward: false
+    forward: true
     # Should global chat be muted for a player if they have /lands chat toggle enabled?
     # NOTE: This setting required server reload / restart.
     mute-global: false
@@ -303,7 +303,7 @@ land:
     tag-time: 0s
     # Should players, which are members in a common land, be able to fight in wilderness?
     # NOTE: This option requires server restart / reload.
-    ally-wilderness: true
+    ally-wilderness: false
     # Block village raids if the initiator is not allowed to attack players in the claim?
     block-raids: true
 
