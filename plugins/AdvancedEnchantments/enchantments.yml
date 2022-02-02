@@ -3558,8 +3558,8 @@ impale:
       effects:
         - 'DOUBLE_DAMAGE'
         - 'POTION:SLOW:4:80 %victim%'
-protection:
-  display: '%group-color%Protection'
+guardian:
+  display: '%group-color%Guardian'
   description: "Automatically heals and cures\nall nearby allies."
   applies-to: 'Armor'
   type: 'DEFENSE'
