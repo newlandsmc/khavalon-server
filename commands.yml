@@ -19,8 +19,6 @@ aliases:
   - espawnmob $1-
   mute:
   - tempmute $1-
-  spawn:
-  - lands spawn
   info:
   - helpplugin:info $1-
   socialspy:

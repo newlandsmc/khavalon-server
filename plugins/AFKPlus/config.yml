@@ -16,7 +16,7 @@ Commands:
 #When the server hits this limit the players who have been AFK longer than the normal action time will be kicked
 #Its also recommended that you edit the warning message to tell players that they will be kicked when the server reaches x players
 #Setting to 0 means that players will always be acted upon when they reach their time to action
-ActionPlayerRequirement: 0
+ActionPlayerRequirement: 15
 
 #The sound to be played when a player is warned
 #Set to blank if you don't want a sound e.g. ""
@@ -52,7 +52,7 @@ EnabledDetections:
 #Movement magnitude means that players need to move or look a certain distance before they will be marked as not AFK
 MovementMagnitude:
   #Should the movement magnitude system be enabled
-  Enabled: false
+  Enabled: true
   #How far does the player need to move every second to be counted as moving
   PositionTrigger: 1.0
   #What angle does the player need to look every second to be counted as looking
@@ -130,7 +130,7 @@ Permissions:
     AFKOthers: 1
     #How many seconds of inactivity are required before they will automatically be set as AFK
     #Set to -1 if the player shouldn't be automatically placed in AFK
-    TimeToAFK: 300
+    TimeToAFK: -1
     #How many seconds of AFK are required before the player is warned about action being taken
     #Set to -1 to disable warnings for this permission
     TimeToWarning: -1

@@ -282,7 +282,7 @@ sources:
     tool_per_level: 2
     book_per_level: 2
   sorcery:
-    mana_ability_use: 0.5
+    mana_ability_use: 1
   healing:
     drink_regular: 10
     drink_extended: 15

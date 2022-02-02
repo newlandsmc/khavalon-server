@@ -3,7 +3,7 @@ enabled: true
 
 # Chance of getting custom enchantments when
 # enchanting with enchantment table.
-chance: 45 # Value: 1 to 100 %
+chance: 30 # Value: 1 to 100 %
 
 # Chances for each group to become available in enchant table (only if 'chance' value activates)
 # Only listed groups here will be available in enchant table

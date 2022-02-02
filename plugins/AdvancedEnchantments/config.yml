@@ -709,6 +709,7 @@ enchantment-book:
   lore:
   - '%group-color%%enchant-no-color% %level%'
   - '&8%description%'
+  - '&8Applies to: %applies%'
 
 applies-groups:
   MISC_HELMETS:
