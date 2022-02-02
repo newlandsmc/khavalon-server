@@ -421,7 +421,7 @@ items:
       keep-after-death: false
   # Orbs allow applying x number of enchants
   orb:
-    lore: '&8%max% Enchantment Slots &8(Orb [+%increased%])'
+    lore: '&8%max% Enchantment Slots &8(Orb +%increased%)'
     weapon:
       material: EYE_OF_ENDER
       custom-model-data: 0

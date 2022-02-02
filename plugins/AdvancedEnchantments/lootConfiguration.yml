@@ -17,7 +17,6 @@ randomLoot:
   # Chances format:
   # ITEM_NAME: Chance (0 to 100)
   chances:
-    SLOT_INCREASER: 10
     BLACK_SCROLL: 14
     BLOCKTRAK: 8
     STATTRAK: 8
@@ -43,7 +42,6 @@ villagerTrades:
   # Chances format:
   # ITEM_NAME: Chance (0 to 100)
   chances:
-    SLOT_INCREASER: 10
     BLACK_SCROLL: 14
     BLOCKTRAK: 8
     STATTRAK: 8
