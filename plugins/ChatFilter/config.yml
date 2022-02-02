@@ -68,7 +68,7 @@ settings:
   allowURL: false
   
   # #Colour we use to highlight the matched swear.
-  swearHighLight: '&c'
+  swearHighLight: ''
   
   # #Cancel the players chat message when the filter catches a message?
   cancelChat: true

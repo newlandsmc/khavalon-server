@@ -681,18 +681,49 @@ bonecrusher:
         - "%mob type% = SKELETON : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+sheepslayer:
+  display: "%group-color%Sheep Slayer"
+  description: "Increases damage dealt to Passive Mobs."
+  applies-to: "Sword"
+  type: "ATTACK_MOB"
+  group: "UNIQUE"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      chance: 25
+      cooldown: 2
+      condition:
+        - "%is hostile% = false : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    2:
+      chance: 50
+      cooldown: 2
+      condition:
+        - "%is hostile% = false : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    3:
+      chance: 75
+      condition:
+        - "%is hostile% = false : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    4:
+      condition:
+        - "%is hostile% = false : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
 hunter:
   display: "%group-color%Hunter"
   description: "Increases damage dealt to Passive Mobs."
-  applies-to: "Swords, Axes, Bow, Crossbow, Trident"
+  applies-to: "Bow, Crossbow"
   type: "BOW_MOB"
   group: "UNIQUE"
   applies:
-    - TRIDENT
     - BOW
     - CROSSBOW
-    - ALL_SWORD
-    - ALL_AXE
   levels:
     1:
       chance: 25
@@ -722,17 +753,52 @@ hunter:
 beastslayer:
   display: "%group-color%Beastslayer"
   description: "Increases damage dealt to Hostile Mobs."
-  applies-to: "Swords, Axes, Bow, Crossbow, Trident"
+  applies-to: "Swords, Axes, Trident"
   type: "ATTACK_MOB"
   group: "LEGENDARY"
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
     - TRIDENT
-    - BOW
-    - CROSSBOW
     - ALL_SWORD
     - ALL_AXE
+  levels:
+    1:
+      chance: 25
+      cooldown: 2
+      condition:
+        - "%is hostile% = true : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    2:
+      chance: 50
+      cooldown: 2
+      condition:
+        - "%is hostile% = true : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    3:
+      chance: 75
+      condition:
+        - "%is hostile% = true : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+    4:
+      condition:
+        - "%is hostile% = true : %allow%"
+      effects:
+        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
+beasthunter:
+  display: "%group-color%Beasthunter"
+  description: "Increases damage dealt to Hostile Mobs."
+  applies-to: "Bow, Crossbow"
+  type: "BOW_MOB"
+  group: "LEGENDARY"
+  settings:
+    newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
+  applies:
+    - BOW
+    - CROSSBOW
   levels:
     1:
       chance: 25
@@ -1365,11 +1431,10 @@ greatsword:
 bowmaster:
   display: "%group-color%Bowmaster"
   description: "Multiplies damage against players who are\nwielding a Sword at the time they are hit."
-  applies-to: "Bow, Crossbow, Trident"
+  applies-to: "Bow, Crossbow"
   type: "BOW"
   group: "ELITE"
   applies:
-    - TRIDENT
     - BOW
     - CROSSBOW
   levels:
@@ -2226,13 +2291,75 @@ creeperarmor:
 bleed:
   display: "%group-color%Bleed"
   description: "Chance to make your opponent bleed."
-  applies-to: "Axes, Swords, Bows, Crossbows, Tridents"
+  applies-to: "Axes, Swords, Tridents"
   type: "ATTACK;ATTACK_MOB"
   group: "ULTIMATE"
   applies:
     - ALL_AXE
     - ALL_SWORD
     - TRIDENT
+  levels:
+    1:
+      chance: 8
+      effects:
+        - "POTION:SLOW:0:100 %victim%"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+    2:
+      chance: 15
+      effects:
+        - "POTION:SLOW:0:100 %victim%"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+    3:
+      chance: 23
+      effects:
+        - "POTION:SLOW:0:100 %victim%"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+    4:
+      chance: 30
+      effects:
+        - "POTION:SLOW:0:100 %victim%"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+    5:
+      chance: 44
+      effects:
+        - "POTION:SLOW:0:100 %victim%"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+    6:
+      chance: 60
+      effects:
+        - "POTION:SLOW:0:100 %victim%"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+        - "WAIT:20"
+        - "ADD_HARM:<random number>1-3</random number> %victim%"
+wound:
+  display: "%group-color%Wound"
+  description: "Chance to make your opponent bleed."
+  applies-to: "Bows, Crossbows"
+  type: "BOW;BOW_MOB"
+  group: "ULTIMATE"
+  applies:
     - BOW
     - CROSSBOW
   levels:
@@ -3365,7 +3492,7 @@ enderwalker:
 eagleeye:
   display: '%group-color%Eagle Eye'
   description: "Chance to deal 1-4 durability damage to\nALL armor pieces of enemy player."
-  applies-to: 'Bow'
+  applies-to: 'Bow, Crossbow'
   type: 'BOW'
   group: 'ULTIMATE'
   applies:
@@ -3400,7 +3527,7 @@ eagleeye:
 unfocus:
   display: '%group-color%Unfocus'
   description: "Chance to Unfocus target player,\nreducing their out going bow damage\nby 50% for up to 10 seconds."
-  applies-to: 'Bow'
+  applies-to: 'Bow, Crossbow'
   type: 'BOW'
   group: 'ULTIMATE'
   applies:
@@ -3480,7 +3607,7 @@ metaphysical:
 impale:
   display: '%group-color%Impale'
   description: "Chance to deal double damage to your opponent, causing\nslowness for some time"
-  applies-to: 'Bow'
+  applies-to: 'Bow, Crossbow'
   type: 'BOW'
   group: 'LEGENDARY'
   applies:

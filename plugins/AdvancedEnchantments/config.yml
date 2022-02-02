@@ -167,7 +167,7 @@ souls:
     - '&7Apply to weapons to start tracking'
     - '&7souls collected from kills.'
     - ''
-    - '&8Drag n'' drop onto an item to apply.'
+    - '&8Drag n'' drop onto an item to apply'
 
 # Enchantments limitation
 # If an item contains the specified lore, or the specified NBT tag, custom enchants
@@ -225,7 +225,8 @@ enchanter-books:
   force-glow: false
   name: '%group-color%%group-name% Random Enchant Book'
   lore:
-  - '&7Right Click while holding to receive a random'
+  - '&8Right Click while holding to receive a'
+  - '&8random %group-name% enchant book
 
 items:
   settings:
@@ -252,7 +253,7 @@ items:
     - '&7Organizes enchants by rarity on item'
     - '&7and adds the lore count to name.'
     - ''
-    - '&8Drag n'' drop onto an item to apply.'
+    - '&8Drag n'' drop onto an item to apply'
     enchants-count-formatting: '&d[&b&n%count%&d]'
   soulgem:
     type: EMERALD
@@ -262,14 +263,14 @@ items:
     lore:
     - '&7%count% Soul Gems'
     - ''
-    - '&8Drag n'' drop onto an item to add souls.'
+    - '&8Drag n'' drop onto an item to apply'
   itemnametag:
     type: NAME_TAG
     id: 0
     custom-model-data: 0
     name: '&aItem NameTag'
     lore:
-    - '&7Right click to rename your equipment'
+    - '&8Right click to rename your equipment'
     messages:
       success:
       - '&a&l(!) &aYou have successfully renamed your item to &e%name%'
@@ -299,7 +300,7 @@ items:
     - '&7Apply to any %group-color%%group-name% Enchantment Book'
     - '&7to reroll the success and destroy rates.'
     - ''
-    - '&8Drag n'' drop onto enchant book to apply.'
+    - '&8Drag n'' drop onto enchant book to apply'
   black-scroll:
     type: INK_SACK
     id: 0
@@ -310,7 +311,7 @@ items:
     - '&ffrom an item and converts'
     - '&fit into an enchant book.'
     - ''
-    - '&7Drag n'' drop onto item to extract.'
+    - '&7Drag n'' drop onto item to extract'
     success: 100
     destroy: 0
     random: false
@@ -341,18 +342,19 @@ items:
     - '&7Apply to any Custom Enchantment Book'
     - '&7to increase its success by %percent%%'
     - ''
-    - '&8Drag n'' drop onto another item to apply it'
+    - '&8Drag n'' drop onto an item to apply'
     messages:
       cannotApplyToStacked: '&cCannot be applied to stacked books'
   slot-increaser:
     type: EYE_OF_ENDER
     id: 0
     custom-model-data: 0
-    name: '%group-color%%group-name% Slot Increaser'
+    name: '%group-color%%group-name% Enchantment Orb'
     lore:
-    - '&7Increase enchants limit on an item by +%count%'
+    - '&7Increase max %group-name% enchants'
+    - '&7on an item by +%count%'
     - ''
-    - '&8Drag n'' drop onto another item to apply it'
+    - '&8Drag n'' drop onto an item to apply'
     messages:
       success:
       - '&aSuccessfully increased maximum enchants on item by %count%!'
@@ -364,7 +366,7 @@ items:
     lore:
     - '&7Track how many blocks you break with a tool'
     - ''
-    - '&8Drag n'' drop onto another item to apply it'
+    - '&8Drag n'' drop onto an item to apply'
     messages:
       success:
       - '&aYou successfully applied BlockTrak Creator'
@@ -378,7 +380,7 @@ items:
     lore:
     - '&7Track how many kills you have with a weapon'
     - ''
-    - '&8Drag n'' drop onto another item to apply it'
+    - '&8Drag n'' drop onto an item to apply'
     messages:
       success:
       - '&aYou successfully applied &aStatTrak Creator'
@@ -392,7 +394,7 @@ items:
     lore:
     - '&7track how many mob kills you have with a weapon'
     - ''
-    - '&8Drag n'' drop onto another item to apply it'
+    - '&8Drag n'' drop onto an item to apply'
     messages:
       success:
       - '&aYou successfully applied &aMobTrak Creator'
@@ -409,7 +411,7 @@ items:
     - '&7gives a 100% chance of not losing'
     - '&7the blessed item on death.'
     - ''
-    - '&8Drag n'' drop onto another item to apply it'
+    - '&8Drag n'' drop onto an item to apply'
     messages:
       applied:
       - '&aYou successfully applied &aHoly White Scroll'
@@ -434,7 +436,7 @@ items:
       - '&7slots on a weapon by %new%,'
       - '&7up to a maximum of %max%'
       - ''
-      - '&8Drag n'' drop onto an item to apply.'
+      - '&8Drag n'' drop onto an item to apply'
     armor:
       material: EYE_OF_ENDER
       custom-model-data: 0
@@ -449,7 +451,7 @@ items:
       - '&7slots on a piece of armor by %new%,'
       - '&7up to a maximum of %max%'
       - ''
-      - '&8Drag n'' drop onto an item to apply.'
+      - '&8Drag n'' drop onto an item to apply'
     tool:
       material: EYE_OF_ENDER
       custom-model-data: 0
@@ -464,7 +466,7 @@ items:
       - '&7slots on a tool by %new%,'
       - '&7up to a maximum of %max%'
       - ''
-      - '&8Drag n'' drop onto an item to apply.'
+      - '&8Drag n'' drop onto an item to apply'
 
 white-scroll:
   # Obtain white scroll by giving it with command "/ae giveitem <player> whitescroll"
