@@ -13,7 +13,7 @@ settings:
   # If set group is invalid, what should be the fall-back group
   fallback-group: SIMPLE
 groups:
-  SIMPLE:
+  COMMON:
     global-color: "&f"
     group-name: "Simple"
     # Use this to change the type of item per group
@@ -33,7 +33,7 @@ groups:
       success: 1-15
       # Chance to give Magic dust instead of Mystery dust
       chance: 22
-  UNIQUE:
+  UNCOMMON:
     global-color: "&a"
     group-name: "Unique"
     item:
@@ -52,7 +52,7 @@ groups:
       success: 1-15
       # Chance to give Magic dust instead of Mystery dust
       chance: 22
-  ELITE:
+  RARE:
     global-color: "&b"
     group-name: "Elite"
     item:
@@ -71,7 +71,7 @@ groups:
       success: 1-15
       # Chance to give Magic dust instead of Mystery dust
       chance: 22
-  ULTIMATE:
+  LEGENDARY:
     global-color: "&d"
     group-name: "Ultimate"
     item:
@@ -90,7 +90,7 @@ groups:
       success: 1-15
       # Chance to give Magic dust instead of Mystery dust
       chance: 22
-  LEGENDARY:
+  EXOTIC:
     global-color: "&6"
     group-name: "Legendary"
     item:

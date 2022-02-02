@@ -8,11 +8,11 @@ chance: 45 # Value: 1 to 100 %
 # Chances for each group to become available in enchant table (only if 'chance' value activates)
 # Only listed groups here will be available in enchant table
 groupChances:
-  SIMPLE: 50
-  UNIQUE: 40
-  ELITE: 30
-  ULTIMATE: 20
-  LEGENDARY: 10
+  COMMON: 50
+  UNCOMMON: 40
+  RARE: 30
+  LEGENDARY: 20
+  EXOTIC: 10
   FABLED: 5
 
 

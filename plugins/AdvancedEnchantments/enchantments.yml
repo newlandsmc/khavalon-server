@@ -85,7 +85,7 @@ replanter:
   description: "Replants crops when you break them."
   applies-to: "Hoes"
   type: "MINING"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   applies:
     - ALL_HOE
   levels:
@@ -112,7 +112,7 @@ strike:
   description: "Chance to strike lightning\nat the opponent."
   applies-to: "Swords, Axes, Tridents"
   type: "ATTACK;ATTACK_MOB"
-  group: "SIMPLE"
+  group: "COMMON"
   settings:
     not-applyable-with:
       - "areastrike"
@@ -146,7 +146,7 @@ areastrike:
     not-applyable-with:
       - "strike"
   type: "ATTACK;ATTACK_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
@@ -174,7 +174,7 @@ impact:
   description: "Chance to double dealt damage."
   applies-to: "Tridents"
   type: "BOW;BOW_MOB"
-  group: "ELITE"
+  group: "RARE"
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
@@ -205,7 +205,7 @@ jellylegs:
   description: "Chance to negate fall damage."
   applies-to: "Boots"
   type: "FALL_DAMAGE"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_BOOTS
   levels:
@@ -225,7 +225,7 @@ experience:
   description: "Chance to get more experience from ores."
   applies-to: "Tools"
   type: "MINING"
-  group: "SIMPLE"
+  group: "COMMON"
   applies:
     - ALL_PICKAXE
     - ALL_SPADE
@@ -266,7 +266,7 @@ hasten:
   description: "Chance to gain Haste after breaking blocks."
   applies-to: "Tools"
   type: "MINING"
-  group: "SIMPLE"
+  group: "COMMON"
   settings:
     not-applyable-with:
       - "haste"
@@ -322,7 +322,7 @@ rebreather:
   description: "Chance to regain air\nwhen mining under water."
   applies-to: "Pickaxes"
   type: "MINING"
-  group: "SIMPLE"
+  group: "COMMON"
   applies:
     - ALL_PICKAXE
   levels:
@@ -341,7 +341,7 @@ decapitation:
   description: "Chance to have opponents\nhead drop on death."
   applies-to: "Swords, Axes"
   type: "KILL_PLAYER"
-  group: "SIMPLE"
+  group: "COMMON"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -366,7 +366,7 @@ forcefield:
   description: "Chance to push away your opponent."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
-  group: "SIMPLE"
+  group: "COMMON"
   applies:
     - ALL_SWORD
   levels:
@@ -400,7 +400,7 @@ reflect:
   description: "Chance to absorb enemy damage and\nreflect it back."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   applies:
     - ALL_ARMOR
   levels:
@@ -444,7 +444,7 @@ ward:
   description: "Chance to absorb enemy damage"
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   applies:
     - ALL_ARMOR
   levels:
@@ -473,7 +473,7 @@ explosive:
   description: "Chance for arrows to explode."
   applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   applies:
     - BOW
     - CROSSBOW
@@ -508,7 +508,7 @@ ravenous:
   description: "Chance to regain hunger\nwhile fighting."
   applies-to: "Swords, Axes"
   type: "ATTACK;ATTACK_MOB"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -555,7 +555,7 @@ telepathy:
   description: "Automatically places blocks broken\nby tools in your inventory."
   applies-to: "Tools"
   type: "MINING"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   applies:
     - ALL_TOOLS
   levels:
@@ -567,7 +567,7 @@ enderslayer:
   description: "Increases damage dealt to Enderman and Ender dragons."
   applies-to: "Swords, Axes"
   type: "ATTACK_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -612,7 +612,7 @@ deathpunch:
   description: "Increases damage dealt to Zombies."
   applies-to: "Swords, Axes"
   type: "ATTACK_MOB"
-  group: "SIMPLE"
+  group: "COMMON"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -656,7 +656,7 @@ bonecrusher:
   description: "Increases damage dealt to Skeletons."
   applies-to: "Swords, Axes"
   type: "ATTACK_MOB"
-  group: "SIMPLE"
+  group: "COMMON"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -687,7 +687,7 @@ sheepslayer:
   description: "Increases damage dealt to Passive Mobs."
   applies-to: "Swords"
   type: "ATTACK_MOB"
-  group: "SIMPLE"
+  group: "COMMON"
   applies:
     - ALL_SWORD
   levels:
@@ -721,7 +721,7 @@ hunter:
   description: "Increases damage dealt to Passive Mobs."
   applies-to: "Bows, Crossbows"
   type: "BOW_MOB"
-  group: "SIMPLE"
+  group: "COMMON"
   applies:
     - BOW
     - CROSSBOW
@@ -756,7 +756,7 @@ beastslayer:
   description: "Increases damage dealt to Hostile Mobs."
   applies-to: "Swords, Axes, Tridents"
   type: "ATTACK_MOB"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
@@ -794,7 +794,7 @@ beasthunter:
   description: "Increases damage dealt to Hostile Mobs."
   applies-to: "Bows, Crossbows"
   type: "BOW_MOB"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
@@ -831,7 +831,7 @@ hook:
   description: "Get more exp from fishing."
   applies-to: "Fishing Rods"
   type: "CATCH_FISH"
-  group: "SIMPLE"
+  group: "COMMON"
   applies:
     - FISHING_ROD
   levels:
@@ -855,7 +855,7 @@ bait:
   description: "Chance to receive double fishing drops."
   applies-to: "Fishing Rods"
   type: "CATCH_FISH"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   applies:
     - FISHING_ROD
   levels:
@@ -879,7 +879,7 @@ snap:
   description: "Pull hit entity towards you."
   applies-to: "Fishing Rods"
   type: "CATCH_FISH"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - FISHING_ROD
   levels:
@@ -897,7 +897,7 @@ lucky:
   description: "Chance to increase luck while fishing."
   applies-to: "Fishing Rods"
   type: "RIGHT_CLICK"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - FISHING_ROD
   levels:
@@ -921,7 +921,7 @@ permafrost:
   description: "Chance to slow and bleed opponents."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_SWORD
   levels:
@@ -995,7 +995,7 @@ reaper:
   description: "Chance to give your opponent the\nWither and Blindness effects\nwhile dealing damage"
   applies-to: "Axes"
   type: "ATTACK"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_AXE
   levels:
@@ -1028,7 +1028,7 @@ netherslayer:
   description: "Increases damage dealt to nether mobs."
   applies-to: "Swords, Axes"
   type: "ATTACK_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -1073,7 +1073,7 @@ blind:
   description: "A chance of causing blindness\nwhen attacking."
   applies-to: "Swords"
   type: "ATTACK"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORD
   levels:
@@ -1097,7 +1097,7 @@ allure:
   description: "Your attack pulls enemies towards you."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORD
   levels:
@@ -1115,7 +1115,7 @@ paralyze:
   description: "Chance for lightning effect and\nfor slowness."
   applies-to: "Swords, Axes"
   type: "ATTACK;ATTACK_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -1153,7 +1153,7 @@ poison:
   description: "Chance of giving poison effect."
   applies-to: "Swords, Axes"
   type: "ATTACK;ATTACK_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -1178,7 +1178,7 @@ venom:
   description: "Chance of giving poison effect."
   applies-to: "Bows, Crossbows"
   type: "BOW_MOB"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   applies:
     - BOW
     - CROSSBOW
@@ -1203,7 +1203,7 @@ snare:
   description: "Chance to slow enemies\nwith projectiles."
   applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - BOW
     - CROSSBOW
@@ -1233,7 +1233,7 @@ springs:
   description: "Jump boost."
   applies-to: "Boots"
   type: "EFFECT_STATIC"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_BOOTS
   levels:
@@ -1251,7 +1251,7 @@ perish:
   description: "Chance to give the wither effect."
   applies-to: "Bows, Crossbows, Tridents"
   type: "BOW;BOW_MOB"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   applies:
     - TRIDENT
     - BOW
@@ -1287,7 +1287,7 @@ infernal:
   description: "Chance for explosive fire effect."
   applies-to: "Swords, Axes"
   type: "ATTACK;ATTACK_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -1315,7 +1315,7 @@ extinguish:
   description: "Chance to extinguish yourself\nwhen on fire."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB;FIRE"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_ARMOR
   levels:
@@ -1339,7 +1339,7 @@ shockwave:
   description: "Push back your attacker\nwhen your health is low."
   applies-to: "Chestplates"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_CHESTPLATE
   levels:
@@ -1373,7 +1373,7 @@ vampire:
   description: "A chance to heal you for up to\n3hp a few seconds after you strike."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORD
   levels:
@@ -1400,7 +1400,7 @@ greatsword:
   description: "Increases damage against players who are\nwielding a Bow at the time they are hit."
   applies-to: "Swords"
   type: "ATTACK"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORD
   levels:
@@ -1434,7 +1434,7 @@ bowmaster:
   description: "Multiplies damage against players who are\nwielding a Sword at the time they are hit."
   applies-to: "Bows, Crossbows"
   type: "BOW"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - BOW
     - CROSSBOW
@@ -1469,7 +1469,7 @@ hardened:
   description: "Chance to recover durability when damaged."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_ARMOR
   levels:
@@ -1492,7 +1492,7 @@ timber:
   display: "%group-color%Timber"
   description: "Chance to break a tree in one hit"
   applies-to: "Axes"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   type: "MINING"
   applies:
     - "ALL_AXE"
@@ -1517,7 +1517,7 @@ cleave:
   description: "Damages enemies within a radius\nthat increases with the level of enchant."
   applies-to: "Swords, Axes"
   type: "ATTACK;ATTACK_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_AXE
     - ALL_SWORD
@@ -1555,7 +1555,7 @@ arrowdeflect:
   description: "Chance to prevent enemy arrow from dealing damage."
   applies-to: "Armor"
   type: "DEFENSE_BOW"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_ARMOR
   levels:
@@ -1584,7 +1584,7 @@ exalted:
   description: "Chance of removing\nbad potion effects."
   applies-to: "Swords"
   type: "ATTACK"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_SWORD
   levels:
@@ -1641,7 +1641,7 @@ block:
   description: "Chance to negate an attack\nand deal up to 4 damage back."
   applies-to: "Swords"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_SWORD
   levels:
@@ -1686,7 +1686,7 @@ dodge:
   description: "Chance to dodge physical enemy,\nchance increases when sneaking."
   applies-to: "Armor"
   type: "DEFENSE"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_ARMOR
   levels:
@@ -1735,7 +1735,7 @@ iceaspect:
   description: "Chance of causing the slowness\neffect on your enemy."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_SWORD
   levels:
@@ -1759,7 +1759,7 @@ momentum:
   description: "Chance to gain speed boost\nwith fireworks."
   applies-to: "Elytra"
   type: "RIGHT_CLICK"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ELYTRA
   levels:
@@ -1786,7 +1786,7 @@ reinforced:
   description: "Reduces damage dealt to you."
   applies-to: "Elytra"
   type: "DEFENSE;DEFENSE_MOB;DEFENSE_BOW"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ELYTRA
   levels:
@@ -1851,7 +1851,7 @@ implants:
   applies-to: "Helmets"
   type: "REPEATING"
   time: 5
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_HELMET
   levels:
@@ -1872,7 +1872,7 @@ piercing:
   description: "Increases damage dealt with Bows."
   applies-to: "Bows"
   type: "BOW;BOW_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - BOW
     - CROSSBOW
@@ -1901,7 +1901,7 @@ poseidon:
   description: "Increases damage dealt with Tridents."
   applies-to: "Tridents"
   type: "BOW;BOW_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - TRIDENT
   levels:
@@ -1939,7 +1939,7 @@ safeguard:
   description: "Chance to gain Damage Resistance\nwhen defending."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - "ALL_ARMOR"
   levels:
@@ -1958,7 +1958,7 @@ shatter:
   description: "Chance to deal extra durability damage to\nall enemy armor with every attack."
   applies-to: "Swords, Axes"
   type: "ATTACK"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_AXE
     - ALL_SWORD
@@ -1988,7 +1988,7 @@ heavy:
   description: "Decreases damage from enemy bows\nby 5% per level."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_BOW"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_ARMOR
   levels:
@@ -2022,7 +2022,7 @@ devour:
   description: "Chance to restore food while killing mobs."
   applies-to: "Weapons"
   type: "KILL_MOB"
-  group: "UNIQUE"
+  group: "UNCOMMON"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -2044,7 +2044,7 @@ replenish:
   description: "Chance to restore food while mining."
   applies-to: "Pickaxes"
   type: "MINING"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_PICKAXE
   levels:
@@ -2065,7 +2065,7 @@ hellfire:
   description: "Chance for arrows turn into fireballs."
   applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - BOW
     - CROSSBOW
@@ -2100,7 +2100,7 @@ longbow:
   description: "Greatly increases damage dealt\nto enemy players that have\na bow in their hands."
   applies-to: "Bows"
   type: "BOW"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - BOW
     - CROSSBOW
@@ -2130,7 +2130,7 @@ tank:
   description: "Decreases damage from enemy\naxes by 5% per level."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_ARMOR
   levels:
@@ -2164,7 +2164,7 @@ valor:
   description: "Decreases damage from enemy\nswords by 5% per level."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_ARMOR
   levels:
@@ -2198,7 +2198,7 @@ critical:
   description: "Increase damage done with critical hit."
   applies-to: "Swords"
   type: "ATTACK_MOB;ATTACK"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORD
   levels:
@@ -2225,7 +2225,7 @@ rebound:
   description: "Gain some health back after kills."
   applies-to: "Weapons"
   type: "KILL_PLAYER;KILL_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_AXE
     - ALL_SWORD
@@ -2244,7 +2244,7 @@ thunderlord:
   description: "Strike monsters with lightning\nevery few consecutive hits."
   applies-to: "Weapons"
   type: "ATTACK_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_AXE
     - ALL_SWORD
@@ -2272,7 +2272,7 @@ creeperarmor:
   description: "Chance to be immune to explosive damage, at\nhigher levels you have a chance to heal."
   applies-to: "Armor"
   type: "EXPLOSION"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_ARMOR
   levels:
@@ -2294,7 +2294,7 @@ bleed:
   description: "Chance to make your opponent bleed."
   applies-to: "Axes, Swords, Tridents"
   type: "ATTACK;ATTACK_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_AXE
     - ALL_SWORD
@@ -2359,7 +2359,7 @@ wound:
   description: "Chance to make your opponent bleed."
   applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - BOW
     - CROSSBOW
@@ -2423,7 +2423,7 @@ lavawalker:
   description: "Walk on Lava."
   applies-to: "Boots"
   type: "EFFECT_STATIC"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_BOOTS
   levels:
@@ -2435,7 +2435,7 @@ torrent:
   description: "Chance to deal double damage while in water."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
-  group: "ELITE"
+  group: "RARE"
   applies:
     - ALL_SWORDS
   levels:
@@ -2472,7 +2472,7 @@ judgement:
   description: "Chance of poisoning opponent and\ngaining regeneration."
   applies-to: "Elytra"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ELYTRA
   levels:
@@ -2511,7 +2511,7 @@ divert:
   description: "Chance of poisoning opponent and\ngaining regeneration."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_ARMOR
   levels:
@@ -2550,7 +2550,7 @@ unholy:
   description: "Chance to deal weakness and wither effects."
   applies-to: "Armor"
   type: "DEFENSE"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_ARMOR
   levels:
@@ -2589,7 +2589,7 @@ chaos:
   description: "Chance to deal weakness and wither effects."
   applies-to: "Tridents"
   type: "BOW;BOW_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - TRIDENT
   levels:
@@ -2628,7 +2628,7 @@ barbarian:
   description: "Chance to deal more axe damage."
   applies-to: "Axes"
   type: "ATTACK;ATTACK_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_AXE
   levels:
@@ -2665,7 +2665,7 @@ doublestrike:
   description: "Chance to strike twice."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_SWORD
   levels:
@@ -2695,7 +2695,7 @@ gears:
   description: "Zoom zoom."
   applies-to: "Boots"
   type: "EFFECT_STATIC"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_BOOTS
   levels:
@@ -2712,7 +2712,7 @@ inflame:
   display: "%group-color%Inflame"
   description: "Chance to set all enemies in radius on fire."
   applies-to: "Axes, Swords"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   type: "ATTACK;ATTACK_MOB"
   applies:
     - ALL_AXE
@@ -2740,7 +2740,7 @@ killaura:
   display: "%group-color%Kill Aura"
   description: "Chance to insta-kill multiple\nmonsters in radius."
   applies-to: "Swords"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   type: "ATTACK_MOB"
   applies:
     - "ALL_SWORD"
@@ -2780,7 +2780,7 @@ inquisitive:
   description: "Chance to increase EXP drops from mobs."
   applies-to: "Swords"
   type: "KILL_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_SWORD
   levels:
@@ -2809,7 +2809,7 @@ lifesteal:
   description: "Chance to steal health\nwhen attacking."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_SWORD
   levels:
@@ -2843,7 +2843,7 @@ blacksmith:
   description: "Chance to repair your weapon in exchange\nfor dealing less damage."
   applies-to: "Axes"
   type: "ATTACK;ATTACK_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ALL_AXE
   levels:
@@ -2887,7 +2887,7 @@ sniper:
   description: "Headshots with bows\ndeal more  damage."
   applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - BOW
     - CROSSBOW
@@ -2922,7 +2922,7 @@ deadshot:
   description: "Headshots with tridents\ndeal more damage."
   applies-to: "Tridents"
   type: "BOW;BOW_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - TRIDENT
   levels:
@@ -3024,7 +3024,7 @@ strife:
   description: "Increases Trident melee damage."
   applies-to: "Tridents"
   type: "ATTACK;ATTACK_MOB"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
@@ -3049,7 +3049,7 @@ bluntforce:
   display: "%group-color%Blunt Force"
   description: "Chance to strike with great force."
   applies-to: "Axes"
-  group: "ELITE"
+  group: "RARE"
   type: "ATTACK"
   applies:
     - "ALL_AXE"
@@ -3079,7 +3079,7 @@ plummet:
   description: "Deal damage to nearby mobs\nwhen taking fall damage."
   applies-to: "Boots"
   type: "FALL_DAMAGE"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_BOOTS
   levels:
@@ -3097,7 +3097,7 @@ nightowl:
   description: "Deal more damage to mobs at night."
   applies-to: "Swords"
   type: "ATTACK_MOB"
-  group: "ULTIMATE"
+  group: "LEGENDARY"
   applies:
     - ALL_SWORD
   levels:
@@ -3118,7 +3118,7 @@ slingshot:
   description: "Boost yourself into flight by right-clicking."
   applies-to: "Elytra"
   type: "RIGHT_CLICK"
-  group: "LEGENDARY"
+  group: "EXOTIC"
   applies:
     - ELYTRA
   levels:
@@ -3142,7 +3142,7 @@ confusion:
   description: "A chance to deal nausea to\nyour victim."
   applies-to: 'Axes'
   type: 'ATTACK'
-  group: 'UNIQUE'
+  group: 'UNCOMMON'
   applies:
     - ALL_AXE
   levels:
@@ -3166,7 +3166,7 @@ lifebloom:
   description: "Heals allieson your death\naround you."
   applies-to: 'Armor'
   type: 'DEATH'
-  group: 'ELITE'
+  group: 'RARE'
   applies:
     - ALL_ARMOR
   levels:
@@ -3195,7 +3195,7 @@ endershift:
   description: 'Gives speed/health boost at low hp.'
   applies-to: 'Helmets, Boots'
   type: 'DEFENSE;DEFENSE_BOW;DEFENSE_MOB;DEFENSE_MOB'
-  group: 'UNIQUE'
+  group: 'UNCOMMON'
   applies:
     - ALL_HELMET
     - ALL_BOOTS
@@ -3223,7 +3223,7 @@ skillswipe:
   description: "A chance to steal some of your enemy's\nEXP every time you damage them."
   applies-to: 'Swords'
   type: 'ATTACK'
-  group: 'UNIQUE'
+  group: 'UNCOMMON'
   applies:
     - ALL_SWORD
   levels:
@@ -3257,7 +3257,7 @@ execute:
   description: "Damage buff when your target is at\nlow HP."
   applies-to: 'Swords'
   type: 'ATTACK;ATTACK_MOB'
-  group: 'ELITE'
+  group: 'RARE'
   applies:
     - ALL_SWORD
   levels:
@@ -3315,7 +3315,7 @@ trap:
   description: 'Chance to give buffed slowness effect.'
   applies-to: 'Armor'
   type: 'DEFENSE;DEFENSE_MOB'
-  group: 'ELITE'
+  group: 'RARE'
   applies:
     - ALL_ARMOR
   levels:
@@ -3339,7 +3339,7 @@ enrage:
   description: 'Deal more damage on low HP.'
   applies-to: 'Swords'
   type: 'ATTACK'
-  group: 'ULTIMATE'
+  group: 'LEGENDARY'
   applies:
     - ALL_SWORD
   levels:
@@ -3369,7 +3369,7 @@ demonic:
   description: "Chance to remove fire resistance from your enemy."
   applies-to: 'Armor'
   type: 'ATTACK'
-  group: 'ULTIMATE'
+  group: 'LEGENDARY'
   applies:
     - ALL_ARMOR
   levels:
@@ -3396,7 +3396,7 @@ dominate:
   description: "Chance to weaken enemy players when attacked,\ncausing them to deal less damage."
   applies-to: 'Swords'
   type: 'DEFENSE;DEFENSE_MOB'
-  group: 'ULTIMATE'
+  group: 'LEGENDARY'
   applies:
     - ALL_SWORD
   levels:
@@ -3425,7 +3425,7 @@ arsonist:
   description: "Chance to deal more damage\nwhilst on fire"
   applies-to: 'Swords'
   type: 'ATTACK'
-  group: 'ULTIMATE'
+  group: 'LEGENDARY'
   applies:
     - 'ALL_SWORD'
   levels:
@@ -3455,7 +3455,7 @@ enderwalker:
   description: "Chance to cure Wither and Poison when attacked\nnand heal at high levels."
   applies-to: 'Boots'
   type: 'DEFENSE'
-  group: 'ULTIMATE'
+  group: 'LEGENDARY'
   applies:
     - ALL_BOOTS
   levels:
@@ -3496,7 +3496,7 @@ eagleeye:
   description: "Chance to deal 1-4 durability damage to\nALL armor pieces of enemy player."
   applies-to: 'Bows, Crossbows'
   type: 'BOW'
-  group: 'ULTIMATE'
+  group: 'LEGENDARY'
   applies:
     - BOW
     - CROSSBOW
@@ -3531,7 +3531,7 @@ unfocus:
   description: "Chance to Unfocus target player,\nreducing their out going bow damage\nby 50% for up to 10 seconds."
   applies-to: 'Bows, Crossbows'
   type: 'BOW'
-  group: 'ULTIMATE'
+  group: 'LEGENDARY'
   applies:
     - BOW
     - CROSSBOW
@@ -3586,7 +3586,7 @@ metaphysical:
   description: "Chance to be cured of\nSlowness when attacked.\nAt max level, you will only be\naffected approx. 10% of the time."
   applies-to: 'Boots'
   type: 'DEFENSE'
-  group: 'ULTIMATE'
+  group: 'LEGENDARY'
   applies:
     - ALL_BOOTS
   levels:
@@ -3611,7 +3611,7 @@ impale:
   description: "Chance to deal double damage to your opponent, causing\nslowness for some time"
   applies-to: 'Bows, Crossbows'
   type: 'BOW'
-  group: 'LEGENDARY'
+  group: 'EXOTIC'
   applies:
     - BOW
     - CROSSBOW
@@ -3645,7 +3645,7 @@ guardian:
   description: "Automatically heals and cures\nall nearby allies."
   applies-to: 'Armor'
   type: 'DEFENSE'
-  group: 'LEGENDARY'
+  group: 'EXOTIC'
   applies:
     - 'ALL_ARMOR'
   levels:
@@ -3699,7 +3699,7 @@ stun:
   description: "Chance to slow opponent, make them\nfeel weak, and remove slowness from you."
   applies-to: 'Swords, Axes'
   type: 'ATTACK'
-  group: 'LEGENDARY'
+  group: 'EXOTIC'
   applies:
     - ALL_AXE
     - ALL_SWORD
@@ -3733,7 +3733,7 @@ inversion:
   description: "Chance to block damage dealt to\nyou and heal you for 1-5 HP."
   applies-to: 'Swords'
   type: 'DEFENSE'
-  group: 'LEGENDARY'
+  group: 'EXOTIC'
   applies:
     - ALL_SWORD
   levels:
@@ -3766,7 +3766,7 @@ rage:
   description: "For every combo hit you land,\nchance to do 0.5 heart damage per combo\nto your opponent.\nUp to 5 max combo hits."
   applies-to: 'Swords, Axes'
   type: 'ATTACK'
-  group: 'LEGENDARY'
+  group: 'EXOTIC'
   applies:
     - ALL_AXE
     - ALL_SWORD
@@ -3957,7 +3957,7 @@ diminish:
   description: "When this effect procs, the next attack\ndealt to you cannot deal more than\nthe (total amount of damage / 2)\nyou took from the previous attack."
   applies-to: 'Armor'
   type: 'DEFENSE'
-  group: 'LEGENDARY'
+  group: 'EXOTIC'
   applies:
     - ALL_ARMOR
   levels:
