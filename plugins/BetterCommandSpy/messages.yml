@@ -64,17 +64,14 @@ commands:
     #   %prefix% ~ the plugin prefix
     #   %label% ~ the alias used to run the command
     usage:
-      - '%prefix% Unspecified or invalid subcommand, please see the list below:'
-      - ' '
-      - '&f&oPrimary subcommands ...'
-      - '&8 &m->&b /%label% off [player] &8- &7disable commandspy for a player'
-      - '&8 &m->&b /%label% on [player] &8- &7enable commandspy for a player'
-      - '&8 &m->&b /%label% reload &8- &7reload config files'
-      - ' '
-      - '&f&oOther subcommands ...'
-      - '&8 &m->&b /%label% compatibility &8- &7run compatibility checker'
-      - '&8 &m->&b /%label% debug <method> &8- &7run debug methods (for developers)'
-      - '&8 &m->&b /%label% info &8- &7view info about installed plugin version'
+      - '&e&m                     &r Commandspy Help &e&m                     &r'
+      - '&e/%label% off [player] &7- disable commandspy for a player'
+      - '&e/%label% on [player] &7- enable commandspy for a player'
+      - '&e/%label% reload &7- reload config files'
+      - '&e/%label% compatibility &7- run compatibility checker'
+      - '&e/%label% debug <method> &7- run debug methods (for developers)'
+      - '&e/%label% info &7- view info about installed plugin version'
+      - '&e&m                                                                  &r'
 
     # The following messages are sent from the sub-commands of
     # '/bettercommandspy', such as '/bcs on', '/bcs off', and so on.

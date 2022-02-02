@@ -92,8 +92,8 @@ disable-enchants:
 
 alchemist:
   settings:
-    combine-books: false
-    combine-dust: false
+    combine-books: true
+    combine-dust: true
   books:
     # This method adds chances together and splits by 2 (x+y/2)
     add-up-chances: true

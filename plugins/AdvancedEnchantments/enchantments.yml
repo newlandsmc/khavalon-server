@@ -1,3 +1,84 @@
+# << Example configuration >>
+#lastchance:    <-- Enchantment name
+#  display: "%group-color%Last Chance"    <-- Display in item lore
+#  description: "Has a chance to heal when on low hearts"    <-- Enchantment Description
+#  applies-to: "Chestplate"    <-- What applies to (display purposes)
+#  type: "DEFENSE"    <-- Enchantment type (controls when enchantment activates)
+#  group: "COMMON"    <-- Enchantment group (For enchanter and right-click random books)
+#  settings:
+#    required-enchants:
+#      - "springs:1" # Can require specific level
+#      - "gears"
+#    not-applyable-with:
+#      - "frozen"
+#  applies:    <-- List of items that it applies
+#    - ALL_CHESTPLATE    <-- Item(s) list
+#  levels:    < -- All Levels are under here
+#    1:     <-- Level indicator
+#      chance: 30    <-- Chance for enchantment to activate
+#      condition: "%victim health% > 5 : %stop%"    <-- Condition (read more about it at Conditions)
+#      effects:    <-- All enchantment effects
+#        - "ADD_HEALTH:2 %victim%"    <-- Effect(s) list
+
+#  Display (String) (No spaces or enchantment will break)
+#    Determines how will enchantment look in item lore
+
+#  Applies-to (String)
+#    Display used in Custom Enchantment books for %description% variable
+
+#  Group (Setting)
+#    INFO: Create enchantment groups in config.yml under enchanter configuration.
+#   Enchantment groups are used for enchanter, to sell specific type books. You can group them
+#   and add a group-wide color, then obtain it with variable %group-color% (shown in example enchantments below).
+
+#  Enchantment Types List: https://ae.advancedplugins.net/enchantments/creating-enchantments/type-list
+
+#  Applies (Material)
+#    Determines which items will have the effects
+#    Latest Materials list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#    NOTICE: You can use "LEATHER_ARMOR, IRON_ARMOR, CHAIN_ARMOR, GOLD_ARMOR or DIAMOND_ARMOR" to
+#    to instantly add availability for all specific armor type pieces.
+#    Use "ALL_ARMOR" to add all armor pieces.
+#    Use "ALL_HELMET" to add all helmets.
+#    Use "ALL_CHESTPLATE" to add all chestplates.
+#    Use "ALL_BOOTS" to add all boots.
+#    Use "ALL_SWORD" to add all swords.
+#    Use "ALL_PICKAXE" to add all pickaxes.
+#    Use "ALL_AXE" to add all axes.
+#    Use "ALL_EDIBLE" to add all foods.
+#    And so on, but make sure to use non plural names of items!
+
+#  Levels (Numbers)
+#    Effects for each level, use as display in examples.
+
+#  Enchantment Effect List: https://ae.advancedplugins.net/enchantments/creating-enchantments/effect-list
+
+#        # You can use tags <random word>word1,word2,word3</random word>, it will get a random word from listed words.
+#        # You can use tags <random number>x-y</random number> while x < y, it will generate a random number between two given integers.
+#        # e.g.: "STEAL_MONEY:<random number>10000-50000</random number>"
+#        # Use <chance>x</chance> to set per-effect chance, x being a chance percentage.
+#        # e.g.: "POTION:SPEED:1:100 %attacker% <chance>25</chance>"
+
+#        # You also may use %victim% or %attacker% flag to give effects to different players (in ATTACK, BOW, DEATH, KILL_PLAYER and DEFENSE types).
+#        # Example usage: - "POTION:POISON:1:50 %attacker%', this will give Level 2 POISON potion effect to the player who attacked.
+#        # If none is provided, effects will be given to the player who had custom enchanted item.
+#        # You can add %combo% instead of numbers, to use number of combo's player has (eg. to limit combo number: "%combo% > 0 && %combo% < 5 : %continue%')
+#        # You can add %damage% instead of numbers, to use number of damage has been done (for ATTACK and DEFENSE)
+
+#  Area of effect: https://ae.advancedplugins.net/enchantments/radius-of-effect-enchantments
+#  Conditions:  https://ae.advancedplugins.net/enchantments/enchantment-conditions
+
+# Settings for enchantments
+# *** This is not a required configuration section and each enchantment doesn't need to have it ***
+#  settings:
+#    required-enchants:
+#      - "springs"
+#    not-applyable-with:
+#      - "frozen"
+#    removeable: false # Makes enchantment non-removeable with blackscrolls
+#    disable-in-enchanter: true # Players can no longer obtain enchantment from Enchanter
+#    disabled-worlds: # List worlds in which enchantment will not work (cAsE sEnSiTiVe)
+#      - "My_World"
 
 replanter:
   display: "%group-color%Replanter"
@@ -29,7 +110,7 @@ loyal:
 strike:
   display: "%group-color%Strike"
   description: "Chance to strike lightning\nat the opponent."
-  applies-to: "Swords, Axes, Trident"
+  applies-to: "Swords, Axes, Tridents"
   type: "ATTACK;ATTACK_MOB"
   group: "SIMPLE"
   settings:
@@ -60,7 +141,7 @@ strike:
 areastrike:
   display: "%group-color%Area Strike"
   description: "Chance to strike lightning at all nearby enemies."
-  applies-to: "Swords, Axes, Trident"
+  applies-to: "Swords, Axes, Tridents"
   settings:
     not-applyable-with:
       - "strike"
@@ -91,7 +172,7 @@ areastrike:
 impact:
   display: "%group-color%Impact"
   description: "Chance to double dealt damage."
-  applies-to: "Trident"
+  applies-to: "Tridents"
   type: "BOW;BOW_MOB"
   group: "ELITE"
   settings:
@@ -390,7 +471,7 @@ ward:
 explosive:
   display: "%group-color%Explosive"
   description: "Chance for arrows to explode."
-  applies-to: "Bow, Crossbow"
+  applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
   group: "UNIQUE"
   applies:
@@ -474,7 +555,7 @@ telepathy:
   description: "Automatically places blocks broken\nby tools in your inventory."
   applies-to: "Tools"
   type: "MINING"
-  group: "LEGENDARY"
+  group: "UNIQUE"
   applies:
     - ALL_TOOLS
   levels:
@@ -484,7 +565,7 @@ telepathy:
 enderslayer:
   display: "%group-color%Ender Slayer"
   description: "Increases damage dealt to Enderman and Ender dragons."
-  applies-to: "Weapons"
+  applies-to: "Swords, Axes"
   type: "ATTACK_MOB"
   group: "ELITE"
   applies:
@@ -606,7 +687,7 @@ sheepslayer:
   description: "Increases damage dealt to Passive Mobs."
   applies-to: "Swords"
   type: "ATTACK_MOB"
-  group: "UNIQUE"
+  group: "SIMPLE"
   applies:
     - ALL_SWORD
   levels:
@@ -638,9 +719,9 @@ sheepslayer:
 hunter:
   display: "%group-color%Hunter"
   description: "Increases damage dealt to Passive Mobs."
-  applies-to: "Bow, Crossbow"
+  applies-to: "Bows, Crossbows"
   type: "BOW_MOB"
-  group: "UNIQUE"
+  group: "SIMPLE"
   applies:
     - BOW
     - CROSSBOW
@@ -673,9 +754,9 @@ hunter:
 beastslayer:
   display: "%group-color%Beastslayer"
   description: "Increases damage dealt to Hostile Mobs."
-  applies-to: "Swords, Axes, Trident"
+  applies-to: "Swords, Axes, Tridents"
   type: "ATTACK_MOB"
-  group: "LEGENDARY"
+  group: "UNIQUE"
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
@@ -711,9 +792,9 @@ beastslayer:
 beasthunter:
   display: "%group-color%Beasthunter"
   description: "Increases damage dealt to Hostile Mobs."
-  applies-to: "Bow, Crossbow"
+  applies-to: "Bows, Crossbows"
   type: "BOW_MOB"
-  group: "LEGENDARY"
+  group: "UNIQUE"
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
@@ -748,9 +829,9 @@ beasthunter:
 hook:
   display: "%group-color%Hook"
   description: "Get more exp from fishing."
-  applies-to: "Fishing Rod"
+  applies-to: "Fishing Rods"
   type: "CATCH_FISH"
-  group: "ELITE"
+  group: "SIMPLE"
   applies:
     - FISHING_ROD
   levels:
@@ -772,9 +853,9 @@ hook:
 bait:
   display: "%group-color%Bait"
   description: "Chance to receive double fishing drops."
-  applies-to: "Fishing Rod"
+  applies-to: "Fishing Rods"
   type: "CATCH_FISH"
-  group: "LEGENDARY"
+  group: "UNIQUE"
   applies:
     - FISHING_ROD
   levels:
@@ -796,7 +877,7 @@ bait:
 snap:
   display: "%group-color%Snap"
   description: "Pull hit entity towards you."
-  applies-to: "Fishing Rod"
+  applies-to: "Fishing Rods"
   type: "CATCH_FISH"
   group: "ELITE"
   applies:
@@ -814,7 +895,7 @@ snap:
 lucky:
   display: "%group-color%Lucky"
   description: "Chance to increase luck while fishing."
-  applies-to: "Fishing Rod"
+  applies-to: "Fishing Rods"
   type: "RIGHT_CLICK"
   group: "ULTIMATE"
   applies:
@@ -945,7 +1026,7 @@ reaper:
 netherslayer:
   display: "%group-color%Nether Slayer"
   description: "Increases damage dealt to nether mobs."
-  applies-to: "Weapons"
+  applies-to: "Swords, Axes"
   type: "ATTACK_MOB"
   group: "ELITE"
   applies:
@@ -1095,7 +1176,7 @@ poison:
 venom:
   display: "%group-color%Venom"
   description: "Chance of giving poison effect."
-  applies-to: "Bow, Crossbow"
+  applies-to: "Bows, Crossbows"
   type: "BOW_MOB"
   group: "UNIQUE"
   applies:
@@ -1120,7 +1201,7 @@ venom:
 snare:
   display: "%group-color%Snare"
   description: "Chance to slow enemies\nwith projectiles."
-  applies-to: "Bows"
+  applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
   group: "ELITE"
   applies:
@@ -1168,7 +1249,7 @@ springs:
 perish:
   display: "%group-color%Perish"
   description: "Chance to give the wither effect."
-  applies-to: "Bow, Crossbow, Trident"
+  applies-to: "Bows, Crossbows, Tridents"
   type: "BOW;BOW_MOB"
   group: "UNIQUE"
   applies:
@@ -1351,7 +1432,7 @@ greatsword:
 bowmaster:
   display: "%group-color%Bowmaster"
   description: "Multiplies damage against players who are\nwielding a Sword at the time they are hit."
-  applies-to: "Bow, Crossbow"
+  applies-to: "Bows, Crossbows"
   type: "BOW"
   group: "ELITE"
   applies:
@@ -1818,7 +1899,7 @@ piercing:
 poseidon:
   display: "%group-color%Poseidon"
   description: "Increases damage dealt with Tridents."
-  applies-to: "Trident"
+  applies-to: "Tridents"
   type: "BOW;BOW_MOB"
   group: "ELITE"
   applies:
@@ -1982,7 +2063,7 @@ replenish:
 hellfire:
   display: "%group-color%Hellfire"
   description: "Chance for arrows turn into fireballs."
-  applies-to: "Bow, Crossbow"
+  applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
   group: "ULTIMATE"
   applies:
@@ -2017,7 +2098,7 @@ hellfire:
 longbow:
   display: "%group-color%Longbow"
   description: "Greatly increases damage dealt\nto enemy players that have\na bow in their hands."
-  applies-to: "Bow"
+  applies-to: "Bows"
   type: "BOW"
   group: "ULTIMATE"
   applies:
@@ -2354,7 +2435,7 @@ torrent:
   description: "Chance to deal double damage while in water."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
-  group: "LEGENDARY"
+  group: "ELITE"
   applies:
     - ALL_SWORDS
   levels:
@@ -2506,7 +2587,7 @@ unholy:
 chaos:
   display: "%group-color%Chaos"
   description: "Chance to deal weakness and wither effects."
-  applies-to: "Trident"
+  applies-to: "Tridents"
   type: "BOW;BOW_MOB"
   group: "LEGENDARY"
   applies:
@@ -2804,11 +2885,12 @@ blacksmith:
 sniper:
   display: "%group-color%Sniper"
   description: "Headshots with bows\ndeal more  damage."
-  applies-to: "Bow"
+  applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
   group: "ULTIMATE"
   applies:
     - BOW
+    - CROSSBOW
   levels:
     1:
       condition:
@@ -2838,7 +2920,7 @@ sniper:
 deadshot:
   display: "%group-color%Deadshot"
   description: "Headshots with tridents\ndeal more damage."
-  applies-to: "Trident"
+  applies-to: "Tridents"
   type: "BOW;BOW_MOB"
   group: "LEGENDARY"
   applies:
@@ -2872,7 +2954,7 @@ deadshot:
 neutralize:
   display: "%group-color%Neutralize"
   description: "Chance to disarm opponent."
-  applies-to: "Bow, Crossbow"
+  applies-to: "Bows, Crossbows"
   type: "BOW"
   group: "FABLED"
   applies:
@@ -2940,7 +3022,7 @@ phoenix:
 strife:
   display: "%group-color%Strife"
   description: "Increases Trident melee damage."
-  applies-to: "Trident"
+  applies-to: "Tridents"
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
   settings:
@@ -3111,7 +3193,7 @@ lifebloom:
 endershift:
   display: '%group-color%EnderShift'
   description: 'Gives speed/health boost at low hp.'
-  applies-to: 'Helmet, Boots'
+  applies-to: 'Helmets, Boots'
   type: 'DEFENSE;DEFENSE_BOW;DEFENSE_MOB;DEFENSE_MOB'
   group: 'UNIQUE'
   applies:
@@ -3139,7 +3221,7 @@ endershift:
 skillswipe:
   display: '%group-color%Skill Swipe'
   description: "A chance to steal some of your enemy's\nEXP every time you damage them."
-  applies-to: 'Sword'
+  applies-to: 'Swords'
   type: 'ATTACK'
   group: 'UNIQUE'
   applies:
@@ -3412,7 +3494,7 @@ enderwalker:
 eagleeye:
   display: '%group-color%Eagle Eye'
   description: "Chance to deal 1-4 durability damage to\nALL armor pieces of enemy player."
-  applies-to: 'Bow, Crossbow'
+  applies-to: 'Bows, Crossbows'
   type: 'BOW'
   group: 'ULTIMATE'
   applies:
@@ -3447,7 +3529,7 @@ eagleeye:
 unfocus:
   display: '%group-color%Unfocus'
   description: "Chance to Unfocus target player,\nreducing their out going bow damage\nby 50% for up to 10 seconds."
-  applies-to: 'Bow, Crossbow'
+  applies-to: 'Bows, Crossbows'
   type: 'BOW'
   group: 'ULTIMATE'
   applies:
@@ -3527,7 +3609,7 @@ metaphysical:
 impale:
   display: '%group-color%Impale'
   description: "Chance to deal double damage to your opponent, causing\nslowness for some time"
-  applies-to: 'Bow, Crossbow'
+  applies-to: 'Bows, Crossbows'
   type: 'BOW'
   group: 'LEGENDARY'
   applies:
@@ -3615,7 +3697,7 @@ guardian:
 stun:
   display: '%group-color%Stun'
   description: "Chance to slow opponent, make them\nfeel weak, and remove slowness from you."
-  applies-to: 'Weapons'
+  applies-to: 'Swords, Axes'
   type: 'ATTACK'
   group: 'LEGENDARY'
   applies:
@@ -3682,7 +3764,7 @@ inversion:
 rage:
   display: '%group-color%Rage'
   description: "For every combo hit you land,\nchance to do 0.5 heart damage per combo\nto your opponent.\nUp to 5 max combo hits."
-  applies-to: 'Weapon'
+  applies-to: 'Swords, Axes'
   type: 'ATTACK'
   group: 'LEGENDARY'
   applies:
@@ -3909,8 +3991,8 @@ diminish:
       cooldown: 8
       effects:
         - 'HALF_DAMAGE'
-neutralize:
-  display: '%group-color%Neutralize'
+defuse:
+  display: '%group-color%Defuse'
   description: "Chance to disable all enemy defensive enchantment's for 7 seconds.\nThis effect can stack with silence."
   applies-to: "Swords"
   type: 'ATTACK'
@@ -4045,7 +4127,7 @@ markofthebeast:
         - 'WAIT:20'
 chainlifesteal:
   display: '%group-color%Chain Lifesteal'
-  description: 'Chance to regain health from multiple\nenemies near your damaged target based on level'
+  description: "Chance to regain health from multiple\nenemies near your damaged target based on level"
   applies-to: 'Armor'
   type: 'ATTACK'
   group: 'FABLED'

@@ -19,7 +19,7 @@ ignored-commands:
   # Requires starting slash.
   # Only base commands are supported ('/tpa', not '/tpa Notch' for example).
   list:
-    - '/acommandhere'
+    - '/lands'
 
 
 # Should BetterCommandSpy make sure players that have Command Spy toggled ON

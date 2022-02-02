@@ -7,3 +7,6 @@ lobby:
 back:
   enabled: true
   message: "<red>There is no /back on this server!"
+ae:
+  enabled: true
+  message: "<white>Unknown command. Type \"/help\" for help."
