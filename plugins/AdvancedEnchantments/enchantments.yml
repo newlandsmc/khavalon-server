@@ -116,7 +116,6 @@ strike:
   settings:
     not-applyable-with:
       - "areastrike"
-  settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
     - TRIDENT
@@ -145,10 +144,9 @@ areastrike:
   settings:
     not-applyable-with:
       - "strike"
+    newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   type: "ATTACK;ATTACK_MOB"
   group: "EXOTIC"
-  settings:
-    newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
   applies:
     - TRIDENT
     - ALL_SWORD
@@ -203,11 +201,11 @@ impact:
 jellylegs:
   display: "%group-color%Jelly Legs"
   description: "Chance to negate fall damage."
-  applies-to: "Boots"
+  applies-to: "Leggings"
   type: "FALL_DAMAGE"
   group: "LEGENDARY"
   applies:
-    - ALL_BOOTS
+    - ALL_LEGGINGS
   levels:
     1:
       chance: 40
@@ -1345,27 +1343,27 @@ shockwave:
   levels:
     1:
       condition:
-        - "%victim health% > 5 : %stop%"
+        - "%victim health% < 5 : %allow%"
       effects:
         - "PULL_AWAY:0.5 %attacker%"
     2:
       condition:
-        - "%victim health% > 5 : %stop%"
+        - "%victim health% < 5 : %allow%"
       effects:
         - "PULL_AWAY:1.0 %attacker%"
     3:
       condition:
-        - "%victim health% > 5 : %stop%"
+        - "%victim health% < 5 : %allow%"
       effects:
         - "PULL_AWAY:1.5 %attacker%"
     4:
       condition:
-        - "%victim health% > 5 : %stop%"
+        - "%victim health% < 5 : %allow%"
       effects:
         - "PULL_AWAY:2.0 %attacker%"
     5:
       condition:
-        - "%victim health% > 5 : %stop%"
+        - "%victim health% < 5 : %allow%"
       effects:
         - "PULL_AWAY:2.5 %attacker%"
 vampire:
@@ -1560,22 +1558,22 @@ arrowdeflect:
     - ALL_ARMOR
   levels:
     1:
-      chance: 15
+      chance: 6
       cooldown: 6
       effects:
         - "STOP_ATTACK"
     2:
-      chance: 25
+      chance: 10
       cooldown: 6
       effects:
         - "STOP_ATTACK"
     3:
-      chance: 35
+      chance: 14
       cooldown: 6
       effects:
         - "STOP_ATTACK"
     4:
-      chance: 45
+      chance: 18
       cooldown: 6
       effects:
         - "STOP_ATTACK"
@@ -1684,11 +1682,11 @@ trench:
 dodge:
   display: "%group-color%Dodge"
   description: "Chance to dodge physical enemy,\nchance increases when sneaking."
-  applies-to: "Armor"
+  applies-to: "Leggings"
   type: "DEFENSE"
   group: "LEGENDARY"
   applies:
-    - ALL_ARMOR
+    - ALL_LEGGINGS
   levels:
     1:
       chance: 7
@@ -1867,35 +1865,6 @@ implants:
       chance: 70
       effects:
         - "ADD_FOOD:1"
-piercing:
-  display: "%group-color%Piercing"
-  description: "Increases damage dealt with Bows."
-  applies-to: "Bows"
-  type: "BOW;BOW_MOB"
-  group: "LEGENDARY"
-  applies:
-    - BOW
-    - CROSSBOW
-  levels:
-    1:
-      chance: 25
-      effects:
-        - "INCREASE_DAMAGE:<random number>15-30</random number> %victim%"
-    2:
-      chance: 35
-      effects:
-        - "INCREASE_DAMAGE:<random number>20-40</random number> %victim%"
-    3:
-      chance: 45
-      effects:
-        - "INCREASE_DAMAGE:<random number>25-50</random number> %victim%"
-    4:
-      chance: 55
-      effects:
-        - "INCREASE_DAMAGE:<random number>30-60</random number> %victim%"
-    5:
-      effects:
-        - "INCREASE_DAMAGE:<random number>30-90</random number> %victim%"
 poseidon:
   display: "%group-color%Poseidon"
   description: "Increases damage dealt with Tridents."
@@ -1985,10 +1954,14 @@ shatter:
         - "DAMAGE_ARMOR:2 %victim%"
 heavy:
   display: "%group-color%Heavy"
-  description: "Decreases damage from enemy bows\nby 5% per level."
+  description: "Decreases damage from enemy bows\nby 4% per level."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_BOW"
   group: "LEGENDARY"
+  settings:
+    not-applyable-with:
+      - "tank"
+      - "valor"
   applies:
     - ALL_ARMOR
   levels:
@@ -1996,27 +1969,27 @@ heavy:
       condition:
         - "%attacker is holding% = BOW : %allow%"
       effects:
-        - "REMOVE_DAMAGE:5 %victim%"
+        - "REMOVE_DAMAGE:4 %victim%"
     2:
       condition:
         - "%attacker is holding% = BOW : %allow%"
       effects:
-        - "REMOVE_DAMAGE:10 %victim%"
+        - "REMOVE_DAMAGE:8 %victim%"
     3:
       condition:
         - "%attacker is holding% = BOW : %allow%"
       effects:
-        - "REMOVE_DAMAGE:15 %victim%"
+        - "REMOVE_DAMAGE:12 %victim%"
     4:
       condition:
         - "%attacker is holding% = BOW : %allow%"
       effects:
-        - "REMOVE_DAMAGE:20 %victim%"
+        - "REMOVE_DAMAGE:16 %victim%"
     5:
       condition:
         - "%attacker is holding% = BOW : %allow%"
       effects:
-        - "REMOVE_DAMAGE:25 %victim%"
+        - "REMOVE_DAMAGE:20 %victim%"
 devour:
   display: "%group-color%Devour"
   description: "Chance to restore food while killing mobs."
@@ -2127,10 +2100,14 @@ longbow:
         - "INCREASE_DAMAGE:<random number>50-100</random number> %attacker%"
 tank:
   display: "%group-color%Tank"
-  description: "Decreases damage from enemy\naxes by 5% per level."
+  description: "Decreases damage from enemy\naxes by 4% per level."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
+  settings:
+    not-applyable-with:
+      - "tank"
+      - "heavy"
   applies:
     - ALL_ARMOR
   levels:
@@ -2138,33 +2115,37 @@ tank:
       condition:
         - "%attacker is holding% contains AXE : %allow%"
       effects:
-        - "REMOVE_DAMAGE:5 %victim%"
+        - "REMOVE_DAMAGE:4 %victim%"
     2:
       condition:
         - "%attacker is holding% contains AXE : %allow%"
       effects:
-        - "REMOVE_DAMAGE:10 %victim%"
+        - "REMOVE_DAMAGE:8 %victim%"
     3:
       condition:
         - "%attacker is holding% contains AXE : %allow%"
       effects:
-        - "REMOVE_DAMAGE:15 %victim%"
+        - "REMOVE_DAMAGE:12 %victim%"
     4:
+      condition:
+        - "%attacker is holding% contains AXE : %allow%"
+      effects:
+        - "REMOVE_DAMAGE:16 %victim%"
+    5:
       condition:
         - "%attacker is holding% contains AXE : %allow%"
       effects:
         - "REMOVE_DAMAGE:20 %victim%"
-    5:
-      condition:
-        - "%attacker is holding% contains AXE : %allow%"
-      effects:
-        - "REMOVE_DAMAGE:25 %victim%"
 valor:
   display: "%group-color%Valor"
-  description: "Decreases damage from enemy\nswords by 5% per level."
+  description: "Decreases damage from enemy\nswords by 4% per level."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
+  settings:
+    not-applyable-with:
+      - "tank"
+      - "heavy"
   applies:
     - ALL_ARMOR
   levels:
@@ -2172,27 +2153,27 @@ valor:
       condition:
         - "%attacker is holding% contains SWORD : %allow%"
       effects:
-        - "REMOVE_DAMAGE:<random number>5</random number> %victim%"
+        - "REMOVE_DAMAGE:<random number>4</random number> %victim%"
     2:
       condition:
         - "%attacker is holding% contains SWORD : %allow%"
       effects:
-        - "REMOVE_DAMAGE:<random number>10</random number> %victim%"
+        - "REMOVE_DAMAGE:<random number>8</random number> %victim%"
     3:
       condition:
         - "%attacker is holding% contains SWORD : %allow%"
       effects:
-        - "REMOVE_DAMAGE:<random number>15</random number> %victim%"
+        - "REMOVE_DAMAGE:<random number>12</random number> %victim%"
     4:
       condition:
         - "%attacker is holding% contains SWORD : %allow%"
       effects:
-        - "REMOVE_DAMAGE:<random number>20</random number> %victim%"
+        - "REMOVE_DAMAGE:<random number>16</random number> %victim%"
     5:
       condition:
         - "%attacker is holding% contains SWORD : %allow%"
       effects:
-        - "REMOVE_DAMAGE:<random number>25</random number> %victim%"
+        - "REMOVE_DAMAGE:<random number>20</random number> %victim%"
 critical:
   display: "%group-color%Critical"
   description: "Increase damage done with critical hit."
@@ -2270,22 +2251,22 @@ thunderlord:
 creeperarmor:
   display: "%group-color%Creeper Armor"
   description: "Chance to be immune to explosive damage, at\nhigher levels you have a chance to heal."
-  applies-to: "Armor"
+  applies-to: "Leggings"
   type: "EXPLOSION"
   group: "LEGENDARY"
   applies:
-    - ALL_ARMOR
+    - ALL_LEGGINGS
   levels:
     1:
-      chance: 25
+      chance: 15
       effects:
         - "STOP_ATTACK"
     2:
-      chance: 50
+      chance: 20
       effects:
         - "STOP_ATTACK"
     3:
-      chance: 75
+      chance: 30
       effects:
         - "STOP_ATTACK"
         - "ADD_HEALTH:<random number>1-2</random number>"
@@ -2437,7 +2418,7 @@ torrent:
   type: "ATTACK;ATTACK_MOB"
   group: "RARE"
   applies:
-    - ALL_SWORDS
+    - ALL_SWORD
   levels:
     1:
       chance: 8
@@ -2904,17 +2885,17 @@ sniper:
         - "INCREASE_DAMAGE:25 %attacker%"
     3:
       condition:
-        - "%is headshot% = false : %stop%"
+        - "%is headshot% = true : %allow%"
       effects:
         - "INCREASE_DAMAGE:35 %attacker%"
     4:
       condition:
-        - "%is headshot% = false : %stop%"
+        - "%is headshot% = true : %allow%"
       effects:
         - "INCREASE_DAMAGE:50 %attacker%"
     5:
       condition:
-        - "%is headshot% = false : %stop%"
+        - "%is headshot% = true : %allow%"
       effects:
         - "INCREASE_DAMAGE:100 %attacker%"
 deadshot:
@@ -2938,17 +2919,17 @@ deadshot:
         - "INCREASE_DAMAGE:25 %attacker%"
     3:
       condition:
-        - "%is headshot% = false : %stop%"
+        - "%is headshot% = true : %allow%"
       effects:
         - "INCREASE_DAMAGE:35 %attacker%"
     4:
       condition:
-        - "%is headshot% = false : %stop%"
+        - "%is headshot% = true : %allow%"
       effects:
         - "INCREASE_DAMAGE:50 %attacker%"
     5:
       condition:
-        - "%is headshot% = false : %stop%"
+        - "%is headshot% = true : %allow%"
       effects:
         - "INCREASE_DAMAGE:100 %attacker%"
 neutralize:
@@ -3115,7 +3096,7 @@ nightowl:
         - "INCREASE_DAMAGE:50"
 slingshot:
   display: "%group-color%Slingshot"
-  description: "Boost yourself into flight by right-clicking."
+  description: "Boost yourself into flight by right-clicking.\n(Has cooldown)"
   applies-to: "Elytra"
   type: "RIGHT_CLICK"
   group: "EXOTIC"
@@ -3123,20 +3104,20 @@ slingshot:
     - ELYTRA
   levels:
     1:
-      cooldown: 15
+      cooldown: 60
       condition: "%is holding% contains FIREWORK : %stop%"
       effects:
         - "BOOST:UP:10"
     2:
-      cooldown: 10
+      cooldown: 30
       condition: "%is holding% contains FIREWORK : %stop%"
       effects:
         - "BOOST:UP:12"
     3:
-      cooldown: 10
+      cooldown: 15
       condition: "%is holding% contains FIREWORK : %stop%"
       effects:
-        - "BOOST:UP:16"
+        - "BOOST:UP:12"
 confusion:
   display: '%group-color%Confusion'
   description: "A chance to deal nausea to\nyour victim."
@@ -3163,7 +3144,7 @@ confusion:
         - 'POTION:CONFUSION:0:120 %victim%'
 lifebloom:
   display: '%group-color%Lifebloom'
-  description: "Heals allieson your death\naround you."
+  description: "Heals allies on your death\naround you."
   applies-to: 'Armor'
   type: 'DEATH'
   group: 'RARE'
@@ -3172,49 +3153,51 @@ lifebloom:
   levels:
     1:
       effects:
-        - 'ADD_HEALTH:20 <aoe> radius=3 target=undamageable </aoe>'
+        - 'ADD_HEALTH:5 <aoe> radius=3 target=undamageable </aoe>'
         - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=3 target=undamageable </aoe>'
     2:
       effects:
-        - 'ADD_HEALTH:20 <aoe> radius=5 target=undamageable </aoe>'
+        - 'ADD_HEALTH:5 <aoe> radius=5 target=undamageable </aoe>'
         - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=5 target=undamageable </aoe>'
     3:
       effects:
-        - 'ADD_HEALTH:40 <aoe> radius=7 target=undamageable </aoe>'
+        - 'ADD_HEALTH:10 <aoe> radius=7 target=undamageable </aoe>'
         - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=7 target=undamageable </aoe>'
     4:
       effects:
-        - 'ADD_HEALTH:40 <aoe> radius=9 target=undamageable </aoe>'
+        - 'ADD_HEALTH:10 <aoe> radius=9 target=undamageable </aoe>'
         - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=9 target=undamageable </aoe>'
     5:
       effects:
-        - 'ADD_HEALTH:40 <aoe> radius=11 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=11 target=undamageable </aoe>'
+        - 'ADD_HEALTH:20 <aoe> radius=11 target=undamageable </aoe>'
+        - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=9 target=undamageable </aoe>'
 endershift:
-  display: '%group-color%EnderShift'
-  description: 'Gives speed/health boost at low hp.'
-  applies-to: 'Helmets, Boots'
+  display: '%group-color%Endershift'
+  description: 'Gives speed/health boost at low hp.\n(Has cooldown)'
+  applies-to: 'Helmets'
   type: 'DEFENSE;DEFENSE_BOW;DEFENSE_MOB;DEFENSE_MOB'
   group: 'UNCOMMON'
   applies:
     - ALL_HELMET
-    - ALL_BOOTS
   levels:
     1:
+      cooldown: 30
       condition:
-        - "%victim health% < 6 : %stop%"
+        - "%victim health% < 6 : %allow%"
       effects:
         - 'POTION:SPEED:1:40 %victim%'
         - 'POTION:ABSORPTION:0:20 %victim%'
     2:
+      cooldown: 30
       condition:
-        - "%victim health% < 6 : %stop%"
+        - "%victim health% < 6 : %allow%"
       effects:
         - 'POTION:SPEED:1:60 %victim%'
         - 'POTION:ABSORPTION:1:40 %victim%'
     3:
+      cooldown: 30
       condition:
-        - "%victim health% < 6 : %stop%"
+        - "%victim health% < 6 : %allow%"
       effects:
         - 'POTION:SPEED:1:120 %victim%'
         - 'POTION:ABSORPTION:2:80 %victim%'
@@ -3265,49 +3248,49 @@ execute:
       chance: 9
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %stop%"
+        - "%victim health% < 6 : %allow%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     2:
       chance: 15
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %stop%"
+        - "%victim health% < 6 : %allow%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     3:
       chance: 19
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %stop%"
+        - "%victim health% < 6 : %allow%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     4:
       chance: 24
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %stop%"
+        - "%victim health% < 6 : %allow%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     5:
       chance: 29
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %stop%"
+        - "%victim health% < 6 : %allow%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     6:
       chance: 32
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %stop%"
+        - "%victim health% < 6 : %allow%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     7:
       chance: 40
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %stop%"
+        - "%victim health% < 6 : %allow%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
 trap:
@@ -3320,18 +3303,18 @@ trap:
     - ALL_ARMOR
   levels:
     1:
-      chance: 16
-      cooldown: 3
+      chance: 9
+      cooldown: 6
       effects:
         - 'POTION:SLOW:2:60 %attacker%'
     2:
-      chance: 21
-      cooldown: 3
+      chance: 16
+      cooldown: 9
       effects:
         - 'POTION:SLOW:2:120 %attacker%'
     3:
-      chance: 27
-      cooldown: 3
+      chance: 22
+      cooldown: 12
       effects:
         - 'POTION:SLOW:2:180 %attacker%'
 enrage:
@@ -3347,31 +3330,32 @@ enrage:
       chance: 21
       cooldown: 2
       condition:
-        - "%attacker health% < 6 : %stop%"
+        - "%attacker health% < 6 : %allow%"
       effects:
         - 'ADD_HARM:<random number>1-4</random number> %victim%'
     2:
       chance: 27
       cooldown: 2
       condition:
-        - "%attacker health% < 6 : %stop%"
+        - "%attacker health% < 6 : %allow%"
       effects:
         - 'ADD_HARM:<random number>1-4</random number> %victim%'
     3:
       chance: 33
       cooldown: 2
       condition:
-        - "%attacker health% < 6 : %stop%"
+        - "%attacker health% < 6 : %allow%"
       effects:
         - 'ADD_HARM:<random number>1-4</random number> %victim%'
 demonic:
   display: '%group-color%Demonic'
   description: "Chance to remove fire resistance from your enemy."
-  applies-to: 'Armor'
+  applies-to: 'Swords, Axes'
   type: 'ATTACK'
   group: 'LEGENDARY'
   applies:
-    - ALL_ARMOR
+    - ALL_SWORD
+    - ALL_AXE
   levels:
     1:
       chance: 9
@@ -3380,13 +3364,13 @@ demonic:
         - 'CURE:FIRE_RESISTANCE %victim%'
         - 'CURE_PERMANENT:FIRE_RESISTANCE %victim%'
     2:
-      chance: 14
+      chance: 16
       cooldown: 2
       effects:
         - 'CURE:FIRE_RESISTANCE %victim%'
         - 'CURE_PERMANENT:FIRE_RESISTANCE %victim%'
     3:
-      chance: 20
+      chance: 22
       cooldown: 2
       effects:
         - 'CURE:FIRE_RESISTANCE %victim%'
@@ -3450,14 +3434,14 @@ arsonist:
         - '%attacker is on fire% = true : %allow%'
       effects:
         - 'ADD_HARM:3 %victim%'
-enderwalker:
-  display: '%group-color%Ender Walker'
+soulwhisper:
+  display: '%group-color%Soul Whisper'
   description: "Chance to cure Wither and Poison when attacked\nnand heal at high levels."
-  applies-to: 'Boots'
+  applies-to: 'Chestplates'
   type: 'DEFENSE'
   group: 'LEGENDARY'
   applies:
-    - ALL_BOOTS
+    - ALL_CHESTPLATE
   levels:
     1:
       chance: 9
@@ -3549,37 +3533,37 @@ unfocus:
       chance: 13
       cooldown: 4
       effects:
-        - 'POTION:CONFUSION:0:80 %victim%'
+        - 'POTION:CONFUSION:0:60 %victim%'
         - 'HALF_DAMAGE'
         - 'MESSAGE:&e*** YOU''VE BEEN UNFOCUSED *** %victim%'
-        - 'WAIT:85'
+        - 'WAIT:65'
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     3:
       chance: 19
       cooldown: 4
       effects:
-        - 'POTION:CONFUSION:0:120 %victim%'
+        - 'POTION:CONFUSION:0:80 %victim%'
         - 'HALF_DAMAGE'
         - 'MESSAGE:&e*** YOU''VE BEEN UNFOCUSED *** %victim%'
-        - 'WAIT:125'
+        - 'WAIT:85'
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     4:
       chance: 25
       cooldown: 4
       effects:
-        - 'POTION:CONFUSION:1:60 %victim%'
+        - 'POTION:CONFUSION:1:120 %victim%'
         - 'HALF_DAMAGE'
         - 'MESSAGE:&e*** YOU''VE BEEN UNFOCUSED *** %victim%'
-        - 'WAIT:65'
+        - 'WAIT:125'
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     5:
       chance: 32
       cooldown: 4
       effects:
-        - 'POTION:CONFUSION:1:100 %victim%'
+        - 'POTION:CONFUSION:1:120 %victim%'
         - 'HALF_DAMAGE'
         - 'MESSAGE:&e*** YOU''VE BEEN UNFOCUSED *** %victim%'
-        - 'WAIT:105'
+        - 'WAIT:125'
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
 metaphysical:
   display: '%group-color%Metaphysical'
@@ -3763,7 +3747,7 @@ inversion:
         - 'ADD_HEALTH:<random number>1-5</random number> %victim%'
 rage:
   display: '%group-color%Rage'
-  description: "For every combo hit you land,\nchance to do 0.5 heart damage per combo\nto your opponent.\nUp to 5 max combo hits."
+  description: "For every combo hit you land, chance to do\n0.5 heart damage per combo to your opponent."
   applies-to: 'Swords, Axes'
   type: 'ATTACK'
   group: 'EXOTIC'
@@ -3774,7 +3758,7 @@ rage:
     1:
       chance: 25
       condition:
-        - "%attacker combo% > 5 : %stop%"
+        - "%attacker combo% > 3 : %allow%"
       cooldown: 10
       effects:
         - 'ADD_HARM:%combo% %victim%'
@@ -3782,7 +3766,7 @@ rage:
     2:
       chance: 30
       condition:
-        - "%attacker combo% > 5 : %stop%"
+        - "%attacker combo% > 3 : %allow%"
       cooldown: 10
       effects:
         - 'ADD_HARM:%combo% %victim%'
@@ -3790,7 +3774,7 @@ rage:
     3:
       chance: 35
       condition:
-        - "%attacker combo% > 5 : %stop%"
+        - "%attacker combo% > 3 : %allow%"
       cooldown: 10
       effects:
         - 'ADD_HARM:%combo% %victim%'
@@ -3798,7 +3782,7 @@ rage:
     4:
       chance: 40
       condition:
-        - "%attacker combo% > 5 : %stop%"
+        - "%attacker combo% > 3 : %allow%"
       cooldown: 10
       effects:
         - 'ADD_HARM:%combo% %victim%'
@@ -3806,7 +3790,7 @@ rage:
     5:
       chance: 45
       condition:
-        - "%attacker combo% > 5 : %stop%"
+        - "%attacker combo% > 3 : %allow%"
       cooldown: 10
       effects:
         - 'ADD_HARM:%combo% %victim%'
@@ -3814,144 +3798,172 @@ rage:
     6:
       chance: 50
       condition:
-        - "%attacker combo% > 5 : %stop%"
+        - "%attacker combo% > 3 : %allow%"
       cooldown: 10
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
 silence:
   display: '%group-color%Silence'
-  description: 'Chance to stop activation of your enemy''s custom armor enchants.'
-  applies-to: 'Swords'
-  type: 'ATTACK'
+  description: 'Chance to disable all enemy armor enchantments\nfor 3 seconds.'
+  applies-to: 'All Weapons'
+  type: 'ATTACK;BOW'
   group: 'FABLED'
   applies:
     - ALL_SWORD
+    - ALL_AXE
+    - BOW
+    - CROSSBOW
+    - TRIDENT
   levels:
     1:
       chance: 2
       cooldown: 5
       effects:
-        - 'DISABLE_ACTIVATION:endershift:3 %victim%'
-        - 'DISABLE_ACTIVATION:molten:3 %victim%'
-        - 'DISABLE_ACTIVATION:selfdestruct:3 %victim%'
-        - 'DISABLE_ACTIVATION:plaguecarrier:3 %victim%'
-        - 'DISABLE_ACTIVATION:ragdoll:3 %victim%'
-        - 'DISABLE_ACTIVATION:trickster:3 %victim%'
-        - 'DISABLE_ACTIVATION:smokebomb:3 %victim%'
-        - 'DISABLE_ACTIVATION:undeadruse:3 %victim%'
-        - 'DISABLE_ACTIVATION:voodoo:3 %victim%'
-        - 'DISABLE_ACTIVATION:cactus:3 %victim%'
-        - 'DISABLE_ACTIVATION:shockwave:3 %victim%'
-        - 'DISABLE_ACTIVATION:hardened:3 %victim%'
-        - 'DISABLE_ACTIVATION:wither:3 %victim%'
-        - 'DISABLE_ACTIVATION:tank:3 %victim%'
-        - 'DISABLE_ACTIVATION:valor:3 %victim%'
-        - 'DISABLE_ACTIVATION:dodge:3 %victim%'
-        - 'DISABLE_ACTIVATION:guardians:3 %victim%'
-        - 'DISABLE_ACTIVATION:heavy:3 %victim%'
-        - 'DISABLE_ACTIVATION:marksman:3 %victim%'
+        - 'DISABLE_ACTIVATION:arrowdeflect:3 %victim%'
+        - 'DISABLE_ACTIVATION:chainlifesteal:3 %victim%'
+        - 'DISABLE_ACTIVATION:creeperarmor:3 %victim%'
         - 'DISABLE_ACTIVATION:diminish:3 %victim%'
-        - 'DISABLE_ACTIVATION:deathbringer:3 %victim%'
-        - 'DISABLE_ACTIVATION:armored:3 %victim%'
-        - 'DISABLE_ACTIVATION:enlighted:3 %victim%'
-        - 'DISABLE_ACTIVATION:deathgod:3 %victim%'
-        - 'DISABLE_ACTIVATION:planetarydeathbringer:3 %victim%'
-        - 'DISABLE_ACTIVATION:divineenlighted:3 %victim%'
-        - 'DISABLE_ACTIVATION:vengefuldiminish:3 %victim%'
-        - 'DISABLE_ACTIVATION:etherealdodge:3 %victim%'
-        - 'DISABLE_ACTIVATION:paladinarmored:3 %victim%'
-        - 'MESSAGE:&5&l* SILENCED&r &7[3s] &5&l* %victim%'
+        - 'DISABLE_ACTIVATION:divert:3 %victim%'
+        - 'DISABLE_ACTIVATION:dodge:3 %victim%'
+        - 'DISABLE_ACTIVATION:extinguish:3 %victim%'
+        - 'DISABLE_ACTIVATION:guardian:3 %victim%'
+        - 'DISABLE_ACTIVATION:hardened:3 %victim%'
+        - 'DISABLE_ACTIVATION:heavy:3 %victim%'
+        - 'DISABLE_ACTIVATION:lifebloom:3 %victim%'
+        - 'DISABLE_ACTIVATION:markofthebeast:3 %victim%'
+        - 'DISABLE_ACTIVATION:reflect:3 %victim%'
+        - 'DISABLE_ACTIVATION:safeguard:3 %victim%'
+        - 'DISABLE_ACTIVATION:tank:3 %victim%'
+        - 'DISABLE_ACTIVATION:trap:3 %victim%'
+        - 'DISABLE_ACTIVATION:unholy:3 %victim%'
+        - 'DISABLE_ACTIVATION:valor:3 %victim%'
+        - 'DISABLE_ACTIVATION:ward:3 %victim%'
+        - 'DISABLE_ACTIVATION:endershift:3 %victim%'
+        - 'DISABLE_ACTIVATION:implants:3 %victim%'
+        - 'DISABLE_ACTIVATION:phoenix:3 %victim%'
+        - 'DISABLE_ACTIVATION:shockwave:3 %victim%'
+        - 'DISABLE_ACTIVATION:soulwhisper:3 %victim%'
+        - 'DISABLE_ACTIVATION:gears:3 %victim%'
+        - 'DISABLE_ACTIVATION:jellylegs:3 %victim%'
+        - 'DISABLE_ACTIVATION:lavawalker:3 %victim%'
+        - 'DISABLE_ACTIVATION:metaphysical:3 %victim%'
+        - 'DISABLE_ACTIVATION:plummet:3 %victim%'
+        - 'DISABLE_ACTIVATION:springs:3 %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %victim%'
+        - 'WAIT:65'
+        - 'MESSAGE:&5*** ARMOR UNSILENCED *** %victim%'
     2:
       chance: 3
       cooldown: 5
       effects:
-        - 'DISABLE_ACTIVATION:endershift:3 %victim%'
-        - 'DISABLE_ACTIVATION:molten:3 %victim%'
-        - 'DISABLE_ACTIVATION:selfdestruct:3 %victim%'
-        - 'DISABLE_ACTIVATION:plaguecarrier:3 %victim%'
-        - 'DISABLE_ACTIVATION:ragdoll:3 %victim%'
-        - 'DISABLE_ACTIVATION:trickster:3 %victim%'
         - 'DISABLE_ACTIVATION:arrowdeflect:3 %victim%'
-        - 'DISABLE_ACTIVATION:arrowbreak:3 %victim%'
-        - 'DISABLE_ACTIVATION:metaphysical:3 %victim%'
-        - 'DISABLE_ACTIVATION:tank:3 %victim%'
-        - 'DISABLE_ACTIVATION:valor:3 %victim%'
-        - 'DISABLE_ACTIVATION:dodge:3 %victim%'
-        - 'DISABLE_ACTIVATION:guardians:3 %victim%'
-        - 'DISABLE_ACTIVATION:heavy:3 %victim%'
-        - 'DISABLE_ACTIVATION:marksman:3 %victim%'
+        - 'DISABLE_ACTIVATION:chainlifesteal:3 %victim%'
+        - 'DISABLE_ACTIVATION:creeperarmor:3 %victim%'
         - 'DISABLE_ACTIVATION:diminish:3 %victim%'
-        - 'DISABLE_ACTIVATION:deathbringer:3 %victim%'
-        - 'DISABLE_ACTIVATION:armored:3 %victim%'
-        - 'DISABLE_ACTIVATION:enlighted:3 %victim%'
-        - 'DISABLE_ACTIVATION:deathgod:3 %victim%'
-        - 'DISABLE_ACTIVATION:planetarydeathbringer:3 %victim%'
-        - 'DISABLE_ACTIVATION:divineenlighted:3 %victim%'
-        - 'DISABLE_ACTIVATION:vengefuldiminish:3 %victim%'
-        - 'DISABLE_ACTIVATION:etherealdodge:3 %victim%'
-        - 'DISABLE_ACTIVATION:paladinarmored:3 %victim%'
-        - 'MESSAGE:&5&l* SILENCED&r &7[3s] &5&l* %victim%'
+        - 'DISABLE_ACTIVATION:divert:3 %victim%'
+        - 'DISABLE_ACTIVATION:dodge:3 %victim%'
+        - 'DISABLE_ACTIVATION:extinguish:3 %victim%'
+        - 'DISABLE_ACTIVATION:guardian:3 %victim%'
+        - 'DISABLE_ACTIVATION:hardened:3 %victim%'
+        - 'DISABLE_ACTIVATION:heavy:3 %victim%'
+        - 'DISABLE_ACTIVATION:lifebloom:3 %victim%'
+        - 'DISABLE_ACTIVATION:markofthebeast:3 %victim%'
+        - 'DISABLE_ACTIVATION:reflect:3 %victim%'
+        - 'DISABLE_ACTIVATION:safeguard:3 %victim%'
+        - 'DISABLE_ACTIVATION:tank:3 %victim%'
+        - 'DISABLE_ACTIVATION:trap:3 %victim%'
+        - 'DISABLE_ACTIVATION:unholy:3 %victim%'
+        - 'DISABLE_ACTIVATION:valor:3 %victim%'
+        - 'DISABLE_ACTIVATION:ward:3 %victim%'
+        - 'DISABLE_ACTIVATION:endershift:3 %victim%'
+        - 'DISABLE_ACTIVATION:implants:3 %victim%'
+        - 'DISABLE_ACTIVATION:phoenix:3 %victim%'
+        - 'DISABLE_ACTIVATION:shockwave:3 %victim%'
+        - 'DISABLE_ACTIVATION:soulwhisper:3 %victim%'
+        - 'DISABLE_ACTIVATION:gears:3 %victim%'
+        - 'DISABLE_ACTIVATION:jellylegs:3 %victim%'
+        - 'DISABLE_ACTIVATION:lavawalker:3 %victim%'
+        - 'DISABLE_ACTIVATION:metaphysical:3 %victim%'
+        - 'DISABLE_ACTIVATION:plummet:3 %victim%'
+        - 'DISABLE_ACTIVATION:springs:3 %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %victim%'
+        - 'WAIT:65'
+        - 'MESSAGE:&5*** ARMOR UNSILENCED *** %victim%'
     3:
       chance: 5
       cooldown: 5
       effects:
-        - 'DISABLE_ACTIVATION:endershift:5 %victim%'
-        - 'DISABLE_ACTIVATION:molten:5 %victim%'
-        - 'DISABLE_ACTIVATION:selfdestruct:5 %victim%'
-        - 'DISABLE_ACTIVATION:plaguecarrier:5 %victim%'
-        - 'DISABLE_ACTIVATION:angelic:5 %victim%'
-        - 'DISABLE_ACTIVATION:spirits:5 %victim%'
-        - 'DISABLE_ACTIVATION:arrowdeflect:5 %victim%'
-        - 'DISABLE_ACTIVATION:arrowbreak:5 %victim%'
-        - 'DISABLE_ACTIVATION:metaphysical:5 %victim%'
-        - 'DISABLE_ACTIVATION:tank:5 %victim%'
-        - 'DISABLE_ACTIVATION:valor:5 %victim%'
-        - 'DISABLE_ACTIVATION:dodge:5 %victim%'
-        - 'DISABLE_ACTIVATION:guardians:5 %victim%'
-        - 'DISABLE_ACTIVATION:heavy:5 %victim%'
-        - 'DISABLE_ACTIVATION:marksman:5 %victim%'
-        - 'DISABLE_ACTIVATION:diminish:5 %victim%'
-        - 'DISABLE_ACTIVATION:deathbringer:5 %victim%'
-        - 'DISABLE_ACTIVATION:armored:5 %victim%'
-        - 'DISABLE_ACTIVATION:enlighted:5 %victim%'
-        - 'DISABLE_ACTIVATION:deathgod:5 %victim%'
-        - 'DISABLE_ACTIVATION:planetarydeathbringer:5 %victim%'
-        - 'DISABLE_ACTIVATION:divineenlighted:5 %victim%'
-        - 'DISABLE_ACTIVATION:vengefuldiminish:5 %victim%'
-        - 'DISABLE_ACTIVATION:etherealdodge:5 %victim%'
-        - 'DISABLE_ACTIVATION:paladinarmored:5 %victim%'
-        - 'MESSAGE:&5&l* SILENCED&r &7[5s] &5&l* %victim%'
+        - 'DISABLE_ACTIVATION:arrowdeflect:3 %victim%'
+        - 'DISABLE_ACTIVATION:chainlifesteal:3 %victim%'
+        - 'DISABLE_ACTIVATION:creeperarmor:3 %victim%'
+        - 'DISABLE_ACTIVATION:diminish:3 %victim%'
+        - 'DISABLE_ACTIVATION:divert:3 %victim%'
+        - 'DISABLE_ACTIVATION:dodge:3 %victim%'
+        - 'DISABLE_ACTIVATION:extinguish:3 %victim%'
+        - 'DISABLE_ACTIVATION:guardian:3 %victim%'
+        - 'DISABLE_ACTIVATION:hardened:3 %victim%'
+        - 'DISABLE_ACTIVATION:heavy:3 %victim%'
+        - 'DISABLE_ACTIVATION:lifebloom:3 %victim%'
+        - 'DISABLE_ACTIVATION:markofthebeast:3 %victim%'
+        - 'DISABLE_ACTIVATION:reflect:3 %victim%'
+        - 'DISABLE_ACTIVATION:safeguard:3 %victim%'
+        - 'DISABLE_ACTIVATION:tank:3 %victim%'
+        - 'DISABLE_ACTIVATION:trap:3 %victim%'
+        - 'DISABLE_ACTIVATION:unholy:3 %victim%'
+        - 'DISABLE_ACTIVATION:valor:3 %victim%'
+        - 'DISABLE_ACTIVATION:ward:3 %victim%'
+        - 'DISABLE_ACTIVATION:endershift:3 %victim%'
+        - 'DISABLE_ACTIVATION:implants:3 %victim%'
+        - 'DISABLE_ACTIVATION:phoenix:3 %victim%'
+        - 'DISABLE_ACTIVATION:shockwave:3 %victim%'
+        - 'DISABLE_ACTIVATION:soulwhisper:3 %victim%'
+        - 'DISABLE_ACTIVATION:gears:3 %victim%'
+        - 'DISABLE_ACTIVATION:jellylegs:3 %victim%'
+        - 'DISABLE_ACTIVATION:lavawalker:3 %victim%'
+        - 'DISABLE_ACTIVATION:metaphysical:3 %victim%'
+        - 'DISABLE_ACTIVATION:plummet:3 %victim%'
+        - 'DISABLE_ACTIVATION:springs:3 %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %victim%'
+        - 'WAIT:65'
+        - 'MESSAGE:&5*** ARMOR UNSILENCED *** %victim%'
     4:
       chance: 10
       cooldown: 5
       effects:
-        - 'DISABLE_ACTIVATION:endershift:7 %victim%'
-        - 'DISABLE_ACTIVATION:molten:7 %victim%'
-        - 'DISABLE_ACTIVATION:selfdestruct:7 %victim%'
-        - 'DISABLE_ACTIVATION:plaguecarrier:7 %victim%'
-        - 'DISABLE_ACTIVATION:ragdoll:7 %victim%'
-        - 'DISABLE_ACTIVATION:spirits:7 %victim%'
-        - 'DISABLE_ACTIVATION:arrowdeflect:7 %victim%'
-        - 'DISABLE_ACTIVATION:arrowbreak:7 %victim%'
-        - 'DISABLE_ACTIVATION:metaphysical:7 %victim%'
-        - 'DISABLE_ACTIVATION:tank:7 %victim%'
-        - 'DISABLE_ACTIVATION:valor:7 %victim%'
-        - 'DISABLE_ACTIVATION:dodge:7 %victim%'
-        - 'DISABLE_ACTIVATION:guardians:7 %victim%'
-        - 'DISABLE_ACTIVATION:heavy:7 %victim%'
-        - 'DISABLE_ACTIVATION:marksman:7 %victim%'
-        - 'DISABLE_ACTIVATION:diminish:7 %victim%'
-        - 'DISABLE_ACTIVATION:deathbringer:7 %victim%'
-        - 'DISABLE_ACTIVATION:armored:7 %victim%'
-        - 'DISABLE_ACTIVATION:enlighted:7 %victim%'
-        - 'DISABLE_ACTIVATION:deathgod:7 %victim%'
-        - 'DISABLE_ACTIVATION:planetarydeathbringer:7 %victim%'
-        - 'DISABLE_ACTIVATION:divineenlighted:7 %victim%'
-        - 'DISABLE_ACTIVATION:vengefuldiminish:7 %victim%'
-        - 'DISABLE_ACTIVATION:etherealdodge:7 %victim%'
-        - 'DISABLE_ACTIVATION:paladinarmored:7 %victim%'
-        - 'MESSAGE:&5&l* SILENCED&r &7[7s] &5&l* %victim%'
+        - 'DISABLE_ACTIVATION:arrowdeflect:3 %victim%'
+        - 'DISABLE_ACTIVATION:chainlifesteal:3 %victim%'
+        - 'DISABLE_ACTIVATION:creeperarmor:3 %victim%'
+        - 'DISABLE_ACTIVATION:diminish:3 %victim%'
+        - 'DISABLE_ACTIVATION:divert:3 %victim%'
+        - 'DISABLE_ACTIVATION:dodge:3 %victim%'
+        - 'DISABLE_ACTIVATION:extinguish:3 %victim%'
+        - 'DISABLE_ACTIVATION:guardian:3 %victim%'
+        - 'DISABLE_ACTIVATION:hardened:3 %victim%'
+        - 'DISABLE_ACTIVATION:heavy:3 %victim%'
+        - 'DISABLE_ACTIVATION:lifebloom:3 %victim%'
+        - 'DISABLE_ACTIVATION:markofthebeast:3 %victim%'
+        - 'DISABLE_ACTIVATION:reflect:3 %victim%'
+        - 'DISABLE_ACTIVATION:safeguard:3 %victim%'
+        - 'DISABLE_ACTIVATION:tank:3 %victim%'
+        - 'DISABLE_ACTIVATION:trap:3 %victim%'
+        - 'DISABLE_ACTIVATION:unholy:3 %victim%'
+        - 'DISABLE_ACTIVATION:valor:3 %victim%'
+        - 'DISABLE_ACTIVATION:ward:3 %victim%'
+        - 'DISABLE_ACTIVATION:endershift:3 %victim%'
+        - 'DISABLE_ACTIVATION:implants:3 %victim%'
+        - 'DISABLE_ACTIVATION:phoenix:3 %victim%'
+        - 'DISABLE_ACTIVATION:shockwave:3 %victim%'
+        - 'DISABLE_ACTIVATION:soulwhisper:3 %victim%'
+        - 'DISABLE_ACTIVATION:gears:3 %victim%'
+        - 'DISABLE_ACTIVATION:jellylegs:3 %victim%'
+        - 'DISABLE_ACTIVATION:lavawalker:3 %victim%'
+        - 'DISABLE_ACTIVATION:metaphysical:3 %victim%'
+        - 'DISABLE_ACTIVATION:plummet:3 %victim%'
+        - 'DISABLE_ACTIVATION:springs:3 %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %victim%'
+        - 'WAIT:65'
+        - 'MESSAGE:&5*** ARMOR UNSILENCED *** %victim%'
 diminish:
   display: '%group-color%Diminish'
   description: "When this effect procs, the next attack\ndealt to you cannot deal more than\nthe (total amount of damage / 2)\nyou took from the previous attack."
@@ -3993,69 +4005,230 @@ diminish:
         - 'HALF_DAMAGE'
 defuse:
   display: '%group-color%Defuse'
-  description: "Chance to disable all enemy defensive enchantment's for 7 seconds.\nThis effect can stack with silence."
-  applies-to: "Swords"
-  type: 'ATTACK'
+  description: "Chance to disable all enemy offensive armor enchantments\nfor 7 seconds."
+  applies-to: "All Weapons"
+  type: 'ATTACK;BOW'
   group: 'FABLED'
   applies:
     - ALL_SWORD
+    - ALL_AXE
+    - TRIDENT
+    - BOW
+    - CROSSBOW
   levels:
     '1':
       chance: 2
       cooldown: 140
       effects:
-        - DISABLE_ACTIVATION:cactus:7 %victim%
-        - DISABLE_ACTIVATION:enlighted:7 %victim%
-        - DISABLE_ACTIVATION:angelic:7 %victim%
-        - DISABLE_ACTIVATION:divineenlighted:7 %victim%
-        - DISABLE_ACTIVATION:dodge:7 %victim%
-        - DISABLE_ACTIVATION:valor:7 %victim%
-        - DISABLE_ACTIVATION:mightycactus:7 %victim%
+        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
+        - DISABLE_ACTIVATION:divert:7 %victim%
+        - DISABLE_ACTIVATION:reflect:7 %victim%
+        - DISABLE_ACTIVATION:unholy:7 %victim%
+        - DISABLE_ACTIVATION:plummet:7 %victim%
+        - DISABLE_ACTIVATION:trap:7 %victim%
+        - DISABLE_ACTIVATION:shockwave:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %victim%'
+        - 'WAIT:145'
+        - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
     '2':
       chance: 3
       cooldown: 120
       effects:
-        - DISABLE_ACTIVATION:cactus:7 %victim%
-        - DISABLE_ACTIVATION:enlighted:7 %victim%
-        - DISABLE_ACTIVATION:angelic:7 %victim%
-        - DISABLE_ACTIVATION:divineenlighted:7 %victim%
-        - DISABLE_ACTIVATION:dodge:7 %victim%
-        - DISABLE_ACTIVATION:valor:7 %victim%
-        - DISABLE_ACTIVATION:mightycactus:7 %victim%
+        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
+        - DISABLE_ACTIVATION:divert:7 %victim%
+        - DISABLE_ACTIVATION:reflect:7 %victim%
+        - DISABLE_ACTIVATION:unholy:7 %victim%
+        - DISABLE_ACTIVATION:plummet:7 %victim%
+        - DISABLE_ACTIVATION:trap:7 %victim%
+        - DISABLE_ACTIVATION:shockwave:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %victim%'
+        - 'WAIT:145'
+        - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
     '3':
       chance: 4
       cooldown: 100
       effects:
-        - DISABLE_ACTIVATION:cactus:7 %victim%
-        - DISABLE_ACTIVATION:enlighted:7 %victim%
-        - DISABLE_ACTIVATION:angelic:7 %victim%
-        - DISABLE_ACTIVATION:divineenlighted:7 %victim%
-        - DISABLE_ACTIVATION:dodge:7 %victim%
-        - DISABLE_ACTIVATION:valor:7 %victim%
-        - DISABLE_ACTIVATION:mightycactus:7 %victim%
+        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
+        - DISABLE_ACTIVATION:divert:7 %victim%
+        - DISABLE_ACTIVATION:reflect:7 %victim%
+        - DISABLE_ACTIVATION:unholy:7 %victim%
+        - DISABLE_ACTIVATION:plummet:7 %victim%
+        - DISABLE_ACTIVATION:trap:7 %victim%
+        - DISABLE_ACTIVATION:shockwave:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %victim%'
+        - 'WAIT:145'
+        - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
     '4':
       chance: 5
       cooldown: 80
       effects:
-        - DISABLE_ACTIVATION:cactus:7 %victim%
-        - DISABLE_ACTIVATION:enlighted:7 %victim%
-        - DISABLE_ACTIVATION:angelic:7 %victim%
-        - DISABLE_ACTIVATION:divineenlighted:7 %victim%
-        - DISABLE_ACTIVATION:dodge:7 %victim%
-        - DISABLE_ACTIVATION:valor:7 %victim%
-        - DISABLE_ACTIVATION:mightycactus:7 %victim%
+        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
+        - DISABLE_ACTIVATION:divert:7 %victim%
+        - DISABLE_ACTIVATION:reflect:7 %victim%
+        - DISABLE_ACTIVATION:unholy:7 %victim%
+        - DISABLE_ACTIVATION:plummet:7 %victim%
+        - DISABLE_ACTIVATION:trap:7 %victim%
+        - DISABLE_ACTIVATION:shockwave:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %victim%'
+        - 'WAIT:145'
+        - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
     '5':
       chance: 7
       cooldown: 20
       effects:
-        - DISABLE_ACTIVATION:cactus:5 %victim%
-        - DISABLE_ACTIVATION:enlighted:5 %victim%
-        - DISABLE_ACTIVATION:angelic:5 %victim%
-        - DISABLE_ACTIVATION:divineenlighted:5 %victim
-        - DISABLE_ACTIVATION:dodge:5 %victim%
-        - DISABLE_ACTIVATION:valor:5 %victim%
-        - DISABLE_ACTIVATION:mightycactus:5 %victim%
-        - DISABLE_ACTIVATION:lucky:5 %victim%
+        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
+        - DISABLE_ACTIVATION:divert:7 %victim%
+        - DISABLE_ACTIVATION:reflect:7 %victim%
+        - DISABLE_ACTIVATION:unholy:7 %victim%
+        - DISABLE_ACTIVATION:plummet:7 %victim%
+        - DISABLE_ACTIVATION:trap:7 %victim%
+        - DISABLE_ACTIVATION:shockwave:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %victim%'
+        - 'WAIT:145'
+        - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
+deactivate:
+  display: '%group-color%Deactivate'
+  description: "Chance to disable all enemy defensive armor enchantments\nfor 7 seconds."
+  applies-to: "All Weapons"
+  type: 'ATTACK;BOW'
+  group: 'FABLED'
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+    - TRIDENT
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 2
+      cooldown: 140
+      effects:
+        - DISABLE_ACTIVATION:arrowdeflect:7 %victim%
+        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
+        - DISABLE_ACTIVATION:creeperarmor:7 %victim%
+        - DISABLE_ACTIVATION:divert:7 %victim%
+        - DISABLE_ACTIVATION:dodge:7 %victim%
+        - DISABLE_ACTIVATION:extinguish:7 %victim%
+        - DISABLE_ACTIVATION:guardian:7 %victim%
+        - DISABLE_ACTIVATION:hardened:7 %victim%
+        - DISABLE_ACTIVATION:heavy:7 %victim%
+        - DISABLE_ACTIVATION:reflect:7 %victim%
+        - DISABLE_ACTIVATION:safeguard:7 %victim%
+        - DISABLE_ACTIVATION:tank:7 %victim%
+        - DISABLE_ACTIVATION:valor:7 %victim%
+        - DISABLE_ACTIVATION:ward:7 %victim%
+        - DISABLE_ACTIVATION:endershift:7 %victim%
+        - DISABLE_ACTIVATION:phoenix:7 %victim%
+        - DISABLE_ACTIVATION:soulwhisper:7 %victim%
+        - DISABLE_ACTIVATION:jellylegs:7 %victim%
+        - DISABLE_ACTIVATION:metaphysical:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %victim%'
+        - 'WAIT:145'
+        - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
+    '2':
+      chance: 3
+      cooldown: 120
+      effects:
+        - DISABLE_ACTIVATION:arrowdeflect:7 %victim%
+        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
+        - DISABLE_ACTIVATION:creeperarmor:7 %victim%
+        - DISABLE_ACTIVATION:divert:7 %victim%
+        - DISABLE_ACTIVATION:dodge:7 %victim%
+        - DISABLE_ACTIVATION:extinguish:7 %victim%
+        - DISABLE_ACTIVATION:guardian:7 %victim%
+        - DISABLE_ACTIVATION:hardened:7 %victim%
+        - DISABLE_ACTIVATION:heavy:7 %victim%
+        - DISABLE_ACTIVATION:reflect:7 %victim%
+        - DISABLE_ACTIVATION:safeguard:7 %victim%
+        - DISABLE_ACTIVATION:tank:7 %victim%
+        - DISABLE_ACTIVATION:valor:7 %victim%
+        - DISABLE_ACTIVATION:ward:7 %victim%
+        - DISABLE_ACTIVATION:endershift:7 %victim%
+        - DISABLE_ACTIVATION:phoenix:7 %victim%
+        - DISABLE_ACTIVATION:soulwhisper:7 %victim%
+        - DISABLE_ACTIVATION:jellylegs:7 %victim%
+        - DISABLE_ACTIVATION:metaphysical:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %victim%'
+        - 'WAIT:145'
+        - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
+    '3':
+      chance: 4
+      cooldown: 100
+      effects:
+        - DISABLE_ACTIVATION:arrowdeflect:7 %victim%
+        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
+        - DISABLE_ACTIVATION:creeperarmor:7 %victim%
+        - DISABLE_ACTIVATION:divert:7 %victim%
+        - DISABLE_ACTIVATION:dodge:7 %victim%
+        - DISABLE_ACTIVATION:extinguish:7 %victim%
+        - DISABLE_ACTIVATION:guardian:7 %victim%
+        - DISABLE_ACTIVATION:hardened:7 %victim%
+        - DISABLE_ACTIVATION:heavy:7 %victim%
+        - DISABLE_ACTIVATION:reflect:7 %victim%
+        - DISABLE_ACTIVATION:safeguard:7 %victim%
+        - DISABLE_ACTIVATION:tank:7 %victim%
+        - DISABLE_ACTIVATION:valor:7 %victim%
+        - DISABLE_ACTIVATION:ward:7 %victim%
+        - DISABLE_ACTIVATION:endershift:7 %victim%
+        - DISABLE_ACTIVATION:phoenix:7 %victim%
+        - DISABLE_ACTIVATION:soulwhisper:7 %victim%
+        - DISABLE_ACTIVATION:jellylegs:7 %victim%
+        - DISABLE_ACTIVATION:metaphysical:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %victim%'
+        - 'WAIT:145'
+        - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
+    '4':
+      chance: 5
+      cooldown: 80
+      effects:
+        - DISABLE_ACTIVATION:arrowdeflect:7 %victim%
+        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
+        - DISABLE_ACTIVATION:creeperarmor:7 %victim%
+        - DISABLE_ACTIVATION:divert:7 %victim%
+        - DISABLE_ACTIVATION:dodge:7 %victim%
+        - DISABLE_ACTIVATION:extinguish:7 %victim%
+        - DISABLE_ACTIVATION:guardian:7 %victim%
+        - DISABLE_ACTIVATION:hardened:7 %victim%
+        - DISABLE_ACTIVATION:heavy:7 %victim%
+        - DISABLE_ACTIVATION:reflect:7 %victim%
+        - DISABLE_ACTIVATION:safeguard:7 %victim%
+        - DISABLE_ACTIVATION:tank:7 %victim%
+        - DISABLE_ACTIVATION:valor:7 %victim%
+        - DISABLE_ACTIVATION:ward:7 %victim%
+        - DISABLE_ACTIVATION:endershift:7 %victim%
+        - DISABLE_ACTIVATION:phoenix:7 %victim%
+        - DISABLE_ACTIVATION:soulwhisper:7 %victim%
+        - DISABLE_ACTIVATION:jellylegs:7 %victim%
+        - DISABLE_ACTIVATION:metaphysical:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %victim%'
+        - 'WAIT:145'
+        - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
+    '5':
+      chance: 7
+      cooldown: 80
+      effects:
+        - DISABLE_ACTIVATION:arrowdeflect:7 %victim%
+        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
+        - DISABLE_ACTIVATION:creeperarmor:7 %victim%
+        - DISABLE_ACTIVATION:divert:7 %victim%
+        - DISABLE_ACTIVATION:dodge:7 %victim%
+        - DISABLE_ACTIVATION:extinguish:7 %victim%
+        - DISABLE_ACTIVATION:guardian:7 %victim%
+        - DISABLE_ACTIVATION:hardened:7 %victim%
+        - DISABLE_ACTIVATION:heavy:7 %victim%
+        - DISABLE_ACTIVATION:reflect:7 %victim%
+        - DISABLE_ACTIVATION:safeguard:7 %victim%
+        - DISABLE_ACTIVATION:tank:7 %victim%
+        - DISABLE_ACTIVATION:valor:7 %victim%
+        - DISABLE_ACTIVATION:ward:7 %victim%
+        - DISABLE_ACTIVATION:endershift:7 %victim%
+        - DISABLE_ACTIVATION:phoenix:7 %victim%
+        - DISABLE_ACTIVATION:soulwhisper:7 %victim%
+        - DISABLE_ACTIVATION:jellylegs:7 %victim%
+        - DISABLE_ACTIVATION:metaphysical:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %victim%'
+        - 'WAIT:145'
+        - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
 markofthebeast:
   display: '%group-color%Mark of the Beast'
   description: "Once an enemy is afflicted with the mark\nall incoming damage is increased by 2x for\nup to 5 seconds"

@@ -10,3 +10,6 @@ back:
 ae:
   enabled: true
   message: "<white>Unknown command. Type \"/help\" for help."
+advancedenchantments:
+  enabled: true
+  message: "<white>Unknown command. Type \"/help\" for help."
