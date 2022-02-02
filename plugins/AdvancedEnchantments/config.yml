@@ -226,7 +226,7 @@ enchanter-books:
   name: '%group-color%%group-name% Random Enchant Book'
   lore:
   - '&8Right Click while holding to receive a'
-  - '&8random %group-name% enchant book
+  - '&8random %group-name% enchant book'
 
 items:
   settings:
