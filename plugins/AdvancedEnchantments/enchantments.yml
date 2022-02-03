@@ -1843,8 +1843,8 @@ restore:
         - "REMOVE_ENCHANT:restore"
         - "ADD_DURABILITY_ITEM:<round><math>-1 * (%maximum durability%/2)</math></round>"
         - "PLAY_SOUND:ITEM_TOTEM_USE"
-implants:
-  display: "%group-color%Implants"
+nanocarrots:
+  display: "%group-color%Nano Carrots"
   description: "Chance to restore food every few seconds."
   applies-to: "Helmets"
   type: "REPEATING"
@@ -1854,15 +1854,15 @@ implants:
     - ALL_HELMET
   levels:
     1:
-      chance: 30
+      chance: 5
       effects:
         - "ADD_FOOD:1"
     2:
-      chance: 50
+      chance: 10
       effects:
         - "ADD_FOOD:1"
     3:
-      chance: 70
+      chance: 15
       effects:
         - "ADD_FOOD:1"
 poseidon:
@@ -3173,7 +3173,7 @@ lifebloom:
         - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=9 target=undamageable </aoe>'
 endershift:
   display: '%group-color%Endershift'
-  description: 'Gives speed/health boost at low hp.\n(Has cooldown)'
+  description: "Gives speed/health boost at low hp.\n(Has cooldown)"
   applies-to: 'Helmets'
   type: 'DEFENSE;DEFENSE_BOW;DEFENSE_MOB;DEFENSE_MOB'
   group: 'UNCOMMON'
