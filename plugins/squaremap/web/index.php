@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>SemiVanilla Minecraft Server | Map</title>
+    <title>Semi-Vanilla Minecraft Server | Map</title>
     <meta charset="utf-8" />
     <meta name="description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills and abilities. PVP. Java + Bedrock support! A challenging adventure awaits... Join Now!" />
     <meta property="og:url" content="https://semivanilla.com" />
