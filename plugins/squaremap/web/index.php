@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
     <title>SemiVanilla Minecraft Server | Map</title>
-    <meta name="description" content="Dynamic Map - A semi-vanilla 1.18.1 survival Minecraft server. Java + Bedrock support! Competitive multiplayer adventure. Join Now!" />
+    <meta charset="utf-8" />
+    <meta name="description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills and abilities. PVP. Java + Bedrock support! A challenging adventure awaits... Join Now!" />
     <meta property="og:url" content="https://semivanilla.com" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="SemiVanilla MC" />
-    <meta property="og:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Java + Bedrock support! Competitive multiplayer adventure." />
+    <meta property="og:title" content="SemiVanilla Minecraft Server" />
+    <meta property="og:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills. PVP. Java + Bedrock support!" />
     <meta property="og:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="semivanilla.com" />
     <meta property="twitter:url" content="https://semivanilla.com" />
-    <meta name="twitter:title" content="SemiVanilla MC" />
-    <meta name="twitter:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Java + Bedrock support! Competitive multiplayer adventure." />
+    <meta name="twitter:title" content="SemiVanilla Minecraft Server" />
+    <meta name="twitter:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills. PVP. 
+    Java + Bedrock support!" />
     <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://semivanilla.com/assets/images/apple-touch-icon.png">
     <meta name="theme-color" content="#000000" />
-    <meta name="keywords" content="dynmap, squaremap, semi, vanilla, minecraft, survival, server, bedrock, java, pvp, pve, mcmmo, rpg, multiplayer" />
-    <link rel="icon" href="https://semivanilla.com/assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="https://semivanilla.com/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
     <link rel="stylesheet" href="https://semivanilla.com/assets/css/cookienotice.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script>
@@ -35,7 +35,6 @@
     <script async>
       document.addEventListener("touchstart", function(){}, true);
     </script>
-    <script async src="/assets/javascript/cookie_notice.js"></script>
 
     <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2" as="font" crossorigin="anonymous" />
     <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCIPrE.woff2" as="font" crossorigin="anonymous" />

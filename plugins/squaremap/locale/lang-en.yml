@@ -55,7 +55,7 @@ click-for-help: Click for help
 click-to-confirm: Click to confirm
 click-to-toggle: Click to toggle
 ui:
-    page-title: SemiVanilla Minecraft Server - Map - {world}
+    page-title: SemiVanilla Minecraft Server | Map | {world}
     coordinates: Coordinates<br/>{x}, {z}
     sidebar:
         player-list: Players ({cur}/{max})
