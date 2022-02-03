@@ -3805,7 +3805,7 @@ rage:
         - 'BLOOD %victim%'
 silence:
   display: '%group-color%Silence'
-  description: 'Chance to disable all enemy armor enchantments\nfor 3 seconds.'
+  description: "Chance to disable all enemy armor\nenchantments for 3 seconds."
   applies-to: 'All Weapons'
   type: 'ATTACK;BOW'
   group: 'FABLED'
