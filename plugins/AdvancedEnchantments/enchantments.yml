@@ -3436,7 +3436,7 @@ arsonist:
         - 'ADD_HARM:3 %victim%'
 soulwhisper:
   display: '%group-color%Soul Whisper'
-  description: "Chance to cure Wither and Poison when attacked\nnand heal at high levels."
+  description: "Chance to cure Wither and Poison when attacked\nand heal at high levels."
   applies-to: 'Chestplates'
   type: 'DEFENSE'
   group: 'LEGENDARY'

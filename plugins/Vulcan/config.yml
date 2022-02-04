@@ -524,7 +524,7 @@ settings:
   # Whether or not Vulcan should account for server lag spikes for certain checks (beta feature)
   server-lag-spike: false
   # Whether or not bStats should be loaded
-  bstats: false
+  bstats: true
   # Whether or not Vulcan should account for entity collisions
   entity-collision: true
   # Whether or not Vulcan should hook into mcMMO if it is available.

@@ -4,7 +4,7 @@
 Configuration:
   Version: 4.11
   General:
-    AllowMetrics: false
+    AllowMetrics: true
     CheckForUpdates: false
     CompatibilityMode: false
     DebugLevel: 0
