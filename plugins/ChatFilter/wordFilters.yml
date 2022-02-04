@@ -1,0 +1,65 @@
+ChatFilter:
+  #The word in plain text
+  a_cool_fun_word:
+    #Filter this word?
+    Enabled: false
+    Warn:
+      #Notify staff when the filter catches a player
+      Staff: true
+      #Send the player a warning message?
+      Player: true
+      #Send catch to console?
+      Console: true
+    #The regex felter, You can enter your own or use the ingame creator
+    Regex: Ingame_regex_generation
+    #Cancel sending the message to chat
+    CancelChat: true
+    #If not canceled, What do we replace the message with?
+    ReplaceWith: nope
+    #Command run when the filter catches a player. Leave blank for nothing - %player% for player name - %item% for catched item
+    Command: msg %player% please do not say %item%
+    AddedBy: ChatFilter
+  <3:
+    Enabled: true
+    Warn:
+      Staff: false
+      Player: false
+      Console: false
+    Regex: <3
+    CancelChat: false
+    ReplaceWith: ❤
+    Command: ''
+    AddedBy: ChatFilter
+  prohibited:
+    Enabled: true
+    Warn:
+      Staff: true
+      Player: true
+      Console: true
+    Regex: \b(nigger|nigga|n1gg3r|nagger|ni@@er|faggot|fag\b|faggit|fa@@ot)
+    CancelChat: true
+    ReplaceWith: ''
+    Command: ''
+    AddedBy: SVMC
+  sensitive:
+    Enabled: true
+    Warn:
+      Staff: true
+      Player: true
+      Console: true
+    Regex: \b(a|4)b(o|0)rt(i|1)(o|0)|rape|rapist
+    CancelChat: true
+    ReplaceWith: ''
+    Command: ''
+    AddedBy: SVMC
+  spam:
+    Enabled: true
+    Warn:
+      Staff: false
+      Player: false
+      Console: true
+    Regex: (\w)\1{6,}
+    CancelChat: false
+    ReplaceWith: ...
+    Command: ''
+    AddedBy: SVMC

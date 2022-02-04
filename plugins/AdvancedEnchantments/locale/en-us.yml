@@ -52,7 +52,7 @@ commands:
       invalid-delay: "&c%delay% is not a valid integer!"
       success: "&eChanged &6%gkit%&e kit delay to &6%delay%"
   main:
-    unknown-command: "&fUnknown command. Use \"/help\" for help."
+    unknown-command: "&fUnknown command. Type \"/help\" for help."
     setsouls:
       invalid-usage: "&cInvalid usage: /ae setsouls <amount>"
       invalid-item: "&cInvalid item."

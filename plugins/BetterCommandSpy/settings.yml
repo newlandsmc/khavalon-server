@@ -20,6 +20,7 @@ ignored-commands:
   # Only base commands are supported ('/tpa', not '/tpa Notch' for example).
   list:
     - '/lands'
+    - '/land'
 
 
 # Should BetterCommandSpy make sure players that have Command Spy toggled ON

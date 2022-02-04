@@ -193,10 +193,10 @@ combining:
 slots:
   enabled: true
   # Max number of enchantments
-  max: 5
+  max: 3
   # Max slots increasement with slot increaser
   # This is a total slot number that can be with upgrades
-  max-increase-of-slots: 9
+  max-increase-of-slots: 5
   # Should it be displayed in lore?
   display-in-lore: false
   display: '&eItem Slots&7: %left%'
@@ -371,7 +371,7 @@ items:
       success:
       - '&aYou successfully applied BlockTrak Creator'
     settings:
-      lore-display: '&8BlockTrak Blocks Broken: %stats%'
+      lore-display: '&7BlockTrak Blocks Broken: %stats%'
   stattrak:
     type: MAGMA_CREAM
     id: 0
@@ -385,7 +385,7 @@ items:
       success:
       - '&aYou successfully applied &aStatTrak Creator'
     settings:
-      lore-display: '&8StatTrak Kills: %stats%'
+      lore-display: '&7StatTrak Kills: %stats%'
   mobtrak:
     type: SLIME_BALL
     id: 0
@@ -399,7 +399,7 @@ items:
       success:
       - '&aYou successfully applied &aMobTrak Creator'
     settings:
-      lore-display: '&8MobTrak Kills: %stats%'
+      lore-display: '&7MobTrak Kills: %stats%'
   holywhitescroll:
     type: PAPER
     id: 0
@@ -416,12 +416,12 @@ items:
       applied:
       - '&aYou successfully applied &aHoly White Scroll'
     settings:
-      lore-display: '&e*HOLY* PROTECTED'
+      lore-display: '&7HOLY PROTECTED'
       # Keep holywhitescroll equipped to item even after death
       keep-after-death: false
   # Orbs allow applying x number of enchants
   orb:
-    lore: '&8%max% Enchantment Slots &8(Orb +%increased%)'
+    lore: '&7%max% Enchantment Slots &7(Orb +%increased%)'
     weapon:
       material: EYE_OF_ENDER
       custom-model-data: 0
@@ -473,7 +473,7 @@ white-scroll:
   # Should the white scroll be removed once applied enchantment fails?
   delete: true
   # Display in item lore
-  lore-display: '&aPROTECTED'
+  lore-display: '&7PROTECTED'
   item:
     type: EMPTY_MAP
     id: 0
@@ -709,7 +709,7 @@ enchantment-book:
   lore:
   - '%group-color%%enchant-no-color% %level%'
   - '&8%description%'
-  - '&8Applies to: %applies%'
+  - '&7(Applies to: %applies%)'
 
 applies-groups:
   MISC_HELMETS:
