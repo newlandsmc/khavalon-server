@@ -12,7 +12,7 @@ randomLoot:
   maxItemsPerContainer: 2
 
   # Chance of any item(s) being generated
-  chanceOfItems: 50
+  chanceOfItems: 30
 
   # Chances format:
   # ITEM_NAME: Chance (0 to 100)
@@ -37,7 +37,7 @@ villagerTrades:
   tradeAllLoot: true
 
   # Chance of any item(s) being added as a trade
-  chanceOfItems: 25
+  chanceOfItems: 15
 
   # Chances format:
   # ITEM_NAME: Chance (0 to 100)

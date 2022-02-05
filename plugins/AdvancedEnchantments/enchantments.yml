@@ -220,14 +220,12 @@ jellylegs:
         - "STOP_ATTACK"
 experience:
   display: "%group-color%Experience"
-  description: "Chance to get more experience from ores."
-  applies-to: "Tools"
+  description: "Chance to get more experience\nfrom ores."
+  applies-to: "Pickaxes"
   type: "MINING"
   group: "COMMON"
   applies:
     - ALL_PICKAXE
-    - ALL_SPADE
-    - ALL_AXE
   levels:
     1:
       chance: 15
@@ -3806,7 +3804,7 @@ rage:
 silence:
   display: '%group-color%Silence'
   description: "Chance to disable all enemy armor\nenchantments for 3 seconds."
-  applies-to: 'All Weapons'
+  applies-to: 'Weapons'
   type: 'ATTACK;BOW'
   group: 'FABLED'
   applies:
@@ -4006,7 +4004,7 @@ diminish:
 defuse:
   display: '%group-color%Defuse'
   description: "Chance to disable all enemy offensive armor enchantments\nfor 7 seconds."
-  applies-to: "All Weapons"
+  applies-to: "Weapons"
   type: 'ATTACK;BOW'
   group: 'FABLED'
   applies:
@@ -4089,7 +4087,7 @@ defuse:
 deactivate:
   display: '%group-color%Deactivate'
   description: "Chance to disable all enemy defensive armor enchantments\nfor 7 seconds."
-  applies-to: "All Weapons"
+  applies-to: "Weapons"
   type: 'ATTACK;BOW'
   group: 'FABLED'
   applies:

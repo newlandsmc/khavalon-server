@@ -501,14 +501,14 @@ settings:
   ignore-flags-geyser-client-brand: false
   # How long we should wait for everything to initialize before players start being checked (in milliseconds). Default
   # value is 2500ms.
-  join-check-wait-time: 2500
+  join-check-wait-time: 10000
   # Whether or not players with UUID's starting with '000000' should be ignored and not flagged - used for exemptions of
   # Geyser players if all else fails.
   ignore-geyser-uuids: true
   # Whether or not we should ignore flags for players whose usernames start with a certain character/string of characters
   ignore-geyser-prefixes: true
   # The string to be ignored - all players names who start with a * will not be flagged (case sensitive if not symbols)
-  ignore-geyser-prefix: '*'
+  ignore-geyser-prefix: '.'
   # The max violation (violations above this won't be sent)
   max-alert-violation: 250
   # How long should people be exempt from checks when they were in /fly (default = 40 ticks, 2 seconds)

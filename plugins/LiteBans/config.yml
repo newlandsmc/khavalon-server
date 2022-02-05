@@ -135,7 +135,7 @@ mutes:
 warnings:
   # Warnings will expire after this duration has passed.
   # Set to '-1' (with quotes) to make warnings permanent.
-  expire_after: 7 days
+  expire_after: 1 day
   # Warning actions.
   # Format: <amount>[+]:<action>
   # If '+' is provided after the amount, the action will execute if the player has that amount of warnings or more.
