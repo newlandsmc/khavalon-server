@@ -1,23 +1,8 @@
 #List of words that you wish to whitelist
-bypassWords:
-  - an alt
-  - mean a legit
-  - analytics
-  - just watching
-  - got it
-  - shouldn't it
-  - it's excellent
-  - ain't it
-  - isn't it
-  - cocky
-  - cockroach
-  - cocktail
-  - staff say
-  - stuffs
-  - wasn't it
+bypassWords: []
 
 #List of ip/websites you wish to whitelist
 bypassIP:
-  - youtube.com
-  - google.com
-  - mc.server.net
+  - semivanilla.com
+  - discord.com
+  - discord.gg

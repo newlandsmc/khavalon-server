@@ -19,8 +19,8 @@ settings:
   update-folder: update
   world-container: worlds
   plugin-profiling: false
-  connection-throttle: 1500
-  query-plugins: false
+  connection-throttle: 1000
+  query-plugins: true
   deprecated-verbose: default
   shutdown-message: Server rebooting, please check back in a few minutes!
   minimum-api: none

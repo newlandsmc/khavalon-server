@@ -76,7 +76,6 @@ banned_message_base: |
 banned_message: |-
   $base
   &cExpires in $duration.
-  &cYou will be given another chance.
   $appealMessage
 banned_message_permanent: |-
   $base
@@ -167,33 +166,33 @@ command:
     broadcast_unwarn: '&a$executor &funwarned &a$warnedPlayer'
   history:
     usage: '&c/history <player> [entries=10]'
-    start: '&e&m                      &r History (Limit $limit) &e&m                      &r'
+    start: '&e&m                        &r History (Limit $limit) &e&m                        &r'
     ban_entry: |2-
 
       &e$name banned $timeSince ago:&r
-      &fBy: $executor
-      &fReason: $reason
+      &fBy: &7$executor
+      &fReason: &7$reason
     mute_entry: |2-
 
       &e$name muted $timeSince ago:&r
-      &fBy: $executor
-      &fReason: $reason
+      &fBy: &7$executor
+      &fReason: &7$reason
     warn_entry: |2-
 
       &e$name warned $timeSince ago:&r
-      &fBy: $executor
-      &fReason: $reason
+      &fBy: &7$executor
+      &fReason: &7$reason
     kick_entry: |2-
 
       &e$name kicked $timeSince ago:&r
-      &fBy: $executor
-      &fReason: $reason
-    active_suffix: ' &f[&aActive&f]'
-    active_suffix_temp: '&cExpires: $duration'
+      &fBy: &7$executor
+      &fReason: &7$reason
+    active_suffix: '\n&fStatus: &aActive'
+    active_suffix_temp: '\n&fStatus: &aExpires: $duration'
     error_no_history: '&eNo history found.'
-    unban_entry: '&fUnbanned by: $executor'
-    unmute_entry: '&fUnmuted by: $executor'
-    expired_suffix: ''
+    unban_entry: '\n&fStatus: &7Unbanned by $executor'
+    unmute_entry: '\n&fStatus: &7Unmuted by $executor'
+    expired_suffix: '\n&fStatus: &7Expired'
     error_no_user: '&cUser not found.'
     error_no_loginrecord: '&cUser has not joined before.'
   warnings:

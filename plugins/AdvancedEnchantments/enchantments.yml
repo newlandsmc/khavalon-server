@@ -3115,7 +3115,7 @@ slingshot:
       cooldown: 15
       condition: "%is holding% contains FIREWORK : %stop%"
       effects:
-        - "BOOST:UP:12"
+        - "BOOST:UP:16"
 confusion:
   display: '%group-color%Confusion'
   description: "A chance to deal nausea to\nyour victim."

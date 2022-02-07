@@ -15,7 +15,7 @@
 #  /cf whitelist (list/ip/word) <args/word> - chatfilter.whitelist
 #  /cf pause - chatfilter.pause
 
-#  Other permissions: 
+#  Other permissions:
 #  chatfilter.bypass - bypass all filters(inc: chat, books, signs and anvils)
 #  chatfilter.bypass.chat - bypass in chat only
 #  chatfilter.bypass.command - bypass in commands only
@@ -31,6 +31,8 @@
 #  chatfilter.view - players with this perm can view filtered messages
 #  chatfilter.blacklist.remove - Able to remove works via the list
 #  chatfilter.whitelist.remove - Able to remove works via the list
+
+#  chatfilter.import - /cf import - import plain text words from data.txt file
 
 
 # #Alvalable languages: - If you make a custom lang file, Feel free to contact me and I'll add it to the plugin for others
@@ -68,13 +70,13 @@ settings:
   allowURL: false
   
   # #Colour we use to highlight the matched swear.
-  swearHighLight: ''
-
-# # Regex used to identify links
-URL_REGEX: ^((https?|ftp)://|(www|ftp)\\.)
+  swearHighLight: '&c%catch%&8'
 
 # # Check commands for swearing/ips?
-checkCommands: false
+checkCommands: true
+
+# Let the regex generator use leet speak? https://en.wikipedia.org/wiki/Leet
+enableLeetSpeak: true
 
 # # Commands to you wish to check
 commands:
@@ -85,20 +87,20 @@ commands:
     # #Check the command for ips?
     ip: true
   message:
-    swear: false
+    swear: true
     ip: true
   tell:
-    swear: false
+    swear: true
     ip: true
   whisper:
-    swear: false
+    swear: true
     ip: true
   msg:
-    swear: false
+    swear: true
     ip: true
   r:
-    swear: false
+    swear: true
     ip: true
   reply:
-    swear: false
+    swear: true
     ip: true

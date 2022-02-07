@@ -1,56 +1,70 @@
 ChatFilter:
-  #The word in plain text
   a_cool_fun_word:
-    #Filter this word?
+    # Filter this word?
     Enabled: false
+    # The regex filter, You can enter your own or use the ingame creator
+    Regex: ingame_regex_generation
     Warn:
-      #Notify staff when the filter catches a player
+      # Notify staff when the filter catches a player?
       Staff: true
-      #Send the player a warning message?
+      # Send the player the default warning message? Custom message can be defined below. Set this to false if you are sending a custom message.
       Player: true
-      #Send catch to console?
+      # Send catch to console?
       Console: true
-    #The regex felter, You can enter your own or use the ingame creator
-    Regex: Ingame_regex_generation
-    #Cancel sending the message to chat
-    CancelChat: true
-    #If not canceled, What do we replace the message with?
-    ReplaceWith: nope
-    #Command run when the filter catches a player. Leave blank for nothing - %player% for player name - %item% for catched item
-    Command: msg %player% please do not say %item%
+    CancelChat:
+      # Cancel sending the message to chat?
+      Cancel: true
+      # if above is false, Do you wish to replace the word?
+      Replace: false
+      # If the above is true, What do we replace the word with?
+      ReplaceWith: Cookies
+    # Run command or send a message to the player, Messages can be custom per filter item
+    # however it's recomended you disable warning the player in the warn section above(Warn.Player) to prevent sending a message twice.
+    # <RunCommand> - Have the server run a command.
+    # <SendMessage> Send a message to the player.
+    Action:
+      - <RunCommand>msg %player% please do not say %item%
+      - <SendMessage>&c%player%! &e%item% &cIs not allowed.
     AddedBy: ChatFilter
   <3:
     Enabled: true
+    Regex: <3
     Warn:
       Staff: false
       Player: false
       Console: false
-    Regex: <3
-    CancelChat: false
-    ReplaceWith: ❤
-    Command: ''
+    CancelChat:
+      Cancel: false
+      Replace: true
+      ReplaceWith: ❤
     AddedBy: ChatFilter
   prohibited:
     Enabled: true
     Warn:
       Staff: true
-      Player: true
+      Player: false
       Console: true
     Regex: \b(nigger|nigga|n1gg3r|nagger|ni@@er|faggot|fag\b|faggit|fa@@ot)
-    CancelChat: true
-    ReplaceWith: ''
-    Command: ''
+    CancelChat:
+      Cancel: true
+      Replace: false
+      ReplaceWith: ''
+    Action:
+      - <SendMessage>&cThat language is prohibited.
     AddedBy: SVMC
   sensitive:
     Enabled: true
     Warn:
       Staff: true
-      Player: true
+      Player: false
       Console: true
-    Regex: \b(a|4)b(o|0)rt(i|1)(o|0)|rape|rapist
-    CancelChat: true
-    ReplaceWith: ''
-    Command: ''
+    Regex: \b((a|4)b(o|0)rt(i|1)(o|0)|n)|\brape|rapist
+    CancelChat:
+      Cancel: true
+      Replace: false
+      ReplaceWith: ''
+    Action:
+      - <SendMessage>&cSome words are too sensitive to be appropriate for a Minecraft server. Please do not use that language here.
     AddedBy: SVMC
   spam:
     Enabled: true
@@ -59,7 +73,8 @@ ChatFilter:
       Player: false
       Console: true
     Regex: (\w)\1{6,}
-    CancelChat: false
-    ReplaceWith: ...
-    Command: ''
+    CancelChat:
+      Cancel: false
+      Replace: true
+      ReplaceWith: ...
     AddedBy: SVMC
