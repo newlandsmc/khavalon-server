@@ -70,7 +70,7 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Want to keep your items when you die? Make them '
-    - 'SoulBound with <click:run_command:soulbind><gradient:#ac2626:#720a0a>/soulbind</gradient></click>! <gray>(Coming soon)</gray>'
+    - 'SoulBound with <click:run_command:/soulbind><gradient:#ac2626:#720a0a>/soulbind</gradient></click>! <gray>(Coming soon)</gray>'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   5:
@@ -84,7 +84,7 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Complete Expeditions by spending time offline and '
-    - 'voting every day! Claim rewards with <click:run_command:spoils><gradient:yellow:red>/spoils</gradient></click>.'
+    - 'voting every day! Claim rewards with <click:run_command:/spoils><gradient:yellow:red>/spoils</gradient></click>.'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   7:
@@ -97,7 +97,7 @@ messages:
   8:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
-    - 'Get around faster! Use <click:run_command:fasttravel><gradient:yellow:red>/fasttravel</gradient></click> to visit'
+    - 'Get around faster! Use <click:run_command:/fasttravel><gradient:yellow:red>/fasttravel</gradient></click> to visit'
     - 'official locations around the map.'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'

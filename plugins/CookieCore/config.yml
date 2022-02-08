@@ -5,4 +5,5 @@
 # Please use MiniMessage for color and other formatting
 no-permission: "<red>You do not have permission to do that."
 invalid-usage: "<red>Incorrect command usage."
+skip-dialogue: "<red>Skip the story? Use /skip to skip."
 log-database: false

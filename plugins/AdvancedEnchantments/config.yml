@@ -180,10 +180,10 @@ enchantLimitation:
 # Enchantment combining (leveling up) on items.
 # Example: https://media.giphy.com/media/26n6QDunj6iC3Z6Zq/giphy.gif
 combining:
-  enabled: false
+  enabled: true
   chances:
     # If true, Success and Destroy chances will effect combining
-    use-chances: true
+    use-chances: false
     # If true, item will break (if Protection is added, protection will be removed).
     break-item: false
     # If higher level of enchantment already on item is applied, should the enchantment upgrade?
@@ -307,9 +307,9 @@ items:
     custom-model-data: 0
     name: '&aBlack Scroll'
     lore:
-    - '&fRemoves a random enchantment'
-    - '&ffrom an item and converts'
-    - '&fit into an enchant book.'
+    - '&f7Removes a random enchantment'
+    - '&7from an item and converts'
+    - '&7it into an enchant book.'
     - ''
     - '&7Drag n'' drop onto item to extract'
     success: 100
@@ -709,7 +709,9 @@ enchantment-book:
   lore:
   - '%group-color%%enchant-no-color% %level%'
   - '&8%description%'
-  - '&7(Applies to: %applies%)'
+  - ''
+  - '&7Applies to:'
+  - '&2 %applies%'
 
 applies-groups:
   MISC_HELMETS:
@@ -740,7 +742,7 @@ settings:
   steal-money:
     message-enabled: false
   # After how many sequential hits combo should reset?
-  combo-limit: 5
+  combo-limit: 50
   # Should trenched drops be automatically added to inventory? (prevents lag)
   trench-autoadd-items: false
   # If true, when TRENCH is paired with MORE_DROPS, the MORE_DROPS effect will

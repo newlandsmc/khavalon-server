@@ -109,7 +109,7 @@ loyal:
         - "KEEP_ON_DEATH"
 strike:
   display: "%group-color%Strike"
-  description: "Chance to strike lightning\nat the opponent."
+  description: "Chance to strike lightning at the opponent."
   applies-to: "Swords, Axes, Tridents"
   type: "ATTACK;ATTACK_MOB"
   group: "COMMON"
@@ -220,7 +220,7 @@ jellylegs:
         - "STOP_ATTACK"
 experience:
   display: "%group-color%Experience"
-  description: "Chance to get more experience\nfrom ores."
+  description: "Chance to get more experience from ores."
   applies-to: "Pickaxes"
   type: "MINING"
   group: "COMMON"
@@ -315,7 +315,7 @@ haste:
         - "POTION:FAST_DIGGING:2"
 rebreather:
   display: "%group-color%Rebreather"
-  description: "Chance to regain air\nwhen mining under water."
+  description: "Chance to regain air when mining under water."
   applies-to: "Pickaxes"
   type: "MINING"
   group: "COMMON"
@@ -334,7 +334,7 @@ rebreather:
         - "FILL_OXYGEN"
 decapitation:
   display: "%group-color%Decapitation"
-  description: "Chance to have opponents\nhead drop on death."
+  description: "Chance to have opponents head drop on death."
   applies-to: "Swords, Axes"
   type: "KILL_PLAYER"
   group: "COMMON"
@@ -393,7 +393,7 @@ forcefield:
         - "PULL_AWAY:3.0 %victim%"
 reflect:
   display: "%group-color%Reflect"
-  description: "Chance to absorb enemy damage and\nreflect it back."
+  description: "Chance to absorb enemy damage and reflect it back."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
   group: "UNCOMMON"
@@ -501,7 +501,7 @@ explosive:
         - "TNT %victim%"
 ravenous:
   display: "%group-color%Ravenous"
-  description: "Chance to regain hunger\nwhile fighting."
+  description: "Chance to regain hunger while fighting."
   applies-to: "Swords, Axes"
   type: "ATTACK;ATTACK_MOB"
   group: "UNCOMMON"
@@ -548,7 +548,7 @@ veinminer:
         - "VEIN_MINE"
 telepathy:
   display: "%group-color%Telepathy"
-  description: "Automatically places blocks broken\nby tools in your inventory."
+  description: "Automatically places blocks broken by tools in your inventory."
   applies-to: "Tools"
   type: "MINING"
   group: "UNCOMMON"
@@ -988,7 +988,7 @@ permafrost:
         - "BLOOD %victim%"
 reaper:
   display: "%group-color%Reaper"
-  description: "Chance to give your opponent the\nWither and Blindness effects\nwhile dealing damage"
+  description: "Chance to give your opponent the Wither and Blindness effects while dealing damage"
   applies-to: "Axes"
   type: "ATTACK"
   group: "RARE"
@@ -1066,7 +1066,7 @@ netherslayer:
         - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
 blind:
   display: "%group-color%Blind"
-  description: "A chance of causing blindness\nwhen attacking."
+  description: "A chance of causing blindness when attacking."
   applies-to: "Swords"
   type: "ATTACK"
   group: "RARE"
@@ -1108,7 +1108,7 @@ allure:
         - "PULL_CLOSER:0.3 %victim%"
 paralyze:
   display: "%group-color%Paralyze"
-  description: "Chance for lightning effect and\nfor slowness."
+  description: "Chance for lightning effect and for slowness."
   applies-to: "Swords, Axes"
   type: "ATTACK;ATTACK_MOB"
   group: "RARE"
@@ -1196,7 +1196,7 @@ venom:
         - "POTION:POISON:1:80 %victim%"
 snare:
   display: "%group-color%Snare"
-  description: "Chance to slow enemies\nwith projectiles."
+  description: "Chance to slow enemies with projectiles."
   applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
   group: "RARE"
@@ -1308,7 +1308,7 @@ infernal:
         - "FLAME:6 %victim%"
 extinguish:
   display: "%group-color%Extinguish"
-  description: "Chance to extinguish yourself\nwhen on fire."
+  description: "Chance to extinguish yourself when on fire."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB;FIRE"
   group: "RARE"
@@ -1332,7 +1332,7 @@ extinguish:
         - "EXTINGUISH %victim%"
 shockwave:
   display: "%group-color%Shockwave"
-  description: "Push back your attacker\nwhen your health is low."
+  description: "Push back your attacker when your health is low."
   applies-to: "Chestplates"
   type: "DEFENSE;DEFENSE_MOB"
   group: "RARE"
@@ -1366,7 +1366,7 @@ shockwave:
         - "PULL_AWAY:2.5 %attacker%"
 vampire:
   display: "%group-color%Vampire"
-  description: "A chance to heal you for up to\n3hp a few seconds after you strike."
+  description: "A chance to heal you for up to 3hp a few seconds after you strike."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
   group: "RARE"
@@ -1393,7 +1393,7 @@ vampire:
         - "ADD_HEALTH:<random number>1-6</random number>"
 greatsword:
   display: "%group-color%Greatsword"
-  description: "Increases damage against players who are\nwielding a Bow at the time they are hit."
+  description: "Increases damage against players who are wielding a Bow at the time they are hit."
   applies-to: "Swords"
   type: "ATTACK"
   group: "RARE"
@@ -1427,7 +1427,7 @@ greatsword:
         - "INCREASE_DAMAGE:<random number>110-150</random number>"
 bowmaster:
   display: "%group-color%Bowmaster"
-  description: "Multiplies damage against players who are\nwielding a Sword at the time they are hit."
+  description: "Multiplies damage against players who are wielding a Sword at the time they are hit."
   applies-to: "Bows, Crossbows"
   type: "BOW"
   group: "RARE"
@@ -1510,7 +1510,7 @@ timber:
         - "BREAK_TREE"
 cleave:
   display: "%group-color%Cleave"
-  description: "Damages enemies within a radius\nthat increases with the level of enchant."
+  description: "Damages enemies within a radius that increases with the level of enchant."
   applies-to: "Swords, Axes"
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
@@ -1577,7 +1577,7 @@ arrowdeflect:
         - "STOP_ATTACK"
 exalted:
   display: "%group-color%Exalted"
-  description: "Chance of removing\nbad potion effects."
+  description: "Chance of removing bad potion effects."
   applies-to: "Swords"
   type: "ATTACK"
   group: "LEGENDARY"
@@ -1634,7 +1634,7 @@ exalted:
         - "CURE:SLOW_DIGGING %attacker%"
 block:
   display: "%group-color%Block"
-  description: "Chance to negate an attack\nand deal up to 4 damage back."
+  description: "Chance to negate an attack and deal up to 4 damage back."
   applies-to: "Swords"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
@@ -1679,7 +1679,7 @@ trench:
         - "TRENCH:3"
 dodge:
   display: "%group-color%Dodge"
-  description: "Chance to dodge physical enemy,\nchance increases when sneaking."
+  description: "Chance to dodge physical enemy, chance increases when sneaking."
   applies-to: "Leggings"
   type: "DEFENSE"
   group: "LEGENDARY"
@@ -1728,7 +1728,7 @@ dodge:
         - "PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 %victim%"
 iceaspect:
   display: "%group-color%Ice Aspect"
-  description: "Chance of causing the slowness\neffect on your enemy."
+  description: "Chance of causing the slowness effect on your enemy."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
@@ -1752,7 +1752,7 @@ iceaspect:
         - "POTION:SLOW:1:100 %victim%"
 momentum:
   display: "%group-color%Momentum"
-  description: "Chance to gain speed boost\nwith fireworks."
+  description: "Chance to gain speed boost with fireworks."
   applies-to: "Elytra"
   type: "RIGHT_CLICK"
   group: "RARE"
@@ -1808,7 +1808,7 @@ reinforced:
         - "DECREASE_DAMAGE:45"
 restore:
   display: "%group-color%Restore"
-  description: "Upon breaking, item has a chance\nto lose this enchantment and repair\nhalf of its durability."
+  description: "Upon breaking, item has a chance to lose this enchantment and repair half of its durability."
   applies-to: "Tools"
   type: "ITEM_BREAK"
   group: "FABLED"
@@ -1903,7 +1903,7 @@ poseidon:
         - "INCREASE_DAMAGE:<random number>30-90</random number> %victim%"
 safeguard:
   display: "%group-color%Safeguard"
-  description: "Chance to gain Damage Resistance\nwhen defending."
+  description: "Chance to gain Damage Resistance when defending."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
@@ -1922,7 +1922,7 @@ safeguard:
         - "POTION:DAMAGE_RESISTANCE:1:60 %victim%"
 shatter:
   display: "%group-color%Shatter"
-  description: "Chance to deal extra durability damage to\nall enemy armor with every attack."
+  description: "Chance to deal extra durability damage to all enemy armor with every attack."
   applies-to: "Swords, Axes"
   type: "ATTACK"
   group: "LEGENDARY"
@@ -1952,7 +1952,7 @@ shatter:
         - "DAMAGE_ARMOR:2 %victim%"
 heavy:
   display: "%group-color%Heavy"
-  description: "Decreases damage from enemy bows\nby 4% per level."
+  description: "Decreases damage from enemy bows by 4% per level."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_BOW"
   group: "LEGENDARY"
@@ -2068,7 +2068,7 @@ hellfire:
         - "FIREBALL %victim%"
 longbow:
   display: "%group-color%Longbow"
-  description: "Greatly increases damage dealt\nto enemy players that have\na bow in their hands."
+  description: "Greatly increases damage dealt to enemy players that have a bow in their hands."
   applies-to: "Bows"
   type: "BOW"
   group: "LEGENDARY"
@@ -2098,7 +2098,7 @@ longbow:
         - "INCREASE_DAMAGE:<random number>50-100</random number> %attacker%"
 tank:
   display: "%group-color%Tank"
-  description: "Decreases damage from enemy\naxes by 4% per level."
+  description: "Decreases damage from enemy axes by 4% per level."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
@@ -2136,7 +2136,7 @@ tank:
         - "REMOVE_DAMAGE:20 %victim%"
 valor:
   display: "%group-color%Valor"
-  description: "Decreases damage from enemy\nswords by 4% per level."
+  description: "Decreases damage from enemy swords by 4% per level."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
@@ -2220,7 +2220,7 @@ rebound:
         - "ADD_HEALTH:1.5 %attacker%"
 thunderlord:
   display: "%group-color%Thunderlord"
-  description: "Strike monsters with lightning\nevery few consecutive hits."
+  description: "Strike monsters with lightning every few consecutive hits."
   applies-to: "Weapons"
   type: "ATTACK_MOB"
   group: "EXOTIC"
@@ -2248,7 +2248,7 @@ thunderlord:
         - "RESET_COMBO %attacker%"
 creeperarmor:
   display: "%group-color%Creeper Armor"
-  description: "Chance to be immune to explosive damage, at\nhigher levels you have a chance to heal."
+  description: "Chance to be immune to explosive damage, at higher levels you have a chance to heal."
   applies-to: "Leggings"
   type: "EXPLOSION"
   group: "LEGENDARY"
@@ -2448,7 +2448,7 @@ torrent:
         - "DOUBLE_DAMAGE"
 judgement:
   display: "%group-color%Judgement"
-  description: "Chance of poisoning opponent and\ngaining regeneration."
+  description: "Chance of poisoning opponent and gaining regeneration."
   applies-to: "Elytra"
   type: "DEFENSE;DEFENSE_MOB"
   group: "EXOTIC"
@@ -2487,7 +2487,7 @@ judgement:
         - "POTION:REGENERATION:1:100 %victim%"
 divert:
   display: "%group-color%Divert"
-  description: "Chance of poisoning opponent and\ngaining regeneration."
+  description: "Chance of poisoning opponent and gaining regeneration."
   applies-to: "Armor"
   type: "DEFENSE;DEFENSE_MOB"
   group: "EXOTIC"
@@ -2717,7 +2717,7 @@ inflame:
         - "FLAME:60 <aoe> radius=4 target=damageable </aoe>"
 killaura:
   display: "%group-color%Kill Aura"
-  description: "Chance to insta-kill multiple\nmonsters in radius."
+  description: "Chance to insta-kill multiple monsters in radius."
   applies-to: "Swords"
   group: "EXOTIC"
   type: "ATTACK_MOB"
@@ -2785,7 +2785,7 @@ inquisitive:
         - "EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> %victim%"
 lifesteal:
   display: "%group-color%Lifesteal"
-  description: "Chance to steal health\nwhen attacking."
+  description: "Chance to steal health when attacking."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
   group: "EXOTIC"
@@ -2819,7 +2819,7 @@ lifesteal:
         - "STEAL_HEALTH:<random number>1-5</random number> %attacker%"
 blacksmith:
   display: "%group-color%Blacksmith"
-  description: "Chance to repair your weapon in exchange\nfor dealing less damage."
+  description: "Chance to repair your weapon in exchange for dealing less damage."
   applies-to: "Axes"
   type: "ATTACK;ATTACK_MOB"
   group: "EXOTIC"
@@ -2863,7 +2863,7 @@ blacksmith:
         - "PARTICLE:BLOCK_DUST:20:1"
 sniper:
   display: "%group-color%Sniper"
-  description: "Headshots with bows\ndeal more  damage."
+  description: "Headshots with bows deal more  damage."
   applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
   group: "LEGENDARY"
@@ -2898,7 +2898,7 @@ sniper:
         - "INCREASE_DAMAGE:100 %attacker%"
 deadshot:
   display: "%group-color%Deadshot"
-  description: "Headshots with tridents\ndeal more damage."
+  description: "Headshots with tridents deal more damage."
   applies-to: "Tridents"
   type: "BOW;BOW_MOB"
   group: "EXOTIC"
@@ -3055,7 +3055,7 @@ bluntforce:
         - "EXTRA_DAMAGE:4 %attacker%"
 plummet:
   display: "%group-color%Plummet"
-  description: "Deal damage to nearby mobs\nwhen taking fall damage."
+  description: "Deal damage to nearby mobs when taking fall damage."
   applies-to: "Boots"
   type: "FALL_DAMAGE"
   group: "LEGENDARY"
@@ -3094,7 +3094,7 @@ nightowl:
         - "INCREASE_DAMAGE:50"
 slingshot:
   display: "%group-color%Slingshot"
-  description: "Boost yourself into flight by right-clicking.\n(Has cooldown)"
+  description: "Boost yourself into flight by right-clicking. (Has cooldown)"
   applies-to: "Elytra"
   type: "RIGHT_CLICK"
   group: "EXOTIC"
@@ -3118,7 +3118,7 @@ slingshot:
         - "BOOST:UP:16"
 confusion:
   display: '%group-color%Confusion'
-  description: "A chance to deal nausea to\nyour victim."
+  description: "A chance to deal nausea to your victim."
   applies-to: 'Axes'
   type: 'ATTACK'
   group: 'UNCOMMON'
@@ -3142,7 +3142,7 @@ confusion:
         - 'POTION:CONFUSION:0:120 %victim%'
 lifebloom:
   display: '%group-color%Lifebloom'
-  description: "Heals allies on your death\naround you."
+  description: "Heals allies on your death around you."
   applies-to: 'Armor'
   type: 'DEATH'
   group: 'RARE'
@@ -3171,7 +3171,7 @@ lifebloom:
         - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=9 target=undamageable </aoe>'
 endershift:
   display: '%group-color%Endershift'
-  description: "Gives speed/health boost at low hp.\n(Has cooldown)"
+  description: "Gives speed/health boost at low hp. (Has cooldown)"
   applies-to: 'Helmets'
   type: 'DEFENSE;DEFENSE_BOW;DEFENSE_MOB;DEFENSE_MOB'
   group: 'UNCOMMON'
@@ -3201,7 +3201,7 @@ endershift:
         - 'POTION:ABSORPTION:2:80 %victim%'
 skillswipe:
   display: '%group-color%Skill Swipe'
-  description: "A chance to steal some of your enemy's\nEXP every time you damage them."
+  description: "A chance to steal some of your enemy's EXP every time you damage them."
   applies-to: 'Swords'
   type: 'ATTACK'
   group: 'UNCOMMON'
@@ -3235,7 +3235,7 @@ skillswipe:
         - 'STEAL_EXP:<random number>25-350</random number> %attacker%'
 execute:
   display: '%group-color%Execute'
-  description: "Damage buff when your target is at\nlow HP."
+  description: "Damage buff when your target is at low HP."
   applies-to: 'Swords'
   type: 'ATTACK;ATTACK_MOB'
   group: 'RARE'
@@ -3375,7 +3375,7 @@ demonic:
         - 'CURE_PERMANENT:FIRE_RESISTANCE %victim%'
 dominate:
   display: '%group-color%Dominate'
-  description: "Chance to weaken enemy players when attacked,\ncausing them to deal less damage."
+  description: "Chance to weaken enemy players when attacked, causing them to deal less damage."
   applies-to: 'Swords'
   type: 'DEFENSE;DEFENSE_MOB'
   group: 'LEGENDARY'
@@ -3404,7 +3404,7 @@ dominate:
         - 'POTION:WEAKNESS:0:80 %attacker%'
 arsonist:
   display: '%group-color%Arsonist'
-  description: "Chance to deal more damage\nwhilst on fire"
+  description: "Chance to deal more damage whilst on fire"
   applies-to: 'Swords'
   type: 'ATTACK'
   group: 'LEGENDARY'
@@ -3434,7 +3434,7 @@ arsonist:
         - 'ADD_HARM:3 %victim%'
 soulwhisper:
   display: '%group-color%Soul Whisper'
-  description: "Chance to cure Wither and Poison when attacked\nand heal at high levels."
+  description: "Chance to cure Wither and Poison when attacked and heal at high levels."
   applies-to: 'Chestplates'
   type: 'DEFENSE'
   group: 'LEGENDARY'
@@ -3475,7 +3475,7 @@ soulwhisper:
         - 'ADD_HEALTH:<random number>1-4</random number> %victim%'
 eagleeye:
   display: '%group-color%Eagle Eye'
-  description: "Chance to deal 1-4 durability damage to\nALL armor pieces of enemy player."
+  description: "Chance to deal 1-4 durability damage to ALL armor pieces of enemy player."
   applies-to: 'Bows, Crossbows'
   type: 'BOW'
   group: 'LEGENDARY'
@@ -3510,7 +3510,7 @@ eagleeye:
         - 'DAMAGE_ARMOR:<random number>1-4</random number> %victim%'
 unfocus:
   display: '%group-color%Unfocus'
-  description: "Chance to Unfocus target player,\nreducing their out going bow damage\nby 50% for up to 10 seconds."
+  description: "Chance to Unfocus target player, reducing their out going bow damage by 50% for up to 10 seconds."
   applies-to: 'Bows, Crossbows'
   type: 'BOW'
   group: 'LEGENDARY'
@@ -3565,7 +3565,7 @@ unfocus:
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
 metaphysical:
   display: '%group-color%Metaphysical'
-  description: "Chance to be cured of\nSlowness when attacked.\nAt max level, you will only be\naffected approx. 10% of the time."
+  description: "Chance to be cured of Slowness when attacked. At max level, you will only be affected approx. 10% of the time."
   applies-to: 'Boots'
   type: 'DEFENSE'
   group: 'LEGENDARY'
@@ -3590,7 +3590,7 @@ metaphysical:
         - 'CURE:SLOW %victim%'
 impale:
   display: '%group-color%Impale'
-  description: "Chance to deal double damage to your opponent, causing\nslowness for some time"
+  description: "Chance to deal double damage to your opponent, causing slowness for some time"
   applies-to: 'Bows, Crossbows'
   type: 'BOW'
   group: 'EXOTIC'
@@ -3624,7 +3624,7 @@ impale:
         - 'POTION:SLOW:4:80 %victim%'
 guardian:
   display: '%group-color%Guardian'
-  description: "Automatically heals and cures\nall nearby allies."
+  description: "Automatically heals and cures all nearby allies."
   applies-to: 'Armor'
   type: 'DEFENSE'
   group: 'EXOTIC'
@@ -3678,7 +3678,7 @@ guardian:
         - 'MESSAGE:&e*** &ePROTECTION &e*** &7(%victim name%) <aoe> radius=10 target=undamageable </aoe>'
 stun:
   display: '%group-color%Stun'
-  description: "Chance to slow opponent, make them\nfeel weak, and remove slowness from you."
+  description: "Chance to slow opponent, make them feel weak, and remove slowness from you."
   applies-to: 'Swords, Axes'
   type: 'ATTACK'
   group: 'EXOTIC'
@@ -3712,7 +3712,7 @@ stun:
         - 'POTION:WEAKNESS:0:80 %victim%'
 inversion:
   display: '%group-color%Inversion'
-  description: "Chance to block damage dealt to\nyou and heal you for 1-5 HP."
+  description: "Chance to block damage dealt to you and heal you for 1-5 HP."
   applies-to: 'Swords'
   type: 'DEFENSE'
   group: 'EXOTIC'
@@ -3745,7 +3745,7 @@ inversion:
         - 'ADD_HEALTH:<random number>1-5</random number> %victim%'
 rage:
   display: '%group-color%Rage'
-  description: "For every combo hit you land, chance to do\n0.5 heart damage per combo to your opponent."
+  description: "For every combo hit you land, chance to do 0.5 heart damage per combo to your opponent."
   applies-to: 'Swords, Axes'
   type: 'ATTACK'
   group: 'EXOTIC'
@@ -3803,7 +3803,7 @@ rage:
         - 'BLOOD %victim%'
 silence:
   display: '%group-color%Silence'
-  description: "Chance to disable all enemy armor\nenchantments for 3 seconds."
+  description: "Chance to disable all enemy armor enchantments for 3 seconds."
   applies-to: 'Weapons'
   type: 'ATTACK;BOW'
   group: 'FABLED'
@@ -3964,7 +3964,7 @@ silence:
         - 'MESSAGE:&5*** ARMOR UNSILENCED *** %victim%'
 diminish:
   display: '%group-color%Diminish'
-  description: "When this effect procs, the next attack\ndealt to you cannot deal more than\nthe (total amount of damage / 2)\nyou took from the previous attack."
+  description: "When this effect procs, the next attack dealt to you cannot deal more than the (total amount of damage / 2) you took from the previous attack."
   applies-to: 'Armor'
   type: 'DEFENSE'
   group: 'EXOTIC'
@@ -4003,7 +4003,7 @@ diminish:
         - 'HALF_DAMAGE'
 defuse:
   display: '%group-color%Defuse'
-  description: "Chance to disable all enemy offensive armor enchantments\nfor 7 seconds."
+  description: "Chance to disable all enemy offensive armor enchantments for 7 seconds."
   applies-to: "Weapons"
   type: 'ATTACK;BOW'
   group: 'FABLED'
@@ -4086,7 +4086,7 @@ defuse:
         - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
 deactivate:
   display: '%group-color%Deactivate'
-  description: "Chance to disable all enemy defensive armor enchantments\nfor 7 seconds."
+  description: "Chance to disable all enemy defensive armor enchantments for 7 seconds."
   applies-to: "Weapons"
   type: 'ATTACK;BOW'
   group: 'FABLED'
@@ -4229,7 +4229,7 @@ deactivate:
         - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
 markofthebeast:
   display: '%group-color%Mark of the Beast'
-  description: "Once an enemy is afflicted with the mark\nall incoming damage is increased by 2x for\nup to 5 seconds"
+  description: "Once an enemy is afflicted with the mark all incoming damage is increased by 2x for up to 5 seconds"
   applies-to: 'Armor'
   type: 'DEFENSE'
   group: 'FABLED'
@@ -4298,7 +4298,7 @@ markofthebeast:
         - 'WAIT:20'
 chainlifesteal:
   display: '%group-color%Chain Lifesteal'
-  description: "Chance to regain health from multiple\nenemies near your damaged target based on level"
+  description: "Chance to regain health from multiple enemies near your damaged target based on level"
   applies-to: 'Armor'
   type: 'ATTACK'
   group: 'FABLED'

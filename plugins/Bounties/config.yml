@@ -1,137 +1,147 @@
-#                                                          BountyOnHead
-#                                                       Author: Alen_Alex
-#                                             Developed For: sudoyou , SemiVanillaMC
-#Things To Note:
-#The entire plugin supports kyori's adventure MiniMessage
-#https://docs.adventure.kyori.net/minimessage
-########################################################################################################################
-
-##Prefix of the plugin
-##You can leave it blank if you don't wish to set one
-prefix: ''
-
-##Duration of a bounty in sec. How long does a bounty stay on a player
-bounty-duration-in-sec: 86400
-
-#################################################################
-# Reward levels = number of kills needed
-
-#currently available options:
-# [XP]:amount -> Gives player definite amount of XP
-# [CONSOLE]:command -> Execute commands from console
-# [PLAYER]:command -> Execute command as a player
-# [MESSAGE]:message -> Send a message to the player who killed the bounty
-# [XPLVL]:amount -> Gives player the specified levels worth of XP
-# [BROADCAST]:message -> Broadcast a message to the entire server
-#Available Placeoholders For Command and Messages
-# %dead-bounty% -> The player who is dead or the player who was the bounty
-# %killer% -> Player who killed the bounty
-rewards:
-  level:
-    1:
-      - '[FXP]:1000'
-    2:
-      - '[FXP]:1500'
-    3:
-      - '[FXP]:2000'
-    4:
-      - '[FXP]:2500'
-    5:
-      - '[FXP]:3000'
-
-##Amount of xp that one gets if killed a player without bounty
-xp-for-killing-non-bounty:
-  - '[FXP]:500'
-
-##The message that would parse when %bs_tag% is used if the player is bounty
-##NOTE: PlaceholderAPI doesn't support MiniMessage, so use Legacy Color Codes
-placeholder-tag-message: "&c"
-
-##The message that would be parsed when %bs_online_formatted% is used
-## zero-online: What would the plugin parse if there are no online bounties
-## online: The no of online players when the list is not empty in a formatted way
-##The available placeholder for parsing online player list is %online%
-placeholder-tag-bounty-online-formatted:
-  zero-online: ""
-  online: "\n&cBounties Online: %online%"
-
-##Configuration for GUI's
-#name -> Name of the GUI
-#rows -> How many rows the plugin should have without the bottom navbar
-#previous -> Display name for the previous-button
-#next -> Display name for the next-button. %player% -> displays the playername
-#name-player-placeholder -> The text to be displayed on each bounty head
-#lore-placeholder -> The lore to be added on to each bounty had
-gui:
-  name: "Bounties"
-  rows: 3
-  previous: "<color:#FFE400>« Previous"
-  next: "<color:#FFE400>» Next"
-  name-player-placeholder: "<color:#00FFF0>%player%"
-  lore-placeholder:
-    - "<color:#00FFF0>Time left <color:#A9A7A2>» %timeleft%"
-    - "<color:#00FFF0>Current Kills <color:#A9A7A2>» %kills%"
-    - "<color:#00FFF0>Worth: <color:#A9A7A2>» %fxp% XP"
-
-##Amount of time in ticks wait before sending in each message.
-interval-during-each-message-in-ticks: 10
-
-##Secs in which the player data should be cached after they leave,
-##This cache helps to reduce I/O writes if there are too much players
-##A good value should be somewhere between 15-30 sec
-cache-player-data-after-the-leave-in-sec: 5
-
-##The radius of marker that comes up on the square map plugin.
-##NOTE FOR Devs: These values are passed along side the META_DATA `bounty`, so this value can be fetched from anywhere
-square-map-radius:
+##########################################################################################################################
+##The task's duration specified how long things should tag on
+##bounty-duration-in-sec -> How long should a bounty tag stay when he kills each non-bounty player
+##player-kill-tag-in-sec -> How long should the plugin track whether the player killed the same person again and again
+##for
+tasks-duration:
+  bounty-duration-in-sec: 86400
+  player-kill-tag-in-sec: 3600
+##########################################################################################################################
+##########################################################################################################################
+##This radius will be used for the placeholder %rand_loc%.
+##For eg:
+##A Bounty with 1 kill will have a random location of 450
+##A Bounty with 2 kill will have a random location of 400
+rand-location-radius-for-kills:
   1: 450
   2: 400
   3: 350
   4: 250
   5: 150
-#################################################################
-#Messages that are used in the game. Almost all the messages support multiple placeholders. The placeholders for each
-#message has been documented above its key.
-#All the messages in the config support MiniMessages from kyori's Adventure API.
-#All the messages down here support PlaceholderAPI Support...The placeholders are parsed for the player to whom the
-#message has been sent. Not the killer or Dead Player. This is done to make consistency in the plugin messaging
+##########################################################################################################################
+##########################################################################################################################
+##Rewards
+##This section defines everything related to rewards.
+##use-fighting-xp -> This section defines whether to use 3rd Party plugins fighting XP (currently Aurelium Skills) or should
+##use the vanilla XP. If the hook-failed it will default to use normal vanilla-XP
+##reward-for-killing-non-bounty -> Reward a player gets when you kill a player who is not a bounty.
+##bounty-rewards -> This defines how the xp matters according to the amount of kills they have
+## For eg: If a bountied player has 3 kills, the player who kills the bounty will get 2000 XP
+##########################################################################################################################
+rewards:
+  use-fighting-xp: true
+  reward-for-killing-non-bounty: 500
+  bounty-rewards:
+    1: 1000
+    2: 1500
+    3: 2000
+    4: 2500
+    5: 3000
+##########################################################################################################################
+##########################################################################################################################
+gui:
+  bounty-menu:
+    show-next-and-pre-if-only-needed: true
+    name: "Bounties"
+    row: 3
+    buttons:
+      next-button:
+        item: "HOPPER"
+        amount: 1
+        name: "<italic:false><yellow>Next"
+        slot: 29
+        lore: []
+      pre-button:
+        item: "HOPPER"
+        amount: 1
+        name: "<italic:false><yellow>Previous"
+        slot: 33
+        lore: []
+      info-button:
+        item: "PAPER"
+        amount: 1
+        name: "<italic:false><yellow>Your Bounty Statistics"
+        slot: 35
+        lore:
+          - "<italic:false><white>Bounties Killed <gray>» <yellow>%bkills%"
+          - "<italic:false><white>Non Bounties Killed <gray>» <yellow>%nonbkills%"
+          - "<italic:false><white>PvP Deaths <gray>» <yellow>%deaths%"
+          - "<italic:false><white>KD <gray>» <yellow>%kd%"
+      bounty-button:
+        item: "PLAYER_HEAD"
+        amount: 1
+        slot: "1"
+        name: "<italic:false><yellow>%name%"
+        lore:
+          - "<italic:false><white>Time left <gray>» <yellow>%time-left%"
+          - "<italic:false><white>Current Kills <gray>» <yellow>%kills%"
+          - "<italic:false><reset>"
+          - "<italic:false><gray>Killing this bounty is worth"
+          - "<italic:false><gray>%xp% fighting XP."
+    filler:
+      BLACK_STAINED_GLASS_PANE:
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+##########################################################################################################################
+##########################################################################################################################
+#Hooks
+##This defines how a specific 3rd party plugin should hook and behave with the plugin
+#
+#PlaceholderAPI
+##formatted-tag-for-bounty -> The message that would parse when %bs_tag% is used if the player is bounty. NOTE: PlaceholderAPI doesn't support MiniMessage, so use Legacy Color Codes
+#formatted-online-count.zero-online -> What would the plugin parse if there are no online bounties
+#formatted-online-count.online ->The no of online players when the list is not empty in a formatted way
+hook:
+  placeholder-api:
+    formatted-tag-for-bounty: "&c"
+    formatted-online-count:
+      zero-online: ""
+      online: "\n&cBounties Online: %online%"
+##########################################################################################################################
 messages:
+  interval-in-sec-to-send-message: 10
   help-message:
     header:
-    - "<yellow><strikethrough>                         <reset> Bounty Help <yellow><strikethrough>                         <reset>"
-    comand-description: "<gold>%command%<white>: %description%"
-    fotter:
-    - "<yellow><strikethrough>                                                                  <reset>"
+      - "<yellow><strikethrough>                         <reset> Bounty Help <yellow><strikethrough>                         <reset>"
+    command-description: "<gold>%command%<white>: %description%"
+    footer:
+      - "<yellow><strikethrough>                                                                  <reset>"
   #Available Placeholders:
   #%dead_player% -> Name of the dead player
   #%killer% -> Name of the killer
-  #%rand_loc% -> A random location of radius 50 of the bounty player
   new-bounty-broadcast:
     - "<gray> * %dead_player% was slain by %killer%"
     - "<gray> * %killer% now has a bounty on their head!"
   #Available Placeholders:
   #%dead_player% -> Name of the dead player
   #%killer% -> Name of the killer
-  #%rand_loc% -> A random location of radius 50 of the bounty player
-  #%kills% -> Gets no of kills the killer player have
   existing-bounty-broadcast:
     - "<gray> * %dead_player% was slain by %killer%"
     - "<gray> * %killer%'s bounty grows..."
   #Available Placeholders:
   #%dead_player% -> Name of the dead player
-  #%player_x% -> X Location X of the dead bounty
-  #%player_y% -> Y Location Y of the dead bounty
-  #%player_z% -> Y Location Z of the dead bounty
   #%killer% -> Name of the killer
-  #%player_kills% -> The consecutive kills bounty had
-  #%player_level% -> The current reward level the player had
   player-bounty-released-broadcast:
     - "<gray> * %dead_player%'s bounty has been claimed by %killer%"
-
-already-killed-before:
-  killer:
-    - "<gray> * You killed %dead_player% again!"
-  victim:
-    - "<gray> * %bounty% killed you again!"
-
-version: 1.0
+  #Available Placeholders:
+  #%dead_player% -> Name of the dead player
+  #%killer% -> Name of the killer
+  already-killed-before:
+    killer:
+      - "<gray> * You killed %dead_player% again!"
+    victim:
+      - "<gray> * %bounty% killed you again!"
+  wrong-command: "<red>Wrong usage! Use /bounty help."
+  player-stats:
+    - "<yellow><strikethrough>                     <reset> %name%'s Bounty Stats <yellow><strikethrough>                     <reset>"
+    - "<yellow>Bounty Kills: <gray>%bkills%"
+    - "<yellow>Non Bounty Kills: <gray>%non_bkills%"
+    - "<yellow>Deaths: <gray>%deaths%"
+    - "<yellow>KD Ratio: <gray>%kd%"
+    - "<yellow><strikethrough>                                                                  <reset>"

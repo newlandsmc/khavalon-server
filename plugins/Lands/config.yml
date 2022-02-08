@@ -123,8 +123,8 @@ land:
     # The cost to create a land (/lands create).
     # NOTE: This includes also one chunk claim, which will be claimed automatically on land creation.
     costs: 0.0
-    # Max land name length
-    # The maximum possible length is 32 (including color codes)
+    # Maximum land name length
+    # The maximum possible length is 80 (including color codes).
     # How to filter names: https://github.com/Angeschossen/General/wiki/Messages#filter-swear-words-and-forbidden-names
     name-length: 24
     # Should colors be allowed in land names?
@@ -671,7 +671,8 @@ command:
   alias:
     # Set aliases for the /lands command
     # NOTE: This setting requires server reload / restart.
-    lands_list: []
+    lands_list:
+      - l
 
     # Set aliases for the /Wars command
     # This is only needed, if wars is enabled.
@@ -687,9 +688,7 @@ command:
   # They are not case-sensitive.
   blacklist:
     # This affects all players which are standing in a land, where they aren't trusted.
-    nottrusted_list:
-    - sethome
-    - esethome
+    nottrusted_list: []
 
     # This affects all players, which are standing in a land.
     general_list: []
@@ -827,9 +826,11 @@ integration:
     # You can disable this by setting icon to ''
     spawn:
       # Set the icon
-      # NOTE: For BlueMap and squaremap this needs to be a direct image address. Recommended imgage size: 32 x 32 pixels
-      #       Example: FOLDER_PATH\spawn.png
+      # NOTE: For BlueMap and squaremap this needs to be the absolute image address. Recommended imgage size: 32 x 32 pixels
+      #       Example: ABSOLUTE_FOLDER_PATH\spawn.png
       icon: greenflag
+      # Set the icon for a nations capital.
+      icon-capital: 'greenflag'
       # Set minimum zoom. The icon won't display, if the zoom in your browser is smaller (mousewheel).
       # NOTE: Recommended value for BlueMap, squaremap: 126
       min-zoom: 5

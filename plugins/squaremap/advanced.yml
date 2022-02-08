@@ -6,13 +6,13 @@ settings:
         StructureGrowEvent: false
         ChunkPopulateEvent: true
         FluidLevelChangeEvent: false
-        BlockBreakEvent: false
+        BlockBreakEvent: true
         BlockSpreadEvent: false
         EntityExplodeEvent: false
         BlockFormEvent: false
         LeavesDecayEvent: false
         BlockFadeEvent: false
-        BlockPlaceEvent: false
+        BlockPlaceEvent: true
         BlockBurnEvent: false
         BlockExplodeEvent: false
         EntityBlockFormEvent: false

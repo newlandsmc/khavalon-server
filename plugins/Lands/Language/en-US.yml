@@ -72,6 +72,20 @@ general:
           />Players ({members_amount}): <span style="font-weight: bold;">{members}</span></div>'
         spawn: '<p><span style="font-size: 120%; color: #339966;"><span style="font-size:
           120%;">Spawnpoint</span></span></p><p>Open to visitors: {public}</p>'
+      nation:
+        description: '<div class="\&quot;infowindow\&quot;"><span style="font-size:
+          200%;"><span style="color: {land_color};">{land}</span><br /></span>{title}</div>
+          <ul> <li class="\&quot;infowindow\&quot;">Level: {level}</li> <li class="\&quot;infowindow\&quot;">Chunks:
+          {chunks}</li> <li class="\&quot;infowindow\&quot;">Players ({members_amount}):
+          {members}</li> </ul> <p><strong>This land belongs to nation {nation}:</strong></p>
+          <ul> <li>Level: {level_nation}</li> <li>Capital: {capital}</li> <li>Lands
+          (total players: {members_amount_nation}): {lands}</li> </ul>'
+      capital:
+        spawn: '<div class="\&quot;infowindow\&quot;"><span style="font-size: 200%;"><span
+          style="color: {land_color};">Capitals Spawnpoint</span><br /></span>This
+          spawn belongs to the capital of nation {nation}.</div><div class="\&quot;infowindow\&quot;"><br
+          />Open to visitors: {public}</div><ul><li>If this spawn is open to visitors,
+          anyone can teleport to it by executing /lands spawn {land}.</li></ul>'
   sign:
     top:
       balance:

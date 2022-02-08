@@ -44,7 +44,7 @@ ChatFilter:
       Staff: true
       Player: false
       Console: true
-    Regex: \b(nigger|nigga|n1gg3r|nagger|ni@@er|faggot|fag\b|faggit|fa@@ot)
+    Regex: nigger|nigga|n1gg3r|nagger|ni@@er|faggot|fag\b|faggit|fa@@ot
     CancelChat:
       Cancel: true
       Replace: false
@@ -58,7 +58,7 @@ ChatFilter:
       Staff: true
       Player: false
       Console: true
-    Regex: \b((a|4)b(o|0)rt(i|1)(o|0)|n)|\brape|rapist
+    Regex: \b((a|4)b(o|0)rt(i|1)(o|0)n)|\brape|rapist
     CancelChat:
       Cancel: true
       Replace: false
@@ -66,15 +66,15 @@ ChatFilter:
     Action:
       - <SendMessage>&cSome words are too sensitive to be appropriate for a Minecraft server. Please do not use that language here.
     AddedBy: SVMC
-  spam:
-    Enabled: true
-    Warn:
-      Staff: false
-      Player: false
-      Console: true
-    Regex: (\w)\1{6,}
-    CancelChat:
-      Cancel: false
-      Replace: true
-      ReplaceWith: ...
-    AddedBy: SVMC
+#  spam:
+#    Enabled: true
+#    Warn:
+#      Staff: false
+#      Player: false
+#      Console: true
+#    Regex: (\w)\1{6,}
+#    CancelChat:
+#      Cancel: false
+#      Replace: true
+#      ReplaceWith: ...
+#    AddedBy: SVMC
