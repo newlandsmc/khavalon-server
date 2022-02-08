@@ -17,49 +17,70 @@ items:
     material: 'EMERALD'
     name: '&aStore'
     lore:
-      - '&fClick to open the store'
+      - '&fDonate to support the server!'
+      - '&fHelp us pay the bills.'
+      - ''
+      - '&8Click to get link.'
     commands:
       - 'info store'
   1:
     material: 'MAP'
-    name: '&aMap'
+    name: '&eMap'
     lore:
-      - '&fClick to open the map'
+      - '&fLive map of the overworld.'
+      - '&fUpdates real-time!'
+      - ''
+      - '&8Click to get link.'
     commands:
       - 'info map'
   2:
     material: 'NETHER_STAR'
-    name: '&aVote'
+    name: '&bVote'
     lore:
-      - '&fClick to open the vote'
+      - '&fVote to support the server!.'
+      - '&fGet rewards every day.'
+      - ''
+      - '&8Click to get link.'
     commands:
       - 'info vote'
   3:
     material: 'ENCHANTED_BOOK'
-    name: '&aHelp'
+    name: '&cHelp'
     lore:
-      - '&fClick to open the help book'
+      - '&fTutorials, list of commands,'
+      - '&fand useful links.'
+      - ''
+      - '&8Click to open book.'
     commands:
       - 'info help'
   4:
     material: 'AMETHYST_SHARD'
-    name: '&aDiscord'
+    name: '&dDiscord'
     lore:
-      - '&fClick to join the discord'
+      - '&fJoin the community.'
+      - '&fWelcome!'
+      - ''
+      - '&8Click to get link.'
     commands:
       - 'info discord'
   5:
     material: 'GLOBE_BANNER_PATTERN'
-    name: '&aRules'
+    name: '&7Rules'
     lore:
-      - '&fClick to open the rules page'
+      - '&fRead the rules before you play.'
+      - '&fClick here.'
+      - ''
+      - '&8Click to get link.'
     commands:
       - 'info rules'
   6:
     material: 'CAMPFIRE'
-    name: '&aWebsite'
+    name: '&6Website'
     lore:
-      - '&fClick to open the website'
+      - '&fA portal for everything linked'
+      - '&fin this GUI.'
+      - ''
+      - '&8Click to get link.'
     commands:
       - 'info website'
 links:

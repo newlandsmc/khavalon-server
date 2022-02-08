@@ -190,7 +190,7 @@ gui:
         - '&fand lands, in which you''re'
         - '&ftrusted.'
         - ''
-        - ' &f• &cLEFT CLICK'
+        - ' &f• &aLEFT CLICK'
         - '   &7Open menu'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
         slot: 20
@@ -200,7 +200,7 @@ gui:
         - '&fView all created lands of'
         - '&fthis server.'
         - ''
-        - ' &f• &cLEFT CLICK'
+        - ' &f• &aLEFT CLICK'
         - '   &7Open menu'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljODg4MWU0MjkxNWE5ZDI5YmI2MWExNmZiMjZkMDU5OTEzMjA0ZDI2NWRmNWI0MzliM2Q3OTJhY2Q1NiJ9fX0=
         slot: 22
@@ -209,7 +209,7 @@ gui:
         lore:
         - '&fView your received invites.'
         - ''
-        - ' &f• &cLEFT CLICK'
+        - ' &f• &aLEFT CLICK'
         - '   &7Open menu'
         material: WRITABLE_BOOK
         slot: 24
@@ -505,6 +505,7 @@ gui:
         - '&fCreate a new area for this land.'
         - ''
         - '&fAvailable: {areas} / {max}'
+        - ''
         - ' &f• &aLEFT CLICK'
         - '   &7Create new area'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA1NmJjMTI0NGZjZmY5OTM0NGYxMmFiYTQyYWMyM2ZlZTZlZjZlMzM1MWQyN2QyNzNjMTU3MjUzMWYifX19
@@ -1188,13 +1189,15 @@ gui:
       role:
         name: '&7{role}'
         lore:
-        - Manage this role.
+        - '&fManage this role.'
         - ''
         - ' &f• &aSHIFT + LEFT CLICK'
         - '   &7Higher priority'
         - ' &f• &cSHIFT + RIGHT CLICK'
         - '   &7Lower priority'
         - ''
+        - ' &f• &aLEFT CLICK'
+        - '   &7Manage this role'
         - ' &f• &cKEY Q'
         - '   &7Delete this role'
         material: PLAYER_HEAD
@@ -1225,7 +1228,7 @@ gui:
       create:
         name: '&aCreate Role'
         lore:
-        - '&7Available: {roles} / {max}'
+        - '&fAvailable: {roles} / {max}'
         - ''
         - ' &f• &aLEFT CLICK'
         - '   &7Create new role'

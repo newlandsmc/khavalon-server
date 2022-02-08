@@ -108,3 +108,10 @@ messages:
     - 'player is gone for 90 consecutive days!'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  10:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Unclaimed land can be griefed! Make sure you claim'
+    - 'your land. <click:run_command:/fasttravel><gradient:yellow:red>https://semivanilla.com/claiming</gradient></click>'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'

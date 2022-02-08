@@ -73,7 +73,7 @@ general:
     # The camp item can also be given manually via /lands admin give <player> camp <amount> <radius> [silent]
     # For more information about camps, check out the "camp" section in the config.
     camp:
-      slot_3: 4
+      slot_3: -1
 
 
   # Set the format of all economy related displays.
