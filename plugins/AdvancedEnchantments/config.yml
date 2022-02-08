@@ -711,7 +711,7 @@ enchantment-book:
   - '&8%description%'
   - ''
   - '&7Applies to:'
-  - '&2 %applies%'
+  - '&7%applies%'
 
 applies-groups:
   MISC_HELMETS:
@@ -864,7 +864,7 @@ settings:
   bow-full-power: true
   # Should enchantment descriptions be added under enchant names in lores?
   lore-descriptions:
-    enabled: true
+    enabled: false
     display: '&8%description%'
   # Held Item Checks
   #  How often should plugin check if item in hand has changed? Item can be removed
