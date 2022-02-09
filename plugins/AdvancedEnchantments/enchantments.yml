@@ -316,22 +316,49 @@ haste:
 rebreather:
   display: "%group-color%Rebreather"
   description: "Chance to regain air when mining under water."
-  applies-to: "Pickaxes"
+  applies-to: "Pickaxes, Shovels"
   type: "MINING"
   group: "COMMON"
   applies:
     - ALL_PICKAXE
+    - ALL_SHOVEL
   levels:
     1:
-      cooldown: 3
-      chance: 30
+      cooldown: 5
+      chance: 10
+      condition: "%is under water% = true : %allow%"
       effects:
-        - "FILL_OXYGEN"
+        - "FILL_OXYGEN:20"
+        - "WAIT:5"
+        - "FILL_OXYGEN:20"
+        - "WAIT:5"
+        - "FILL_OXYGEN:20"
     2:
-      cooldown: 3
-      chance: 60
+      cooldown: 5
+      chance: 15
+      condition: "%is under water% = true : %allow%"
       effects:
-        - "FILL_OXYGEN"
+        - "FILL_OXYGEN:20"
+        - "WAIT:5"
+        - "FILL_OXYGEN:20"
+        - "WAIT:5"
+        - "FILL_OXYGEN:20"
+        - "WAIT:5"
+        - "FILL_OXYGEN:20"
+    3:
+      cooldown: 5
+      chance: 25
+      condition: "%is under water% = true : %allow%"
+      effects:
+        - "FILL_OXYGEN:20"
+        - "WAIT:5"
+        - "FILL_OXYGEN:20"
+        - "WAIT:5"
+        - "FILL_OXYGEN:20"
+        - "WAIT:5"
+        - "FILL_OXYGEN:20"
+        - "WAIT:5"
+        - "FILL_OXYGEN:20"
 decapitation:
   display: "%group-color%Decapitation"
   description: "Chance to have opponents head drop on death."
