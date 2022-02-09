@@ -3094,7 +3094,7 @@ nightowl:
         - "INCREASE_DAMAGE:50"
 slingshot:
   display: "%group-color%Slingshot"
-  description: "Boost yourself into flight by right-clicking. (Has cooldown)"
+  description: "Boost yourself into flight by right-clicking.\n(Has cooldown)"
   applies-to: "Elytra"
   type: "RIGHT_CLICK"
   group: "EXOTIC"
@@ -3171,7 +3171,7 @@ lifebloom:
         - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=9 target=undamageable </aoe>'
 endershift:
   display: '%group-color%Endershift'
-  description: "Gives speed/health boost at low hp. (Has\ncooldown)"
+  description: "Gives speed/health boost at low hp.\n(Has cooldown)"
   applies-to: 'Helmets'
   type: 'DEFENSE;DEFENSE_BOW;DEFENSE_MOB;DEFENSE_MOB'
   group: 'UNCOMMON'
@@ -3201,7 +3201,7 @@ endershift:
         - 'POTION:ABSORPTION:2:80 %victim%'
 skillswipe:
   display: '%group-color%Skill Swipe'
-  description: "A chance to steal some of your enemy's EXP every time you damage them."
+  description: "A chance to steal some of your enemy's EXP every\ntime you damage them."
   applies-to: 'Swords'
   type: 'ATTACK'
   group: 'UNCOMMON'
@@ -3475,7 +3475,7 @@ soulwhisper:
         - 'ADD_HEALTH:<random number>1-4</random number> %victim%'
 eagleeye:
   display: '%group-color%Eagle Eye'
-  description: "Chance to deal 1-4 durability damage to ALL armor pieces of enemy player."
+  description: "Chance to deal 1-4 durability damage to ALL\narmor pieces of enemy player."
   applies-to: 'Bows, Crossbows'
   type: 'BOW'
   group: 'LEGENDARY'

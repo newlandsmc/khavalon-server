@@ -36,7 +36,7 @@ languages:
 - it
 action-bar:
   enabled: true
-  idle: false
+  idle: true
   ability: true
   xp: false
   maxed: false

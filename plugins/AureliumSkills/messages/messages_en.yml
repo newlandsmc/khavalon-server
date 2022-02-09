@@ -343,16 +343,16 @@ acf:
     location_please_specify_xyz: '&cError: Please specify the coordinates x, y, and z. Example: &eworld:x,y,z.'
     location_console_not_relative: '&cError: Console may not use relative coordinates for location.'
 action_bar:
-  idle: '&c{hp}/{max_hp}❤                 &b{mana}/{max_mana} {mana_unit}'
+  idle: '&7  {hp}/{max_hp} &c❤&7             {mana}/{max_mana} &b{mana_unit}'
   xp: '&c{hp}/{max_hp}❤  &6+{xp_gained} {skill} {xp_unit} &7({current_xp}/{level_xp} {xp_unit})  &b{mana}/{max_mana} {mana_unit}'
   xp_removed: '&c{hp}/{max_hp}❤  &6-{xp_removed} {skill} {xp_unit} &7({current_xp}/{level_xp} {xp_unit})  &b{mana}/{max_mana} {mana_unit}'
   maxed: '&c{hp}/{max_hp}❤  &6+{xp_gained} {skill} {xp_unit} &7(MAXED)  &b{mana}/{max_mana} {mana_unit}'
   maxed_removed: '&c{hp}/{max_hp}❤  &6-{xp_removed} {skill} {xp_unit} &7(MAXED)  &b{mana}/{max_mana} {mana_unit}'
   ability: '{message}'
-  boss_bar_xp: '&6{skill} {level} &7({current_xp}/{level_xp} {xp_unit})'
-  boss_bar_maxed: '&6{skill} {level} &7(MAXED)'
+  boss_bar_xp: '&f{skill} {level} &7({current_xp}/{level_xp} {xp_unit})'
+  boss_bar_maxed: '&f{skill} {level} &7(MAXED)'
 commands:
-  prefix: '&8[&bSkills&8]&r '
+  prefix: ''
   armor:
     modifier:
       add:

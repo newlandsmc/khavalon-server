@@ -21,8 +21,8 @@ first-join-dialogue:
 revert-spawn-structure: false
 
 # Message that will be sent on evey subsequent join
-welcome-back: "<gray> * (playerName) has returned!"
-leave-message: "<gray> * (playerName) left on an expedition..."
+welcome-back: "<green> * (playerName) joins..."
+leave-message: "<gray> * (playerName) leaves..."
 
 # Ignores the first join limitations
 debug-spawn: false

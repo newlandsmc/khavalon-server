@@ -67,7 +67,7 @@ settings:
   capsAmount: 7
   
   # #Allow URLs? If set to false all URLs will be filtered as advertising
-  allowURL: false
+  allowURL: true
   
   # #Colour we use to highlight the matched swear.
   swearHighLight: '&c%catch%&8'
