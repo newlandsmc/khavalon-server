@@ -2,7 +2,7 @@
 #lastchance:    <-- Enchantment name
 #  display: "%group-color%Last Chance"    <-- Display in item lore
 #  description: "Has a chance to heal when on low hearts"    <-- Enchantment Description
-#  applies-to: "Chestplate"    <-- What applies to (display purposes)
+#  applies-to: "Chestplates"    <-- What applies to (display purposes)
 #  type: "DEFENSE"    <-- Enchantment type (controls when enchantment activates)
 #  group: "COMMON"    <-- Enchantment group (For enchanter and right-click random books)
 #  settings:
@@ -260,7 +260,7 @@ experience:
 hasten:
   display: "%group-color%Hasten"
   description: "Chance to gain Haste after breaking blocks."
-  applies-to: "Tools"
+  applies-to: "Pickaxes, Axes, Shovels"
   type: "MINING"
   group: "COMMON"
   settings:
@@ -291,7 +291,7 @@ hasten:
 haste:
   display: "%group-color%Haste"
   description: "Allows you to swing your tools faster."
-  applies-to: "Tools"
+  applies-to: "Pickaxes, Axes, Shovels"
   type: "HELD"
   group: "FABLED"
   settings:
@@ -394,7 +394,7 @@ forcefield:
 reflect:
   display: "%group-color%Reflect"
   description: "Chance to absorb enemy damage and reflect it\nback."
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
   group: "UNCOMMON"
   applies:
@@ -438,7 +438,7 @@ reflect:
 ward:
   display: "%group-color%Ward"
   description: "Chance to absorb enemy damage"
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
   group: "UNCOMMON"
   applies:
@@ -549,7 +549,7 @@ veinminer:
 telepathy:
   display: "%group-color%Telepathy"
   description: "Automatically places blocks broken by tools in\nyour inventory."
-  applies-to: "Tools"
+  applies-to: "Pickaxes, Axes, Shovels"
   type: "MINING"
   group: "UNCOMMON"
   applies:
@@ -988,7 +988,7 @@ permafrost:
         - "BLOOD %victim%"
 reaper:
   display: "%group-color%Reaper"
-  description: "Chance to give your opponent the Wither and\nBlindness effects while dealing damage"
+  description: "Chance to give your opponent the wither and\nblindness effects while dealing damage"
   applies-to: "Axes"
   type: "ATTACK"
   group: "RARE"
@@ -1309,7 +1309,7 @@ infernal:
 extinguish:
   display: "%group-color%Extinguish"
   description: "Chance to extinguish yourself when on fire."
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB;FIRE"
   group: "RARE"
   applies:
@@ -1393,7 +1393,7 @@ vampire:
         - "ADD_HEALTH:<random number>1-6</random number>"
 greatsword:
   display: "%group-color%Greatsword"
-  description: "Increases damage against players who are wielding\na Bow at the time they are hit."
+  description: "Increases damage against players who are wielding\na Bows at the time they are hit."
   applies-to: "Swords"
   type: "ATTACK"
   group: "RARE"
@@ -1426,8 +1426,8 @@ greatsword:
       effects:
         - "INCREASE_DAMAGE:<random number>110-150</random number>"
 bowmaster:
-  display: "%group-color%Bowmaster"
-  description: "Multiplies damage against players who are wielding\na Sword at the time they are hit."
+  display: "%group-color%Bowsmaster"
+  description: "Multiplies damage against players who are wielding\na Swords at the time they are hit."
   applies-to: "Bows, Crossbows"
   type: "BOW"
   group: "RARE"
@@ -1463,7 +1463,7 @@ bowmaster:
 hardened:
   display: "%group-color%Hardened"
   description: "Chance to recover durability when damaged."
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
   group: "EXOTIC"
   applies:
@@ -1549,7 +1549,7 @@ cleave:
 arrowdeflect:
   display: "%group-color%Arrow Deflect"
   description: "Chance to prevent enemy arrow from dealing\ndamage."
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE_BOW"
   group: "LEGENDARY"
   applies:
@@ -1809,7 +1809,7 @@ reinforced:
 restore:
   display: "%group-color%Restore"
   description: "Upon breaking, item has a chance to lose this\nenchantment and repair half of its durability."
-  applies-to: "Tools"
+  applies-to: "Pickaxes, Axes, Shovels"
   type: "ITEM_BREAK"
   group: "FABLED"
   applies:
@@ -1904,7 +1904,7 @@ poseidon:
 safeguard:
   display: "%group-color%Safeguard"
   description: "Chance to gain Damage Resistance when defending."
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
   applies:
@@ -1953,7 +1953,7 @@ shatter:
 heavy:
   display: "%group-color%Heavy"
   description: "Decreases damage from enemy bows by 4% per\nlevel."
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_BOW"
   group: "LEGENDARY"
   settings:
@@ -1991,7 +1991,7 @@ heavy:
 devour:
   display: "%group-color%Devour"
   description: "Chance to restore food while killing mobs."
-  applies-to: "Weapons"
+  applies-to: "Swords, Axes"
   type: "KILL_MOB"
   group: "UNCOMMON"
   applies:
@@ -2099,7 +2099,7 @@ longbow:
 tank:
   display: "%group-color%Tank"
   description: "Decreases damage from enemy axes by 4% per\nlevel."
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
   settings:
@@ -2137,7 +2137,7 @@ tank:
 valor:
   display: "%group-color%Valor"
   description: "Decreases damage from enemy swords by 4% per\nlevel."
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
   settings:
@@ -2202,7 +2202,7 @@ critical:
 rebound:
   display: "%group-color%Rebound"
   description: "Gain some health back after kills."
-  applies-to: "Weapons"
+  applies-to: "Swords, Axes"
   type: "KILL_PLAYER;KILL_MOB"
   group: "EXOTIC"
   applies:
@@ -2221,7 +2221,7 @@ rebound:
 thunderlord:
   display: "%group-color%Thunderlord"
   description: "Strike monsters with lightning every few\nconsecutive hits."
-  applies-to: "Weapons"
+  applies-to: "Swords, Axes"
   type: "ATTACK_MOB"
   group: "EXOTIC"
   applies:
@@ -2488,7 +2488,7 @@ judgement:
 divert:
   display: "%group-color%Divert"
   description: "Chance of poisoning opponent and gaining\nregeneration."
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
   group: "EXOTIC"
   applies:
@@ -2527,7 +2527,7 @@ divert:
 unholy:
   display: "%group-color%Unholy"
   description: "Chance to deal weakness and wither effects."
-  applies-to: "Armor"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE"
   group: "EXOTIC"
   applies:
@@ -2898,7 +2898,7 @@ sniper:
         - "INCREASE_DAMAGE:100 %attacker%"
 deadshot:
   display: "%group-color%Deadshot"
-  description: "Headshots with tridents deal more damage."
+  description: "Headshots with Tridents deal more damage."
   applies-to: "Tridents"
   type: "BOW;BOW_MOB"
   group: "EXOTIC"
@@ -3143,7 +3143,7 @@ confusion:
 lifebloom:
   display: '%group-color%Lifebloom'
   description: "Heals allies around you on your death."
-  applies-to: 'Armor'
+  applies-to: 'Boots, Leggings, Chestplates, Helmets'
   type: 'DEATH'
   group: 'RARE'
   applies:
@@ -3294,7 +3294,7 @@ execute:
 trap:
   display: '%group-color%Trap'
   description: 'Chance to give buffed slowness effect.'
-  applies-to: 'Armor'
+  applies-to: 'Boots, Leggings, Chestplates, Helmets'
   type: 'DEFENSE;DEFENSE_MOB'
   group: 'RARE'
   applies:
@@ -3434,7 +3434,7 @@ arsonist:
         - 'ADD_HARM:3 %victim%'
 soulwhisper:
   display: '%group-color%Soul Whisper'
-  description: "Chance to cure Wither and Poison when attacked and\nheal at high levels."
+  description: "Chance to cure wither and poison when attacked and\nheal at high levels."
   applies-to: 'Chestplates'
   type: 'DEFENSE'
   group: 'LEGENDARY'
@@ -3565,7 +3565,7 @@ unfocus:
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
 metaphysical:
   display: '%group-color%Metaphysical'
-  description: "Chance to be cured of Slowness when attacked. At\nmax level, you will only be affected approx. 10%\nof the time."
+  description: "Chance to be cured of slowness when attacked. At\nmax level, you will only be affected approx. 10%\nof the time."
   applies-to: 'Boots'
   type: 'DEFENSE'
   group: 'LEGENDARY'
@@ -3625,7 +3625,7 @@ impale:
 guardian:
   display: '%group-color%Guardian'
   description: "Automatically heals and cures all nearby\nallies."
-  applies-to: 'Armor'
+  applies-to: 'Boots, Leggings, Chestplates, Helmets'
   type: 'DEFENSE'
   group: 'EXOTIC'
   applies:
@@ -3804,7 +3804,7 @@ rage:
 silence:
   display: '%group-color%Silence'
   description: "Chance to disable all enemy armor enchantments for\n3 seconds."
-  applies-to: 'Weapons'
+  applies-to: 'Swords, Axes, Tridents, Bows, Crossbows'
   type: 'ATTACK;BOW'
   group: 'FABLED'
   applies:
@@ -3965,7 +3965,7 @@ silence:
 diminish:
   display: '%group-color%Diminish'
   description: "When this effect procs, the next attack dealt to\nyou cannot deal more than the (total amount of\ndamage / 2) you took from the previous attack."
-  applies-to: 'Armor'
+  applies-to: 'Boots, Leggings, Chestplates, Helmets'
   type: 'DEFENSE'
   group: 'EXOTIC'
   applies:
@@ -4004,7 +4004,7 @@ diminish:
 defuse:
   display: '%group-color%Defuse'
   description: "Chance to disable all enemy offensive armor\nenchantments for 7 seconds."
-  applies-to: "Weapons"
+  applies-to: "Swords, Axes, Tridents, Bows, Crossbows"
   type: 'ATTACK;BOW'
   group: 'FABLED'
   applies:
@@ -4087,7 +4087,7 @@ defuse:
 deactivate:
   display: '%group-color%Deactivate'
   description: "Chance to disable all enemy defensive armor\nenchantments for 7 seconds."
-  applies-to: "Weapons"
+  applies-to: "Swords, Axes, Tridents, Bows, Crossbows"
   type: 'ATTACK;BOW'
   group: 'FABLED'
   applies:
@@ -4230,7 +4230,7 @@ deactivate:
 markofthebeast:
   display: '%group-color%Mark of the Beast'
   description: "Once an enemy is afflicted with the mark all\nincoming damage is increased by 2x for up to 5\nseconds"
-  applies-to: 'Armor'
+  applies-to: 'Boots, Leggings, Chestplates, Helmets'
   type: 'DEFENSE'
   group: 'FABLED'
   applies:
@@ -4299,7 +4299,7 @@ markofthebeast:
 chainlifesteal:
   display: '%group-color%Chain Lifesteal'
   description: "Chance to regain health from multiple enemies near\nyour damaged target based on level"
-  applies-to: 'Armor'
+  applies-to: 'Boots, Leggings, Chestplates, Helmets'
   type: 'ATTACK'
   group: 'FABLED'
   applies:
