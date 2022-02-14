@@ -240,6 +240,10 @@ land:
     # NOTE: This setting required server reload / restart.
     mute-global: false
 
+  # Should chunks be regenerated at unclaim?
+  # NOTE: Only supported when using the latest paper 1.18.1+.
+  regen: false
+
 
   # Rename settings
   # Command: /lands rename
@@ -797,12 +801,15 @@ database:
 integration:
   # Management integrations
   manager:
-    # WorldEdit
     WorldEdit:
       # Disallow WorldEdit use in other players lands, where the player isn't trusted?
       # Bypass permission in claims: lands.bypass.worldedit
       # Bypass permission in wilderness: lands.bypass.wilderness.worldedit
       enabled_7: false
+
+    # Apply the lands-claim flag also to global regions in world manager plugins, like WorldGuard?
+    # This option requires server reload / restart.
+    global-regions: false
 
 
   # Economy settings

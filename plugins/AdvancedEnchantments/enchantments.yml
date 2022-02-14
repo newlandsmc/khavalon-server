@@ -575,14 +575,15 @@ veinminer:
         - "VEIN_MINE"
 telepathy:
   display: "%group-color%Telepathy"
-  description: "Automatically places blocks broken by tools in\nyour inventory."
-  applies-to: "Pickaxes, Axes, Shovels"
+  description: "Automatically places ores in your inventory."
+  applies-to: "Pickaxes"
   type: "MINING"
   group: "UNCOMMON"
   applies:
-    - ALL_TOOLS
+    - ALL_PICKAXES
   levels:
     1:
+      condition: "%block type% contains ORE : %allow%"
       effects:
         - "TP_DROPS"
 enderslayer:
@@ -2101,26 +2102,25 @@ longbow:
   group: "LEGENDARY"
   applies:
     - BOW
-    - CROSSBOW
   levels:
     1:
       condition:
-        - "%victim is holding% = BOW : %allow%"
+        - "%victim is holding% = BOW or %victim is holding% = CROSSBOW : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>15-25</random number> %attacker%"
     2:
       condition:
-        - "%victim is holding% = BOW : %allow%"
+        - "%victim is holding% = BOW or %victim is holding% = CROSSBOW : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>20-40</random number> %attacker%"
     3:
       condition:
-        - "%victim is holding% = BOW : %allow%"
+        - "%victim is holding% = BOW or %victim is holding% = CROSSBOW : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>35-75</random number> %attacker%"
     4:
       condition:
-        - "%victim is holding% = BOW : %allow%"
+        - "%victim is holding% = BOW or %victim is holding% = CROSSBOW : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>50-100</random number> %attacker%"
 tank:

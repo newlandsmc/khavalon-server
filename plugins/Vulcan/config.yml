@@ -24,15 +24,15 @@ alerts:
   # This is the command that will be executed when you click the alert message. Unfortunately we are limited to one
   # command per ChatComponent so we use a little magic and make our own command that is able to execute a list of any commands.
   # Valid placeholders
-  click-commands:
-  - /vulcan clickalert %player%
+  click-commands: []
+  # - /vulcan clickalert %player%
   # The commands that will be run when you use /vulcan clickalert %player% (must be a player parameter)
   click-alert-command-commands:
   - tp %player%
   # The message that will be sent when you toggle on alerts. Valid placeholder are %prefix%.
-  toggled-on-message: '%prefix% Alerts enabled.'
+  toggled-on-message: '&7Vulcan: Alerts enabled.'
   # The message that will be sent when you toggle off alerts. Valid placeholder are %prefix%.
-  toggled-off-message: '%prefix% Alerts disabled.'
+  toggled-off-message: '&7Vulcan: Alerts disabled.'
   # Whether or not alerts will be printed to the console.
   print-to-console: true
   # The format for printing alerts to the console

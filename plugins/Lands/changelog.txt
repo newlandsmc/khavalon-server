@@ -1,16 +1,1 @@
-+ Added: [Suggestion] Additional dynmap spawn icon option for nation capitals
-+ Added: Additional dynmap description for lands that are part of a nation
-+ Added: Additional dynmap spawn description for a nations capital
-+ Added: API -> Area #toggleFlag for natural flags
-+ Improved: Use "unlimited" (internal = 80; complies with SQL column) name length for automatic land creation
-+ Updated: Swedish language by @broken_arrow
-- Fixed: /lands merge not triggering land delete event
-- Fixed: [#1653] Rental compensation not getting transferred when offer removed before
-- Fixed: [#1657] Levels item still being displayed, if land levels disabled
-
-
---> Language file (en-US.yml): 
-+ String: general.integration.dynmap.nation
-+ String: general.integration.dynmap.nation.description
-+ String: general.integration.dynmap.capital
-+ String: general.integration.dynmap.capital.spawn
+- Fixed: [#1670] Worldguard region detection off by one block

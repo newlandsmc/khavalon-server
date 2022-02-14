@@ -13,3 +13,12 @@ ae:
 advancedenchantments:
   enabled: true
   message: "<white>Unknown command. Type \"/help\" for help."
+sethome:
+  enabled: true
+  message: "<red>To set a home, create a Land! Use /lands help to get started."
+home:
+  enabled: true
+  message: "<red>To set a home, create a Land! Use /lands help to get started."
+homes:
+  enabled: true
+  message: "<red>To set a home, create a Land! Use /lands help to get started."

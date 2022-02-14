@@ -311,7 +311,7 @@ items:
     - '&7from an item and converts'
     - '&7it into an enchant book.'
     - ''
-    - '&7Drag n'' drop onto item to extract'
+    - '&8Drag n'' drop onto item to extract'
     success: 100
     destroy: 0
     random: false
