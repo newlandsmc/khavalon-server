@@ -190,7 +190,7 @@ defense:
   check-cancelled: true
   max: 100.0
   min: 0
-  allow-shield-blocking: false
+  allow-shield-blocking: true
   check-multiplier-permissions: true
 fighting:
   enabled: true
@@ -201,7 +201,7 @@ fighting:
 endurance:
   enabled: true
   max-level: 97
-  xp-gain-period: 12000
+  xp-gain-period: 6000
   check-multiplier-permissions: true
 agility:
   enabled: true
@@ -214,7 +214,7 @@ alchemy:
   max-level: 97
   check-cancelled: true
   give-xp-on-takeout: false
-  give-xp-on-potion-combat: false
+  give-xp-on-potion-combat: true
   check-multiplier-permissions: true
 enchanting:
   enabled: true

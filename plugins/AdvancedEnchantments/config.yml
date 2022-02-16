@@ -371,7 +371,7 @@ items:
       success:
       - '&aYou successfully applied BlockTrak Creator'
     settings:
-      lore-display: '&7BlockTrak Blocks Broken: %stats%'
+      lore-display: '&8Blocks Broken: %stats%'
   stattrak:
     type: MAGMA_CREAM
     id: 0
@@ -385,7 +385,7 @@ items:
       success:
       - '&aYou successfully applied &aStatTrak Creator'
     settings:
-      lore-display: '&7StatTrak Kills: %stats%'
+      lore-display: '&8Player Kills: %stats%'
   mobtrak:
     type: SLIME_BALL
     id: 0
@@ -399,7 +399,7 @@ items:
       success:
       - '&aYou successfully applied &aMobTrak Creator'
     settings:
-      lore-display: '&7MobTrak Kills: %stats%'
+      lore-display: '&8Mob Kills: %stats%'
   holywhitescroll:
     type: PAPER
     id: 0
@@ -416,12 +416,12 @@ items:
       applied:
       - '&aYou successfully applied &aHoly White Scroll'
     settings:
-      lore-display: '&7HOLY PROTECTED'
+      lore-display: '&8HOLY PROTECTED'
       # Keep holywhitescroll equipped to item even after death
       keep-after-death: false
   # Orbs allow applying x number of enchants
   orb:
-    lore: '&7%max% Enchantment Slots &7(Orb +%increased%)'
+    lore: '&8%max% Enchantment Slots'
     weapon:
       material: EYE_OF_ENDER
       custom-model-data: 0
@@ -473,7 +473,7 @@ white-scroll:
   # Should the white scroll be removed once applied enchantment fails?
   delete: true
   # Display in item lore
-  lore-display: '&7PROTECTED'
+  lore-display: '&8PROTECTED'
   item:
     type: EMPTY_MAP
     id: 0

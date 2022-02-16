@@ -1514,26 +1514,14 @@ hardened:
         - "ADD_DURABILITY:-2 %victim%"
 timber:
   display: "%group-color%Timber"
-  description: "Chance to break a tree in one hit"
+  description: "Break an entire tree in one hit"
   applies-to: "Axes"
-  group: "LEGENDARY"
+  group: "FABLED"
   type: "MINING"
   applies:
     - "ALL_AXE"
   levels:
     1:
-      chance: 15
-      cooldown: 5
-      effects:
-        - "BREAK_TREE"
-    2:
-      chance: 35
-      cooldown: 5
-      effects:
-        - "BREAK_TREE"
-    3:
-      chance: 55
-      cooldown: 6
       effects:
         - "BREAK_TREE"
 cleave:

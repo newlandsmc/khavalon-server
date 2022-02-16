@@ -247,7 +247,7 @@ unban_all_history: false
 
 # If a kick message contains any of these, it will not be added to the database.
 # You can set this list to [''] if you don't want any kicks to be added to the database.
-ignored_kick_messages: ['restarting']
+ignored_kick_messages: ['']
 
 # This option controls how often notifications are sent from a single player.
 # When a player tries to join when banned or talk while muted,

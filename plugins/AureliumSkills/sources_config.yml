@@ -114,78 +114,78 @@ sources:
     red_sand: 0.7
     rooted_dirt: 5.6
   archery:
-    player: 50.0
-    bat: 1.0
-    cat: 1.0
-    chicken: 1.0
-    cod: 1.0
-    cow: 2.0
-    donkey: 2.0
+    player: 0.0
+    bat: 1.5
+    cat: 1.5
+    chicken: 1.5
+    cod: 1.5
+    cow: 3.0
+    donkey: 3.0
     fox: 3.0
-    giant: 10.0
-    horse: 2.0
-    mooshroom: 2.0
-    mule: 2.0
-    ocelot: 1.0
-    parrot: 1.0
-    pig: 2.0
-    rabbit: 1.0
-    salmon: 1.0
-    sheep: 2.0
+    giant: 15.0
+    horse: 3.0
+    mooshroom: 3.0
+    mule: 3.0
+    ocelot: 1.5
+    parrot: 1.5
+    pig: 3.0
+    rabbit: 1.5
+    salmon: 1.5
+    sheep: 3.0
     skeleton_horse: 3.0
     snow_golem: 3.0
-    squid: 2.0
+    squid: 3.0
     strider: 3.0
-    tropical_fish: 1.0
-    turtle: 2.0
-    villager: 2.0
-    wandering_trader: 2.0
+    tropical_fish: 1.5
+    turtle: 3.0
+    villager: 3.0
+    wandering_trader: 3.0
     bee: 3.0
-    cave_spider: 5.0
+    cave_spider: 7.5
     dolphin: 3.0
-    enderman: 7.0
-    iron_golem: 17.0
-    llama: 4.0
-    piglin: 5.0
-    panda: 5.0
-    polar_bear: 7.0
-    pufferfish: 1.0
-    spider: 5.0
-    wolf: 4.0
-    zombified_piglin: 4.0
-    blaze: 10.0
-    creeper: 10.0
-    drowned: 7.0
-    elder_guardian: 100.0
-    endermite: 5.0
+    enderman: 10.0
+    iron_golem: 50.0
+    llama: 6.0
+    piglin: 7.5
+    panda: 7.5
+    polar_bear: 10.0
+    pufferfish: 1.5
+    spider: 7.5
+    wolf: 6.0
+    zombified_piglin: 6.0
+    blaze: 15.0
+    creeper: 15.0
+    drowned: 10.0
+    elder_guardian: 150.0
+    endermite: 7.5
     evoker: 35.0
-    ghast: 17.0
-    guardian: 15.0
-    hoglin: 12.0
-    husk: 7.0
-    illusioner: 17.0
-    magma_cube: 12.0
-    phantom: 10.0
+    ghast: 25.0
+    guardian: 20.0
+    hoglin: 15.0
+    husk: 10.0
+    illusioner: 25.0
+    magma_cube: 15.0
+    phantom: 15.0
     piglin_brute: 35.0
-    pillager: 12.0
-    ravager: 100.0
-    shulker: 15.0
-    silverfish: 5.0
-    skeleton: 7.0
-    slime: 5.0
-    stray: 8.0
-    vex: 10.0
-    vindicator: 12.0
-    witch: 9.0
-    wither_skeleton: 17.0
-    zoglin: 12.0
-    zombie: 7.0
-    zombie_villager: 7.0
+    pillager: 15.0
+    ravager: 150.0
+    shulker: 25.0
+    silverfish: 7.5
+    skeleton: 10.0
+    slime: 7.5
+    stray: 10.0
+    vex: 15.0
+    vindicator: 25.0
+    witch: 12.0
+    wither_skeleton: 25.0
+    zoglin: 15.0
+    zombie: 10.0
+    zombie_villager: 10.0
     ender_dragon: 7000.0
     wither: 7000.0
-    axolotl: 3.5
-    glow_squid: 2.5
-    goat: 3.0
+    axolotl: 5.0
+    glow_squid: 3.0
+    goat: 4.5
   defense:
     mob_damage: 1
     player_damage: 3
@@ -263,38 +263,38 @@ sources:
     glow_squid: 2.5
     goat: 3.0
   endurance:
-    walk_per_meter: 0.333
-    sprint_per_meter: 0.1
+    walk_per_meter: 0.1
+    sprint_per_meter: 0.333
     swim_per_meter: 1
   agility:
     jump_per_100: 10
     fall_damage: 2
   alchemy:
-    awkward: 10
-    regular: 15
-    extended: 25
-    upgraded: 25
-    splash: 35
-    lingering: 50
+    awkward: 20
+    regular: 30
+    extended: 50
+    upgraded: 50
+    splash: 70
+    lingering: 100
   enchanting:
-    weapon_per_level: 2
-    armor_per_level: 2
-    tool_per_level: 2
-    book_per_level: 2
+    weapon_per_level: 3
+    armor_per_level: 3
+    tool_per_level: 3
+    book_per_level: 3
   sorcery:
-    mana_ability_use: 2
+    mana_ability_use: 5
   healing:
-    drink_regular: 10
-    drink_extended: 15
-    drink_upgraded: 15
-    splash_regular: 20
-    splash_extended: 25
-    splash_upgraded: 25
-    lingering_regular: 30
-    lingering_extended: 35
-    lingering_upgraded: 35
-    golden_apple: 5
-    enchanted_golden_apple: 50
+    drink_regular: 20
+    drink_extended: 30
+    drink_upgraded: 30
+    splash_regular: 40
+    splash_extended: 50
+    splash_upgraded: 50
+    lingering_regular: 60
+    lingering_extended: 70
+    lingering_upgraded: 70
+    golden_apple: 20
+    enchanted_golden_apple: 250
   forging:
     combine_books_per_level: 10
     combine_weapon_per_level: 15

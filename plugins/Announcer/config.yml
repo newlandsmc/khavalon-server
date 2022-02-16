@@ -66,13 +66,13 @@ messages:
     - 'seen at <click:open_url:https://semivanilla.com/map><gradient:yellow:red>https://semivanilla.com/map</gradient></click>!'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
-  4:
-    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
-    - ''
-    - 'Want to keep your items when you die? Make them '
-    - 'SoulBound with <click:run_command:/soulbind><gradient:#ac2626:#720a0a>/soulbind</gradient></click>! <gray>(Coming soon)</gray>'
-    - ''
-    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+#  4:
+#    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+#    - ''
+#    - 'Want to keep your items when you die? Make them '
+#    - 'SoulBound with <click:run_command:/soulbind><gradient:#ac2626:#720a0a>/soulbind</gradient></click>! <gray>(Coming soon)</gray>'
+#    - ''
+#    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   5:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''

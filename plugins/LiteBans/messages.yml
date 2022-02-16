@@ -268,24 +268,8 @@ command:
   kick:
     usage: '&c/kick <player> [reason]'
     no_match: '&cError: Player not found.'
-    message: |-
-      &f&m      &8&m[  &c Kicked &8&m  ]&f&m      &r
-
-      &fReason&7: $reason
-      &fKicked by&7: $executor
-
-      &f&m      &8&m[  &r    &8&m  ]&f&m      &r
-
-      &7You may reconnect immediately.
-    message_no_reason: |-
-      &f&m      &8&m[  &c Kicked &8&m  ]&f&m      &r
-
-      &fReason&7: No reason was given.
-      &fKicked by&7: $executor
-
-      &f&m      &8&m[  &r    &8&m  ]&f&m      &r
-
-      &7You may reconnect immediately.
+    message: $reason
+    message_no_reason: You were kicked.
     response: ''
     broadcast: '&e* $executor&e kicked $player&e for ''$reason&e'''
     broadcast_no_reason: '&e* $executor&e kicked $player&e.'
