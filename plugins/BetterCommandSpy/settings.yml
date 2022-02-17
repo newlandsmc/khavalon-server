@@ -31,7 +31,7 @@ ignored-commands:
 # rank removed), the player's command spy will be automatically disabled.
 # If this setting is FALSE then any player with command spy enabled can
 # still spy. For security purposes this setting is TRUE by default.
-use-canlisten-permission: true
+use-canlisten-permission: false
 
 
 # The following section allows you to configure and even disable

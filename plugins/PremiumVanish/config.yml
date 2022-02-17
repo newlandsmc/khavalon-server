@@ -374,7 +374,7 @@ HookOptions:
   DynmapSendJoinLeaveMessages: false
   # Should PV prevent players from being invisible and disguised at the same time? (LibsDisguises commands)
   # It's recommended to keep this turned on to prevent incompatibility.
-  EnableLibsDisguisesHook: false
+  EnableLibsDisguisesHook: true
   # Should PV prevent players from being invisible and disguised at the same time? (DisguiseCraft commands)
   # It's recommended to keep this turned on to prevent incompatibility.
   EnableDisguiseCraftHook: false
@@ -404,7 +404,7 @@ HookOptions:
   # The result of the isvanished placeholder can be edited by changing HelpConsoleYes/No in the messages.yml file.
   EnableMVdWPlaceholderAPIHook: false
   # Should PV stop NPCs from greeting or talking about hidden players?
-  EnableCitizensHook: false
+  EnableCitizensHook: true
   # Should PV hook into CustomParticleEffects and disable particles while you're vanished?
   EnableCustomParticleEffectsHook: false
   # Should PV use NametagEdit's API to prevent incompatibilities with its prefixes/suffixes?
@@ -472,10 +472,10 @@ InvisibilityMethod:
     # Info about player prefixes, suffixes, etc (formerly 'StrictInvisibility'); this is
     # disabled by default since it is very likely to cause issues with nametag/prefix plugins
     # Comment this out (enable it) if it doesn't cause issues, since it can prevent vanished player information leaks
-    - ScoreboardTeam
+#    - ScoreboardTeam
     # Tab completion suggestions (formerly 'DisableHandlingOfTabulatorPackets')
     # Enable this module if you don't use bungeecord. It's disabled by default to prevent issues with bungee
-    - TabComplete
+#    - TabComplete
     # Particles in the world
 #    - WorldParticles
 

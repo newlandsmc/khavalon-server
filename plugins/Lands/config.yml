@@ -17,7 +17,7 @@ general:
   # Hungarian (hu-HU) by gbalint
   # Italian (it-IT) by MiniMoro
   # Russian (ru-RU) by _sil3nce
-  # Spanish (es-ES) by Port
+  # Spanish (es-ES) by C4BR3R4
   # Swedish (sv-SE) by Broken_Arrow1
   # Polish (pl-PL) by Nideon
   # Vietnamese (vi-VN) by anhcraft
@@ -826,7 +826,7 @@ integration:
   # Supports (Dynmap, BlueMap, squaremap)
   # All three can be used at the same time.
   web:
-    enabled_12: false
+    enabled_12: true
     # Should land markers be hidden by default?
     hide: false
     # Set the spawn icon
@@ -840,7 +840,7 @@ integration:
       icon-capital: 'greenflag'
       # Set minimum zoom. The icon won't display, if the zoom in your browser is smaller (mousewheel).
       # NOTE: Recommended value for BlueMap, squaremap: 126
-      min-zoom: 5
+      min-zoom: 126
     # The name of the layer where users can see the marked lands.
     layer: Lands
     # Set the markers height?

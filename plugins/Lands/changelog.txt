@@ -1,1 +1,4 @@
-- Fixed: [#1670] Worldguard region detection off by one block
++ Updated: Spanish language by @C4BR3R4
+- Fixed: [#1659] Flight control flag warning due configuration
+- Fixed: [#1677] Nation effects not getting removed when activating and leaving right after
+- Fixed: [#1690] squaremap error due no longer implemented method

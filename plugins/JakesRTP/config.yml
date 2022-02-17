@@ -29,12 +29,12 @@ rtp-on-first-join:
 # The rtpSettings given for `settings` MUST be set to a valid rtpSettings file defined in the folder `/rtpSettings`.
 # The world given for `world` MUST be listed as an `enabled-world` in the given rtpSettings.
 rtp-on-death:
-  enabled: false
+  enabled: true
   settings:
     world: 'random-death-world'
     world_nether: 'random-death-nether'
     world_the_end: 'random-death-end'
-  respect-beds: false
+  respect-beds: true
   respect-anchors: true
   require-permission: false
 
