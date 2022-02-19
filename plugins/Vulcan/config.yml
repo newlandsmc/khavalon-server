@@ -627,7 +627,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 3
           multiple: 0.75
@@ -646,12 +646,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 8
-        alert-interval: 1
-        dont-alert-until: 1
+        alert-interval: 2
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 6
           multiple: 0.5
@@ -675,7 +675,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 5
           multiple: 0.5
@@ -694,12 +694,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 8
           multiple: 0.5
@@ -723,7 +723,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 4
           multiple: 0.75
@@ -742,12 +742,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 12
           multiple: 0.5
@@ -771,7 +771,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 4
           multiple: 0.5
@@ -790,12 +790,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 7
           multiple: 0.5
@@ -814,12 +814,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 7
           multiple: 0.5
@@ -838,12 +838,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 6
           multiple: 0.5
@@ -867,7 +867,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 10
           multiple: 0.45
@@ -890,7 +890,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 2
           multiple: 0.4
@@ -909,12 +909,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 5
           multiple: 0.5
@@ -933,12 +933,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 5
           multiple: 0.5
@@ -962,7 +962,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 2
           multiple: 0.4
@@ -986,7 +986,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 6
           multiple: 0.5
@@ -1010,7 +1010,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 20
           multiple: 0.3
@@ -1034,7 +1034,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 20
           multiple: 0.25
@@ -1058,7 +1058,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1078,7 +1078,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 20
           multiple: 0.25
@@ -1102,7 +1102,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Aim)
+        - warn -s %player% Hacked client detected (Aim)
         buffer:
           max: 12
           multiple: 0.25
@@ -1122,7 +1122,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 6
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -1147,7 +1147,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoblock)
+        - warn -s %player% Hacked client detected (Autoblock)
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1167,7 +1167,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoblock)
+        - warn -s %player% Hacked client detected (Autoblock)
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1187,7 +1187,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoblock)
+        - warn -s %player% Hacked client detected (Autoblock)
         buffer:
           max: 2
           multiple: 0.5
@@ -1207,7 +1207,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 4
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -1232,7 +1232,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         max-cps: 25
       b:
         enabled: false
@@ -1240,12 +1240,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 3
           multiple: 0.5
@@ -1256,12 +1256,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 3
           multiple: 0.5
@@ -1272,12 +1272,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 3
           multiple: 0.5
@@ -1288,12 +1288,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 3
           multiple: 0.5
@@ -1304,12 +1304,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 4
           multiple: 0.5
@@ -1320,12 +1320,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 5
           multiple: 0.25
@@ -1336,12 +1336,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 4
           multiple: 0.5
@@ -1352,12 +1352,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 5
           multiple: 0.5
@@ -1368,12 +1368,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 4
           multiple: 0.5
@@ -1384,12 +1384,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 4
           multiple: 0.5
@@ -1400,12 +1400,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 4
           multiple: 0.25
@@ -1416,12 +1416,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 4
           multiple: 0.25
@@ -1432,12 +1432,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 25
           multiple: 0.15
@@ -1448,12 +1448,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 5
           multiple: 0.25
@@ -1464,12 +1464,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 2
           multiple: 0.25
@@ -1479,12 +1479,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 35
           multiple: 0.3
@@ -1495,12 +1495,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 50
           multiple: 0.15
@@ -1511,12 +1511,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 30
           multiple: 0.15
@@ -1527,12 +1527,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         buffer:
           max: 25
           multiple: 0.15
@@ -1544,12 +1544,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 8
-        alert-interval: 1
-        dont-alert-until: 1
+        alert-interval: 2
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Reach)
+        - warn -s %player% Hacked client detected (Reach)
         buffer:
           max: 3
           multiple: 0.25
@@ -1561,12 +1561,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Reach)
+        - warn -s %player% Hacked client detected (Reach)
         buffer:
           max: 6
           multiple: 0.25
@@ -1584,7 +1584,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Fastbow)
+        - warn -s %player% Hacked client detected (Fastbow)
         buffer:
           max: 3
           multiple: 0.5
@@ -1604,12 +1604,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Criticals)
+        - warn -s %player% Hacked client detected (Criticals)
         buffer:
           max: 1
           multiple: 0.5
@@ -1628,12 +1628,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Criticals)
+        - warn -s %player% Hacked client detected (Criticals)
         buffer:
           max: 1
           multiple: 0.5
@@ -1658,7 +1658,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Killaura)
+        - warn -s %player% Hacked client detected (Killaura)
         buffer:
           max: 3
           multiple: 0.5
@@ -1682,7 +1682,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Killaura)
+        - warn -s %player% Hacked client detected (Killaura)
         buffer:
           max: 5
           multiple: 0.6
@@ -1706,7 +1706,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Killaura)
+        - warn -s %player% Hacked client detected (Killaura)
         buffer:
           max: 2
           multiple: 0.5
@@ -1730,7 +1730,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Killaura)
+        - warn -s %player% Hacked client detected (Killaura)
       f:
         enabled: true
         punishable: true
@@ -1742,7 +1742,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Killaura)
+        - warn -s %player% Hacked client detected (Killaura)
         buffer:
           max: 10
           multiple: 0.25
@@ -1758,7 +1758,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Killaura)
+        - warn -s %player% Hacked client detected (Killaura)
         buffer:
           max: 3
           multiple: 0.5
@@ -1774,19 +1774,19 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Killaura)
+        - warn -s %player% Hacked client detected (Killaura)
       j:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Killaura)
+        - warn -s %player% Hacked client detected (Killaura)
         buffer:
           max: 1
           multiple: 0.5
@@ -1797,12 +1797,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Killaura)
+        - warn -s %player% Hacked client detected (Killaura)
         buffer:
           max: 3
           multiple: 0.5
@@ -1814,12 +1814,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Hitbox)
+        - warn -s %player% Hacked client detected (Hitbox)
         buffer:
           max: 4
           multiple: 0.25
@@ -1831,12 +1831,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Hitbox)
+        - warn -s %player% Hacked client detected (Hitbox)
         buffer:
           max: 6
           multiple: 0.25
@@ -1849,12 +1849,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Velocity)
+        - warn -s %player% Hacked client detected (Velocity)
         buffer:
           max: 4
           multiple: 0.25
@@ -1865,12 +1865,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Velocity)
+        - warn -s %player% Hacked client detected (Velocity)
         buffer:
           max: 4
           multiple: 0.35
@@ -1881,12 +1881,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Velocity)
+        - warn -s %player% Hacked client detected (Velocity)
         buffer:
           max: 5
           multiple: 0.25
@@ -1897,8 +1897,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 16
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -1920,7 +1920,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (No Slow)
+        - warn -s %player% Hacked client detected (No Slow)
         buffer:
           max: 3
           multiple: 0.25
@@ -1931,12 +1931,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (No Slow)
+        - warn -s %player% Hacked client detected (No Slow)
         buffer:
           max: 7
           multiple: 0.25
@@ -1947,12 +1947,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (No Slow)
+        - warn -s %player% Hacked client detected (No Slow)
         buffer:
           max: 7
           multiple: 0.25
@@ -1963,12 +1963,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (No Slow)
+        - warn -s %player% Hacked client detected (No Slow)
         buffer:
           max: 7
           multiple: 0.25
@@ -1979,12 +1979,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (No Slow)
+        - warn -s %player% Hacked client detected (No Slow)
         buffer:
           max: 7
           multiple: 0.25
@@ -1998,12 +1998,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Motion)
+        - warn -s %player% Hacked client detected (Motion)
         buffer:
           max: 3
           multiple: 0.25
@@ -2016,12 +2016,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Motion)
+        - warn -s %player% Hacked client detected (Motion)
         buffer:
           max: 3
           multiple: 0.25
@@ -2039,7 +2039,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Motion)
+        - warn -s %player% Hacked client detected (Motion)
         buffer:
           max: 1
           multiple: 0.5
@@ -2052,12 +2052,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Motion)
+        - warn -s %player% Hacked client detected (Motion)
         buffer:
           max: 3
           multiple: 0.25
@@ -2075,7 +2075,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Motion)
+        - warn -s %player% Hacked client detected (Motion)
         buffer:
           max: 1
           multiple: 0.5
@@ -2088,12 +2088,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Motion)
+        - warn -s %player% Hacked client detected (Motion)
         buffer:
           max: 2
           multiple: 0.25
@@ -2106,12 +2106,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Motion)
+        - warn -s %player% Hacked client detected (Motion)
         buffer:
           max: 4
           multiple: 0.25
@@ -2125,12 +2125,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Jump)
+        - warn -s %player% Hacked client detected (Jump)
         buffer:
           max: 2
           multiple: 0.25
@@ -2143,12 +2143,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Jump)
+        - warn -s %player% Hacked client detected (Jump)
         buffer:
           max: 2
           multiple: 0.25
@@ -2166,7 +2166,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Step)
+        - warn -s %player% Hacked client detected (Step)
       b:
         enabled: true
         punishable: true
@@ -2174,12 +2174,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Step)
+        - warn -s %player% Hacked client detected (Step)
         buffer:
           max: 6
           multiple: 0.25
@@ -2191,12 +2191,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Boat Fly)
+        - warn -s %player% Hacked client detected (Boat Fly)
         buffer:
           max: 4
           multiple: 0.33
@@ -2208,12 +2208,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Boat Fly)
+        - warn -s %player% Hacked client detected (Boat Fly)
         buffer:
           max: 5
           multiple: 0.25
@@ -2225,12 +2225,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Boat Fly)
+        - warn -s %player% Hacked client detected (Boat Fly)
         buffer:
           max: 5
           multiple: 0.25
@@ -2243,12 +2243,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Entity Flight)
+        - warn -s %player% Hacked client detected (Entity Flight)
         buffer:
           max: 5
           multiple: 0.5
@@ -2260,12 +2260,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Entity Flight)
+        - warn -s %player% Hacked client detected (Entity Flight)
         buffer:
           max: 5
           multiple: 0.5
@@ -2277,12 +2277,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Anti Levitation)
+        - warn -s %player% Hacked client detected (Anti Levitation)
         buffer:
           max: 8
           multiple: 0.25
@@ -2294,12 +2294,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (No Saddle)
+        - warn -s %player% Hacked client detected (No Saddle)
         buffer:
           max: 6
           multiple: 0.5
@@ -2311,12 +2311,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Entity Speed)
+        - warn -s %player% Hacked client detected (Entity Speed)
         buffer:
           max: 5
           multiple: 0.5
@@ -2330,12 +2330,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Elytra)
+        - warn -s %player% Hacked client detected (Elytra)
         buffer:
           max: 1
           multiple: 0.5
@@ -2348,12 +2348,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Elytra)
+        - warn -s %player% Hacked client detected (Elytra)
         buffer:
           max: 8
           multiple: 0.25
@@ -2365,12 +2365,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Elytra)
+        - warn -s %player% Hacked client detected (Elytra)
         buffer:
           max: 6
           multiple: 0.5
@@ -2382,12 +2382,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Elytra)
+        - warn -s %player% Hacked client detected (Elytra)
         buffer:
           max: 6
           multiple: 0.25
@@ -2399,12 +2399,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Elytra)
+        - warn -s %player% Hacked client detected (Elytra)
         buffer:
           max: 3
           multiple: 0.25
@@ -2416,12 +2416,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Elytra)
+        - warn -s %player% Hacked client detected (Elytra)
         buffer:
           max: 4
           multiple: 0.25
@@ -2433,12 +2433,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Elytra)
+        - warn -s %player% Hacked client detected (Elytra)
         buffer:
           max: 4
           multiple: 0.25
@@ -2452,12 +2452,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 12
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Speed)
+        - warn -s %player% Hacked client detected (Speed)
         buffer:
           max: 3
           multiple: 0.35
@@ -2470,12 +2470,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Speed)
+        - warn -s %player% Hacked client detected (Speed)
         buffer:
           max: 3
           multiple: 0.25
@@ -2489,12 +2489,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Speed)
+        - warn -s %player% Hacked client detected (Speed)
         buffer:
           max: 3
           multiple: 0.25
@@ -2508,12 +2508,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Speed)
+        - warn -s %player% Hacked client detected (Speed)
         buffer:
           max: 3
           multiple: 0.25
@@ -2528,12 +2528,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Fast Climb)
+        - warn -s %player% Hacked client detected (Fast Climb)
         buffer:
           max: 4
           multiple: 0.5
@@ -2547,12 +2547,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Wall Climb)
+        - warn -s %player% Hacked client detected (Wall Climb)
         buffer:
           max: 4
           multiple: 0.35
@@ -2566,12 +2566,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Jesus)
+        - warn -s %player% Hacked client detected (Jesus)
         buffer:
           max: 3
           multiple: 0.5
@@ -2584,12 +2584,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Jesus)
+        - warn -s %player% Hacked client detected (Jesus)
         buffer:
           max: 4
           multiple: 0.5
@@ -2602,12 +2602,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Jesus)
+        - warn -s %player% Hacked client detected (Jesus)
         buffer:
           max: 10
           multiple: 0.45
@@ -2620,12 +2620,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Jesus)
+        - warn -s %player% Hacked client detected (Jesus)
         buffer:
           max: 4
           multiple: 0.45
@@ -2638,12 +2638,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Jesus)
+        - warn -s %player% Hacked client detected (Jesus)
         buffer:
           max: 10
           multiple: 0.25
@@ -2657,12 +2657,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Flight)
+        - warn -s %player% Hacked client detected (Flight)
         buffer:
           max: 3
           multiple: 0.65
@@ -2679,12 +2679,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Flight)
+        - warn -s %player% Hacked client detected (Flight)
         buffer:
           max: 3
           multiple: 0.5
@@ -2697,12 +2697,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Flight)
+        - warn -s %player% Hacked client detected (Flight)
         buffer:
           max: 4
           multiple: 0.75
@@ -2719,12 +2719,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Flight)
+        - warn -s %player% Hacked client detected (Flight)
         buffer:
           max: 4
           multiple: 0.35
@@ -2741,12 +2741,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Flight)
+        - warn -s %player% Hacked client detected (Flight)
         buffer:
           max: 3
           multiple: 0.4
@@ -2763,12 +2763,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Vclip)
+        - warn -s %player% Hacked client detected (Vclip)
     sprint:
       a:
         enabled: true
@@ -2776,12 +2776,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Sprint)
+        - warn -s %player% Hacked client detected (Sprint)
         buffer:
           max: 6
           multiple: 0.25
@@ -2795,12 +2795,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Strafe)
+        - warn -s %player% Hacked client detected (Strafe)
         buffer:
           max: 2
           multiple: 0.5
@@ -2811,12 +2811,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (Strafe)
+        - warn -s %player% Hacked client detected (Strafe)
         buffer:
           max: 4
           multiple: 0.15
@@ -2834,7 +2834,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Fast Use)
+        - warn -s %player% Hacked client detected (Fast Use)
     fastplace:
       a:
         enabled: true
@@ -2847,7 +2847,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Fast Place)
+        - warn -s %player% Hacked client detected (Fast Place)
         max-blocks: 15
     fastbreak:
       a:
@@ -2856,12 +2856,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Fast Break)
+        - warn -s %player% Hacked client detected (Fast Break)
         buffer:
           max: 2
           multiple: 0.25
@@ -2879,7 +2879,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Tower)
+        - warn -s %player% Hacked client detected (Tower)
         buffer:
           max: 4
           multiple: 0.5
@@ -2896,19 +2896,19 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
       b:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
         buffer:
           max: 3
           multiple: 0.25
@@ -2924,7 +2924,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
         buffer:
           max: 2
           multiple: 0.25
@@ -2935,12 +2935,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
         buffer:
           max: 4
           multiple: 0.25
@@ -2951,12 +2951,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
         buffer:
           max: 4
           multiple: 0.25
@@ -2967,12 +2967,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
         buffer:
           max: 2
           multiple: 0.25
@@ -2983,12 +2983,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
         buffer:
           max: 8
           multiple: 0.25
@@ -2999,36 +2999,36 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
       j:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
       k:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
         buffer:
           max: 1
           multiple: 0.5
@@ -3040,12 +3040,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 12
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
         buffer:
           max: 1
           multiple: 0.5
@@ -3056,12 +3056,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 12
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
         buffer:
           max: 2
           multiple: 0.5
@@ -3073,8 +3073,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
-        dont-alert-until: 16
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.8
         punishment-commands:
@@ -3090,8 +3090,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
-        dont-alert-until: 31
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.8
         punishment-commands:
@@ -3108,8 +3108,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1000
-        alert-interval: 1
-        dont-alert-until: 1
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 1.0
         punishment-commands:
@@ -3120,8 +3120,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1000
-        alert-interval: 1
-        dont-alert-until: 1
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 1.0
         punishment-commands:
@@ -3133,12 +3133,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Baritone)
+        - warn -s %player% Hacked client detected (Baritone)
         buffer:
           max: 20
           multiple: 0.5
@@ -3149,12 +3149,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Baritone)
+        - warn -s %player% Hacked client detected (Baritone)
         buffer:
           max: 2
           multiple: 0.5
@@ -3171,7 +3171,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Crash)
+        - warn -s %player% Hacked client detected (Crash)
       b:
         enabled: true
         punishable: true
@@ -3183,7 +3183,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Crash)
+        - warn -s %player% Hacked client detected (Crash)
         buffer:
           max: 3
           multiple: 0.5
@@ -3199,7 +3199,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Crash)
+        - warn -s %player% Hacked client detected (Crash)
       d:
         enabled: true
         punishable: true
@@ -3211,7 +3211,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Crash)
+        - warn -s %player% Hacked client detected (Crash)
     ghosthand:
       a:
         enabled: true
@@ -3224,7 +3224,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Ghost Hand)
+        - warn -s %player% Hacked client detected (Ghost Hand)
         cancel: true
     selfleash:
       a:
@@ -3233,12 +3233,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Self Leash)
+        - warn -s %player% Hacked client detected (Self Leash)
         buffer:
           max: 5
           multiple: 0.5
@@ -3250,8 +3250,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
-        dont-alert-until: 11
+        alert-interval: 2
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3264,7 +3264,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 4
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3280,7 +3280,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 2
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3292,7 +3292,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 2
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3304,7 +3304,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 6
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3320,7 +3320,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 2
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3332,7 +3332,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 2
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3344,7 +3344,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 4
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3356,7 +3356,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 4
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3368,7 +3368,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 4
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3380,7 +3380,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 4
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3392,7 +3392,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 6
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3408,7 +3408,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 6
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3423,8 +3423,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
-        dont-alert-until: 11
+        alert-interval: 2
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3440,7 +3440,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 2
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3455,8 +3455,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
-        dont-alert-until: 11
+        alert-interval: 2
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3472,7 +3472,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 2
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3487,8 +3487,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
-        dont-alert-until: 11
+        alert-interval: 2
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3504,7 +3504,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 6
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3516,7 +3516,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 2
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3528,7 +3528,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 2
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3539,8 +3539,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 16
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3556,8 +3556,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
-        dont-alert-until: 11
+        alert-interval: 2
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3572,8 +3572,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
-        dont-alert-until: 11
+        alert-interval: 2
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3589,7 +3589,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 2
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3601,19 +3601,19 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 4
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Boat Glitch)
+        - warn -s %player% Hacked client detected (Boat Glitch)
       '1':
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 16
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3628,8 +3628,8 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 16
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3645,7 +3645,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 6
+        dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3666,7 +3666,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Inventory)
+        - warn -s %player% Hacked client detected (Inventory)
         buffer:
           max: 2
           multiple: 0.25
@@ -3682,7 +3682,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Inventory)
+        - warn -s %player% Hacked client detected (Inventory)
         buffer:
           max: 2
           multiple: 0.25
@@ -3696,12 +3696,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 8
-        alert-interval: 1
-        dont-alert-until: 1
+        alert-interval: 2
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Invalid Movement)
+        - warn -s %player% Hacked client detected (Invalid Movement)
         buffer:
           max: 1
           multiple: 0.5
@@ -3712,12 +3712,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Invalid Movement)
+        - warn -s %player% Hacked client detected (Invalid Movement)
         buffer:
           max: 8
           multiple: 0.25
@@ -3730,12 +3730,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 8
-        alert-interval: 1
-        dont-alert-until: 1
+        alert-interval: 2
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Invalid Movement)
+        - warn -s %player% Hacked client detected (Invalid Movement)
         buffer:
           max: 1
           multiple: 0.5
@@ -3753,7 +3753,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Invalid Movement)
+        - warn -s %player% Hacked client detected (Invalid Movement)
         buffer:
           max: 1
           multiple: 0.5
@@ -3766,12 +3766,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Invalid Movement)
+        - warn -s %player% Hacked client detected (Invalid Movement)
         buffer:
           max: 2
           multiple: 0.5
@@ -3784,12 +3784,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Invalid Movement)
+        - warn -s %player% Hacked client detected (Invalid Movement)
         buffer:
           max: 3
           multiple: 0.5
@@ -3802,12 +3802,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Invalid Movement)
+        - warn -s %player% Hacked client detected (Invalid Movement)
         buffer:
           max: 3
           multiple: 0.5
@@ -3820,12 +3820,12 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 5
+        dont-alert-until: 5
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Invalid Movement)
+        - warn -s %player% Hacked client detected (Invalid Movement)
         buffer:
           max: 1
           multiple: 0.5
@@ -3837,12 +3837,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Groundspoof)
+        - warn -s %player% Hacked client detected (Groundspoof)
         buffer:
           max: 4
           multiple: 0.5
@@ -3858,7 +3858,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Groundspoof)
+        - warn -s %player% Hacked client detected (Groundspoof)
         buffer:
           max: 4
           multiple: 0.5
@@ -3869,12 +3869,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
-        dont-alert-until: 2
+        alert-interval: 3
+        dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Groundspoof)
+        - warn -s %player% Hacked client detected (Groundspoof)
         buffer:
           max: 4
           multiple: 0.5
@@ -3891,7 +3891,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Multiple)
+        - warn -s %player% Hacked client detected - Irregular Combat
         max-combat-violations: 25
       b:
         enabled: false
@@ -3904,7 +3904,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Movement (General)
+        - warn -s %player% Hacked client detected - Irregular Movement
         max-movement-violations: 30
       c:
         enabled: false
@@ -3917,7 +3917,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (General)
+        - warn -s %player% Hacked client detected - Irregular Interactions
         max-player-violations: 30
       d:
         enabled: true
@@ -3930,7 +3930,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Combat (Autoclicker)
+        - warn -s %player% Hacked client detected (Autoclicker)
         max-autoclicker-violations: 30
       e:
         enabled: false
@@ -3956,5 +3956,5 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - warn -s %player% Hacked client detected - Player (Scaffold)
+        - warn -s %player% Hacked client detected (Scaffold)
         max-scaffold-violations: 25
