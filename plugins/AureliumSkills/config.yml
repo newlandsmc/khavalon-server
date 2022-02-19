@@ -48,7 +48,7 @@ boss-bar:
   mode: single
   stay-time: 80
   update-every: 1
-  round-xp: false
+  round-xp: true
   display-maxed: true
   format:
   - FARMING GREEN SEGMENTED_10
@@ -229,7 +229,7 @@ healing:
   enabled: true
   check-cancelled: true
   max-level: 97
-  exclude-negative-potions: false
+  exclude-negative-potions: true
   check-multiplier-permissions: true
 forging:
   enabled: true
@@ -241,20 +241,20 @@ health:
   health-scaling: true
   hearts:
     '10': 20
-    '11': 22
-    '12': 26
-    '13': 32
-    '14': 40
-    '15': 52
-    '16': 66
-    '17': 84
-    '18': 104
-    '19': 126
-    '20': 150
+    '11': 1000
+    '12': 1000 #26
+    '13': 1000 #32
+    '14': 1000 #40
+    '15': 1000 #52
+    '16': 1000 #66
+    '17': 1000 #84
+    '18': 1000 #104
+    '19': 1000 #126
+    '20': 1000 #150
   hp-indicator-scaling: 1
   update-delay: 0
   force-base-health: false
-  keep-full-on-increase: false
+  keep-full-on-increase: true
 strength:
   modifier: 0.5
   hand-damage: true

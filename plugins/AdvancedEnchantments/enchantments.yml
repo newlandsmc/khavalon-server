@@ -370,17 +370,17 @@ decapitation:
     - ALL_AXE
   levels:
     1:
-      chance: 5
+      chance: 15
       cooldown: 10
       effects:
         - "DROP_HEAD %victim%"
     2:
-      chance: 10
+      chance: 30
       cooldown: 10
       effects:
         - "DROP_HEAD %victim%"
     3:
-      chance: 15
+      chance: 50
       cooldown: 10
       effects:
         - "DROP_HEAD %victim%"

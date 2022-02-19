@@ -33,10 +33,12 @@ sleep 1
 sleep 1
 
 /var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'broadcast &cServer rebooting in 1 second.'
+/var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'endrespawn'
 
 sleep 1
 
-/var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'endrespawn'
+/var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'whitelist on'
+rebooting=1
 
 sudo systemctl stop minecraft
 
@@ -77,3 +79,18 @@ rm -f temp.txt
 rm -f temp2.txt
 
 sudo systemctl start minecraft
+
+while [ $rebooting -eq 1 ]
+do
+  if [[ -n $(journalctl --since "10 seconds ago" --no-pager | grep -Ei "Done \([0-9.]+s\)! For help, type \"help\"") ]]
+  then
+    rebooting=0
+  fi
+  sleep 3
+done
+
+/var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'chunky world world_the_end'
+/var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'chunky center 0 0'
+/var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'chunky radius 528'
+/var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'chunky start'
+/var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'whitelist off'

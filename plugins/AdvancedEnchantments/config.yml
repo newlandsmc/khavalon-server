@@ -198,8 +198,8 @@ slots:
   # This is a total slot number that can be with upgrades
   max-increase-of-slots: 5
   # Should it be displayed in lore?
-  display-in-lore: false
-  display: '&eItem Slots&7: %left%'
+  display-in-lore: true
+  display: '&8Custom Slots Left: %left%'
   message:
   - '&cYou cannot apply that enchantment! There are no free slots left!'
 
@@ -421,7 +421,7 @@ items:
       keep-after-death: false
   # Orbs allow applying x number of enchants
   orb:
-    lore: '&8%max% Enchantment Slots'
+    lore: '&8Orb(s) Applied'
     weapon:
       material: EYE_OF_ENDER
       custom-model-data: 0
@@ -778,8 +778,7 @@ settings:
   # with it, please report them on GitHub https://github.com/GC-spigot/AdvancedEnchantments/issues/new/choose
   use-experimental-damage: true
   # All blocks trench won't break.
-  trench-blacklist:
-  - OBSIDIAN
+  trench-blacklist: []
   # Trench Whitelist
   # If list is not empty, will not allow to break any other blocks than listed here
   trench-whitelist: []
