@@ -1122,7 +1122,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 6
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -1207,7 +1207,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 4
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -1898,7 +1898,7 @@ checks:
         broadcast-punishment: false
         max-violations: 15
         alert-interval: 3
-        dont-alert-until: 3
+        dont-alert-until: 16
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3074,7 +3074,7 @@ checks:
         broadcast-punishment: false
         max-violations: 15
         alert-interval: 3
-        dont-alert-until: 3
+        dont-alert-until: 16
         maximum-ping: 100000
         minimum-tps: 19.8
         punishment-commands:
@@ -3091,7 +3091,7 @@ checks:
         broadcast-punishment: false
         max-violations: 30
         alert-interval: 5
-        dont-alert-until: 5
+        dont-alert-until: 31
         maximum-ping: 100000
         minimum-tps: 19.8
         punishment-commands:
@@ -3109,7 +3109,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1000
         alert-interval: 5
-        dont-alert-until: 5
+        dont-alert-until: 1001
         maximum-ping: 100000
         minimum-tps: 1.0
         punishment-commands:
@@ -3121,7 +3121,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1000
         alert-interval: 5
-        dont-alert-until: 5
+        dont-alert-until: 1001
         maximum-ping: 100000
         minimum-tps: 1.0
         punishment-commands:
@@ -3251,7 +3251,7 @@ checks:
         broadcast-punishment: false
         max-violations: 10
         alert-interval: 2
-        dont-alert-until: 2
+        dont-alert-until: 11
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3264,7 +3264,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 4
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3280,7 +3280,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3292,7 +3292,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3304,7 +3304,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 6
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3320,7 +3320,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3332,7 +3332,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3344,7 +3344,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 4
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3356,7 +3356,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 4
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3368,7 +3368,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 4
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3380,7 +3380,7 @@ checks:
         broadcast-punishment: false
         max-violations: 3
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 4
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3392,7 +3392,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 6
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3408,7 +3408,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 6
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3424,7 +3424,7 @@ checks:
         broadcast-punishment: false
         max-violations: 10
         alert-interval: 2
-        dont-alert-until: 2
+        dont-alert-until: 11
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3440,7 +3440,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3456,7 +3456,7 @@ checks:
         broadcast-punishment: false
         max-violations: 10
         alert-interval: 2
-        dont-alert-until: 2
+        dont-alert-until: 11
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3472,7 +3472,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3488,7 +3488,7 @@ checks:
         broadcast-punishment: false
         max-violations: 10
         alert-interval: 2
-        dont-alert-until: 2
+        dont-alert-until: 11
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3504,7 +3504,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 6
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3516,7 +3516,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3528,7 +3528,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3540,7 +3540,7 @@ checks:
         broadcast-punishment: false
         max-violations: 15
         alert-interval: 3
-        dont-alert-until: 3
+        dont-alert-until: 16
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3557,7 +3557,7 @@ checks:
         broadcast-punishment: false
         max-violations: 10
         alert-interval: 2
-        dont-alert-until: 2
+        dont-alert-until: 11
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3573,7 +3573,7 @@ checks:
         broadcast-punishment: false
         max-violations: 10
         alert-interval: 2
-        dont-alert-until: 2
+        dont-alert-until: 11
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3589,7 +3589,7 @@ checks:
         broadcast-punishment: false
         max-violations: 1
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3613,7 +3613,7 @@ checks:
         broadcast-punishment: false
         max-violations: 15
         alert-interval: 3
-        dont-alert-until: 3
+        dont-alert-until: 16
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3629,7 +3629,7 @@ checks:
         broadcast-punishment: false
         max-violations: 15
         alert-interval: 3
-        dont-alert-until: 3
+        dont-alert-until: 16
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
@@ -3645,7 +3645,7 @@ checks:
         broadcast-punishment: false
         max-violations: 5
         alert-interval: 1
-        dont-alert-until: 1
+        dont-alert-until: 6
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
