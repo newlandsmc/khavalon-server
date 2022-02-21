@@ -105,13 +105,13 @@ commands:
     swear: true
     ip: true
 
-##Anti characters spam - 'aaaaaaaaaaaaaaaaaaaa' to 'aaaa'
+# #Anti characters spam - 'aaaaaaaaaaaaaaaaaaaa' to 'aaaa'
 antiSpam:
-  #Enable Anti characters spam?
+  # Enable Anti characters spam?
   enable: true
-
-  #If the string of repeat characters is above this amount it is then counted as spam
+  
+  # If the string of repeat characters is above this amount it is then counted as spam
   aboveAmount: 6
-
-  #The amount of characters we replace the spam with.
+  
+  # The amount of characters we replace the spam with.
   replaceAmount: 3

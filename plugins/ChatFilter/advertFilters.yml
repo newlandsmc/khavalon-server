@@ -13,7 +13,7 @@ ChatFilter:
     AddedBy: ChatFilter
   advert1:
     Enabled: true
-    Regex: ([a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;)(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|io|be|gg))
+    Regex: ([a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;)(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|io|be|gg) )
     Warn:
       Staff: true
       Player: true

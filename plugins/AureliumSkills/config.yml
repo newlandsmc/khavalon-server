@@ -190,7 +190,7 @@ defense:
   check-cancelled: true
   max: 100.0
   min: 0
-  allow-shield-blocking: true
+  allow-shield-blocking: false
   check-multiplier-permissions: true
 fighting:
   enabled: true

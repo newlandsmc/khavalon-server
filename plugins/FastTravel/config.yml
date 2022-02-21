@@ -18,22 +18,24 @@ square-map-icon-size: 32
 ##NOTE: It should be less than 5, as the plugin adds a row as filler in bottom .
 gui: 
    name: Waypoints
-   rows: 3
+   rows: 4
    buttons: 
       unlocked: 
-         name: <green>%name%
+         name: <white>%name%
          lore-to-add-at-last: 
-         - <green>Click to visit the waypoint
+         - ""
+         - <dark_gray>Click to visit the waypoint
       locked: 
          name: <red>%name%
          lore-to-add-at-last: 
+         - ""
          - <red>Locked! - visit %x% %z% to unlock.
       additional: 
          enabled: true
          item: base64:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MzQ5OGVhYzE5NzE1Mjg1NzEwNjdkNWIxMTBiZmU1MmIyNjkzYjYyMmEzYjY3N2FkNTcxMGYxZmEzMWNlIn19fQ==
-         name: <gray>Lands
+         name: <white>Lands
          lore: 
-         - <white>Open Lands UI
+         - <gray>Open Lands UI
          command: lands
 
 messages: 

@@ -13,7 +13,7 @@
     <meta property="twitter:domain" content="semivanilla.com" />
     <meta property="twitter:url" content="https://semivanilla.com" />
     <meta name="twitter:title" content="SemiVanilla Minecraft Server" />
-    <meta name="twitter:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills. PVP. 
+    <meta name="twitter:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills. PVP.
     Java + Bedrock support!" />
     <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
@@ -21,7 +21,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://semivanilla.com/assets/images/apple-touch-icon.png">
     <meta name="theme-color" content="#000000" />
-    <link rel="shortcut icon" href="https://semivanilla.com/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" />
+    <link rel="shortcut icon" href="https://semivanilla.com/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" 
+/>
     <link rel="stylesheet" href="https://semivanilla.com/assets/css/cookienotice.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script>
@@ -36,17 +37,24 @@
       document.addEventListener("touchstart", function(){}, true);
     </script>
 
-    <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2" as="font" crossorigin="anonymous" />
-    <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCIPrE.woff2" as="font" crossorigin="anonymous" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
-    <link rel="manifest" href="./live-atlas/favicons/site.webmanifest" />
+    <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCIPrE.woff2" as="font" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+
+    <!-- Remove this if you are using the servers config below -->
+    <script src="./standalone/config.js"></script>
 
     <script>
         window.liveAtlasConfig = {
         	// By default LiveAtlas looks for a dynmap standalone/config.js file
-            // This configuration can be used instead to support Pl3xmap installations multiple servers
+            // This configuration can be used instead to support Pl3xmap and Squaremap installations as well as multiple servers (external webserver required)
             // To configure multiple servers, see https://github.com/JLyne/LiveAtlas/wiki/Configuring-Multiple-Servers.
-            // servers: {
+            servers: {
+                // Squaremap internal webserver configuration
+              squaremap: {
+            	 	squaremap: window.location.pathname
+              },
+
                 // Pl3xmap internal webserver configuration
                 // pl3xmap: {
             	// 	pl3xmap: window.location.pathname
@@ -90,11 +98,6 @@
                 //         markers: 'http://dynmap.local/standalone/survival/MySQL_markers.php?marker='
                 //     }
                 // },
-            // },
-           servers: {
-               pl3xmap: {
-                   pl3xmap: window.location.pathname
-               }
             },
 
             // These messages are used throughout LiveAtlas and can be translated here
@@ -109,6 +112,12 @@
                 chatErrorUnknown: 'Unexpected error while sending chat message',
                 chatErrorDisabled: 'Chat is not enabled',
             	serversHeading: 'Servers',
+                markersHeading: 'Markers',
+                markersSearchPlaceholder: 'Search markers...',
+                markersSkeleton: 'No markers exist for the current world',
+                markersSetSkeleton: 'This marker set is empty',
+                markersSearchSkeleton: 'No matching markers found',
+                markersUnnamed: '(Unnamed marker)',
                 worldsSkeleton: 'No maps have been configured',
                 playersSkeleton: 'No players are currently online',
                 playersTitle: 'Click to center on player\nDouble-click to follow player',
@@ -159,6 +168,7 @@
                 logoutSuccess: 'Logged out successfully',
 
                 closeTitle: 'Close',
+                showMore: 'Show more'
             },
 
             ui: {
@@ -170,6 +180,9 @@
 
                 // Use more compact pre-2.0 player marker style
                 compactPlayerMarkers: false,
+
+                // Disable the map right click menu
+                disableContextMenu: false,
             },
 
             // Config version. Do not modify.
@@ -262,7 +275,7 @@
             width: 100%;
             margin: 0;
             padding: 0;
-	        overscroll-behavior: none;
+            overscroll-behavior: none;
         }
 
         html {
@@ -347,12 +360,12 @@
             height: 100%;
         }
     </style>
-    <script type="module" crossorigin src="./live-atlas/assets/index.64ae640c.js"></script>
-    <link rel="modulepreload" href="./live-atlas/assets/vendor.3a2d484d.js">
-    <link rel="stylesheet" href="./live-atlas/assets/index.dccfb935.css">
+    
+    <script type="module" crossorigin src="./live-atlas/assets/index.da3c0648.js"></script>
+    <link rel="modulepreload" href="./live-atlas/assets/vendor.e5a43995.js">
+    <link rel="stylesheet" href="./live-atlas/assets/index.dac39fa5.css">
   </head>
   <body>
-    <?php echo file_get_contents('https://semivanilla.com/assets/templates/cookies-notice.html'); ?>
     <div id="splash">
         <svg id="splash__logo" width="200" height="200" viewBox="0 0 268.83 266.53" aria-hidden="true" fill="rgba(255, 255, 255, 0.7)">
             <path d="M5.235.662C2.153.606 0 2.945 0 6.912v216.577c0 5.288 3.828 11.41 8.582 13.725l57.835 28.165c4.755 2.316 8.582-.078 8.582-5.367V43.434c0-5.288-3.827-11.41-8.582-13.727L8.582 1.544C7.394.965 6.262.681 5.235.662zm32.283 135.96c14.394 0 26.062 11.669 26.062 26.063 0 14.394-24.167 59.55-26.062 57.654-1.854 1.854-26.063-43.26-26.063-57.654 0-14.394 11.669-26.063 26.063-26.063zM202.388 1.013l57.833 28.165c4.755 2.315 8.583 8.437 8.583 13.726v216.58c0 5.29-3.828 7.683-8.583 5.367l-57.833-28.164c-4.755-2.316-8.583-8.438-8.583-13.727V6.38c0-5.289 3.828-7.682 8.583-5.367zM172.012.39c-1.051-.035-2.209.191-3.426.709l-68.342 29.053c-4.867 2.07-8.786 7.993-8.786 13.282V260.01c0 5.29 3.919 7.88 8.786 5.811l68.342-29.053c4.867-2.07 8.786-7.991 8.786-13.28V6.91c0-3.967-2.204-6.417-5.36-6.521zm-36.949 41.216c14.394 0 26.063 11.668 26.063 26.062 0 14.394-24.168 59.55-26.063 57.655C133.209 127.177 109 82.063 109 67.668c0-14.394 11.669-26.062 26.063-26.062z"/>
@@ -379,6 +392,6 @@
     </noscript>
 
     <main id="app" aria-hidden="true"></main>
-    <?php echo file_get_contents('https://semivanilla.com/assets/templates/cookies-notice.html'); ?>
+    
   </body>
 </html>

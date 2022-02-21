@@ -26,6 +26,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    boatrace1:
+        min: {x: -720, y: 55, z: -7990}
+        max: {x: -240, y: 85, z: -7670}
+        members: {}
+        flags: {deny-message: §cYou cannot do that near a boat race track., vehicle-place: allow,
+            vehicle-destroy: allow, interact: allow, pvp: deny}
+        owners:
+            unique-ids: [37d6fd08-da41-4b94-9523-ddd75c62470d]
+        type: cuboid
+        priority: 0
     fasttravel-southwest:
         min: {x: -5012, y: 59, z: 4988}
         max: {x: -4988, y: 69, z: 5012}

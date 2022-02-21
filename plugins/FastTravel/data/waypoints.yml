@@ -1,26 +1,7 @@
-Southeast:
+Southwest: 
    icon-name: quadrantmarker.png
    lore: 
-   - <white>Southeast Quadrant
-   icon: SAND
-   location:
-      x: 5000
-      y: 70
-      z: 5000
-      pitch: 0.29972762
-      world-name: world
-      yaw: 88.43982
-   gui: 
-      col: 2
-      row: 2
-   offset-radius:
-      x: 4
-      y: 4
-      z: 5
-Southwest:
-   icon-name: quadrantmarker.png
-   lore: 
-   - <white>Southwest Quadrant
+   - <gray>Southwest Quadrant
    icon: PACKED_ICE
    location: 
       x: -5000
@@ -36,41 +17,80 @@ Southwest:
       x: 4
       y: 4
       z: 5
-Northwest:
+Northwest: 
    icon-name: quadrantmarker.png
-   lore:
-   - <white>Northwest Quadrant
+   lore: 
+   - <gray>Northwest Quadrant
    icon: SNOW_BLOCK
-   location:
+   location: 
       x: -5000
       y: 71
       z: -5000
       pitch: 0.29972762
       world-name: world
       yaw: 88.43982
-   gui:
+   gui: 
       col: 6
       row: 2
+   offset-radius: 
+      x: 4
+      y: 4
+      z: 5
+Southeast: 
+   icon-name: quadrantmarker.png
+   lore: 
+   - <gray>Southeast Quadrant
+   icon: SAND
+   location: 
+      x: 5000
+      y: 70
+      z: 5000
+      pitch: 0.29972762
+      world-name: world
+      yaw: 88.43982
+   gui: 
+      col: 2
+      row: 2
+   offset-radius: 
+      x: 4
+      y: 4
+      z: 5
+KrylicsBoatRace:
+   icon-name: default.png
+   lore:
+   - <gray>A race track for boats build on
+   - <gray>ice! Race anytime.
+   icon: SPRUCE_BOAT
+   location:
+      x: -710
+      y: 64
+      z: -7851
+      pitch: 2.6998768
+      world-name: world
+      yaw: -68.76904
+   gui:
+      col: 5
+      row: 3
    offset-radius:
       x: 4
       y: 4
       z: 5
-Northeast:
+Northeast: 
    icon-name: quadrantmarker.png
-   lore:
-   - <white>Northeast Quadrant
+   lore: 
+   - <gray>Northeast Quadrant
    icon: GRASS_BLOCK
-   location:
+   location: 
       x: 5000
       y: 71
       z: -5000
       pitch: 0.29972762
       world-name: world
       yaw: 88.43982
-   gui:
+   gui: 
       col: 8
       row: 2
-   offset-radius:
+   offset-radius: 
       x: 4
       y: 4
       z: 5
