@@ -87,3 +87,10 @@ log:
         It will be overwritten.
     could-not-save-region: Could not save map for region <x>,<z>
     internal-web-not-running: An error occurred with the internal webserver
+    update-checker:
+        fetching-version-information: Fetching version information...
+        behind-branch: squaremap is <behind> version(s) behind branch '<branch>'!
+        download-dev-builds: Download dev builds from <link>
+        unknown-commit: Unknown commit '<commit>', cannot check for updates.
+        behind-releases: squaremap is <behind> version(s) out of date.
+        download-release: Download the latest release (<latest>) from <link>

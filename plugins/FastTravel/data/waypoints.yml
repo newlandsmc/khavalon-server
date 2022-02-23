@@ -56,7 +56,7 @@ Southeast:
       y: 4
       z: 5
 KrylicsBoatRace:
-   icon-name: default.png
+   icon-name: boatrace.png
    lore:
    - <gray>A race track for boats build on
    - <gray>ice! Race anytime.

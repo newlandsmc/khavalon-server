@@ -1,18 +1,85 @@
-
-# Player placeholder support: (playerName), (playerHealth), (playerVotesToday). for other player options please message me, so I can implement them
-# There's also some server placeholders as well: (voteServices) <- returns the number of services enabled
-# This group of messages has that support
-# Please use MiniMessage for color and other formatting
-claim-reminder: "<gold>You found some treasure while you were away! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><gold> to claim your treasure."
-add-old-rewards: false # Stack old rewards to new ones, if set to false only the newest rewards will be shown
-vote-services:
+loot: # specifies what files to pull the loot tables from (in loot folder)
+  daily:
+    files:
+      - 'daily.json'
+  premium:
+    files:
+      - 'premium.json'
+  vote:
+    files:
+      - 'vote.json'
+  super-vote:
+    files:
+      - 'super-vote.json'
+services:
   - "MinecraftServers.org"
   - "Top Minecraft Servers"
   - "MCSL"
   - "PlanetMinecraft.com"
   - "Best Minecraft Servers"
   - "Minecraft.Buzz"
-vote-incomplete-message: "<gray>Vote received! [(playerVotesToday)/(voteServices)]"
-vote-complete-message: "<gold>Thank you for voting! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><gold> to claim your treasure."
-vote-complete-announce: "<yellow> * (playerName) voted and received an Instant Expedition! Use /vote to vote."
-instant-package-message: "<gold>Thank you for voting! Because you have the instant reward package you do not receive any extra rewards."
+menu:
+  enable-animation: true # enables the 'animation' in the men
+  claim-lore: [] #lore added when claiming items
+  unclaimed-items:
+    - '<yellow>You still have unclaimed items!'
+    - ''
+    - '<dark_gray>Click to open.'
+  items:
+    daily:
+      name: '<white>Daily Expeditions'
+      material: 'BARREL'
+      can-use:
+        lore:
+          - '<green>You have %count% expeditions to claim!'
+          - ''
+          - '<dark_gray>Click to claim.'
+      cant-use:
+        lore:
+          - '<red>You have already opened the daily'
+          - '<red>expedition today!'
+    premium:
+      name: '<white>Premium Expeditions'
+      material: 'ENDER_CHEST'
+      can-use:
+        lore:
+          - '<green>You have %count% expeditions to claim!'
+          - ''
+          - '<dark_gray>Click to claim.'
+      cant-use:
+        lore:
+          - '<red>You don''t have any premium expeditions!'
+          - '<red>Buy more at <gradient:yellow:red>store.semivanilla.com</gradient>'
+    vote:
+      name: '<white>Vote'
+      material: 'CHEST'
+      can-use:
+        lore:
+          - '<green>You have %count% expeditions to claim!'
+          - ''
+          - '<dark_gray>Click to claim.'
+      cant-use:
+        lore:
+          - '<red>You don''t have any vote expeditions!'
+          - '<red>Do <gradient:yellow:red>/vote</gradient> to get more!'
+    super-vote:
+      name: '<white>Super Vote'
+      material: 'CHEST'
+      can-use:
+        lore:
+          - '<green>You have %count% expeditions to claim!'
+          - ''
+          - '<dark_gray>Click to claim.'
+      cant-use:
+        lore:
+          - '<red>You don''t have any super vote expeditions!'
+          - '<red>Vote at all sites to obtain one!'
+messages:
+  expeditions-left:
+    - '<yellow>You still have %count% expeditions to claim! use <gradient:yellow:red>/expeditions</gradient> to claim them!</yellow>'
+  expeditions-earned-offline:
+    - '<yellow>You completed %count% Expedition(s) while away! Use <gradient:yellow:red>/spoils</gradient> to claim them!</yellow>'
+  expeditions-gained:
+    - '<yellow>You completed %count% %type% Expedition(s)! Use <gradient:yellow:red>/expeditions</gradient> to claim them!</yellow>'
+  super-vote-broadcast:
+    - '<yellow> * %player% just received a Super Vote Expedition! Use /vote to get yours.</yellow>'

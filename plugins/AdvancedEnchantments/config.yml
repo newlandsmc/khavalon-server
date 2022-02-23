@@ -196,7 +196,7 @@ slots:
   max: 3
   # Max slots increasement with slot increaser
   # This is a total slot number that can be with upgrades
-  max-increase-of-slots: 5
+  max-increase-of-slots: 7
   # Should it be displayed in lore?
   display-in-lore: true
   display: '&8Custom Slots Left: %left%'

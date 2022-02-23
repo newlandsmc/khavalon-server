@@ -4,7 +4,7 @@
 ##player-kill-tag-in-sec -> How long should the plugin track whether the player killed the same person again and again
 ##for
 tasks-duration:
-  bounty-duration-in-sec: 86400
+  bounty-duration-in-sec: 172800
   player-kill-tag-in-sec: 3600
 ##########################################################################################################################
 ##########################################################################################################################

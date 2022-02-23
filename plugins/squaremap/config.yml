@@ -1,4 +1,4 @@
-config-version: 1
+config-version: 2
 settings:
     language-file: lang-en.yml
     debug-mode: false
@@ -7,7 +7,9 @@ settings:
         path: web
         auto-update: false
     image-quality:
-        compress-images: false
+        compress-images:
+            enabled: false
+            value: 0.0
     internal-webserver:
         enabled: false
         bind: 0.0.0.0
@@ -26,6 +28,7 @@ settings:
     render-progress-logging:
         enabled: true
         interval-seconds: 1
+    update-checker: true
 world-settings:
     default:
         map:
@@ -89,9 +92,9 @@ world-settings:
                 invisible: false
                 spectators: false
             use-display-names: false
-    world_nether:
+    minecraft:the_nether:
         map:
             enabled: false
-    world_the_end:
+    minecraft:the_end:
         map:
             enabled: false

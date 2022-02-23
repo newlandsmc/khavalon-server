@@ -1,0 +1,711 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries":[
+        {
+          "type": "item",
+          "material": "DIAMOND",
+          "weight": 5,
+          "amount": {
+            "min": 10,
+            "max": 20
+          }
+        },
+        {
+          "type": "item",
+          "material": "EMERALD",
+          "weight": 5,
+          "amount": {
+            "min": 24,
+            "max": 48
+          }
+        },
+        {
+          "type": "item",
+          "material": "LAPIS_LAZULI",
+          "weight": 8,
+          "amount": {
+            "min": 48,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "AMETHYST_SHARD",
+          "weight": 5,
+          "amount": {
+            "min": 24,
+            "max": 48
+          }
+        },
+        {
+          "type": "item",
+          "material": "REDSTONE",
+          "weight": 5,
+          "amount": {
+            "min": 48,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "IRON_INGOT",
+          "weight": 5,
+          "amount": {
+            "min": 15,
+            "max": 30
+          }
+        },
+        {
+          "type": "item",
+          "material": "COPPER_INGOT",
+          "weight": 5,
+          "amount": {
+            "min": 48,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "NETHERITE_INGOT",
+          "weight": 3,
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "material": "ENCHANTED_GOLDEN_APPLE",
+          "weight": 3,
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "material": "GOLD_INGOT",
+          "weight": 5,
+          "amount": {
+            "min": 10,
+            "max": 20
+          }
+        },
+        {
+          "type": "item",
+          "material": "GOLDEN_APPLE",
+          "weight": 5,
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "material": "SHULKER_SHELL",
+          "weight": 6,
+          "amount": {
+            "min": 2,
+            "max": 6
+          }        },   
+        {
+          "type": "item",
+          "material": "ANCIENT_DEBRIS",
+          "weight": 3,
+          "amount": {
+            "min": 2,
+            "max": 3
+          }
+        },
+        {
+          "type": "item",
+          "material": "NETHERITE_SCRAP",
+          "weight": 3,
+          "amount": {
+            "min": 2,
+            "max": 3
+          }
+        },
+        {
+          "type": "item",
+          "material": "BLAZE_ROD",
+          "weight": 4,
+          "amount": {
+            "min": 2,
+            "max": 3
+          }
+        },
+        {
+          "type": "item",
+          "material": "WITHER_SKELETON_SKULL",
+          "weight": 4,
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "material": "BOW",
+          "weight": 2,
+          "amount": 1,
+          "enchantsamount": 4,
+          "enchants": [
+            {
+              "name": "unbreaking",
+              "level": 3
+            },
+            {
+              "name": "mending",
+              "level": 1
+            },
+            {
+              "name": "power",
+              "level": 5
+            },
+            {
+              "name": "infinity",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "material": "DIAMOND_AXE",
+          "weight": 4,
+          "amount": 1,
+          "enchantsamount": 3,
+          "enchants": [
+            {
+              "name": "unbreaking",
+              "level": 3
+            },
+            {
+              "name": "looting",
+              "level": 3
+            },
+            {
+              "name": "mending",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "material": "ELYTRA",
+          "weight": 4,
+          "amount": 1,
+          "enchantsamount": 2,
+          "enchants": [
+            {
+              "name": "unbreaking",
+              "level": 3
+            },
+            {
+              "name": "mending",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "material": "TRIDENT",
+          "weight": 4,
+          "amount": 1,
+          "enchantsamount": 2,
+          "enchants": [
+            {
+              "name": "unbreaking",
+              "level": 3
+            },
+            {
+              "name": "mending",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "material": "ENCHANTED_BOOK",
+          "weight": 30,
+          "amount": 1,
+          "enchantsamount": 1,
+          "enchants":[
+            {
+              "name": "DURABILITY",
+              "level": 3
+            },
+            {
+              "name": "PROTECTION",
+              "level": 4
+            },
+            {
+              "name": "PROTECTION_FIRE",
+              "level": 4
+            },
+            {
+              "name": "PROTECTION_FALL",
+              "level": 4
+            },
+            {
+              "name": "PROTECTION_EXPLOSIONS",
+              "level": 4
+            },
+            {
+              "name": "PROTECTION_PROJECTILE",
+              "level": 4
+            },
+            {
+              "name": "OXYGEN",
+              "level": 3
+            },
+            {
+              "name": "WATER_WORKER",
+              "level": 1
+            },
+            {
+              "name": "THORNS",
+              "level": 3
+            },
+            {
+              "name": "DEPTH_STRIDER",
+              "level": 3
+            },
+            {
+              "name": "FROST_WALKER",
+              "level": 2
+            },
+            {
+              "name": "DAMAGE_ALL",
+              "level": 5
+            },
+            {
+              "name": "LOOT_BONUS_BLOCKS",
+              "level": 3
+            },
+            {
+              "name": "LOOT_BONUS_MOBS",
+              "level": 3
+            },
+            {
+              "name": "DIG_SPEED",
+              "level": 5
+            },
+            {
+              "name": "SILK_TOUCH",
+              "level": 1
+            },
+            {
+              "name": "LUCK",
+              "level": 3
+            },
+            {
+              "name": "ARROW_DAMAGE",
+              "level": 5
+            },
+            {
+              "name": "QUICK_CHARGE",
+              "level": 3
+            },
+            {
+              "name": "PIERCING",
+              "level": 4
+            },
+            {
+              "name": "MENDING",
+              "level": 1
+            }
+          ]
+        },  
+        {
+          "type": "item",
+          "material": "NETHER_STAR",
+          "weight": 1,
+          "amount": 1
+        },     
+        {
+          "type": "item",
+          "material": "BUDDING_AMETHYST",
+          "weight": 1,
+          "amount": 5
+        },       
+        {
+          "type": "item",
+          "material": "WITHER_SKELETON_SKULL",
+          "weight": 4,
+          "amount": 1
+        }                                                                          
+      ]
+    },
+    {
+      "rolls": 6,
+      "entries": [
+        {
+            "type": "item",
+            "material": "ENDER_CHEST",
+            "weight": 3,
+            "amount": 1
+        },  
+        {
+          "type": "item",
+          "material": "SPONGE",
+          "weight": 3,
+          "amount": {
+            "min": 24,
+            "max": 48
+          }
+        },  
+        {
+          "type": "item",
+          "material": "ANVIL",
+          "weight": 3,
+          "amount": 1
+        },  
+        {
+          "type": "item",
+          "material": "WHITE_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "ORANGE_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },  
+        {
+          "type": "item",
+          "material": "MAGENTA_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },     
+        {
+          "type": "item",
+          "material": "LIGHT_BLUE_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },      
+        {
+          "type": "item",
+          "material": "YELLOW_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },     
+        {
+          "type": "item",
+          "material": "LIME_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },         
+        {
+          "type": "item",
+          "material": "PINK_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },      
+        {
+          "type": "item",
+          "material": "GRAY_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },      
+        {
+          "type": "item",
+          "material": "LIGHT_GRAY_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },     
+        {
+          "type": "item",
+          "material": "CYAN_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },     
+        {
+          "type": "item",
+          "material": "PURPLE_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },      
+        {
+          "type": "item",
+          "material": "BLUE_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },  
+        {
+          "type": "item",
+          "material": "BROWN_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },  
+        {
+          "type": "item",
+          "material": "GREEN_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },    
+        {
+          "type": "item",
+          "material": "RED_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },      
+        {
+          "type": "item",
+          "material": "BLACK_TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },     
+        {
+          "type": "item",
+          "material": "TERRACOTTA",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "WARPED_STEM",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "CRIMSON_STEM",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "GLASS",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },     
+        {
+          "type": "item",
+          "material": "TINTED_GLASS",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },    
+        {
+          "type": "item",
+          "material": "SLIME_BLOCK",
+          "weight": 3,
+          "amount": {
+            "min": 10,
+            "max": 20
+          }
+        },   
+        {
+          "type": "item",
+          "material": "QUARTZ",
+          "weight": 3,
+          "amount": {
+            "min": 48,
+            "max": 64
+          }
+        },     
+        {
+          "type": "item",
+          "material": "GHAST_TEAR",
+          "weight": 3,
+          "amount": {
+            "min": 3,
+            "max": 10
+          }
+        },  
+        {
+          "type": "item",
+          "material": "TURTLE_HELMET",
+          "weight": 3,
+          "amount": 1
+        },     
+        {
+          "type": "item",
+          "material": "PACKED_ICE",
+          "weight": 5,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },               
+        {
+          "type": "item",
+          "material": "BLUE_ICE",
+          "weight": 5,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },  
+        {
+          "type": "item",
+          "material": "WITHER_ROSE",
+          "weight": 3,
+          "amount": {
+            "min": 5,
+            "max": 10
+          }
+        },          
+        {
+            "type": "item",
+            "material": "SCUTE",
+            "weight": 4,
+            "amount": {
+              "min": 2,
+              "max": 5
+            }
+        },   
+        {
+          "type": "item",
+          "material": "GUNPOWDER",
+          "weight": 3,
+          "amount": 64
+        },
+        {
+          "type": "item",
+          "material": "COOKED_BEEF",
+          "weight": 3,
+          "amount": {
+            "min": 48,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "QUARTZ_BLOCK",
+          "weight": 3,
+          "amount": {
+            "min": 48,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "GOLDEN_CARROT",
+          "weight": 3,
+          "amount": {
+            "min": 48,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "BONE_BLOCK",
+          "weight": 3,
+          "amount": {
+            "min": 48,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "BOOKSHELF",
+          "weight": 3,
+          "amount": {
+            "min": 15,
+            "max": 32
+          }
+        },
+        {
+          "type": "item",
+          "material": "DARK_PRISMARINE",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "PRISMARINE",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },
+        {
+          "type": "item",
+          "material": "PRISMARINE_BRICKS",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },    
+        {
+          "type": "item",
+          "material": "SEA_LANTERN",
+          "weight": 3,
+          "amount": {
+            "min": 32,
+            "max": 64
+          }
+        },                  
+        {
+          "type": "item",
+          "material": "HONEY_BLOCK",
+          "weight": 3,
+          "amount": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      ]
+    }
+  ]
+}
