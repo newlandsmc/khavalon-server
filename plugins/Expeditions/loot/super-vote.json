@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "rolls": 2,
+      "rolls": 7,
       "entries":[
         {
           "type": "item",
@@ -33,7 +33,7 @@
         {
           "type": "item",
           "material": "AMETHYST_SHARD",
-          "weight": 5,
+          "weight": 8,
           "amount": {
             "min": 15,
             "max": 32
@@ -51,7 +51,7 @@
         {
           "type": "item",
           "material": "IRON_INGOT",
-          "weight": 5,
+          "weight": 8,
           "amount": {
             "min": 10,
             "max": 20
@@ -59,7 +59,7 @@
         },
         {
           "type": "item",
-          "material": "COPPER_INGOT",
+          "material": "COAL",
           "weight": 5,
           "amount": {
             "min": 24,
@@ -131,31 +131,7 @@
           "material": "WITHER_SKELETON_SKULL",
           "weight": 1,
           "amount": 1
-        },
-        {
-          "type": "item",
-          "material": "PACKED_ICE",
-          "weight": 5,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
         }, 
-        {
-          "type": "item",
-          "material": "ANVIL",
-          "weight": 3,
-          "amount": 1
-        },              
-        {
-          "type": "item",
-          "material": "BLUE_ICE",
-          "weight": 5,
-          "amount": {
-            "min": 10,
-            "max": 32
-          }
-        },  
         {
           "type": "item",
           "material": "WITHER_ROSE",
@@ -173,13 +149,13 @@
             "min": 24,
             "max": 48
           }
-        },  
+        },
         {
           "type": "item",
           "material": "TURTLE_HELMET",
           "weight": 3,
           "amount": 1
-        },     
+        },
         {
           "type": "item",
           "material": "SCUTE",
@@ -188,16 +164,11 @@
             "min": 2,
             "max": 5
           }
-        }                                                                          
-      ]
-    },
-    {
-      "rolls": 5,
-      "entries": [
+        },
         {
           "type": "item",
           "material": "ENCHANTED_BOOK",
-          "weight": 3,
+          "weight": 6,
           "amount": 1,
           "enchantsamount": 1,
           "enchants":[
@@ -283,168 +254,10 @@
             },
             {
               "name": "MENDING",
-              "level": 1
+              "level": 1,
+              "weight": 5
             }
           ]
-        },
-        {
-          "type": "item",
-          "material": "ENDER_CHEST",
-          "weight": 3,
-          "amount": 1
-        },    
-        {
-          "type": "item",
-          "material": "WHITE_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },
-        {
-          "type": "item",
-          "material": "ORANGE_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },  
-        {
-          "type": "item",
-          "material": "MAGENTA_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "LIGHT_BLUE_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },      
-        {
-          "type": "item",
-          "material": "YELLOW_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "LIME_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },         
-        {
-          "type": "item",
-          "material": "PINK_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },      
-        {
-          "type": "item",
-          "material": "GRAY_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },      
-        {
-          "type": "item",
-          "material": "LIGHT_GRAY_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "CYAN_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "PURPLE_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },      
-        {
-          "type": "item",
-          "material": "BLUE_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },  
-        {
-          "type": "item",
-          "material": "BROWN_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },  
-        {
-          "type": "item",
-          "material": "GREEN_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },    
-        {
-          "type": "item",
-          "material": "RED_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },      
-        {
-          "type": "item",
-          "material": "BLACK_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
         },
         {
           "type": "item",
@@ -462,15 +275,6 @@
           "amount": {
             "min": 32,
             "max": 64
-          }
-        },
-        {
-          "type": "item",
-          "material": "QUARTZ_BLOCK",
-          "weight": 3,
-          "amount": {
-            "min": 24,
-            "max": 48
           }
         },
         {
@@ -493,7 +297,7 @@
         },
         {
           "type": "item",
-          "material": "BOOKSHELF",
+          "material": "BOOK",
           "weight": 3,
           "amount": {
             "min": 15,
@@ -520,15 +324,6 @@
         },
         {
           "type": "item",
-          "material": "PRISMARINE_BRICKS",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },
-        {
-          "type": "item",
           "material": "SEA_LANTERN",
           "weight": 3,
           "amount": {
@@ -538,31 +333,13 @@
         },
         {
           "type": "item",
-          "material": "GLASS",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "TINTED_GLASS",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },    
-        {
-          "type": "item",
           "material": "SLIME_BLOCK",
           "weight": 3,
           "amount": {
             "min": 1,
             "max": 5
           }
-        },   
+        },
         {
           "type": "item",
           "material": "QUARTZ",
@@ -571,7 +348,7 @@
             "min": 24,
             "max": 48
           }
-        },  
+        },
         {
           "type": "item",
           "material": "WARPED_STEM",
@@ -589,13 +366,22 @@
             "min": 32,
             "max": 64
           }
-        },                               
+        },
         {
           "type": "item",
           "material": "HONEY_BLOCK",
           "weight": 3,
           "amount": {
             "min": 1,
+            "max": 5
+          }
+        },
+        {
+          "type": "item",
+          "material": "ENDER_PEARL",
+          "weight": 5,
+          "amount": {
+            "min": 3,
             "max": 5
           }
         }

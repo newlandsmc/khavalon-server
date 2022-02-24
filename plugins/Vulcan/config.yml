@@ -2848,7 +2848,7 @@ checks:
         minimum-tps: 19.0
         punishment-commands:
         - warn -s %player% Hacked client detected (Fast Place)
-        max-blocks: 15
+        max-blocks: 16
     fastbreak:
       a:
         enabled: true

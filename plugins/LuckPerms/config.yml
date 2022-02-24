@@ -393,10 +393,11 @@ meta-formatting:
   prefix:
     format:
       - "highest"
+      - "highest_on_track_prestige"
     duplicates: first-only
-    start-spacer: ""
+    start-spacer: "<white>["
     middle-spacer: " "
-    end-spacer: ""
+    end-spacer: "<white>] "
   suffix:
     format:
       - "highest"

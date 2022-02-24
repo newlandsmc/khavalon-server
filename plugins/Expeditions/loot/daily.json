@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries":[
         {
           "type": "item",
@@ -65,7 +65,7 @@
             "min": 5,
             "max": 10
           }
-        }                                                                           
+        }
       ]
     },
     {
@@ -232,16 +232,7 @@
             "min": 3,
             "max": 5
           }
-        },     
-        {
-          "type": "item",
-          "material": "COAL",
-          "weight": 5,
-          "amount": {
-            "min": 5,
-            "max": 15
-          }
-        },    
+        },      
         {
           "type": "item",
           "material": "DIAMOND",
@@ -298,7 +289,7 @@
         },   
         {
           "type": "item",
-          "material": "RAW_COPPER",
+          "material": "COAL",
           "weight": 5,
           "amount": {
             "min": 5,

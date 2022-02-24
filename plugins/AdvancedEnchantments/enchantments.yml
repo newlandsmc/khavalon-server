@@ -361,7 +361,7 @@ rebreather:
         - "FILL_OXYGEN:20"
 decapitation:
   display: "%group-color%Decapitation"
-  description: "Chance to have opponents head drop on death."
+  description: "Opponents head drop on death."
   applies-to: "Swords, Axes"
   type: "KILL_PLAYER"
   group: "COMMON"
@@ -370,18 +370,6 @@ decapitation:
     - ALL_AXE
   levels:
     1:
-      chance: 15
-      cooldown: 10
-      effects:
-        - "DROP_HEAD %victim%"
-    2:
-      chance: 30
-      cooldown: 10
-      effects:
-        - "DROP_HEAD %victim%"
-    3:
-      chance: 50
-      cooldown: 10
       effects:
         - "DROP_HEAD %victim%"
 forcefield:

@@ -104,7 +104,7 @@ settings:
       to use TNT duplication, but this also allows duplicating carpet, rails and potentially
       other items
   async-chunks:
-    threads: -1
+    threads: 6
   packet-limiter:
     kick-message: '&cSent too many packets'
     limits:
@@ -495,11 +495,11 @@ world-settings:
     max-entity-collisions: 3
     lootables:
       auto-replenish: true
-      restrict-player-reloot: false
+      restrict-player-reloot: true
       reset-seed-on-fill: true
       max-refills: -1
-      refresh-min: 2h
-      refresh-max: 12h
+      refresh-min: 0s
+      refresh-max: 0s
     mob-effects:
       undead-immune-to-certain-effects: true
       spiders-immune-to-poison-effect: true

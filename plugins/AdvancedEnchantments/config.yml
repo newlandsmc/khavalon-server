@@ -307,7 +307,7 @@ items:
     custom-model-data: 0
     name: '&aBlack Scroll'
     lore:
-    - '&f7Removes a random enchantment'
+    - '&7Removes a random enchantment'
     - '&7from an item and converts'
     - '&7it into an enchant book.'
     - ''

@@ -9,7 +9,7 @@
           "weight": 5,
           "amount": {
             "min": 2,
-            "max": 4
+            "max": 5
           }
         },
         {
@@ -18,7 +18,7 @@
           "weight": 5,
           "amount": {
             "min": 2,
-            "max": 4
+            "max": 5
           }
         },
         {
@@ -33,7 +33,7 @@
         {
           "type": "item",
           "material": "AMETHYST_SHARD",
-          "weight": 5,
+          "weight": 8,
           "amount": {
             "min": 5,
             "max": 10
@@ -59,7 +59,7 @@
         },
         {
           "type": "item",
-          "material": "COPPER_INGOT",
+          "material": "COAL",
           "weight": 5,
           "amount": {
             "min": 15,
@@ -85,7 +85,10 @@
           "type": "item",
           "material": "SHULKER_SHELL",
           "weight": 4,
-          "amount": 1
+          "amount": {
+            "min": 1,
+            "max": 2
+          }
         },   
         {
           "type": "item",
@@ -122,24 +125,6 @@
         },
         {
           "type": "item",
-          "material": "PACKED_ICE",
-          "weight": 5,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },               
-        {
-          "type": "item",
-          "material": "BLUE_ICE",
-          "weight": 5,
-          "amount": {
-            "min": 10,
-            "max": 32
-          }
-        },  
-        {
-          "type": "item",
           "material": "WITHER_ROSE",
           "weight": 3,
           "amount": {
@@ -155,183 +140,6 @@
               "min": 2,
               "max": 5
             }
-        },
-        {
-            "type": "item",
-            "material": "ENDER_CHEST",
-            "weight": 3,
-            "amount": 1
-        },    
-        {
-          "type": "item",
-          "material": "WHITE_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },
-        {
-          "type": "item",
-          "material": "ORANGE_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },  
-        {
-          "type": "item",
-          "material": "MAGENTA_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "LIGHT_BLUE_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },      
-        {
-          "type": "item",
-          "material": "YELLOW_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "LIME_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },         
-        {
-          "type": "item",
-          "material": "PINK_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },      
-        {
-          "type": "item",
-          "material": "GRAY_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },      
-        {
-          "type": "item",
-          "material": "LIGHT_GRAY_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "CYAN_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "PURPLE_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },      
-        {
-          "type": "item",
-          "material": "BLUE_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },  
-        {
-          "type": "item",
-          "material": "BROWN_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },  
-        {
-          "type": "item",
-          "material": "GREEN_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },    
-        {
-          "type": "item",
-          "material": "RED_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },      
-        {
-          "type": "item",
-          "material": "BLACK_TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "TERRACOTTA",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },
-        {
-          "type": "item",
-          "material": "GLASS",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },     
-        {
-          "type": "item",
-          "material": "TINTED_GLASS",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
         },    
         {
           "type": "item",
@@ -363,6 +171,15 @@
           "weight": 3,
           "amount": {
             "min": 1,
+            "max": 5
+          }
+        },
+        {
+          "type": "item",
+          "material": "ENDER_PEARL",
+          "weight": 5,
+          "amount": {
+            "min": 3,
             "max": 5
           }
         }

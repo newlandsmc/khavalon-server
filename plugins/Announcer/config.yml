@@ -41,7 +41,7 @@ messages:
   0:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
-    - 'Vote every day to support the server and get '
+    - 'Vote every day to support the server and get'
     - 'rewarded for it! <click:open_url:https://semivanilla.com/vote><gradient:yellow:red>https://semivanilla.com/vote</gradient></click>'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
@@ -69,7 +69,7 @@ messages:
 #  4:
 #    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
 #    - ''
-#    - 'Want to keep your items when you die? Make them '
+#    - 'Want to keep your items when you die? Make them'
 #    - 'SoulBound with <click:run_command:/soulbind><gradient:#ac2626:#720a0a>/soulbind</gradient></click>! <gray>(Coming soon)</gray>'
 #    - ''
 #    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
@@ -83,7 +83,7 @@ messages:
   6:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
-    - 'Complete Expeditions by spending time offline and '
+    - 'Complete Expeditions by logging in every day and'
     - 'voting every day! Claim rewards with <click:run_command:/spoils><gradient:yellow:red>/spoils</gradient></click>.'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
