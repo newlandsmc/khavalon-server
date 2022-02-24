@@ -56,3 +56,9 @@ groups:
     prefix: ''
     tabname: '%bs_tag%%player%'
     suffix: ''
+  prestige-2:
+    prefix: '&4prestige-2&r - '
+  prestige-3:
+    prefix: '&bprestige-3&r - '
+  prestige-1:
+    prefix: '&eprestige-1&r - '

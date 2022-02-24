@@ -83,3 +83,5 @@ messages:
     - '<yellow>You completed %count% %type% Expedition(s)! Use <gradient:yellow:red>/expeditions</gradient> to claim them!</yellow>'
   super-vote-broadcast:
     - '<yellow> * %player% just received a Super Vote Expedition! Use /vote to get yours.</yellow>'
+  vote:
+    - '<yellow>Thanks for voting! You completed a Vote Expedition!'

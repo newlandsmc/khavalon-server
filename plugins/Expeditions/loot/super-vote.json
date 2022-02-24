@@ -131,7 +131,13 @@
           "material": "WITHER_SKELETON_SKULL",
           "weight": 1,
           "amount": 1
-        }, 
+        },
+        {
+          "type": "item",
+          "material": "BUDDING_AMETHYST",
+          "weight": 1,
+          "amount": 1
+        },
         {
           "type": "item",
           "material": "WITHER_ROSE",
