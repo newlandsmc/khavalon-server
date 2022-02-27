@@ -98,6 +98,9 @@ log-file:
   # Further details about the punishment will also be logged into the punishments.txt file if enabled (see next section).
   punishment-message: '%player% was punished for %check% %dev%(Type %type%)%dev% [VL:
     %vl%] [Ping: %ping%] [TPS: %tps%]'
+unloaded-chunks:
+  setback-enabled: true
+  message: '%prefix% %player% was setback for being in an unloaded chunk!'
 punishment-file:
   # Whether or not the punishments.txt file is enabled.
   enabled: false
@@ -454,99 +457,44 @@ punishment-statistics-broadcast:
   - '&fIn the past 7 days, Vulcan has punished %amount% players.'
   - '&e&m                                                                 '
 settings:
-  # Whether or not alerts will automatically be enabled on-join for players who have the permission "vulcan.alerts"
   toggle-alerts-on-join: true
-  # Whether or not the severity placeholder should be based off of per-check violations or the total violations of the player
   per-check-severities: true
-  # Whether or not cinematic mode will be checked for certain aim checks. This isn't really a big deal and can be
-  # left disabled as this will pretty much NEVER happen unless done intentionally. Enabling this will slow
-  # detection speeds for certain checks.
   cinematic: false
-  # This is just here in case I forget to remove a debug message when I post an update. If I forget to remove a debug
-  # message and you see [Vulcan Debug] on your server, disable this (it won't effect you if this is enabled or disabled
-  # unless I forget to remove a debug message, but if you see [Vulcan Debug] in chat, then set this to false and reload).
   debug: false
-  # Whether or not 'A new update is available!' message will be set on join for players with 'vulcan.admin' permission
   check-for-updates: false
-  # A setting for PacketEvents, we may ask you to change this if you're having issues injecting. If everything is working
-  # fine, don't touch this.
   inject-early: true
-  # This is the time (in ticks - 20 ticks per second - default value is 80 (4 seconds)) of how long players should be exempt from certain
-  # checks after velocity gets applied to them via another plugin or something (such as Launchpads, crate plugins, etc etc).
   max-velocity-ticks: 50
-  # This is the max file size (in KB) before the violations.txt should be zipped and put into the logs folder
   max-logs-file-size: 7500
-  # If you have a bungee network and want to have a specific server name for punishment/alert messages, etc
   server-name: Default
-  # Whether or not alert messages should be sent on the main thread or asynchronously. If your server is on bungee, it is recommended to keep this
-  # disabled as sending large chat component messages with so much info (hover, click commands, etc) like the alert commands can
-  # sometimes cause people to be kicked for 'The server you were on has went down' or something.
-  # TLDR:
-  # - Bungeecord Networks: leave this FALSE
-  # - Single servers: set this to TRUE to save some performance
   async-alerts: true
-  # Whether or not the API should be enabled. If you want to hook into Vulcan and do anything fancy, then enable this, however
-  # the majority of people will never use this and disabling it allows for less runnables and more performance as the events dont
-  # need to be called at all (they are also forced to be called sync, so this is a win win performance gain)
   enable-api: false
-  # Whether or not the update checker should be enabled
   update-checker: false
-  # The delay in milliseconds (1000ms = 1 second)
   punishment-delay: 10000
-  # Whether or not Vulcan should automatically ignore Bedrock players using Floodgate's API.
   ignore-floodgate: true
-  # This is highly highly recommended to keep false as it can be spoofed by the client, however, if you're using Geyser and
-  # for whatever reason can't get Floodgate to work, then enable this. If you have floodgate-bukkit on your server
-  # and Geyser is working fine, then don't touch this.
   ignore-flags-geyser-client-brand: false
-  # How long we should wait for everything to initialize before players start being checked (in milliseconds). Default
-  # value is 2500ms.
   join-check-wait-time: 10000
-  # Whether or not players with UUID's starting with '000000' should be ignored and not flagged - used for exemptions of
-  # Geyser players if all else fails.
   ignore-geyser-uuids: true
-  # Whether or not we should ignore flags for players whose usernames start with a certain character/string of characters
   ignore-geyser-prefixes: true
-  # The string to be ignored - all players names who start with a * will not be flagged (case sensitive if not symbols)
-  ignore-geyser-prefix: '.'
-  # The max violation (violations above this won't be sent)
+  ignore-geyser-prefix: .
   max-alert-violation: 250
-  # How long should people be exempt from checks when they were in /fly (default = 40 ticks, 2 seconds)
   flight-cooldown: 40
-  # What the /vulcan top command should display if there aren't enough users for it to sort
   top-command-unresolved: Unresolved
-  # Whether or not players who are in the judgement day queue should be able to be banned again.
   ignore-if-in-judgement-day: false
-  # Whether or not players who join with Vivecraft should be ignored. Be careful with this as it can be spoofed.
   ignore-vivecraft: false
-  # Scaffolding are really broken blocks, whether or not we should be more lenient for them for certain checks.
   lenient-scaffolding: true
-  # Whether or not Vulcan should account for server lag spikes for certain checks (beta feature)
-  server-lag-spike: false
-  # Whether or not bStats should be loaded
   bstats: true
-  # Whether or not Vulcan should account for entity collisions
   entity-collision: true
-  # Whether or not Vulcan should hook into mcMMO if it is available.
   hook-mcmmo: true
-  # Whether or not Vulcan should hook into MythicMobs if it is available.
   hook-mythicmobs: true
-  # Whether or not Vulcan should hook into GSit if it is available
   hook-gsit: true
-  # Whether or not Vulcan should hook with Brewery if available
   hook-brewery: true
-  # Whether or not Vulcan should ignore alerts for violations which are greater than the max violations threshold
   ignore-alerts-over-max-violations: false
-  # The amount greater than the max violations that should be ignored (example, 3 would mean that if the max violations
-  # was set to 10, alerts greater than VL 13 would be ignored)
   ignore-alerts-over-max-violations-amount: 3
-  # Whether or not Vulcan should warn you if you may be using an incompatible spigot fork.
   incompatability-manager: true
-  # Whether or not Vulcan should send plugin messages
   plugin-messaging: true
-  # Whether or not Vulcan should setback players when they are lower than their last onGround position (this can lead to
-  # things such as anti-voids, so not particularly recommended if you have something like a SkyWars/BedWars server)
   dont-setback-lower-positions: false
+  min-ticks-existed: 10000
+  velocity-world-border: false
 hooks:
   # #####################################################################################################################
   # Discord Configuration                                                                                              #
@@ -1537,6 +1485,7 @@ checks:
           max: 25
           multiple: 0.15
           decay: 0.75
+        min-kurtosis: 13
     reach:
       a:
         enabled: true
@@ -1807,6 +1756,30 @@ checks:
           max: 3
           multiple: 0.5
           decay: 0.75
+      l:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - warn -s %player% Hacked client detected (Killaura)
+        buffer:
+          max: 5
+          multiple: 0.6
+          decay: 0.5
+        hotbar-shuffle:
+          enabled: false
+          minimum-vl-to-shuffle: 2
+          shuffle-every: 2
+        random-rotation:
+          enabled: false
+          minimum-vl-to-randomly-rotate: 2
+          rotate-every: 2
     hitbox:
       a:
         enabled: true
@@ -2184,6 +2157,23 @@ checks:
           max: 6
           multiple: 0.25
           decay: 0.35
+      c:
+        enabled: true
+        punishable: true
+        setback: false
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 15
+        alert-interval: 3
+        dont-alert-until: 3
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - warn -s %player% Hacked client detected (Step)
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.1
     boatfly:
       a:
         enabled: true
@@ -2443,6 +2433,40 @@ checks:
           max: 4
           multiple: 0.25
           decay: 0.1
+      l:
+        enabled: true
+        punishable: true
+        setback: false
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 15
+        alert-interval: 3
+        dont-alert-until: 3
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - warn -s %player% Hacked client detected (Elytra)
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.1
+      m:
+        enabled: true
+        punishable: true
+        setback: false
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 15
+        alert-interval: 3
+        dont-alert-until: 3
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - warn -s %player% Hacked client detected (Elytra)
+        buffer:
+          max: 4
+          multiple: 0.25
+          decay: 0.1
     speed:
       a:
         enabled: true
@@ -2459,7 +2483,7 @@ checks:
         punishment-commands:
         - warn -s %player% Hacked client detected (Speed)
         buffer:
-          max: 3
+          max: 5
           multiple: 0.35
           decay: 0.125
       b:
@@ -2561,7 +2585,7 @@ checks:
       a:
         enabled: true
         punishable: true
-        setback: true
+        setback: false
         min-vl-to-setback: 1
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -2579,7 +2603,7 @@ checks:
       b:
         enabled: true
         punishable: true
-        setback: true
+        setback: false
         min-vl-to-setback: 1
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -2597,7 +2621,7 @@ checks:
       c:
         enabled: true
         punishable: true
-        setback: true
+        setback: false
         min-vl-to-setback: 1
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -2615,7 +2639,7 @@ checks:
       d:
         enabled: true
         punishable: true
-        setback: true
+        setback: false
         min-vl-to-setback: 1
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -2633,7 +2657,7 @@ checks:
       e:
         enabled: true
         punishable: true
-        setback: true
+        setback: false
         min-vl-to-setback: 1
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3052,7 +3076,7 @@ checks:
           decay: 0.25
       n:
         enabled: false
-        punishable: true
+        punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 12
@@ -3063,7 +3087,7 @@ checks:
         punishment-commands:
         - warn -s %player% Hacked client detected (Scaffold)
         buffer:
-          max: 2
+          max: 3
           multiple: 0.5
           decay: 0.25
     timer:
@@ -3101,31 +3125,6 @@ checks:
           multiple: 0.5
           decay: 0.25
         max-balance: 75
-    hackedclient:
-      a:
-        enabled: false
-        punishable: false
-        discord-alert-interval: 1
-        broadcast-punishment: false
-        max-violations: 1000
-        alert-interval: 5
-        dont-alert-until: 1001
-        maximum-ping: 100000
-        minimum-tps: 1.0
-        punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-      b:
-        enabled: false
-        punishable: false
-        discord-alert-interval: 1
-        broadcast-punishment: false
-        max-violations: 1000
-        alert-interval: 5
-        dont-alert-until: 1001
-        maximum-ping: 100000
-        minimum-tps: 1.0
-        punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     baritone:
       a:
         enabled: true
@@ -3159,59 +3158,6 @@ checks:
           max: 2
           multiple: 0.5
           decay: 0.05
-    crash:
-      a:
-        enabled: true
-        punishable: true
-        discord-alert-interval: 1
-        broadcast-punishment: false
-        max-violations: 1
-        alert-interval: 1
-        dont-alert-until: 1
-        maximum-ping: 100000
-        minimum-tps: 19.0
-        punishment-commands:
-        - warn -s %player% Hacked client detected (Crash)
-      b:
-        enabled: true
-        punishable: true
-        discord-alert-interval: 1
-        broadcast-punishment: false
-        max-violations: 1
-        alert-interval: 1
-        dont-alert-until: 1
-        maximum-ping: 100000
-        minimum-tps: 19.0
-        punishment-commands:
-        - warn -s %player% Hacked client detected (Crash)
-        buffer:
-          max: 3
-          multiple: 0.5
-          decay: 0.25
-      c:
-        enabled: true
-        punishable: true
-        discord-alert-interval: 1
-        broadcast-punishment: false
-        max-violations: 1
-        alert-interval: 1
-        dont-alert-until: 1
-        maximum-ping: 100000
-        minimum-tps: 19.0
-        punishment-commands:
-        - warn -s %player% Hacked client detected (Crash)
-      d:
-        enabled: true
-        punishable: true
-        discord-alert-interval: 1
-        broadcast-punishment: false
-        max-violations: 1
-        alert-interval: 1
-        dont-alert-until: 1
-        maximum-ping: 100000
-        minimum-tps: 19.0
-        punishment-commands:
-        - warn -s %player% Hacked client detected (Crash)
     ghosthand:
       a:
         enabled: true
@@ -3226,27 +3172,10 @@ checks:
         punishment-commands:
         - warn -s %player% Hacked client detected (Ghost Hand)
         cancel: true
-    selfleash:
-      a:
-        enabled: true
-        punishable: true
-        discord-alert-interval: 1
-        broadcast-punishment: false
-        max-violations: 10
-        alert-interval: 2
-        dont-alert-until: 2
-        maximum-ping: 100000
-        minimum-tps: 19.0
-        punishment-commands:
-        - warn -s %player% Hacked client detected (Self Leash)
-        buffer:
-          max: 5
-          multiple: 0.5
-          decay: 0.25
     airplace:
       a:
-        enabled: true
-        punishable: true
+        enabled: false
+        punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
@@ -3654,6 +3583,18 @@ checks:
           max: 4
           multiple: 0.25
           decay: 0.025
+      '5':
+        enabled: true
+        punishable: true
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 5
+        alert-interval: 1
+        dont-alert-until: 6
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     inventory:
       a:
         enabled: false
@@ -3703,9 +3644,9 @@ checks:
         punishment-commands:
         - warn -s %player% Hacked client detected (Invalid Movement)
         buffer:
-          max: 1
-          multiple: 0.5
-          decay: 0.01
+          max: 3
+          multiple: 0.25
+          decay: 0.045
       d:
         enabled: true
         punishable: true
