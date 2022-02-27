@@ -1,5 +1,5 @@
-line1: '<dark_gray>            <strikethrough>  ]<white><strikethrough>     <reset> <yellow><bold>Semi<gold><bold>Vanilla<red><bold> MC <white><strikethrough>     <dark_gray><strikethrough>[  <reset>'
-line2: '<yellow>             <bold>Triple XP Booster Active!'
+line1: '<dark_gray>             <strikethrough>  ]<white><strikethrough>     <reset> <yellow><bold>Semi<gold><bold>Vanilla<red><bold> MC <white><strikethrough>     <dark_gray><strikethrough>[  <reset>'
+line2: '<yellow>              <bold>Triple XP Booster Active!'
 active: false
 restricted: true
 weight: 0

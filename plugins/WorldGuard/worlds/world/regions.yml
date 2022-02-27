@@ -10,19 +10,11 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    fasttravel-southeast:
-        min: {x: 4988, y: 65, z: 4988}
-        max: {x: 5012, y: 77, z: 5012}
+    fasttravel--7500--7500:
+        min: {x: -7508, y: 55, z: -7508}
+        max: {x: -7492, y: 70, z: -7492}
         members: {}
-        flags: {deny-message: '', pvp: deny}
-        owners: {}
-        type: cuboid
-        priority: 0
-    fasttravel-northeast:
-        min: {x: 4988, y: 67, z: -5012}
-        max: {x: 5011, y: 76, z: -4988}
-        members: {}
-        flags: {deny-message: '', pvp: deny}
+        flags: {deny-message: §cYou cannot do that near a FastTravel.}
         owners: {}
         type: cuboid
         priority: 0
@@ -36,19 +28,27 @@ regions:
             unique-ids: [37d6fd08-da41-4b94-9523-ddd75c62470d]
         type: cuboid
         priority: 0
-    fasttravel-southwest:
-        min: {x: -5012, y: 59, z: 4988}
-        max: {x: -4988, y: 69, z: 5012}
+    fasttravel-7500-7500:
+        min: {x: 7492, y: 60, z: 7492}
+        max: {x: 7508, y: 73, z: 7508}
         members: {}
-        flags: {deny-message: '', pvp: deny}
+        flags: {deny-message: §cYou cannot do that near a FastTravel.}
         owners: {}
         type: cuboid
         priority: 0
-    fasttravel-northwest:
-        min: {x: -5012, y: 66, z: -5012}
-        max: {x: -4988, y: 79, z: -4988}
+    fasttravel--7500-7500:
+        min: {x: -7508, y: 56, z: 7492}
+        max: {x: -7492, y: 70, z: 7508}
         members: {}
-        flags: {deny-message: '', pvp: deny}
+        flags: {deny-message: §cYou cannot do that near a FastTravel.}
+        owners: {}
+        type: cuboid
+        priority: 0
+    fasttravel-7500--7500:
+        min: {x: 7492, y: 57, z: -7508}
+        max: {x: 7508, y: 69, z: -7492}
+        members: {}
+        flags: {deny-message: §cYou cannot do that near a FastTravel.}
         owners: {}
         type: cuboid
         priority: 0

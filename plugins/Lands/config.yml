@@ -143,7 +143,7 @@ land:
   force-near:
     enabled_2: true
     # Should claim attempts that would violate the force-near restrictions be treated as new lands?
-    treat-as-new: true
+    treat-as-new: false
   # Chunk claiming by placing a special claim block.
   # You can give claimblocks by executing the command /lands admin give <player> claimblock [amount]
   # If you don't want your players to claim via command, just
@@ -307,7 +307,7 @@ land:
     tag-time: 0s
     # Should players, which are members in a common land, be able to fight in wilderness?
     # NOTE: This option requires server restart / reload.
-    ally-wilderness: false
+    ally-wilderness: true
     # Block village raids if the initiator is not allowed to attack players in the claim?
     block-raids: true
 
@@ -753,7 +753,7 @@ gui:
   max-lore-length: 35
   # Should the /lands list menu show only lands where to player can teleport to?
   # Players can still toggle it afterwards. This is just a default setting.
-  list-only-public: false
+  list-only-public: true
 
 
 # Database settings

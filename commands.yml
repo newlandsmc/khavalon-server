@@ -21,3 +21,5 @@ aliases:
   - helpplugin:info $1-
   socialspy:
   - commandspy on
+  unstuck:
+  - ae:unstuck

@@ -77,7 +77,7 @@ general:
   now: '&aNow'
   enabled: '&aEnabled'
   disabled: '&cDisabled'
-  unlimited: '&aunlimited'
+  unlimited: ∞
   previous: '&7previous'
   offline: '&cOffline'
   all: '&aAll'

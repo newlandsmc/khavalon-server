@@ -2,3 +2,7 @@
 - Fixed: [#1659] Flight control flag warning due configuration
 - Fixed: [#1677] Nation effects not getting removed when activating and leaving right after
 - Fixed: [#1690] squaremap error due no longer implemented method
+
+--> Language file (en-US.yml): 
++ String: general.teleportation.bossbar
++ String: general.combat-tag.bossbar

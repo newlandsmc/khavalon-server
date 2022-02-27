@@ -18,7 +18,7 @@ square-map-icon-size: 32
 ##NOTE: It should be less than 5, as the plugin adds a row as filler in bottom .
 gui: 
    name: Waypoints
-   rows: 4
+   rows: 5
    buttons: 
       unlocked: 
          name: <white>%name%

@@ -20,7 +20,6 @@ land:
     - INTERACT_TRAPDOOR
     - INTERACT_MECHANISM
     - INTERACT_VILLAGER
-    - ATTACK_PLAYER
     - ATTACK_ANIMAL
     - ATTACK_MONSTER
     - SPAWN_TELEPORT
@@ -74,6 +73,7 @@ land:
         - INTERACT_MECHANISM
         - INTERACT_VILLAGER
         - BLOCK_IGNITE
+        - ATTACK_PLAYER
         - ATTACK_ANIMAL
         - ATTACK_MONSTER
         - LAND_ENTER
@@ -105,6 +105,7 @@ land:
         - INTERACT_MECHANISM
         - INTERACT_VILLAGER
         - BLOCK_IGNITE
+        - ATTACK_PLAYER
         - ATTACK_ANIMAL
         - ATTACK_MONSTER
         - LAND_ENTER
@@ -126,6 +127,7 @@ land:
         - INTERACT_TRAPDOOR
         - INTERACT_MECHANISM
         - INTERACT_VILLAGER
+        - ATTACK_PLAYER
         - ATTACK_ANIMAL
         - ATTACK_MONSTER
         - SPAWN_TELEPORT
@@ -162,4 +164,5 @@ land:
       default:
         - LAND_ENTER
         - ITEM_PICKUP
+        - ATTACK_PLAYER
         - ATTACK_MONSTER
