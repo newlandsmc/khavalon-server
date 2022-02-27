@@ -13,8 +13,7 @@
     <meta property="twitter:domain" content="semivanilla.com" />
     <meta property="twitter:url" content="https://semivanilla.com" />
     <meta name="twitter:title" content="SemiVanilla Minecraft Server" />
-    <meta name="twitter:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills. PVP.
-    Java + Bedrock support!" />
+    <meta name="twitter:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills. PVP. Java + Bedrock support!" />
     <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -23,7 +22,6 @@
     <meta name="theme-color" content="#000000" />
     <link rel="shortcut icon" href="https://semivanilla.com/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" 
 />
-    <link rel="stylesheet" href="https://semivanilla.com/assets/css/cookienotice.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script>
     <script async>

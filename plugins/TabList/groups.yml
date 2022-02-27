@@ -1,64 +1,6 @@
 # This global group will be applied to all players
 globalGroup:
   prefix: ''
-  tabname: ''
+  tabname: '%bs_tag%%player%'
   suffix: ''
-groups:
-  Default:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  diamond:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  moderator:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  admin:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  developer:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  lapis:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  emerald:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  owner:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  helper:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  adept:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  legend:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  savant:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  awoken:
-    prefix: ''
-    tabname: '%bs_tag%%player%'
-    suffix: ''
-  prestige-2:
-    prefix: '&4prestige-2&r - '
-  prestige-3:
-    prefix: '&bprestige-3&r - '
-  prestige-1:
-    prefix: '&eprestige-1&r - '
+groups: []

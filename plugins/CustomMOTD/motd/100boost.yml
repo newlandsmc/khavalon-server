@@ -1,5 +1,5 @@
 line1: '<dark_gray>             <strikethrough>  ]<white><strikethrough>     <reset> <gradient:yellow:red><bold>SemiVanilla MC</gradient> <white><strikethrough>     <dark_gray><strikethrough>[  <reset>'
-line2: '           <gradient:#6db8e7:#9af4a1><bold>Multiple XP Boosters Active!'
+line2: '              <gradient:#6db8e7:#9af4a1><bold>+100% XP Booster Active!'
 active: false
 restricted: true
 weight: 0

@@ -112,6 +112,6 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Unclaimed land can be griefed! Make sure you claim'
-    - 'your land. <click:run_command:/fasttravel><gradient:yellow:red>https://semivanilla.com/claiming</gradient></click>'
+    - 'your land. <click:open_url:https://semivanilla.com/claiming><gradient:yellow:red>https://semivanilla.com/claiming</gradient></click>'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
