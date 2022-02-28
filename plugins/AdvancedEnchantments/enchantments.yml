@@ -1628,7 +1628,7 @@ dodge:
   display: "%group-color%Dodge"
   description: "Chance to dodge physical enemy, chance increases\nwhen sneaking."
   applies-to: "Leggings"
-  type: "DEFENSE"
+  type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
   applies:
     - ALL_LEGGINGS
@@ -2474,7 +2474,7 @@ unholy:
   display: "%group-color%Unholy"
   description: "Chance to deal weakness and wither effects."
   applies-to: "Boots, Leggings, Chestplates, Helmets"
-  type: "DEFENSE"
+  type: "DEFENSE;DEFENSE_MOB"
   group: "EXOTIC"
   applies:
     - ALL_ARMOR
@@ -2975,7 +2975,7 @@ bluntforce:
   description: "Chance to strike with great force."
   applies-to: "Axes"
   group: "RARE"
-  type: "ATTACK"
+  type: "ATTACK;ATTACK_MOB"
   applies:
     - "ALL_AXE"
   levels:
@@ -3265,7 +3265,7 @@ enrage:
   display: '%group-color%Enrage'
   description: 'Deal more damage on low HP.'
   applies-to: 'Swords'
-  type: 'ATTACK'
+  type: 'ATTACK;ATTACK_MOB'
   group: 'LEGENDARY'
   applies:
     - ALL_SWORD
@@ -3352,7 +3352,7 @@ arsonist:
   display: '%group-color%Arsonist'
   description: "Chance to deal more damage whilst on fire"
   applies-to: 'Swords'
-  type: 'ATTACK'
+  type: 'ATTACK;ATTACK_MOB'
   group: 'LEGENDARY'
   applies:
     - 'ALL_SWORD'
@@ -3382,7 +3382,7 @@ soulwhisper:
   display: '%group-color%Soul Whisper'
   description: "Chance to cure wither and poison when attacked and\nheal at high levels."
   applies-to: 'Chestplates'
-  type: 'DEFENSE'
+  type: 'DEFENSE;DEFENSE_MOB'
   group: 'LEGENDARY'
   applies:
     - ALL_CHESTPLATE
@@ -3513,7 +3513,7 @@ metaphysical:
   display: '%group-color%Metaphysical'
   description: "Chance to be cured of slowness when attacked. At\nmax level, you will only be affected approx. 10%\nof the time."
   applies-to: 'Boots'
-  type: 'DEFENSE'
+  type: 'DEFENSE;DEFENSE_MOB'
   group: 'LEGENDARY'
   applies:
     - ALL_BOOTS
@@ -3572,7 +3572,7 @@ guardian:
   display: '%group-color%Guardian'
   description: "Automatically heals and cures all nearby\nallies."
   applies-to: 'Boots, Leggings, Chestplates, Helmets'
-  type: 'DEFENSE'
+  type: 'DEFENSE;DEFENSE_MOB'
   group: 'EXOTIC'
   applies:
     - 'ALL_ARMOR'
@@ -3660,7 +3660,7 @@ inversion:
   display: '%group-color%Inversion'
   description: "Chance to block damage dealt to you and heal you\nfor 1-5 HP."
   applies-to: 'Swords'
-  type: 'DEFENSE'
+  type: 'DEFENSE;DEFENSE_MOB'
   group: 'EXOTIC'
   applies:
     - ALL_SWORD
@@ -3693,7 +3693,7 @@ rage:
   display: '%group-color%Rage'
   description: "For every combo hit you land, chance to do 0.5\nheart damage per combo to your opponent."
   applies-to: 'Swords, Axes'
-  type: 'ATTACK'
+  type: 'ATTACK;ATTACK_MOB'
   group: 'EXOTIC'
   applies:
     - ALL_AXE
@@ -3912,7 +3912,7 @@ diminish:
   display: '%group-color%Diminish'
   description: "When this effect procs, the next attack dealt to\nyou cannot deal more than the (total amount of\ndamage / 2) you took from the previous attack."
   applies-to: 'Boots, Leggings, Chestplates, Helmets'
-  type: 'DEFENSE'
+  type: 'DEFENSE;DEFENSE_MOB'
   group: 'EXOTIC'
   applies:
     - ALL_ARMOR
@@ -4177,7 +4177,7 @@ markofthebeast:
   display: '%group-color%Mark of the Beast'
   description: "Once an enemy is afflicted with the mark all\nincoming damage is increased by 2x for up to 5\nseconds"
   applies-to: 'Boots, Leggings, Chestplates, Helmets'
-  type: 'DEFENSE'
+  type: 'DEFENSE;DEFENSE_MOB'
   group: 'FABLED'
   applies:
     - ALL_ARMOR
@@ -4246,7 +4246,7 @@ chainlifesteal:
   display: '%group-color%Chain Lifesteal'
   description: "Chance to regain health from multiple enemies near\nyour damaged target based on level"
   applies-to: 'Boots, Leggings, Chestplates, Helmets'
-  type: 'ATTACK'
+  type: 'ATTACK;ATTACK_MOB'
   group: 'FABLED'
   applies:
     - ALL_ARMOR

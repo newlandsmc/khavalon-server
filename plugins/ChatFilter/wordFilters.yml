@@ -44,7 +44,7 @@ ChatFilter:
       Staff: true
       Player: false
       Console: true
-    Regex: nigger|nigga|n1gg3r|nagger|ni@@er|faggot|fag\b|faggit|fa@@ot
+    Regex: \b(f+(a|4)+g+)|(f+(a|4)+g+)\b|\b(c+(o|0){2,50}n+)\b|f+u+d+g+e+( )?p+a+c+k+e+r+|n+(a|i|1)+(g|@){2,50}(a|e|3)+(r+)?
     CancelChat:
       Cancel: true
       Replace: false
@@ -58,7 +58,7 @@ ChatFilter:
       Staff: true
       Player: false
       Console: true
-    Regex: \b((a|4)b(o|0)rt(i|1)(o|0)n)|\brape|rapist
+    Regex: \b((a|4)b(o|0)rt(i|1)(o|0)n|r+(a+|4)(p(e|3)+|p{2,50}(3|e){2,50}|p+(i|1)st))
     CancelChat:
       Cancel: true
       Replace: false
