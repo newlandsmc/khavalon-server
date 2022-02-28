@@ -14,7 +14,7 @@ first-join-dialogue:
     message: "You'll need some tools to survive this strange new world...\nSomething tells you not all players will be friendly...\n<yellow>A sword should be your top priority.\n<gray>..."
     delay: 6
   5:
-    message: "\n<yellow><strikethrough>                                                                  <reset>\n\n            <white><bold>Welcome to SemiVanilla MC!<reset>\n             A new adventure lies ahead,\n                with lots to discover!\n         Need help along the way? Discord!\n           <gray>https://semivanilla.com/discord\n\n<yellow><strikethrough>                                                                  <reset>"
+    message: "\n<gradient:yellow:red:yellow><strikethrough>                                                                  <reset>\n\n            <white><bold>Welcome to SemiVanilla MC!<reset>\n             A new adventure lies ahead,\n                with lots to discover!\n         Need help along the way? Discord!\n           <gray>https://semivanilla.com/discord\n\n<gradient:yellow:red:yellow><strikethrough>                                                                  <reset>"
     delay: 6
     mute-chat-for: 0
 
