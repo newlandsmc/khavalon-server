@@ -1,8 +1,6 @@
-+ Updated: Spanish language by @C4BR3R4
-- Fixed: [#1659] Flight control flag warning due configuration
-- Fixed: [#1677] Nation effects not getting removed when activating and leaving right after
-- Fixed: [#1690] squaremap error due no longer implemented method
-
---> Language file (en-US.yml): 
-+ String: general.teleportation.bossbar
-+ String: general.combat-tag.bossbar
++ Added: Don't send bossbar if text is empty
++ Added: {world}, {x}, {y}, {z} placeholders to capture point bossbars
++ Changed: [#1730] Include bank balance in cashback placeholder at /lands delete
+- Fixed: [#1723] own lands counting towards lands.lands in invite menu
+- Fixed: [#1733] Cancel interaction on selection
+- Fixed: Combat tag time not extending

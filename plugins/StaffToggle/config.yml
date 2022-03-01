@@ -1,0 +1,8 @@
+messages:
+  toggle-on:
+    - '<green>Staff mode toggled on.'
+  toggle-off:
+    - '<red>Staff mode toggled off.'
+actionbar:
+  enable: true
+  bar: '<green>You are currently in staff mode!</green>'

@@ -9,4 +9,14 @@
 #
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
-regions: {}
+regions:
+    end-island:
+        min: {x: -128, y: 0, z: -128}
+        max: {x: 128, y: 255, z: 128}
+        members: {}
+        flags: {deny-message: §cYou cannot do that here!, greeting: '§cWarning: The
+                main end island is protected! You will not be able to place or break
+                blocks here.', block-break: deny, passthrough: allow, tnt: deny, block-place: deny}
+        owners: {}
+        type: cuboid
+        priority: 0

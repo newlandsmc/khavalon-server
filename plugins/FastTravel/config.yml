@@ -55,4 +55,4 @@ messages:
    player-in-cooldown: <red>You cannot fast travel for %cool-down% seconds.
    no-permission: <red>You do not have permission to do that.
    unknown-command: <red>Incorrect parameters.
-version: 1.0
+version: 1.1

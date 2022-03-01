@@ -5,7 +5,7 @@ Southwest:
    icon: LIME_DYE
    location: 
       x: -7500
-      y: 64
+      y: 68
       z: 7500
       pitch: 0.29972762
       world-name: world
@@ -24,7 +24,7 @@ Northwest:
    icon: LIME_DYE
    location: 
       x: -7500
-      y: 71
+      y: 64
       z: -7500
       pitch: 0.29972762
       world-name: world
@@ -43,7 +43,7 @@ Southeast:
    icon: LIME_DYE
    location: 
       x: 7500
-      y: 70
+      y: 68
       z: 7500
       pitch: 0.29972762
       world-name: world
@@ -62,7 +62,7 @@ Northeast:
    icon: LIME_DYE
    location: 
       x: 7500
-      y: 71
+      y: 64
       z: -7500
       pitch: 0.29972762
       world-name: world

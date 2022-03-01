@@ -837,6 +837,8 @@ integration:
       #       Example: ABSOLUTE_FOLDER_PATH\spawn.png
       icon: greenflag
       # Set the icon for a nations capital.
+      # NOTE: For BlueMap and squaremap this needs to be the absolute image address. Recommended imgage size: 32 x 32 pixels
+      #       Example: ABSOLUTE_FOLDER_PATH\spawn.png
       icon-capital: 'greenflag'
       # Set minimum zoom. The icon won't display, if the zoom in your browser is smaller (mousewheel).
       # NOTE: Recommended value for BlueMap, squaremap: 126

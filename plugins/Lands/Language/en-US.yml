@@ -226,9 +226,9 @@ general:
       invaders: '&cWe are capturing - {progress}% players: {players}'
       defenders: '&cEnemy is capturing - {progress}% players: {players}'
   teleportation:
-    bossbar: ''
+    bossbar: Teleporting in 5 seconds...
   combat-tag:
-    bossbar: ''
+    bossbar: You are combat tagged!
 
 help:
   command:
@@ -1006,6 +1006,8 @@ command:
     footer: |
       [NoPrefix]&7Your lands need to pay a total of {total} in &5{next} &7in order to keep up all claims or membership in their nation. &7Click above to deposit money into your land banks.
       &7&m━━━━━━━━━<━&r &cUpcoming Upkeep &7&m━>━━━━━━━━━
+  menu:
+    invalid: '&cThere is no such shortcut with the name&4 {shortcut}&c.'
 list:
   swear-words: []
   sign:
@@ -1257,6 +1259,7 @@ nations:
   message:
     current-war: '&cYou can''t do this right now. &7Your nation&9 {nation} &7is currently
       engaged in a war. &7Please try again after the war is over.'
+    untrusted: '&cYou''re not a member of nation&4 {nation}&c.'
   command:
     chat:
       activated: '&7Activated nation chat. Send a message in public chat to chat with

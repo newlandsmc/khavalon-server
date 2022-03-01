@@ -99,8 +99,9 @@ log-file:
   punishment-message: '%player% was punished for %check% %dev%(Type %type%)%dev% [VL:
     %vl%] [Ping: %ping%] [TPS: %tps%]'
 unloaded-chunks:
-  setback-enabled: true
+  setback-enabled: false
   message: '%prefix% %player% was setback for being in an unloaded chunk!'
+  max-ticks: 40
 punishment-file:
   # Whether or not the punishments.txt file is enabled.
   enabled: false
@@ -3629,6 +3630,24 @@ checks:
           multiple: 0.25
           decay: 0.25
     invalid:
+      a:
+        enabled: true
+        punishable: true
+        discord-alert-interval: 1
+        setback: false
+        min-vl-to-setback: 1
+        broadcast-punishment: false
+        max-violations: 8
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Unfair Advantage
+        buffer:
+          max: 2
+          multiple: 0.25
+          decay: 0.05
       c:
         enabled: true
         punishable: true
