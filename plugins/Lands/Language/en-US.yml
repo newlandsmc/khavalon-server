@@ -403,7 +403,7 @@ message:
       land: '#t#&f{land}[newline]{title}'
       camp: '#t#&f{land}[newline]{title}'
       admin: '#t#&f{land}[newline]{title}'
-      pvp-warning: '#a#&cYou entered a PvP zone.'
+      pvp-warning: ''
     leave:
       land: '#t# [newline]Entering Wilderness'
       camp: '#t# [newline]Entering Wilderness'

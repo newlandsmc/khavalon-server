@@ -325,7 +325,7 @@ world-settings:
       disable-unloaded-chunk-enderpearl-exploit: true
       disable-relative-projectile-velocity: false
       disable-player-crits: false
-      disable-end-credits: false
+      disable-end-credits: true
       shield-blocking-delay: 5
       disable-sprint-interruption-on-attack: false
       scan-for-legacy-ender-dragon: true

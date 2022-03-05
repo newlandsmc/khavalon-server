@@ -92,7 +92,7 @@ replanter:
     1:
       condition:
         - "%is crop% = false : %stop%"
-        - "%is fully grown% = false : %stop%"
+#        - "%is fully grown% = false : %stop%"
       effects:
         - "PLANT_SEEDS:0:%block drop type%"
 loyal:
