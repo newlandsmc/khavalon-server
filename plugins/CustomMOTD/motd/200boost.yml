@@ -1,4 +1,4 @@
-line1: '<dark_gray>             <strikethrough>  ]<white><strikethrough>     <reset> <gradient:yellow:red><bold>SemiVanilla MC</gradient> <white><strikethrough>     <dark_gray><strikethrough>[  <reset>'
+line1: '<dark_gray>                 <strikethrough>  ]<white><strikethrough>     <reset> <gradient:yellow:gold><bold>Khavalon</gradient> <white><strikethrough>     <dark_gray><strikethrough>[  <reset>'
 line2: '              <gradient:#6db8e7:#9af4a1><bold>+200% XP Booster Active!'
 active: false
 restricted: true

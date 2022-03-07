@@ -15,7 +15,7 @@ returning-player:
     duration-seconds: 4
     fade-in: 1000
     fade-out: 1000
-    title: '<animate>SemiVanilla MC</animate>'
+    title: '<animate>Khavalon</animate>'
     subtitle: 'The Adventure Continues'
   join-sounds:
     enabled: true
@@ -29,7 +29,7 @@ new-player:
     duration-seconds: 4
     fade-in: 500
     fade-out: 500
-    title: '<animate>SemiVanilla MC</animate>'
+    title: '<animate>Khavalon</animate>'
     subtitle: 'The Adventure Begins'
   join-sounds:
     enabled: true
@@ -42,14 +42,14 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Vote every day to support the server and get'
-    - 'rewarded for it! <click:open_url:https://semivanilla.com/vote><gradient:yellow:red>https://semivanilla.com/vote</gradient></click>'
+    - 'rewarded for it! <click:open_url:https://khavalon.com/vote><gradient:yellow:red>https://khavalon.com/vote</gradient></click>'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   1:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Enjoying the server? Please consider donating'
-    - 'at <click:open_url:https://store.semivanilla.com><gradient:yellow:red>https://store.semivanilla.com</gradient></click>!'
+    - 'at <click:open_url:https://store.khavalon.com><gradient:yellow:red>https://store.khavalon.com</gradient></click>!'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   2:
@@ -63,7 +63,7 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Check the map! All players locations can be'
-    - 'seen at <click:open_url:https://semivanilla.com/map><gradient:yellow:red>https://semivanilla.com/map</gradient></click>!'
+    - 'seen at <click:open_url:https://khavalon.com/map><gradient:yellow:red>https://khavalon.com/map</gradient></click>!'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
 #  4:
@@ -91,7 +91,7 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Grinding Skills XP? Boost XP earned for the entire'
-    - 'server at <click:open_url:https://store.semivanilla.com><gradient:yellow:red>http://store.semivanilla.com</gradient></click>.'
+    - 'server at <click:open_url:https://store.khavalon.com><gradient:yellow:red>http://store.khavalon.com</gradient></click>.'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   8:
@@ -112,6 +112,6 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Unclaimed land can be griefed! Make sure you claim'
-    - 'your land. <click:open_url:https://semivanilla.com/claiming><gradient:yellow:red>https://semivanilla.com/claiming</gradient></click>'
+    - 'your land. <click:open_url:https://khavalon.com/claiming><gradient:yellow:red>https://khavalon.com/claiming</gradient></click>'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'

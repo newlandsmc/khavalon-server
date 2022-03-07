@@ -19,7 +19,7 @@ bedrock:
   clone-remote-port: false
   # The MOTD that will be broadcasted to Minecraft: Bedrock Edition clients. This is irrelevant if "passthrough-motd" is set to true
   # If either of these are empty, the respective string will default to "Geyser"
-  motd1: "SemiVanilla"
+  motd1: "Khavalon"
   motd2: "Adventure Continues"
   # The Server Name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
   server-name: "SemiVanilla"
@@ -123,7 +123,7 @@ allow-third-party-ears: false
 show-cooldown: false
 
 # Controls if coordinates are shown to players.
-show-coordinates: false
+show-coordinates: true
 
 # Whether Bedrock players are blocked from performing their scaffolding-style bridging.
 disable-bedrock-scaffolding: true

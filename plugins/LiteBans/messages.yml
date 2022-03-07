@@ -81,7 +81,7 @@ banned_message_permanent: |-
   $base
   &cYou are permanently banned!
   $appealMessage
-banned_message_appeal_message: '&8Appeal Email:&7 appeal@semivanilla.com'
+banned_message_appeal_message: '&8Appeal Email:&7 appeal@khavalon.com'
 banned_message_geoip_blacklist: |-
   &cYou are banned from this server
   &7Your location is blacklisted:  $geoip

@@ -26,6 +26,10 @@ blocked-commands:
     - fasttravel
     - spawn
     - back
+    - unstuck
+    - lands
+    - land
+    - l
 messages:
   combat-tagged: '&cYou have been combat tagged. If you log out right now, you will not be safe.'
   un-combat-tagged: '&aYou are no longer in combat.'

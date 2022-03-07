@@ -84,18 +84,18 @@ items:
     commands:
       - 'info website'
 links:
-  store: 'https://store.semivanilla.com/'
-  map: 'https://semivanilla.com/map'
-  vote: 'https://semivanilla.com/vote'
-  website: 'https://semivanilla.com/'
+  store: 'https://store.khavalon.com/'
+  map: 'https://khavalon.com/map'
+  vote: 'https://khavalon.com/vote'
+  website: 'https://khavalon.com/'
   discord: 'https://discord.gg/3WzZ3x6wGp'
-  rules: 'https://semivanilla.com/rules'
+  rules: 'https://khavalon.com/rules'
 
 book:
   help:
     pages: 27
     0:
-      - '    <gradient:gold:#b24747><bold>SemiVanilla MC</bold></gradient>'
+      - '       <gradient:gold:#b24747><bold>Khavalon</bold></gradient>'
       - '           <bold>Help</bold>'
       - ''
       - 'Pages:'
@@ -143,8 +143,8 @@ book:
       - '<bold>Commands:</bold>'
       - ' - /lands help'
       - ''
-      - '    <click:open_url:https://semivanilla.com/claiming><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
-      - '     <click:open_url:https://semivanilla.com/claiming><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
+      - '    <click:open_url:https://khavalon.com/claiming><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
+      - '     <click:open_url:https://khavalon.com/claiming><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
     4:
       - ''
       - ''
@@ -180,8 +180,8 @@ book:
       - ' - /<skillname>'
       - ' - /mana'
       - ''
-      - '    <click:open_url:https://semivanilla.com/skills><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
-      - '     <click:open_url:https://semivanilla.com/skills><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
+      - '    <click:open_url:https://khavalon.com/skills><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
+      - '     <click:open_url:https://khavalon.com/skills><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
     7:
       - ''
       - ''
@@ -216,8 +216,8 @@ book:
       - 'more difficult as you'
       - 'level up your skills!'
       - ''
-      - '    <click:open_url:https://semivanilla.com/mobs><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
-      - '     <click:open_url:https://semivanilla.com/mobs><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
+      - '    <click:open_url:https://khavalon.com/mobs><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
+      - '     <click:open_url:https://khavalon.com/mobs><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
     10:
       - ''
       - ''
@@ -250,8 +250,8 @@ book:
       - 'books in loot chests'
       - 'and villagers.'
       - ''
-      - '    <click:open_url:https://semivanilla.com/enchants><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
-      - '     <click:open_url:https://semivanilla.com/enchants><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
+      - '    <click:open_url:https://khavalon.com/enchants><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
+      - '     <click:open_url:https://khavalon.com/enchants><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
     13:
       - ''
       - ''
@@ -418,7 +418,7 @@ book:
   store:
     pages: 1
     0:
-      - '<click:open_url:%store-link%>    <gradient:gold:#b24747><bold>SemiVanilla MC</gradient></bold></click>'
+      - '<click:open_url:%store-link%>       <gradient:gold:#b24747><bold>Khavalon</gradient></bold></click>'
       - '<click:open_url:%store-link%>         <bold>Store</bold></click>'
       - ''
       - '<click:open_url:%store-link%>Help us share the</click>'
@@ -433,7 +433,7 @@ book:
   map:
     pages: 1
     0:
-      - '<click:open_url:%map-link%>    <gradient:gold:#b24747><bold>SemiVanilla MC</bold></gradient></click>'
+      - '<click:open_url:%map-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%map-link%>           <bold>Map</bold></click>'
       - ''
       - '<click:open_url:%map-link%>View the entire</click>'
@@ -448,7 +448,7 @@ book:
   vote:
     pages: 1
     0:
-      - '<click:open_url:%vote-link%>    <gradient:gold:#b24747><bold>SemiVanilla MC</bold></gradient></click>'
+      - '<click:open_url:%vote-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%vote-link%>     <bold>Vote Portal</bold></click>'
       - ''
       - '<click:open_url:%vote-link%>Support us by voting</click>'
@@ -463,7 +463,7 @@ book:
   website:
     pages: 1
     0:
-      - '<click:open_url:%website-link%>    <gradient:gold:#b24747><bold>SemiVanilla MC</bold></gradient></click>'
+      - '<click:open_url:%website-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%website-link%>        <bold>Website</bold></click>'
       - ''
       - '<click:open_url:%website-link%>Bookmark us! Favorite</click>'
@@ -478,7 +478,7 @@ book:
   discord:
     pages: 1
     0:
-      - '<click:open_url:%discord-link%>    <gradient:gold:#b24747><bold>SemiVanilla MC</bold></gradient></click>'
+      - '<click:open_url:%discord-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%discord-link%>        <bold>Discord</bold></click>'
       - ''
       - '<click:open_url:%discord-link%>Join the community!</click>'
@@ -493,7 +493,7 @@ book:
   rules:
     pages: 1
     0:
-      - '<click:open_url:%rules-link%>    <gradient:gold:#b24747><bold>SemiVanilla MC</bold></gradient></click>'
+      - '<click:open_url:%rules-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%rules-link%>          <bold>Rules</bold></click>'
       - ''
       - 'Summary:'
