@@ -1,4 +1,4 @@
 default:
-  expression: 'multiplier * (level - 2) ^ 2 + base'
-  multiplier: 100.0
-  base: 100.0
+  expression: 'multiplier * (level) ^ 2.5 + base'
+  multiplier: 6.0
+  base: 300.0

@@ -28,8 +28,8 @@ abilities:
       max_level: 0
     geneticist:
       enabled: true
-      base: 1.0
-      per_level: 2.0
+      base: 0.25
+      per_level: 0.5
       unlock: 5
       level_up: 5
       max_level: 0
@@ -136,8 +136,8 @@ abilities:
       max_level: 0
     grappler:
       enabled: true
-      base: 50.0
-      per_level: 100.0
+      base: 15.0
+      per_level: 10.0
       unlock: 5
       level_up: 5
       max_level: 0
@@ -187,8 +187,8 @@ abilities:
   archery:
     crit_chance:
       enabled: true
-      base: 5.0
-      per_level: 5.0
+      base: 1.25
+      per_level: 1.25
       unlock: 2
       level_up: 5
       max_level: 0
@@ -251,8 +251,8 @@ abilities:
       max_level: 0
     no_debuff:
       enabled: true
-      base: 5.0
-      per_level: 5.0
+      base: 1.25
+      per_level: 1.25
       unlock: 6
       level_up: 5
       max_level: 0
@@ -280,8 +280,8 @@ abilities:
       max_level: 0
     first_strike:
       enabled: true
-      base: 20.0
-      per_level: 8.0
+      base: 5.0
+      per_level: 1.5
       unlock: 5
       level_up: 5
       max_level: 0
@@ -290,8 +290,8 @@ abilities:
       enabled: true
       base: 3.0
       per_level: 3.0
-      base_2: 0.5
-      per_level_2: 0.5
+      base_2: 0.08
+      per_level_2: 0.08
       unlock: 6
       level_up: 5
       max_level: 0
@@ -456,8 +456,8 @@ abilities:
   healing:
     life_essence:
       enabled: true
-      base: 10.0
-      per_level: 7.0
+      base: 2.5
+      per_level: 1.75
       unlock: 2
       level_up: 5
       max_level: 0
@@ -477,17 +477,17 @@ abilities:
       max_level: 0
     golden_heart:
       enabled: true
-      base: 5.0
-      per_level: 3.0
+      base: 1.25
+      per_level: 0.75
       unlock: 5
       level_up: 5
       max_level: 0
     revival:
       enabled: true
-      base: 5.0
-      per_level: 4.0
-      base_2: 7.0
-      per_level_2: 6.0
+      base: 1.25
+      per_level: 1.0
+      base_2: 0.75
+      per_level_2: 1.5
       unlock: 6
       level_up: 5
       max_level: 0
@@ -532,11 +532,11 @@ mana_abilities:
   replenish:
     enabled: true
     base_value: 5.0
-    value_per_level: 5.0
-    cooldown: 200
-    cooldown_per_level: -5
-    mana_cost: 20
-    mana_cost_per_level: 20
+    value_per_level: 1.0
+    cooldown: 0
+    cooldown_per_level: 0
+    mana_cost: 10
+    mana_cost_per_level: 0
     unlock: 7
     level_up: 7
     max_level: 0
@@ -549,11 +549,11 @@ mana_abilities:
   treecapitator:
     enabled: true
     base_value: 5.0
-    value_per_level: 5.0
-    cooldown: 200
-    cooldown_per_level: -5
-    mana_cost: 20
-    mana_cost_per_level: 20
+    value_per_level: 1.0
+    cooldown: 0
+    cooldown_per_level: 0
+    mana_cost: 15
+    mana_cost_per_level: 0
     unlock: 7
     level_up: 7
     max_level: 0
@@ -564,11 +564,11 @@ mana_abilities:
   speed_mine:
     enabled: true
     base_value: 5.0
-    value_per_level: 5.0
-    cooldown: 200
-    cooldown_per_level: -5
-    mana_cost: 20
-    mana_cost_per_level: 20
+    value_per_level: 1.0
+    cooldown: 0
+    cooldown_per_level: 0
+    mana_cost: 15
+    mana_cost_per_level: 0
     unlock: 7
     level_up: 7
     max_level: 0
@@ -580,10 +580,10 @@ mana_abilities:
     enabled: true
     base_value: 0.5
     value_per_level: 0.5
-    cooldown: 2
-    cooldown_per_level: -0.1
-    mana_cost: 5
-    mana_cost_per_level: 2
+    cooldown: 0
+    cooldown_per_level: 0
+    mana_cost: 10
+    mana_cost_per_level: 0
     unlock: 7
     level_up: 7
     max_level: 0
@@ -592,11 +592,11 @@ mana_abilities:
   terraform:
     enabled: true
     base_value: 5.0
-    value_per_level: 4.0
-    cooldown: 200
-    cooldown_per_level: -5
-    mana_cost: 20
-    mana_cost_per_level: 20
+    value_per_level: 1.0
+    cooldown: 0
+    cooldown_per_level: 0
+    mana_cost: 15
+    mana_cost_per_level: 0
     unlock: 7
     level_up: 7
     max_level: 0
@@ -605,12 +605,12 @@ mana_abilities:
     sneak_offhand_bypass: true
   charged_shot:
     enabled: true
-    base_value: 0.5
-    value_per_level: 0.3
+    base_value: 2.0
+    value_per_level: 1.0
     cooldown: 0
     cooldown_per_level: 0
     mana_cost: 5
-    mana_cost_per_level: 5
+    mana_cost_per_level: 0
     unlock: 7
     level_up: 7
     max_level: 0
@@ -618,26 +618,26 @@ mana_abilities:
     enable_sound: true
   absorption:
     enabled: true
-    base_value: 2.0
-    value_per_level: 3.0
-    cooldown: 200
-    cooldown_per_level: -5
-    mana_cost: 10
-    mana_cost_per_level: 10
+    base_value: 5.0
+    value_per_level: 2.5
+    cooldown: 0
+    cooldown_per_level: 0
+    mana_cost: 0
+    mana_cost_per_level: 0
     unlock: 7
     level_up: 7
     max_level: 0
     enable_particles: true
   lightning_blade:
     enabled: true
-    base_value: 5.0
-    value_per_level: 5.0
-    cooldown: 200
-    cooldown_per_level: -5
+    base_value: 25.0
+    value_per_level: 7.0
+    cooldown: 0
+    cooldown_per_level: 0
     mana_cost: 20
-    mana_cost_per_level: 20
+    mana_cost_per_level: 0
     base_duration: 5.0
-    duration_per_level: 4.0
+    duration_per_level: 1.0
     unlock: 7
     level_up: 7
     max_level: 0

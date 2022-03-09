@@ -444,10 +444,7 @@
           "type": "item",
           "material": "PUFFERFISH_BUCKET",
           "weight": 5,
-          "amount": {
-            "min": 2,
-            "max": 5
-          }
+          "amount": 1
         },     
         {
           "type": "item",

@@ -6,8 +6,7 @@ enabled:
   loot-chest: false
   minecartchest: false
 messages:
-  break-block-failed: <red>Are you sure you want to break this? Loot regenerates and
-    spawners are limited! Use /confirm to confirm breaking.
+  break-block-failed: <red>You cannot break this chest! This is a natural loot chest.
   player-command-can-break: <green>You can now break protected blocks.
   player-command-time-out: ''
 materials-enabled:
