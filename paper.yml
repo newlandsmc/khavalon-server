@@ -8,7 +8,7 @@
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
-# Docs: https://paper.readthedocs.org/ 
+# Docs: https://docs.papermc.io/ 
 
 verbose: false
 messages:
@@ -32,6 +32,7 @@ timings:
   server-name: SemiVanilla MC
 config-version: 25
 settings:
+  use-dimension-type-for-custom-spawners: false
   chunk-loading:
     min-load-radius: 2
     max-concurrent-sends: 2
@@ -66,6 +67,7 @@ settings:
     recipe-spam-increment: 1
     recipe-spam-limit: 20
   loggers:
+    use-rgb-for-named-text-colors: true
     deobfuscate-stacktraces: true
   console-has-all-permissions: false
   enable-player-collisions: true

@@ -7,12 +7,3 @@ lobby:
 back:
   enabled: true
   message: "<red>There is no /back on this server!"
-sethome:
-  enabled: true
-  message: "<red>To set a home, create a Land! Use /lands help to get started."
-home:
-  enabled: true
-  message: "<red>To set a home, create a Land! Use /lands help to get started."
-homes:
-  enabled: true
-  message: "<red>To set a home, create a Land! Use /lands help to get started."

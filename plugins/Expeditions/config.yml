@@ -31,7 +31,7 @@ menu:
       material: 'BARREL'
       can-use:
         lore:
-          - '<green>You have %count% expeditions to claim!'
+          - '<green>You have a daily expedition to claim!'
           - ''
           - '<dark_gray>Click to claim.'
       cant-use:
@@ -49,7 +49,7 @@ menu:
       cant-use:
         lore:
           - '<red>You don''t have any premium expeditions!'
-          - '<red>Buy more at <gradient:yellow:red>store.semivanilla.com</gradient>'
+          - '<red>Buy more at <gradient:yellow:red>store.khavalon.com</gradient>'
     vote:
       name: '<white>Vote'
       material: 'CHEST'

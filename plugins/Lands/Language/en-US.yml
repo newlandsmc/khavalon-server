@@ -183,18 +183,18 @@ general:
         received: '&7Received total of {0} taxes from land members. New balance: {1}'
     war:
       declaration:
-        sent: '&7Declared war against {0}: &8/Wars info'
-        received: '&c{0} &cdeclared war against us: &e/Wars info'
+        sent: '&7Declared war against {0}. (/wars info)'
+        received: '&c{0} &cdeclared war against you! (/wars info)'
         mutual:
           sent: '&7Sent war request to {0}. &7They need to accept it.'
-          received: '&c{0} &csent a war request. Accept: &e/Wars declare {1}'
+          received: '&c{0} &csent a war request. Accept: &c/wars declare {1}'
       surrender:
-        sent: '&cSurrendered in the war. Paid {0} as tribute to the enemy.'
-        received: '&7Enemy {0} &7surrendered. Received {1} as tribute.'
+        sent: '&cSurrendered in the war.'
+        received: '&7 * Enemy {0} &7surrendered.'
       end:
-        won: '&7We''ve won the war with {0} kills and {1} deaths.'
+        won: '&7You won the war with {0} kills and {1} deaths.'
         draw: '&7The war ended in a draw with {0} kills and {1} deaths.'
-        lost: '&7We''ve lost the war with {1} deaths and {0} kills.'
+        lost: '&7You lost the war with {1} deaths and {0} kills.'
     nation:
       general:
         created: '&7Nation {0} &7created.'
@@ -403,14 +403,18 @@ message:
       land: '#t#&f{land}[newline]{title}'
       camp: '#t#&f{land}[newline]{title}'
       admin: '#t#&f{land}[newline]{title}'
-      pvp-warning: ''
+      pvp-warning: '#a#&cYou entered a PvP zone.'
     leave:
       land: '#t# [newline]Entering Wilderness'
       camp: '#t# [newline]Entering Wilderness'
       admin: '#t# [newline]Entering Wilderness'
     level:
       up: '&a{object} leveled up! New level: {level}'
-      down: '&c{object} leveled down. New level: {level}'
+      down: '&c{object} leveled down. New level: {level} use elytras here.'
+    elytra:
+      counter: '#a#&cElytra disabling in {sec} second(s).'
+      disabled: '&cYour Elytra has been disabled. &cYou''re missing permission to
+        fly here.'
   teleportation:
     already: '&cYou can''t start a second teleportation. There''s already a teleportation
       in progress.'
@@ -1048,90 +1052,96 @@ wars:
   message:
     noaccess:
       wilderness: '&cYou''re not allowed to do this in the wilderness while being
-        engaged in a war. &8Flag: {flag}'
-      general: '&cYou''re not allowed to do this in your current war against land&4
-        {land}&c. &8Flag: {flag}'
-      pillage: '&cYou can''t pillage the land&4 {land} &cwhile not enough defenders
-        are online. &7Please wait until a minimum of&3 {defenders} &7defender(s) of
-        land&2 {land} &7are online.'
+        engaged in a war.'
+      general: '&cYou''re not allowed to do this in your current war against {land}&c.'
+      pillage: '&cYou can''t pillage {land} &cwhile not enough defenders are online.
+        Please wait until a minimum of {defenders} defender(s) are online.'
     start:
-      broadcast: '&7The war between {attacker} &7and {defender} &7started. It will
-        be over in&5 {time}&7.'
+      broadcast: '&7 * A war between {attacker} &7and {defender} &7has started!'
       participants: |
-        &4The War has started:
-        &7More info: &e/wars
+        [NoPrefix]
+        &e&m                         &r &fLands War &e&m                         &r
+        &fThe War has started.
+        &fMore info: &c/wars
 
-        &7Attacker: {attacker} &8({team_1}&8)
-        &7Defender: {defender} &8({team_2}&8)
+        &7Attacker: {attacker} ({team_1})
+        &7Defender: {defender} ({team_2})
 
         &7The war will end in:
-        &5~{time}
+        &3~{time}
+        &e&m                                                                 &r
     end:
-      broadcast: '&7The war between {attacker} &7and {defender} &7ended. It took&5
-        {time}&7.'
-      surrender: '{object} &7surrendered. The war ended and they paid&c {tribute}
-        &7to their enemy {enemy}&7.'
-      draw: '&7The war between {attacker} &7and {defender} &7ended in a draw. It took&5
-        {time}&7.'
+      broadcast: '&7 * The war between {attacker} &7and {defender} &7has ended!'
+      surrender: '&7 * &7{object} &7surrendered. The war between them and {enemy}
+        has ened.'
+      draw: '&7 * The war between {attacker} &7and {defender} &7ended in a draw.'
       won:
         attackers: |
-          &aThe War is over:
-          &7The attackers &8({team}&8) &7won.
+          [NoPrefix]
+          &e&m                         &r &fLands War &e&m                         &r
+          &fThe War is over.
+          &fThe attackers ({team}) won.
 
-          &8&l- &7&lAttacker &8(&3{att_points} points&8)
-              &7Captures: {att_cap}
-              &7Kills: {att_kills}
-          &8&l- &7&lDefender &8(&3{def_points} points&8)
-              &7Captures: {def_cap}
-              &7Kills: {def_kills}
-          &7- Time: &5{time}
+          &7 - &7Attacker &7(&3{att_points} points&7)
+               &7Captures: {att_cap}
+               &7Kills: {att_kills}
+          &7 - &7Defender &7(&3{def_points} points&7)
+               &7Captures: {def_cap}
+               &7Kills: {def_kills}
+          &7 - Time: &5{time}
+          &e&m                                                                 &r
         defenders: |
+          [NoPrefix]
+          &e&m                         &r &fLands War &e&m                         &r
           &aThe War is over:
           &7The defenders &8({team}&8) &7won.
 
-          &8&l- &7&lAttacker &8(&3{att_points} points&8)
-              &7Captures: {att_cap}
-              &7Kills: {att_kills}
-          &8&l- &7&lDefender &8(&3{def_points} points&8)
-              &7Captures: {def_cap}
-              &7Kills: {def_kills}
-          &7- Time: &5~{time}
+          &7 - &7Attacker (&3{att_points} points&7)
+               &7Captures: {att_cap}
+               &7Kills: {att_kills}
+          &7 - &7Defender (&3{def_points} points&7)
+               &7Captures: {def_cap}
+               &7Kills: {def_kills}
+          &7 - Time: &5~{time}
+          &e&m                                                                 &r
     war-shield:
-      set: '&7The new war shield for {object} &7will be active for&5 {time}&7.'
+      set: '&7The new war shield for {object} &7will be active for {time}&7.'
     kill:
       target:
-        attackers: '&7Our team mate&a {attacker} &7got killed by the defender&c {defender}&7.'
-        defenders: '&7Our team mate&a {defender} &7got killed by the attacker&c {attacker}&7.'
+        attackers: '&c * Your teammate {attacker} &cwas killed by {defender}&c.'
+        defenders: '&c * Your teammate {defender} &cwas killed by {attacker}&c.'
       killer:
-        attackers: '&7Our team mate&a {attacker} &7killed the defender&c {defender}&7:
-          &a+ {points} points'
-        defenders: '&7Our team mate&a {defender} &7killed the attacker&c {attacker}&7:
-          &a+ {points} points'
+        attackers: '&a * Your teammate {attacker} &akilled {defender}&a: + {points}
+          points'
+        defenders: '&a * Your teammate {defender} &akilled {attacker}&a: + {points}
+          points'
     capture:
       place:
-        wilderness: '&cYou can''t place a capture block in the wilderness. &7You need
+        wilderness: '&cYou can''t place a capture block in the wilderness. &cYou need
           to place it inside a enemy land.'
-        outskirts: '&cCan''t place capture point here. &7You must place it in the
+        outskirts: '&cCan''t place capture point here. &cYou must place it in the
           outskirts of the land.'
-        state: '&cYou''re currently not at war against land&4 {land} &cor the war
-          hasn''t started yet.'
-        y: '&cCan''t place capture point here. &7It must be placed between&3 {min}
-          &7and&3 {max} &7blocks of height.'
-        already: '&cCan''t place capture point here. &7There''s already a capture
+        state: '&cYou''re currently not at war against {land}&c, or the war hasn''t
+          started yet.'
+        y: '&cCan''t place capture point here. &cIt must be placed between {min} and
+          {max} blocks of height.'
+        already: '&cCan''t place capture point here. &cThere''s already a capture
           point placed in this chunk.'
-        space: '&cCan''t place capture point here. &7There''s not enough space at
+        space: '&cCan''t place capture point here. &cThere''s not enough space at
           this position.'
-        cooldown: '&cYou need to wait&4 {time} &cbefore your team can place a capture
+        cooldown: '&cYou need to wait {time} &cbefore your team can place a capture
           point again.'
-        max: '&cYour team already placed the maximum amount of&4 {max} &csimultaneously
+        max: '&cYour team already placed the maximum amount of {max} &csimultaneously
           capture points.'
         invader: '#t#&aCapture Point[newline]&aplaced in enemy land: {land}, {x},
-          {y}, {z}[newline]&aJoin them to capture the area.'
+          {y}, {z}[newline]&fJoin them to capture the area.'
         defender: '#t#&cCapture Point[newline]&cplaced in our land: {land}, {x}, {y},
-          {z}[newline]&cGo there to join the defenders.'
+          {z}[newline]&fGo there to join the defenders.'
+        overlap: '&cCapture blocks must be placed in a way that the beacon wouldn''t
+          overlap with the wilderness.'
       destroy:
-        presense: '&cYou currently can''t break this capture point. &7There are still&3
-          {players} &7enemy players in this area.'
+        presense: '&cYou currently can''t break this capture point. &cThere are still
+          {players} &cenemy players in this area.'
         invader: '#t#&cCapture Point[newline]&cin enemy land {land} has been destroyed'
         defender: '#t#&aCapture Point[newline]&aremoved from our land {land}[newline]&2&l+
           {points} points'
@@ -1139,122 +1149,129 @@ wars:
       online: '#a#&cCan''t capture: {min} player(s) of land {land} need to be online.'
       success:
         invader: '#t#&aCapture Point[newline]&awe captured {chunks} chunk(s) from
-          {land}[newline]&2&l+ {points} points'
+          {land}[newline]&f+ {points} points'
         defender: '#t#&cCapture Point[newline]&cenemy captured {chunks} chunks(s)
           of {land}'
   command:
     general:
-      no-war: '&cThere aren''t any upcoming or active wars for {object}&c. &7Everything
-        is peaceful.'
+      no-war: '&cThere aren''t any upcoming or active wars for {object}&c.'
     declare:
-      not-allowed: '&cYou''re not allowed to start a war for {object}&c. &7The leader
-        of {object} &7needs to do this.'
-      member: '&cYou can''t declare war against {object}&c. &7You or the enemy leader
-        are trusted in common lands and / or a nation.'
-      war-shield: '&cYou currently can''t declare war against {object}&c. &7They have
-        a war shield for the next&5 {time}&7.'
-      no-nation: '&cYou can''t attack land&4 {land}&c. &7They must be part of a nation
-        to be engaged in a war.'
-      no-target: '&cThere''s no land or nation with the name&4 {target}&c. &7Typo?'
-      ally: '&cYou can''t declare war against {object}&c. &7They''re member in the
-        same nation&9 {nation}&7.'
-      balance: '&cCan''t send this declaration. &7The attackers {object} &7need a
-        minimum balance of&c {min} &7in order to start a war.'
-      online: '&cCan''t send this declaration. &7At least one player of {object} &7need
+      not-allowed: '&cYou''re not allowed to start a war for {object}&c. &cThe leader
+        of {object} &cneeds to do this.'
+      member: '&cYou can''t declare war against {object}&c. &cYou or the enemy leader
+        are trusted in common lands.'
+      war-shield: '&cYou currently can''t declare war against {object}&c. &cThey have
+        a war shield for the next {time}&c.'
+      no-nation: '&cYou can''t attack {land}&c. &cThey must be part of a nation to
+        be engaged in a war.'
+      no-target: '&cThere''s no land or nation with the name {target}&c.'
+      ally: '&cYou can''t declare war against {object}&c. &cThey''re member in the
+        same nation {nation}&c.'
+      balance: '&cCan''t send this declaration. &cThe attackers {object} &cneed a
+        minimum balance of&c {min} &cin order to start a war.'
+      online: '&cCan''t send this declaration. &cAt least one member of {object} &cneeds
         to be online.'
-      broadcast: '&7The enemy {attacker} &7declared war against {defender}&7. Their
-        war will start in&5 {time}&7.'
-      success: '&7You &8({attacker}&8) &7successfully declared war against {defender}&7.
-        War will start in&5 {time}&7.'
-      target: '&7The enemy {attacker} &7declared war against {defender} &8(&7YOU&8)&7.
-        The war will start in&5 {time}&7.'
-      confirm: |
-        &cAre you sure you want to declare war against {object}&c?
-
-         [T]&2✔ Confirm &8[CLICK][H]&7Click here to confirm that you want to declare war against a whole nation.[/H][C]wars declare {input} confirm[/C][/T]
+      broadcast: '&7 * {attacker} &7declared war against {defender}&7. The war will
+        start in {time}&7.'
+      success: '&aYou successfully declared war against {defender}&a. The war will
+        start in {time}&a.'
+      target: '&c{attacker} &cdeclared war against you! The war will start in {time}.'
+      confirm: '&cAre you sure you want to declare war against {object}&c? Use [T]/wars
+        declare {input} confirm[H]&7Click here to confirm that you want to declare
+        war against a whole nation.[/H][C]wars declare {input} confirm[/C][/T] to
+        confirm.'
       mutual:
-        success: '&7You &8({attacker}&8) &7successfully sent a war declaration to
-          {defender}&7. &7They now need to accept or deny it, before the war can start.
-          &7If the defenders surrender during war, they will need to pay&c {tribute}
-          &7to the attackers.'
+        success: '&aYou successfully sent a war declaration to {defender}&a. They
+          now need to accept or deny it, before the war can start.'
         target: |
-          &7The enemy {attacker} &7send a war declaration against {defender} &8(&7YOU&8)&7. &7If the defenders surrender during war, they will need to pay&c {tribute} &7to the attackers.
-
-           [T]&2✔ Accept &8[&8CLICK&8][H]&7Click here to accept the war declaration.[/H][C]wars declare {input}[/C][/T]
-           [T]&c✘ Deny &8[&8CLICK&8][H]&7Click here to deny the war declaration.[/H][C]wars deny[/C][/T]
+          &c{attacker} &csent a war declaration against you!
+          &7To accept, type [T]/wars declare {input}[H]&7Click here to accept the war declaration.[/H][C]wars declare {input}[/C][/T]
+          &7To deny, type [T]/wars deny[H]&7Click here to deny the war declaration.[/H][C]wars deny[/C][/T]
       already:
-        attacker: '&cCan''t join another war. &7The current war of {object} &7needs
+        attacker: '&cCan''t join another war. &cThe current war of {object} &cneeds
           to end first.'
-        defender: '&cYou currently can''t declare war against them. &7The target {object}
-          &7is already engaged in a war.'
+        defender: '&cYou currently can''t declare war against them. &cThe target {object}
+          &cis already engaged in a war.'
       min-players:
         attacker: '&cYou can''t engage in a war, because {object} &cneeds more trusted
-          players. &7The required minimum for attackers to declare war is&3 {min}
-          &7players.'
+          players. &cThe required minimum for attackers to declare war is&c {min}
+          &cplayers.'
         defender: '&cYou can''t declare war against {object}&c, because they need
-          more trusted players. &7The required minimum for defenders to receive a
-          war declaration is&3 {min} &7players.'
+          more trusted players. &cThe required minimum for defenders to receive a
+          war declaration is&c {min} &cplayers.'
     deny:
-      attacker: '&cAttackers can''t deny their own war declaration. &7Only the defender
+      attacker: '&cAttackers can''t deny their own war declaration. &cOnly the defender
         can do that.'
-      ongoing: '&cYou can''t deny the ongoing war against {enemy}&c. &7You can only
-        deny war declarations for {object}&7.'
-      success: '&7You successfully denied the war declaration for {object} &7against
-        the enemy {enemy}&7.'
+      ongoing: '&cYou can''t deny the ongoing war against {enemy}&c. &cYou can only
+        deny war declarations for {object}&c.'
+      success: '&aYou successfully denied the war declaration for {object} &aagainst
+        {enemy}&a.'
     menu:
-      mutual: '&cYou can''t open the war menu right now. &7The war declaration to
-        {object} &7hasn''t been accepted yet.'
+      mutual: '&cYou can''t open the war menu right now. &cThe war declaration to
+        {object} &chasn''t been accepted yet.'
     info:
       war: |
-        &4Current War:
-        &7More info: &e/wars
+        [NoPrefix]
+        &e&m                         &r &fLands War &e&m                         &r
+        &fCurrent War
+        &fMore info: &7/wars
 
-        &8&l- &7&lAttacker {attacker}
-            &7Captures: {att_cap}
-            &7Kills: {att_kills}
-            &3= {att_points} / {towin} &7points to win
+        &7 - &7Attacker {attacker}
+             &7Captures: {att_cap}
+             &7Kills: {att_kills}
+             &3= {att_points} / {towin} &7points to win
             {att_bar}
-        &8&l- &7&lDefender {defender}
-            &7Captures: {def_cap}
-            &7Kills: {def_kills}
-            &3= {def_points} / {towin} &7points to win
+        &7 - &7Defender {defender}
+             &7Captures: {def_cap}
+             &7Kills: {def_kills}
+             &3= {def_points} / {towin} &7points to win
             {def_bar}
-        &7- Timeout:&5 ~{time}
+        &7 - Timeout:&5 ~{time}
+        &e&m                                                                 &r
       declaration:
         normal: |
-          &4War Declaration:
-          &7More info: &e/wars
+          [NoPrefix]
+          &e&m                         &r &fLands War &e&m                         &r
+          &fWar Declaration
+          &fMore info: &7/wars
 
           &7Attacker: {attacker}
           &7Defender: {defender}
 
           &7The war will start in:
           &5~{time}
+          &e&m                                                                 &r
         mutual:
           defender: |
-            &4War Declaration:
-            &7More info: &e/wars
+            [NoPrefix]
+            &e&m                         &r &fLands War &e&m                         &r
+            &fWar Declaration
+            &fMore info: &7/wars
 
             &7Attacker: {attacker}
             &7Defender: {defender}
 
             &7If defenders surrender during war:
-            &7Tribute:&c {tribute}
+            &7Tribute: {tribute}
 
-            [T]&2✔ Accept &8[&8CLICK&8][H]&7Click here to accept the war declaration.[/H][C]Wars declare {input}[/C][/T]
-            [T]&c✘ Deny &8[&8CLICK&8][H]&7Click here to deny the war declaration.[/H][C]Wars deny[/C][/T]
+            [T]&a✔ Accept[H]&7Click here to accept the war declaration.[/H][C]Wars declare {input}[/C][/T]
+            [T]&c✘ Deny[H]&7Click here to deny the war declaration.[/H][C]Wars deny[/C][/T]
+            &e&m                                                                 &r
           attacker: |
-            &4War Declaration:
-            &7More info: &e/wars
+            [NoPrefix]
+            &e&m                         &r &fLands War &e&m                         &r
+            &fWar Declaration
+            &fMore info: &7/wars
 
             &7Attacker: {attacker}
             &7Defender: {defender}f
 
             &7If defenders surrender during war:
-            &7Tribute:&c {tribute}
+            &7Tribute: {tribute}
 
             &cThe defender hasn't accepted
             &cthe declaration yet.
+            &e&m                                                                 &r
 nations:
   message:
     current-war: '&cYou can''t do this right now. &7Your nation&9 {nation} &7is currently

@@ -472,10 +472,35 @@ gui:
         lore:
         - '&cYou''re not allowed to teleport'
         - '&cto any land spawn.'
-      failure_no-spawn:
+      failure_cost:
+        name: '&cNot enough Money'
+        lore:
+        - '&cYou need {cost} to pay for'
+        - '&cthe teleportation.'
+      failure_enter:
+        name: '&cNot Allowed to Enter'
+        lore:
+        - '&cYou''re not allowed to enter'
+        - '&cthe area in which the land'
+        - '&cspawn is located.'
+      failure_cooldown:
+        name: '&cCooldown'
+        lore:
+        - '&cYou must wait another {time}'
+        - '&cbefore you can teleport to the'
+        - '&cspawn again.'
+      failure_teleport:
+        name: '&cNot Allowed to Teleport'
+        lore:
+        - '&cYou''re not allowed to teleport'
+        - '&cto this &cland spawn.'
+      failure_none:
         name: '&cNo Spawnpoint'
         lore:
-        - '&cThis land hasn''t set a spawn yet.'
+        - '&cThis land has''t set a spawn set.'
+        - ''
+        - '&7Set spawn point:'
+        - '&7/lands setspawn'
     p:
       placeholder_1:
         material: BLACK_STAINED_GLASS_PANE
@@ -856,30 +881,30 @@ gui:
     title: '{area} > Trusted Players'
     size: 45
     l:
-      object_land:
+      land:
         name: '&e{player}'
         lore:
         - '&fTrusted in these areas:'
         - '&f{areas}'
         - ''
-        - ' &f• &aMIDDLE CLICK'
+        - ' &f• &aLEFT CLICK'
         - '   &7More information'
         - ' &f• &cKEY Q'
         - '   &7Untrust'
         material: PLAYER_HEAD
         from: 10
         to: 36
-      object_area:
+      area:
         name: '&e{player}'
         lore:
         - '&fRole: {role}'
         - ''
-        - ' &f• &aLEFT CLICK'
+        - ' &f• &aSHIFT + LEFT CLICK'
         - '   &7▲ Promote'
-        - ' &f• &cRIGHT CLICK'
+        - ' &f• &cSHIFT + RIGHT CLICK'
         - '   &7▼ Demote'
         - ''
-        - ' &f• &aMIDDLE CLICK'
+        - ' &f• &aLEFT CLICK'
         - '   &7More information'
         - ' &f• &cKEY Q'
         - '   &7Untrust in this area'
@@ -1008,26 +1033,27 @@ gui:
     title: '{area} > Banned Players'
     size: 45
     l:
-      object_all:
+      all:
         name: '&c{player}'
         lore:
         - '&fBanned in these areas:'
         - '&f{areas}'
         - ''
-        - ' &f• &aMIDDLE CLICK:'
+        - ' &f• &aLEFT CLICK:'
         - '   &7Get more information about'
         - '   &7this player'
         material: PLAYER_HEAD
         from: 10
         to: 36
-      object:
+      area:
         name: '&c{player}'
         lore:
         - '&fThis player is banned'
         - '&fin this area.'
         - ''
-        - ' &f• &aMIDDLE CLICK:'
-        - '   &7Get more information'
+        - ' &f• &aLEFT CLICK:'
+        - '   &7Get more information about'
+        - '   &7this player'
         material: PLAYER_HEAD
         from: 10
         to: 36
@@ -1494,18 +1520,6 @@ gui:
         material: RED_STAINED_GLASS_PANE
         slot: 37
     l:
-      general:
-        name: '&6{flag}'
-        lore:
-        - '&f{desc}'
-        - ''
-        - '&7Current Setting: {enabled}'
-        - ''
-        - ' &f• &cLEFT CLICK'
-        - '   &7Toggle'
-        material: NAME_TAG
-        from: 10
-        to: 36
       block_break:
         name: '&6Break Blocks'
         lore:
@@ -1951,6 +1965,60 @@ gui:
         material: GOLD_NUGGET
         from: 10
         to: 36
+      general_admin:
+        name: '&6{flag}'
+        lore:
+        - '&f{desc}'
+        - ''
+        - '&7Current Setting: {enabled}'
+        - ''
+        - ' &f• &cLEFT CLICK'
+        - '   &7Toggle'
+        - ''
+        - '&7This is an admin flag. It only applies'
+        - '&7to admin lands and /lands admin wilderness.'
+        material: NAME_TAG
+        from: 10
+        to: 36
+      general_player:
+        name: '&6{flag}'
+        lore:
+        - '&f{desc}'
+        - ''
+        - '&7Current Setting: {enabled}'
+        - ''
+        - ' &f• &cLEFT CLICK'
+        - '   &7Toggle'
+        material: NAME_TAG
+        from: 10
+        to: 36
+      elytra:
+        name: '&6Elytra Usage'
+        lore:
+        - '&fAllow this role to use elytras'
+        - '&fin order to fly in this area?'
+        - ''
+        - '&7Current Setting: {enabled}'
+        - ''
+        - ' &f• &cLEFT CLICK'
+        - '   &7Toggle'
+        material: ELYTRA
+        from: 10
+        to: 36
+      plant:
+        name: '&6Plant'
+        lore:
+        - '&fAllow this role to plant'
+        - '&fcrops, saplings, berries,'
+        - '&fsugar cane etc?'
+        - ''
+        - '&7Current Setting: {enabled}'
+        - ''
+        - ' &f• &cLEFT CLICK'
+        - '   &7Toggle'
+        material: IRON_HOE
+        from: 10
+        to: 36
     a:
       failure_permission:
         name: '&cNot allowed'
@@ -2020,18 +2088,6 @@ gui:
         material: RED_STAINED_GLASS_PANE
         slot: 37
     l:
-      general:
-        name: '&6{flag}'
-        lore:
-        - '&f{desc}'
-        - ''
-        - '&7Current Setting: {enabled}'
-        - ''
-        - ' &f• &cLEFT CLICK'
-        - '   &7Toggle'
-        material: NAME_TAG
-        from: 10
-        to: 36
       entity_griefing:
         name: '&6Entity Griefing'
         lore:
@@ -2160,6 +2216,33 @@ gui:
         - ' &f• &cLEFT CLICK'
         - '   &7Toggle'
         material: SNOWBALL
+        from: 10
+        to: 36
+      general_admin:
+        name: '&6{flag}'
+        lore:
+        - '&f{desc}'
+        - ''
+        - '&7Current Setting: {enabled}'
+        - ''
+        - ' &f• &cLEFT CLICK'
+        - '   &7Toggle'
+        - ''
+        - '&7This is an admin flag. It only applies'
+        - '&7to admin lands and /lands admin wilderness.'
+        material: NAME_TAG
+        from: 10
+        to: 36
+      general_player:
+        name: '&6{flag}'
+        lore:
+        - '&f{desc}'
+        - ''
+        - '&7Current Setting: {enabled}'
+        - ''
+        - ' &f• &cLEFT CLICK'
+        - '   &7Toggle'
+        material: NAME_TAG
         from: 10
         to: 36
     a:
@@ -2832,17 +2915,35 @@ gui:
         lore:
         - '&cYou''re not allowed to'
         - '&cteleport to any land spawns.'
-      failure_no-spawn:
-        name: '&cNo Spawn set'
+      failure_cost:
+        name: '&cNot Enough Money'
         lore:
-        - '&cThis land hasn''t set a spawn yet.'
-      failure_teleport_cost:
-        name: '&cCost'
+        - '&7You need&c {cost} &7to pay for'
+        - '&7the teleportation.'
+      failure_enter:
+        name: '&cNot Allowed to Enter'
         lore:
-        - '&cYou can''t afford it to'
-        - '&cteleport to this land spawn.'
+        - '&cYou''re not allowed to enter'
+        - '&cthe area in which the land'
+        - '&cspawn is located.'
+      failure_cooldown:
+        name: '&cCooldown'
+        lore:
+        - '&cYou must wait another&4 {time}'
+        - '&cbefore you can teleport to the'
+        - '&cspawn again.'
+      failure_teleport:
+        name: '&cNot Allowed to Teleport'
+        lore:
+        - '&cYou''re not allowed to teleport'
+        - '&cto &nthis &cland spawn.'
+      failure_none:
+        name: '&cNo Spawnpoint'
+        lore:
+        - '&cThis land has''t set a spawn set.'
         - ''
-        - '&7You need {costs}&7.'
+        - '&7Set spawn point:'
+        - '&7/lands setspawn'
     p:
       placeholder_1:
         material: BLACK_STAINED_GLASS_PANE
@@ -2956,141 +3057,135 @@ gui:
   
   
   war:
-    title: '&8War'
+    title: War
     size: 45
     f:
       attackers:
-        name: '&c&lAttacker {object}'
+        name: '&cAttacker {object}'
         lore:
-        - '&8✖ &7View all attacking lands.'
+        - '&fView all attacking lands.'
         - ''
         - '&7Players: {players}'
-        - '&6&lProgress'
-        - ' &8• &7Captures: {cap}'
-        - ' &8• &7Kills: {kills}'
+        - '&7Progress'
+        - ' &f• &7Captures: {cap}'
+        - ' &f• &7Kills: {kills}'
         - '   &3= {points} / {towin} &7points to win'
         - '   {bar}'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTU0OTQ3ZGU3ZjUyNTk4MjU1ZDZhZmVlOWQ3N2JlZmFkOWI0ZjI0YzBjNDY2M2QyOGJjZGY4YTY0NTdmMzQifX19
         slot: 13
       defenders:
-        name: '&a&lDefender {object}'
+        name: '&aDefender {object}'
         lore:
-        - '&8✖ &7View all defending lands.'
+        - '&fView all defending lands.'
         - ''
         - '&7Players: {players}'
-        - '&6&lProgress'
-        - ' &8• &7Captures: {cap}'
-        - ' &8• &7Kills: {kills}'
+        - '&7Progress'
+        - ' &f• &7Captures: {cap}'
+        - ' &f• &7Kills: {kills}'
         - '   &3= {points} / {towin} &7points to win'
         - '   {bar}'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRkYmNiN2UxZmJlY2VhOWE3MzUwNDM2Y2JiZWEyYjQ5NmY3NGMyOTcyMDRmMWJiOWFjYzM4NzhkNTQyY2NiIn19fQ==
         slot: 14
       tribute_attacker:
-        name: '&6&lTribute:&c {tribute}'
+        name: '&6Tribute: {tribute}'
         lore:
-        - '&8✖ &bLEFT CLICK'
+        - ' &f• &aLEFT CLICK'
         - '   &7Change the tribute value for this war.'
         - ''
-        - '    &8• &7&lIf the tribute equals 0:'
-        - '      &7The defenders won''t be able'
-        - '      &7to surrender.'
-        - '    &8• &7&lIf the defenders surrender:'
-        - '      &7Defenders need to pay&c {tribute}'
-        - '      &7to you.'
+        - '   &7If the tribute equals 0:'
+        - '   &7The defenders won''t be able'
+        - '   &7to surrender.'
         - ''
-        - '&8✖ &9RIGHT CLICK'
+        - '   &7If the defenders surrender:'
+        - '   &7Defenders need to pay {tribute}'
+        - '   &7to you.'
+        - ''
+        - ' &f• &cRIGHT CLICK'
         - '   &7If you, as a attacker, want to'
         - '   &7surrender you''ll need to pay'
-        - '   &c{tribute-att} &7to the defenders.'
+        - '   &7{tribute-att} to the defenders.'
         material: GOLD_INGOT
         slot: 31
       tribute_attacker_mutual:
-        name: '&6&lTribute:&c {tribute}'
+        name: '&6Tribute: {tribute}'
         lore:
-        - '&8✖ &7Surrender in this war'
-        - '   &7You''ll need to pay&c {tribute-att}'
+        - ' &f• &cLEFT CLICK'
+        - '   &7Surrender'
+        - '   &7You''ll need to pay {tribute-att}'
         - '   &7as a tribute to the defenders.'
-        - ''
-        - '    &8• &7If the tribute equals 0:'
-        - '      &7The defenders wont be able'
-        - '      &7to surrender.'
-        - ''
-        - '    &8• &7&lIf the defenders surrender:'
-        - '      &7They need to pay&c {tribute}'
-        - '      &7to you.'
         material: GOLD_INGOT
         slot: 31
       tribute_defender:
-        name: '&6&lSurrender:&c {tribute}'
+        name: '&6Surrender: {tribute}'
         lore:
-        - '&8✖ &7Surrender in this war'
-        - ''
-        - '    &8• &7You''ll need to pay&c {tribute}'
-        - '      &7as a tribute to the attackers.'
-        - ''
-        - '    &8• &7&lIf the tribute equals 0:'
-        - '      &7The attackers don''t accept'
-        - '      &7a surrender.'
+        - ' &f• &cLEFT CLICK'
+        - '   &7Surrender'
+        - '   &7You''ll need to pay {tribute}'
+        - '   &7as a tribute to the defenders.'
         material: GOLD_INGOT
         slot: 31
       declaration_start:
-        name: '&6&lStart'
+        name: '&6Start'
         lore:
-        - '&7The war will start in&5 {time}&7.'
-        - '&7Until then each team has time to prepare.'
+        - '&fThe war will start in {time}.'
+        - '&fUntil then each team has time to prepare.'
         material: CLOCK
         slot: 17
       war_end:
-        name: '&6&lEnd'
+        name: '&6End'
         lore:
-        - '&7The war will end, if one team reaches'
-        - '&7a total amount of&3 {points} &7points'
-        - '&7or a team surrenders.'
+        - '&fThe war will end, if one team reaches'
+        - '&fa total amount of&3 {points} &fpoints'
+        - '&for a team surrenders.'
         - ''
-        - ' &8• &7If no team reaches {points} points:'
-        - '   &7The war will timeout in&5 {end}&7.'
+        - '&7If no team reaches {points} points:'
+        - '&7The war will timeout in&3 {end}&7.'
         material: CLOCK
         slot: 17
       points:
-        name: '&6&lPoint Distribution'
+        name: '&6Point Distribution'
         lore:
-        - '&7A team needs&3 {points} &7points to win.'
-        - ' &8• &7Kill: &3{p_kill} point(s)'
-        - ' &8• &7Capture: &3{p_cap} point(s)'
+        - '&fA team needs&3 {points} &fpoints to win.'
         - ''
-        - '    &8• &7To capture an enemy area, place'
-        - '      &7a capture item inside it. You'
-        - '      &7can see the crafting recipe'
-        - '      &7for it in this menu.'
+        - '&7Kill: &3{p_kill} point(s)'
+        - '&7Capture: &3{p_cap} point(s)'
         - ''
-        - '&6&lEnemies can do this in your Land:'
+        - '&7To capture an enemy area, place'
+        - '&7a capture item inside it. You'
+        - '&7can see the crafting recipe'
+        - '&7for it in this menu.'
+        - ''
+        - '&7Enemies can do this in your Land:'
         - '{settings}'
         material: IRON_INGOT
         slot: 16
       back:
-        name: '&c&lBack'
+        name: '&cBack'
         lore:
-        - '&8✖ &7Go back to'
-        - '   {back}&7.'
+        - ' &f• &cLEFT CLICK'
+        - '   &7Go back to {back}'
         material: RED_STAINED_GLASS_PANE
         slot: 37
     s:
       information:
-        name: '&6&lInformation'
+        name: '&6Information'
         lore:
         - '&7In this line you can view'
         - '&7information about this war.'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU3NDcwMTBkODRhYTU2NDgzYjc1ZjYyNDNkOTRmMzRjNTM0NjAzNTg0YjJjYzY4YTQ1YmYzNjU4NDAxMDVmZCJ9fX0=
         slot: 11
       recipe:
-        name: '&6&lCapture Point Recipe'
+        name: '&6Capture Point Recipe'
         lore:
-        - '&7Click here to see the recipe'
-        - '&7of the capture point item.'
+        - '&fClick here to see the recipe'
+        - '&fof the capture point item.'
+        - ''
+        - ' &f• &aLEFT CLICK'
+        - '   &7Open menu'
         material: BEACON
         slot: 15
       management:
-        name: '&6&lInformation'
+        name: '&6Information'
         lore:
         - '&7In this line you can set a tribute'
         - '&7and surrender in this war.'
@@ -3098,37 +3193,33 @@ gui:
         slot: 29
     a:
       failure_permission:
-        name: '&4&lNot allowed'
+        name: '&cNot allowed'
         lore:
         - '&cYou''re not allowed to do'
-        - '&cthis for &8({object}&8)&c.'
-        - ''
-        - ' &8• &7The owner can give you'
-        - '   &7permission to do so.'
-        - '   &7Flag: {flag}'
+        - '&cthis for ({object}).'
       failure_surrender:
-        name: '&4&lSurrender rejected'
+        name: '&cSurrender rejected'
         lore:
         - '&cThe enemy does not allow'
         - '&cyou to surrender.'
         - ''
-        - ' &8• &7That''s because they didn''t'
-        - '   &7set a tribute. They can do that'
-        - '   &7in their war menu: &e/wars menu'
+        - '&7That''s because they didn''t'
+        - '&7set a tribute. They can do that'
+        - '&7in their war menu: /wars menu'
       failure_attacker:
-        name: '&4&lCan''t surrender'
+        name: '&cCan''t surrender'
         lore:
-        - '&7Attackers aren''t allowed to'
-        - '&7surrender in wars at all.'
+        - '&cAttackers aren''t allowed to'
+        - '&csurrender in wars at all.'
       failure_cost:
-        name: '&4&lNot enough Money'
+        name: '&cNot enough Money'
         lore:
-        - '&cYou &8({object}&8) &chave'
+        - '&cYou ({object}) have'
         - '&cnot enough money to pay the'
-        - '&ctribute of&4 {tribute}&c.'
+        - '&ctribute of {tribute}.'
     p:
       placeholder_1:
-        material: GRAY_STAINED_GLASS_PANE
+        material: BLACK_STAINED_GLASS_PANE
         from: 1
         to: 45
       placeholder_2:
@@ -3140,70 +3231,74 @@ gui:
         from: 30
         to: 30
   war_capture_recipe:
-    title: '&8War &7> &8Info &7> &8Recipe'
+    title: War > Info > Recipe
     size: 45
     f:
       back:
-        name: '&c&lBack'
+        name: '&cBack'
         lore:
-        - '&8✖ &7Go back to'
-        - '   {back}&7.'
+        - ' &f• &cLEFT CLICK'
+        - '   &7Go back to {back}'
         material: RED_STAINED_GLASS_PANE
         slot: 37
     p:
       placeholder_1:
-        material: GRAY_STAINED_GLASS_PANE
+        material: BLACK_STAINED_GLASS_PANE
         from: 1
         to: 45
   war_lands:
-    title: '&8{team}'
+    title: '{team}'
     size: 45
     f:
       back:
-        name: '&c&lBack'
+        name: '&cBack'
         lore:
-        - '&8✖ &7Go back to'
-        - '   {back}&7.'
+        - ' &f• &cLEFT CLICK'
+        - '   &7Go back to {back}'
         material: RED_STAINED_GLASS_PANE
         slot: 37
       page_previous:
-        name: '&c&lPrevious Page'
+        name: '&cPrevious Page'
         lore:
-        - '&8✖ &7Go to the previous page:&3 {previous}'
+        - ' &f• &cLEFT CLICK'
+        - '   &7Go to page: {previous}'
         material: ARROW
         slot: 39
       page_next:
-        name: '&a&lNext Page'
+        name: '&aNext Page'
         lore:
-        - '&8✖ &7Go to the next page:&3 {next}'
+        - ' &f• &aLEFT CLICK'
+        - '   &7Go to page: {next}'
         material: ARROW
         slot: 43
     l:
       object:
-        name: '&2&l{land}'
+        name: '&2{land}'
         lore:
-        - '{title}'
+        - '&f{title}'
         - ''
-        - '&8✖ &7View information about this land.'
+        - ''
+        - ' &f• &aLEFT CLICK'
+        - '   &7View info'
         material: PLAYER_HEAD
         from: 10
         to: 36
     p:
       placeholder_1:
-        material: GRAY_STAINED_GLASS_PANE
+        material: BLACK_STAINED_GLASS_PANE
         from: 1
         to: 9
       placeholder_2:
-        material: GRAY_STAINED_GLASS_PANE
+        material: BLACK_STAINED_GLASS_PANE
         from: 36
         to: 45
   
   war-declaration_tribute:
-    title: '&8Tribute'
+    title: Tribute
     size: 45
     f:
       plus-1:
-        name: '&a&lAdd {value}'
+        name: '&aAdd {value}'
         lore: []
         material: GLOWSTONE_DUST
         slot: 24
@@ -3211,83 +3306,85 @@ gui:
         data:
           value: 1.0
       plus-2:
-        name: '&a&lAdd {value}'
+        name: '&aAdd {value}'
         lore: []
         material: GLOWSTONE_DUST
         slot: 25
         data:
           value: 100.0
       plus-3:
-        name: '&a&lAdd {value}'
+        name: '&aAdd {value}'
         lore: []
         material: GLOWSTONE_DUST
         slot: 26
         data:
           value: 1000.0
       minus-3:
-        name: '&c&lRemove {value}'
+        name: '&cRemove {value}'
         lore: []
         material: REDSTONE
         slot: 22
         data:
           value: 1.0
       minus-2:
-        name: '&c&lRemove {value}'
+        name: '&cRemove {value}'
         lore: []
         material: REDSTONE
         slot: 21
         data:
           value: 100.0
       minus-1:
-        name: '&c&lRemove {value}'
+        name: '&cRemove {value}'
         lore: []
         material: REDSTONE
         slot: 20
         data:
           value: 1000.0
       tribute:
-        name: '&7&lTribute:&c {tribute}'
+        name: '&7Tribute: {tribute}'
         lore:
-        - '&7The enemy will need to pay this'
-        - '&7in order to surrender.'
+        - '&fThe enemy will need to pay this'
+        - '&fin order to surrender.'
         - ''
-        - ' &8• &7&lMaximum tribute:&c {max}'
-        - '   &7This depends on the enemies'
-        - '   &7balance.'
-        - ' &8• &7&lIf tribute is set to 0:'
-        - '   &7The enemy won''t be able'
-        - '   &7to surrender.'
+        - '&7Maximum tribute: {max}'
+        - '&7This depends on the enemies'
+        - '&7balance.'
+        - ''
+        - '&7&lIf tribute is set to 0:'
+        - '&7The enemy won''t be able'
+        - '&7to surrender.'
         material: GOLD_INGOT
         slot: 23
       send-declaration:
-        name: '&a&lSend War Declaration'
+        name: '&aSend War Declaration'
         lore:
-        - '&8✖ &7Send this war declaration'
-        - '   &7to the enemy.'
+        - ' &f• &aLEFT CLICK'
+        - '   &7Send war declaration'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
         slot: 45
       abort-declaration:
-        name: '&c&lCancel War Declaration'
+        name: '&cCancel War Declaration'
         lore:
-        - '&8✖ &7Cancel this war declaration.'
+        - ' &f• &cLEFT CLICK'
+        - '   &7Cancel war declaration'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
         slot: 37
       back:
-        name: '&c&lBack'
+        name: '&cBack'
         lore:
-        - '&8✖ &7Go back to'
-        - '   {back}&7.'
+        - ' &f• &cLEFT CLICK'
+        - '   &7Go back to {back}'
         material: RED_STAINED_GLASS_PANE
         slot: 37
     a:
       max-tribute:
-        name: '&4&lMax Value reached'
+        name: '&cMax Value reached'
         lore:
         - '&cYou can''t set the tribute'
         - '&cvalue higher than&c {max}&c.'
         - ''
-        - ' &8• &7The max tribute depends on the'
-        - '   &7enemies balance.'
+        - '&7The max tribute depends on the'
+        - '&7enemies balance.'
     p:
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
@@ -3413,6 +3510,41 @@ gui:
         material: BLUE_STAINED_GLASS_PANE
         from: 21
         to: 21
+    a:
+      failure_cost:
+        name: '&cNot enough Money'
+        lore:
+        - '&cYou need {cost} to pay for'
+        - '&cthe teleportation.'
+      failure_enter:
+        name: '&cNot Allowed to Enter'
+        lore:
+        - '&cYou''re not allowed to enter'
+        - '&cthe area in which the capitals'
+        - '&cspawn is located.'
+      failure_cooldown:
+        name: '&cCooldown'
+        lore:
+        - '&cYou must wait another&4 {time}'
+        - '&cbefore you can teleport to the'
+        - '&cspawn again.'
+      failure_teleport:
+        name: '&cNot Allowed to Teleport'
+        lore:
+        - '&cYou''re not allowed to teleport'
+        - '&cto &nthe &ccapitals spawn.'
+      failure_teleport_permission:
+        name: '&cMissing Permission'
+        lore:
+        - '&cYou''re missing the permission to'
+        - '&cteleport to any land spawn.'
+      failure_none:
+        name: '&4&lNo Spawnpoint'
+        lore:
+        - '&cThe capital has''t set a spawn set.'
+        - ''
+        - '&7Set spawn point:'
+        - '&7/lands setspawn'
   
   nation_lands:
     title: '&8Nation Members'

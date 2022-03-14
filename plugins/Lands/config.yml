@@ -241,7 +241,8 @@ land:
     mute-global: false
 
   # Should chunks be regenerated at unclaim?
-  # NOTE: Only supported when using the latest paper 1.18.1+.
+  # NOTE: This option is deprecated, it is recommended to use our plugin WildRegeneration,
+  # which provides more functionality, instead.
   regen: false
 
 
@@ -743,6 +744,8 @@ random-teleport:
   # and should be disabled if not needed. Most world generators do not need this option as they support retrieving the biome without loading the destination chunk
   # before the teleportation counter starts.
   extensive-check: false
+  # Should the teleportation be free for players that joined the first time?
+  new-free: false
 
 
 # Lands menu settings (/lands menu)
@@ -808,6 +811,8 @@ integration:
       enabled_7: false
 
     # Apply the lands-claim flag also to global regions in world manager plugins, like WorldGuard?
+    # NOTE: This option should only be enabled, if you want to disallow claiming in the wilderness.
+    #       If you want to manage wilderness flags like block breaking, use /lands admin menu instead.
     # This option requires server reload / restart.
     global-regions: false
 

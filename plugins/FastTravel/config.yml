@@ -30,20 +30,35 @@ gui:
          lore-to-add-at-last: 
          - ""
          - <red>Locked! - visit %x% %z% to unlock.
-      additional: 
-         enabled: true
-         item: base64:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5MzQ5OGVhYzE5NzE1Mjg1NzEwNjdkNWIxMTBiZmU1MmIyNjkzYjYyMmEzYjY3N2FkNTcxMGYxZmEzMWNlIn19fQ==
-         name: <white>Lands
-         lore: 
-         - <gray>Open Lands UI
-         command: lands
+   filler: 
+      BLACK_STAINED_GLASS_PANE: 
+      - 0
+      - 1
+      - 7
+      - 8
+      - 9
+      - 10
+      - 16
+      - 17
+      - 18
+      - 19
+      - 25
+      - 26
+      - 27
+      - 28
+      - 34
+      - 35
+      - 36
+      - 37
+      - 43
+      - 44
 
 messages: 
    help: 
       header: <yellow><strikethrough>                         <reset> Waypoint Help <yellow><strikethrough>                         <reset>
       command: '<gold>%command%<white>: %description%'
       footer: <yellow><strikethrough>                                                                  <reset>
-   on-teleport-queue: <yellow>Teleporting in 5 seconds, don't move...
+   on-teleport-queue: <yellow>Teleporting in 5 seconds, don\'t move...
    teleport-commencing: <yellow>Teleporting...
    teleport-cancelled: 
       on-move: <red>Pending teleportation request cancelled.
@@ -52,7 +67,7 @@ messages:
    waypoint-discovered: <green>You discovered %waypoint_name%! Now you can teleport to this waypoint!
    waypoint-locked: <red>You must visit this location to unlock this waypoint.
   ## Available Placeholder: %cool-down% -> Cooldown in secs
-   player-in-cooldown: <red>You cannot fast travel for %cool-down% seconds.
+   player-in-cooldown: <red>you are in cool-down for %cool-down% secs. Try later!
    no-permission: <red>You do not have permission to do that.
-   unknown-command: <red>Incorrect parameters.
-version: 1.1
+   unknown-command: <red>Unknown command
+version: 1.2

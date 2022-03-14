@@ -556,3 +556,6 @@
 
 # Used as a shortcut for setBaby(false) when disguising an entity
 "adult": "adult"
+
+# Found in the disguise options for Entity and uses a float
+"setNameYModifier": "setNameYModifier"

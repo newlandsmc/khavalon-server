@@ -348,9 +348,6 @@
 # Reference: NO_PERMS_USE_OPTIONS
 "<red>Ignored %s methods you do not have permission to use. Add 'show' to view unusable methods.": "<red>Ignored %s methods you do not have permission to use. Add 'show' to view unusable methods."
 
-# Reference: OWNED_BY
-"<gold>Plugin registered to '1467534'!": "<gold>Plugin registered to '1467534'!"
-
 # Reference: NOT_DISGUISED
 "<red>You are not disguised!": "<red>You are not disguised!"
 
@@ -782,3 +779,9 @@
 
 # Reference: SELF_DISGUISE_HIDDEN
 "<green>Self disguise hidden as it's too tall..": "<green>Self disguise hidden as it's too tall.."
+
+# Reference: OWNED_BY
+"<gold>Plugin registered to '%%__USER__%%'!": "<gold>Plugin registered to '%%__USER__%%'!"
+
+# Reference: NOT_DISGUISED_SAVE_DISGUISE
+"<red>You are not disguised! To save a disguise in disguises.yml, you must be disguised!": "<red>You are not disguised! To save a disguise in disguises.yml, you must be disguised!"
