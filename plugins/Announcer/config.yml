@@ -115,3 +115,12 @@ messages:
     - 'your land. <click:open_url:https://khavalon.com/claiming><gradient:yellow:red>https://khavalon.com/claiming</gradient></click>'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  11:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                           
+      <reset>'
+    - ''
+    - 'Mana and hearts GUI getting in your way?'
+    - 'You can disable it with <gradient:yellow:red>/abtoggle</gradient>.'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                           
+      <reset>'

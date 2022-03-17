@@ -100,7 +100,7 @@ log-file:
   alert-message: "%player% failed %check% %dev%(Type %type%)%dev% [VL: %vl%] [Ping: %ping%] [TPS: %tps%] [Version: %version%] [Client: %client-brand%]"
   # The message that is logged when a player is punished for a check. Valid placeholders are the same as listed above.
   # Further details about the punishment will also be logged into the punishments.txt file if enabled (see next section).
-  punishment-message: "%player% was punished for %check% %dev%(Type %type%)%dev% [VL: %vl%] [Ping: %ping%] [TPS: %tps%] [Client: %client-brand%]"
+  punishment-message: "%player% was kicked for %check% %dev%(Type %type%)%dev% [VL: %vl%] [Ping: %ping%] [TPS: %tps%] [Client: %client-brand%]"
 
 unloaded-chunks:
   # Whether or not people should be setback for sending motion which is equal to unloaded chunks
@@ -185,7 +185,7 @@ connection:
 # This section deals with punishments
 punishments:
   # The message that is sent when a player is punished (only sent to staff with /alerts enabled)
-  message: '%prefix% %player% was punished for %check% (Type %type%) [x%vl%]'
+  message: '%prefix% %player% was kicked for %check% (Type %type%) [x%vl%]'
   # The message that will be broadcast to the whole server when a player is punished
   broadcast:
   - '&e&m                                                                 '
@@ -652,7 +652,7 @@ discord-webhook:
     color-b: 0
     username: 'Vulcan'
     title: 'Vulcan Punishment'
-    description: '**%player%** was punished for %check% (Type %type%) [VL: %vl%]'
+    description: '**%player%** was kicked for %check% (Type %type%) [VL: %vl%]'
     content: ''
     description-field: false
     server-name-field: false

@@ -93,7 +93,7 @@
         {
           "type": "item",
           "material": "ANCIENT_DEBRIS",
-          "weight": 3,
+          "weight": 1,
           "amount": {
             "min": 2,
             "max": 3
@@ -102,7 +102,7 @@
         {
           "type": "item",
           "material": "NETHERITE_SCRAP",
-          "weight": 3,
+          "weight": 1,
           "amount": {
             "min": 2,
             "max": 3

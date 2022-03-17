@@ -35,20 +35,21 @@ interval: 2
 random: false
 
 header:
-- ""
+#- ""
 #- " &e&lSemi&6&lVanilla &c&lMC "
 - "%anim:title%"
 - " Days left: %timer_of% "
-- ""
+#- ""
 - " &m      &8&m[  &r   &8&m  ]&f&m      &r "
 
 footer:
-- " &m      &8&m[  &r   &8&m  ]&f&m      &r "
-- "%bs_online_formatted%"
+- " &m      &8&m[  &r   &8&m  ]&f&m      &r"
+- " &cBounties: %bs_online% "
+#- "%bs_online_formatted%"
 #- " World time: %player_world_time_12% "
-- " %online-players%/%max-players% Online "
+#- " %online-players%/%max-players% Online"
 - " &7Ping: %ping% "
-- ""
+#- ""
 
 # Defines per world tablist for different worlds
 # You can separate worlds with ", " to show tablist in that worlds

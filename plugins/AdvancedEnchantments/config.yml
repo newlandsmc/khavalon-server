@@ -698,9 +698,9 @@ armor-switching:
 
 enchantment-book:
   # If true, books can be applied to items in anvils.
-  anvil-application: true
+  anvil-application: false
   # If true, books can be applied to items by dragging and dropping them on the item in an inventory.
-  drag-drop-application: false
+  drag-drop-application: true
   item:
     type: ENCHANTED_BOOK
     id: 0
@@ -710,10 +710,11 @@ enchantment-book:
   name: '&eCustom Enchanted Book'
   lore:
   - '%group-color%%enchant-no-color% %level%'
-  - '&8%description%'
-  - ''
+  - '&7%description%'
   - '&7Applies to:'
   - '&7%applies%'
+  - ''
+  - '&8Drag n'' drop onto an item to apply.'
 
 applies-groups:
   MISC_HELMETS:

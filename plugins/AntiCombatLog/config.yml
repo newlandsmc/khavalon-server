@@ -31,12 +31,12 @@ blocked-commands:
     - land
     - l
 messages:
-  combat-tagged: '&cYou have been combat tagged. If you log out right now, you will not be safe.'
-  un-combat-tagged: '&aYou are no longer in combat.'
+  combat-tagged: '&cYou have been combat tagged!'
+  un-combat-tagged: '&aYou are no longer combat tagged.'
   logged-out-combat: '&7 * %1 has logged out while in combat! You can still kill them for %2 seconds.'
-  action-bar-message: '&cYou are in combat for %1 seconds.'
+  action-bar-message: ''
   log-in-after-kill: '&cYou logged out while in combat and were killed by %1.'
-  combat-expired: '&aYou are no longer in combat.'
+  combat-expired: '&aYou are no longer combat tagged.'
   kill-message: '&7 * %1 was killed while combat logged.'
   blocked-command: '&cYou cannot teleport while in combat!'
 update-check: false

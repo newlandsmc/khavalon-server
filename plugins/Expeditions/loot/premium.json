@@ -341,7 +341,7 @@
         {
           "type": "item",
           "material": "SHULKER_SHELL",
-          "weight": 6,
+          "weight": 10,
           "amount": {
             "min": 2,
             "max": 6

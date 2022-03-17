@@ -226,9 +226,9 @@ general:
       invaders: '&cWe are capturing - {progress}% players: {players}'
       defenders: '&cEnemy is capturing - {progress}% players: {players}'
   teleportation:
-    bossbar: Teleporting in 5 seconds...
+    bossbar: ''
   combat-tag:
-    bossbar: You are combat tagged!
+    bossbar: ''
 
 help:
   command:

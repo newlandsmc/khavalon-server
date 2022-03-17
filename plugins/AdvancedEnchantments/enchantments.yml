@@ -1442,7 +1442,7 @@ greatsword:
       effects:
         - "INCREASE_DAMAGE:<random number>110-150</random number>"
 bowmaster:
-  display: "%group-color%Bowsmaster"
+  display: "%group-color%Bowmaster"
   description: "Multiplies damage against players who are wielding\na Swords at the time they are hit."
   applies-to: "Bows, Crossbows"
   type: "BOW"
@@ -3348,7 +3348,7 @@ demonic:
         - 'CURE_PERMANENT:FIRE_RESISTANCE %victim%'
 dominate:
   display: '%group-color%Dominate'
-  description: "Chance to weaken enemy players when attacked,\ncausing them to deal less damage."
+  description: "Chance to weaken enemy when attacked,\ncausing them to deal less damage."
   applies-to: 'Swords'
   type: 'DEFENSE;DEFENSE_MOB'
   group: 'LEGENDARY'

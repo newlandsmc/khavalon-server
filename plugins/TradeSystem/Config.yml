@@ -12,7 +12,7 @@ TradeSystem:
   # The GUI type which will be used to enter the money amount. Available options: SIGN, ANVIL
   Input_GUI: ANVIL
   Trade_Distance:
-    enabled: true
+    enabled: false
     distance_in_blocks: 5
   Allowed_GameModes:
   - SURVIVAL
@@ -54,7 +54,7 @@ TradeSystem:
     Player_get_damaged: true
   
   Action_To_Request:
-    Shift_Rightclick: true
+    Shift_Rightclick: false
   
   Easy_Money_Selection:
     Enabled: false

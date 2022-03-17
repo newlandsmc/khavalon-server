@@ -1,42 +1,4 @@
-+ Added: [Suggestion] Split fly and elytra usage in two flags: FLY and ELYTRA (new flag)
-+ Added: [Suggestion] Automatically disable elytra gliding, like fly, on land enter
-+ Improved: /lands admin menu - flags visualization and descriptions
-- Fixed: [#1785] Elytra fly flag
-- Fixed: [#1788] Respawn error
-
---> Language file (en-US.yml): 
-+ Message: message.event.elytra
-+ Message: message.event.elytra.counter
-+ Message: message.event.elytra.disabled
-+ Message: wars.message.capture.place.overlap
-
---> GUI file (en-US.yml): 
-+ Item: gui.land.a.failure_cost
-+ Item: gui.land.a.failure_enter
-+ Item: gui.land.a.failure_cooldown
-+ Item: gui.land.a.failure_teleport
-+ Item: gui.land.a.failure_none
-+ Item: gui.area_players.l.land
-+ Item: gui.area_players.l.area
-+ Item: gui.area_banned.l.all
-+ Item: gui.area_banned.l.area
-+ Item: gui.role_settings.l.general_admin
-+ Item: gui.role_settings.l.general_player
-+ Item: gui.role_settings.l.elytra
-+ Item: gui.role_settings.l.plant
-+ Item: gui.area_settings.l.general_admin
-+ Item: gui.area_settings.l.general_player
-+ Item: gui.global_lands.a.failure_cost
-+ Item: gui.global_lands.a.failure_enter
-+ Item: gui.global_lands.a.failure_cooldown
-+ Item: gui.global_lands.a.failure_teleport
-+ Item: gui.global_lands.a.failure_none
-+ Item: gui.nation.a.failure_cost
-+ Item: gui.nation.a.failure_enter
-+ Item: gui.nation.a.failure_cooldown
-+ Item: gui.nation.a.failure_teleport
-+ Item: gui.nation.a.failure_teleport_permission
-+ Item: gui.nation.a.failure_none
---> Flags (roles.yml and config.yml)
-+ elytra
-+ plant
++ Added: [Suggestion] "lands_land_bool" placeholder for PAPI
++ Updated: MythicMobs integration to new API
+- Fixed: [#1794] global-lands allowing spawn teleport if player not trusted
+- Fixed: Main menu limitation head skin not applying

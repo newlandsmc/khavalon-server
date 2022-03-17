@@ -102,7 +102,7 @@ hook:
     formatted-tag-for-bounty: "&c"
     formatted-online-count:
       zero-online: ""
-      online: "\n&cBounties Online: %online%"
+      online: "\n &c(Bounties: %online%) "
 ##########################################################################################################################
 messages:
   interval-in-sec-to-send-message: 10

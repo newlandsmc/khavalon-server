@@ -220,8 +220,8 @@
           "material": "PRISMARINE_SHARD",
           "weight": 5,
           "amount": {
-            "min": 3,
-            "max": 5
+            "min": 10,
+            "max": 15
           }
         },   
         {
@@ -229,8 +229,8 @@
           "material": "PRISMARINE_CRYSTALS",
           "weight": 5,
           "amount": {
-            "min": 3,
-            "max": 5
+            "min": 10,
+            "max": 15
           }
         },      
         {

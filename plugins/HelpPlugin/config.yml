@@ -84,10 +84,10 @@ items:
     commands:
       - 'info website'
 links:
-  store: 'https://store.khavalon.com/'
+  store: 'https://store.khavalon.com'
   map: 'https://khavalon.com/map'
   vote: 'https://khavalon.com/vote'
-  website: 'https://khavalon.com/'
+  website: 'https://khavalon.com'
   discord: 'https://discord.gg/3WzZ3x6wGp'
   rules: 'https://khavalon.com/rules'
 

@@ -96,13 +96,13 @@
         {
           "type": "item",
           "material": "SHULKER_SHELL",
-          "weight": 4,
+          "weight": 5,
           "amount": 2
         },   
         {
           "type": "item",
           "material": "ANCIENT_DEBRIS",
-          "weight": 3,
+          "weight": 2,
           "amount": {
             "min": 2,
             "max": 3
@@ -111,7 +111,7 @@
         {
           "type": "item",
           "material": "NETHERITE_SCRAP",
-          "weight": 3,
+          "weight": 1,
           "amount": {
             "min": 2,
             "max": 3
@@ -313,16 +313,7 @@
         {
           "type": "item",
           "material": "DARK_PRISMARINE",
-          "weight": 3,
-          "amount": {
-            "min": 32,
-            "max": 64
-          }
-        },
-        {
-          "type": "item",
-          "material": "PRISMARINE",
-          "weight": 3,
+          "weight": 1,
           "amount": {
             "min": 32,
             "max": 64

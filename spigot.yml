@@ -140,8 +140,6 @@ world-settings:
       tile: 10000
       entity: 10000
     dragon-death-sound-radius: 0
-  world_the_end:
-    view-distance: 16
   worldeditregentempworld:
     verbose: false
 commands:
