@@ -16,7 +16,7 @@ services:
   - "Top Minecraft Servers"
   - "MCSL"
   - "PlanetMinecraft.com"
-  - "Best Minecraft Servers"
+  - "Servers-Minecraft"
   - "Minecraft.Buzz"
 menu:
   enable-animation: true # enables the 'animation' in the men

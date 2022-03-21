@@ -100,13 +100,13 @@ log-file:
   alert-message: "%player% failed %check% %dev%(Type %type%)%dev% [VL: %vl%] [Ping: %ping%] [TPS: %tps%] [Version: %version%] [Client: %client-brand%]"
   # The message that is logged when a player is punished for a check. Valid placeholders are the same as listed above.
   # Further details about the punishment will also be logged into the punishments.txt file if enabled (see next section).
-  punishment-message: "%player% was kicked for %check% %dev%(Type %type%)%dev% [VL: %vl%] [Ping: %ping%] [TPS: %tps%] [Client: %client-brand%]"
+  punishment-message: "%player% was punished for %check% %dev%(Type %type%)%dev% [VL: %vl%] [Ping: %ping%] [TPS: %tps%] [Client: %client-brand%]"
 
 unloaded-chunks:
   # Whether or not people should be setback for sending motion which is equal to unloaded chunks
   setback-enabled: false
   # Whether or not staff should be alerted, set to '' to disable this message
-  message: '%prefix% %player% was setback for being in an unloaded chunk!'
+  message: '%prefix% %player% was setback for being in an unloaded chunk.'
   # Max amount of ticks before someone gets set back
   max-ticks: 40
 
@@ -120,11 +120,11 @@ violation-reset:
   # Whether or not violations should reset automatically
   enabled: true
   # The interval (in minutes) in which violations should automatically be reset.
-  interval-in-minutes: 8
+  interval-in-minutes: 5
   # Whether or not a message will be sent when violations are reset (this is only sent to staff who have /alerts enabled).
   message-enabled: false
   # The message that is sent (only to staff with /alerts enabled) when violations are reset.
-  message: '%prefix% Violations for all online players were reset!'
+  message: '%prefix% Violations for all online players were reset.'
 
 # This section deals with client brand alerts and client brand blacklisting.
 client-brand-alerts:
@@ -160,32 +160,32 @@ connection:
     kick-enabled: true
     max-ticks: 300
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-    staff-alert-message: '%prefix% %player% was kicked for being out of sync with the server! (%ticks% ticks)'
-    console-message: '[Vulcan] %player% was kicked for being out of sync with the server! (%ticks% ticks)'
+    staff-alert-message: '%prefix% %player% was kicked for being out of sync with the server. (%ticks% ticks)'
+    console-message: '[Vulcan] %player% was kicked for being out of sync with the server. (%ticks% ticks)'
   transaction:
     kick-enabled: true
     max-delay: 45000
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-    staff-alert-message: '%prefix% %player% was kicked for not replying to Transaction Packets! (%delay%ms)'
-    console-message: '[Vulcan] %player% was kicked for not replying to Transaction Packets! (%delay%ms)'
+    staff-alert-message: '%prefix% %player% was kicked for not replying to Transaction Packets. (%delay%ms)'
+    console-message: '[Vulcan] %player% was kicked for not replying to Transaction Packets. (%delay%ms)'
   keepalive:
     kick-enabled: true
     max-delay: 45000
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-    staff-alert-message: '%prefix% %player% was kicked for not replying to KeepAlive Packets! (%delay%ms)'
-    console-message: '[Vulcan] %player% was kicked for not replying to KeepAlive Packets! (%delay%ms)'
+    staff-alert-message: '%prefix% %player% was kicked for not replying to KeepAlive Packets. (%delay%ms)'
+    console-message: '[Vulcan] %player% was kicked for not replying to KeepAlive Packets. (%delay%ms)'
   max-ping:
     kick-enabled: true
     max-ping: 20000
     max-ticks: 20
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-    staff-alert-message: '%prefix% %player% was kicked for having too high ping! (%ping%ms)'
-    console-message: '[Vulcan] %player% kicked for having too high ping! (%ping%ms)'
+    staff-alert-message: '%prefix% %player% was kicked for having too high ping. (%ping%ms)'
+    console-message: '[Vulcan] %player% kicked for having too high ping. (%ping%ms)'
 
 # This section deals with punishments
 punishments:
   # The message that is sent when a player is punished (only sent to staff with /alerts enabled)
-  message: '%prefix% %player% was kicked for %check% (Type %type%) [x%vl%]'
+  message: '%prefix% %player% was punished for %check% (Type %type%) [x%vl%]'
   # The message that will be broadcast to the whole server when a player is punished
   broadcast:
   - '&e&m                                                                 '
@@ -210,7 +210,7 @@ judgement-days:
   # The broadcast that will be sent to the server when someone is punished in a judgement day.
   broadcast:
   - '&e&m                                                                 '
-  - '&f%player% was banned during Vulcan Judgement Day.'
+  - '&f%player% was punished during Vulcan Judgement Day.'
   - '&e&m                                                                 '
   # How long we should wait in between players who are queued in judgement days
   cooldown: 1000
@@ -238,9 +238,9 @@ join-message:
 kick-alert-messages:
   enabled: true
   messages:
-    flying-not-enabled: '%prefix% %player% was kicked by vanilla check: Flying is Not Enabled!'
-    invalid-move-packet: '%prefix% %player% was kicked by vanilla check: Invalid Movement Packet!'
-    too-many-packets: '%prefix% %player% was kicked by vanilla check: Too Many Packets!'
+    flying-not-enabled: '%prefix% %player% was kicked by vanilla check: Flying is Not Enabled.'
+    invalid-move-packet: '%prefix% %player% was kicked by vanilla check: Invalid Movement Packet.'
+    too-many-packets: '%prefix% %player% was kicked by vanilla check: Too Many Packets.'
 
 # GUI Options.
 gui:
@@ -271,11 +271,11 @@ ghost-blocks-fix:
   # Whether or not staff should be sent a message when someone is setback for being on a ghost block
   staff-message-enabled: true
   # The message that will be sent to staff when a player's position is updated for being on a ghost block.
-  staff-message: '%prefix% %player%''s position was updated for being on a ghost block! (%world%, %x%, %y%, %z%) [%ticks%]'
+  staff-message: '%prefix% %player%''s position was updated for being on a ghost block. (%world%, %x%, %y%, %z%) [%ticks%]'
   # Whether or not the ghost block message should be printed to console
   print-to-console: true
   # The message that is printed to console if the above is true.
-  console-message: '%player% position was updated for being on a ghost block! (%world%, %x%, %y%, %z%) [%ticks%]'
+  console-message: '%player% position was updated for being on a ghost block. (%world%, %x%, %y%, %z%) [%ticks%]'
 
 
 # Message options - these are all pretty self explanatory.
@@ -606,7 +606,7 @@ hooks:
     punishment-format:
       color: 'RED'
       title: 'Vulcan Punishment'
-      description: '%player% was banned for  %check% (Type: %type%) (VL:%vl%)'
+      description: '%player% was punished for  %check% (Type: %type%) (VL:%vl%)'
       image: 'https://crafatar.com/avatars/%uuid%'
   ######################################################################################################################
   # Discord WEBHOOK Configuration                                                                                      #
@@ -652,7 +652,7 @@ discord-webhook:
     color-b: 0
     username: 'Vulcan'
     title: 'Vulcan Punishment'
-    description: '**%player%** was kicked for %check% (Type %type%) [VL: %vl%]'
+    description: '**%player%** was punished for %check% (Type %type%) [VL: %vl%]'
     content: ''
     description-field: false
     server-name-field: false
@@ -714,13 +714,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -740,13 +740,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 8
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -766,13 +766,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -792,13 +792,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 8
@@ -818,13 +818,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -844,13 +844,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 12
@@ -870,13 +870,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -896,13 +896,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -922,13 +922,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -948,13 +948,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -974,13 +974,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 10
@@ -999,13 +999,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -1025,13 +1025,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1051,13 +1051,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1077,13 +1077,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -1103,13 +1103,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -1129,13 +1129,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 20
@@ -1155,13 +1155,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 20
@@ -1181,13 +1181,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         hotbar-shuffle:
           enabled: false
@@ -1203,13 +1203,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 20
@@ -1229,13 +1229,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 12
@@ -1255,13 +1255,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         hotbar-shuffle:
           enabled: false
@@ -1278,13 +1278,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         hotbar-shuffle:
           enabled: false
@@ -1300,13 +1300,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         hotbar-shuffle:
           enabled: false
@@ -1322,13 +1322,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -1348,13 +1348,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         hotbar-shuffle:
           enabled: false
@@ -1373,13 +1373,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         max-cps: 25
       b:
@@ -1388,13 +1388,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1406,13 +1406,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1424,13 +1424,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1442,13 +1442,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1460,13 +1460,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1478,13 +1478,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1496,13 +1496,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1514,13 +1514,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1532,13 +1532,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1550,13 +1550,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1568,13 +1568,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1586,13 +1586,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1604,13 +1604,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 25
@@ -1622,13 +1622,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1640,13 +1640,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -1657,13 +1657,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 35
@@ -1675,13 +1675,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 50
@@ -1693,13 +1693,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 30
@@ -1711,13 +1711,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 25
@@ -1731,13 +1731,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 8
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1750,13 +1750,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -1770,13 +1770,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1797,13 +1797,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -1823,13 +1823,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -1850,13 +1850,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 4
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1876,13 +1876,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 4
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1902,13 +1902,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 4
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -1928,13 +1928,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 2
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
       f:
         enabled: true
@@ -1942,13 +1942,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 4
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 10
@@ -1960,13 +1960,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1978,13 +1978,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 4
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
       j:
         enabled: true
@@ -1992,13 +1992,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -2010,13 +2010,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2028,13 +2028,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2055,13 +2055,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2074,13 +2074,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -2094,13 +2094,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2112,13 +2112,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2130,13 +2130,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2148,13 +2148,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2168,13 +2168,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2186,13 +2186,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -2204,13 +2204,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -2222,13 +2222,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -2240,13 +2240,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -2261,13 +2261,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2281,13 +2281,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2301,13 +2301,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -2321,13 +2321,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2341,13 +2341,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -2361,13 +2361,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -2381,13 +2381,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2402,13 +2402,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -2422,13 +2422,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -2442,13 +2442,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
       b:
         enabled: true
@@ -2457,13 +2457,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -2476,13 +2476,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2495,13 +2495,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2514,13 +2514,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2533,13 +2533,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2553,13 +2553,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2572,13 +2572,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2591,13 +2591,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 8
@@ -2610,13 +2610,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -2629,13 +2629,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2650,13 +2650,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -2670,13 +2670,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 8
@@ -2689,13 +2689,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -2708,13 +2708,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -2727,13 +2727,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 25
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2746,13 +2746,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2765,13 +2765,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2784,13 +2784,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2803,13 +2803,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2824,13 +2824,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 12
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2844,13 +2844,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2865,13 +2865,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2886,13 +2886,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2908,13 +2908,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2929,13 +2929,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2950,13 +2950,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2970,13 +2970,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2990,13 +2990,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 10
@@ -3010,13 +3010,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -3030,13 +3030,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 10
@@ -3051,13 +3051,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -3075,13 +3075,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -3095,13 +3095,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -3119,13 +3119,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -3143,13 +3143,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 30
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -3167,13 +3167,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
     sprint:
       a:
@@ -3182,13 +3182,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -3203,13 +3203,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3221,13 +3221,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -3241,13 +3241,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
     fastplace:
       a:
@@ -3256,13 +3256,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         max-blocks: 15
     fastbreak:
@@ -3272,13 +3272,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3292,13 +3292,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -3311,13 +3311,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
       b:
         enabled: true
@@ -3325,13 +3325,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -3343,13 +3343,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3361,13 +3361,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -3379,13 +3379,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -3397,13 +3397,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3415,13 +3415,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 8
@@ -3433,13 +3433,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
       j:
         enabled: true
@@ -3447,13 +3447,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
       k:
         enabled: true
@@ -3461,13 +3461,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -3480,13 +3480,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 12
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -3498,13 +3498,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 12
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -3517,7 +3517,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 3
         maximum-ping: 100000
         minimum-tps: 19.8
@@ -3534,7 +3534,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 35
-        alert-interval: 2
+        alert-interval: 3
         dont-alert-until: 8
         maximum-ping: 100000
         minimum-tps: 19.8
@@ -3552,13 +3552,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 20
@@ -3570,13 +3570,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3589,13 +3589,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         cancel: true
     airplace:
@@ -3605,7 +3605,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3618,7 +3618,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3634,7 +3634,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3646,7 +3646,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3658,7 +3658,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3674,7 +3674,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3686,7 +3686,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3698,7 +3698,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3710,7 +3710,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3722,7 +3722,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3734,7 +3734,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3746,7 +3746,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3762,7 +3762,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3778,7 +3778,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3794,7 +3794,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3810,7 +3810,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3826,7 +3826,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3842,7 +3842,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3858,7 +3858,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3870,7 +3870,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3882,7 +3882,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3894,7 +3894,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3911,7 +3911,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3927,7 +3927,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3943,7 +3943,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3955,13 +3955,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 3
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
       1:
         enabled: true
@@ -3969,7 +3969,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -3985,7 +3985,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -4001,7 +4001,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -4017,7 +4017,7 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
@@ -4030,13 +4030,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -4048,13 +4048,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -4069,13 +4069,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 8
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -4089,13 +4089,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 8
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -4107,13 +4107,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 10
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 8
@@ -4127,13 +4127,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 8
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -4147,13 +4147,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -4167,13 +4167,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -4187,13 +4187,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -4207,13 +4207,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -4227,13 +4227,13 @@ checks:
         min-vl-to-setback: 1
         broadcast-punishment: false
         max-violations: 20
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -4246,13 +4246,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -4264,13 +4264,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 5
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -4282,13 +4282,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 15
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -4301,13 +4301,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         max-combat-violations: 25
       b:
@@ -4316,13 +4316,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         max-movement-violations: 30
       c:
@@ -4331,13 +4331,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         max-player-violations: 30
       d:
@@ -4346,13 +4346,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         max-autoclicker-violations: 30
       e:
@@ -4361,13 +4361,13 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         max-total-violations: 50
       f:
@@ -4376,12 +4376,12 @@ checks:
         discord-alert-interval: 1
         broadcast-punishment: false
         max-violations: 1
-        alert-interval: 1
+        alert-interval: 3
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-#        - 'ban %player% Hacked client detected.'
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'ban %player% Hacked client detected (%check%).'
+#        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
 #        - 'warn -s %player% Hacked client detected.'
         max-scaffold-violations: 25

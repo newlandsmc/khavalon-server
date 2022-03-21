@@ -212,7 +212,7 @@ slots:
   limit-reached: "&cYou cannot apply that enchantment! There are no free slots left!"
 
 chances:
-  book-failed: "&cYour book failed but item wasn't destroyed!"
+  book-failed: "&cThe book failed to apply!"
 
 destroy:
   book-failed: "&cEnchantment was unsuccessful!"

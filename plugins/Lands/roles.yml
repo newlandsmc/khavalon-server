@@ -33,7 +33,6 @@ land:
   - setting_edit_land
   - setting_edit_role
   - setting_edit_various
-  - elytra
   - plant
   
   # Here you can add your own default roles or edit the existing ones. Players will still be able to create new roles in their land menu if they have the required permission.
@@ -168,3 +167,4 @@ land:
       - ITEM_PICKUP
       - ATTACK_PLAYER
       - ATTACK_MONSTER
+      - ELYTRA

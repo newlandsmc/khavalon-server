@@ -63,25 +63,24 @@
 # https://docs.oracle.com/javase/tutorial/i18n/format/simpleDateFormat.html
 # Example time format with hours + minutes:
 # time_format: 'dd/MM/yyyy HH:mm'
-time_format: yyyy-MM-dd
-history_time_format: yyyy-MM-dd
-banned_message_base: |
-  &f&m      &8&m[  &c Banned &8&m  ]&f&m      &r
-
-  &fBanned on:&7 $dateStart
-  &fBanned by:&7 $executor
-  &fReason:&7 $reason
-
-  &f&m      &8&m[  &r    &8&m  ]&f&m      &r
+time_format: MMMM dd, yyyy
+history_time_format: MMMM dd, yyyy
+banned_message_base: |-
+  &fBanned on $dateStart for:
+  &7$reason
 banned_message: |-
+  &cYou are banned for $duration!
   $base
-  &cExpires in $duration.
+
   $appealMessage
 banned_message_permanent: |-
-  $base
   &cYou are permanently banned!
+  $base
+
   $appealMessage
-banned_message_appeal_message: '&8Appeal Email:&7 appeal@khavalon.com'
+banned_message_appeal_message: |-
+  &7To appeal this ban, email:
+  &7appeal@khavalon.com
 banned_message_geoip_blacklist: |-
   &cYou are banned from this server
   &7Your location is blacklisted:  $geoip

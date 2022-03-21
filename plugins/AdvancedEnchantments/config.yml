@@ -187,7 +187,7 @@ combining:
     # If true, item will break (if Protection is added, protection will be removed).
     break-item: false
     # If higher level of enchantment already on item is applied, should the enchantment upgrade?
-    upgrade: true
+    upgrade: false
 
 # Limit number of enchantments item can have
 slots:
@@ -875,3 +875,4 @@ settings:
   held-check-frequency: 5
   # Should block breaking effects, such as TRENCH or TP_DROPS give McMMO EXP?
   give-mcmmo-with-custom-block-breaks: false
+  held-shift-cross-update: true

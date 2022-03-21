@@ -17,6 +17,13 @@ returning-player:
     fade-out: 1000
     title: '<animate>Khavalon</animate>'
     subtitle: 'The Adventure Continues'
+    bedrock:
+      enable: true
+      duration-seconds: 4
+      fade-in: 1000
+      fade-out: 1000
+      title: 'Khavalon'
+      subtitle: 'The Adventure Continues'
   join-sounds:
     enabled: true
     name: 'ui.toast.challenge_complete'
@@ -27,10 +34,17 @@ new-player:
   title-settings:
     enabled: true
     duration-seconds: 4
-    fade-in: 500
-    fade-out: 500
+    fade-in: 1000
+    fade-out: 1000
     title: '<animate>Khavalon</animate>'
     subtitle: 'The Adventure Begins'
+    bedrock:
+      enable: true
+      duration-seconds: 4
+      fade-in: 1000
+      fade-out: 1000
+      title: 'Khavalon'
+      subtitle: 'The Adventure Continues'
   join-sounds:
     enabled: true
     name: 'UI_TOAST_CHALLENGE_COMPLETE'
@@ -116,11 +130,9 @@ messages:
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   11:
-    - '<gradient:yellow:red:yellow><strikethrough>                                                           
-      <reset>'
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Mana and hearts GUI getting in your way?'
     - 'You can disable it with <gradient:yellow:red>/abtoggle</gradient>.'
     - ''
-    - '<gradient:yellow:red:yellow><strikethrough>                                                           
-      <reset>'
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
