@@ -24,6 +24,7 @@
 /plugins/Geyser-Spigot/cache/
 /plugins/CarbonChat/users/
 /plugins/BetterCommandSpy/data.yml
+/plugins/NoBedRespawnHandler/data/
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/
