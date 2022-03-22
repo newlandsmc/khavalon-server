@@ -171,7 +171,7 @@ impact:
   display: "%group-color%Impact"
   description: "Chance to double dealt damage."
   applies-to: "Tridents"
-  type: "BOW;BOW_MOB"
+  type: "BOW;BOW_MOB;ATTACK;ATTACK_MOB"
   group: "RARE"
   settings:
     newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
@@ -179,22 +179,27 @@ impact:
     - TRIDENT
   levels:
     1:
-      chance: 5
+      chance: 7
       cooldown: 3
       effects:
         - "DOUBLE_DAMAGE %victim%"
     2:
-      chance: 8
+      chance: 11
       cooldown: 3
       effects:
         - "DOUBLE_DAMAGE %victim%"
     3:
-      chance: 11
+      chance: 15
       cooldown: 5
       effects:
         - "DOUBLE_DAMAGE %victim%"
     4:
-      chance: 14
+      chance: 21
+      cooldown: 6
+      effects:
+        - "DOUBLE_DAMAGE %victim%"
+    5:
+      chance: 33
       cooldown: 6
       effects:
         - "DOUBLE_DAMAGE %victim%"
@@ -257,37 +262,6 @@ experience:
       condition: "%block type% contains ORE : %allow%"
       effects:
         - "EXP:<random number>2-5</random number>"
-hasten:
-  display: "%group-color%Hasten"
-  description: "Chance to gain Haste after breaking blocks."
-  applies-to: "Pickaxes, Axes, Shovels"
-  type: "MINING"
-  group: "COMMON"
-  settings:
-    not-applyable-with:
-      - "haste"
-      - "trench"
-      - "veinminer"
-  applies:
-    - ALL_PICKAXE
-    - ALL_SPADE
-    - ALL_AXE
-  levels:
-    1:
-      chance: 15
-      cooldown: 3
-      effects:
-        - "POTION:FAST_DIGGING:0:40"
-    2:
-      chance: 25
-      cooldown: 3
-      effects:
-        - "POTION:FAST_DIGGING:1:60"
-    3:
-      chance: 45
-      cooldown: 3
-      effects:
-        - "POTION:FAST_DIGGING:2:80"
 haste:
   display: "%group-color%Haste"
   description: "Allows you to swing your tools faster."
@@ -313,6 +287,30 @@ haste:
     3:
       effects:
         - "POTION:FAST_DIGGING:2"
+featherweight:
+  display: "%group-color%Featherweight"
+  description: "Chance to get a burst of haste."
+  applies-to: "Swords"
+  type: "ATTACK;ATTACK_MOB"
+  group: "UNCOMMON"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      chance: 35
+      cooldown: 2
+      effects:
+        - "POTION:FAST_DIGGING:0:60"
+    2:
+      chance: 55
+      cooldown: 2
+      effects:
+        - "POTION:FAST_DIGGING:1:80"
+    3:
+      chance: 75
+      cooldown: 2
+      effects:
+        - "POTION:FAST_DIGGING:2:100"
 rebreather:
   display: "%group-color%Rebreather"
   description: "Chance to regain air when mining under water."
@@ -411,7 +409,7 @@ reflect:
   description: "Chance to absorb enemy damage and reflect it\nback."
   applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "UNCOMMON"
+  group: "LEGENDARY"
   applies:
     - ALL_ARMOR
   levels:
@@ -455,7 +453,7 @@ ward:
   description: "Chance to absorb enemy damage"
   applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
-  group: "UNCOMMON"
+  group: "LEGENDARY"
   applies:
     - ALL_ARMOR
   levels:
@@ -484,7 +482,7 @@ explosive:
   description: "Chance for arrows to explode."
   applies-to: "Bows, Crossbows"
   type: "BOW;BOW_MOB"
-  group: "UNCOMMON"
+  group: "EXOTIC"
   applies:
     - BOW
     - CROSSBOW
@@ -493,27 +491,27 @@ explosive:
       chance: 20
       cooldown: 7
       effects:
-        - "TNT %victim%"
+        - "TNT:15 %victim%"
     2:
       chance: 30
       cooldown: 7
       effects:
-        - "TNT %victim%"
+        - "TNT:15 %victim%"
     3:
       chance: 40
       cooldown: 7
       effects:
-        - "TNT %victim%"
+        - "TNT:15 %victim%"
     4:
       chance: 50
       cooldown: 6
       effects:
-        - "TNT %victim%"
+        - "TNT:15 %victim%"
     5:
       chance: 60
       cooldown: 5
       effects:
-        - "TNT %victim%"
+        - "TNT:15 %victim%"
 ravenous:
   display: "%group-color%Ravenous"
   description: "Chance to regain hunger while fighting."
@@ -617,50 +615,6 @@ enderslayer:
       cooldown: 2
       condition:
         - "%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%"
-      effects:
-        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
-deathpunch:
-  display: "%group-color%Death Punch"
-  description: "Increases damage dealt to Zombies."
-  applies-to: "Swords, Axes"
-  type: "ATTACK_MOB"
-  group: "COMMON"
-  applies:
-    - ALL_SWORD
-    - ALL_AXE
-  levels:
-    1:
-      chance: 16
-      cooldown: 2
-      condition:
-        - "%mob type% = ZOMBIE : %allow%"
-      effects:
-        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
-    2:
-      chance: 20
-      cooldown: 2
-      condition:
-        - "%mob type% = ZOMBIE : %allow%"
-      effects:
-        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
-    3:
-      chance: 40
-      cooldown: 2
-      condition:
-        - "%mob type% = ZOMBIE : %allow%"
-      effects:
-        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
-    4:
-      chance: 60
-      cooldown: 1
-      condition:
-        - "%mob type% = ZOMBIE : %allow%"
-      effects:
-        - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
-    5:
-      chance: 80
-      condition:
-        - "%mob type% = ZOMBIE : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>10-40</random number> %attacker%"
 bonecrusher:
@@ -928,80 +882,6 @@ lucky:
       cooldown: 12
       effects:
         - "POTION:LUCK:3:200"
-permafrost:
-  display: "%group-color%Permafrost"
-  description: "Chance to slow and bleed opponents."
-  applies-to: "Swords"
-  type: "ATTACK;ATTACK_MOB"
-  group: "LEGENDARY"
-  applies:
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 15
-      cooldown: 12
-      effects:
-        - "ADD_HARM:1 %victim%"
-        - "BLOOD %victim%"
-        - "POTION:SLOW:0:20 %victim%"
-        - "WAIT:20"
-        - "ADD_HARM:1 %victim%"
-        - "BLOOD %victim%"
-        - "WAIT:20"
-        - "ADD_HARM:1 %victim%"
-        - "BLOOD %victim%"
-    2:
-      chance: 18
-      cooldown: 12
-      effects:
-        - "ADD_HARM:2 %victim%"
-        - "BLOOD %victim%"
-        - "POTION:SLOW:0:40 %victim%"
-        - "WAIT:20"
-        - "ADD_HARM:2 %victim%"
-        - "BLOOD %victim%"
-        - "WAIT:20"
-        - "ADD_HARM:1 %victim%"
-        - "BLOOD %victim%"
-    3:
-      chance: 19
-      cooldown: 12
-      effects:
-        - "ADD_HARM:3 %victim%"
-        - "BLOOD %victim%"
-        - "POTION:SLOW:0:50 %victim%"
-        - "WAIT:20"
-        - "ADD_HARM:2 %victim%"
-        - "BLOOD %victim%"
-        - "WAIT:20"
-        - "ADD_HARM:1 %victim%"
-        - "BLOOD %victim%"
-    4:
-      chance: 21
-      cooldown: 13
-      effects:
-        - "ADD_HARM:3 %victim%"
-        - "BLOOD %victim%"
-        - "POTION:SLOW:0:60 %victim%"
-        - "WAIT:20"
-        - "ADD_HARM:2 %victim%"
-        - "BLOOD %victim%"
-        - "WAIT:20"
-        - "ADD_HARM:2 %victim%"
-        - "BLOOD %victim%"
-    5:
-      chance: 25
-      cooldown: 13
-      effects:
-        - "ADD_HARM:3 %victim%"
-        - "BLOOD %victim%"
-        - "POTION:SLOW:1:60 %victim%"
-        - "WAIT:20"
-        - "ADD_HARM:3 %victim%"
-        - "BLOOD %victim%"
-        - "WAIT:20"
-        - "ADD_HARM:2 %victim%"
-        - "BLOOD %victim%"
 reaper:
   display: "%group-color%Reaper"
   description: "Chance to give your opponent the wither and\nblindness effects while dealing damage"
@@ -1122,44 +1002,6 @@ allure:
     3:
       effects:
         - "PULL_CLOSER:0.3 %victim%"
-paralyze:
-  display: "%group-color%Paralyze"
-  description: "Chance for lightning effect and for slowness."
-  applies-to: "Swords, Axes"
-  type: "ATTACK;ATTACK_MOB"
-  group: "RARE"
-  applies:
-    - ALL_SWORD
-    - ALL_AXE
-  levels:
-    1:
-      chance: 7
-      cooldown: 3
-      effects:
-        - "LIGHTNING %victim%"
-        - "EXTINGUISH %victim%"
-        - "POTION:SLOW:0:60 %victim%"
-    2:
-      chance: 10
-      cooldown: 3
-      effects:
-        - "LIGHTNING %victim%"
-        - "EXTINGUISH %victim%"
-        - "POTION:SLOW:0:100 %victim%"
-    3:
-      chance: 13
-      cooldown: 3
-      effects:
-        - "LIGHTNING %victim%"
-        - "EXTINGUISH %victim%"
-        - "POTION:SLOW:1:60 %victim%"
-    4:
-      chance: 16
-      cooldown: 3
-      effects:
-        - "LIGHTNING %victim%"
-        - "EXTINGUISH %victim%"
-        - "POTION:SLOW:1:100 %victim%"
 poison:
   display: "%group-color%Poison"
   description: "Chance of giving poison effect."
@@ -1210,36 +1052,6 @@ venom:
       cooldown: 2
       effects:
         - "POTION:POISON:1:80 %victim%"
-snare:
-  display: "%group-color%Snare"
-  description: "Chance to slow enemies with projectiles."
-  applies-to: "Bows, Crossbows"
-  type: "BOW;BOW_MOB"
-  group: "RARE"
-  applies:
-    - BOW
-    - CROSSBOW
-  levels:
-    1:
-      chance: 12
-      cooldown: 3
-      effects:
-        - "POTION:SLOW:0:80 %victim%"
-    2:
-      chance: 19
-      cooldown: 3
-      effects:
-        - "POTION:SLOW:0:120 %victim%"
-    3:
-      chance: 24
-      cooldown: 3
-      effects:
-        - "POTION:SLOW:1:80 %victim%"
-    4:
-      chance: 29
-      cooldown: 3
-      effects:
-        - "POTION:SLOW:1:120 %victim%"
 springs:
   display: "%group-color%Springs"
   description: "Jump boost."
@@ -1357,27 +1169,27 @@ shockwave:
   levels:
     1:
       condition:
-        - "%victim health% < 5 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - "PULL_AWAY:0.5 %attacker%"
     2:
       condition:
-        - "%victim health% < 5 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - "PULL_AWAY:1.0 %attacker%"
     3:
       condition:
-        - "%victim health% < 5 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - "PULL_AWAY:1.5 %attacker%"
     4:
       condition:
-        - "%victim health% < 5 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - "PULL_AWAY:2.0 %attacker%"
     5:
       condition:
-        - "%victim health% < 5 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - "PULL_AWAY:2.5 %attacker%"
 vampire:
@@ -1443,37 +1255,40 @@ greatsword:
         - "INCREASE_DAMAGE:<random number>110-150</random number>"
 bowmaster:
   display: "%group-color%Bowmaster"
-  description: "Multiplies damage against players who are wielding\na Swords at the time they are hit."
+  description: "Multiplies damage against players who are wielding\na sword or axe at the time they are hit."
   applies-to: "Bows, Crossbows"
   type: "BOW"
   group: "RARE"
+  settings:
+    not-applyable-with:
+      - "longbow"
   applies:
     - BOW
     - CROSSBOW
   levels:
     1:
       condition:
-        - "%victim is holding% contains SWORD : %allow%"
+        - "%victim is holding% contains SWORD or %victim is holding% contains AXE : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>20-35</random number> %attacker%"
     2:
       condition:
-        - "%victim is holding% contains SWORD : %allow%"
+        - "%victim is holding% contains SWORD or %victim is holding% contains AXE : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>30-45</random number> %attacker%"
     3:
       condition:
-        - "%victim is holding% contains SWORD : %allow%"
+        - "%victim is holding% contains SWORD or %victim is holding% contains AXE : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>40-80</random number> %attacker%"
     4:
       condition:
-        - "%victim is holding% contains SWORD : %allow%"
+        - "%victim is holding% contains SWORD or %victim is holding% contains AXE : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>75-115</random number>"
     5:
       condition:
-        - "%victim is holding% contains SWORD : %allow%"
+        - "%victim is holding% contains SWORD or %victim is holding% contains AXE : %allow%"
       effects:
         - "INCREASE_DAMAGE:<random number>110-150</random number>"
 hardened:
@@ -1569,14 +1384,6 @@ cleave:
       cooldown: 2
       effects:
         - "ADD_HARM:<random number>2-3</random number> <aoe> radius=5 target=damageable </aoe>"
-    6:
-      cooldown: 2
-      effects:
-        - "ADD_HARM:<random number>2-3</random number> <aoe> radius=6 target=damageable </aoe>"
-    7:
-      cooldown: 2
-      effects:
-        - "ADD_HARM:<random number>2-3</random number> <aoe> radius=7 target=damageable </aoe>"
 arrowdeflect:
   display: "%group-color%Arrow Deflect"
   description: "Chance to prevent enemy arrow from dealing\ndamage."
@@ -1606,6 +1413,71 @@ arrowdeflect:
       cooldown: 6
       effects:
         - "STOP_ATTACK"
+exalted:
+  display: "%group-color%Exalted"
+  description: "A chance of removing\nbad potion effects."
+  applies-to: "Swords"
+  type: "ATTACK"
+  group: "LEGENDARY"
+  applies:
+    - ALL_SWORD
+  levels:
+    1:
+      chance: 12
+      cooldown: 8
+      condition:
+        - "%victim health% > 10 : %stop%"
+      effects:
+        - "CURE:SLOW %attacker%"
+        - "CURE:CONFUSION %attacker%"
+        - "CURE:BLINDNESS %attacker%"
+        - "CURE:POISON %attacker%"
+        - "CURE:WITHER %attacker%"
+        - "CURE:HUNGER %attacker%"
+        - "CURE:WEAKNESS %attacker%"
+        - "CURE:SLOW_DIGGING %attacker%"
+    2:
+      chance: 16
+      cooldown: 8
+      condition:
+        - "%victim health% > 10 : %stop%"
+      effects:
+        - "CURE:SLOW %attacker%"
+        - "CURE:CONFUSION %attacker%"
+        - "CURE:BLINDNESS %attacker%"
+        - "CURE:POISON %attacker%"
+        - "CURE:WITHER %attacker%"
+        - "CURE:HUNGER %attacker%"
+        - "CURE:WEAKNESS %attacker%"
+        - "CURE:SLOW_DIGGING %attacker%"
+    3:
+      chance: 22
+      cooldown: 8
+      condition:
+        - "%victim health% > 10 : %stop%"
+      effects:
+        - "CURE:SLOW %attacker%"
+        - "CURE:CONFUSION %attacker%"
+        - "CURE:BLINDNESS %attacker%"
+        - "CURE:POISON %attacker%"
+        - "CURE:WITHER %attacker%"
+        - "CURE:HUNGER %attacker%"
+        - "CURE:WEAKNESS %attacker%"
+        - "CURE:SLOW_DIGGING %attacker%"
+    4:
+      chance: 36
+      cooldown: 8
+      condition:
+        - "%victim health% > 10 : %stop%"
+      effects:
+        - "CURE:SLOW %attacker%"
+        - "CURE:CONFUSION %attacker%"
+        - "CURE:BLINDNESS %attacker%"
+        - "CURE:POISON %attacker%"
+        - "CURE:WITHER %attacker%"
+        - "CURE:HUNGER %attacker%"
+        - "CURE:WEAKNESS %attacker%"
+        - "CURE:SLOW_DIGGING %attacker%"
 block:
   display: "%group-color%Block"
   description: "Chance to negate an attack and deal up to 4 damage\nback."
@@ -1700,9 +1572,9 @@ dodge:
       effects:
         - "STOP_ATTACK"
         - "PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 %victim%"
-iceaspect:
-  display: "%group-color%Ice Aspect"
-  description: "Chance of causing the slowness effect on your\nenemy."
+enderroots:
+  display: "%group-color%Enderroots"
+  description: "Chance of disabling enderpearls for your\nenemy."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
@@ -1711,19 +1583,19 @@ iceaspect:
   levels:
     1:
       chance: 15
-      cooldown: 2
+      cooldown: 180
       effects:
-        - "POTION:SLOW:1:100 %victim%"
+        - "CANCEL_USE:enderpearl:100 %victim%"
     2:
       chance: 23
-      cooldown: 2
+      cooldown: 120
       effects:
-        - "POTION:SLOW:1:100 %victim%"
+        - "CANCEL_USE:enderpearl:100 %victim%"
     3:
       chance: 31
-      cooldown: 2
+      cooldown: 60
       effects:
-        - "POTION:SLOW:1:100 %victim%"
+        - "CANCEL_USE:enderpearl:100 %victim%"
 momentum:
   display: "%group-color%Momentum"
   description: "Chance to gain speed boost with fireworks."
@@ -1888,12 +1760,17 @@ safeguard:
       chance: 5
       cooldown: 5
       effects:
-        - "POTION:DAMAGE_RESISTANCE:0:60 %victim%"
-    2:
-      chance: 9
-      cooldown: 5
-      effects:
         - "POTION:DAMAGE_RESISTANCE:1:60 %victim%"
+    2:
+      chance: 7
+      cooldown: 9
+      effects:
+        - "POTION:DAMAGE_RESISTANCE:1:100 %victim%"
+    3:
+      chance: 9
+      cooldown: 12
+      effects:
+        - "POTION:DAMAGE_RESISTANCE:1:140 %victim%"
 shatter:
   display: "%group-color%Shatter"
   description: "Chance to deal extra durability damage to all\nenemy armor with every attack."
@@ -2005,47 +1882,15 @@ replenish:
       chance: 60
       effects:
         - "ADD_FOOD:3"
-hellfire:
-  display: "%group-color%Hellfire"
-  description: "Chance for arrows turn into fireballs."
-  applies-to: "Bows, Crossbows"
-  type: "BOW;BOW_MOB"
-  group: "LEGENDARY"
-  applies:
-    - BOW
-    - CROSSBOW
-  levels:
-    1:
-      chance: 10
-      cooldown: 3
-      effects:
-        - "FIREBALL %victim%"
-    2:
-      chance: 25
-      cooldown: 3
-      effects:
-        - "FIREBALL %victim%"
-    3:
-      chance: 35
-      cooldown: 3
-      effects:
-        - "FIREBALL %victim%"
-    4:
-      chance: 50
-      cooldown: 3
-      effects:
-        - "FIREBALL %victim%"
-    5:
-      chance: 70
-      cooldown: 3
-      effects:
-        - "FIREBALL %victim%"
 longbow:
   display: "%group-color%Longbow"
   description: "Greatly increases damage dealt to enemy players\nthat have a bow in their hands."
   applies-to: "Bows"
   type: "BOW"
   group: "LEGENDARY"
+  settings:
+    not-applyable-with:
+      - "bowmaster"
   applies:
     - BOW
   levels:
@@ -2191,53 +2036,25 @@ rebound:
     3:
       effects:
         - "ADD_HEALTH:1.5 %attacker%"
-thunderlord:
-  display: "%group-color%Thunderlord"
-  description: "Strike monsters with lightning every few\nconsecutive hits."
-  applies-to: "Swords, Axes"
-  type: "ATTACK_MOB"
-  group: "EXOTIC"
-  applies:
-    - ALL_AXE
-    - ALL_SWORD
-  levels:
-    1:
-      condition:
-        - "%attacker combo% = 5 : %allow%"
-      effects:
-        - "LIGHTNING %victim%"
-        - "RESET_COMBO %attacker%"
-    2:
-      condition:
-        - "%attacker combo% = 4 : %allow%"
-      effects:
-        - "LIGHTNING %victim%"
-        - "RESET_COMBO %attacker%"
-    3:
-      condition:
-        - "%attacker combo% = 3 : %allow%"
-      effects:
-        - "LIGHTNING %victim%"
-        - "RESET_COMBO %attacker%"
 creeperarmor:
   display: "%group-color%Creeper Armor"
   description: "Chance to be immune to explosive damage, at higher\nlevels you have a chance to heal."
-  applies-to: "Leggings"
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "EXPLOSION"
   group: "LEGENDARY"
   applies:
-    - ALL_LEGGINGS
+    - ALL_ARMOR
   levels:
     1:
-      chance: 15
+      chance: 7
       effects:
         - "STOP_ATTACK"
     2:
-      chance: 20
+      chance: 11
       effects:
         - "STOP_ATTACK"
     3:
-      chance: 30
+      chance: 15
       effects:
         - "STOP_ATTACK"
         - "ADD_HEALTH:<random number>1-2</random number>"
@@ -2759,11 +2576,12 @@ inquisitive:
 lifesteal:
   display: "%group-color%Lifesteal"
   description: "Chance to steal health when attacking."
-  applies-to: "Swords"
+  applies-to: "Swords, Trident"
   type: "ATTACK;ATTACK_MOB"
   group: "EXOTIC"
   applies:
     - ALL_SWORD
+    - TRIDENT
   levels:
     1:
       chance: 9
@@ -2914,12 +2732,17 @@ neutralize:
     - CROSSBOW
   levels:
     1:
-      chance: 5
+      chance: 4
       cooldown: 20
       effects:
         - "DISARM %victim%"
     2:
-      chance: 10
+      chance: 8
+      cooldown: 20
+      effects:
+        - "DISARM %victim%"
+    3:
+      chance: 12
       cooldown: 20
       effects:
         - "DISARM %victim%"
@@ -2943,34 +2766,10 @@ disarm:
       effects:
         - "DISARM %victim%"
     3:
-      chance: 5
+      chance: 6
       cooldown: 20
       effects:
         - "DISARM %victim%"
-phoenix:
-  display: "%group-color%Phoenix"
-  description: "Chance to revive yourself when killed."
-  applies-to: "Chestplates"
-  type: "DEATH"
-  group: "FABLED"
-  applies:
-    - ALL_CHESTPLATE
-  levels:
-    1:
-      chance: 5
-      effects:
-        - "REVIVE %victim%"
-        - "PLAY_SOUND:ITEM_TOTEM_USE"
-    2:
-      chance: 10
-      effects:
-        - "REVIVE %victim%"
-        - "PLAY_SOUND:ITEM_TOTEM_USE"
-    3:
-      chance: 15
-      effects:
-        - "REVIVE %victim%"
-        - "PLAY_SOUND:ITEM_TOTEM_USE"
 strife:
   display: "%group-color%Strife"
   description: "Increases Trident melee damage."
@@ -3113,40 +2912,11 @@ confusion:
       cooldown: 6
       effects:
         - 'POTION:CONFUSION:0:120 %victim%'
-lifebloom:
-  display: '%group-color%Lifebloom'
-  description: "Heals allies around you on your death."
-  applies-to: 'Boots, Leggings, Chestplates, Helmets'
-  type: 'DEATH'
-  group: 'RARE'
-  applies:
-    - ALL_ARMOR
-  levels:
-    1:
-      effects:
-        - 'ADD_HEALTH:5 <aoe> radius=3 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=3 target=undamageable </aoe>'
-    2:
-      effects:
-        - 'ADD_HEALTH:5 <aoe> radius=5 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=5 target=undamageable </aoe>'
-    3:
-      effects:
-        - 'ADD_HEALTH:10 <aoe> radius=7 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=7 target=undamageable </aoe>'
-    4:
-      effects:
-        - 'ADD_HEALTH:10 <aoe> radius=9 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=9 target=undamageable </aoe>'
-    5:
-      effects:
-        - 'ADD_HEALTH:20 <aoe> radius=11 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &eLIFEBLOOM &e*** &7(%victim name%) <aoe> radius=9 target=undamageable </aoe>'
 endershift:
   display: '%group-color%Endershift'
   description: "Gives speed/health boost at low hp.\n(Has cooldown)"
   applies-to: 'Helmets'
-  type: 'DEFENSE;DEFENSE_BOW;DEFENSE_MOB;DEFENSE_MOB'
+  type: 'DEFENSE;DEFENSE_MOB'
   group: 'UNCOMMON'
   applies:
     - ALL_HELMET
@@ -3154,21 +2924,21 @@ endershift:
     1:
       cooldown: 30
       condition:
-        - "%victim health% < 6 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - 'POTION:SPEED:1:40 %victim%'
         - 'POTION:ABSORPTION:0:20 %victim%'
     2:
       cooldown: 30
       condition:
-        - "%victim health% < 6 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - 'POTION:SPEED:1:60 %victim%'
         - 'POTION:ABSORPTION:1:40 %victim%'
     3:
       cooldown: 30
       condition:
-        - "%victim health% < 6 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - 'POTION:SPEED:1:120 %victim%'
         - 'POTION:ABSORPTION:2:80 %victim%'
@@ -3219,49 +2989,35 @@ execute:
       chance: 9
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     2:
       chance: 15
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     3:
-      chance: 19
+      chance: 21
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     4:
-      chance: 24
+      chance: 27
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     5:
-      chance: 29
+      chance: 35
       cooldown: 2
       condition:
-        - "%victim health% < 6 : %allow%"
-      effects:
-        - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
-    6:
-      chance: 32
-      cooldown: 2
-      condition:
-        - "%victim health% < 6 : %allow%"
-      effects:
-        - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
-    7:
-      chance: 40
-      cooldown: 2
-      condition:
-        - "%victim health% < 6 : %allow%"
+        - "%victim health% > 6 : %block%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
 trap:
@@ -3274,20 +3030,26 @@ trap:
     - ALL_ARMOR
   levels:
     1:
-      chance: 9
-      cooldown: 6
+      chance: 5
+      cooldown: 5
       effects:
         - 'POTION:SLOW:2:60 %attacker%'
+        - 'DISABLE_ACTIVATION:gears:3 %victim%'
+        - 'DISABLE_ACTIVATION:springs:3 %victim%'
     2:
-      chance: 16
+      chance: 7
       cooldown: 9
       effects:
-        - 'POTION:SLOW:2:120 %attacker%'
+        - 'POTION:SLOW:2:100 %attacker%'
+        - 'DISABLE_ACTIVATION:gears:5 %victim%'
+        - 'DISABLE_ACTIVATION:springs:5 %victim%'
     3:
-      chance: 22
+      chance: 9
       cooldown: 12
       effects:
-        - 'POTION:SLOW:2:180 %attacker%'
+        - 'POTION:SLOW:2:140 %attacker%'
+        - 'DISABLE_ACTIVATION:gears:7 %victim%'
+        - 'DISABLE_ACTIVATION:springs:7 %victim%'
 enrage:
   display: '%group-color%Enrage'
   description: 'Deal more damage on low HP.'
@@ -3536,40 +3298,16 @@ unfocus:
         - 'MESSAGE:&e*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:125'
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
-metaphysical:
-  display: '%group-color%Metaphysical'
-  description: "Chance to be cured of slowness when attacked. At\nmax level, you will only be affected approx. 10%\nof the time."
-  applies-to: 'Boots'
-  type: 'DEFENSE;DEFENSE_MOB'
-  group: 'LEGENDARY'
-  applies:
-    - ALL_BOOTS
-  levels:
-    1:
-      chance: 30
-      effects:
-        - 'CURE:SLOW %victim%'
-    2:
-      chance: 60
-      effects:
-        - 'CURE:SLOW %victim%'
-    3:
-      chance: 75
-      effects:
-        - 'CURE:SLOW %victim%'
-    4:
-      chance: 90
-      effects:
-        - 'CURE:SLOW %victim%'
 impale:
   display: '%group-color%Impale'
   description: "Chance to deal double damage to your opponent,\ncausing slowness for some time"
-  applies-to: 'Bows, Crossbows'
+  applies-to: 'Bows, Crossbows, Tridents'
   type: 'BOW'
   group: 'EXOTIC'
   applies:
     - BOW
     - CROSSBOW
+    - TRIDENTS
   levels:
     1:
       chance: 4
@@ -3652,12 +3390,11 @@ guardian:
 stun:
   display: '%group-color%Stun'
   description: "Chance to slow opponent, make them feel weak, and\nremove slowness from you."
-  applies-to: 'Swords, Axes'
+  applies-to: 'Axes'
   type: 'ATTACK'
   group: 'EXOTIC'
   applies:
     - ALL_AXE
-    - ALL_SWORD
   levels:
     1:
       chance: 15
@@ -3683,39 +3420,6 @@ stun:
         - 'CURE:SLOW %attacker%'
         - 'CURE_PERMANENT:SLOW %attacker%'
         - 'POTION:WEAKNESS:0:80 %victim%'
-inversion:
-  display: '%group-color%Inversion'
-  description: "Chance to block damage dealt to you and heal you\nfor 1-5 HP."
-  applies-to: 'Swords'
-  type: 'DEFENSE;DEFENSE_MOB'
-  group: 'EXOTIC'
-  applies:
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 8
-      cooldown: 4
-      effects:
-        - 'STOP_ATTACK'
-        - 'ADD_HEALTH:<random number>1-5</random number> %victim%'
-    2:
-      chance: 12
-      cooldown: 4
-      effects:
-        - 'STOP_ATTACK'
-        - 'ADD_HEALTH:<random number>1-5</random number> %victim%'
-    3:
-      chance: 16
-      cooldown: 4
-      effects:
-        - 'STOP_ATTACK'
-        - 'ADD_HEALTH:<random number>1-5</random number> %victim%'
-    4:
-      chance: 24
-      cooldown: 4
-      effects:
-        - 'STOP_ATTACK'
-        - 'ADD_HEALTH:<random number>1-5</random number> %victim%'
 rage:
   display: '%group-color%Rage'
   description: "For every combo hit you land, chance to do 0.5\nheart damage per combo to your opponent."
@@ -3734,6 +3438,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
     2:
       chance: 30
       condition:
@@ -3742,6 +3447,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
     3:
       chance: 35
       condition:
@@ -3750,6 +3456,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
     4:
       chance: 40
       condition:
@@ -3758,6 +3465,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
     5:
       chance: 45
       condition:
@@ -3766,6 +3474,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
     6:
       chance: 50
       condition:
@@ -3774,6 +3483,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
 silence:
   display: '%group-color%Silence'
   description: "Chance to disable all enemy armor enchantments for\n3 seconds."
@@ -4270,21 +3980,37 @@ markofthebeast:
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
 chainlifesteal:
-  display: '%group-color%Chain Lifesteal'
-  description: "Chance to regain health from multiple enemies near\nyour damaged target based on level"
-  applies-to: 'Boots, Leggings, Chestplates, Helmets'
-  type: 'ATTACK;ATTACK_MOB'
-  group: 'FABLED'
+  display: "%group-color%Chain Lifesteal"
+  description: "Chance to steal health from multiple nearby enemies\nwhen attacking."
+  applies-to: "Swords, Tridents"
+  type: "ATTACK;ATTACK_MOB"
+  group: "FABLED"
   applies:
-    - ALL_ARMOR
+    - ALL_SWORD
+    - TRIDENT
   levels:
     1:
-      chance: 1.8
-      cooldown: 120
+      chance: 5
+      cooldown: 15
       effects:
-        - 'STEAL_HEALTH:<random number>1-3</random number> <aoe> radius=6 target=damageable </aoe>'
+        - "STEAL_HEALTH:<random number>1-3</random number> <aoe> radius=6 target=damageable </aoe>"
     2:
-      chance: 3.9
-      cooldown: 120
+      chance: 7
+      cooldown: 15
       effects:
-        - 'STEAL_HEALTH:<random number>1-3</random number> <aoe> radius=6 target=damageable </aoe>'
+        - "STEAL_HEALTH:<random number>1-3</random number> <aoe> radius=6 target=damageable </aoe>"
+    3:
+      chance: 9
+      cooldown: 15
+      effects:
+        - "STEAL_HEALTH:<random number>1-4</random number> <aoe> radius=6 target=damageable </aoe>"
+    4:
+      chance: 11
+      cooldown: 15
+      effects:
+        - "STEAL_HEALTH:<random number>1-5</random number> <aoe> radius=6 target=damageable </aoe>"
+    5:
+      chance: 13
+      cooldown: 15
+      effects:
+        - "STEAL_HEALTH:<random number>1-5</random number> <aoe> radius=6 target=damageable </aoe>"

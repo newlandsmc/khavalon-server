@@ -720,6 +720,7 @@ applies-groups:
   MISC_HELMETS:
   - CARVED_PUMPKIN
   SKULL_ITEM: []
+  TRIDENTS: []
 
 settings:
   # If true, grindstones will remove custom enchants from items and return a small amount of XP.
