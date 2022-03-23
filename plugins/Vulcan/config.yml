@@ -92,7 +92,7 @@ verbose:
 #This section deals with the log file (violations.txt)
 log-file:
   # Whether or not the log file is enabled
-  enabled: false
+  enabled: true
   # The message that is logged when a player fails a check.
   # Valid placeholders are %player% (player name), %max-vl% (max violations), %check% (name of check), %description% (check description),
   # %version% (player's client version), %dev% (* for whether or not the check is experimental), %vl% (violation level),
@@ -494,7 +494,7 @@ settings:
   # This is just here in case I forget to remove a debug message when I post an update. If I forget to remove a debug
   # message and you see [Vulcan Debug] on your server, disable this (it won't effect you if this is enabled or disabled
   # unless I forget to remove a debug message, but if you see [Vulcan Debug] in chat, then set this to false and reload).
-  debug: false
+  debug: true
   # Whether or not 'A new update is available!' message will be set on join for players with 'vulcan.admin' permission
   check-for-updates: false
   # A setting for PacketEvents, we may ask you to change this if you're having issues injecting. If everything is working
@@ -2779,7 +2779,7 @@ checks:
           decay: .1
       l:
         enabled: true
-        punishable: true
+        punishable: false
         setback: false
         discord-alert-interval: 1
         broadcast-punishment: false

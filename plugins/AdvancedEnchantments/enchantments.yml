@@ -1031,7 +1031,7 @@ venom:
   display: "%group-color%Venom"
   description: "Chance of giving poison effect."
   applies-to: "Bows, Crossbows"
-  type: "BOW_MOB"
+  type: "BOW;BOW_MOB"
   group: "UNCOMMON"
   applies:
     - BOW
@@ -1574,7 +1574,7 @@ dodge:
         - "PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 %victim%"
 enderroots:
   display: "%group-color%Enderroots"
-  description: "Chance of disabling enderpearls for your\nenemy."
+  description: "Chance of disabling enderpearls for your\nenemy up to 10 seconds."
   applies-to: "Swords"
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
@@ -1585,17 +1585,32 @@ enderroots:
       chance: 15
       cooldown: 180
       effects:
-        - "CANCEL_USE:enderpearl:100 %victim%"
+        - "CANCEL_USE:ENDER_PEARL:100 %victim%"
+        - 'MESSAGE:&5*** ENDERPEARLS DEACTIVATED! *** %attacker%'
+        - 'MESSAGE:&c*** ENDERPEARLS DEACTIVATED! *** %victim%'
+        - WAIT:105
+        - 'MESSAGE:&5*** ENDERPEARLS REACTIVATED! *** %attacker%'
+        - 'MESSAGE:&a*** ENDERPEARLS REACTIVATED! *** %victim%'
     2:
       chance: 23
       cooldown: 120
       effects:
-        - "CANCEL_USE:enderpearl:100 %victim%"
+        - "CANCEL_USE:ENDER_PEARL:140 %victim%"
+        - 'MESSAGE:&5*** ENDERPEARLS DEACTIVATED! *** %attacker%'
+        - 'MESSAGE:&c*** ENDERPEARLS DEACTIVATED! *** %victim%'
+        - WAIT:145
+        - 'MESSAGE:&5*** ENDERPEARLS REACTIVATED! *** %attacker%'
+        - 'MESSAGE:&a*** ENDERPEARLS REACTIVATED! *** %victim%'
     3:
       chance: 31
       cooldown: 60
       effects:
-        - "CANCEL_USE:enderpearl:100 %victim%"
+        - "CANCEL_USE:ENDER_PEARL:200 %victim%"
+        - 'MESSAGE:&5*** ENDERPEARLS DEACTIVATED! *** %attacker%'
+        - 'MESSAGE:&c*** ENDERPEARLS DEACTIVATED! *** %victim%'
+        - WAIT:205
+        - 'MESSAGE:&5*** ENDERPEARLS REACTIVATED! *** %attacker%'
+        - 'MESSAGE:&a*** ENDERPEARLS REACTIVATED! *** %victim%'
 momentum:
   display: "%group-color%Momentum"
   description: "Chance to gain speed boost with fireworks."
@@ -3259,7 +3274,7 @@ unfocus:
       effects:
         - 'POTION:CONFUSION:0:40 %victim%'
         - 'HALF_DAMAGE'
-        - 'MESSAGE:&e*** YOU''VE BEEN UNFOCUSED *** %victim%'
+        - 'MESSAGE:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:45'
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     2:
@@ -3268,7 +3283,7 @@ unfocus:
       effects:
         - 'POTION:CONFUSION:0:60 %victim%'
         - 'HALF_DAMAGE'
-        - 'MESSAGE:&e*** YOU''VE BEEN UNFOCUSED *** %victim%'
+        - 'MESSAGE:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:65'
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     3:
@@ -3277,7 +3292,7 @@ unfocus:
       effects:
         - 'POTION:CONFUSION:0:80 %victim%'
         - 'HALF_DAMAGE'
-        - 'MESSAGE:&e*** YOU''VE BEEN UNFOCUSED *** %victim%'
+        - 'MESSAGE:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:85'
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     4:
@@ -3286,7 +3301,7 @@ unfocus:
       effects:
         - 'POTION:CONFUSION:1:120 %victim%'
         - 'HALF_DAMAGE'
-        - 'MESSAGE:&e*** YOU''VE BEEN UNFOCUSED *** %victim%'
+        - 'MESSAGE:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:125'
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     5:
@@ -3295,7 +3310,7 @@ unfocus:
       effects:
         - 'POTION:CONFUSION:1:120 %victim%'
         - 'HALF_DAMAGE'
-        - 'MESSAGE:&e*** YOU''VE BEEN UNFOCUSED *** %victim%'
+        - 'MESSAGE:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:125'
         - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
 impale:
@@ -3384,7 +3399,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
     2:
       chance: 30
       condition:
@@ -3393,7 +3408,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
     3:
       chance: 35
       condition:
@@ -3402,7 +3417,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
     4:
       chance: 40
       condition:
@@ -3411,7 +3426,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
     5:
       chance: 45
       condition:
@@ -3420,7 +3435,7 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
     6:
       chance: 50
       condition:
@@ -3429,7 +3444,46 @@ rage:
       effects:
         - 'ADD_HARM:%combo% %victim%'
         - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%! *** %victim%'
+        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
+diminish:
+  display: '%group-color%Diminish'
+  description: "When this effect procs, the next attack dealt to\nyou cannot deal more than the (total amount of\ndamage / 2) you took from the previous attack."
+  applies-to: 'Boots, Leggings, Chestplates, Helmets'
+  type: 'DEFENSE;DEFENSE_MOB'
+  group: 'EXOTIC'
+  applies:
+    - ALL_ARMOR
+  levels:
+    1:
+      chance: 4
+      cooldown: 8
+      effects:
+        - 'HALF_DAMAGE'
+    2:
+      chance: 8
+      cooldown: 8
+      effects:
+        - 'HALF_DAMAGE'
+    3:
+      chance: 11
+      cooldown: 8
+      effects:
+        - 'HALF_DAMAGE'
+    4:
+      chance: 15
+      cooldown: 8
+      effects:
+        - 'HALF_DAMAGE'
+    5:
+      chance: 18
+      cooldown: 8
+      effects:
+        - 'HALF_DAMAGE'
+    6:
+      chance: 23
+      cooldown: 8
+      effects:
+        - 'HALF_DAMAGE'
 silence:
   display: '%group-color%Silence'
   description: "Chance to disable all enemy armor enchantments for\n3 seconds."
@@ -3477,9 +3531,11 @@ silence:
         - 'DISABLE_ACTIVATION:metaphysical:3 %victim%'
         - 'DISABLE_ACTIVATION:plummet:3 %victim%'
         - 'DISABLE_ACTIVATION:springs:3 %victim%'
-        - 'MESSAGE:&5*** ARMOR SILENCED! *** %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR UNSILENCED! *** %victim%'
         - 'WAIT:65'
-        - 'MESSAGE:&5*** ARMOR UNSILENCED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR UNSILENCED! *** %victim%'
     2:
       chance: 3
       cooldown: 5
@@ -3514,9 +3570,11 @@ silence:
         - 'DISABLE_ACTIVATION:metaphysical:3 %victim%'
         - 'DISABLE_ACTIVATION:plummet:3 %victim%'
         - 'DISABLE_ACTIVATION:springs:3 %victim%'
-        - 'MESSAGE:&5*** ARMOR SILENCED! *** %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR UNSILENCED! *** %victim%'
         - 'WAIT:65'
-        - 'MESSAGE:&5*** ARMOR UNSILENCED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR UNSILENCED! *** %victim%'
     3:
       chance: 5
       cooldown: 5
@@ -3551,9 +3609,11 @@ silence:
         - 'DISABLE_ACTIVATION:metaphysical:3 %victim%'
         - 'DISABLE_ACTIVATION:plummet:3 %victim%'
         - 'DISABLE_ACTIVATION:springs:3 %victim%'
-        - 'MESSAGE:&5*** ARMOR SILENCED! *** %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR UNSILENCED! *** %victim%'
         - 'WAIT:65'
-        - 'MESSAGE:&5*** ARMOR UNSILENCED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR UNSILENCED! *** %victim%'
     4:
       chance: 10
       cooldown: 5
@@ -3588,48 +3648,11 @@ silence:
         - 'DISABLE_ACTIVATION:metaphysical:3 %victim%'
         - 'DISABLE_ACTIVATION:plummet:3 %victim%'
         - 'DISABLE_ACTIVATION:springs:3 %victim%'
-        - 'MESSAGE:&5*** ARMOR SILENCED! *** %victim%'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR UNSILENCED! *** %victim%'
         - 'WAIT:65'
-        - 'MESSAGE:&5*** ARMOR UNSILENCED *** %victim%'
-diminish:
-  display: '%group-color%Diminish'
-  description: "When this effect procs, the next attack dealt to\nyou cannot deal more than the (total amount of\ndamage / 2) you took from the previous attack."
-  applies-to: 'Boots, Leggings, Chestplates, Helmets'
-  type: 'DEFENSE;DEFENSE_MOB'
-  group: 'EXOTIC'
-  applies:
-    - ALL_ARMOR
-  levels:
-    1:
-      chance: 4
-      cooldown: 8
-      effects:
-        - 'HALF_DAMAGE'
-    2:
-      chance: 8
-      cooldown: 8
-      effects:
-        - 'HALF_DAMAGE'
-    3:
-      chance: 11
-      cooldown: 8
-      effects:
-        - 'HALF_DAMAGE'
-    4:
-      chance: 15
-      cooldown: 8
-      effects:
-        - 'HALF_DAMAGE'
-    5:
-      chance: 18
-      cooldown: 8
-      effects:
-        - 'HALF_DAMAGE'
-    6:
-      chance: 23
-      cooldown: 8
-      effects:
-        - 'HALF_DAMAGE'
+        - 'MESSAGE:&5*** ARMOR SILENCED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR UNSILENCED! *** %victim%'
 defuse:
   display: '%group-color%Defuse'
   description: "Chance to disable all enemy offensive armor\nenchantments for 7 seconds."
@@ -3647,72 +3670,82 @@ defuse:
       chance: 2
       cooldown: 140
       effects:
-        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
         - DISABLE_ACTIVATION:divert:7 %victim%
         - DISABLE_ACTIVATION:reflect:7 %victim%
         - DISABLE_ACTIVATION:unholy:7 %victim%
         - DISABLE_ACTIVATION:plummet:7 %victim%
         - DISABLE_ACTIVATION:trap:7 %victim%
         - DISABLE_ACTIVATION:shockwave:7 %victim%
-        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %victim%'
+        - DISABLE_ACTIVATION:markofthebeast:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR DEFUSED! *** %victim%'
         - 'WAIT:145'
-        - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR UNDEFUSED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR UNDEFUSED! *** %victim%'
     '2':
       chance: 3
       cooldown: 120
       effects:
-        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
         - DISABLE_ACTIVATION:divert:7 %victim%
         - DISABLE_ACTIVATION:reflect:7 %victim%
         - DISABLE_ACTIVATION:unholy:7 %victim%
         - DISABLE_ACTIVATION:plummet:7 %victim%
         - DISABLE_ACTIVATION:trap:7 %victim%
         - DISABLE_ACTIVATION:shockwave:7 %victim%
-        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %victim%'
+        - DISABLE_ACTIVATION:markofthebeast:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR DEFUSED! *** %victim%'
         - 'WAIT:145'
-        - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR UNDEFUSED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR UNDEFUSED! *** %victim%'
     '3':
       chance: 4
       cooldown: 100
       effects:
-        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
         - DISABLE_ACTIVATION:divert:7 %victim%
         - DISABLE_ACTIVATION:reflect:7 %victim%
         - DISABLE_ACTIVATION:unholy:7 %victim%
         - DISABLE_ACTIVATION:plummet:7 %victim%
         - DISABLE_ACTIVATION:trap:7 %victim%
         - DISABLE_ACTIVATION:shockwave:7 %victim%
-        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %victim%'
+        - DISABLE_ACTIVATION:markofthebeast:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR DEFUSED! *** %victim%'
         - 'WAIT:145'
-        - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR UNDEFUSED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR UNDEFUSED! *** %victim%'
     '4':
       chance: 5
       cooldown: 80
       effects:
-        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
         - DISABLE_ACTIVATION:divert:7 %victim%
         - DISABLE_ACTIVATION:reflect:7 %victim%
         - DISABLE_ACTIVATION:unholy:7 %victim%
         - DISABLE_ACTIVATION:plummet:7 %victim%
         - DISABLE_ACTIVATION:trap:7 %victim%
         - DISABLE_ACTIVATION:shockwave:7 %victim%
-        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %victim%'
+        - DISABLE_ACTIVATION:markofthebeast:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR DEFUSED! *** %victim%'
         - 'WAIT:145'
-        - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR UNDEFUSED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR UNDEFUSED! *** %victim%'
     '5':
       chance: 7
       cooldown: 20
       effects:
-        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
         - DISABLE_ACTIVATION:divert:7 %victim%
         - DISABLE_ACTIVATION:reflect:7 %victim%
         - DISABLE_ACTIVATION:unholy:7 %victim%
         - DISABLE_ACTIVATION:plummet:7 %victim%
         - DISABLE_ACTIVATION:trap:7 %victim%
         - DISABLE_ACTIVATION:shockwave:7 %victim%
-        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %victim%'
+        - DISABLE_ACTIVATION:markofthebeast:7 %victim%
+        - 'MESSAGE:&5*** ARMOR DEFUSED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR DEFUSED! *** %victim%'
         - 'WAIT:145'
-        - 'MESSAGE:&5*** ARMOR UNDEFUSED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR UNDEFUSED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR UNDEFUSED! *** %victim%'
 deactivate:
   display: '%group-color%Deactivate'
   description: "Chance to disable all enemy defensive armor\nenchantments for 7 seconds."
@@ -3731,7 +3764,6 @@ deactivate:
       cooldown: 140
       effects:
         - DISABLE_ACTIVATION:arrowdeflect:7 %victim%
-        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
         - DISABLE_ACTIVATION:creeperarmor:7 %victim%
         - DISABLE_ACTIVATION:divert:7 %victim%
         - DISABLE_ACTIVATION:dodge:7 %victim%
@@ -3749,15 +3781,16 @@ deactivate:
         - DISABLE_ACTIVATION:soulwhisper:7 %victim%
         - DISABLE_ACTIVATION:jellylegs:7 %victim%
         - DISABLE_ACTIVATION:metaphysical:7 %victim%
-        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %victim%'
+        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR DEACTIVATED! *** %victim%'
         - 'WAIT:145'
-        - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR REACTIVATED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR REACTIVATED! *** %victim%'
     '2':
       chance: 3
       cooldown: 120
       effects:
         - DISABLE_ACTIVATION:arrowdeflect:7 %victim%
-        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
         - DISABLE_ACTIVATION:creeperarmor:7 %victim%
         - DISABLE_ACTIVATION:divert:7 %victim%
         - DISABLE_ACTIVATION:dodge:7 %victim%
@@ -3775,15 +3808,16 @@ deactivate:
         - DISABLE_ACTIVATION:soulwhisper:7 %victim%
         - DISABLE_ACTIVATION:jellylegs:7 %victim%
         - DISABLE_ACTIVATION:metaphysical:7 %victim%
-        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %victim%'
+        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR DEACTIVATED! *** %victim%'
         - 'WAIT:145'
-        - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR REACTIVATED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR REACTIVATED! *** %victim%'
     '3':
       chance: 4
       cooldown: 100
       effects:
         - DISABLE_ACTIVATION:arrowdeflect:7 %victim%
-        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
         - DISABLE_ACTIVATION:creeperarmor:7 %victim%
         - DISABLE_ACTIVATION:divert:7 %victim%
         - DISABLE_ACTIVATION:dodge:7 %victim%
@@ -3801,15 +3835,16 @@ deactivate:
         - DISABLE_ACTIVATION:soulwhisper:7 %victim%
         - DISABLE_ACTIVATION:jellylegs:7 %victim%
         - DISABLE_ACTIVATION:metaphysical:7 %victim%
-        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %victim%'
+        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR DEACTIVATED! *** %victim%'
         - 'WAIT:145'
-        - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR REACTIVATED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR REACTIVATED! *** %victim%'
     '4':
       chance: 5
       cooldown: 80
       effects:
         - DISABLE_ACTIVATION:arrowdeflect:7 %victim%
-        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
         - DISABLE_ACTIVATION:creeperarmor:7 %victim%
         - DISABLE_ACTIVATION:divert:7 %victim%
         - DISABLE_ACTIVATION:dodge:7 %victim%
@@ -3827,15 +3862,16 @@ deactivate:
         - DISABLE_ACTIVATION:soulwhisper:7 %victim%
         - DISABLE_ACTIVATION:jellylegs:7 %victim%
         - DISABLE_ACTIVATION:metaphysical:7 %victim%
-        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %victim%'
+        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR DEACTIVATED! *** %victim%'
         - 'WAIT:145'
-        - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR REACTIVATED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR REACTIVATED! *** %victim%'
     '5':
       chance: 7
       cooldown: 80
       effects:
         - DISABLE_ACTIVATION:arrowdeflect:7 %victim%
-        - DISABLE_ACTIVATION:chainlifesteal:7 %victim%
         - DISABLE_ACTIVATION:creeperarmor:7 %victim%
         - DISABLE_ACTIVATION:divert:7 %victim%
         - DISABLE_ACTIVATION:dodge:7 %victim%
@@ -3853,9 +3889,11 @@ deactivate:
         - DISABLE_ACTIVATION:soulwhisper:7 %victim%
         - DISABLE_ACTIVATION:jellylegs:7 %victim%
         - DISABLE_ACTIVATION:metaphysical:7 %victim%
-        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %victim%'
+        - 'MESSAGE:&5*** ARMOR DEACTIVATED! *** %attacker%'
+        - 'MESSAGE:&c*** YOUR ARMOR DEACTIVATED! *** %victim%'
         - 'WAIT:145'
-        - 'MESSAGE:&5*** ARMOR REACTIVATED *** %victim%'
+        - 'MESSAGE:&5*** ARMOR REACTIVATED! *** %attacker%'
+        - 'MESSAGE:&a*** YOUR ARMOR REACTIVATED! *** %victim%'
 markofthebeast:
   display: '%group-color%Mark of the Beast'
   description: "Once an enemy is afflicted with the mark all\nincoming damage is increased by 2x for up to 5\nseconds"
@@ -3869,42 +3907,60 @@ markofthebeast:
       chance: 5
       cooldown: 600
       effects:
+        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
+        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
+        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
+        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
     2:
       chance: 7
       cooldown: 500
       effects:
+        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
+        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
+        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
+        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
     3:
       chance: 9
       cooldown: 400
       effects:
+        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
+        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
+        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
+        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
     4:
       chance: 11
       cooldown: 300
       effects:
+        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
+        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
+        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
+        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
     5:
       chance: 15
       cooldown: 200
       effects:
+        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
+        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
@@ -3913,10 +3969,14 @@ markofthebeast:
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
+        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
+        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
     6:
       chance: 25
       cooldown: 100
       effects:
+        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
+        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
@@ -3925,6 +3985,8 @@ markofthebeast:
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
+        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
+        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
 chainlifesteal:
   display: "%group-color%Chain Lifesteal"
   description: "Chance to steal health from multiple nearby enemies\nwhen attacking."
