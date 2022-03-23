@@ -3302,7 +3302,7 @@ impale:
   display: '%group-color%Impale'
   description: "Chance to deal double damage to your opponent,\ncausing slowness for some time"
   applies-to: 'Bows, Crossbows, Tridents'
-  type: 'BOW'
+  type: 'BOW;BOW_MOB'
   group: 'EXOTIC'
   applies:
     - BOW
@@ -3333,60 +3333,6 @@ impale:
       effects:
         - 'DOUBLE_DAMAGE'
         - 'POTION:SLOW:4:80 %victim%'
-guardian:
-  display: '%group-color%Guardian'
-  description: "Automatically heals and cures all nearby\nallies."
-  applies-to: 'Boots, Leggings, Chestplates, Helmets'
-  type: 'DEFENSE;DEFENSE_MOB'
-  group: 'EXOTIC'
-  applies:
-    - 'ALL_ARMOR'
-  levels:
-    '1':
-      chance: 6
-      cooldown: 20
-      effects:
-        - 'ADD_HEALTH:2 <aoe> radius=5 target=undamageable </aoe>'
-        - 'CURE:POISON <aoe> radius=5 target=undamageable </aoe>'
-        - 'CURE:NAUSEA <aoe> radius=5 target=undamageable </aoe>'
-        - 'CURE:WITHER <aoe> radius=5 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &ePROTECTION &e*** &7(%victim name%) <aoe> radius=5 target=undamageable </aoe>'
-    '2':
-      chance: 7
-      cooldown: 20
-      effects:
-        - 'ADD_HEALTH:3 <aoe> radius=6 target=undamageable </aoe>'
-        - 'CURE:POISON <aoe> radius=6 target=undamageable </aoe>'
-        - 'CURE:NAUSEA <aoe> radius=6 target=undamageable </aoe>'
-        - 'CURE:WITHER <aoe> radius=6 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &ePROTECTION &e*** &7(%victim name%) <aoe> radius=6 target=undamageable </aoe>'
-    '3':
-      chance: 8
-      cooldown: 22
-      effects:
-        - 'ADD_HEALTH:4 <aoe> radius=7 target=undamageable </aoe>'
-        - 'CURE:POISON <aoe> radius=7 target=undamageable </aoe>'
-        - 'CURE:NAUSEA <aoe> radius=7 target=undamageable </aoe>'
-        - 'CURE:WITHER <aoe> radius=7 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &ePROTECTION &e*** &7(%victim name%) <aoe> radius=7 target=undamageable </aoe>'
-    '4':
-      chance: 10
-      cooldown: 22
-      effects:
-        - 'ADD_HEALTH:5 <aoe> radius=8 target=undamageable </aoe>'
-        - 'CURE:POISON <aoe> radius=8 target=undamageable </aoe>'
-        - 'CURE:NAUSEA <aoe> radius=8 target=undamageable </aoe>'
-        - 'CURE:WITHER <aoe> radius=8 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &ePROTECTION &e*** &7(%victim name%) <aoe> radius=8 target=undamageable </aoe>'
-    '5':
-      chance: 12
-      cooldown: 25
-      effects:
-        - 'ADD_HEALTH:6 <aoe> radius=10 target=undamageable </aoe>'
-        - 'CURE:POISON <aoe> radius=10 target=undamageable </aoe>'
-        - 'CURE:NAUSEA <aoe> radius=10 target=undamageable </aoe>'
-        - 'CURE:WITHER <aoe> radius=10 target=undamageable </aoe>'
-        - 'MESSAGE:&e*** &ePROTECTION &e*** &7(%victim name%) <aoe> radius=10 target=undamageable </aoe>'
 stun:
   display: '%group-color%Stun'
   description: "Chance to slow opponent, make them feel weak, and\nremove slowness from you."

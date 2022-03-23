@@ -155,7 +155,7 @@ commands:
   tab-complete: 3
   send-namespaced: false
 messages:
-  whitelist: 'Server is under maintenance! Discord: semivanilla.com/discord'
+  whitelist: 'Server is under maintenance! Discord: https://khavalon.com/discord'
   unknown-command: Unknown command. Type "/help" for help.
   server-full: Server full!
   outdated-client: Outdated client! Please use {0}

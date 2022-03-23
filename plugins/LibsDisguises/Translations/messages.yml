@@ -780,8 +780,7 @@
 # Reference: SELF_DISGUISE_HIDDEN
 "<green>Self disguise hidden as it's too tall..": "<green>Self disguise hidden as it's too tall.."
 
-# Reference: OWNED_BY
-"<gold>Plugin registered to '%%__USER__%%'!": "<gold>Plugin registered to '%%__USER__%%'!"
-
 # Reference: NOT_DISGUISED_SAVE_DISGUISE
 "<red>You are not disguised! To save a disguise in disguises.yml, you must be disguised!": "<red>You are not disguised! To save a disguise in disguises.yml, you must be disguised!"
+# Reference: OWNED_BY
+"<gold>Plugin registered to '1467534'!": "<gold>Plugin registered to '1467534'!"

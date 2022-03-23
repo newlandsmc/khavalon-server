@@ -5,7 +5,7 @@
 Bisect-Hosted: false
 Server-IP: 
 # Should the plugin be doing release or dev builds updating?
-ReleaseBuild: false
+ReleaseBuild: true
 # Make sure the plugin aint spamming update requests
 LastUpdateCheck: 0
 HittingRateLimit: false

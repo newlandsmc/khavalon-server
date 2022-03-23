@@ -65,21 +65,19 @@
 # time_format: 'dd/MM/yyyy HH:mm'
 time_format: MMMM dd, yyyy
 history_time_format: MMMM dd, yyyy
-banned_message_base: |-
-  &fBanned on $dateStart for:
-  &7$reason
+banned_message_base: ''
 banned_message: |-
-  &cYou are banned for $duration!
-  $base
+  &cBanned for $duration
+  &7Reason: $reason
 
   $appealMessage
 banned_message_permanent: |-
-  &cYou are permanently banned!
-  $base
+  &cPermanently banned
+  &7Reason: $reason
 
   $appealMessage
 banned_message_appeal_message: |-
-  &7To appeal this ban, email:
+  &7Appeal:
   &7appeal@khavalon.com
 banned_message_geoip_blacklist: |-
   &cYou are banned from this server
