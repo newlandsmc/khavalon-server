@@ -40,9 +40,10 @@ sources:
     flowering_azalea: 9.1
     azalea_leaves: 1.5
     flowering_azalea_leaves: 2.0
-    mushroom_stem: 4.0
-    brown_mushroom_block: 4.0
-    red_mushroom_block: 4.0
+    custom:
+      mushroom_stem: 4.0
+      brown_mushroom_block: 4.0
+      red_mushroom_block: 4.0
   mining:
     stone: 0.2
     cobblestone: 0.2
@@ -91,6 +92,8 @@ sources:
     ice: 0.3
     packed_ice: 0.8
     blue_ice: 1.3
+    custom:
+      gilded_blackstone: 21.4
   fishing:
     cod: 15.0
     salmon: 40.0

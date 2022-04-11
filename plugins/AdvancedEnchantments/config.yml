@@ -782,7 +782,14 @@ settings:
   # with it, please report them on GitHub https://github.com/GC-spigot/AdvancedEnchantments/issues/new/choose
   use-experimental-damage: true
   # All blocks trench won't break.
-  trench-blacklist: []
+  trench-blacklist: 
+  - INFESTED_STONE
+  - INFESTED_COBBLESTONE
+  - INFESTED_DEEPSLATE
+  - INFESTED_STONE_BRICKS
+  - INFESTED_MOSSY_STONE_BRICKS
+  - INFESTED_CRACKED_STONE_BRICKS
+  - INFESTED_CHISELED_STONE_BRICKS
   # Trench Whitelist
   # If list is not empty, will not allow to break any other blocks than listed here
   trench-whitelist: []

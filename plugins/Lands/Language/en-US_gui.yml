@@ -2759,18 +2759,10 @@ gui:
         material: RED_STAINED_GLASS_PANE
         slot: 37
       category:
-        name: '&6&lCategory: {category}'
-        lore:
-        - '&8✖ &7Change the category of this land.'
-        - ''
-        - '    &8• &7&lCategory description:'
-        - '      {description}'
-        - ''
-        - '    &8• &7This helps other players finding'
-        - '      &7for example shop lands in the'
-        - '      &e/lands list &7menu.'
-        material: HOPPER
-        slot: 26
+        name: ' '
+        lore: []
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 45
     p:
       placeholder_1:
         material: BLACK_STAINED_GLASS_PANE
@@ -2871,15 +2863,10 @@ gui:
         material: ARROW
         slot: 43
       toggle-category:
-        name: '&6&lCategory: {category}'
-        lore:
-        - '&8✖ &7Show only lands which are'
-        - '   &7part of this category?'
-        - ''
-        - '   &8• &7Category description:'
-        - '     {description}'
-        material: HOPPER
-        slot: 42
+        name: ' '
+        lore: []
+        material: BLACK_STAINED_GLASS_PANE
+        slot: 45
     l:
       object:
         name: '&a{land}'

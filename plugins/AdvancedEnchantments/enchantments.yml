@@ -562,14 +562,16 @@ veinminer:
 telepathy:
   display: "%group-color%Telepathy"
   description: "Automatically places ores in your inventory."
-  applies-to: "Pickaxes"
+  applies-to: "Pickaxes, Axes, Hoes"
   type: "MINING"
   group: "UNCOMMON"
   applies:
     - ALL_PICKAXES
+    - ALL_AXE
+    - ALL_HOE
   levels:
     1:
-      condition: "%block type% contains ORE : %allow%"
+      condition: "%block type% contains ORE or %block type% contains LOG or %is crop% = TRUE : %allow%"
       effects:
         - "TP_DROPS"
 enderslayer:
@@ -1169,27 +1171,27 @@ shockwave:
   levels:
     1:
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - "PULL_AWAY:0.5 %attacker%"
     2:
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - "PULL_AWAY:1.0 %attacker%"
     3:
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - "PULL_AWAY:1.5 %attacker%"
     4:
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - "PULL_AWAY:2.0 %attacker%"
     5:
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - "PULL_AWAY:2.5 %attacker%"
 vampire:
@@ -2738,7 +2740,7 @@ deadshot:
         - "INCREASE_DAMAGE:100 %attacker%"
 neutralize:
   display: "%group-color%Neutralize"
-  description: "Chance to disarm opponent."
+  description: "Chance to disarm opponent if they are wielding\na sword, axe, or bow."
   applies-to: "Bows, Crossbows"
   type: "BOW"
   group: "FABLED"
@@ -2749,40 +2751,47 @@ neutralize:
     1:
       chance: 4
       cooldown: 20
+      condition: "%victim is holding% contains SWORD or %victim is holding% contains AXE or %victim is holding% contains BOW : %allow%"
       effects:
         - "DISARM %victim%"
     2:
       chance: 8
       cooldown: 20
+      condition: "%victim is holding% contains SWORD or %victim is holding% contains AXE or %victim is holding% contains BOW : %allow%"
       effects:
         - "DISARM %victim%"
     3:
       chance: 12
       cooldown: 20
+      condition: "%victim is holding% contains SWORD or %victim is holding% contains AXE or %victim is holding% contains BOW : %allow%"
       effects:
         - "DISARM %victim%"
 disarm:
   display: "%group-color%Disarm"
-  description: "Chance to disarm opponent."
-  applies-to: "Swords"
+  description: "Chance to disarm opponent if they are wielding\na sword, axe, or bow."
+  applies-to: "Swords, Axes"
   type: "ATTACK"
   group: "FABLED"
   applies:
     - ALL_SWORD
+    - ALL_AXES
   levels:
     1:
       chance: 2
       cooldown: 20
+      condition: "%victim is holding% contains SWORD or %victim is holding% contains AXE or %victim is holding% contains BOW : %allow%"
       effects:
         - "DISARM %victim%"
     2:
       chance: 4
       cooldown: 20
+      condition: "%victim is holding% contains SWORD or %victim is holding% contains AXE or %victim is holding% contains BOW : %allow%"
       effects:
         - "DISARM %victim%"
     3:
       chance: 6
       cooldown: 20
+      condition: "%victim is holding% contains SWORD or %victim is holding% contains AXE or %victim is holding% contains BOW : %allow%"
       effects:
         - "DISARM %victim%"
 strife:
@@ -2939,21 +2948,21 @@ endershift:
     1:
       cooldown: 30
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - 'POTION:SPEED:1:40 %victim%'
         - 'POTION:ABSORPTION:0:20 %victim%'
     2:
       cooldown: 30
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - 'POTION:SPEED:1:60 %victim%'
         - 'POTION:ABSORPTION:1:40 %victim%'
     3:
       cooldown: 30
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - 'POTION:SPEED:1:120 %victim%'
         - 'POTION:ABSORPTION:2:80 %victim%'
@@ -3004,35 +3013,35 @@ execute:
       chance: 9
       cooldown: 2
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     2:
       chance: 15
       cooldown: 2
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     3:
       chance: 21
       cooldown: 2
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     4:
       chance: 27
       cooldown: 2
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
     5:
       chance: 35
       cooldown: 2
       condition:
-        - "%victim health% > 6 : %block%"
+        - "%victim health% > 6 : %stop%"
       effects:
         - 'INCREASE_DAMAGE:<random number>10-50</random number> %attacker%'
 trap:

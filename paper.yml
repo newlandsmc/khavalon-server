@@ -512,7 +512,7 @@ world-settings:
     phantoms-only-attack-insomniacs: true
     map-item-frame-cursor-limit: 128
     zombie-villager-infection-chance: -1.0
-    zombies-target-turtle-eggs: false
+    zombies-target-turtle-eggs: true
     unsupported-settings:
       fix-invulnerable-end-crystal-exploit: true
     all-chunks-are-slime-chunks: false

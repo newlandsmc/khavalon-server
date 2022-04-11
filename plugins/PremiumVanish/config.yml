@@ -234,7 +234,7 @@ MessageOptions:
 
   # Should invisible players have an action bar which tells them that they're invisible?
   # You can change the action bar in the messages.yml file.
-  DisplayActionBar: true
+  DisplayActionBar: false
 
 ##################################################
 ############## Restrictive Options ###############

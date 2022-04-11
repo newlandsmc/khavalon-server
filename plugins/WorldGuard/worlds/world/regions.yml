@@ -80,3 +80,11 @@ regions:
         owners: {}
         type: global
         priority: 0
+    mysand:
+        min: {x: -9984, y: 48, z: -9992}
+        max: {x: -9984, y: 48, z: -9992}
+        members: {}
+        flags: {deny-message: §cYou cannot break my sand.}
+        owners: {}
+        type: cuboid
+        priority: 0

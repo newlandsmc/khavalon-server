@@ -66,7 +66,7 @@ boss-bar:
   - SORCERY BLUE SEGMENTED_10
   - HEALING WHITE SEGMENTED_10
   - FORGING YELLOW SEGMENTED_10
-base-mana: 20
+base-mana: 200
 enable-roman-numerals: true
 damage-holograms: false
 damage-holograms-scaling: true
@@ -131,6 +131,7 @@ modifier:
 requirement:
   enabled: true
   item:
+    prevent-interact: true
     prevent-tool-use: true
     prevent-weapon-use: true
     prevent-block-place: true
@@ -272,8 +273,8 @@ regeneration:
   custom-regen-options:
     saturated-delay: 20
     hunger-delay: 60
-  mana-modifier: 0.001
-  base-mana-regen: 0.2
+  mana-modifier: 0.01
+  base-mana-regen: 2.0
 luck:
   modifier: 0.1
   double-drop-enabled: true
@@ -283,4 +284,4 @@ wisdom:
   anvil-cost-modifier: 0.25
   experience-modifier: 0.01
   allow-over-max-mana: true
-  max-mana-per-wisdom: 0.1
+  max-mana-per-wisdom: 1.0
