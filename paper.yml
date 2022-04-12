@@ -34,6 +34,7 @@ config-version: 25
 settings:
   use-dimension-type-for-custom-spawners: false
   chunk-loading:
+    player-max-chunk-load-rate: -1.0
     min-load-radius: 2
     max-concurrent-sends: 1000
     autoconfig-send-distance: true
@@ -49,9 +50,9 @@ settings:
   bungee-online-mode: true
   max-joins-per-tick: 3
   velocity-support:
-    enabled: false
-    online-mode: false
-    secret: ''
+    enabled: true
+    online-mode: true
+    secret: awd089NKBawehg278TA
   log-player-ip-addresses: true
   console:
     enable-brigadier-highlighting: true

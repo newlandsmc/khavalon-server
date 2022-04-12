@@ -25,6 +25,8 @@
 /plugins/CarbonChat/users/
 /plugins/BetterCommandSpy/data.yml
 /plugins/NoBedRespawnHandler/data/
+/plugins/Vulcan/violations.txt
+/plugins/OldExpeditions/data/
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/

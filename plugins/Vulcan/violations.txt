@@ -4114,3 +4114,61 @@
 [04-10-2022] [20:02:39] 7sss failed Jesus (Type B) [VL: 1] [Ping: 135] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=-0.009000000059607771 deltaXZ=0.11767624522689744
 [04-10-2022] [20:37:12] GlacierWaterfall failed Flight (Type E) [VL: 1] [Ping: 97] [TPS: 19.44] [Version: 1.18.2] [Client: Lunarclient:b4db1c9] ticks=6 acceleration=0.0 deltaY=0.0 delay=51 tp=4489
 [04-10-2022] [21:10:18] TheSilverFox101 failed Elytra (Type L) [VL: 1] [Ping: 100] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2722679252653677 pitch=-27.533283 rt=234461
+[04-10-2022] [21:39:26] discoskittengray failed Step *(Type C)* [VL: 1] [Ping: 110] [TPS: 20] [Version: 1.18.2] [Client: Lunarclient:b4db1c9] ticks=3 deltaY=-0.6516249999999957 distance=0.233632
+[04-10-2022] [21:47:43] TheSilverFox101 failed Elytra (Type L) [VL: 1] [Ping: 89] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.3333730987972103 pitch=-33.67829 rt=269121
+[04-10-2022] [21:47:43] TheSilverFox101 failed Elytra (Type L) [VL: 2] [Ping: 89] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.358368143333962 pitch=-33.67829 rt=269124
+[04-10-2022] [21:47:43] TheSilverFox101 failed Elytra (Type L) [VL: 3] [Ping: 89] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.3633194375290572 pitch=-33.67829 rt=269127
+[04-10-2022] [21:47:43] TheSilverFox101 failed Elytra (Type L) [VL: 4] [Ping: 89] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.3510208697059625 pitch=-33.67829 rt=269130
+[04-10-2022] [21:47:43] TheSilverFox101 failed Elytra (Type L) [VL: 5] [Ping: 89] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.3236799322416744 pitch=-33.075844 rt=269133
+[04-10-2022] [21:47:44] TheSilverFox101 failed Elytra (Type L) [VL: 6] [Ping: 89] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2679048738448273 pitch=-16.930302 rt=269136
+[04-10-2022] [21:54:46] DubGirl33 failed Jesus (Type E) [VL: 1] [Ping: 104] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=0.2130150087642915
+[04-10-2022] [23:05:09] TheSilverFox101 failed Elytra (Type L) [VL: 1] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.521966039679981 pitch=-34.15991 rt=6226
+[04-10-2022] [23:05:09] TheSilverFox101 failed Elytra (Type L) [VL: 2] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.5120154121853915 pitch=-33.436962 rt=6229
+[04-10-2022] [23:05:09] TheSilverFox101 failed Elytra (Type L) [VL: 3] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.4846005981422934 pitch=-32.954998 rt=6232
+[04-10-2022] [23:05:09] TheSilverFox101 failed Elytra (Type L) [VL: 4] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.4439681380175102 pitch=-32.954998 rt=6235
+[04-10-2022] [23:05:09] TheSilverFox101 failed Elytra (Type L) [VL: 5] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.3923631004562367 pitch=-32.954998 rt=6238
+[04-10-2022] [23:05:09] TheSilverFox101 failed Elytra (Type L) [VL: 6] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.3316010548329302 pitch=-32.954998 rt=6241
+[04-10-2022] [23:05:10] TheSilverFox101 failed Elytra (Type L) [VL: 7] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2632768713596363 pitch=-32.954998 rt=6244
+[04-10-2022] [23:05:20] TheSilverFox101 failed Elytra (Type L) [VL: 8] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2988540189520847 pitch=-29.460766 rt=6446
+[04-10-2022] [23:05:20] TheSilverFox101 failed Elytra (Type L) [VL: 9] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.3083749895189385 pitch=-29.460766 rt=6449
+[04-10-2022] [23:05:20] TheSilverFox101 failed Elytra (Type L) [VL: 10] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.302432793237898 pitch=-29.460766 rt=6452
+[04-10-2022] [23:05:20] TheSilverFox101 failed Elytra (Type L) [VL: 11] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.283137042846576 pitch=-29.460766 rt=6455
+[04-10-2022] [23:05:20] TheSilverFox101 failed Elytra (Type L) [VL: 12] [Ping: 83] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2517123339953855 pitch=-28.737831 rt=6458
+[04-10-2022] [23:13:07] TheSilverFox101 failed Elytra (Type L) [VL: 1] [Ping: 84] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2828238542388561 pitch=-29.46068 rt=12580
+[04-10-2022] [23:13:07] TheSilverFox101 failed Elytra (Type L) [VL: 2] [Ping: 84] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2839615703809386 pitch=-29.46068 rt=12583
+[04-10-2022] [23:13:07] TheSilverFox101 failed Elytra (Type L) [VL: 3] [Ping: 84] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2708909323472426 pitch=-29.46068 rt=12586
+[04-11-2022] [05:00:29] Golden_Phy failed Velocity (Type A) [VL: 1] [Ping: 133] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] tick=1 percent=-100.0000000000101% deltaY=-0.028125000000002842 velocity=0.028125
+[04-11-2022] [10:43:06] PikachuuJadenYT failed Scaffold (Type K) [VL: 1] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] amount=6
+[04-11-2022] [10:49:42] SleepyIsBad failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[04-11-2022] [10:49:43] SleepyIsBad failed Ground Spoof (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[04-11-2022] [10:50:36] SleepyIsBad failed Ground Spoof (Type B) [VL: 3] [Ping: 70] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[04-11-2022] [10:50:39] SleepyIsBad failed Ground Spoof (Type B) [VL: 1] [Ping: 70] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[04-11-2022] [10:50:39] SleepyIsBad failed Ground Spoof (Type B) [VL: 2] [Ping: 70] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[04-11-2022] [10:50:39] SleepyIsBad failed Ground Spoof (Type B) [VL: 3] [Ping: 70] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[04-11-2022] [10:50:39] SleepyIsBad failed Ground Spoof (Type B) [VL: 4] [Ping: 70] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[04-11-2022] [10:50:39] SleepyIsBad failed Ground Spoof (Type B) [VL: 5] [Ping: 70] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[04-11-2022] [12:58:43] CheesyCrumb failed Elytra (Type L) [VL: 1] [Ping: 127] [TPS: 20] [Version: 1.18.2] [Client: Lunarclient:b4db1c9] deltaY=1.27136392958829 pitch=-32.117096 rt=6279
+[04-11-2022] [12:58:43] CheesyCrumb failed Elytra (Type L) [VL: 2] [Ping: 127] [TPS: 20] [Version: 1.18.2] [Client: Lunarclient:b4db1c9] deltaY=1.261985526739025 pitch=-32.117096 rt=6282
+[04-12-2022] [14:18:13] Immunized failed Scaffold (Type G) [VL: 1] [Ping: 4] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] angle=0.7901729 delay=151 acceleration=3.373044042934148E-5
+[04-12-2022] [14:18:15] Immunized failed Scaffold (Type G) [VL: 2] [Ping: 4] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] angle=0.72926813 delay=299 acceleration=4.3989997615442866E-5
+[04-12-2022] [14:18:18] Immunized failed Scaffold (Type G) [VL: 3] [Ping: 4] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] angle=0.77988434 delay=251 acceleration=3.5628467963289E-5
+[04-12-2022] [14:18:20] Immunized failed Scaffold (Type G) [VL: 4] [Ping: 4] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] angle=0.76374006 delay=283 acceleration=3.773243513710556E-5
+[04-12-2022] [14:18:26] Immunized failed Scaffold (Type G) [VL: 5] [Ping: 7] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] angle=0.86020356 delay=160 acceleration=1.0371370759280907E-4
+[04-12-2022] [15:11:56] Immunized failed Jesus (Type E) [VL: 1] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaXZ=0.22304073268273725
+[04-12-2022] [15:32:05] Haxlotl failed Jesus (Type E) [VL: 1] [Ping: 31] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=0.2266572968712356
+[04-12-2022] [16:12:26] Immunized failed Jesus (Type E) [VL: 1] [Ping: 16] [TPS: 20] [Version: 1.18.2] [Client: Lunarclient:b4db1c9] deltaXZ=0.22667926022918303
+[04-12-2022] [18:46:40] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [18:46:40] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [18:46:40] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [18:46:40] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [18:46:40] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [18:46:45] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [18:46:45] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [18:46:45] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [18:46:45] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [18:46:45] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [18:46:54] OG_PLAYER_CHAD failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[04-12-2022] [19:03:36] Germanz_Narwhal failed Fast Break (Type A) [VL: 1] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] block=DARK_OAK_LOG diff=-282.0 tool=DIAMOND_AXE
+[04-12-2022] [19:03:36] Germanz_Narwhal failed Fast Break (Type A) [VL: 2] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] block=DARK_OAK_LOG diff=-282.0 tool=DIAMOND_AXE
+[04-12-2022] [19:03:36] Germanz_Narwhal failed Fast Break (Type A) [VL: 3] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] block=DARK_OAK_LOG diff=-281.0 tool=DIAMOND_AXE
+[04-12-2022] [19:03:36] Germanz_Narwhal failed Fast Break (Type A) [VL: 4] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] block=DARK_OAK_LOG diff=-281.0 tool=DIAMOND_AXE

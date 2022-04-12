@@ -12,7 +12,7 @@ mysql:
   enabled: true
   host: localhost
   port: 3306
-  database: aurelium
+  database: khavalon_aurelium
   username: aurelium
   password: NHCwp2D6NU9Z8cX5
   load-delay: 0

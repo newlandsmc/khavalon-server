@@ -65,7 +65,7 @@ general:
   integration:
     dynmap:
       land:
-        description: 'Someone lives here...'
+        description: Someone lives here...
         spawn: '<p><span style="font-size: 120%; color: #339966;"><span style="font-size:
           120%;">Spawnpoint</span></span></p><p>Open to visitors: {public}</p>'
       nation:

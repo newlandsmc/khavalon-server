@@ -9,7 +9,7 @@ use-mysql: true
 table-prefix: ''
 mysql-host: localhost
 mysql-port: 3306
-mysql-database: coreprotect
+mysql-database: khavalon_coreprotect
 mysql-username: coreprotect
 mysql-password: 3ZBwCESb6C65Rpda
 

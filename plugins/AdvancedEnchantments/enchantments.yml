@@ -489,29 +489,39 @@ explosive:
   levels:
     1:
       chance: 20
-      cooldown: 7
+      cooldown: 12
       effects:
+        - "PLAY_SOUND:ENTITY_CREEPER_PRIMED:0.7 %victim%"
+        - "WAIT:30"
         - "TNT:15 %victim%"
     2:
       chance: 30
-      cooldown: 7
+      cooldown: 12
       effects:
+        - "PLAY_SOUND:ENTITY_CREEPER_PRIMED:0.7 %victim%"
+        - "WAIT:30"
         - "TNT:15 %victim%"
     3:
       chance: 40
-      cooldown: 7
+      cooldown: 12
       effects:
+        - "PLAY_SOUND:ENTITY_CREEPER_PRIMED:0.7 %victim%"
+        - "WAIT:30"
         - "TNT:15 %victim%"
     4:
       chance: 50
-      cooldown: 6
+      cooldown: 11
       effects:
+        - "PLAY_SOUND:ENTITY_CREEPER_PRIMED:0.7 %victim%"
+        - "WAIT:30"
         - "TNT:15 %victim%"
     5:
       chance: 60
-      cooldown: 5
+      cooldown: 10
       effects:
-        - "TNT:15 %victim%"
+        - "PLAY_SOUND:ENTITY_CREEPER_PRIMED:0.7 %victim%"
+        - "WAIT:30"
+        - "TNT:15 %victim% location=%arrow hit%"
 ravenous:
   display: "%group-color%Ravenous"
   description: "Chance to regain hunger while fighting."
@@ -2066,15 +2076,18 @@ creeperarmor:
       chance: 7
       effects:
         - "STOP_ATTACK"
+        - 'MESSAGE:&5*** CREEPER ARMOR *** %victim%'
     2:
       chance: 11
       effects:
         - "STOP_ATTACK"
+        - 'MESSAGE:&5*** CREEPER ARMOR *** %victim%'
     3:
       chance: 15
       effects:
         - "STOP_ATTACK"
         - "ADD_HEALTH:<random number>1-2</random number>"
+        - 'MESSAGE:&5*** CREEPER ARMOR *** %victim%'
 bleed:
   display: "%group-color%Bleed"
   description: "Chance to make your opponent bleed."

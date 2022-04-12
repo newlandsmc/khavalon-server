@@ -773,7 +773,7 @@ database:
     port: '3306'
     username: lands
     password: eTdpfCe8nG6KrYTZ
-    database: lands
+    database: khavalon_lands
 
     # It is highly recommended to set a unique table prefix if the plugin shares a database with other plugins or Lands instances.
     table-prefix: ''

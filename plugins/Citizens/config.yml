@@ -39,6 +39,7 @@ npc:
       range: 5
     text:
       '0': Hi, I'm <npc>!
+    spawn-nodamage-ticks: 20
   chat:
     options:
       bystanders-hear-targeted-chat: false
