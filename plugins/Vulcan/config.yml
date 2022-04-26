@@ -615,11 +615,11 @@ discord-webhook:
   # The section for the Discord Webhook alerts
   alerts:
     # Whether or not Discord Webhook Alerts should be enabled
-    enabled: false
+    enabled: true
     # Paste the URL to your webhook here. For how to create a webhook, please see https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
-    url: 'insert-webhook-url-here'
+    url: 'https://discord.com/api/webhooks/965828215140663327/OOIpx7BzCn66ZLOcZQuvCs03Ikqg8zmvQWvvdh4RoOV-oxJRTzZhr7s8ysH8aDpDVFzu'
     # The avatar for the webhook
-    avatar: 'https://i.imgur.com/JPG1Kwk.png'
+    avatar: 'https://khavalon.com/assets/images/apple-touch-icon.png'
     # Thumbnail for the webhook
     thumbnail: 'http://cravatar.eu/avatar/%name%/64.png'
     # Colors for the webhook (use a website like https://www.rapidtables.com/web/color/RGB_Color.html to pick colors)
@@ -627,7 +627,7 @@ discord-webhook:
     color-g: 140
     color-b: 3
     # Username of the webhook
-    username: 'Vulcan'
+    username: 'Vulcan Khavalon'
     # Title of the webhook
     title: 'Vulcan Alert'
     # Description of the webhook
@@ -643,14 +643,14 @@ discord-webhook:
     ping-tps-field: true
   punishments:
     # Same settings and explanations as above
-    enabled: false
-    url: 'insert-webhook-url-here'
-    avatar: 'https://i.imgur.com/JPG1Kwk.png'
+    enabled: true
+    url: 'https://discord.com/api/webhooks/965828215140663327/OOIpx7BzCn66ZLOcZQuvCs03Ikqg8zmvQWvvdh4RoOV-oxJRTzZhr7s8ysH8aDpDVFzu'
+    avatar: 'https://khavalon.com/assets/images/apple-touch-icon.png'
     thumbnail: 'http://cravatar.eu/avatar/%name%/64.png'
     color-r: 255
     color-g: 0
     color-b: 0
-    username: 'Vulcan'
+    username: 'Vulcan Khavalon'
     title: 'Vulcan Punishment'
     description: '**%player%** was punished for %check% (Type %type%) [VL: %vl%]'
     content: ''

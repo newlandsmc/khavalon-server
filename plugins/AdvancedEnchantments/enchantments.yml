@@ -571,17 +571,17 @@ veinminer:
         - "VEIN_MINE"
 telepathy:
   display: "%group-color%Telepathy"
-  description: "Automatically places ores in your inventory."
-  applies-to: "Pickaxes, Axes, Hoes"
+  description: "Automatically places items in your inventory."
+  applies-to: "Pickaxes, Axes, Hoes, Shovels"
   type: "MINING"
   group: "UNCOMMON"
   applies:
-    - ALL_PICKAXES
+    - ALL_PICKAXE
+    - ALL_SHOVEL
     - ALL_AXE
     - ALL_HOE
   levels:
     1:
-      condition: "%block type% contains ORE or %block type% contains LOG or %is crop% = TRUE : %allow%"
       effects:
         - "TP_DROPS"
 enderslayer:
@@ -3512,6 +3512,10 @@ silence:
   applies-to: 'Swords, Axes, Tridents, Bows, Crossbows'
   type: 'ATTACK;BOW'
   group: 'FABLED'
+  settings:
+    not-applyable-with:
+      - "defuse"
+      - "deactivate"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -3681,6 +3685,10 @@ defuse:
   applies-to: "Swords, Axes, Tridents, Bows, Crossbows"
   type: 'ATTACK;BOW'
   group: 'FABLED'
+  settings:
+    not-applyable-with:
+      - "silence"
+      - "deactivate"
   applies:
     - ALL_SWORD
     - ALL_AXE
@@ -3774,6 +3782,10 @@ deactivate:
   applies-to: "Swords, Axes, Tridents, Bows, Crossbows"
   type: 'ATTACK;BOW'
   group: 'FABLED'
+  settings:
+    not-applyable-with:
+      - "silence"
+      - "defuse"
   applies:
     - ALL_SWORD
     - ALL_AXE

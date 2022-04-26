@@ -129,7 +129,7 @@ scripting:
     dir: craftscripts
 
 saving:
-    dir: schematics
+    dir: /var/minecraft/shared/schematics
 
 files:
     allow-symbolic-links: false

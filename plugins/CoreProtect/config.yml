@@ -87,16 +87,16 @@ buckets: true
 leaf-decay: true
 
 # Logs tree growth. Trees are linked to the player who planted the sappling.
-tree-growth: false
+tree-growth: true
 
 # Logs mushroom growth.
-mushroom-growth: false
+mushroom-growth: true
 
 # Logs natural vine growth.
-vine-growth: false
+vine-growth: true
 
 # Logs when portals such as Nether portals generate naturally.
-portals: false
+portals: true
 
 # Logs water flow. If water destroys other blocks, such as torches,
 # this allows it to be properly rolled back.
@@ -136,7 +136,7 @@ player-messages: false
 player-commands: false
 
 # Logs the logins and logouts of players.
-player-sessions: false
+player-sessions: true
 
 # Logs when a player changes their Minecraft username.
 username-changes: false
