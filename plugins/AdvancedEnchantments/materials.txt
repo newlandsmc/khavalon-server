@@ -1,4 +1,4 @@
-Valid Enums for git-Paper-290 (MC: 1.18.2)
+Valid Enums for git-Paper-311 (MC: 1.18.2)
 AIR
 STONE
 GRANITE

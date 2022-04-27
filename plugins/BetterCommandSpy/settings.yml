@@ -8,7 +8,7 @@ default-commandspy-state: false
 ignored-commands:
 
   # Should this function be enabled?
-  enabled: true
+  enabled: false
 
   # What type should the ignored commands list be?
   #   WHITELIST = commands in the list will be ignored
@@ -21,6 +21,7 @@ ignored-commands:
   list:
     - '/lands'
     - '/land'
+    - '/l'
 
 
 # Should BetterCommandSpy make sure players that have Command Spy toggled ON

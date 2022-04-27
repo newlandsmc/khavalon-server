@@ -14,7 +14,7 @@ loot: # specifies what files to pull the loot tables from (in loot folder)
 services:
   - "MinecraftServers.org"
   - "Top Minecraft Servers"
-  - "MCSL"
+  - "Minelist.net"
   - "PlanetMinecraft.com"
   - "Servers-Minecraft"
   - "Minecraft.Buzz"

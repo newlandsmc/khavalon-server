@@ -1,2 +1,10 @@
 message:
-  - '<red>You cannot throw a pearl through a door!'
+  - '<red>You cannot throw a pearl at non-full blocks! (doors, fences, etc)'
+blocked_items:
+  - 'CHAIN'
+  - 'IRON_BARS'
+  - '\w+_FENCE(_GATE)?'
+  - '\w+_PANE'
+  - '\w+_WALL' 
+  - '\w+_DOOR'
+  - '\w+_TRAPDOOR'

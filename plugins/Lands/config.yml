@@ -9,23 +9,13 @@
 
 # General options
 general:
-  # English (en-US)
-  # PRE configured languages:
-  # Please note that these rely on community contributions and may not be up to date.
-  # French (fr-FR) by Detrakeurr, Kolsark, Kittle
-  # German (de-DE) by Cryper
-  # Hungarian (hu-HU) by gbalint
-  # Italian (it-IT) by MiniMoro
-  # Russian (ru-RU) by _sil3nce
-  # Spanish (es-ES) by C4BR3R4
-  # Swedish (sv-SE) by Broken_Arrow1
-  # Polish (pl-PL) by Nideon
-  # Vietnamese (vi-VN) by anhcraft
-  # Chinese (zh-CN) by Ruii
-  # Taiwanese (zh-TW) by FallingEagle96
-  # Portuguese - Brazil (pt-BR) by Yamamot00, Splashwax
-  # Turkish (tr-TR) by SurvivorsDev
+  # Default: English (en-US) - no download required.
+  # You can access translations maintained by the community in our Discord: https://discord.gg/B4MAJVk
+  # To access them, execute /translate in the Discord server.
   language: en-US
+  # If false, chat message parts that are enclosed by [V]text[/T] will only be sent to players
+  # that have the lands.admin.verbose permission. This setting only applies to chat messages.
+  verbose: true
   # Date format
   # MM: Month
   # dd: Day of month

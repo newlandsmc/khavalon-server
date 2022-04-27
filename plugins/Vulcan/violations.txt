@@ -4593,3 +4593,7 @@
 [04-24-2022] [15:42:18] SleezyBean failed Fast Break (Type A) [VL: 1] [Ping: 470] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] block=STONE diff=-352.0 tool=IRON_PICKAXE
 [04-24-2022] [16:22:45] SleezyBean failed Jump (Type A) [VL: 1] [Ping: 419] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.03489401173483486 ticks=3 difference=0.2132419868561115
 [04-24-2022] [20:22:17] Krylicz failed Invalid *(Type A)* [VL: 1] [Ping: 36] [TPS: 20] [Version: 1.18] [Client: Vanilla] dXZ=3.2049692839019728 max=1.2000000476837158
+[04-26-2022] [16:33:31] robotic_ramen100 failed Flight (Type B) [VL: 1] [Ping: 46] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=-0.0486828082840276 difference=0.0611506256223122 ticks=79 delay=49 tp=78
+[04-26-2022] [16:33:31] robotic_ramen100 failed Flight (Type B) [VL: 2] [Ping: 46] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=-0.09187290796233327 difference=0.06986683258624643 ticks=83 delay=53 tp=82
+[04-26-2022] [21:34:56] Bodgers16 failed Flight (Type B) [VL: 1] [Ping: 102] [TPS: 20] [Version: 1.18] [Client: Vanilla] deltaY=0.13240637761244045 difference=0.09148356492354619 ticks=16 delay=50 tp=15
+[04-26-2022] [21:34:56] Bodgers16 failed Flight (Type B) [VL: 2] [Ping: 102] [TPS: 20] [Version: 1.18] [Client: Vanilla] deltaY=0.3400000110268593 difference=0.28029340914600126 ticks=18 delay=54 tp=17

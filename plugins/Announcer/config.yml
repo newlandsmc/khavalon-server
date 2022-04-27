@@ -63,7 +63,7 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Enjoying the server? Please consider donating'
-    - 'at <click:open_url:https://store.khavalon.com><gradient:yellow:red>https://store.khavalon.com</gradient></click>!'
+    - 'at <click:open_url:https://store.semivanilla.com><gradient:yellow:red>https://store.semivanilla.com</gradient></click>!'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   2:
@@ -105,7 +105,7 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Grinding Skills XP? Boost XP earned for the entire'
-    - 'server at <click:open_url:https://store.khavalon.com><gradient:yellow:red>http://store.khavalon.com</gradient></click>.'
+    - 'server at <click:open_url:https://store.semivanilla.com><gradient:yellow:red>http://store.semivanilla.com</gradient></click>.'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   8:
