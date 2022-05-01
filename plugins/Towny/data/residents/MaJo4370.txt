@@ -1,0 +1,14 @@
+uuid=d17fb8b8-d20d-4e90-8a69-cce53328708d
+lastOnline=1651337304163
+registered=1651259565768
+joinedTownAt=1651259689089
+isNPC=false
+title=
+surname=
+town=Jeffery_epstein
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

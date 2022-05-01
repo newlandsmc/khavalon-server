@@ -1,0 +1,14 @@
+uuid=06b12472-f8bc-415b-8b8c-f93df6c24548
+lastOnline=1651354742619
+registered=1651258956794
+joinedTownAt=1651354180273
+isNPC=false
+title=
+surname=
+town=base
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

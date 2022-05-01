@@ -61,9 +61,10 @@ location-cache-filler:
 #   grief-prevention : Support for the GriefPrevention plugin. Players will not land in claims.
 land-claim-support:
   force-disable-all: false
-  grief-prevention: false
+  grief-prevention: true
   world-guard: true
-  husk-towns: false
+  husk-towns: true
+  lands: true
 
 #### logging
 # Which messages do you want to log? You can ignore log messages for settings that are disabled.

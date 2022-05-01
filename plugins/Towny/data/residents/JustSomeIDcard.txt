@@ -1,0 +1,14 @@
+uuid=fdbd6451-9ccf-424b-ab2e-072e8f3d7247
+lastOnline=1651335453360
+registered=1651301313605
+joinedTownAt=1651320014954
+isNPC=false
+title=
+surname=
+town=EndHub
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

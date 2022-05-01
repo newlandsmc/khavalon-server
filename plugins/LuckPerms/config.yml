@@ -546,7 +546,7 @@ apply-bukkit-default-permissions: false
 #   session, or until they're removed.
 # - If this option is set to false, LuckPerms will not include these attachment permissions when
 #   considering if a player should have access to a certain permission.
-apply-bukkit-attachment-permissions: false
+apply-bukkit-attachment-permissions: true
 
 # +----------------------------------------------------------------------------------------------+ #
 # | Extra settings                                                                               | #

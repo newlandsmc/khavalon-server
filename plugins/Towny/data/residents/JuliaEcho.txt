@@ -1,0 +1,14 @@
+uuid=62a7b827-750b-4920-b5af-b04086ee0d99
+lastOnline=1651349341905
+registered=1651311432284
+joinedTownAt=1651349120114
+isNPC=false
+title=LittleBee
+surname=
+town=DumbWeebs
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

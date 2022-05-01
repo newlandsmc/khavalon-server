@@ -4597,3 +4597,29 @@
 [04-26-2022] [16:33:31] robotic_ramen100 failed Flight (Type B) [VL: 2] [Ping: 46] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=-0.09187290796233327 difference=0.06986683258624643 ticks=83 delay=53 tp=82
 [04-26-2022] [21:34:56] Bodgers16 failed Flight (Type B) [VL: 1] [Ping: 102] [TPS: 20] [Version: 1.18] [Client: Vanilla] deltaY=0.13240637761244045 difference=0.09148356492354619 ticks=16 delay=50 tp=15
 [04-26-2022] [21:34:56] Bodgers16 failed Flight (Type B) [VL: 2] [Ping: 102] [TPS: 20] [Version: 1.18] [Client: Vanilla] deltaY=0.3400000110268593 difference=0.28029340914600126 ticks=18 delay=54 tp=17
+[04-28-2022] [00:50:07] phoenix_inferno_ failed Kill Aura (Type A) [VL: 1] [Ping: 188] [TPS: 20] [Version: 1.18.2] [Client: Fabric] delay=98
+[04-28-2022] [00:50:12] phoenix_inferno_ failed Kill Aura (Type A) [VL: 2] [Ping: 188] [TPS: 20] [Version: 1.18.2] [Client: Fabric] delay=93
+[04-28-2022] [00:51:37] phoenix_inferno_ failed Kill Aura (Type A) [VL: 3] [Ping: 247] [TPS: 20] [Version: 1.18.2] [Client: Fabric] delay=61
+[04-28-2022] [00:55:39] phoenix_inferno_ failed Kill Aura (Type A) [VL: 1] [Ping: 245] [TPS: 20] [Version: 1.18.2] [Client: Fabric] delay=69
+[04-28-2022] [00:55:48] phoenix_inferno_ failed Kill Aura (Type A) [VL: 2] [Ping: 243] [TPS: 20] [Version: 1.18.2] [Client: Fabric] delay=67
+[04-28-2022] [00:55:54] phoenix_inferno_ failed Kill Aura (Type A) [VL: 3] [Ping: 243] [TPS: 20] [Version: 1.18.2] [Client: Fabric] delay=49
+[04-28-2022] [00:57:52] phoenix_inferno_ failed Kill Aura (Type A) [VL: 4] [Ping: 242] [TPS: 20] [Version: 1.18.2] [Client: Fabric] delay=66
+[04-28-2022] [02:53:08] Immunized failed Bad Packets (Type M) [VL: 1] [Ping: 17] [TPS: 20] [Version: 1.18] [Client: Unresolved] delay=53
+[04-28-2022] [03:53:31] phoenix_inferno_ failed Step (Type C) [VL: 1] [Ping: 245] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] ticks=8 deltaY=-0.8775135022631275 distance=0.8775135
+[04-28-2022] [10:44:43] Stormatrix failed Bad Packets (Type A) [VL: 1] [Ping: 91] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] flying=false
+[04-28-2022] [10:44:43] Stormatrix failed Bad Packets (Type A) [VL: 2] [Ping: 91] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] flying=false
+[04-28-2022] [10:44:43] Stormatrix failed Bad Packets (Type A) [VL: 3] [Ping: 91] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] flying=false
+[04-29-2022] [08:17:48] phoenix_inferno_ failed Fast Place *(Type B)* [VL: 1] [Ping: 561] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] blocks=5 delay=0
+[04-29-2022] [08:17:48] phoenix_inferno_ failed Fast Place *(Type B)* [VL: 2] [Ping: 561] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] blocks=5 delay=1
+[04-29-2022] [08:17:48] phoenix_inferno_ failed Fast Place *(Type B)* [VL: 3] [Ping: 561] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] blocks=5 delay=0
+[04-29-2022] [08:17:48] phoenix_inferno_ failed Fast Place *(Type B)* [VL: 4] [Ping: 561] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] blocks=5 delay=0
+[04-29-2022] [14:22:45] Camarena failed Jesus (Type C) [VL: 1] [Ping: 98] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] deltaY=0.0
+[04-30-2022] [13:33:04] Genip failed Step (Type C) [VL: 1] [Ping: 29] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] ticks=6 deltaY=-0.5649457473579815 distance=0.56494576
+[04-30-2022] [13:41:14] Genip failed Jesus (Type E) [VL: 1] [Ping: 30] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=0.17324455523818894
+[04-30-2022] [13:41:56] Genip failed Jesus (Type E) [VL: 2] [Ping: 29] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=0.21742446034800458
+[04-30-2022] [13:43:47] Genip failed Jesus (Type E) [VL: 3] [Ping: 30] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=0.18116792910201898
+[04-30-2022] [14:42:13] JonYngve failed Bad Packets (Type K) [VL: 1] [Ping: 121] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] delay=4
+[04-30-2022] [15:07:07] JonYngve failed Jesus (Type E) [VL: 1] [Ping: 123] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=0.22981304034058103
+[04-30-2022] [19:42:07] PopGoesDeWeasel failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[04-30-2022] [19:42:07] PopGoesDeWeasel failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[04-30-2022] [19:42:07] PopGoesDeWeasel failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false

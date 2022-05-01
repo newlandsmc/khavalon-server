@@ -1,0 +1,14 @@
+uuid=f85be716-9e3c-45b2-bf9f-1eb78ca820a7
+lastOnline=1651360379934
+registered=1651254881094
+joinedTownAt=1651255942946
+isNPC=false
+title=Panter
+surname=
+town=Jeffery_epstein
+town-ranks=
+nation-ranks=assistant
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

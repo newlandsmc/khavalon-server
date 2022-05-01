@@ -1,0 +1,14 @@
+capital=Euro
+nationBoard=/nation set board [msg]
+mapColorHexCode=4b0082
+allies=
+enemies=
+taxes=0.0
+spawnCost=0.0
+neutral=false
+uuid=2f75df28-7151-4bdb-bc3e-466a63868028
+registered=1651283420130
+nationSpawn=world,-1016.5,73.1,-11146.5,89.899994,-179.974
+isPublic=false
+isOpen=false
+metadata=

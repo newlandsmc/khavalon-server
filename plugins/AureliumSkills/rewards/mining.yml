@@ -11,28 +11,4 @@ patterns:
     pattern:
       start: 2
       interval: 2
-  - type: command
-    executor: console
-    command: lp user {player} permission set lands.chunks.%math_0:0_{level}+15%
-    menu_message: \n\n&eMore land!\n  &7+5 chunks for owned lands
-    chat_message: \n  &eMore land!&7 - +5 chunks for owned lands
-    pattern:
-      start: 5
-      interval: 5
-  - type: command
-    executor: console
-    command: lp user {player} permission unset lands.chunks.%math_0:0_{level}+10%
-    pattern:
-      start: 5
-      interval: 5
 levels:
-  25:
-    - type: permission
-      permission: lands.ownlands.4
-      menu_message: \n\n&eMore land!\n  &7+1 land claim
-      chat_message: \n  &eMore land!&7 - +1 land claim
-  50:
-    - type: permission
-      permission: lands.ownlands.5
-      menu_message: \n\n&eMore land!\n  &7+1 land claim
-      chat_message: \n  &eMore land!&7 - +1 land claim

@@ -1,0 +1,14 @@
+capital=Random
+nationBoard=/nation set board [msg]
+mapColorHexCode=ffff00
+allies=
+enemies=
+taxes=0.0
+spawnCost=0.0
+neutral=false
+uuid=df62728b-246c-47e7-b3ed-1d827f7c4b18
+registered=1651311643678
+nationSpawn=world,618.5,75.1,-4153.5,23.1013,106.34406
+isPublic=false
+isOpen=false
+metadata=

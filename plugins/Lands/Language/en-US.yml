@@ -607,14 +607,14 @@ lands:
         disabled: '&cYour Elytra has been disabled. &cYou''re missing permission to
           fly here.'
       enter:
-        land: '#t#&f{land}[newline]{title}'
-        camp: '#t#&f{land}[newline]{title}'
-        admin: '#t#&f{land}[newline]{title}'
+        land: ''
+        camp: ''
+        admin: ''
         pvp-warning: ''
       leave:
-        land: '#t# [newline]Entering Wilderness'
-        camp: '#t# [newline]Entering Wilderness'
-        admin: '#t# [newline]Entering Wilderness'
+        land: ''
+        camp: ''
+        admin: ''
       level:
         up: '&a{object} leveled up! New level: {level}'
         down: '&c{object} leveled down. New level: {level} use elytras here.'
@@ -1656,6 +1656,7 @@ nations:
         &7They can invite your land by executing &e/nations trust&7.'
       already: '&cYour land&4 {land} &cis already part of nation&4 {nation}&c. &7You
         need to leave it first by executing &e/nations leave&7.'
+      success: '&7Your land&2 {land} &7is now part of nation&9 {nation}&7.'
     deny:
       success: '&7You successfully denied the invite from nation&9 {nation}&7.'
     untrust:

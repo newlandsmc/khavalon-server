@@ -87,6 +87,9 @@ general:
     managed:
       nation: '&cManaged by Nation'
       land: '&cManaged by Lands'
+    role:
+      capital: '&4&lCapital'
+      land: '&2&lLand'
   inbox-filter:
     members: '&eMembers ☺'
     economy: '&cEconomy $'
@@ -515,6 +518,12 @@ gui:
           - ''
           - ' &8• &7Set spawn point:'
           - '   &e/lands setspawn'
+        level_camp:
+          material: EXPERIENCE_BOTTLE
+          slots: 16
+          name: '&6&lLevel'
+          lore:
+          - '&cCamps don''t have any levels.'
     title: '&8{level} {land}'
   
   list_land_areas:
@@ -1794,51 +1803,6 @@ gui:
           material: OAK_FENCE
           slots: 26
   
-  land_info:
-    title: '&8{land} &7> &8Info'
-    items:
-      default:
-        created:
-          name: '&6&lCreated'
-          lore:
-          - '&5{date}'
-          material: CLOCK
-          slots: 20
-        players:
-          name: '&6&lPlayers &8(&7{amount}&8)'
-          lore:
-          - '&e{players}'
-          material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0=
-          slots: 22
-        level:
-          name: '&6&lLevel'
-          lore:
-          - '&8✖ &7Click here to view information'
-          - '   &7about the current and next level.'
-          material: BEACON
-          slots: 24
-        level_camp:
-          name: '&6&lLevel'
-          lore:
-          - '&cCamps don''t have any levels.'
-          material: BEACON
-          slots: 24
-        war:
-          name: '&6&lWin Ratio:'
-          lore:
-          - ' &8• &7Won: {won}'
-          - ' &8• &7Lost: {lost}'
-          - '   &8= &7WLR:&3 {wlr}'
-          - ''
-          - '&6&lKill Ratio:'
-          - ' &8• &7Kills: {kills}'
-          - ' &8• &7Deaths: {deaths}'
-          - '   &8= &7KDR:&3 {kdr}'
-          - ''
-          - '&8• &7Captures: {captures}'
-          material: IRON_SWORD
-          slots: 26
-  
   list_level_progress:
     title: '&8Level Progress'
     items:
@@ -2522,15 +2486,6 @@ gui:
           - '   &7Get more information'
           - '   &7about this land.'
           material: INHERIT
-        entry_capital:
-          name: '&4&lCapital {land}'
-          lore:
-          - '&7{title}'
-          - ''
-          - '&8✖ &7View information about this land.'
-          - '   &7The capital can set taxes and edit'
-          - '   &7all nation related settings.'
-          material: INHERIT
   
   list_nation_effects:
     title: '&8Effects'
@@ -2831,6 +2786,80 @@ gui:
           - '&8✖ &7Delete a admin land completely.'
           material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTljZGI5YWYzOGNmNDFkYWE1M2JjOGNkYTc2NjVjNTA5NjMyZDE0ZTY3OGYwZjE5ZjI2M2Y0NmU1NDFkOGEzMCJ9fX0=
           slots: 42
+  object_info:
+    items:
+      default:
+        created:
+          material: CLOCK
+          slots: 11
+          name: '&6&lCreated'
+          lore:
+          - '&5{date}'
+        players:
+          material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiOGM2YTQ2ZDg3Y2Y4NmE1NWRmMjE0Y2Y4NGJmNDVjY2EyNWVkYjlhNjc2ZTk2MzY0ZGQ2YTZlZWEyMzViMyJ9fX0=
+          slots: 13
+          name: '&6&lPlayers &8(&7{amount}&8)'
+          lore:
+          - '&e{players}'
+        lands:
+          material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
+          slots: 13
+          name: '&6&lLands &8(&7{amount}&8)'
+          lore:
+          - '&e{lands}'
+        level:
+          material: BEACON
+          slots: 15
+          name: '&6&lLevel'
+          lore:
+          - '&8✖ &7Click here to view information'
+          - '   &7about the current and next level.'
+        level_camp:
+          material: BEACON
+          slots: 15
+          name: '&6&lLevel'
+          lore:
+          - '&cCamps don''t have any levels.'
+        relations:
+          material: LIME_BANNER
+          slots: 29
+          name: '&6&lRelations'
+          lore:
+          - '&8✖ &7View relations.'
+        war:
+          material: IRON_SWORD
+          slots: 31
+          name: '&6&lWin Ratio:'
+          lore:
+          - ' &8• &7Won: {won}'
+          - ' &8• &7Lost: {lost}'
+          - '   &8= &7WLR:&3 {wlr}'
+          - ''
+          - '&6&lKill Ratio:'
+          - ' &8• &7Kills: {kills}'
+          - ' &8• &7Deaths: {deaths}'
+          - '   &8= &7KDR:&3 {kdr}'
+          - ''
+          - '&8• &7Captures: {captures}'
+    title: '&8{object}'
+  object_info_relations:
+    items:
+      default:
+        allies:
+          material: LIME_BANNER
+          slots: 21
+          name: '&a&lAllies'
+          lore:
+          - '&8✖ &7View allies.'
+          - '   &8• &7Amount: {allies}'
+        enemies:
+          material: RED_BANNER
+          slots: 25
+          name: '&c&lEnemies'
+          lore:
+          - '&8✖ &7View enemies.'
+          - '   &8• &7Amount: {enemies}'
+    title: '&8Relations'
 skull:
   area:
     default: DARK_OAK_FENCE

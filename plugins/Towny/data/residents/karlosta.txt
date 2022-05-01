@@ -1,0 +1,14 @@
+uuid=defc2af5-1363-4720-b3cc-9ee06b508249
+lastOnline=1651332221610
+registered=1651301809155
+joinedTownAt=1651312049046
+isNPC=false
+title=
+surname=
+town=Random
+town-ranks=
+nation-ranks=
+friends=Random__Rob
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

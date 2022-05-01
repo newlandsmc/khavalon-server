@@ -1,0 +1,14 @@
+uuid=296a9ac7-cf08-4518-8b8a-a563e2ead30b
+lastOnline=1651292322307
+registered=1651290273205
+joinedTownAt=1651291341204
+isNPC=false
+title=
+surname=
+town=Aurora_Borealis
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

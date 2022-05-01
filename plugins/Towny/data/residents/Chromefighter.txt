@@ -1,0 +1,14 @@
+uuid=3ebde074-41e3-4bde-bd9c-50a42b4106e5
+lastOnline=1651263299457
+registered=1651259444044
+joinedTownAt=1651262730499
+isNPC=false
+title=
+surname=
+town=Schildibay
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

@@ -1,0 +1,14 @@
+uuid=9ea8e04c-4d9d-4ded-a7f2-e78182830640
+lastOnline=1651269374319
+registered=1651269231004
+joinedTownAt=1651269257676
+isNPC=false
+title=
+surname=
+town=Defiance
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

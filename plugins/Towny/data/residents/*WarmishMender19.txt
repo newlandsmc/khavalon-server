@@ -1,0 +1,14 @@
+uuid=00000000-0000-0000-0009-01f6a3086745
+lastOnline=1651339425353
+registered=1651279868855
+joinedTownAt=1651280202194
+isNPC=false
+title=
+surname=
+town=Euro
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

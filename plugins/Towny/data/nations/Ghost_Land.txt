@@ -1,0 +1,14 @@
+capital=Toine_Flames_land
+nationBoard=/nation set board [msg]
+mapColorHexCode=808000
+allies=
+enemies=
+taxes=0.0
+spawnCost=0.0
+neutral=false
+uuid=69d05f92-9aad-41d0-ba4d-57095da10307
+registered=1651315419604
+nationSpawn=world,-4239.5,88.1,4585.5,55.500225,-78.185394
+isPublic=false
+isOpen=false
+metadata=

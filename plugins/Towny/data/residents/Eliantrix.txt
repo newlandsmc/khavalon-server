@@ -1,0 +1,14 @@
+uuid=ffe232f0-9d49-4b6e-865e-83aecfb119f2
+lastOnline=1651332904801
+registered=1651326899084
+joinedTownAt=1651328353677
+isNPC=false
+title=
+surname=
+town=Derpton
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

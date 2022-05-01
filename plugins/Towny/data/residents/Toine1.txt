@@ -1,0 +1,14 @@
+uuid=e07cb60a-ccc6-486c-b293-4e10582c08a5
+lastOnline=1651355016640
+registered=1651255192981
+joinedTownAt=1651258644625
+isNPC=false
+title=
+surname=
+town=Toine_Flames_land
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

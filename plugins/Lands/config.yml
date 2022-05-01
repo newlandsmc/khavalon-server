@@ -821,7 +821,7 @@ integration:
   # Supports (Dynmap, BlueMap, squaremap)
   # All three can be used at the same time.
   web:
-    enabled_12: true
+    enabled_12: false
     # Should land markers be hidden by default?
     hide: false
     # Set the spawn icon

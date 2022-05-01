@@ -24,7 +24,7 @@ declaration:
   online: true
   # Should a broadcast message be sent to the whole server?
   # You can edit the message in your language file.
-  broadcast: true
+  broadcast: false
   # Should war declarations need a mutual acceptation?
   # If enabled, the defender land needs to confirm the declaration before the war can start. They need to do this by executing /Wars declare <attacker>
   # They can deny a war declaration by executing /Wars deny
@@ -33,18 +33,18 @@ declaration:
     enabled_2: false
     # Should the declaration be deleted if the enemy did not accept it during the configured period?
     # You can disable this by setting the value to 0.
-    timeout: 5d
+    timeout: 3d
   # Set minimum land balance for attackers to be able to start a war.
-  min-balance: 5000
+  min-balance: 0
 
 # Configure points
 points:
   # Get x points per kill
   kill: 5
   # Get x points per capture
-  capture: 5
+  capture: 10
   # Get x points if you destroy a capture block of the enemy.
-  cap-destroy: 3
+  cap-destroy: 5
   # How many points does a team need to win?
   # Calculation: <team with the smallest amount of members> * towin-per-player
   towin:
@@ -64,7 +64,7 @@ capture:
   # Set the maximum amount of capture points a team can have placed at the same time.
   max: 3
   # Only allow the team to place a capture point every period.
-  place-cooldown_time: 10m
+  place-cooldown_time: 30m
   # Set the chunks radius that will be affected by the capture point. Invaders will start capturing once they enter the claimed area.
   # If set to 1, only the chunk in which the capture point is placed in, is affected.
   # NOTE: This shouldn't be greater than your servers view distance.
@@ -74,15 +74,15 @@ capture:
   # Should the unclaimed area become claimed by the enemy?
   claim: false
   # The invaders need to hold the capture time this long, to capture the chunk.
-  hold_time: 10m
+  hold_time: 15m
   # Spawn a firework every period, if any players are in the area.
   firework_time: 30s
   # Should a capture point item be dropped at removal of the capture point?
   drop: false
   # Limit y levels on which capture points are placeable.
   y:
-    min: 30
-    max_2: 127
+    min: 32
+    max_2: 320
 
 sounds:
   capture:
@@ -94,7 +94,7 @@ status-interval: 15m
 
 # Set the max time a war can hold on. When this time is over the team with the most kills will win. If both teams have the same amount of kills, it will end in a draw and no team will be rewarded.
 # Default: 1,5 days
-timeout: 36h
+timeout: 7d
 
 # Should players, which are engaged in a war, be hidden from dynmap?
 # NOTE: It's currently not possible to do that with BlueMap.
@@ -149,7 +149,7 @@ surrender:
   # Tribute settings
   tribute:
     # If you disable this option, the opposite team will be able to surrender even if no tribute is set.
-    force: true
+    force: false
 
     # Max tribute settings
     max:
@@ -160,7 +160,7 @@ surrender:
       # Use % to set a specific percentage of the defenders land balance.
       # Use normal numbers to set a total amount of money.
       # If you have banks disabled, the money will be taken from the land owner.
-      defender: 75%
+      defender: 0%
       # In the case that the attackers voluntarily surrender in a war, regardless
       # of the tribute size, the attackers will pay in favor of the
       # defenders, the amount of money set in this variable.
@@ -169,7 +169,7 @@ surrender:
       # Use normal numbers to set a total amount of money.
       # If you have banks disabled, the money will be taken from the land owner.
       # NOTE: You can set this to 0 to disable it.
-      attacker: 5000
+      attacker: 0
 
 # War settings, which can also be chaned ingame by players.
 # Please note that they need certain permissions in order to change the settings. You can find them in the wiki.
@@ -189,7 +189,7 @@ shield:
     # Minutes: m
     # Hours: h
     # Days: d
-    land-creation: 0
+    land-creation: 7d
 
     # Set a war shield for a land after it surrendered?
     # If you want to disable this, just set the value to 0.
@@ -250,7 +250,7 @@ combat:
     # NOTE: This setting requires server reload / restart.
     min-players: 1
     # Set a time period where players are still able to attack the land after the last player of the target land left the server.
-    logging-cooldown: 1m
+    logging-cooldown: 15s
   # Allies are lands that are part of the same nation.
   allies:
     # Should it be possible to destroy the ally lands of the target?

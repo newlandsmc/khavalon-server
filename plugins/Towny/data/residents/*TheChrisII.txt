@@ -1,0 +1,14 @@
+uuid=00000000-0000-0000-0009-000006ea03b8
+lastOnline=1651362784174
+registered=1651271466771
+joinedTownAt=1651277163121
+isNPC=false
+title=
+surname=
+town=Grassland
+town-ranks=
+nation-ranks=assistant
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=

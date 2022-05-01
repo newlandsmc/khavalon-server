@@ -1,0 +1,14 @@
+uuid=dff353cc-5fce-4d0f-8eec-8e2fcf9d5cda
+lastOnline=1651301796810
+registered=1651301410455
+joinedTownAt=1651301651803
+isNPC=false
+title=
+surname=
+town=big_sussy_amogus
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse
+metadata=
