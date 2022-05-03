@@ -1,0 +1,5 @@
+SUMMON_VAMPIRE_BATS:
+  Conditions:
+  - mobsInRadius{type=VampireBat;amount<8;radius=30}
+  Skills:
+  - summon{type=VampireBat;amount=2;radius=16} @self

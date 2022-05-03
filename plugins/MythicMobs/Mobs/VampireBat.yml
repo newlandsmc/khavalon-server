@@ -1,6 +1,6 @@
 VampireBat:
   Type: PARROT
-  Display: '&cVampire Bat'
+  Display: '&aVampire Bat'
   Health: 14
   Damage: 2
   Disguise: BAT setCustomNameVisible false
@@ -10,17 +10,18 @@ VampireBat:
     Silent: true
     PreventOtherDrops: true
     ShowName: false
-    Despawn: true
+    Despawn: chunk
+  Modules:
+    ThreatTable: true
   AITargetSelectors:
-  - 0 hurtbytarget
-  - 1 players
+  - players
   AIGoalSelectors:
-  - 0 meleeattack
-  - 1 randomfly
-  - 2 randomfly
-  - 3 randomfly
+  - meleeattack
+  - randomfly
+  - fleesun
   Skills:
-  - consume{damage=1;heal=2} @target ~onAttack
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - skill{s=SUMMON_VAMPIRE_BATS} ~onEnterCombat
   - rally{radius=30;types=VampireBat} @target ~onAttack
   - effect:sound{s=entity.bat.loop;p=0.1;v=0.05} @self ~onTimer:40
   - effect:sound{s=entity.bat.ambient;p=0.1;v=0.02} @self ~onTimer:4 0.1

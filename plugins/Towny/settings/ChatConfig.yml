@@ -74,15 +74,15 @@ chatconfigcomments: ''
 channel_formats:
   # This is the format which will be used for GLOBAL chat/channels.
   # This is also the format used when you have modify_chat.enable: true, but use other plugins to handle chat.
-  global: '{channelTag} {worldname}{townytagoverride}{townycolor}{permprefix}{group} {townyprefix}{modplayername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+  global: '&f[&#d5d5d5{townyprefix}&f] {modplayername}&f: {msg}'
   # TOWN channel types.
-  town: '{channelTag} {townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+  town: '{channelTag} [{townyprefix}] {playername}: {msg}'
   # NATION channel types.
-  nation: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+  nation: '{channelTag} [{townyprefix}] {playername}: {msg}'
   # ALLIANCE channel types.
-  alliance: '{channelTag} {towntagoverride}{townycolor}{permprefix}{townyprefix}{playername}{townypostfix}{permsuffix}&f:{msgcolour} {msg}'
+  alliance: '{channelTag} [{townyprefix}] {playername}: {msg}'
   # DEFAULT channel types.
-  default: '{channelTag} {permprefix}{playername}{permsuffix}&f:{msgcolour} {msg}'
+  default: '{channelTag} {playername}: {msg}'
   
 tag_formats:
   world: '&f[&f%s&f] '
@@ -102,7 +102,7 @@ modify_chat:
   # When true Towny will format all ChannelTypes,
   # When false Towny will only format TOWN, NATION, ALLIANCE, DEFAULT types.
   # When false Towny will not format GLOBAL types, leaving other chat plugins to do the work.
-  enable: 'false'
+  enable: 'true'
   # If true the chat formats will be read from below to allow per world formatting.
   # These can then be altered individually.
   per_world: 'false'

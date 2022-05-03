@@ -38,9 +38,9 @@
 
 Channels:
     general:
-        commands: [g]
+        commands: [g,global]
         type: GLOBAL
-        channeltag: '&f[g]'
+        channeltag: ''
         messagecolour: '&f'
         permission: 'towny.chat.general'
         default: true
@@ -48,52 +48,44 @@ Channels:
         spam_time: '0.5'
         
     town:
-        commands: [tc]
+        commands: [townchat,tc]
         type: TOWN
-        channeltag: '&f[&3TC&f]'
-        messagecolour: '&b'
+        channeltag: '&3[Town Chat]'
+        messagecolour: '&3'
         permission: 'towny.chat.town'
         range: '-1'
         spam_time: '0.5'
          
     nation:
-        commands: [nc]
+        commands: [nationchat,nc]
         type: NATION
-        channeltag: '&f[&6NC&f]'
-        messagecolour: '&e'
+        channeltag: '&6[Nation Chat]'
+        messagecolour: '&6'
         permission: 'towny.chat.nation'
         range: '-1'
         spam_time: '0.5'
 
     alliance:
-        commands: [ac]
+        commands: [alliancechat,ac]
         type: ALLIANCE
-        channeltag: '&f[&2AC&f]'
-        messagecolour: '&a'
+        channeltag: '&2[Alliance Chat]'
+        messagecolour: '&2'
         permission: 'towny.chat.alliance'
         range: '-1'
         spam_time: '0.5'
 
-    admin:
-        commands: [a,admin]
-        type: DEFAULT
-        channeltag: '&f[&4ADMIN&f]'
-        messagecolour: '&c'
-        permission: 'towny.chat.admin'
-        range: '-1'
-        
-    mod:
-        commands: [m,mod]
-        type: DEFAULT
-        channeltag: '&f[&9MOD&f]'
-        messagecolour: '&5'
-        permission: 'towny.chat.mod'
-        range: '-1'
+#    staff:
+#        commands: [staff,sc]
+#        type: DEFAULT
+#        channeltag: '&e[Staff Chat]'
+#        messagecolour: '&e'
+#        permission: 'towny.chat.staff'
+#        range: '-1'
         
     local:
-        commands: [l,lc]
-        type: GLOBAL
-        channeltag: '&f[local]'
-        messagecolour: '&f'
+        commands: [local,l,lc]
+        type: DEFAULT
+        channeltag: '&7[Local Chat]'
+        messagecolour: '&7'
         permission: 'towny.chat.local'
         range: '100'

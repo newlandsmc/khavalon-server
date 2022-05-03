@@ -8,6 +8,10 @@ SkeletalKnight:
   Display: '&aSkeletal Knight'
   Health: 30
   Damage: 5
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  Modules:
+    ThreatTable: true
   Equipment:
   - IRON_HELMET HEAD
   - IRON_CHESTPLATE CHEST
@@ -25,12 +29,15 @@ SkeletalKnight:
 
 SkeletonKing:
   Type: WITHER_SKELETON
-  Display: '&6Skeleton King'
+  Display: '&aSkeleton King'
   Health: 100
   Damage: 7
   Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
   - skill{s=SummonSkeletons} @self 0.1
   - skill{s=SmashAttack} @target >0 0.2
+  Modules:
+    ThreatTable: true
   Equipment:
   - KingsCrown HEAD
   - SkeletonKingSword HAND
@@ -44,29 +51,20 @@ SkeletonKing:
 
 SkeletalMinion:
   Type: SKELETON
-  Display: '&2Skeletal Minion'
+  Display: '&aSkeletal Minion'
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  Modules:
+    ThreatTable: true
   Health: 10
   Damage: 2
   Options:
     MovementSpeed: 0.1
 
-StaticallyChargedSheep:
-  Type: SHEEP
-  Display: '&aStatically Charged Sheep'
-  Health: 50
-  Damage: 2
-  Options:
-    MovementSpeed: 0.3
-  DamageModifiers:
-  - LIGHTNING 0
-  - FIRE 0.5
-  Skills:
-  - lightning @LivingInRadius{r=10} ~onTimer:100
-
 AngrySludge:
   Type: SLIME
   Display: '&aAngry Sludge'
-  Health: 50
+  Health: 100
   Damage: 2
   Options:
     Size: 20
@@ -75,6 +73,9 @@ AngrySludge:
     PreventOtherDrops: true
     MaxCombatDistance: 30
     KnockbackResistance: 1
+  Modules:
+    ThreatTable: true
   Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
   - skill{s=AngrySludgePoison} 0.2
   - blockmask{material=SLIME_BLOCK;r=1;duration=100} @self ~onTimer:20

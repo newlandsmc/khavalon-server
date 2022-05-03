@@ -46,9 +46,9 @@ Configuration:
     DefaultLevelModifiers:
       Health: 0.1
       Armor: 0
-      Damage: 0
+      Damage: 0.1
       KnockbackResistance: 0
-      Power: 0
+      Power: 0.1
   RandomSpawning:
     DisableVanillaSpawns: false
     GenerateSpawnPoints: false

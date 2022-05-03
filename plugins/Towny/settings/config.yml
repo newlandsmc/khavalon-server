@@ -647,7 +647,7 @@ global_town_settings:
   # When set above zero this is the largest number of residents a town can support before they join/create a nation.
   # Do not set this value to an amount less than the required_number_residents_join_nation below.
   # Do not set this value to an amount less than the required_number_residents_create_nation below.
-  maximum_number_residents_without_nation: '1'
+  maximum_number_residents_without_nation: '0'
   
   # The required number of residents in a town to join a nation
   # If the number is 0, towns will not require a certain amount of residents to join a nation

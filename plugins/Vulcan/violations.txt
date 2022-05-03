@@ -4623,3 +4623,5 @@
 [04-30-2022] [19:42:07] PopGoesDeWeasel failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
 [04-30-2022] [19:42:07] PopGoesDeWeasel failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
 [04-30-2022] [19:42:07] PopGoesDeWeasel failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[05-01-2022] [19:46:33] Immunized failed Strafe (Type A) [VL: 1] [Ping: 16] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] difference=0.05495644956472766 deltaXZ=0.32431572002376485
+[05-03-2022] [00:08:52] DubGirl33 failed Fast Break (Type A) [VL: 1] [Ping: 84] [TPS: 20] [Version: 1.18.2] [Client: Fabric] block=ANCIENT_DEBRIS diff=-138.0 tool=DIAMOND_PICKAXE

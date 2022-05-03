@@ -1,5 +1,5 @@
 # The amount of time used for the interval
-interval: 15
+interval: 60
 # The unit of time used for the interval
 #  Can be SECONDS, MINUTES, or HOURS
 interval-time-unit: 'MINUTES'

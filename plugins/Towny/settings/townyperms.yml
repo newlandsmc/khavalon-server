@@ -44,6 +44,7 @@ nomad:
 - towny.town.spawn.public
 - towny.command.towny.war.hud
 - towny.wild.*
+- towny.chat.local
   
 # This section of permissions covers players who are members of a town.
 towns:
