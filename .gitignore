@@ -29,6 +29,7 @@
 /plugins/OldExpeditions/data/
 /plugins/Towny/data/
 /plugins/Towny/logs/
+/plugins/Towny/backup/
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/
