@@ -9,6 +9,7 @@ MobLeader:
     ThreatTable: true
   Skills:
   - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
   - summon{type=ZOMBIE;amount=5;radius=5;itt=true} @self ~onSpawn
   - summon{type=SKELETON;amount=2;radius=5;itt=true} @self ~onSpawn
   - rally{type=SKELETON,ZOMBIE,CREEPER;r=60;ot=false} @target ~onSpawn

@@ -21,7 +21,6 @@ randomLoot:
     BLOCKTRAK: 8
     STATTRAK: 8
     MOBTRAK: 8
-    HOLY_WHITE_SCROLL: 8
     ARMOR_ORB: 4
     WEAPON_ORB: 4
     TOOL_ORB: 4
@@ -46,7 +45,6 @@ villagerTrades:
     BLOCKTRAK: 8
     STATTRAK: 8
     MOBTRAK: 8
-    HOLY_WHITE_SCROLL: 8
     ARMOR_ORB: 4
     WEAPON_ORB: 4
     TOOL_ORB: 4

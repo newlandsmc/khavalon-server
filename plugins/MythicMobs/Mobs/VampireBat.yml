@@ -22,6 +22,7 @@ VampireBat:
   Skills:
   - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
   - skill{s=SUMMON_VAMPIRE_BATS} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
   - rally{radius=30;types=VampireBat} @target ~onAttack
   - effect:sound{s=entity.bat.loop;p=0.1;v=0.05} @self ~onTimer:40
   - effect:sound{s=entity.bat.ambient;p=0.1;v=0.02} @self ~onTimer:4 0.1
