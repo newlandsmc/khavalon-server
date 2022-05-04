@@ -4625,3 +4625,181 @@
 [04-30-2022] [19:42:07] PopGoesDeWeasel failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
 [05-01-2022] [19:46:33] Immunized failed Strafe (Type A) [VL: 1] [Ping: 16] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] difference=0.05495644956472766 deltaXZ=0.32431572002376485
 [05-03-2022] [00:08:52] DubGirl33 failed Fast Break (Type A) [VL: 1] [Ping: 84] [TPS: 20] [Version: 1.18.2] [Client: Fabric] block=ANCIENT_DEBRIS diff=-138.0 tool=DIAMOND_PICKAXE
+[05-04-2022] [06:22:57] Dark_Cardinel failed Motion (Type A) [VL: 1] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:22:57] Dark_Cardinel failed Motion (Type A) [VL: 2] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:22:57] Dark_Cardinel failed Motion (Type A) [VL: 3] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:22:58] Dark_Cardinel failed Motion (Type A) [VL: 4] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:23:19] Dark_Cardinel failed Motion (Type A) [VL: 5] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:23:19] Dark_Cardinel failed Motion (Type A) [VL: 6] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:23:19] Dark_Cardinel failed Motion (Type A) [VL: 7] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:23:55] Dark_Cardinel failed Motion (Type A) [VL: 8] [Ping: 76] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:23:55] Dark_Cardinel failed Motion (Type A) [VL: 9] [Ping: 76] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:23:56] Dark_Cardinel failed Motion (Type A) [VL: 10] [Ping: 76] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:23:56] Dark_Cardinel failed Motion (Type A) [VL: 11] [Ping: 76] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:23:56] Dark_Cardinel failed Motion (Type A) [VL: 12] [Ping: 76] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:23:56] Dark_Cardinel failed Motion (Type A) [VL: 13] [Ping: 76] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:23:57] Dark_Cardinel failed Motion (Type A) [VL: 14] [Ping: 76] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:24:00] Dark_Cardinel failed Motion (Type A) [VL: 15] [Ping: 76] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:25:52] Dark_Cardinel failed Motion (Type A) [VL: 1] [Ping: 728] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:25:53] Dark_Cardinel failed Motion (Type A) [VL: 2] [Ping: 728] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:25:53] Dark_Cardinel failed Motion (Type A) [VL: 3] [Ping: 728] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:25:53] Dark_Cardinel failed Motion (Type A) [VL: 4] [Ping: 728] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:25:55] Dark_Cardinel failed Motion (Type A) [VL: 5] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:25:58] Dark_Cardinel failed Motion (Type A) [VL: 6] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:25:58] Dark_Cardinel failed Motion (Type A) [VL: 7] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:25:58] Dark_Cardinel failed Motion (Type A) [VL: 8] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:01] Dark_Cardinel failed Motion (Type A) [VL: 9] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:01] Dark_Cardinel failed Motion (Type A) [VL: 10] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:01] Dark_Cardinel failed Motion (Type A) [VL: 11] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:01] Dark_Cardinel failed Motion (Type A) [VL: 12] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:02] Dark_Cardinel failed Motion (Type A) [VL: 13] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:02] Dark_Cardinel failed Motion (Type A) [VL: 14] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:02] Dark_Cardinel failed Motion (Type A) [VL: 15] [Ping: 568] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:19] Dark_Cardinel failed Motion (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:19] Dark_Cardinel failed Motion (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:19] Dark_Cardinel failed Motion (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:19] Dark_Cardinel failed Motion (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:20] Dark_Cardinel failed Motion (Type A) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:48] Dark_Cardinel failed Motion (Type A) [VL: 1] [Ping: 43] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:48] Dark_Cardinel failed Motion (Type A) [VL: 2] [Ping: 43] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:48] Dark_Cardinel failed Motion (Type A) [VL: 3] [Ping: 43] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:48] Dark_Cardinel failed Motion (Type A) [VL: 4] [Ping: 43] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:49] Dark_Cardinel failed Motion (Type A) [VL: 5] [Ping: 43] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:49] Dark_Cardinel failed Motion (Type A) [VL: 6] [Ping: 43] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:49] Dark_Cardinel failed Motion (Type A) [VL: 7] [Ping: 43] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:49] Dark_Cardinel failed Motion (Type A) [VL: 8] [Ping: 43] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:26:49] Dark_Cardinel failed Motion (Type A) [VL: 9] [Ping: 43] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:28:01] Dark_Cardinel failed Jesus (Type A) [VL: 1] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:28:01] Dark_Cardinel failed Jesus (Type B) [VL: 1] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000368498718
+[05-04-2022] [06:28:01] Dark_Cardinel failed Jesus (Type A) [VL: 2] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:28:02] Dark_Cardinel failed Jesus (Type B) [VL: 2] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000368498718
+[05-04-2022] [06:28:02] Dark_Cardinel failed Jesus (Type A) [VL: 3] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:28:02] Dark_Cardinel failed Jesus (Type B) [VL: 3] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000368498718
+[05-04-2022] [06:28:02] Dark_Cardinel failed Jesus (Type A) [VL: 4] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:28:02] Dark_Cardinel failed Jesus (Type B) [VL: 4] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799999945920012
+[05-04-2022] [06:28:03] Dark_Cardinel failed Jesus (Type A) [VL: 5] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:28:03] Dark_Cardinel failed Jesus (Type B) [VL: 5] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799999945920012
+[05-04-2022] [06:28:03] Dark_Cardinel failed Jesus (Type A) [VL: 6] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:28:03] Dark_Cardinel failed Jesus (Type B) [VL: 6] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000039085172
+[05-04-2022] [06:28:03] Dark_Cardinel failed Jesus (Type E) [VL: 1] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=0.9800000039085172
+[05-04-2022] [06:28:03] Dark_Cardinel failed Jesus (Type A) [VL: 7] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:28:04] Dark_Cardinel failed Jesus (Type B) [VL: 7] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000417794423
+[05-04-2022] [06:28:04] Dark_Cardinel failed Jesus (Type A) [VL: 8] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:28:04] Dark_Cardinel failed Jesus (Type B) [VL: 8] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000417794423
+[05-04-2022] [06:28:04] Dark_Cardinel failed Jesus (Type A) [VL: 9] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:28:13] Dark_Cardinel failed Motion (Type A) [VL: 10] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:29:26] Dark_Cardinel failed Motion (Type A) [VL: 11] [Ping: 114] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:29:26] Dark_Cardinel failed Motion (Type A) [VL: 12] [Ping: 114] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:29:27] Dark_Cardinel failed Motion (Type A) [VL: 13] [Ping: 114] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:30:29] Dark_Cardinel failed Jesus (Type B) [VL: 9] [Ping: 124] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000121872351
+[05-04-2022] [06:30:29] Dark_Cardinel failed Jesus (Type B) [VL: 10] [Ping: 124] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000017355307
+[05-04-2022] [06:30:30] Dark_Cardinel failed Jesus (Type A) [VL: 10] [Ping: 124] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:30] Dark_Cardinel failed Jesus (Type B) [VL: 11] [Ping: 116] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000254395421
+[05-04-2022] [06:30:31] Dark_Cardinel failed Jesus (Type A) [VL: 11] [Ping: 116] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:31] Dark_Cardinel failed Jesus (Type B) [VL: 12] [Ping: 116] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000286201622
+[05-04-2022] [06:30:31] Dark_Cardinel failed Jesus (Type A) [VL: 12] [Ping: 116] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:34] Dark_Cardinel failed Jesus (Type B) [VL: 13] [Ping: 116] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000061215595
+[05-04-2022] [06:30:34] Dark_Cardinel failed Jesus (Type A) [VL: 13] [Ping: 116] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:35] Dark_Cardinel failed Jesus (Type B) [VL: 14] [Ping: 116] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000061215595
+[05-04-2022] [06:30:35] Dark_Cardinel failed Jesus (Type A) [VL: 14] [Ping: 116] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:35] Dark_Cardinel failed Jesus (Type B) [VL: 15] [Ping: 116] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000061215595
+[05-04-2022] [06:30:46] Dark_Cardinel failed Jesus (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:47] Dark_Cardinel failed Jesus (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799774006620682
+[05-04-2022] [06:30:47] Dark_Cardinel failed Jesus (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:48] Dark_Cardinel failed Jesus (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9999592088800038
+[05-04-2022] [06:30:48] Dark_Cardinel failed Jesus (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:48] Dark_Cardinel failed Jesus (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799641785970732
+[05-04-2022] [06:30:49] Dark_Cardinel failed Jesus (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:49] Dark_Cardinel failed Jesus (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799648831899683
+[05-04-2022] [06:30:49] Dark_Cardinel failed Jesus (Type A) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:49] Dark_Cardinel failed Jesus (Type B) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799641785970732
+[05-04-2022] [06:30:50] Dark_Cardinel failed Jesus (Type A) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:50] Dark_Cardinel failed Jesus (Type B) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9800000216811908
+[05-04-2022] [06:30:50] Dark_Cardinel failed Jesus (Type A) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:51] Dark_Cardinel failed Jesus (Type B) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799576259138261
+[05-04-2022] [06:30:51] Dark_Cardinel failed Jesus (Type A) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:51] Dark_Cardinel failed Jesus (Type B) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.979982858312516
+[05-04-2022] [06:30:52] Dark_Cardinel failed Jesus (Type A) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:52] Dark_Cardinel failed Jesus (Type B) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799886247869821
+[05-04-2022] [06:30:58] Dark_Cardinel failed Jesus (Type B) [VL: 10] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799683848892552
+[05-04-2022] [06:30:58] Dark_Cardinel failed Jesus (Type A) [VL: 10] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:58] Dark_Cardinel failed Jesus (Type B) [VL: 11] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799623342876533
+[05-04-2022] [06:30:58] Dark_Cardinel failed Jesus (Type A) [VL: 11] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:58] Dark_Cardinel failed Jesus (Type B) [VL: 12] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799617154814013
+[05-04-2022] [06:30:59] Dark_Cardinel failed Jesus (Type A) [VL: 12] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:59] Dark_Cardinel failed Jesus (Type B) [VL: 13] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9999558817167533
+[05-04-2022] [06:30:59] Dark_Cardinel failed Jesus (Type A) [VL: 13] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:59] Dark_Cardinel failed Jesus (Type B) [VL: 14] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9999533525275325
+[05-04-2022] [06:30:59] Dark_Cardinel failed Jesus (Type A) [VL: 14] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:30:59] Dark_Cardinel failed Jesus (Type B) [VL: 15] [Ping: 22] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799536152873195
+[05-04-2022] [06:31:12] Dark_Cardinel failed Jesus (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:12] Dark_Cardinel failed Jesus (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.2804273646353585
+[05-04-2022] [06:31:12] Dark_Cardinel failed Jesus (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:18] Dark_Cardinel failed Jesus (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:18] Dark_Cardinel failed Jesus (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:19] Dark_Cardinel failed Jesus (Type A) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:19] Dark_Cardinel failed Jesus (Type A) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:19] Dark_Cardinel failed Jesus (Type A) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:20] Dark_Cardinel failed Jesus (Type A) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:20] Dark_Cardinel failed Jesus (Type E) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=0.7873545387411587
+[05-04-2022] [06:31:20] Dark_Cardinel failed Jesus (Type A) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:20] Dark_Cardinel failed Jesus (Type A) [VL: 10] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:21] Dark_Cardinel failed Jesus (Type A) [VL: 11] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:21] Dark_Cardinel failed Jesus (Type A) [VL: 12] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:21] Dark_Cardinel failed Jesus (Type A) [VL: 13] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:22] Dark_Cardinel failed Jesus (Type A) [VL: 14] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:22] Dark_Cardinel failed Jesus (Type A) [VL: 15] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:35] Dark_Cardinel failed Jesus (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:35] Dark_Cardinel failed Jesus (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799629592715721
+[05-04-2022] [06:31:36] Dark_Cardinel failed Jesus (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:36] Dark_Cardinel failed Jesus (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799635669646715
+[05-04-2022] [06:31:36] Dark_Cardinel failed Jesus (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:38] Dark_Cardinel failed Jesus (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799975924999083
+[05-04-2022] [06:31:50] Dark_Cardinel failed Jesus (Type B) [VL: 4] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799648831899741
+[05-04-2022] [06:31:50] Dark_Cardinel failed Jesus (Type A) [VL: 4] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:50] Dark_Cardinel failed Jesus (Type B) [VL: 5] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799648831899741
+[05-04-2022] [06:31:51] Dark_Cardinel failed Jesus (Type A) [VL: 5] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:51] Dark_Cardinel failed Jesus (Type B) [VL: 6] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799648831899741
+[05-04-2022] [06:31:51] Dark_Cardinel failed Jesus (Type A) [VL: 6] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:51] Dark_Cardinel failed Jesus (Type B) [VL: 7] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799683848892654
+[05-04-2022] [06:31:53] Dark_Cardinel failed Jesus (Type A) [VL: 7] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:55] Dark_Cardinel failed Jesus (Type A) [VL: 8] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:55] Dark_Cardinel failed Jesus (Type B) [VL: 8] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799756626556594
+[05-04-2022] [06:31:55] Dark_Cardinel failed Jesus (Type A) [VL: 9] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:56] Dark_Cardinel failed Jesus (Type B) [VL: 9] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799756626556594
+[05-04-2022] [06:31:56] Dark_Cardinel failed Jesus (Type A) [VL: 10] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:31:56] Dark_Cardinel failed Jesus (Type B) [VL: 10] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799699255822668
+[05-04-2022] [06:32:00] Dark_Cardinel failed Jesus (Type B) [VL: 11] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799590416448808
+[05-04-2022] [06:32:00] Dark_Cardinel failed Jesus (Type A) [VL: 11] [Ping: 67] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:32:01] Dark_Cardinel failed Jesus (Type B) [VL: 12] [Ping: 67] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799655685871262
+[05-04-2022] [06:32:01] Dark_Cardinel failed Jesus (Type A) [VL: 12] [Ping: 67] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:32:01] Dark_Cardinel failed Jesus (Type B) [VL: 13] [Ping: 67] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799648831899741
+[05-04-2022] [06:32:02] Dark_Cardinel failed Jesus (Type A) [VL: 13] [Ping: 67] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:32:11] Dark_Cardinel failed Jesus (Type B) [VL: 14] [Ping: 67] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.980000009346326
+[05-04-2022] [06:32:12] Dark_Cardinel failed Jesus (Type B) [VL: 15] [Ping: 67] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.9799999804315636
+[05-04-2022] [06:32:43] Dark_Cardinel failed Jesus (Type A) [VL: 1] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] 
+[05-04-2022] [06:32:45] Dark_Cardinel failed Motion (Type A) [VL: 1] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:32:45] Dark_Cardinel failed Motion (Type A) [VL: 2] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:32:46] Dark_Cardinel failed Motion (Type A) [VL: 3] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:32:46] Dark_Cardinel failed Motion (Type A) [VL: 4] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:33:28] Dark_Cardinel failed Motion (Type A) [VL: 5] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:33:33] Dark_Cardinel failed Motion (Type A) [VL: 6] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:34:24] Dark_Cardinel failed Aim (Type Y) [VL: 1] [Ping: 80] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] diff=26.435211 dist=3.1837999897479867
+[05-04-2022] [06:34:27] Dark_Cardinel failed Aim (Type Y) [VL: 2] [Ping: 80] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] diff=27.56599 dist=2.8430241607541853
+[05-04-2022] [06:34:46] Dark_Cardinel failed Aim (Type Y) [VL: 3] [Ping: 82] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] diff=26.473495 dist=4.464183972086745
+[05-04-2022] [06:36:35] Dark_Cardinel failed Motion (Type A) [VL: 1] [Ping: 90] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:38:12] Dark_Cardinel failed Fast Break (Type A) [VL: 1] [Ping: 99] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] block=STONE diff=-6455.0 tool=PORKCHOP
+[05-04-2022] [06:39:08] Dark_Cardinel failed Motion (Type A) [VL: 2] [Ping: 93] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:39:08] Dark_Cardinel failed Motion (Type A) [VL: 3] [Ping: 93] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:39:08] Dark_Cardinel failed Motion (Type A) [VL: 4] [Ping: 93] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:39:09] Dark_Cardinel failed Motion (Type A) [VL: 5] [Ping: 93] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:39:09] Dark_Cardinel failed Motion (Type A) [VL: 6] [Ping: 93] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:40:04] Dark_Cardinel failed Motion (Type A) [VL: 7] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:40:18] Dark_Cardinel failed Motion (Type A) [VL: 8] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:40:19] Dark_Cardinel failed Motion (Type A) [VL: 9] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:40:19] Dark_Cardinel failed Motion (Type A) [VL: 10] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:40:19] Dark_Cardinel failed Motion (Type A) [VL: 11] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:40:19] Dark_Cardinel failed Motion (Type A) [VL: 12] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:40:19] Dark_Cardinel failed Motion (Type A) [VL: 13] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:40:19] Dark_Cardinel failed Motion (Type A) [VL: 14] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-04-2022] [06:40:19] Dark_Cardinel failed Motion (Type A) [VL: 15] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
