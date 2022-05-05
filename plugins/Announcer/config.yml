@@ -56,7 +56,7 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Vote every day to support the server and get'
-    - 'rewarded for it! <click:open_url:https://khavalon.com/vote><gradient:yellow:red>https://khavalon.com/vote</gradient></click>'
+    - 'rewarded for it! <click:open_url:https://semivanilla.com/vote><gradient:yellow:red>https://semivanilla.com/vote</gradient></click>'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   1:
@@ -77,16 +77,16 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Check the map! All players locations can be'
-    - 'seen at <click:open_url:https://khavalon.com/map><gradient:yellow:red>https://khavalon.com/map</gradient></click>!'
+    - 'seen at <click:open_url:https://semivanilla.com/khavalon/map><gradient:yellow:red>https://semivanilla.com/khavalon/map</gradient></click>!'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
-#  4:
-#    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
-#    - ''
-#    - 'Want to keep your items when you die? Make them'
-#    - 'SoulBound with <click:run_command:/soulbind><gradient:#ac2626:#720a0a>/soulbind</gradient></click>! <gray>(Coming soon)</gray>'
-#    - ''
-#    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+  4:
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
+    - ''
+    - 'Want to keep your items when you die? Make them'
+    - 'SoulBound with <click:run_command:/soulbind><gradient:#ac2626:#720a0a>/soulbind</gradient></click>!'
+    - ''
+    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   5:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
@@ -126,7 +126,7 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Unclaimed land can be griefed! Make sure you claim'
-    - 'your land. <click:open_url:https://khavalon.com/claiming><gradient:yellow:red>https://khavalon.com/claiming</gradient></click>'
+    - 'your land. <click:open_url:https://semivanilla.com/khavalon/towny><gradient:yellow:red>https://semivanilla.com/khavalon/towny</gradient></click>'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   11:

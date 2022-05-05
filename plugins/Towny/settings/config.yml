@@ -395,7 +395,7 @@ new_world_settings:
     # Do new world have friendly fire enabled by default?
     # Does not affect Arena Plots which have FF enabled all the time.
     # When true players on the same town or nation will harm each other.
-    friendly_fire_enabled: 'false'
+    friendly_fire_enabled: 'true'
   
     # Do new worlds have their war_allowed enabled by default?
     war_allowed: 'true'

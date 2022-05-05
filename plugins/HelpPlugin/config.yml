@@ -85,11 +85,11 @@ items:
       - 'info website'
 links:
   store: 'https://store.semivanilla.com'
-  map: 'https://khavalon.com/map'
-  vote: 'https://khavalon.com/vote'
-  website: 'https://khavalon.com'
+  map: 'https://semivanilla.com/khavalon/map'
+  vote: 'https://semivanilla.com/vote'
+  website: 'https://semivanilla.com/khavalon'
   discord: 'https://discord.gg/3WzZ3x6wGp'
-  rules: 'https://khavalon.com/rules'
+  rules: 'https://semivanilla.com/khavalon/rules'
 
 book:
   help:
