@@ -29,3 +29,5 @@ expansions:
     Precision: 3
     Rounding: half_up
     Debug: false
+  bungee:
+    check_interval: 30

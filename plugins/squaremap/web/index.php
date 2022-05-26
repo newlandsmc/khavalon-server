@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Khavalon Minecraft Server | Map</title>
+    <title>SemiVanilla Studios | Khavalon | Map</title>
     <meta charset="utf-8" />
-    <meta name="description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills and abilities. PVP. Java + Bedrock support! A challenging adventure awaits... Join Now!" />
-    <meta property="og:url" content="https://khavalon.com" />
+    <meta name="description" content="1.18.2 survival Minecraft network! PVE or PVP! RPG skills and abilities. Custom enchants. We make awesome servers." />
+    <meta property="og:url" content="https://semivanilla.com" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Khavalon Minecraft Server" />
-    <meta property="og:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills. PVP. Java + Bedrock support!" />
-    <meta property="og:image" content="https://khavalon.com/assets/images/promo-card.jpg" />
+    <meta property="og:title" content="SemiVanilla Studios" />
+    <meta property="og:description" content="1.18.2 survival Minecraft network! PVE or PVP! RPG skills and abilities. Custom enchants. We make awesome servers." />
+    <meta property="og:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="khavalon.com" />
-    <meta property="twitter:url" content="https://khavalon.com" />
-    <meta name="twitter:title" content="Khavalon Minecraft Server" />
-    <meta name="twitter:description" content="A semi-vanilla 1.18.1 survival Minecraft server. Hard survival. RPG skills. PVP. Java + Bedrock support!" />
-    <meta name="twitter:image" content="https://khavalon.com/assets/images/promo-card.jpg" />
+    <meta property="twitter:domain" content="semivanilla.com" />
+    <meta property="twitter:url" content="https://semivanilla.com" />
+    <meta name="twitter:title" content="SemiVanilla Studios" />
+    <meta name="twitter:description" content="1.18.2 survival Minecraft network! PVE or PVP! RPG skills and abilities. Custom enchants. We make awesome servers." />
+    <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="apple-touch-icon" sizes="180x180" href="https://khavalon.com/assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://semivanilla.com/assets/images/apple-touch-icon.png">
     <meta name="theme-color" content="#000000" />
-    <link rel="shortcut icon" href="https://khavalon.com/assets/images/favicon.ico" sizes="256x256" crossOrigin="anonymous" 
+    <link rel="shortcut icon" href="https://semivanilla.com/assets/images/khavalon/favicon.ico" sizes="256x256" crossOrigin="anonymous"
 />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPYBD9JN5W"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-492PDMS8SH"></script>
     <script async>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-YPYBD9JN5W');
+      gtag('config', 'G-492PDMS8SH');
     </script>
     <script async>
       document.addEventListener("touchstart", function(){}, true);

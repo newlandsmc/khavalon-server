@@ -13,3 +13,150 @@
 #  Damage: 20
 #  Skills:
 #  - potion{type=POISON;duration=100;lvl=1} @target ~onAttack
+
+HardSkeleton:
+  Type: SKELETON
+  Display: '&6Hard Skeleton'
+  Health: 20
+  Damage: 5
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+
+HardZombie:
+  Type: ZOMBIE
+  Display: '&6Hard Zombie'
+  Health: 20
+  Damage: 5
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+
+HardSpider:
+  Type: SPIDER
+  Display: '&6Hard Spider'
+  Health: 16
+  Damage: 3
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+
+HardCaveSpider:
+  Type: CAVE_SPIDER
+  Display: '&6Hard Cave Spider'
+  Health: 12
+  Damage: 3
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+
+HardWitch:
+  Type: WITCH
+  Display: '&6Hard Witch'
+  Health: 26
+  Damage: 6
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+
+HardSlime:
+  Type: SLIME
+  Display: '&6Hard Slime'
+  Health: 16
+  Damage: 6
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+  Options:
+    Size: 3
+
+HardCreeper:
+  Type: CREEPER
+  Display: '&6Hard Creeper'
+  Health: 20
+  Damage: 64
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat 
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+
+HardBlaze:
+  Type: BLAZE
+  Display: '&6Hard Blaze'
+  Health: 20
+  Damage: 9
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+
+HardEndermite:
+  Type: ENDERMITE
+  Display: '&6Hard Endermite'
+  Health: 8
+  Damage: 3
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+
+HardGhast:
+  Type: GHAST
+  Display: '&6Hard Ghast'
+  Health: 10
+  Damage: 6
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+
+HardGuardian:
+  Type: GUARDIAN
+  Display: '&6Hard Guardian'
+  Health: 30
+  Damage: 9
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+
+HardMagmaCube:
+  Type: MAGMA_CUBE
+  Display: '&6Hard Magma Cube'
+  Health: 16
+  Damage: 9
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat 
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true
+  Options:
+    Size: 3
+
+HardEnderman:
+  Type: ENDERMAN
+  Display: '&6Hard Enderman'
+  Health: 40
+  Damage: 11
+  Skills:
+  - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
+  - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
+  Modules:
+    ThreatTable: true

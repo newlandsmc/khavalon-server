@@ -5,7 +5,7 @@
 
 SkeletalKnight:
   Type: WITHER_SKELETON
-  Display: '&aSkeletal Knight'
+  Display: '&6Skeletal Knight'
   Health: 30
   Damage: 5
   Skills:
@@ -30,7 +30,7 @@ SkeletalKnight:
 
 SkeletonKing:
   Type: WITHER_SKELETON
-  Display: '&aSkeleton King'
+  Display: '&6Skeleton King'
   Health: 100
   Damage: 7
   Skills:
@@ -53,7 +53,7 @@ SkeletonKing:
 
 SkeletalMinion:
   Type: SKELETON
-  Display: '&aSkeletal Minion'
+  Display: '&6Skeletal Minion'
   Skills:
   - command{c="soulsadmin add <target.name> 1"} @trigger ~onDeath
   - skill{s=AURELIUM_LEVEL_SET_ON_COMBAT} ~onEnterCombat
@@ -66,7 +66,7 @@ SkeletalMinion:
 
 AngrySludge:
   Type: SLIME
-  Display: '&aAngry Sludge'
+  Display: '&6Angry Sludge'
   Health: 100
   Damage: 2
   Options:

@@ -1,18 +1,19 @@
   
 version:
   # This is the current version of Towny. Please do not edit.
-  version: 0.98.1.0
+  version: 0.98.2.0
   # This is for showing the changelog on updates. Please do not edit.
-  last_run_version: 0.98.1.0
+  last_run_version: 0.98.2.0
   
 language:
   # The language file you wish to use for your default locale. Your default locale is what
   # will be shown in your console and for any player who doesn't use one of the locales below.
   # Available languages: bg-BG.yml, cz-CZ.yml, da-DK.yml, de-DE.yml, en-US.yml,
-  # es-419.yml, es-CL.yml, es-EC.yml, es-ES.yml, es-MX.yml, es-UY.yml, es-VE.yml,
+  # es-AR.yml, es-CL.yml, es-EC.yml, es-ES.yml, es-MX.yml, es-UY.yml, es-VE.yml,
   # fr-FR.yml, he-IL.yml, id-ID.yml, it-IT.yml, ja-JP.yml, ko-KR.yml, nl-NL.yml,
-  # no-NO.yml, pl-PL.yml, pt-BR.yml, pt-PT.yml, ro-RO.yml, ru-RU.yml, sv-SE.yml,
-  # th-TH.yml, tl-PH.yml, tr-TR.yml, vi-VN.yml, zh-CN.yml, zh-TW.yml
+  # no-NO.yml, pl-PL.yml, pt-BR.yml, pt-PT.yml, ro-RO.yml, ru-RU.yml, sr-CS.yml,
+  # sv-SE.yml, th-TH.yml, tl-PH.yml, tr-TR.yml, uk-UA.yml, vi-VN.yml, zh-CN.yml,
+  # zh-TW.yml
   #
   # If you want to override any of the files above with your own translations you must:
   # - Copy the file from the towny\settings\lang\reference\ folder 
@@ -53,7 +54,8 @@ permissions: ''
 ############################################################
   
 levels:
-  # default Town levels.
+  
+  # Guide On How to Configure: https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#configuring-town_level-and-nation_level
   town_level:
   - numResidents: 0
     debtCapModifier: 1.0
@@ -145,7 +147,8 @@ levels:
     townBlockLimit: 800
     upkeepModifier: 1.0
     townOutpostLimit: 4
-  # default Nation levels.
+  
+  # Guide On How to Configure: https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#configuring-town_level-and-nation_level
   nation_level:
   - kingPostfix: ''
     capitalPostfix: ''
@@ -321,6 +324,7 @@ town:
   # Setting this to any value above 0 will stop outposts being made off-world from the town's homeworld.
   # Do not set lower than min_distance_for_outpost_from_plot above.
   max_distance_for_outpost_from_town_plot: '0'
+  
   # Minimum distance between homeblocks.
   min_distance_between_homeblocks: '0'
   
@@ -577,10 +581,15 @@ global_town_settings:
   # When true Towny will handle respawning, with town or resident spawns.
   town_respawn: 'false'
   
-  # When greater than 0s, the amount of time a player who has respawned is considered invulnerable.
-  # Invulnerable players who attack other players will lose their invulnerability.
-  # Invulnerable players who teleport after respawn will also lose their invulnerability.
-  respawn_protection: 0s
+  respawn_protection:
+  
+    # When greater than 0s, the amount of time a player who has respawned is considered invulnerable.
+    # Invulnerable players who attack other players will lose their invulnerability.
+    # Invulnerable players who teleport after respawn will also lose their invulnerability.
+    time: 0s
+  
+    # If disabled, players will not be able to pickup items while under respawn protection.
+    allow_pickup: 'true'
   
   # Town respawn only happens when the player dies in the same world as the town's spawn point.
   town_respawn_same_world_only: 'false'
@@ -870,9 +879,17 @@ plugin:
     # If neither Vault/Reserve or supported economy are present it will not be possible to create towns or do any operations that require money.
     using_economy: 'true'
   
-    # If enabled, Towny contexts will be available in LuckPerms. https://luckperms.net/wiki/Context
-    # Towny will supply for LuckPerms: townyperms' ranks contexts, as well as location-based contexts.
-    luckperms_contexts: 'false'
+    luckperms:
+  
+      # If enabled, Towny contexts will be available in LuckPerms. https://luckperms.net/wiki/Context
+      # Towny will supply for LuckPerms: townyperms' ranks contexts, as well as location-based contexts.
+      contexts: 'false'
+  
+      # Configure what contexts to enable/disable here, contexts must be separated by a comma.
+      # Available contexts: towny:resident, towny:mayor, towny:king, towny:insidetown, towny:insideowntown, towny:insideownplot, towny:townrank
+      # towny:nationrank, towny:town, towny:nation
+      enabled_contexts: '*'
+  
     web_map:
   
       # If enabled, players will be prompted to open a url when clicking on coordinates in towny status screens.
@@ -929,6 +946,7 @@ plugin:
   # A blacklist used for validating town/nation names.
   # Names must be seperated by a comma: name1,name2
   name_blacklist: ''
+  
   update_notifications:
   
     # If enabled, players with the towny.admin.updatealerts permission will receive an update notification upon logging in.
@@ -980,6 +998,7 @@ filters_colour_chat:
   
     # When using PlaceholderAPI, and a tag would show a nation, this will determine how it is formatted.
     nation: '&f[&6%s&f] '
+  
     # Colour code applied to player names using the %townyadvanced_towny_colour% placeholder.
     ranks:
       nomad: ''
@@ -1128,7 +1147,7 @@ unclaimed:
   
   # A list of blocks that will bypass the above settings and do not require the towny.wild.* permission node.
   # These blocks are also used in determining which blocks can be interacted with in Towny Wilds plots in towns.
-  unclaimed_zone_ignore: GOLD_ORE,IRON_ORE,COAL_ORE,COPPER_ORE,REDSTONE_ORE,EMERALD_ORE,LAPIS_ORE,DIAMOND_ORE,DEEPSLATE_COAL_ORE,DEEPSLATE_IRON_ORE,DEEPSLATE_COPPER_ORE,DEEPSLATE_GOLD_ORE,DEEPSLATE_EMERALD_ORE,DEEPSLATE_REDSTONE_ORE,DEEPSLATE_LAPIS_ORE,DEEPSLATE_DIAMOND_ORE,NETHER_GOLD_ORE,NETHER_QUARTZ_ORE,ANCIENT_DEBRIS,OAK_LOG,SPRUCE_LOG,BIRCH_LOG,JUNGLE_LOG,ACACIA_LOG,DARK_OAK_LOG,CRIMSON_STEM,WARPED_STEM,ACACIA_LEAVES,OAK_LEAVES,DARK_OAK_LEAVES,JUNGLE_LEAVES,BIRCH_LEAVES,SPRUCE_LEAVES,CRIMSON_HYPHAE,WARPED_HYPHAE,ACACIA_SAPLING,BAMBOO_SAPLING,BIRCH_SAPLING,DARK_OAK_SAPLING,JUNGLE_SAPLING,OAK_SAPLING,SPRUCE_SAPLING,TALL_GRASS,BROWN_MUSHROOM,RED_MUSHROOM,CACTUS,ALLIUM,AZURE_BLUET,BLUE_ORCHID,CORNFLOWER,DANDELION,LILAC,LILY_OF_THE_VALLEY,ORANGE_TULIP,OXEYE_DAISY,PEONY,PINK_TULIP,POPPY,RED_TULIP,ROSE_BUSH,SUNFLOWER,WHITE_TULIP,WITHER_ROSE,CRIMSON_FUNGUS,LARGE_FERN,TORCH,LADDER,CLAY,PUMPKIN,GLOWSTONE,VINE,NETHER_WART_BLOCK,COCOA
+  unclaimed_zone_ignore: GOLD_ORE,IRON_ORE,COAL_ORE,COPPER_ORE,REDSTONE_ORE,EMERALD_ORE,LAPIS_ORE,DIAMOND_ORE,DEEPSLATE_COAL_ORE,DEEPSLATE_IRON_ORE,DEEPSLATE_COPPER_ORE,DEEPSLATE_GOLD_ORE,DEEPSLATE_EMERALD_ORE,DEEPSLATE_REDSTONE_ORE,DEEPSLATE_LAPIS_ORE,DEEPSLATE_DIAMOND_ORE,NETHER_GOLD_ORE,NETHER_QUARTZ_ORE,ANCIENT_DEBRIS,OAK_LOG,SPRUCE_LOG,BIRCH_LOG,JUNGLE_LOG,ACACIA_LOG,DARK_OAK_LOG,CRIMSON_STEM,WARPED_STEM,ACACIA_LEAVES,OAK_LEAVES,DARK_OAK_LEAVES,JUNGLE_LEAVES,BIRCH_LEAVES,SPRUCE_LEAVES,CRIMSON_HYPHAE,WARPED_HYPHAE,ACACIA_SAPLING,BAMBOO_SAPLING,BIRCH_SAPLING,DARK_OAK_SAPLING,JUNGLE_SAPLING,OAK_SAPLING,SPRUCE_SAPLING,TALL_GRASS,BROWN_MUSHROOM,RED_MUSHROOM,CACTUS,ALLIUM,AZURE_BLUET,BLUE_ORCHID,CORNFLOWER,DANDELION,LILAC,LILY_OF_THE_VALLEY,ORANGE_TULIP,OXEYE_DAISY,PEONY,PINK_TULIP,POPPY,RED_TULIP,ROSE_BUSH,SUNFLOWER,WHITE_TULIP,WITHER_ROSE,CRIMSON_FUNGUS,LARGE_FERN,TORCH,LADDER,CLAY,PUMPKIN,GLOWSTONE,VINE,NETHER_WART_BLOCK,COCOA,SUGAR_CANE
   
   
 ############################################################
@@ -1365,7 +1384,8 @@ invite_system:
 resident_settings:
   
   # if enabled old residents will be deleted, losing their town, townblocks, friends
-  # after Two months (default) of not logging in
+  # after Two months (default) of not logging in. If the player is a mayor their town
+  # will be inherited according to the order_of_mayoral_succession list in this config.
   delete_old_residents:
     enable: 'true'
     deleted_after_time: 90d
@@ -1379,6 +1399,7 @@ resident_settings:
   
   # If true, players can only use beds in plots they personally own.
   deny_bed_use: 'false'
+  
   # If true, players who join the server for the first time will be informed about their locale, and about Towny translatable system.
   is_showing_locale_message: 'true'
   

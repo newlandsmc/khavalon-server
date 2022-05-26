@@ -85,3 +85,6 @@ messages:
     - '<yellow> * %player% just received a Super Vote Expedition! Use /vote to get yours.</yellow>'
   vote:
     - '<yellow>Thanks for voting! You completed a Vote Expedition!'
+vote-processor:
+  async: true
+  interval: 5

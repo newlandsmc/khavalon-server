@@ -1,6 +1,6 @@
 MobLeader:
   Type: ILLUSIONER
-  Display: '&aMob Leader'
+  Display: '&6Mob Leader'
   Health: 30
   Damage: 2
   Options:

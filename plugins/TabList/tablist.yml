@@ -48,6 +48,8 @@ footer:
 #- "%bs_online_formatted%"
 #- " World time: %player_world_time_12% "
 #- " %online-players%/%max-players% Online"
+- " %bungee_total%/150 Online "
+- " (%online-players% Here) "
 - " &7Ping: %ping% "
 #- ""
 

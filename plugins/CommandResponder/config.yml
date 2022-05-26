@@ -1,12 +1,18 @@
 spawn:
   enabled: true
-  message: "<red>There is no spawn on this server! Everyone spawns somewhere random."
-lobby:
-  enabled: true
-  message: "<red>There is no spawn on this server! Everyone spawns somewhere random."
+  message: "<red>There is no spawn on this server! Looking for the lobby? Do /lobby."
 back:
   enabled: true
   message: "<red>There is no /back on this server!"
 unstuck:
   enabled: true
   message: ""
+sethome:
+  enabled: true
+  message: "<red>To set a home, create or join a town! Use /town create to get started."
+home:
+  enabled: true
+  message: "<red>To set a home, create or join a town! Use /town create to get started."
+homes:
+  enabled: true
+  message: "<red>To set a home, create or join a town! Use /town create to get started."

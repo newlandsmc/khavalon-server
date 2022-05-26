@@ -1,6 +1,6 @@
 VampireBat:
   Type: PARROT
-  Display: '&aVampire Bat'
+  Display: '&6Vampire Bat'
   Health: 14
   Damage: 2
   Disguise: BAT setCustomNameVisible false

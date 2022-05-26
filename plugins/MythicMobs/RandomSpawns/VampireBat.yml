@@ -5,11 +5,8 @@
 VampireBatSpawn:
   MobType: VampireBat
   Worlds: world
-  Chance: 0.003
+  Chance: 0.005
   Priority: 1
   Action: REPLACE
   Conditions:
-  - inside true
-  - lightlevel{l=0} true
-  - playerWithin{d=40} true
-  - biome RIVER,FROZEN_RIVER,WARM_OCEAN,LUKEWARM_OCEAN,OCEAN,DEEP_OCEAN,COLD_OCEAN,DEEP_COLD_OCEAN,FROZEN_OCEAN,DEEP_FROZEN_OCEAN false
+  - entitytype{t=BAT} true

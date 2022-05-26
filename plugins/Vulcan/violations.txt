@@ -4803,3 +4803,340 @@
 [05-04-2022] [06:40:19] Dark_Cardinel failed Motion (Type A) [VL: 13] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
 [05-04-2022] [06:40:19] Dark_Cardinel failed Motion (Type A) [VL: 14] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
 [05-04-2022] [06:40:19] Dark_Cardinel failed Motion (Type A) [VL: 15] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.0
+[05-05-2022] [07:19:36] quesoxx failed Timer (Type D) [VL: 8] [Ping: 2237] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] balance=99 delay=0
+[05-05-2022] [07:19:36] quesoxx failed Timer (Type D) [VL: 9] [Ping: 2237] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] balance=100 delay=0
+[05-05-2022] [07:19:36] quesoxx failed Timer (Type D) [VL: 10] [Ping: 2237] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] balance=100 delay=0
+[05-05-2022] [07:19:36] quesoxx failed Timer (Type D) [VL: 11] [Ping: 2237] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] balance=99 delay=0
+[05-05-2022] [07:19:36] quesoxx failed Timer (Type D) [VL: 12] [Ping: 2237] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] balance=99 delay=0
+[05-05-2022] [07:19:36] quesoxx failed Timer (Type D) [VL: 13] [Ping: 2237] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] balance=99 delay=0
+[05-05-2022] [19:48:32] _PxxL_ failed Bad Packets (Type M) [VL: 1] [Ping: 120] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] delay=59
+[05-06-2022] [20:49:45] _einOhan_ failed Elytra (Type C) [VL: 1] [Ping: 119] [TPS: 20] [Version: 1.18.2] [Client: Lunarclient:c888646] accel=0.0364474999634154 deltaXZ=0.4579873752714268 deltaY=-0.4187828185233933
+[05-07-2022] [17:05:09] SownPlatypus378 failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:05:09] SownPlatypus378 failed Ground Spoof (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:05:09] SownPlatypus378 failed Ground Spoof (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:05:09] SownPlatypus378 failed Ground Spoof (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:05:09] SownPlatypus378 failed Ground Spoof (Type B) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:05:48] SownPlatypus378 failed Ground Spoof (Type B) [VL: 1] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:05:48] SownPlatypus378 failed Ground Spoof (Type B) [VL: 2] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:05:48] SownPlatypus378 failed Ground Spoof (Type B) [VL: 3] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:05:48] SownPlatypus378 failed Ground Spoof (Type B) [VL: 4] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:05:48] SownPlatypus378 failed Ground Spoof (Type B) [VL: 5] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:06:51] SownPlatypus378 failed Ground Spoof (Type B) [VL: 1] [Ping: 54] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:06:52] SownPlatypus378 failed Ground Spoof (Type B) [VL: 2] [Ping: 54] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:06:52] SownPlatypus378 failed Ground Spoof (Type B) [VL: 3] [Ping: 54] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:06:52] SownPlatypus378 failed Ground Spoof (Type B) [VL: 4] [Ping: 54] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [17:06:52] SownPlatypus378 failed Ground Spoof (Type B) [VL: 5] [Ping: 54] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-07-2022] [23:17:21] zhaomingyuChina failed Fast Break (Type A) [VL: 1] [Ping: 333] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] block=SPRUCE_LOG diff=-139.0 tool=WOODEN_AXE
+[05-08-2022] [04:01:41] Satepin failed Strafe (Type A) [VL: 1] [Ping: 185] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] difference=0.03253198507882303 deltaXZ=0.2654293586656422
+[05-08-2022] [22:48:28] JR_Bacon8r failed Ground Spoof (Type B) [VL: 1] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:48:28] JR_Bacon8r failed Ground Spoof (Type B) [VL: 2] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:48:29] JR_Bacon8r failed Ground Spoof (Type B) [VL: 3] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:48:29] JR_Bacon8r failed Ground Spoof (Type B) [VL: 4] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:48:31] JR_Bacon8r failed Ground Spoof (Type B) [VL: 5] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:48:54] JR_Bacon8r failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:48:55] JR_Bacon8r failed Ground Spoof (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:48:56] JR_Bacon8r failed Ground Spoof (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:48:57] JR_Bacon8r failed Ground Spoof (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:48:58] JR_Bacon8r failed Ground Spoof (Type B) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:49:50] JR_Bacon8r failed Ground Spoof (Type B) [VL: 1] [Ping: 15] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:49:50] JR_Bacon8r failed Ground Spoof (Type B) [VL: 2] [Ping: 15] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:49:51] JR_Bacon8r failed Ground Spoof (Type B) [VL: 3] [Ping: 15] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:49:51] JR_Bacon8r failed Ground Spoof (Type B) [VL: 4] [Ping: 15] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-08-2022] [22:49:51] JR_Bacon8r failed Ground Spoof (Type B) [VL: 5] [Ping: 15] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-09-2022] [01:53:40] DribQuib failed Motion (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:41] DribQuib failed Motion (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:41] DribQuib failed Motion (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:41] DribQuib failed Motion (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:41] DribQuib failed Motion (Type A) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:41] DribQuib failed Motion (Type A) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:42] DribQuib failed Motion (Type A) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:42] DribQuib failed Motion (Type A) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:42] DribQuib failed Motion (Type A) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:42] DribQuib failed Motion (Type A) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:43] DribQuib failed Motion (Type A) [VL: 11] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:46] DribQuib failed Motion (Type A) [VL: 12] [Ping: 2] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:46] DribQuib failed Motion (Type A) [VL: 13] [Ping: 2] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:46] DribQuib failed Motion (Type A) [VL: 14] [Ping: 2] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-09-2022] [01:53:47] DribQuib failed Motion (Type A) [VL: 15] [Ping: 2] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.41999998688697815
+[05-10-2022] [01:28:46] Satepin failed Elytra (Type K) [VL: 1] [Ping: 1016] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=1.3192958605008231 accel=true ticks=480
+[05-10-2022] [01:28:46] Satepin failed Elytra (Type K) [VL: 2] [Ping: 1016] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=1.4017638312875653 accel=true ticks=483
+[05-10-2022] [01:28:46] Satepin failed Elytra (Type K) [VL: 3] [Ping: 1016] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=1.5265778608891765 accel=true ticks=486
+[05-10-2022] [01:28:46] Satepin failed Elytra (Type K) [VL: 4] [Ping: 1016] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=1.5939589146763276 accel=true ticks=489
+[05-10-2022] [01:28:46] Satepin failed Elytra (Type K) [VL: 5] [Ping: 1016] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=1.6373635617812203 accel=true ticks=492
+[05-10-2022] [01:36:56] Satepin failed Elytra (Type K) [VL: 1] [Ping: 6369] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=1.42358601962791 accel=true ticks=646
+[05-10-2022] [01:36:56] Satepin failed Elytra (Type K) [VL: 2] [Ping: 6369] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=1.5503778185412813 accel=true ticks=649
+[05-10-2022] [19:09:52] CorruptionHades failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:09:52] CorruptionHades failed Ground Spoof (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:09:53] CorruptionHades failed Ground Spoof (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:09:53] CorruptionHades failed Ground Spoof (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:09:53] CorruptionHades failed Ground Spoof (Type B) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:10:21] CorruptionHades failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:10:21] CorruptionHades failed Ground Spoof (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:10:22] CorruptionHades failed Ground Spoof (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:10:22] CorruptionHades failed Ground Spoof (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:10:35] CorruptionHades failed Ground Spoof (Type B) [VL: 1] [Ping: 28] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:10:35] CorruptionHades failed Ground Spoof (Type B) [VL: 2] [Ping: 28] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:10:35] CorruptionHades failed Ground Spoof (Type B) [VL: 3] [Ping: 28] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:10:35] CorruptionHades failed Ground Spoof (Type B) [VL: 4] [Ping: 28] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-10-2022] [19:10:36] CorruptionHades failed Ground Spoof (Type B) [VL: 5] [Ping: 28] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-11-2022] [04:46:37] starrychlo failed Jesus (Type E) [VL: 1] [Ping: 35] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=0.20683514152224466
+[05-12-2022] [04:08:34] Satepin failed Strafe (Type A) [VL: 1] [Ping: 198] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] difference=0.5702956971298945 deltaXZ=0.7917425442023465
+[05-12-2022] [20:41:35] MagicMukh failed Motion (Type G) [VL: 1] [Ping: 19] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Attack] deltaY=0.7913622823300415 max=0.7699999809265137 ticks=10
+[05-12-2022] [20:41:47] MagicMukh failed Motion (Type G) [VL: 2] [Ping: 19] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Fire] deltaY=0.8500667346151403 max=0.41999998688697815 ticks=6
+[05-12-2022] [20:41:48] MagicMukh failed Motion (Type G) [VL: 3] [Ping: 19] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Fire] deltaY=0.6611721191867019 max=0.41999998688697815 ticks=8
+[05-12-2022] [20:41:48] MagicMukh failed Motion (Type G) [VL: 4] [Ping: 19] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Fire] deltaY=0.4797577234675856 max=0.41999998688697815 ticks=10
+[05-14-2022] [03:02:49] KindaBlockBoy failed Step (Type C) [VL: 1] [Ping: 117] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] ticks=1 deltaY=-0.11760000228882461 distance=0.1176
+[05-15-2022] [15:21:57] Acer1582 failed Jesus (Type B) [VL: 1] [Ping: 667] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=-0.009000000059607771 deltaXZ=0.11993091995165847
+[05-16-2022] [12:38:30] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 27] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=79.690254 dist=1.923641461803503
+[05-16-2022] [12:39:24] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 31] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=52.737217 dist=3.9221629650661356
+[05-16-2022] [12:39:24] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 31] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=52.183296 dist=2.079060725615309
+[05-16-2022] [12:39:25] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 31] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=51.071236 dist=2.3591808404962875
+[05-16-2022] [12:39:28] AButterKnife failed Aim (Type Y) [VL: 5] [Ping: 32] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=50.718784 dist=1.4274531432661295
+[05-16-2022] [12:40:45] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 25] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.535961 dist=3.334308801094075
+[05-16-2022] [12:40:48] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 25] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.155758 dist=3.6222437330275437
+[05-16-2022] [12:40:58] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 28] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=31.918041 dist=0.6091112783358867
+[05-16-2022] [12:48:05] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 37] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=79.158104 dist=4.1291401525511136
+[05-16-2022] [12:48:06] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 37] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=79.14298 dist=3.62478559248952
+[05-16-2022] [12:48:09] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 37] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=79.154625 dist=3.291780968062232
+[05-16-2022] [12:48:11] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 37] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=79.90273 dist=2.341021889355243
+[05-16-2022] [12:48:21] AButterKnife failed Aim (Type Y) [VL: 5] [Ping: 37] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=79.73543 dist=2.9239925168846637
+[05-16-2022] [12:48:42] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.138561 dist=2.803604131579239
+[05-16-2022] [12:48:42] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.75003 dist=2.3615252008848
+[05-16-2022] [12:48:43] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.563745 dist=2.265278623376352
+[05-16-2022] [12:53:50] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=44.12124 dist=2.893358191030842
+[05-16-2022] [12:53:51] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=52.491844 dist=3.3533890671637305
+[05-16-2022] [12:53:52] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=42.633614 dist=2.4079120021458444
+[05-16-2022] [12:53:53] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=52.17768 dist=3.1727142711836294
+[05-16-2022] [12:56:16] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 35] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=53.42019 dist=3.3984710077683826
+[05-16-2022] [12:59:57] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.463682 dist=2.847807645167909
+[05-16-2022] [13:03:44] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=105.36117 dist=4.528098808826241
+[05-16-2022] [13:03:44] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=105.318184 dist=5.156703040466626
+[05-16-2022] [13:04:00] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 35] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=25.092163 dist=1.3585909760257087
+[05-16-2022] [13:04:01] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 35] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=27.327047 dist=1.362954797212646
+[05-16-2022] [13:04:01] AButterKnife failed Aim (Type Y) [VL: 5] [Ping: 35] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=25.246655 dist=1.545228573361752
+[05-16-2022] [13:13:04] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=78.44976 dist=3.2048698821899095
+[05-16-2022] [13:13:05] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=79.82632 dist=1.4206907393073518
+[05-16-2022] [13:13:06] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=79.72988 dist=0.9459091659606174
+[05-16-2022] [13:13:12] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=105.67006 dist=3.7700013920864137
+[05-16-2022] [13:13:14] AButterKnife failed Aim (Type Y) [VL: 5] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=103.61147 dist=3.0881193759581866
+[05-16-2022] [13:13:53] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 9] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=50.916267 dist=3.6745975099176613
+[05-16-2022] [13:13:55] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 9] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=52.458282 dist=2.585291654717628
+[05-16-2022] [13:13:55] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 9] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=53.316406 dist=2.585291654717628
+[05-16-2022] [13:13:56] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 16] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=52.570454 dist=3.631619581689505
+[05-16-2022] [13:13:57] AButterKnife failed Aim (Type Y) [VL: 5] [Ping: 16] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=52.972103 dist=0.7477415356347139
+[05-16-2022] [16:21:37] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=132.30046 dist=4.06356860502421
+[05-16-2022] [16:21:40] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=131.52931 dist=4.140421800077467
+[05-16-2022] [16:21:41] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=132.8771 dist=3.5279488659851723
+[05-16-2022] [16:21:50] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=131.44962 dist=3.131564623115813
+[05-16-2022] [16:21:53] AButterKnife failed Aim (Type Y) [VL: 5] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=130.08926 dist=2.9513999930345136
+[05-16-2022] [16:23:02] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=25.04243 dist=1.9848143852171511
+[05-16-2022] [16:23:05] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 23] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.451685 dist=1.8800085356943574
+[05-16-2022] [16:30:43] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=53.313057 dist=3.330154580522545
+[05-16-2022] [16:31:21] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 38] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=27.22235 dist=2.5066902854822746
+[05-16-2022] [16:33:34] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 37] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=52.381172 dist=4.001174419906591
+[05-16-2022] [16:33:38] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=52.904076 dist=2.448680577793525
+[05-16-2022] [16:33:39] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=52.508003 dist=2.7835191011425073
+[05-16-2022] [16:33:45] AButterKnife failed Aim (Type Y) [VL: 5] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=53.421303 dist=2.9966780621739555
+[05-16-2022] [16:45:14] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=131.96696 dist=4.037453378948569
+[05-16-2022] [16:45:16] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=131.77986 dist=2.821631708827668
+[05-16-2022] [16:45:17] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=132.11523 dist=3.8469063071593146
+[05-16-2022] [16:45:17] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=132.19312 dist=4.364161836688506
+[05-16-2022] [16:45:17] AButterKnife failed Aim (Type Y) [VL: 5] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=131.85057 dist=4.364161836688506
+[05-16-2022] [16:50:00] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 44] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=22.310127 dist=3.9950159586459675
+[05-16-2022] [18:28:51] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 38] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=53.57847 dist=4.358828590157593
+[05-16-2022] [18:30:40] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.52722 dist=3.3053817420852605
+[05-16-2022] [18:30:40] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.332666 dist=1.367605319738284
+[05-16-2022] [18:30:41] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.994946 dist=1.4507604044800793
+[05-16-2022] [18:30:43] AButterKnife failed Aim (Type Y) [VL: 5] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.771149 dist=3.8299938556637025
+[05-16-2022] [18:36:27] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 38] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=109.345116 dist=4.481451702428397
+[05-16-2022] [18:36:29] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 38] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=106.277245 dist=1.0894273700573747
+[05-16-2022] [18:41:09] AButterKnife failed Aim (Type Y) [VL: 1] [Ping: 37] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=25.491013 dist=1.2549964499542967
+[05-16-2022] [18:41:10] AButterKnife failed Aim (Type Y) [VL: 2] [Ping: 37] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=25.642643 dist=1.8593180538611755
+[05-16-2022] [18:41:11] AButterKnife failed Aim (Type Y) [VL: 3] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=24.260868 dist=1.152555054789743
+[05-16-2022] [18:41:12] AButterKnife failed Aim (Type Y) [VL: 4] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.756655 dist=1.2673196915335767
+[05-16-2022] [18:43:42] AButterKnife failed Aim (Type Y) [VL: 5] [Ping: 38] [TPS: 20] [Version: 1.18.2] [Client: Fabric] diff=26.541914 dist=2.448864732969068
+[05-16-2022] [22:52:43] Grayrex7 failed Jesus (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=-0.009000000059607771 deltaXZ=0.11958467044492682
+[05-16-2022] [23:20:47] Redwo0dMC failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[05-16-2022] [23:20:48] Redwo0dMC failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[05-16-2022] [23:20:48] Redwo0dMC failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[05-16-2022] [23:21:10] Redwo0dMC failed Motion (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.7500000298023224
+[05-16-2022] [23:21:10] Redwo0dMC failed Motion (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.7500000298023224
+[05-16-2022] [23:21:10] Redwo0dMC failed Motion (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.7500000298023224
+[05-16-2022] [23:21:10] Redwo0dMC failed Motion (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.7500000298023224
+[05-16-2022] [23:21:10] Redwo0dMC failed Motion (Type A) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.7500000298023224
+[05-16-2022] [23:21:11] Redwo0dMC failed Motion (Type A) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.7500000298023224
+[05-16-2022] [23:21:56] Redwo0dMC failed Bad Packets (Type A) [VL: 1] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[05-16-2022] [23:21:56] Redwo0dMC failed Bad Packets (Type A) [VL: 2] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[05-16-2022] [23:22:53] Redwo0dMC failed Boat Fly (Type A) [VL: 1] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.2950000000000017
+[05-16-2022] [23:22:53] Redwo0dMC failed Boat Fly (Type A) [VL: 2] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.2950000000000017
+[05-16-2022] [23:22:53] Redwo0dMC failed Boat Fly (Type A) [VL: 3] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.2950000000000017
+[05-16-2022] [23:22:53] Redwo0dMC failed Boat Fly (Type C) [VL: 1] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=0.2950000000000017
+[05-16-2022] [23:22:53] Redwo0dMC failed Boat Fly (Type A) [VL: 4] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.2950000000000017
+[05-16-2022] [23:22:54] Redwo0dMC failed Boat Fly (Type A) [VL: 5] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.2950000000000017
+[05-16-2022] [23:22:54] Redwo0dMC failed Boat Fly (Type C) [VL: 2] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=0.2950000000000017
+[05-16-2022] [23:22:54] Redwo0dMC failed Boat Fly (Type A) [VL: 6] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.2950000000000017
+[05-16-2022] [23:22:54] Redwo0dMC failed Boat Fly (Type C) [VL: 3] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=0.2950000000000017
+[05-16-2022] [23:22:54] Redwo0dMC failed Boat Fly (Type C) [VL: 4] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:54] Redwo0dMC failed Boat Fly (Type C) [VL: 5] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:54] Redwo0dMC failed Boat Fly (Type C) [VL: 6] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:55] Redwo0dMC failed Boat Fly (Type C) [VL: 7] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:55] Redwo0dMC failed Boat Fly (Type B) [VL: 1] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=2.5 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:55] Redwo0dMC failed Boat Fly (Type C) [VL: 8] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:55] Redwo0dMC failed Entity Speed (Type A) [VL: 1] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] [Boat] deltaXZ=2.5
+[05-16-2022] [23:22:55] Redwo0dMC failed Entity Speed (Type A) [VL: 2] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] [Boat] deltaXZ=2.5
+[05-16-2022] [23:22:55] Redwo0dMC failed Boat Fly (Type C) [VL: 9] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:55] Redwo0dMC failed Boat Fly (Type C) [VL: 10] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:55] Redwo0dMC failed Boat Fly (Type C) [VL: 11] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:56] Redwo0dMC failed Boat Fly (Type C) [VL: 12] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:56] Redwo0dMC failed Boat Fly (Type C) [VL: 13] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:56] Redwo0dMC failed Boat Fly (Type C) [VL: 14] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:22:56] Redwo0dMC failed Boat Fly (Type C) [VL: 15] [Ping: 92] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:12] Redwo0dMC failed Boat Fly (Type C) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:12] Redwo0dMC failed Boat Fly (Type C) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:12] Redwo0dMC failed Boat Fly (Type C) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:12] Redwo0dMC failed Boat Fly (Type C) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:13] Redwo0dMC failed Boat Fly (Type C) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:13] Redwo0dMC failed Boat Fly (Type C) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:13] Redwo0dMC failed Boat Fly (Type C) [VL: 7] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:13] Redwo0dMC failed Boat Fly (Type C) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:13] Redwo0dMC failed Boat Fly (Type C) [VL: 9] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:14] Redwo0dMC failed Boat Fly (Type C) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:14] Redwo0dMC failed Boat Fly (Type C) [VL: 11] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:14] Redwo0dMC failed Boat Fly (Type C) [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:14] Redwo0dMC failed Boat Fly (Type C) [VL: 13] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:14] Redwo0dMC failed Boat Fly (Type C) [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:15] Redwo0dMC failed Boat Fly (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=2.499995745293108 deltaY=-0.0049999999999954525
+[05-16-2022] [23:23:15] Redwo0dMC failed Boat Fly (Type C) [VL: 15] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] accel=0.0 deltaY=-0.0049999999999954525
+[05-17-2022] [00:40:38] Squid4001 failed Jesus (Type A) [VL: 1] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:39] Squid4001 failed Jesus (Type A) [VL: 2] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:39] Squid4001 failed Jesus (Type A) [VL: 3] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:40] Squid4001 failed Jesus (Type A) [VL: 4] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:40] Squid4001 failed Jesus (Type B) [VL: 1] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.2792457473920755
+[05-17-2022] [00:40:40] Squid4001 failed Jesus (Type A) [VL: 5] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:40] Squid4001 failed Jesus (Type B) [VL: 2] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.2762892368785028
+[05-17-2022] [00:40:40] Squid4001 failed Jesus (Type A) [VL: 6] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:41] Squid4001 failed Jesus (Type B) [VL: 3] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.21872536590632327
+[05-17-2022] [00:40:41] Squid4001 failed Jesus (Type A) [VL: 7] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:41] Squid4001 failed Jesus (Type B) [VL: 4] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.2190748858163725
+[05-17-2022] [00:40:41] Squid4001 failed Jesus (Type A) [VL: 8] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:41] Squid4001 failed Jesus (Type B) [VL: 5] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.26839750778239696
+[05-17-2022] [00:40:42] Squid4001 failed Jesus (Type A) [VL: 9] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:42] Squid4001 failed Jesus (Type B) [VL: 6] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.27957223011514987
+[05-17-2022] [00:40:42] Squid4001 failed Jesus (Type A) [VL: 10] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:42] Squid4001 failed Jesus (Type B) [VL: 7] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.2805917694273674
+[05-17-2022] [00:40:42] Squid4001 failed Jesus (Type A) [VL: 11] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:42] Squid4001 failed Jesus (Type B) [VL: 8] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.28061596131959626
+[05-17-2022] [00:40:43] Squid4001 failed Jesus (Type E) [VL: 1] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=0.28061596131959626
+[05-17-2022] [00:40:43] Squid4001 failed Jesus (Type A) [VL: 12] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:43] Squid4001 failed Jesus (Type B) [VL: 9] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.2806163112793546
+[05-17-2022] [00:40:43] Squid4001 failed Jesus (Type A) [VL: 13] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:43] Squid4001 failed Jesus (Type B) [VL: 10] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.2806163163425093
+[05-17-2022] [00:40:43] Squid4001 failed Jesus (Type A) [VL: 14] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:40:44] Squid4001 failed Jesus (Type B) [VL: 11] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 deltaXZ=0.28061631641617835
+[05-17-2022] [00:40:44] Squid4001 failed Jesus (Type A) [VL: 15] [Ping: 51] [TPS: 20] [Version: 1.18.2] [Client: Fabric] 
+[05-17-2022] [00:41:12] Squid4001 failed Jesus (Type B) [VL: 1] [Ping: 12] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=-0.009000000059607771 deltaXZ=0.16781646504689657
+[05-18-2022] [13:18:02] gamecrush911 failed Jesus (Type B) [VL: 1] [Ping: 99] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.005113027493806044 deltaXZ=0.19593868486642355
+[05-18-2022] [13:18:03] gamecrush911 failed Jesus (Type B) [VL: 2] [Ping: 99] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0 deltaXZ=0.13811637338227373
+[05-19-2022] [09:32:25] Boiled_Corn failed Motion (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=1.0
+[05-19-2022] [09:35:00] Boiled_Corn failed Aim (Type Y) [VL: 1] [Ping: 211] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] diff=26.506157 dist=3.197027586617298
+[05-19-2022] [09:35:06] Boiled_Corn failed Kill Aura (Type A) [VL: 1] [Ping: 211] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] delay=53
+[05-19-2022] [09:35:08] Boiled_Corn failed Kill Aura (Type A) [VL: 2] [Ping: 211] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] delay=48
+[05-19-2022] [09:35:10] Boiled_Corn failed Kill Aura (Type A) [VL: 3] [Ping: 211] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] delay=52
+[05-20-2022] [11:26:04] Kathe_Mera failed Bad Packets (Type G) [VL: 1] [Ping: 98] [TPS: 20] [Version: 1.18.2] [Client: Fabric] slot=3 lastSlot=3
+[05-20-2022] [11:26:07] Kathe_Mera failed Bad Packets (Type G) [VL: 2] [Ping: 98] [TPS: 20] [Version: 1.18.2] [Client: Fabric] slot=2 lastSlot=2
+[05-21-2022] [19:21:14] Kathe_Mera failed Bad Packets (Type G) [VL: 1] [Ping: 90] [TPS: 20] [Version: 1.18.2] [Client: Fabric] slot=8 lastSlot=8
+[05-22-2022] [17:33:39] astr0naut_ failed Motion (Type A) [VL: 1] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.5
+[05-22-2022] [17:33:39] astr0naut_ failed Motion (Type A) [VL: 2] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.5
+[05-22-2022] [17:33:40] astr0naut_ failed Motion (Type A) [VL: 3] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.5
+[05-22-2022] [17:33:40] astr0naut_ failed Motion (Type A) [VL: 4] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.5
+[05-22-2022] [17:33:40] astr0naut_ failed Motion (Type A) [VL: 5] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.5
+[05-22-2022] [17:33:40] astr0naut_ failed Motion (Type A) [VL: 6] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.5
+[05-22-2022] [17:33:40] astr0naut_ failed Motion (Type A) [VL: 7] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.5
+[05-23-2022] [14:09:06] Mtwink failed Fast Break (Type A) [VL: 1] [Ping: 295] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] block=STONE diff=-527.0 tool=STONE_PICKAXE
+[05-23-2022] [15:32:37] matt10204030 failed Fast Place *(Type B)* [VL: 1] [Ping: 103] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=9 delay=51
+[05-23-2022] [15:37:40] matt10204030 failed Fast Place *(Type B)* [VL: 1] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=50
+[05-23-2022] [15:37:41] matt10204030 failed Fast Place *(Type B)* [VL: 2] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=54
+[05-23-2022] [15:37:42] matt10204030 failed Fast Place *(Type B)* [VL: 3] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=50
+[05-23-2022] [15:37:42] matt10204030 failed Fast Place *(Type B)* [VL: 4] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=50
+[05-23-2022] [15:37:42] matt10204030 failed Fast Place *(Type B)* [VL: 5] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=54
+[05-23-2022] [15:37:42] matt10204030 failed Fast Place *(Type B)* [VL: 6] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=50
+[05-23-2022] [15:37:43] matt10204030 failed Fast Place *(Type B)* [VL: 7] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=9 delay=51
+[05-23-2022] [15:37:44] matt10204030 failed Fast Place *(Type B)* [VL: 8] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=55
+[05-23-2022] [15:37:44] matt10204030 failed Fast Place *(Type B)* [VL: 9] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=45
+[05-23-2022] [15:37:44] matt10204030 failed Fast Place *(Type B)* [VL: 10] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=54
+[05-23-2022] [15:37:44] matt10204030 failed Fast Place *(Type B)* [VL: 11] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=46
+[05-23-2022] [15:37:44] matt10204030 failed Fast Place *(Type B)* [VL: 12] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=50
+[05-23-2022] [15:37:45] matt10204030 failed Fast Place *(Type B)* [VL: 13] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=54
+[05-23-2022] [15:37:46] matt10204030 failed Fast Place *(Type B)* [VL: 14] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=49
+[05-23-2022] [15:37:46] matt10204030 failed Fast Place *(Type B)* [VL: 15] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=46
+[05-23-2022] [15:37:46] matt10204030 failed Fast Place *(Type B)* [VL: 16] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=50
+[05-23-2022] [15:37:46] matt10204030 failed Fast Place *(Type B)* [VL: 17] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=54
+[05-23-2022] [15:38:14] matt10204030 failed Fast Place *(Type B)* [VL: 18] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=45
+[05-23-2022] [15:38:14] matt10204030 failed Fast Place *(Type B)* [VL: 19] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=55
+[05-23-2022] [15:38:14] matt10204030 failed Fast Place *(Type B)* [VL: 20] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=44
+[05-23-2022] [15:38:15] matt10204030 failed Fast Place *(Type B)* [VL: 21] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=57
+[05-23-2022] [15:38:15] matt10204030 failed Fast Place *(Type B)* [VL: 22] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=9 delay=47
+[05-23-2022] [15:38:15] matt10204030 failed Fast Place *(Type B)* [VL: 23] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=9 delay=46
+[05-23-2022] [15:38:15] matt10204030 failed Fast Place *(Type B)* [VL: 24] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=57
+[05-23-2022] [15:38:28] matt10204030 failed Fast Place *(Type B)* [VL: 25] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=48
+[05-23-2022] [15:38:28] matt10204030 failed Fast Place *(Type B)* [VL: 26] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=45
+[05-23-2022] [15:38:29] matt10204030 failed Fast Place *(Type B)* [VL: 27] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=54
+[05-23-2022] [15:38:29] matt10204030 failed Fast Place *(Type B)* [VL: 28] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=46
+[05-23-2022] [15:38:30] matt10204030 failed Fast Place *(Type B)* [VL: 29] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=52
+[05-23-2022] [15:38:30] matt10204030 failed Fast Place *(Type B)* [VL: 30] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=46
+[05-23-2022] [15:38:30] matt10204030 failed Fast Place *(Type B)* [VL: 31] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=51
+[05-23-2022] [15:38:31] matt10204030 failed Fast Place *(Type B)* [VL: 32] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=52
+[05-23-2022] [15:38:31] matt10204030 failed Fast Place *(Type B)* [VL: 33] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=50
+[05-23-2022] [15:38:31] matt10204030 failed Fast Place *(Type B)* [VL: 34] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=54
+[05-23-2022] [15:38:31] matt10204030 failed Fast Place *(Type B)* [VL: 35] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=44
+[05-23-2022] [15:41:45] matt10204030 failed Fast Place *(Type B)* [VL: 1] [Ping: 106] [TPS: 20] [Version: 1.18] [Client: Lunarclient:707a359] blocks=6 delay=49
+[05-25-2022] [14:27:23] DodoPlayz failed Motion (Type D) [VL: 1] [Ping: 28] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=1.100000000064938E-5
+[05-25-2022] [14:27:31] DodoPlayz failed Motion (Type D) [VL: 2] [Ping: 73] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=1.100000000064938E-5
+[05-25-2022] [14:28:56] DodoPlayz failed Motion (Type D) [VL: 3] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=1.100000000064938E-5
+[05-26-2022] [03:59:39] TOXICLAVA112 failed Motion (Type A) [VL: 1] [Ping: 102] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [03:59:39] TOXICLAVA112 failed Motion (Type A) [VL: 2] [Ping: 102] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [03:59:40] TOXICLAVA112 failed Motion (Type A) [VL: 3] [Ping: 102] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [03:59:51] TOXICLAVA112 failed Motion (Type A) [VL: 4] [Ping: 102] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:00:06] TOXICLAVA112 failed Motion (Type A) [VL: 5] [Ping: 102] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:00:56] TOXICLAVA112 failed Motion (Type A) [VL: 6] [Ping: 101] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:00:56] TOXICLAVA112 failed Motion (Type A) [VL: 7] [Ping: 101] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:01:06] TOXICLAVA112 failed Motion (Type A) [VL: 8] [Ping: 104] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:01:17] TOXICLAVA112 failed Motion (Type A) [VL: 9] [Ping: 104] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:01:36] TOXICLAVA112 failed Motion (Type A) [VL: 1] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:01:36] TOXICLAVA112 failed Motion (Type A) [VL: 2] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:01:37] TOXICLAVA112 failed Motion (Type A) [VL: 3] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:01:37] TOXICLAVA112 failed Motion (Type A) [VL: 4] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:01:56] TOXICLAVA112 failed Motion (Type A) [VL: 5] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:02:02] TOXICLAVA112 failed Motion (Type A) [VL: 6] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:02:02] TOXICLAVA112 failed Motion (Type A) [VL: 7] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:02:02] TOXICLAVA112 failed Motion (Type A) [VL: 8] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:02:02] TOXICLAVA112 failed Motion (Type A) [VL: 9] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:02:03] TOXICLAVA112 failed Motion (Type A) [VL: 10] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:02:03] TOXICLAVA112 failed Motion (Type A) [VL: 11] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:02:03] TOXICLAVA112 failed Motion (Type A) [VL: 12] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:02:03] TOXICLAVA112 failed Motion (Type A) [VL: 13] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:02:03] TOXICLAVA112 failed Motion (Type A) [VL: 14] [Ping: 103] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:02:13] TOXICLAVA112 failed Motion (Type A) [VL: 15] [Ping: 105] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:00] TOXICLAVA112 failed Motion (Type A) [VL: 1] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:00] TOXICLAVA112 failed Motion (Type A) [VL: 2] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:01] TOXICLAVA112 failed Motion (Type A) [VL: 3] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:01] TOXICLAVA112 failed Motion (Type A) [VL: 4] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:01] TOXICLAVA112 failed Motion (Type A) [VL: 5] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:01] TOXICLAVA112 failed Motion (Type A) [VL: 6] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:01] TOXICLAVA112 failed Motion (Type A) [VL: 7] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:01] TOXICLAVA112 failed Motion (Type A) [VL: 8] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:02] TOXICLAVA112 failed Motion (Type A) [VL: 9] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:02] TOXICLAVA112 failed Motion (Type A) [VL: 10] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:02] TOXICLAVA112 failed Motion (Type A) [VL: 11] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:02] TOXICLAVA112 failed Motion (Type A) [VL: 12] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:02] TOXICLAVA112 failed Motion (Type A) [VL: 13] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:03] TOXICLAVA112 failed Motion (Type A) [VL: 14] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:03] TOXICLAVA112 failed Motion (Type A) [VL: 15] [Ping: 96] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [04:04:59] TOXICLAVA112 failed Motion (Type A) [VL: 1] [Ping: 61] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=1.2999999999999972
+[05-26-2022] [05:15:03] phoenix_inferno_ failed Motion (Type G) [VL: 1] [Ping: 240] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] [Lava] deltaY=1.3814080552978538 max=0.41999998688697815 ticks10
+[05-26-2022] [05:15:03] phoenix_inferno_ failed Motion (Type G) [VL: 2] [Ping: 240] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] [Lava] deltaY=1.1714723434340613 max=0.41999998688697815 ticks12
+[05-26-2022] [05:15:03] phoenix_inferno_ failed Motion (Type G) [VL: 3] [Ping: 240] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] [Lava] deltaY=0.9698500779118291 max=0.41999998688697815 ticks14
+[05-26-2022] [05:15:03] phoenix_inferno_ failed Motion (Type G) [VL: 4] [Ping: 240] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] [Lava] deltaY=0.7762120465668261 max=0.41999998688697815 ticks16
+[05-26-2022] [05:15:03] phoenix_inferno_ failed Motion (Type G) [VL: 5] [Ping: 240] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] [Lava] deltaY=0.5902420740241183 max=0.41999998688697815 ticks18
+[05-26-2022] [11:26:42] XxDADOTRONxX failed Ground Spoof (Type B) [VL: 1] [Ping: 6] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-26-2022] [11:26:42] XxDADOTRONxX failed Ground Spoof (Type B) [VL: 2] [Ping: 6] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false

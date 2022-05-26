@@ -30,7 +30,7 @@ timings:
   history-interval: 300
   history-length: 3600
   server-name: SemiVanilla MC
-config-version: 25
+config-version: 27
 settings:
   use-dimension-type-for-custom-spawners: false
   chunk-loading:
@@ -398,6 +398,12 @@ world-settings:
     allow-non-player-entities-on-scoreboards: false
     max-auto-save-chunks-per-tick: 24
     door-breaking-difficulty:
+      zombie_villager:
+      - HARD
+      husk:
+      - HARD
+      zombified_piglin:
+      - HARD
       zombie:
       - HARD
       vindicator:
@@ -441,7 +447,6 @@ world-settings:
           hide-itemmeta: true
           hide-durability: true
     water-over-lava-flow-speed: 5
-    use-faster-eigencraft-redstone: true
     show-sign-click-command-failure-msgs-to-player: false
     light-queue-size: 20
     auto-save-interval: -1
@@ -536,21 +541,21 @@ world-settings:
     alt-item-despawn-rate:
       enabled: true
       items:
-        COBBLESTONE: 600
-        COBBLED_DEEPSLATE: 600
-        STONE: 600
-        GRAVEL: 600
-        ANDESITE: 600
-        DIORITE: 600
-        GRANITE: 600
-        DIRT: 600
-        DEEPSLATE: 600
-        NETHERRACK: 600
-        ROTTEN_FLESH: 600
-        ENDER_PEARL: 600
-        BONE: 600
-        CACTUS: 600
-        EGG: 600
+        cobblestone: 600
+        cobbled_deepslate: 600
+        stone: 600
+        gravel: 600
+        andesite: 600
+        diorite: 600
+        granite: 600
+        dirt: 600
+        deepslate: 600
+        netherrack: 600
+        rotten_flesh: 600
+        ender_pearl: 600
+        bone: 600
+        cactus: 600
+        egg: 600
     tick-rates:
       sensor:
         villager:
@@ -558,6 +563,7 @@ world-settings:
       behavior:
         villager:
           validatenearbypoi: -1
+    redstone-implementation: eigencraft
   world_nether:
     feature-seeds:
       ore_diamond_large: 1355339380437084991

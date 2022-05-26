@@ -5,7 +5,7 @@
 RandomSkeletonKing:
   MobType: SkeletonKing
   Worlds: world,world_nether
-  Chance: 0.001
+  Chance: 0.004
   Priority: 1
   Action: REPLACE
   Conditions:
@@ -24,9 +24,10 @@ RandomSkeletalKnight:
 RandomAngrySludge:
   MobType: AngrySludge
   Worlds: world
-  Chance: 0.008
+  Chance: 0.01
   Priority: 1
   Action: REPLACE
   Conditions:
   - outside true
+  - entitytype{t=SLIME} true
   - biome SWAMP
