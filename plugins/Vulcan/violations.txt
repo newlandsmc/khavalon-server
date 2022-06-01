@@ -5140,3 +5140,60 @@
 [05-26-2022] [05:15:03] phoenix_inferno_ failed Motion (Type G) [VL: 5] [Ping: 240] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] [Lava] deltaY=0.5902420740241183 max=0.41999998688697815 ticks18
 [05-26-2022] [11:26:42] XxDADOTRONxX failed Ground Spoof (Type B) [VL: 1] [Ping: 6] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
 [05-26-2022] [11:26:42] XxDADOTRONxX failed Ground Spoof (Type B) [VL: 2] [Ping: 6] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [18:54:42] RETROTAUNT failed Step (Type C) [VL: 1] [Ping: 106] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] ticks=8 deltaY=-0.8775135022631275 distance=0.8775135
+[05-28-2022] [21:42:05] gecko_o failed Fast Break (Type A) [VL: 1] [Ping: 21] [TPS: 20] [Version: 1.18.2] [Client: Fabric] block=STONE diff=-161.0 tool=STONE_PICKAXE
+[05-28-2022] [21:42:26] gecko_o failed Fast Break (Type A) [VL: 2] [Ping: 24] [TPS: 20] [Version: 1.18.2] [Client: Fabric] block=OAK_LOG diff=-234.0 tool=STONE_AXE
+[05-28-2022] [21:42:35] gecko_o failed Ground Spoof (Type B) [VL: 1] [Ping: 27] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:42:35] gecko_o failed Ground Spoof (Type B) [VL: 2] [Ping: 27] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:42:35] gecko_o failed Ground Spoof (Type B) [VL: 3] [Ping: 27] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:42:35] gecko_o failed Ground Spoof (Type B) [VL: 4] [Ping: 27] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:42:36] gecko_o failed Ground Spoof (Type B) [VL: 5] [Ping: 27] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:42:49] gecko_o failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:42:59] gecko_o failed Fast Break (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] block=STONE diff=-170.0 tool=STONE_PICKAXE
+[05-28-2022] [21:43:02] gecko_o failed Fast Break (Type A) [VL: 2] [Ping: 10] [TPS: 20] [Version: 1.18.2] [Client: Fabric] block=STONE diff=-144.0 tool=STONE_PICKAXE
+[05-28-2022] [21:44:15] gecko_o failed Fast Break (Type A) [VL: 3] [Ping: 29] [TPS: 20] [Version: 1.18.2] [Client: Fabric] block=STONE diff=-129.0 tool=STONE_PICKAXE
+[05-28-2022] [21:44:25] gecko_o failed Fast Break (Type A) [VL: 4] [Ping: 29] [TPS: 20] [Version: 1.18.2] [Client: Fabric] block=COAL_ORE diff=-283.0 tool=STONE_PICKAXE
+[05-28-2022] [21:45:10] gecko_o failed Ground Spoof (Type B) [VL: 2] [Ping: 32] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:45:24] gecko_o failed Ground Spoof (Type B) [VL: 3] [Ping: 32] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:45:24] gecko_o failed Ground Spoof (Type B) [VL: 4] [Ping: 32] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:45:25] gecko_o failed Ground Spoof (Type B) [VL: 5] [Ping: 32] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:45:38] gecko_o failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:45:38] gecko_o failed Ground Spoof (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:45:38] gecko_o failed Ground Spoof (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-28-2022] [21:45:38] gecko_o failed Ground Spoof (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[05-29-2022] [18:58:06] poptart11123 failed Entity Speed (Type A) [VL: 1] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:06] poptart11123 failed Entity Speed (Type A) [VL: 2] [Ping: 42] [TPS: 20] [Version: 1.18.2] [Client: Fabric] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:07] poptart11123 failed Entity Speed (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:07] poptart11123 failed Entity Speed (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:07] poptart11123 failed Entity Speed (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:07] poptart11123 failed Entity Speed (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:07] poptart11123 failed Entity Speed (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:07] poptart11123 failed Entity Speed (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:08] poptart11123 failed Entity Speed (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:08] poptart11123 failed Entity Speed (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:08] poptart11123 failed Entity Speed (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:09] poptart11123 failed Entity Speed (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:09] poptart11123 failed Entity Speed (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [18:58:09] poptart11123 failed Entity Speed (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] [Boat] deltaXZ=4.242640687119285
+[05-29-2022] [22:24:41] NautisShadrick failed Bad Packets (Type A) [VL: 1] [Ping: 38] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] flying=false
+[05-29-2022] [22:24:41] NautisShadrick failed Bad Packets (Type A) [VL: 2] [Ping: 38] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] flying=false
+[05-29-2022] [22:24:41] NautisShadrick failed Bad Packets (Type A) [VL: 3] [Ping: 38] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] flying=false
+[05-30-2022] [01:10:44] UtahAlarms failed Strafe (Type A) [VL: 1] [Ping: 87] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] difference=0.013604431585427377 deltaXZ=0.2507849841233865
+[05-30-2022] [01:41:42] aboungnas failed Ground Spoof (Type B) [VL: 1] [Ping: 43] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-30-2022] [01:42:54] aboungnas failed Ground Spoof (Type B) [VL: 1] [Ping: 85] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-30-2022] [01:42:56] aboungnas failed Ground Spoof (Type B) [VL: 2] [Ping: 85] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-30-2022] [01:42:57] aboungnas failed Ground Spoof (Type B) [VL: 3] [Ping: 85] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-30-2022] [01:42:57] aboungnas failed Ground Spoof (Type B) [VL: 4] [Ping: 85] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-30-2022] [01:42:57] aboungnas failed Ground Spoof (Type B) [VL: 5] [Ping: 85] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] client=true server=false
+[05-30-2022] [02:14:51] Shoogie_ failed Jesus (Type B) [VL: 1] [Ping: 31] [TPS: 20] [Version: 1.18.2] [Client: Feather Fabric] deltaY=-0.009000000059607771 deltaXZ=0.11134248539364362
+[05-30-2022] [03:10:20] Shoogie_ failed Step (Type C) [VL: 1] [Ping: 32] [TPS: 20] [Version: 1.18.2] [Client: Feather Fabric] ticks=8 deltaY=-0.8775135022631275 distance=0.8775135
+[05-30-2022] [22:07:01] MarLanMC failed Jesus (Type B) [VL: 1] [Ping: 116] [TPS: 20] [Version: 1.18.2] [Client: Lunarclient:4a6937e] deltaY=-0.009000000059607771 deltaXZ=0.12065612221675034
+[05-31-2022] [04:22:44] MarLanMC failed Jump (Type A) [VL: 1] [Ping: 71] [TPS: 20] [Version: 1.18.2] [Client: Lunarclient:4a6937e] deltaY=0.20000004768371582 ticks=1 difference=0.21999993920326233
+[05-31-2022] [04:22:44] MarLanMC failed Jump (Type A) [VL: 2] [Ping: 71] [TPS: 20] [Version: 1.18.2] [Client: Lunarclient:4a6937e] deltaY=0.20000004768371582 ticks=1 difference=0.21999993920326233
+[05-31-2022] [04:39:59] MarLanMC failed Jump (Type A) [VL: 1] [Ping: 68] [TPS: 20] [Version: 1.18.2] [Client: Lunarclient:4a6937e] deltaY=0.11760000228882461 ticks=7 difference=0.2728320068054231
+[05-31-2022] [23:31:33] VoteCompYT failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] flying=false
+[05-31-2022] [23:31:33] VoteCompYT failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] flying=false
+[05-31-2022] [23:31:33] VoteCompYT failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] flying=false
+[05-31-2022] [23:31:56] VoteCompYT failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[05-31-2022] [23:31:56] VoteCompYT failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[05-31-2022] [23:31:56] VoteCompYT failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false

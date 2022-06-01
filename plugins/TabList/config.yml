@@ -131,7 +131,7 @@ placeholder-format:
 
 # Enable changing of prefix & suffix in player list?
 change-prefix-suffix-in-tablist:
-  enable: true
+  enable: false
 
   # Disable groups in these worlds.
   disabled-worlds:

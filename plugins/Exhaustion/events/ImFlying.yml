@@ -1,9 +1,0 @@
-Chance: 0
-Criteria:
-  - NotRecentlySlept
-Effects:
-  - minecraft:block.redstone_torch.burnout
-  - minecraft:item.elytra.flying
-  - minecraft:entity.bat.loop 0p 60t
-  - minecraft:item.elytra.flying 0p 60t
-  - minecraft:entity.vex.charge 0p 60t

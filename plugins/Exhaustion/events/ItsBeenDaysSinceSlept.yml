@@ -1,7 +1,0 @@
-Chance: 0.5
-Criteria:
-  - RecentlySlept
-Effects:
-  # The only placeholder in messages, this replaces %days% with the total days they've been awake.
-  # The days is rounded down. So 1.9 days = 1
-  - $ItsBeenDaysSinceSlept

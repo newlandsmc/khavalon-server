@@ -44,7 +44,6 @@ header:
 
 footer:
 - " &m      &8&m[  &r   &8&m  ]&f&m      &r"
-- " &cBounties: %bs_online% "
 #- "%bs_online_formatted%"
 #- " World time: %player_world_time_12% "
 #- " %online-players%/%max-players% Online"

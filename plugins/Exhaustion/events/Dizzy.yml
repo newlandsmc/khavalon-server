@@ -1,7 +1,0 @@
-Chance: 0.2
-Criteria:
-  - NotRecentlySlept
-Effects:
-  - CONFUSION 200p 5e
-  - "&6You're feeling sick..."
-  - "&6It's been %days% days since you've slept... 140t"

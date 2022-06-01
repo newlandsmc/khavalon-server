@@ -1,6 +1,6 @@
 # This global group will be applied to all players
 globalGroup:
   prefix: ''
-  tabname: '%bs_tag%%player%'
+  tabname: ''
   suffix: ''
 groups: []

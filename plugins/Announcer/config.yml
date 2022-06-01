@@ -25,7 +25,7 @@ returning-player:
       title: 'Khavalon'
       subtitle: 'The Adventure Continues'
   join-sounds:
-    enabled: true
+    enabled: false
     name: 'ui.toast.challenge_complete'
     pitch: 1
     source: master
@@ -46,7 +46,7 @@ new-player:
       title: 'Khavalon'
       subtitle: 'The Adventure Continues'
   join-sounds:
-    enabled: true
+    enabled: false
     name: 'UI_TOAST_CHALLENGE_COMPLETE'
     pitch: 1
     source: master
