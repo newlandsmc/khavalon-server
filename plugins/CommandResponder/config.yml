@@ -1,6 +1,9 @@
 spawn:
   enabled: true
-  message: "<red>There is no spawn on this server! Looking for the lobby? Do /lobby."
+  message: "<red>There is no spawn on this server! Looking for the lobby? Do /server lobby."
+lobby:
+  enabled: true
+  message: "<red>Looking for the lobby? Do /server lobby."
 back:
   enabled: true
   message: "<red>There is no /back on this server!"

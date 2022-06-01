@@ -77,14 +77,7 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Check the map! All players locations can be'
-    - 'seen at <click:open_url:https://semivanilla.com/khavalon/map><gradient:yellow:red>https://semivanilla.com/khavalon/map</gradient></click>!'
-    - ''
-    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
-  4:
-    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
-    - ''
-    - 'Want to keep your items when you die? Make them'
-    - 'SoulBound with <click:run_command:/soulbind><gradient:#ac2626:#720a0a>/soulbind</gradient></click>!'
+    - 'seen at <click:open_url:https://semivanilla.com/features/map><gradient:yellow:red>https://semivanilla.com/features/map</gradient></click>!'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   5:
@@ -97,7 +90,7 @@ messages:
   6:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
-    - 'Complete Expeditions by logging in every day and'
+    - 'Earn Vote Crates by logging in every day and'
     - 'voting every day! Claim rewards with <click:run_command:/spoils><gradient:yellow:red>/spoils</gradient></click>.'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
@@ -106,13 +99,6 @@ messages:
     - ''
     - 'Grinding Skills XP? Boost XP earned for the entire'
     - 'server at <click:open_url:https://store.semivanilla.com><gradient:yellow:red>https://store.semivanilla.com</gradient></click>.'
-    - ''
-    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
-  8:
-    - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
-    - ''
-    - 'Get around faster! Use <click:run_command:/fasttravel><gradient:yellow:red>/fasttravel</gradient></click> to visit'
-    - 'official locations around the map.'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   9:
@@ -126,7 +112,7 @@ messages:
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
     - ''
     - 'Unclaimed land can be griefed! Make sure you claim'
-    - 'your land. <click:open_url:https://semivanilla.com/khavalon/towny><gradient:yellow:red>https://semivanilla.com/khavalon/towny</gradient></click>'
+    - 'your land. <click:open_url:https://semivanilla.com/features/claiming><gradient:yellow:red>https://semivanilla.com/features/claiming</gradient></click>'
     - ''
     - '<gradient:yellow:red:yellow><strikethrough>                                                                 <reset>'
   11:
