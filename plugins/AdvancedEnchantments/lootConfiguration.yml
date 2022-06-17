@@ -9,22 +9,33 @@ randomLoot:
   randomLootEnabled: true
 
   # Maximum number of custom items to be generated in a random loot container
-  maxItemsPerContainer: 2
+  maxItemsPerContainer: 1
 
   # Chance of any item(s) being generated
-  chanceOfItems: 30
+  chanceOfItems: 5
 
   # Chances format:
   # ITEM_NAME: Chance (0 to 100)
   chances:
-    BLACK_SCROLL: 14
-    BLOCKTRAK: 8
-    STATTRAK: 8
-    MOBTRAK: 8
-    ARMOR_ORB: 4
-    WEAPON_ORB: 4
-    TOOL_ORB: 4
-    RANDOM_ENCHANT_BOOK: 10
+    SLOT_INCREASER: 0
+    WHITE_SCROLL: 0
+    MYSTERY_DUST: 0
+    SECRET_DUST: 0
+    MAGIC_DUST: 0
+    BLACK_SCROLL: 0
+    RANDOMIZER: 0
+    RENAME_TAG: 0
+    BLOCKTRAK: 0
+    STATTRAK: 0
+    MOBTRAK: 0
+    SOUL_TRACKER: 0
+    SOUL_GEM: 0
+    TRANSMOG_SCROLL: 0
+    HOLY_WHITE_SCROLL: 0
+    ARMOR_ORB: 0
+    WEAPON_ORB: 0
+    TOOL_ORB: 0
+    RANDOM_ENCHANT_BOOK: 100
 
 # ------ Villager Trades Section ------ #
 villagerTrades:
@@ -36,16 +47,27 @@ villagerTrades:
   tradeAllLoot: true
 
   # Chance of any item(s) being added as a trade
-  chanceOfItems: 15
+  chanceOfItems: 2
 
   # Chances format:
   # ITEM_NAME: Chance (0 to 100)
   chances:
-    BLACK_SCROLL: 14
-    BLOCKTRAK: 8
-    STATTRAK: 8
-    MOBTRAK: 8
-    ARMOR_ORB: 4
-    WEAPON_ORB: 4
-    TOOL_ORB: 4
-    RANDOM_ENCHANT_BOOK: 10
+    SLOT_INCREASER: 0
+    WHITE_SCROLL: 0
+    MYSTERY_DUST: 0
+    SECRET_DUST: 0
+    MAGIC_DUST: 0
+    BLACK_SCROLL: 0
+    RANDOMIZER: 0
+    RENAME_TAG: 0
+    BLOCKTRAK: 0
+    STATTRAK: 0
+    MOBTRAK: 0
+    SOUL_TRACKER: 0
+    SOUL_GEM: 0
+    TRANSMOG_SCROLL: 0
+    HOLY_WHITE_SCROLL: 0
+    ARMOR_ORB: 0
+    WEAPON_ORB: 0
+    TOOL_ORB: 0
+    RANDOM_ENCHANT_BOOK: 100

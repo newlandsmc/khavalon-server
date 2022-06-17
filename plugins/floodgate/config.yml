@@ -1,7 +1,7 @@
 # In Floodgate bedrock player data is send encrypted
 # The following value should point to the key Floodgate generated.
 # The public key should be used for the Geyser(s) and the private key for the Floodgate(s)
-key-file-name: key.pem
+key-file-name: "key.pem"
 
 # Floodgate prepends a prefix to bedrock usernames to avoid conflicts
 # However, certain conflicts can cause issues with some plugins so this prefix is configurable using the property below
@@ -17,10 +17,10 @@ replace-spaces: true
 disconnect:
   # The disconnect message Geyser users should get when connecting
   # to the server with an invalid key
-  invalid-key: Error with connection key.
+  invalid-key: "Error with connection key."
   # The disconnect message Geyser users should get when connecting
   # to the server with the correct key but not with the correct data format
-  invalid-arguments-length: Expected {} arguments, got {}. Is Geyser up-to-date?
+  invalid-arguments-length: "Expected {} arguments, got {}. Is Geyser up-to-date?"
 
 # Configuration for player linking
 player-link:
@@ -48,7 +48,7 @@ player-link:
   link-code-timeout: 300
   # The player linking database type you want to use. This option is only used when there
   # are multiple database implementations found in the configuration directory.
-  type: sqlite
+  type: "sqlite"
 
   # Whether to enable global linking. Global Linking is a central server where people can link their
   # accounts (Java and Bedrock) and join on servers that have Global Linking enabled. The goal of
@@ -58,5 +58,9 @@ player-link:
   # you have limited internet access.
   enable-global-linking: true
 
+metrics:
+  enabled: true
+  uuid: a49ce29e-76d3-4c64-b4a6-7b8c69e71859
+
 # Do not change this
-config-version: 2
+config-version: 3

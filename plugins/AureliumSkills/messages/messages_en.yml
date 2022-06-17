@@ -889,7 +889,7 @@ units:
   mana: Mana
   hp: HP
   xp: XP
-file_version: 25
+file_version: 26
 sources:
   farming:
     wheat: Wheat
@@ -932,6 +932,9 @@ sources:
     flowering_azalea: Flowering Azalea
     azalea_leaves: Azalea Leaves
     flowering_azalea_leaves: Flowering Azalea Leaves
+    mangrove_log: Mangrove Log
+    mangrove_leaves: Mangrove Leaves
+    mangrove_roots: Mangrove Roots
   mining:
     stone: Stone
     cobblestone: Cobblestone
@@ -980,6 +983,7 @@ sources:
     ice: Ice
     packed_ice: Packed Ice
     blue_ice: Blue Ice
+    reinforced_deepslate: Reinforced Deepslate
   fishing:
     cod: Cod
     salmon: Salmon
@@ -1002,6 +1006,8 @@ sources:
     soul_soil: Soul Soil
     red_sand: Red Sand
     rooted_dirt: Rooted Dirt
+    mud: Mud
+    muddy_mangrove_roots: Muddy Mangrove Roots
   mobs:
     player: Player
     bat: Bat
@@ -1075,6 +1081,10 @@ sources:
     axolotl: Axolotl
     glow_squid: Glow Squid
     goat: Goat
+    allay: Allay
+    frog: Frog
+    tadpole: Tadpole
+    warden: Warden
   defense:
     mob_damage: Damage from Mobs
     player_damage: Damage from Players
@@ -1099,6 +1109,11 @@ sources:
     book_per_level: Book
   sorcery:
     mana_ability_use: Using Mana Abilities
+    sculk: Sculk
+    sculk_vein: Sculk Vein
+    sculk_sensor: Sculk Sensor
+    sculk_catalyst: Sculk Catalyst
+    sculk_shrieker: Sculk Shrieker
   healing:
     drink_regular: Drink Regular Potion
     drink_extended: Drink Extended Duration Potion

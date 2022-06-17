@@ -1,0 +1,48 @@
+messages: # See https://docs.adventure.kyori.net/minimessage/format.html
+  claim-created: '<green>Claim created! Spawn block set to %1 %2 %3. You can change it by typing /setspawn.'
+  must-be-standing-in-claim: '<red>You must be standing in a claim!'
+  no-permission: '<red>You do not own this claim, or do not have permission to do that!'
+  teleporting: '<yellow>Teleporting in 5 seconds, don''t move...'
+  moved: '<red>Pending teleportation request cancelled.'
+  damaged: '<red>Pending teleportation request cancelled.'
+  public-on: '<green>Your claim is now public!'
+  public-off: '<green>Your claim is no longer public!'
+  updated-spawn: '<green>Spawn block set to %1 %2 %3.'
+  name-too-long: '<red>The name you entered is too long!'
+  updated-name: '<green>Updated the name of your claim to %1.'
+  no-spawn-set: '<red>This claim does not have a spawn block set yet! Use </green><gradient:dark_purple:aqua:dark_purple>/claim set spawn</gradient><red> to set one.</red>'
+  search: '<gray>Type in the name of the claim you want to search for.'
+  already-teleporting: '<red>You''re already teleporting somewhere!'
+  public-disabled: '<red>Public claims are disabled!'
+  manager-gui:
+    rename-claim: '<gray>Please type in the name of the claim.'
+    claim-renamed: '<green>Claim renamed to %1.'
+    claim-deleted: '<red>Claim deleted.'
+teleport:
+  warmup:
+    enabled: true
+    seconds: 5
+max-claim-name-length: 32
+enable-public: true
+permissions:
+  allow-manager: true # Weather to allow players with manager permission to manage claims
+menu:
+  enable-search: true
+  enable-delete: false # Enable the delete claim button in the manager menu
+  show-coordinates: true
+  close-button-type: 'BARRIER'
+commands:
+  claims: # gptp.command.claims
+    permission:
+      enabled: true
+  public: # gptp.command.public
+    permission:
+      enabled: true
+  rename: # gptp.command.rename
+    permission:
+      enabled: true
+  setspawn: # gptp.command.setspawn
+    permission:
+      enabled: true
+
+update-check: false

@@ -193,10 +193,10 @@ combining:
 slots:
   enabled: true
   # Max number of enchantments
-  max: 3
+  max: 4
   # Max slots increasement with slot increaser
   # This is a total slot number that can be with upgrades
-  max-increase-of-slots: 7
+  max-increase-of-slots: 4
   # Should it be displayed in lore?
   display-in-lore: true
   display: '&8Custom Slots Left: %left%'
@@ -848,9 +848,9 @@ settings:
     # Setting this to TRUE will let plugin choose between WG-only or Universal method, may cause performance loss
     automaticallyDetect: true
   # Radius of the "LAVA_WALKER" enchant. Can't be less then 2 or more then 10.
-  lava-walker-radius: 3
+  lava-walker-radius: 4
   # Same as lavawalker-range but for "WATER_WALKER'.
-  water-walker-radius: 3
+  water-walker-radius: 4
   # Should souls be collected from mobs? By default souls are collected from Players only
   collect-souls-from-mobs: false
   

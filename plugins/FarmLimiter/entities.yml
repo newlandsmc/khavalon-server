@@ -2,6 +2,7 @@
 # It updates automatically.
 
 valid-living-entity-types:
+- allay
 - axolotl
 - bat
 - bee
@@ -21,6 +22,7 @@ valid-living-entity-types:
 - ender dragon
 - evoker
 - fox
+- frog
 - ghast
 - giant
 - glow squid
@@ -59,6 +61,7 @@ valid-living-entity-types:
 - squid
 - stray
 - strider
+- tadpole
 - trader llama
 - tropical fish
 - turtle
@@ -66,6 +69,7 @@ valid-living-entity-types:
 - villager
 - vindicator
 - wandering trader
+- warden
 - witch
 - wither
 - wither skeleton

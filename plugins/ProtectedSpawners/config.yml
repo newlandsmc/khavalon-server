@@ -3,11 +3,11 @@
 verbose: false
 config-version: 1
 enabled:
-  loot-chest: false
   minecartchest: false
 messages:
-  break-block-failed: <red>You cannot break this chest! This is a natural loot chest.
-  player-command-can-break: <green>You can now break protected blocks.
+  break-block-failed: <red>This is a natural loot chest! These generate loot for every
+    new player. Breaking these is permanent, are you sure? (/breakconfirm to confirm).
+  player-command-can-break: <green>You can now break natural loot chests.
   player-command-time-out: ''
 materials-enabled:
 - CHEST

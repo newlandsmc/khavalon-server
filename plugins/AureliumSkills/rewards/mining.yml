@@ -11,4 +11,12 @@ patterns:
     pattern:
       start: 2
       interval: 2
+  - type: command
+    executor: console
+    command: setaccruedclaimblocks {player} %math_0:0_{level}*1000+500%
+    menu_message: \n\n&eMore land!\n  &7+1000 claim blocks
+    chat_message: \n  &eMore land!&7 - +1000 claim blocks
+    pattern:
+      start: 1
+      interval: 1
 levels:

@@ -95,42 +95,6 @@ replanter:
 #        - "%is fully grown% = false : %stop%"
       effects:
         - "PLANT_SEEDS:0:%block drop type%"
-impact:
-  display: "%group-color%Impact"
-  description: "Chance to double dealt damage."
-  applies-to: "Tridents"
-  type: "BOW;BOW_MOB;ATTACK;ATTACK_MOB"
-  group: "RARE"
-  settings:
-    newVersionsOnly: true # Only load this enchantment if server version is 1.13 or higher
-  applies:
-    - TRIDENT
-  levels:
-    1:
-      chance: 7
-      cooldown: 3
-      effects:
-        - "DOUBLE_DAMAGE %victim%"
-    2:
-      chance: 11
-      cooldown: 3
-      effects:
-        - "DOUBLE_DAMAGE %victim%"
-    3:
-      chance: 15
-      cooldown: 5
-      effects:
-        - "DOUBLE_DAMAGE %victim%"
-    4:
-      chance: 21
-      cooldown: 6
-      effects:
-        - "DOUBLE_DAMAGE %victim%"
-    5:
-      chance: 33
-      cooldown: 6
-      effects:
-        - "DOUBLE_DAMAGE %victim%"
 experience:
   display: "%group-color%Experience"
   description: "Chance to get more experience from ores."
@@ -170,30 +134,6 @@ experience:
       condition: "%block type% contains ORE : %allow%"
       effects:
         - "EXP:<random number>2-5</random number>"
-featherweight:
-  display: "%group-color%Featherweight"
-  description: "Chance to get a burst of haste."
-  applies-to: "Swords"
-  type: "ATTACK;ATTACK_MOB"
-  group: "UNCOMMON"
-  applies:
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 35
-      cooldown: 30
-      effects:
-        - "POTION:FAST_DIGGING:0:60"
-    2:
-      chance: 55
-      cooldown: 30
-      effects:
-        - "POTION:FAST_DIGGING:1:80"
-    3:
-      chance: 75
-      cooldown: 30
-      effects:
-        - "POTION:FAST_DIGGING:2:100"
 rebreather:
   display: "%group-color%Rebreather"
   description: "Chance to regain air when mining under water."
@@ -255,7 +195,7 @@ decapitation:
         - "DROP_HEAD %victim%"
 reflect:
   display: "%group-color%Reflect"
-  description: "Chance to absorb enemy damage and reflect it\nback."
+  description: "Chance to absorb enemy damage and\nreflect it back."
   applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
@@ -450,11 +390,12 @@ netherslayer:
 allure:
   display: "%group-color%Allure"
   description: "Your attack pulls enemies towards you."
-  applies-to: "Swords"
+  applies-to: "Swords, Bows"
   type: "ATTACK;ATTACK_MOB"
   group: "RARE"
   applies:
     - ALL_SWORD
+    - BOW
   levels:
     1:
       effects:
@@ -617,33 +558,6 @@ arrowdeflect:
       cooldown: 5
       effects:
         - "STOP_ATTACK"
-block:
-  display: "%group-color%Block"
-  description: "Chance to negate an attack and deal up to 4 damage\nback."
-  applies-to: "Swords"
-  type: "DEFENSE;DEFENSE_MOB"
-  group: "LEGENDARY"
-  applies:
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 16
-      cooldown: 4
-      effects:
-        - "NEGATE_DAMAGE:50 %victim%"
-        - "ADD_HARM:<random number>1-4</random number> %attacker%"
-    2:
-      chance: 22
-      cooldown: 4
-      effects:
-        - "NEGATE_DAMAGE:50 %victim%"
-        - "ADD_HARM:<random number>1-4</random number> %attacker%"
-    3:
-      chance: 30
-      cooldown: 4
-      effects:
-        - "NEGATE_DAMAGE:50 %victim%"
-        - "ADD_HARM:<random number>1-4</random number> %attacker%"
 trench:
   display: "%group-color%Trench"
   description: "Break in 3x3 area."
@@ -664,92 +578,83 @@ trench:
         - "TRENCH:3"
 dodge:
   display: "%group-color%Dodge"
-  description: "Chance to dodge physical enemy, chance increases\nwhen sneaking."
-  applies-to: "Leggings"
+  description: "Chance to dodge attack, chance increases\nwhen sneaking."
+  applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "DEFENSE;DEFENSE_MOB"
   group: "LEGENDARY"
   applies:
     - ALL_LEGGINGS
+    - ALL_CHESTPLATE
+    - ALL_HELMET
+    - ALL_BOOTS
   levels:
     1:
-      chance: 7
+      chance: 3
       cooldown: 8
       condition:
-        - "%victim is sneaking% = true : %chance%+7"
+        - "%victim is sneaking% = true : %chance%+5"
       effects:
         - "STOP_ATTACK"
         - "PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 %victim%"
     2:
-      chance: 12
+      chance: 5
       cooldown: 8
       condition:
-        - "%victim is sneaking% = true : %chance%+7"
+        - "%victim is sneaking% = true : %chance%+5"
       effects:
         - "STOP_ATTACK"
         - "PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 %victim%"
     3:
-      chance: 16
+      chance: 7
       cooldown: 8
       condition:
-        - "%victim is sneaking% = true : %chance%+7"
-      effects:
-        - "STOP_ATTACK"
-        - "PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 %victim%"
-    4:
-      chance: 22
-      cooldown: 8
-      condition:
-        - "%victim is sneaking% = true : %chance%+7"
-      effects:
-        - "STOP_ATTACK"
-        - "PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 %victim%"
-    5:
-      chance: 27
-      cooldown: 8
-      condition:
-        - "%victim is sneaking% = true : %chance%+7"
+        - "%victim is sneaking% = true : %chance%+5"
       effects:
         - "STOP_ATTACK"
         - "PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 %victim%"
 enderroots:
   display: "%group-color%Enderroots"
   description: "Chance of disabling enderpearls for your\nenemy up to 10 seconds."
-  applies-to: "Swords"
+  applies-to: "Swords, Axes, Tridents, Bows, Crossbows"
   type: "ATTACK;ATTACK_MOB"
   group: "LEGENDARY"
   applies:
     - ALL_SWORD
+    - ALL_AXE
+    - BOW
+    - CROSSBOW
+    - TRIDENT
   levels:
     1:
       chance: 15
       cooldown: 180
       effects:
         - "CANCEL_USE:ENDER_PEARL:100 %victim%"
-        - 'MESSAGE:&5*** ENDERPEARLS DEACTIVATED! *** %attacker%'
-        - 'MESSAGE:&c*** ENDERPEARLS DEACTIVATED! *** %victim%'
+        - 'ACTIONBAR:&5*** ENDERPEARLS DEACTIVATED! *** %attacker%'
+        - 'ACTIONBAR:&c*** ENDERPEARLS DEACTIVATED! *** %victim%'
         - WAIT:105
-        - 'MESSAGE:&5*** ENDERPEARLS REACTIVATED! *** %attacker%'
-        - 'MESSAGE:&a*** ENDERPEARLS REACTIVATED! *** %victim%'
+        - 'ACTIONBAR:&5*** ENDERPEARLS REACTIVATED! *** %attacker%'
+        - 'ACTIONBAR:&a*** ENDERPEARLS REACTIVATED! *** %victim%'
     2:
       chance: 23
       cooldown: 120
       effects:
         - "CANCEL_USE:ENDER_PEARL:140 %victim%"
-        - 'MESSAGE:&5*** ENDERPEARLS DEACTIVATED! *** %attacker%'
-        - 'MESSAGE:&c*** ENDERPEARLS DEACTIVATED! *** %victim%'
+        - 'ACTIONBAR:&5*** ENDERPEARLS DEACTIVATED! *** %attacker%'
+        - 'ACTIONBAR:&c*** ENDERPEARLS DEACTIVATED! *** %victim%'
         - WAIT:145
-        - 'MESSAGE:&5*** ENDERPEARLS REACTIVATED! *** %attacker%'
-        - 'MESSAGE:&a*** ENDERPEARLS REACTIVATED! *** %victim%'
+        - 'ACTIONBAR:&5*** ENDERPEARLS REACTIVATED! *** %attacker%'
+        - 'ACTIONBAR:&a*** ENDERPEARLS REACTIVATED! *** %victim%'
     3:
       chance: 31
       cooldown: 60
       effects:
         - "CANCEL_USE:ENDER_PEARL:200 %victim%"
-        - 'MESSAGE:&5*** ENDERPEARLS DEACTIVATED! *** %attacker%'
-        - 'MESSAGE:&c*** ENDERPEARLS DEACTIVATED! *** %victim%'
+        - 'ACTIONBAR:&5*** ENDERPEARLS DEACTIVATED! *** %attacker%'
+        - 'ACTIONBAR:&c*** ENDERPEARLS DEACTIVATED! *** %victim%'
         - WAIT:205
-        - 'MESSAGE:&5*** ENDERPEARLS REACTIVATED! *** %attacker%'
-        - 'MESSAGE:&a*** ENDERPEARLS REACTIVATED! *** %victim%'
+        - 'ACTIONBAR:&5*** ENDERPEARLS REACTIVATED! *** %attacker%'
+        - 'ACTIONBAR:&a*** ENDERPEARLS REACTIVATED! *** %victim%'
 reinforced:
   display: "%group-color%Reinforced"
   description: "Reduces damage dealt to you."
@@ -777,13 +682,15 @@ reinforced:
 restore:
   display: "%group-color%Restore"
   description: "Upon breaking, item has a chance to lose this\nenchantment and repair half of its durability."
-  applies-to: "Pickaxes, Axes, Shovels"
+  applies-to: "Pickaxes, Axes, Shovels, Hoes, Fishing Rods"
   type: "ITEM_BREAK"
   group: "FABLED"
   applies:
     - ALL_PICKAXE
     - ALL_SPADE
     - ALL_AXE
+    - ALL_HOE
+    - FISHING_ROD
   levels:
     1:
       chance: 40
@@ -1022,7 +929,7 @@ critical:
         - "INCREASE_DAMAGE:20"
 creeperarmor:
   display: "%group-color%Creeper Armor"
-  description: "Chance to be immune to explosive damage, at higher\nlevels you have a chance to heal."
+  description: "Chance to be immune to explosive damage."
   applies-to: "Boots, Leggings, Chestplates, Helmets"
   type: "EXPLOSION"
   group: "LEGENDARY"
@@ -1030,21 +937,20 @@ creeperarmor:
     - ALL_ARMOR
   levels:
     1:
-      chance: 7
+      chance: 10
       effects:
         - "STOP_ATTACK"
-        - 'MESSAGE:&5*** CREEPER ARMOR *** %victim%'
+        - 'ACTIONBAR:&5*** CREEPER ARMOR *** %victim%'
     2:
-      chance: 11
-      effects:
-        - "STOP_ATTACK"
-        - 'MESSAGE:&5*** CREEPER ARMOR *** %victim%'
-    3:
       chance: 15
       effects:
         - "STOP_ATTACK"
-        - "ADD_HEALTH:<random number>1-2</random number>"
-        - 'MESSAGE:&5*** CREEPER ARMOR *** %victim%'
+        - 'ACTIONBAR:&5*** CREEPER ARMOR *** %victim%'
+    3:
+      chance: 20
+      effects:
+        - "STOP_ATTACK"
+        - 'ACTIONBAR:&5*** CREEPER ARMOR *** %victim%'
 bleed:
   display: "%group-color%Bleed"
   description: "Chance to make your opponent bleed."
@@ -1103,7 +1009,7 @@ lavawalker:
   description: "Walk on Lava."
   applies-to: "Boots"
   type: "EFFECT_STATIC"
-  group: "EXOTIC"
+  group: "FABLED"
   applies:
     - ALL_BOOTS
   levels:
@@ -1201,7 +1107,7 @@ inflame:
   display: "%group-color%Inflame"
   description: "Chance to set all enemies in radius on fire."
   applies-to: "Axes, Swords"
-  group: "EXOTIC"
+  group: "FABLED"
   type: "ATTACK;ATTACK_MOB"
   applies:
     - ALL_AXE
@@ -1211,7 +1117,7 @@ inflame:
       chance: 10
       cooldown: 4
       effects:
-        - "PARTICLE:FALLING_LAVA:5:0 <aoe> radius=2 target=damageable </aoe>"
+        - "PARTICLE:FALLING_LAVA:5:0 <aoe> radius=3 target=damageable </aoe>"
         - "FLAME:40 <aoe> radius=2 target=damageable </aoe>"
     2:
       chance: 15
@@ -1239,13 +1145,13 @@ killaura:
       chance: 5
       cooldown: 3
       effects:
-        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=2 target=mobs </aoe>"
+        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=3 target=mobs </aoe>"
         - "ADD_HARM:2 <aoe> radius=2 target=mobs </aoe>"
     2:
       chance: 8
       cooldown: 4
       effects:
-        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=2 target=mobs </aoe>"
+        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=3 target=mobs </aoe>"
         - "ADD_HARM:3 <aoe> radius=2 target=mobs </aoe>"
     3:
       chance: 12
@@ -1257,7 +1163,7 @@ killaura:
       chance: 15
       cooldown: 5
       effects:
-        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=3 target=mobs </aoe>"
+        - "PARTICLE:SPELL_MOB:5:0 <aoe> radius=4 target=mobs </aoe>"
         - "ADD_HARM:5 <aoe> radius=3 target=mobs </aoe>"
     5:
       chance: 18
@@ -1268,11 +1174,13 @@ killaura:
 inquisitive:
   display: "%group-color%Inquisitive"
   description: "Chance to increase EXP drops from mobs."
-  applies-to: "Swords"
+  applies-to: "Swords, Axes, Tridents"
   type: "KILL_MOB"
   group: "EXOTIC"
   applies:
     - ALL_SWORD
+    - ALL_AXE
+    - TRIDENT
   levels:
     1:
       chance: 30
@@ -1292,11 +1200,12 @@ inquisitive:
 blacksmith:
   display: "%group-color%Blacksmith"
   description: "Chance to repair your weapon in exchange for\ndealing less damage."
-  applies-to: "Axes"
+  applies-to: "Axes, Swords"
   type: "ATTACK;ATTACK_MOB"
   group: "EXOTIC"
   applies:
     - ALL_AXE
+    - ALL_SWORD
   levels:
     1:
       chance: 9
@@ -1410,7 +1319,7 @@ plummet:
         - "ADD_HARM:3 <aoe> radius=5 target=mobs </aoe>"
     3:
       effects:
-        - "ADD_HARM:5 <aoe> radius=8 target=mobs </aoe>"
+        - "ADD_HARM:5 <aoe> radius=5 target=mobs </aoe>"
 nightowl:
   display: "%group-color%Night Owl"
   description: "Deal more damage to mobs at night."
@@ -1433,20 +1342,33 @@ nightowl:
       condition: "%time% > 12300 or %time% < 23850 : %allow%"
       effects:
         - "INCREASE_DAMAGE:50"
-slingshot:
-  display: "%group-color%Slingshot"
-  description: "Boost yourself into flight by right-clicking.\n(Has cooldown)"
+momentum:
+  display: "%group-color%Momentum"
+  description: "Chance to gain speed boost with fireworks."
   applies-to: "Elytra"
   type: "RIGHT_CLICK"
-  group: "EXOTIC"
+  group: "RARE"
   applies:
     - ELYTRA
   levels:
     1:
-      cooldown: 60
-      condition: "%is holding% contains FIREWORK : %stop%"
+      chance: 15
+      cooldown: 3
+      condition: "%player is holding% = FIREWORK_ROCKET : %allow%"
       effects:
-        - "BOOST:UP:10"
+        - "POTION:SPEED:0:40"
+    2:
+      chance: 35
+      cooldown: 3
+      condition: "%player is holding% = FIREWORK_ROCKET : %allow%"
+      effects:
+        - "POTION:SPEED:1:60"
+    3:
+      chance: 65
+      cooldown: 3
+      condition: "%player is holding% = FIREWORK_ROCKET : %allow%"
+      effects:
+        - "POTION:SPEED:2:80"
 concussion:
   display: '%group-color%Concussion'
   description: "A chance to deal nausea to your victim."
@@ -1477,11 +1399,12 @@ concussion:
 execute:
   display: '%group-color%Execute'
   description: "Damage buff when your target is at low HP."
-  applies-to: 'Swords'
+  applies-to: 'Swords, Axes'
   type: 'ATTACK;ATTACK_MOB'
   group: 'RARE'
   applies:
     - ALL_SWORD
+    - ALL_AXE
   levels:
     1:
       condition:
@@ -1538,14 +1461,15 @@ trap:
         - 'POTION:SLOW:2:140 %attacker%'
         - 'DISABLE_ACTIVATION:gears:7 %victim%'
         - 'DISABLE_ACTIVATION:springs:7 %victim%'
-enrage:
-  display: '%group-color%Enrage'
+rage:
+  display: '%group-color%Rage'
   description: 'Deal more damage on low HP.'
-  applies-to: 'Swords'
+  applies-to: 'Swords, Axes'
   type: 'ATTACK;ATTACK_MOB'
   group: 'LEGENDARY'
   applies:
     - ALL_SWORD
+    - ALL_AXE
   levels:
     1:
       condition:
@@ -1591,9 +1515,9 @@ unfocus:
       effects:
         - 'POTION:CONFUSION:0:40 %victim%'
         - 'HALF_DAMAGE'
-        - 'MESSAGE:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
+        - 'ACTIONBAR:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:45'
-        - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
+        - 'ACTIONBAR:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     2:
       chance: 13
       cooldown: 4
@@ -1602,9 +1526,9 @@ unfocus:
       effects:
         - 'POTION:CONFUSION:0:60 %victim%'
         - 'HALF_DAMAGE'
-        - 'MESSAGE:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
+        - 'ACTIONBAR:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:65'
-        - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
+        - 'ACTIONBAR:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     3:
       chance: 19
       cooldown: 4
@@ -1613,9 +1537,9 @@ unfocus:
       effects:
         - 'POTION:CONFUSION:0:80 %victim%'
         - 'HALF_DAMAGE'
-        - 'MESSAGE:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
+        - 'ACTIONBAR:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:85'
-        - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
+        - 'ACTIONBAR:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     4:
       chance: 25
       cooldown: 4
@@ -1624,9 +1548,9 @@ unfocus:
       effects:
         - 'POTION:CONFUSION:1:120 %victim%'
         - 'HALF_DAMAGE'
-        - 'MESSAGE:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
+        - 'ACTIONBAR:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:125'
-        - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
+        - 'ACTIONBAR:&a*** YOU''VE REGAINED FOCUS *** %victim%'
     5:
       chance: 32
       cooldown: 4
@@ -1635,18 +1559,16 @@ unfocus:
       effects:
         - 'POTION:CONFUSION:1:120 %victim%'
         - 'HALF_DAMAGE'
-        - 'MESSAGE:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
+        - 'ACTIONBAR:&c*** YOU''VE BEEN UNFOCUSED *** %victim%'
         - 'WAIT:125'
-        - 'MESSAGE:&a*** YOU''VE REGAINED FOCUS *** %victim%'
+        - 'ACTIONBAR:&a*** YOU''VE REGAINED FOCUS *** %victim%'
 impale:
   display: '%group-color%Impale'
   description: "Chance to deal double damage to your opponent,\ncausing slowness for some time"
-  applies-to: 'Bows, Crossbows, Tridents'
+  applies-to: 'Tridents'
   type: 'BOW;BOW_MOB'
   group: 'EXOTIC'
   applies:
-    - BOW
-    - CROSSBOW
     - TRIDENTS
   levels:
     1:
@@ -1679,64 +1601,9 @@ impale:
       effects:
         - 'DOUBLE_DAMAGE'
         - 'POTION:SLOW:4:80 %victim%'
-rage:
-  display: '%group-color%Rage'
-  description: "For every combo hit you land, chance to do 0.5\nheart damage per combo to your opponent."
-  applies-to: 'Swords, Axes'
-  type: 'ATTACK;ATTACK_MOB'
-  group: 'EXOTIC'
-  applies:
-    - ALL_AXE
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 25
-      condition:
-        - "%attacker combo% > 3 : %allow%"
-      cooldown: 10
-      effects:
-        - 'ADD_HARM:%combo% %victim%'
-        - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
-    2:
-      chance: 30
-      condition:
-        - "%attacker combo% > 3 : %allow%"
-      cooldown: 10
-      effects:
-        - 'ADD_HARM:%combo% %victim%'
-        - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
-    3:
-      chance: 35
-      condition:
-        - "%attacker combo% > 3 : %allow%"
-      cooldown: 10
-      effects:
-        - 'ADD_HARM:%combo% %victim%'
-        - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
-    4:
-      chance: 40
-      condition:
-        - "%attacker combo% > 3 : %allow%"
-      cooldown: 10
-      effects:
-        - 'ADD_HARM:%combo% %victim%'
-        - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
-    5:
-      chance: 45
-      condition:
-        - "%attacker combo% > 3 : %allow%"
-      cooldown: 10
-      effects:
-        - 'ADD_HARM:%combo% %victim%'
-        - 'BLOOD %victim%'
-        - 'MESSAGE:&5*** RAGE (COMBO: %attacker combo%) *** %attacker%'
 diminish:
   display: '%group-color%Diminish'
-  description: "When this effect procs, the next attack dealt to\nyou cannot deal more than the (total amount of\ndamage / 2) you took from the previous attack."
+  description: "Chance to reduce incoming damage."
   applies-to: 'Boots, Leggings, Chestplates, Helmets'
   type: 'DEFENSE;DEFENSE_MOB'
   group: 'EXOTIC'
@@ -1781,60 +1648,60 @@ markofthebeast:
       chance: 5
       cooldown: 600
       effects:
-        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
-        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
+        - 'ACTIONBAR:&5*** BEAST MARKED! *** %victim%'
+        - 'ACTIONBAR:&c*** YOU''VE BEEN MARKED! *** %attacker%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
-        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
-        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
+        - 'ACTIONBAR:&5*** BEAST UNMARKED! *** %victim%'
+        - 'ACTIONBAR:&a*** YOU''RE NO LONGER MARKED! *** %attacker%'
     2:
       chance: 7
       cooldown: 500
       effects:
-        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
-        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
+        - 'ACTIONBAR:&5*** BEAST MARKED! *** %victim%'
+        - 'ACTIONBAR:&c*** YOU''VE BEEN MARKED! *** %attacker%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
-        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
-        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
+        - 'ACTIONBAR:&5*** BEAST UNMARKED! *** %victim%'
+        - 'ACTIONBAR:&a*** YOU''RE NO LONGER MARKED! *** %attacker%'
     3:
       chance: 9
       cooldown: 400
       effects:
-        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
-        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
+        - 'ACTIONBAR:&5*** BEAST MARKED! *** %victim%'
+        - 'ACTIONBAR:&c*** YOU''VE BEEN MARKED! *** %attacker%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
-        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
-        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
+        - 'ACTIONBAR:&5*** BEAST UNMARKED! *** %victim%'
+        - 'ACTIONBAR:&a*** YOU''RE NO LONGER MARKED! *** %attacker%'
     4:
       chance: 11
       cooldown: 300
       effects:
-        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
-        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
+        - 'ACTIONBAR:&5*** BEAST MARKED! *** %victim%'
+        - 'ACTIONBAR:&c*** YOU''VE BEEN MARKED! *** %attacker%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
-        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
-        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
+        - 'ACTIONBAR:&5*** BEAST UNMARKED! *** %victim%'
+        - 'ACTIONBAR:&a*** YOU''RE NO LONGER MARKED! *** %attacker%'
     5:
       chance: 15
       cooldown: 200
       effects:
-        - 'MESSAGE:&5*** BEAST MARKED! *** %attacker%'
-        - 'MESSAGE:&c*** YOU''VE BEEN MARKED! *** %victim%'
+        - 'ACTIONBAR:&5*** BEAST MARKED! *** %victim%'
+        - 'ACTIONBAR:&c*** YOU''VE BEEN MARKED! *** %attacker%'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
@@ -1843,5 +1710,124 @@ markofthebeast:
         - 'WAIT:20'
         - 'INCREASE_DAMAGE:50 %attacker%'
         - 'WAIT:20'
-        - 'MESSAGE:&5*** BEAST UNMARKED! *** %attacker%'
-        - 'MESSAGE:&a*** YOU''RE NO LONGER MARKED! *** %victim%'
+        - 'ACTIONBAR:&5*** BEAST UNMARKED! *** %victim%'
+        - 'ACTIONBAR:&a*** YOU''RE NO LONGER MARKED! *** %attacker%'
+reach:
+  display: '%group-color%Reach'
+  description: "Increase range underwater"
+  applies-to: 'Tridents'
+  type: 'ATTACK;ATTACK_MOB'
+  group: 'EXOTIC'
+  applies:
+    - TRIDENT
+  levels:
+    1:
+      effects:
+        - 'REACH:5'
+shockwave:
+  display: '%group-color%Shockwave'
+  description: "Chance to knockback all nearby enemies on block"
+  applies-to: 'Shields'
+  type: 'SHIELD_BLOCK'
+  group: 'RARE'
+  applies:
+    - SHIELD
+  levels:     
+    1:
+      chance: 11
+      cooldown: 15
+      effects:
+        - 'PULL_AWAY <aoe> radius=2 target=damageable </aoe>'
+    2:
+      chance: 22
+      cooldown: 10
+      effects:
+        - 'PULL_AWAY <aoe> radius=3 target=damageable </aoe>'
+    3:
+      chance: 33
+      cooldown: 8
+      effects:
+        - 'PULL_AWAY <aoe> radius=3 target=damageable </aoe>'
+rebuff:
+  display: '%group-color%Rebuff'
+  description: "Chance to absorb enemy damage and reflect it\nback."
+  applies-to: 'Shields'
+  type: 'SHIELD_BLOCK'
+  group: 'FABLED'
+  applies:
+    - SHIELD
+  levels:
+    1:
+      chance: 12
+      cooldown: 5
+      effects:
+        - "ADD_HARM:%damage% %attacker%"
+        - "CACTUS_BREAK %victim%"
+    2:
+      chance: 16
+      cooldown: 5
+      effects:
+        - "ADD_HARM:%damage% %attacker%"
+        - "CACTUS_BREAK %victim%"
+    3:
+      chance: 20
+      cooldown: 5
+      effects:
+        - "ADD_HARM:%damage% %attacker%"
+        - "CACTUS_BREAK %victim%"
+    4:
+      chance: 24
+      cooldown: 5
+      effects:
+        - "ADD_HARM:%damage% %attacker%"
+        - "CACTUS_BREAK %victim%"
+    5:
+      chance: 28
+      cooldown: 5
+      effects:
+        - "ADD_HARM:%damage% %attacker%"
+        - "CACTUS_BREAK %victim%"
+block:
+  display: '%group-color%Block'
+  description: "Chance to passively reduce damage"
+  applies-to: 'Shields'
+  type: 'DEFENSE;DEFENSE_MOB'
+  group: 'EXOTIC'
+  applies:
+    - SHIELD
+  levels:
+    1:
+      condition:
+        - "%attacker is holding% contains SHIELD or %attacker offhand item% contains SHIELD : %allow%"
+      chance: 7
+      cooldown: 5
+      effects:
+        - 'DECREASE_DAMAGE:10'
+    2:
+      condition:
+        - "%attacker is holding% contains SHIELD or %attacker offhand item% contains SHIELD : %allow%"
+      chance: 9
+      cooldown: 5
+      effects:
+        - 'DECREASE_DAMAGE:15'
+    3:
+      condition:
+        - "%attacker is holding% contains SHIELD or %attacker offhand item% contains SHIELD : %allow%"
+      chance: 11
+      cooldown: 5
+      effects:
+        - 'DECREASE_DAMAGE:25'
+    4:
+      condition:
+        - "%attacker is holding% contains SHIELD or %attacker offhand item% contains SHIELD : %allow%"
+      chance: 13
+      cooldown: 5
+      effects:
+        - 'DECREASE_DAMAGE:50'
+    5:
+      condition:
+        - "%attacker is holding% contains SHIELD or %attacker offhand item% contains SHIELD : %allow%"
+      chance: 15
+      cooldown: 5
+      effects:
+        - 'DECREASE_DAMAGE:100'

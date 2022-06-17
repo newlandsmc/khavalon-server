@@ -5197,3 +5197,105 @@
 [05-31-2022] [23:31:56] VoteCompYT failed Bad Packets (Type A) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
 [05-31-2022] [23:31:56] VoteCompYT failed Bad Packets (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
 [05-31-2022] [23:31:56] VoteCompYT failed Bad Packets (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] flying=false
+[06-02-2022] [19:06:55] phoenix_inferno_ failed Fast Place *(Type B)* [VL: 1] [Ping: 252] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] blocks=5 delay=0
+[06-04-2022] [17:13:35] Djdoge2907 failed Scaffold (Type J) [VL: 1] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] acceleration=4.7947700451342334E-5 deltaPitch=20.150948
+[06-05-2022] [15:37:23] frozensquire failed Fast Break (Type A) [VL: 1] [Ping: 1892] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] block=BIRCH_LOG diff=-451.0 tool=DIRT
+[06-05-2022] [15:37:26] frozensquire failed Baritone (Type A) [VL: 1] [Ping: 1892] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaYaw=0.0021743774 deltaPitch=0.0011634827
+[06-05-2022] [15:37:29] frozensquire failed Fast Break (Type A) [VL: 2] [Ping: 1892] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] block=BIRCH_LOG diff=-448.0 tool=DIRT
+[06-05-2022] [15:39:01] frozensquire failed Baritone (Type A) [VL: 2] [Ping: 1041] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaYaw=0.0016021729 deltaPitch=0.0044670105
+[06-05-2022] [15:39:03] frozensquire failed Baritone (Type A) [VL: 3] [Ping: 1041] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaYaw=0.0015945435 deltaPitch=0.004350662
+[06-05-2022] [15:39:11] frozensquire failed Baritone (Type A) [VL: 4] [Ping: 1063] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaYaw=3.8146973E-5 deltaPitch=0.0016708374
+[06-05-2022] [15:39:18] frozensquire failed Baritone (Type A) [VL: 5] [Ping: 1063] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaYaw=0.0042495728 deltaPitch=0.0019435883
+[06-05-2022] [15:39:20] frozensquire failed Baritone (Type A) [VL: 6] [Ping: 1063] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaYaw=0.0023498535 deltaPitch=0.003255844
+[06-05-2022] [19:57:25] Djdoge2907 failed Jesus (Type E) [VL: 1] [Ping: 39] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaXZ=0.1947016793023181
+[06-05-2022] [22:03:35] robotic_ramen100 failed Motion (Type D) [VL: 1] [Ping: 200] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=7.823080569480112E-4
+[06-05-2022] [22:03:35] robotic_ramen100 failed Motion (Type D) [VL: 2] [Ping: 200] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=7.823080569480112E-4
+[06-05-2022] [22:03:35] robotic_ramen100 failed Motion (Type D) [VL: 3] [Ping: 200] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=7.823080569480112E-4
+[06-06-2022] [17:57:54] Twistedemon32 failed Ground Spoof (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[06-06-2022] [17:57:54] Twistedemon32 failed Ground Spoof (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[06-06-2022] [17:57:54] Twistedemon32 failed Ground Spoof (Type B) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[06-06-2022] [17:57:54] Twistedemon32 failed Ground Spoof (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[06-06-2022] [17:58:02] Twistedemon32 failed Ground Spoof (Type B) [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] client=true server=false
+[06-06-2022] [18:13:08] Twistedemon32 failed Jesus (Type E) [VL: 1] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=0.19533653103813145
+[06-06-2022] [18:13:10] Twistedemon32 failed Jesus (Type E) [VL: 2] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=0.5150477565737502
+[06-06-2022] [18:13:23] Twistedemon32 failed Jesus (Type E) [VL: 3] [Ping: 64] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=0.30513335200828323
+[06-06-2022] [18:13:29] Twistedemon32 failed Jesus (Type E) [VL: 4] [Ping: 67] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=0.23585167256024728
+[06-06-2022] [18:13:30] Twistedemon32 failed Jesus (Type E) [VL: 5] [Ping: 67] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=0.1961713196800187
+[06-06-2022] [18:13:32] Twistedemon32 failed Jesus (Type E) [VL: 6] [Ping: 67] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=0.4033091055321444
+[06-06-2022] [18:16:25] Twistedemon32 failed Speed (Type C) [VL: 2] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.4661670366888842 max=0.45999999999999996 diff=0.006167036688884242 ticks=1968 deltaY=0.08307781780646906
+[06-06-2022] [18:16:25] Twistedemon32 failed Speed (Type C) [VL: 3] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.5331566620256883 max=0.45999999999999996 diff=0.07315666202568838 ticks=1976 deltaY=0.24813599859093927
+[06-06-2022] [18:16:25] Twistedemon32 failed Speed (Type C) [VL: 4] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.47141990844859144 max=0.45999999999999996 diff=0.011419908448591476 ticks=1979 deltaY=0.003016261509046103
+[06-06-2022] [18:16:25] Twistedemon32 failed Flight (Type D) [VL: 1] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.24813599859093927 ticks=31 delay=41 tp=8023
+[06-06-2022] [18:16:25] Twistedemon32 failed Speed (Type C) [VL: 5] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.5554654412936841 max=0.45999999999999996 diff=0.09546544129368417 ticks=1985 deltaY=0.24813599859093927
+[06-06-2022] [18:16:26] Twistedemon32 failed Flight (Type D) [VL: 2] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.003016261509046103 ticks=34 delay=45 tp=8026
+[06-06-2022] [18:16:26] Twistedemon32 failed Speed (Type C) [VL: 6] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.4883294160746064 max=0.45999999999999996 diff=0.02832941607460643 ticks=1988 deltaY=0.003016261509046103
+[06-06-2022] [18:16:26] Twistedemon32 failed Speed (Type C) [VL: 7] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.5449960058610022 max=0.45999999999999996 diff=0.0849960058610022 ticks=1998 deltaY=0.33319999363422426
+[06-06-2022] [18:16:26] Twistedemon32 failed Flight (Type D) [VL: 3] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.1647732818260721 ticks=46 delay=45 tp=8038
+[06-06-2022] [18:16:26] Twistedemon32 failed Speed (Type C) [VL: 8] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.4804582252882661 max=0.45999999999999996 diff=0.02045822528826613 ticks=2001 deltaY=0.08307781780646906
+[06-06-2022] [18:16:26] Twistedemon32 failed Flight (Type D) [VL: 4] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=-0.07544406518948676 ticks=49 delay=65 tp=8041
+[06-06-2022] [18:16:27] Twistedemon32 failed Speed (Type C) [VL: 9] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.530512485873966 max=0.45999999999999996 diff=0.07051248587396608 ticks=2010 deltaY=0.33319999363422426
+[06-06-2022] [18:16:27] Twistedemon32 failed Speed (Type C) [VL: 10] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.4643345112570786 max=0.45999999999999996 diff=0.0043345112570786215 ticks=2013 deltaY=0.08307781780646906
+[06-06-2022] [18:16:27] Twistedemon32 failed Speed (Type C) [VL: 11] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.4966497150084137 max=0.45999999999999996 diff=0.03664971500841374 ticks=2023 deltaY=0.24813599859093927
+[06-06-2022] [18:16:30] Twistedemon32 failed Speed (Type C) [VL: 12] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.48770023252710076 max=0.45999999999999996 diff=0.0277002325271008 ticks=2078 deltaY=0.24813599859093927
+[06-06-2022] [18:16:31] Twistedemon32 failed Speed (Type C) [VL: 13] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.5447431074655568 max=0.45999999999999996 diff=0.0847431074655568 ticks=2088 deltaY=0.33319999363422426
+[06-06-2022] [18:16:31] Twistedemon32 failed Speed (Type C) [VL: 14] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.48026718667179574 max=0.45999999999999996 diff=0.020267186671795778 ticks=2091 deltaY=0.08307781780646906
+[06-06-2022] [18:16:31] Twistedemon32 failed Speed (Type C) [VL: 15] [Ping: 62] [TPS: 20] [Version: 1.18.2] [Client: Fabric] speed=0.5494766095056958 max=0.45999999999999996 diff=0.0894766095056958 ticks=2100 deltaY=0.33319999363422426
+[06-06-2022] [18:16:44] Twistedemon32 failed Jesus (Type E) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaXZ=0.29981128043510324
+[06-06-2022] [18:30:04] Twistedemon32 failed Flight (Type B) [VL: 1] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=11 delay=52 tp=123
+[06-06-2022] [18:30:04] Twistedemon32 failed Strafe (Type A) [VL: 1] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] difference=0.026731785673035958 deltaXZ=0.26207885935036757
+[06-06-2022] [18:30:05] Twistedemon32 failed Flight (Type B) [VL: 2] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=13 delay=48 tp=125
+[06-06-2022] [18:30:06] Twistedemon32 failed Flight (Type B) [VL: 3] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=11 delay=44 tp=156
+[06-06-2022] [18:30:06] Twistedemon32 failed Flight (Type B) [VL: 4] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=13 delay=56 tp=158
+[06-06-2022] [18:30:06] Twistedemon32 failed Flight (Type B) [VL: 5] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=15 delay=44 tp=160
+[06-06-2022] [18:30:06] Twistedemon32 failed Flight (Type B) [VL: 6] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=17 delay=41 tp=162
+[06-06-2022] [18:30:07] Twistedemon32 failed Flight (Type B) [VL: 7] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=19 delay=48 tp=164
+[06-06-2022] [18:30:07] Twistedemon32 failed Flight (Type B) [VL: 8] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=26 delay=42 tp=171
+[06-06-2022] [18:30:07] Twistedemon32 failed Flight (Type B) [VL: 9] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=28 delay=59 tp=173
+[06-06-2022] [18:30:07] Twistedemon32 failed Flight (Type B) [VL: 10] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=30 delay=56 tp=175
+[06-06-2022] [18:30:07] Twistedemon32 failed Flight (Type B) [VL: 11] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=32 delay=56 tp=177
+[06-06-2022] [18:30:07] Twistedemon32 failed Flight (Type B) [VL: 12] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=34 delay=58 tp=179
+[06-06-2022] [18:30:08] Twistedemon32 failed Flight (Type B) [VL: 13] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=41 delay=58 tp=186
+[06-06-2022] [18:30:08] Twistedemon32 failed Flight (Type B) [VL: 14] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=43 delay=56 tp=188
+[06-06-2022] [18:30:08] Twistedemon32 failed Flight (Type B) [VL: 15] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=45 delay=54 tp=190
+[06-06-2022] [18:30:08] Twistedemon32 failed Flight (Type B) [VL: 16] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=47 delay=52 tp=192
+[06-06-2022] [18:30:08] Twistedemon32 failed Flight (Type B) [VL: 17] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=49 delay=40 tp=194
+[06-06-2022] [18:30:08] Twistedemon32 failed Flight (Type B) [VL: 18] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=51 delay=57 tp=196
+[06-06-2022] [18:30:08] Twistedemon32 failed Flight (Type B) [VL: 19] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=53 delay=52 tp=198
+[06-06-2022] [18:30:08] Twistedemon32 failed Flight (Type B) [VL: 20] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=55 delay=40 tp=200
+[06-06-2022] [18:30:09] Twistedemon32 failed Flight (Type B) [VL: 21] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=57 delay=53 tp=202
+[06-06-2022] [18:30:09] Twistedemon32 failed Flight (Type B) [VL: 22] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=59 delay=53 tp=204
+[06-06-2022] [18:30:09] Twistedemon32 failed Flight (Type B) [VL: 23] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=61 delay=44 tp=206
+[06-06-2022] [18:30:09] Twistedemon32 failed Flight (Type B) [VL: 24] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=63 delay=42 tp=208
+[06-06-2022] [18:30:09] Twistedemon32 failed Flight (Type B) [VL: 25] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=68 delay=47 tp=213
+[06-06-2022] [18:30:09] Twistedemon32 failed Flight (Type B) [VL: 26] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=70 delay=53 tp=215
+[06-06-2022] [18:30:09] Twistedemon32 failed Flight (Type B) [VL: 27] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=72 delay=39 tp=217
+[06-06-2022] [18:30:10] Twistedemon32 failed Flight (Type B) [VL: 28] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=74 delay=74 tp=219
+[06-06-2022] [18:30:10] Twistedemon32 failed Flight (Type B) [VL: 29] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=76 delay=57 tp=221
+[06-06-2022] [18:30:10] Twistedemon32 failed Flight (Type B) [VL: 30] [Ping: 63] [TPS: 20] [Version: 1.18.2] [Client: Fabric] deltaY=0.0 difference=0.0784000015258789 ticks=80 delay=153 tp=225
+[06-06-2022] [18:39:44] Serronic failed Criticals (Type A) [VL: 1] [Ping: 11] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:39:44] Serronic failed Criticals (Type A) [VL: 2] [Ping: 11] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:39:44] Serronic failed Criticals (Type A) [VL: 3] [Ping: 11] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:39:44] Serronic failed Criticals (Type A) [VL: 4] [Ping: 11] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:39:45] Serronic failed Criticals (Type A) [VL: 5] [Ping: 11] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:39:45] Serronic failed Criticals (Type A) [VL: 6] [Ping: 11] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:39:45] Serronic failed Criticals (Type A) [VL: 7] [Ping: 11] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:39:48] Serronic failed Criticals (Type A) [VL: 8] [Ping: 11] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:39:48] Serronic failed Criticals (Type A) [VL: 9] [Ping: 11] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:39:48] Serronic failed Criticals (Type A) [VL: 10] [Ping: 11] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:43:02] Serronic failed Criticals (Type A) [VL: 1] [Ping: 20] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=0.0625 modulo=0.0031999805212024057
+[06-06-2022] [18:43:02] Serronic failed Criticals (Type A) [VL: 2] [Ping: 20] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=0.0625 modulo=0.002203340253728925
+[06-06-2022] [18:43:02] Serronic failed Criticals (Type A) [VL: 3] [Ping: 20] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:43:02] Serronic failed Criticals (Type A) [VL: 4] [Ping: 20] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=0.0625 modulo=7.42993957523197E-4
+[06-06-2022] [18:43:03] Serronic failed Criticals (Type A) [VL: 5] [Ping: 20] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:43:03] Serronic failed Criticals (Type A) [VL: 6] [Ping: 20] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=0.0625 modulo=0.004590625044556873
+[06-06-2022] [18:43:03] Serronic failed Criticals (Type A) [VL: 7] [Ping: 20] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:43:03] Serronic failed Criticals (Type A) [VL: 8] [Ping: 20] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=0.0625 modulo=0.0
+[06-06-2022] [18:43:03] Serronic failed Criticals (Type A) [VL: 9] [Ping: 20] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=0.0625 modulo=0.0013359791121487774
+[06-06-2022] [18:43:05] Serronic failed Criticals (Type A) [VL: 10] [Ping: 20] [TPS: 20] [Version: 1.18.2] [Client: Unresolved] deltaY=0.0625 modulo=0.01374998688697815
+[06-06-2022] [19:54:31] Twistedemon32 failed Jesus (Type B) [VL: 1] [Ping: 65] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=-0.009000000059607771 deltaXZ=0.11425178331964939
+[06-07-2022] [02:00:08] Duyn failed Jesus (Type B) [VL: 1] [Ping: 45] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=-0.009000000059607771 deltaXZ=0.11271734486741972
+[06-07-2022] [02:01:47] Duyn failed Jesus (Type B) [VL: 2] [Ping: 516] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] deltaY=-0.01220000015496936 deltaXZ=0.14260438648887197
+[06-12-2022] [15:48:39] essenceobtainer failed Invalid *(Type A)* [VL: 1] [Ping: 36] [TPS: 20] [Version: 1.18.2] [Client: Vanilla] dXZ=2.84445937922105 max=1.6139843364929995
+[06-13-2022] [23:36:33] Ninjask_ failed Jesus (Type B) [VL: 1] [Ping: 96] [TPS: 20] [Version: HIGHER.THAN.SUPPORTED.VERSIONS] [Client: Vanilla] deltaY=-0.0030599538309417085 deltaXZ=0.16177171717479072
+[06-13-2022] [23:36:34] Ninjask_ failed Jesus (Type B) [VL: 2] [Ping: 96] [TPS: 20] [Version: HIGHER.THAN.SUPPORTED.VERSIONS] [Client: Vanilla] deltaY=-0.01179644080750819 deltaXZ=0.16060272313018362
+[06-13-2022] [23:36:36] Ninjask_ failed Jesus (Type B) [VL: 3] [Ping: 96] [TPS: 20] [Version: HIGHER.THAN.SUPPORTED.VERSIONS] [Client: Vanilla] deltaY=-0.009000000059607771 deltaXZ=0.11180166593321562

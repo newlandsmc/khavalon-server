@@ -1,1 +1,1 @@
-paper-1.18.2-347.jar
+paper-1.19-27.jar

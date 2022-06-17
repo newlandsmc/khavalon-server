@@ -12,12 +12,12 @@ loot: # specifies what files to pull the loot tables from (in loot folder)
     files:
       - 'super-vote.json'
 services:
-  - "MC-Servers.com"
+  - "Minecraft.Buzz"
   - "Top Minecraft Servers"
   - "Minelist.net"
   - "PlanetMinecraft.com"
   - "Servers-Minecraft"
-  - "minecraft.global"
+  - "Minecraft-MP.com"
 menu:
   enable-animation: true # enables the 'animation' in the men
   claim-lore: [] #lore added when claiming items

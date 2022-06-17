@@ -223,6 +223,7 @@ enchanting:
   check-cancelled: true
   check-multiplier-permissions: true
 sorcery:
+  check-cancelled: true
   enabled: true
   max-level: 97
   check-multiplier-permissions: true
