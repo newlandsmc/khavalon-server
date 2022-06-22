@@ -447,102 +447,47 @@ punishment-statistics-broadcast:
   - '&fIn the past 7 days, Vulcan has punished %amount% players.'
   - '&e&m                                                                 '
 settings:
-  # Whether or not alerts will automatically be enabled on-join for players who have the permission "vulcan.alerts"
   toggle-alerts-on-join: true
-  # Whether or not the severity placeholder should be based off of per-check violations or the total violations of the player
   per-check-severities: true
-  # Whether or not cinematic mode will be checked for certain aim checks. This isn't really a big deal and can be
-  # left disabled as this will pretty much NEVER happen unless done intentionally. Enabling this will slow
-  # detection speeds for certain checks.
   cinematic: false
-  # This is just here in case I forget to remove a debug message when I post an update. If I forget to remove a debug
-  # message and you see [Vulcan Debug] on your server, disable this (it won't effect you if this is enabled or disabled
-  # unless I forget to remove a debug message, but if you see [Vulcan Debug] in chat, then set this to false and reload).
   debug: true
-  # Whether or not 'A new update is available!' message will be set on join for players with 'vulcan.admin' permission
   check-for-updates: false
-  # A setting for PacketEvents, we may ask you to change this if you're having issues injecting. If everything is working
-  # fine, don't touch this.
   inject-early: true
-  # This is the time (in ticks - 20 ticks per second - default value is 80 (4 seconds)) of how long players should be exempt from certain
-  # checks after velocity gets applied to them via another plugin or something (such as Launchpads, crate plugins, etc etc).
   max-velocity-ticks: 50
-  # This is the max file size (in KB) before the violations.txt should be zipped and put into the logs folder
   max-logs-file-size: 7500
-  # If you have a bungee network and want to have a specific server name for punishment/alert messages, etc
   server-name: Default
-  # Whether or not alert messages should be sent on the main thread or asynchronously. If your server is on bungee, it is recommended to keep this
-  # disabled as sending large chat component messages with so much info (hover, click commands, etc) like the alert commands can
-  # sometimes cause people to be kicked for 'The server you were on has went down' or something.
-  # TLDR:
-  # - Bungeecord Networks: leave this FALSE
-  # - Single servers: set this to TRUE to save some performance
   async-alerts: true
-  # Whether or not the API should be enabled. If you want to hook into Vulcan and do anything fancy, then enable this, however
-  # the majority of people will never use this and disabling it allows for less runnables and more performance as the events dont
-  # need to be called at all (they are also forced to be called sync, so this is a win win performance gain)
   enable-api: false
-  # Whether or not the update checker should be enabled
   update-checker: false
-  # The delay in milliseconds (1000ms = 1 second)
   punishment-delay: 10000
-  # Whether or not Vulcan should automatically ignore Bedrock players using Floodgate's API.
   ignore-floodgate: true
-  # This is highly highly recommended to keep false as it can be spoofed by the client, however, if you're using Geyser and
-  # for whatever reason can't get Floodgate to work, then enable this. If you have floodgate-bukkit on your server
-  # and Geyser is working fine, then don't touch this.
   ignore-flags-geyser-client-brand: false
-  # How long we should wait for everything to initialize before players start being checked (in milliseconds). Default
-  # value is 2500ms.
   join-check-wait-time: 5000
-  # Whether or not players with UUID's starting with '000000' should be ignored and not flagged - used for exemptions of
-  # Geyser players if all else fails.
   ignore-geyser-uuids: true
-  # Whether or not we should ignore flags for players whose usernames start with a certain character/string of characters
   ignore-geyser-prefixes: true
-  # The string to be ignored - all players names who start with a * will not be flagged (case sensitive if not symbols)
   ignore-geyser-prefix: '*'
-  # The max violation (violations above this won't be sent)
   max-alert-violation: 250
-  # How long should people be exempt from checks when they were in /fly (default = 40 ticks, 2 seconds)
   flight-cooldown: 40
-  # What the /vulcan top command should display if there aren't enough users for it to sort
   top-command-unresolved: Unresolved
-  # Whether or not players who are in the judgement day queue should be able to be banned again.
   ignore-if-in-judgement-day: false
-  # Whether or not players who join with Vivecraft should be ignored. Be careful with this as it can be spoofed.
   ignore-vivecraft: false
-  # Scaffolding are really broken blocks, whether or not we should be more lenient for them for certain checks.
   lenient-scaffolding: true
-  # Whether or not bStats should be loaded
   bstats: true
-  # Whether or not Vulcan should account for entity collisions
   entity-collision: true
-  # Whether or not Vulcan should hook into mcMMO if it is available.
   hook-mcmmo: true
-  # Whether or not Vulcan should hook into MythicMobs if it is available.
   hook-mythicmobs: false
-  # Whether or not Vulcan should hook into GSit if it is available
   hook-gsit: true
-  # Whether or not Vulcan should hook with Brewery if available
   hook-brewery: true
-  # Whether or not Vulcan should ignore alerts for violations which are greater than the max violations threshold
   ignore-alerts-over-max-violations: false
-  # The amount greater than the max violations that should be ignored (example, 3 would mean that if the max violations
-  # was set to 10, alerts greater than VL 13 would be ignored)
   ignore-alerts-over-max-violations-amount: 3
-  # Whether or not Vulcan should warn you if you may be using an incompatible spigot fork.
   incompatability-manager: true
-  # Whether or not Vulcan should send plugin messages
   plugin-messaging: true
-  # Whether or not Vulcan should setback players when they are lower than their last onGround position (this can lead to
-  # things such as anti-voids, so not particularly recommended if you have something like a SkyWars/BedWars server)
   dont-setback-lower-positions: false
-  # Minimum ticks existed before a player is chcked, similar to join-check-wait-time above
   min-ticks-existed: 10000
-  # Whether or not we should calculate the distance between the player and WorldBorder to prevent false flags in the
-  # Velocity checks. Only needed on very specific servers.
   velocity-world-border: false
+  entity-cram-fix-enabled: false
+  entity-cram-entities-amount: 10
+  entity-cram-exempt-ticks: 30
 hooks:
   # #####################################################################################################################
   # Discord BOT Configuration                                                                                              #
@@ -2250,7 +2195,7 @@ checks:
           multiple: 0.25
           decay: 0.15
       b:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         setback: false
@@ -2650,7 +2595,7 @@ checks:
           multiple: 0.35
           decay: 0.125
       b:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         setback: false
@@ -2690,7 +2635,7 @@ checks:
           decay: 0.045
         min-difference: 0.001
       d:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         setback: false

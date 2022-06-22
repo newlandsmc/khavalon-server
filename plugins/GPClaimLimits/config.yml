@@ -1,0 +1,7 @@
+#
+
+messages:
+  claim-limit-reached: <red>You have reached your current claim limit.
+  claim-above-limit: <red>You can not create this claim as you are already at your
+    limit.
+config-version: 2

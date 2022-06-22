@@ -1,0 +1,9 @@
+titles:
+  enter:
+    enabled: true
+    title: ''
+    subtitle: '<white>%player%''s Claim'
+  exit:
+    enabled: true
+    title: ''
+    subtitle: '<white>Wilderness'

@@ -17,7 +17,7 @@ GriefPrevention:
     LockWoodenDoors: true
     LockTrapDoors: true
     LockFenceGates: true
-    EnderPearlsRequireAccessTrust: false
+    EnderPearlsRequireAccessTrust: true
     RaidTriggersRequireBuildTrust: true
     ProtectHorses: true
     ProtectDonkeys: true
@@ -156,7 +156,7 @@ GriefPrevention:
   SilverfishBreakBlocks: true
   CreaturesTrampleCrops: true
   RabbitsEatCrops: true
-  HardModeZombiesBreakDoors: true
+  HardModeZombiesBreakDoors: false
   Database:
     URL: jdbc:mysql://localhost:3306/khavalon_gpdata
     UserName: griefprevention

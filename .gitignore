@@ -30,6 +30,8 @@
 /plugins/Towny/data/
 /plugins/Towny/logs/
 /plugins/Towny/backup/
+/plugins/GriefPreventionTP/claims.json
+/plugins/RespawnHandler/data/
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/

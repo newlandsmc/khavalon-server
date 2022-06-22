@@ -138,7 +138,7 @@ book:
       - 'level.'
       - ''
       - 'You can create up to'
-      - '15 claims.'
+      - '5 claims.'
       - ''
       - '<bold>Commands:</bold>'
       - 'See our website.'
@@ -338,7 +338,7 @@ book:
   store:
     pages: 1
     0:
-      - '<click:open_url:%store-link%>        <gradient:aqua:dark_purple><bold>Asthonia</bold></gradient></click>'
+      - '<click:open_url:%store-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%store-link%>         <bold>Store</bold></click>'
       - ''
       - '<click:open_url:%store-link%>Help us share the</click>'
@@ -349,11 +349,11 @@ book:
       - '<click:open_url:%store-link%>server. Thank you!</click>'
       - ''
       - ''
-      - '<click:open_url:%store-link%>   <gradient:aqua:dark_purple><bold>CLICK TO OPEN</bold></gradient></click>'
+      - '<click:open_url:%store-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
   map:
     pages: 1
     0:
-      - '<click:open_url:%map-link%>        <gradient:aqua:dark_purple><bold>Asthonia</bold></gradient></click>'
+      - '<click:open_url:%map-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%map-link%>           <bold>Map</bold></click>'
       - ''
       - '<click:open_url:%map-link%>View the entire</click>'
@@ -364,11 +364,11 @@ book:
       - '<click:open_url:%map-link%>Shows approximate</click>'
       - '<click:open_url:%map-link%>location.</click>'
       - ''
-      - '<click:open_url:%map-link%>   <gradient:aqua:dark_purple><bold>CLICK TO OPEN</bold></gradient></click>'
+      - '<click:open_url:%map-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
   vote:
     pages: 1
     0:
-      - '<click:open_url:%vote-link%>        <gradient:aqua:dark_purple><bold>Asthonia</bold></gradient></click>'
+      - '<click:open_url:%vote-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%vote-link%>     <bold>Vote Portal</bold></click>'
       - ''
       - '<click:open_url:%vote-link%>Support us by voting</click>'
@@ -379,11 +379,11 @@ book:
       - '<click:open_url:%vote-link%>rewards.</click>'
       - ''
       - ''
-      - '<click:open_url:%vote-link%>   <gradient:aqua:dark_purple><bold>CLICK TO OPEN</bold></gradient></click>'
+      - '<click:open_url:%vote-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
   website:
     pages: 1
     0:
-      - '<click:open_url:%website-link%>        <gradient:aqua:dark_purple><bold>Asthonia</bold></gradient></click>'
+      - '<click:open_url:%website-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%website-link%>        <bold>Website</bold></click>'
       - ''
       - '<click:open_url:%website-link%>Bookmark us! Favorite</click>'
@@ -394,11 +394,11 @@ book:
       - '<click:open_url:%website-link%>Discord, and more.</click>'
       - ''
       - ''
-      - '<click:open_url:%website-link%>   <gradient:aqua:dark_purple><bold>CLICK TO OPEN</bold></gradient></click>'
+      - '<click:open_url:%website-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
   discord:
     pages: 1
     0:
-      - '<click:open_url:%discord-link%>        <gradient:aqua:dark_purple><bold>Asthonia</bold></gradient></click>'
+      - '<click:open_url:%discord-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%discord-link%>        <bold>Discord</bold></click>'
       - ''
       - '<click:open_url:%discord-link%>Join the community!</click>'
@@ -409,11 +409,11 @@ book:
       - '<click:open_url:%discord-link%>discussion!</click>'
       - ''
       - ''
-      - '<click:open_url:%discord-link%>   <gradient:aqua:dark_purple><bold>CLICK TO OPEN</bold></gradient></click>'
+      - '<click:open_url:%discord-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
   rules:
     pages: 1
     0:
-      - '<click:open_url:%rules-link%>        <gradient:aqua:dark_purple><bold>Asthonia</bold></gradient></click>'
+      - '<click:open_url:%rules-link%>       <gradient:gold:#b24747><bold>Khavalon</bold></gradient></click>'
       - '<click:open_url:%rules-link%>          <bold>Rules</bold></click>'
       - ''
       - 'Failure to follow the'
@@ -424,4 +424,4 @@ book:
       - 'website to read our'
       - 'rules.'
       - ''
-      - '<click:open_url:%rules-link%>   <gradient:aqua:dark_purple><bold>CLICK TO OPEN</bold></gradient></click>'
+      - '<click:open_url:%rules-link%>   <gradient:gold:#b24747><bold>CLICK TO OPEN</bold></gradient></click>'
