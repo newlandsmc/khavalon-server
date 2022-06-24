@@ -48,7 +48,7 @@ GriefPrevention:
       AutomaticNatureRestoration:
         SurvivalWorlds: false
     AllowTrappedInAdminClaims: true
-    MaximumNumberOfClaimsPerPlayer: 5
+    MaximumNumberOfClaimsPerPlayer: 25
     CreationRequiresWorldGuardBuildPermission: true
     VillagerTradingRequiresPermission: false
     CommandsRequiringAccessTrust: /sethome
