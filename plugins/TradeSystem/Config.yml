@@ -56,19 +56,6 @@ TradeSystem:
   Action_To_Request:
     Shift_Rightclick: false
   
-  Easy_Money_Selection:
-    Enabled: false
-    # Do NOT use special symbols (e.g. '$') here.
-    # Use characters only!
-    Shortcuts:
-    - Keys:
-      - k
-      Value: 1000
-    - Keys:
-      - m
-      - mio
-      Value: 1000000
-  
   # Warning: The aliases will not be validated. Make sure they are correct.
   Commands:
     Trade:
@@ -123,3 +110,16 @@ TradeSystem:
       Name: ITEM_BREAK
       Volume: 0.6
       Pitch: 1.0
+  Money:
+    Easy_Selection:
+      Enabled: false
+      # Do NOT use special symbols (e.g. '$') here.
+      # Use characters only!
+      Shortcuts:
+      - Keys:
+        - k
+        Value: 1000
+      - Keys:
+        - m
+        - mio
+        Value: 1000000

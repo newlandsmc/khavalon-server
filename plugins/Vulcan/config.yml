@@ -104,7 +104,7 @@ unloaded-chunks:
   max-ticks: 40
 punishment-file:
   # Whether or not the punishments.txt file is enabled.
-  enabled: false
+  enabled: true
 violation-reset:
   # Whether or not violations should reset automatically
   enabled: true
@@ -3022,7 +3022,7 @@ checks:
         max-blocks: 4
     fastbreak:
       a:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3157,7 +3157,7 @@ checks:
           multiple: 0.5
           decay: 0.1
       g:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3217,7 +3217,7 @@ checks:
         - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       #        - 'warn -s %player% Hacked client detected.'
       k:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3964,7 +3964,7 @@ checks:
           multiple: 0.5
           decay: 0.05
       j:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         setback: false

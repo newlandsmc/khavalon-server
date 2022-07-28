@@ -216,7 +216,7 @@ Messages:
   ThatPlayerPvPImmune:
     Text: You can't injure defenseless players.
   CantFightWhileImmune:
-    Text: You can't fight someone while you're protected from PvP.
+    Text: PvP is disabled in claims.
   NoDamageClaimedEntity:
     Text: That belongs to {0}.
     Notes: '0: owner name'

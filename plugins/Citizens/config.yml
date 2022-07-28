@@ -7,6 +7,8 @@ npc:
       iterations-per-tick: 5000
       check-bounding-boxes: false
       open-doors: false
+    defaults:
+      destination-teleport-margin: -1
     default-distance-margin: 2
     default-path-distance-margin: 1
     update-path-rate: 20
@@ -17,8 +19,6 @@ npc:
       max-fall-distance: 3
     attack-range: 3.0625
     use-new-finder: false
-    defaults:
-      destination-teleport-margin: -1
   default:
     bossbar-view-range: 64
     waypoints:
@@ -33,13 +33,13 @@ npc:
       range: 75.0
     random-talker: false
     realistic-looking: false
+    spawn-nodamage-ticks: 20
     stationary-ticks: -1
     talk-close:
       enabled: false
       range: 5
     text:
       '0': Hi, I'm <npc>!
-    spawn-nodamage-ticks: 20
   chat:
     options:
       bystanders-hear-targeted-chat: false
@@ -104,6 +104,9 @@ npc:
   teleport-delay: -1
   player-scoreboard-teams:
     enable: true
+  scoreboard-teams:
+    packet-send-ticks: 1
+    enable: true
 general:
   authlib:
     profile-url: https://sessionserver.mojang.com/session/minecraft/profile/
@@ -118,6 +121,7 @@ general:
   translation:
     locale: ''
   reload-warning-enabled: true
+  entity-spawn-wait-ticks: 10
 advanced:
   check-minecraft-version: true
 economy:

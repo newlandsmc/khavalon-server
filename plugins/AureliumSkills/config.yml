@@ -40,7 +40,7 @@ action-bar:
   ability: true
   xp: false
   maxed: false
-  update-period: 5
+  update-period: 20
   round-xp: false
   placeholder-api: true
 boss-bar:

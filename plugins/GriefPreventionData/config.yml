@@ -85,11 +85,11 @@ GriefPrevention:
       AdministrativeClaims: true
       AdministrativeSubdivisions: true
     AllowLavaDumpingNearOtherPlayers:
-      PvPWorlds: true
-      NonPvPWorlds: true
+      PvPWorlds: false
+      NonPvPWorlds: false
     AllowFlintAndSteelNearOtherPlayers:
-      PvPWorlds: true
-      NonPvPWorlds: true
+      PvPWorlds: false
+      NonPvPWorlds: false
     ProtectPetsOutsideLandClaims: false
   Economy:
     ClaimBlocksMaxBonus: 0

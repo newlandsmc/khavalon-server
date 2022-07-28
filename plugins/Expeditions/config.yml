@@ -15,11 +15,12 @@ services:
   - "Minecraft.Buzz"
   - "Top Minecraft Servers"
   - "Minelist.net"
-  - "PlanetMinecraft.com"
-  - "Servers-Minecraft"
+  - "Minecraft-Server.net"
+  - "ServerList101"
   - "Minecraft-MP.com"
 menu:
   enable-animation: true # enables the 'animation' in the men
+  khavalon: true
   claim-lore: [] #lore added when claiming items
   unclaimed-items:
     - '<yellow>You still have unclaimed items!'

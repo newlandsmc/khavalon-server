@@ -886,3 +886,4 @@ settings:
   give-mcmmo-with-custom-block-breaks: false
   held-shift-cross-update: true
   allow-place-of-armor-block: true
+  collect-souls-from-players: false

@@ -1,0 +1,88 @@
+--------------[ Clalvaro was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 9474.699999988079
+ - Y: 70.366109129808
+ - Z: -3025.32124594943
+
+Information:
+ - UUID: 61e7e78b-6035-4b22-8d7c-47d05630e860
+ - Keep Alive Ping: 32
+ - Transaction Ping: 119
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 22.75 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 455
+ - Since Riptide Ticks: 514
+ - Flying Delay: 41
+ - Since Velocity Ticks: 455
+ - Since Firework Ticks: 514
+ - Ticks Existed: 355
+ - Since Vehicle Ticks: 414
+ - Joined: 19 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [SNOW, GRASS_BLOCK, DIRT, AIR, SNOW, GRASS_BLOCK, AIR, AIR, SNOW, AIR, AIR, AIR, SNOW, GRASS_BLOCK, STONE, AIR, SNOW, DIRT, AIR, AIR, GRASS_BLOCK, AIR, AIR, SNOW, GRASS_BLOCK, DIRT, AIR, SNOW, GRASS_BLOCK, STONE, AIR, SNOW, DIRT, AIR, AIR, GRASS_BLOCK]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Relaxxxxed was punished for Step (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 3922.8301728412957
+ - Y: -51.5
+ - Z: -2883.6666579527005
+
+Information:
+ - UUID: 0ae1a79c-de9d-4329-80b9-29ee0feeb9fd
+ - Keep Alive Ping: 108
+ - Transaction Ping: 115
+ - Server TPS: 20
+ - Sensitivity: 79
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 17.8 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 342
+ - Since Riptide Ticks: 138149
+ - Flying Delay: 48
+ - Since Velocity Ticks: 356
+ - Since Firework Ticks: 138149
+ - Ticks Existed: 160150
+ - Since Vehicle Ticks: 94670
+ - Joined: 12680 seconds ago
+
+All Violations:
+ - Step (Type B) [VL: 15] (Invalid Step motion.)
+
+Blocks Nearby: [SCULK, SCULK, SCULK, AIR, SCULK_SENSOR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, SCULK, SCULK, DEEPSLATE, AIR, AIR, SCULK, AIR, AIR, AIR, AIR, AIR, AIR, SCULK, SCULK, DEEPSLATE, SCULK_SENSOR, AIR, SCULK, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [DARKNESS:180t-x0]
+---------------------------------------------------------------------------
+
+

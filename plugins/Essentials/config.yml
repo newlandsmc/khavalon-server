@@ -561,10 +561,10 @@ world-time-permissions: false
 command-cooldowns:
 #  feed: 100 # 100 second cooldown on /feed command
 #  '*': 5 # 5 Second cooldown on all commands
-  '^(e)?(teleport|tpa)\s.*': 10
+  '(e)?(tp(a|ask)) .*': 30
 
 # Whether command cooldowns should be persistent past server shutdowns
-command-cooldown-persistence: true
+command-cooldown-persistence: false
 
 # Whether NPC balances should be listed in balance ranking features such as /balancetop.
 # NPC balances can include features like factions from FactionsUUID plugin.
