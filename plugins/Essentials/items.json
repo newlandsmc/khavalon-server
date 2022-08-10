@@ -1,4 +1,4 @@
-#version: 2.19.5-dev+30-b135fcf
+#version: 2.19.5-dev+35-c56a9e6
 # This file is for internal EssentialsX usage.
 # We recommend using custom_items.yml to add custom aliases.
 {
@@ -41923,4 +41923,4 @@
   "zpmanmspawner": "zombified_piglin_spawner",
   "zpmanspawner": "zombified_piglin_spawner"
 }
-#9427891d8dc7d05777b7e56c024713dc
+#5933c172ba7ac7080bd611d1264b26cc

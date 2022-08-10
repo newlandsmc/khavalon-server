@@ -10,4 +10,3 @@ world-settings:
       announceAdvancements: false
       maxEntityCramming: 24
       showDeathMessages: false
-      playersSleepingPercentage: 33

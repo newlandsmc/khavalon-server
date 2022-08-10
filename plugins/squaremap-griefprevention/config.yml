@@ -1,0 +1,30 @@
+settings:
+    control:
+        label: GriefPrevention
+        show: true
+        hide-by-default: false
+        z-index: 99
+        layer-priority: 99
+    update-interval: 300
+    style:
+        stroke:
+            color: '#00ff00'
+            weight: 2
+            opacity: 1.0
+        fill:
+            color: '#00ff00'
+            opacity: 0.2
+    strings:
+        public: Public
+    region:
+        tooltip:
+            regular-claim: 'Claim Owner: <span style="font-weight:bold;">{owner}</span><br/>Permission
+                Trust: <span style="font-weight:bold;">{managers}</span><br/>Trust:
+                <span style="font-weight:bold;">{builders}</span><br/>Container Trust:
+                <span style="font-weight:bold;">{containers}</span><br/>Access Trust:
+                <span style="font-weight:bold;">{accessors}</span>'
+            admin-claim: '<span style="font-weight:bold;">Administrator Claim</span><br/>Permission
+                Trust: <span style="font-weight:bold;">{managers}</span><br/>Trust:
+                <span style="font-weight:bold;">{builders}</span><br/>Container Trust:
+                <span style="font-weight:bold;">{containers}</span><br/>Access Trust:
+                <span style="font-weight:bold;">{accessors}</span>'

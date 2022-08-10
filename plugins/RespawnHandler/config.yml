@@ -1,3 +1,4 @@
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  Corpse  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
 corpse-limit: 3 # each player can only have 3 corpses at a time
 corpse-grace-period: 5 # in minutes, the amount of time the corpse is accessible to only the dead player
 corpse-decay-time: 2880 # in minutes
@@ -13,6 +14,19 @@ corpse-grace-message: "<red>Only (corpseName) can open this corpse for (graceTim
 corpse-pickupsouls-message: ""
 corpse-nosouls-message: ""
 corpse-name: "(corpseName)'s corpse" # name in gui
+
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  Damage  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
+damage-debuff-percentage: 10
+damage-debuff-max-stack: 5 # max amount of times the player can stack their damage debuff
+damage-debuff-message: "You have blood on your hands. You do (x)% less damage for (y) minutes."
+damage-debuff-durations: # in minutues
+  - 5
+  - 10
+  - 15
+  - 30
+  - 60
+  - 120
+  - 180
 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  Items  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
 round-up: true # true to round up, false to round down

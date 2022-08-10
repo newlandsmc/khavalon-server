@@ -86,3 +86,727 @@ Potion Effects: [DARKNESS:180t-x0]
 ---------------------------------------------------------------------------
 
 
+--------------[ Hunter7654321 was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: -1203.000312558893
+ - Y: 66.0
+ - Z: 4340.612928005088
+
+Information:
+ - UUID: 45c3d274-878e-49a8-94bd-601db84f0650
+ - Keep Alive Ping: 257
+ - Transaction Ping: 283
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.18.2
+ - Last Damage: 12.2 seconds ago
+
+Total Violations: 14
+ - Combat Violations: 8
+ - Movement Violations: 6
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 148
+ - Since Riptide Ticks: 994
+ - Flying Delay: 1
+ - Since Velocity Ticks: 244
+ - Since Firework Ticks: 994
+ - Ticks Existed: 1380
+ - Since Vehicle Ticks: 894
+ - Joined: 201 seconds ago
+
+All Violations:
+ - Aim (Type H) [VL: 1] (Invalid sensitivity.)
+ - Aim (Type I) [VL: 1] (Not constant rotations.)
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Reach (Type A) [VL: 1] (Hit from too far away.)
+ - Motion (Type A) [VL: 6] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftEnderman]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Hunter7654321 was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: -1211.9220852564904
+ - Y: 63.0
+ - Z: 4307.345491140479
+
+Information:
+ - UUID: 45c3d274-878e-49a8-94bd-601db84f0650
+ - Keep Alive Ping: 246
+ - Transaction Ping: 263
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.18.2
+ - Last Damage: 42.65 seconds ago
+
+Total Violations: 7
+ - Combat Violations: 6
+ - Movement Violations: 1
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1041
+ - Since Riptide Ticks: 596
+ - Flying Delay: 66
+ - Since Velocity Ticks: 853
+ - Since Firework Ticks: 596
+ - Ticks Existed: 941
+ - Since Vehicle Ticks: 496
+ - Joined: 194 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 1] (Post UseEntity packets.)
+ - Motion (Type A) [VL: 1] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftEnderman]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Hunter7654321 was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: -6873.561810264623
+ - Y: 84.20000004768372
+ - Z: 4492.397609247324
+
+Information:
+ - UUID: 45c3d274-878e-49a8-94bd-601db84f0650
+ - Keep Alive Ping: 228
+ - Transaction Ping: 272
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.18.2
+ - Last Damage: 23.15 seconds ago
+
+Total Violations: 7
+ - Combat Violations: 6
+ - Movement Violations: 1
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 161
+ - Since Riptide Ticks: 484
+ - Flying Delay: 247
+ - Since Velocity Ticks: 463
+ - Since Firework Ticks: 484
+ - Ticks Existed: 524
+ - Since Vehicle Ticks: 384
+ - Joined: 121 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Reach (Type A) [VL: 1] (Hit from too far away.)
+ - Motion (Type A) [VL: 1] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, PURPUR_BLOCK, PURPUR_BLOCK, PURPUR_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, PURPUR_BLOCK, PURPUR_BLOCK, PURPUR_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, PURPUR_BLOCK, PURPUR_BLOCK, PURPUR_BLOCK]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Wolftifact was punished for Bad Packets (Type M) ]--------------
+
+Location:
+ - World: world
+ - X: 10273.07133231263
+ - Y: 197.0
+ - Z: 5043.660464206111
+
+Information:
+ - UUID: 26b94831-f73c-403b-bf1a-caacd828d0b8
+ - Keep Alive Ping: 94
+ - Transaction Ping: 104
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 37.65 seconds ago
+
+Total Violations: 8
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 8
+
+Misc Information:
+ - Since Teleport Ticks: 7637
+ - Since Riptide Ticks: 5501
+ - Flying Delay: 50
+ - Since Velocity Ticks: 753
+ - Since Firework Ticks: 384
+ - Ticks Existed: 25077
+ - Since Vehicle Ticks: 22915
+ - Joined: 1680 seconds ago
+
+All Violations:
+ - Bad Packets (Type M) [VL: 5] (Post BlockPlace packets.)
+ - Scaffold (Type B) [VL: 3] (Invalid interact.)
+
+Blocks Nearby: [AIR, GLASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, COBBLESTONE, GLASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, COBBLESTONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [SPEED:2147463424t-x2]
+---------------------------------------------------------------------------
+
+
+--------------[ whosPuppet was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 7140.304063546544
+ - Y: 74.05517712439871
+ - Z: 2626.108646307524
+
+Information:
+ - UUID: 80f1814b-9e10-4ae1-b9af-095b113ff720
+ - Keep Alive Ping: 48
+ - Transaction Ping: 51
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 228.65 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 4573
+ - Since Riptide Ticks: 4291
+ - Flying Delay: 50
+ - Since Velocity Ticks: 4573
+ - Since Firework Ticks: 4291
+ - Ticks Existed: 4473
+ - Since Vehicle Ticks: 4191
+ - Joined: 278 seconds ago
+
+All Violations:
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Arnrambo was punished for Boat Fly (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 8816.609944485783
+ - Y: 69.0
+ - Z: -2372.278584660629
+
+Information:
+ - UUID: d6d59f6f-a43d-4662-baa4-fb9d6219cac4
+ - Keep Alive Ping: 73
+ - Transaction Ping: 122
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Arnrambo}}}
+ - Version: 1.19
+ - Last Damage: 27.3 seconds ago
+
+Total Violations: 36
+ - Combat Violations: 0
+ - Movement Violations: 36
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 95
+ - Since Riptide Ticks: 473
+ - Flying Delay: 47
+ - Since Velocity Ticks: 546
+ - Since Firework Ticks: 473
+ - Ticks Existed: 446
+ - Since Vehicle Ticks: 0
+ - Joined: 71 seconds ago
+
+All Violations:
+ - Boat Fly (Type A) [VL: 15] (Moving upwards in a boat.)
+ - Boat Fly (Type B) [VL: 12] (Moving too quickly horizontally.)
+ - Boat Fly (Type C) [VL: 9] (Hovering in a boat.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Arnrambo}}}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Pladask2017 was punished for Boat Fly (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 4032.6049685797025
+ - Y: 87.0
+ - Z: -2943.1802847925933
+
+Information:
+ - UUID: 670ceddc-70fe-4616-bd80-b15e58975f58
+ - Keep Alive Ping: 75
+ - Transaction Ping: 112
+ - Server TPS: 20
+ - Sensitivity: 51
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: CraftBoat{boatType=SPRUCE,status=IN_AIR,passengers={CraftPlayer{name=Pladask2017}}}
+ - Version: 1.19
+ - Last Damage: 35.85 seconds ago
+
+Total Violations: 41
+ - Combat Violations: 0
+ - Movement Violations: 41
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 106
+ - Since Riptide Ticks: 669
+ - Flying Delay: 51
+ - Since Velocity Ticks: 717
+ - Since Firework Ticks: 669
+ - Ticks Existed: 617
+ - Since Vehicle Ticks: 569
+ - Joined: 74 seconds ago
+
+All Violations:
+ - Boat Fly (Type A) [VL: 13] (Moving upwards in a boat.)
+ - Boat Fly (Type B) [VL: 13] (Moving too quickly horizontally.)
+ - Boat Fly (Type C) [VL: 15] (Hovering in a boat.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=SPRUCE,status=IN_AIR,passengers={CraftPlayer{name=Pladask2017}}}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Arnrambo was punished for Boat Fly (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 8831.724624975413
+ - Y: 89.5591000610588
+ - Z: -2347.4141767992496
+
+Information:
+ - UUID: d6d59f6f-a43d-4662-baa4-fb9d6219cac4
+ - Keep Alive Ping: 0
+ - Transaction Ping: 109
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Arnrambo}}}
+ - Version: 1.19
+ - Last Damage: 9.0 seconds ago
+
+Total Violations: 18
+ - Combat Violations: 0
+ - Movement Violations: 18
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 180
+ - Since Riptide Ticks: 201
+ - Flying Delay: 50
+ - Since Velocity Ticks: 180
+ - Since Firework Ticks: 201
+ - Ticks Existed: 80
+ - Since Vehicle Ticks: 0
+ - Joined: 3 seconds ago
+
+All Violations:
+ - Boat Fly (Type A) [VL: 3] (Moving upwards in a boat.)
+ - Boat Fly (Type C) [VL: 15] (Hovering in a boat.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Arnrambo}}}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Pladask2017 was punished for Boat Fly (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 4021.0814293298718
+ - Y: 97.78160008430467
+ - Z: -2965.9226926233127
+
+Information:
+ - UUID: 670ceddc-70fe-4616-bd80-b15e58975f58
+ - Keep Alive Ping: 0
+ - Transaction Ping: 116
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: CraftBoat{boatType=SPRUCE,status=IN_AIR,passengers={CraftPlayer{name=Pladask2017}}}
+ - Version: 1.19
+ - Last Damage: 9.2 seconds ago
+
+Total Violations: 21
+ - Combat Violations: 0
+ - Movement Violations: 21
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 184
+ - Since Riptide Ticks: 202
+ - Flying Delay: 49
+ - Since Velocity Ticks: 184
+ - Since Firework Ticks: 202
+ - Ticks Existed: 84
+ - Since Vehicle Ticks: 0
+ - Joined: 4 seconds ago
+
+All Violations:
+ - Boat Fly (Type A) [VL: 4] (Moving upwards in a boat.)
+ - Boat Fly (Type B) [VL: 2] (Moving too quickly horizontally.)
+ - Boat Fly (Type C) [VL: 15] (Hovering in a boat.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=SPRUCE,status=IN_AIR,passengers={CraftPlayer{name=Pladask2017}}}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Arnrambo was punished for Boat Fly (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 8831.233958869274
+ - Y: 91.49910013169026
+ - Z: -2344.9474318759594
+
+Information:
+ - UUID: d6d59f6f-a43d-4662-baa4-fb9d6219cac4
+ - Keep Alive Ping: 0
+ - Transaction Ping: 112
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Arnrambo}}}
+ - Version: 1.19
+ - Last Damage: 8.9 seconds ago
+
+Total Violations: 17
+ - Combat Violations: 0
+ - Movement Violations: 17
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 178
+ - Since Riptide Ticks: 201
+ - Flying Delay: 50
+ - Since Velocity Ticks: 178
+ - Since Firework Ticks: 201
+ - Ticks Existed: 78
+ - Since Vehicle Ticks: 0
+ - Joined: 3 seconds ago
+
+All Violations:
+ - Boat Fly (Type B) [VL: 2] (Moving too quickly horizontally.)
+ - Boat Fly (Type C) [VL: 15] (Hovering in a boat.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Arnrambo}}}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Arnrambo was punished for Boat Fly (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 8829.931756123757
+ - Y: 88.41910020053362
+ - Z: -2338.4008170366037
+
+Information:
+ - UUID: d6d59f6f-a43d-4662-baa4-fb9d6219cac4
+ - Keep Alive Ping: 0
+ - Transaction Ping: 110
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Arnrambo}}}
+ - Version: 1.19
+ - Last Damage: 9.05 seconds ago
+
+Total Violations: 18
+ - Combat Violations: 0
+ - Movement Violations: 18
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 181
+ - Since Riptide Ticks: 202
+ - Flying Delay: 50
+ - Since Velocity Ticks: 181
+ - Since Firework Ticks: 202
+ - Ticks Existed: 81
+ - Since Vehicle Ticks: 0
+ - Joined: 4 seconds ago
+
+All Violations:
+ - Boat Fly (Type B) [VL: 3] (Moving too quickly horizontally.)
+ - Boat Fly (Type C) [VL: 15] (Hovering in a boat.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Arnrambo}}}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Pladask2017 was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 3980.637144804904
+ - Y: 138.83656568690236
+ - Z: -3031.0314562380017
+
+Information:
+ - UUID: 670ceddc-70fe-4616-bd80-b15e58975f58
+ - Keep Alive Ping: 30
+ - Transaction Ping: 108
+ - Server TPS: 20
+ - Sensitivity: 51
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 40.15 seconds ago
+
+Total Violations: 25
+ - Combat Violations: 0
+ - Movement Violations: 25
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 641
+ - Since Riptide Ticks: 641
+ - Flying Delay: 0
+ - Since Velocity Ticks: 803
+ - Since Firework Ticks: 641
+ - Ticks Existed: 703
+ - Since Vehicle Ticks: 439
+ - Joined: 25 seconds ago
+
+All Violations:
+ - Boat Fly (Type C) [VL: 10] (Hovering in a boat.)
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Arnrambo was punished for Boat Fly (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 8828.03718526634
+ - Y: 85.2191002720592
+ - Z: -2328.8761667991157
+
+Information:
+ - UUID: d6d59f6f-a43d-4662-baa4-fb9d6219cac4
+ - Keep Alive Ping: 0
+ - Transaction Ping: 109
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Arnrambo}}}
+ - Version: 1.19
+ - Last Damage: 8.8 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 176
+ - Since Riptide Ticks: 201
+ - Flying Delay: 50
+ - Since Velocity Ticks: 176
+ - Since Firework Ticks: 201
+ - Ticks Existed: 76
+ - Since Vehicle Ticks: 0
+ - Joined: 3 seconds ago
+
+All Violations:
+ - Boat Fly (Type C) [VL: 15] (Hovering in a boat.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Arnrambo}}}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ phoenix_inferno_ was punished for Step (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: -465.4829363383321
+ - Y: 113.0
+ - Z: 2507.674904530627
+
+Information:
+ - UUID: 5273f2a7-362f-49ed-8112-8a29f6caff2c
+ - Keep Alive Ping: 244
+ - Transaction Ping: 269
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 47.5 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 5
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 2
+ - Since Riptide Ticks: 23576
+ - Flying Delay: 39
+ - Since Velocity Ticks: 950
+ - Since Firework Ticks: 4534
+ - Ticks Existed: 55441
+ - Since Vehicle Ticks: 43641
+ - Joined: 4413 seconds ago
+
+All Violations:
+ - Step (Type A) [VL: 5] (Invalid Step height.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DIRT, GRASS_BLOCK, GRASS_BLOCK, DIRT, AIR, AIR, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, DIRT, GRASS_BLOCK, GRASS_BLOCK, DIRT, AIR, AIR, DIRT, AIR, AIR, GRASS_BLOCK, AIR, AIR]
+Entities Nearby: [CraftVillager, CraftPlayer{name=Skate_dude123}]
+Potion Effects: [DAMAGE_RESISTANCE:(288t-x1), FAST_DIGGING:(288t-x1), JUMP:(288t-x1), REGENERATION:(288t-x0), SPEED:2147448212t-x2, INCREASE_DAMAGE:(288t-x1)]
+---------------------------------------------------------------------------
+
+
+--------------[ JEKES1750 was punished for Boat Fly (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: -7217.4783276755015
+ - Y: 68.0
+ - Z: -7995.384804928864
+
+Information:
+ - UUID: 0fa4f297-1d77-408d-89a3-651644eaac5d
+ - Keep Alive Ping: 55
+ - Transaction Ping: 162
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: CraftBoat{boatType=DARK_OAK,status=IN_AIR,passengers={CraftPlayer{name=JEKES1750}}}
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 26.85 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 111
+ - Since Riptide Ticks: 421
+ - Flying Delay: 1
+ - Since Velocity Ticks: 537
+ - Since Firework Ticks: 421
+ - Ticks Existed: 437
+ - Since Vehicle Ticks: 321
+ - Joined: 56 seconds ago
+
+All Violations:
+ - Boat Fly (Type B) [VL: 15] (Moving too quickly horizontally.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DARK_OAK_LEAVES, DARK_OAK_LEAVES, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DARK_OAK_LEAVES, DARK_OAK_LEAVES, DARK_OAK_LEAVES, DARK_OAK_LEAVES, DARK_OAK_LEAVES]
+Entities Nearby: [CraftBoat{boatType=DARK_OAK,status=IN_AIR,passengers={CraftPlayer{name=JEKES1750}}}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ JEKES1750 was punished for Boat Fly (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: -7235.796849832415
+ - Y: 73.32909999847415
+ - Z: -8024.59204351902
+
+Information:
+ - UUID: 0fa4f297-1d77-408d-89a3-651644eaac5d
+ - Keep Alive Ping: 0
+ - Transaction Ping: 114
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: CraftBoat{boatType=DARK_OAK,status=IN_AIR,passengers={CraftPlayer{name=JEKES1750}}}
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 11.1 seconds ago
+
+Total Violations: 24
+ - Combat Violations: 0
+ - Movement Violations: 24
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 222
+ - Since Riptide Ticks: 201
+ - Flying Delay: 56
+ - Since Velocity Ticks: 222
+ - Since Firework Ticks: 201
+ - Ticks Existed: 122
+ - Since Vehicle Ticks: 0
+ - Joined: 6 seconds ago
+
+All Violations:
+ - Boat Fly (Type B) [VL: 15] (Moving too quickly horizontally.)
+ - Boat Fly (Type C) [VL: 9] (Hovering in a boat.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=DARK_OAK,status=IN_AIR,passengers={CraftPlayer{name=JEKES1750}}}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+

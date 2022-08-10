@@ -3,17 +3,17 @@
   <head>
     <title>SemiVanilla Studios | Features | Map | Khavalon</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Old-school survival 1.19 Minecraft server with some classic addons. RPG skills and abilities, custom enchants, land claiming. Join the adventure now!" />
+    <meta name="description" content="Old-school survival 1.19.2 Minecraft server with some classic addons. RPG skills and abilities, custom enchants, land claiming. Join the adventure now!" />
     <meta property="og:url" content="https://semivanilla.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="SemiVanilla Studios" />
-    <meta property="og:description" content="Old-school survival 1.19 Minecraft server with some classic addons. RPG skills and abilities, custom enchants, land claiming. Join the adventure now!" />
+    <meta property="og:description" content="Old-school survival 1.19.2 Minecraft server with some classic addons. RPG skills and abilities, custom enchants, land claiming. Join the adventure now!" />
     <meta property="og:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="semivanilla.com" />
     <meta property="twitter:url" content="https://semivanilla.com" />
     <meta name="twitter:title" content="SemiVanilla Studios" />
-    <meta name="twitter:description" content="Old-school survival 1.19 Minecraft server with some classic addons. RPG skills and abilities, custom enchants, land claiming. Join the adventure now!" />
+    <meta name="twitter:description" content="Old-school survival 1.19.2 Minecraft server with some classic addons. RPG skills and abilities, custom enchants, land claiming. Join the adventure now!" />
     <meta name="twitter:image" content="https://semivanilla.com/assets/images/promo-card.jpg" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />

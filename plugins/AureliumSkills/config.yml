@@ -234,6 +234,9 @@ healing:
   exclude-negative-potions: true
   check-multiplier-permissions: true
 forging:
+  blocked-grindstone-enchants:
+  - binding_curse
+  - vanishing_curse
   enabled: true
   max-level: 97
   check-cancelled: true

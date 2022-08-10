@@ -156,12 +156,12 @@ commands:
   tab-complete: 3
   send-namespaced: false
 messages:
-  whitelist: 'Server is under maintenance! Discord: https://khavalon.com/discord'
+  whitelist: 'Khavalon is under maintenance! Discord: https://semivanilla.com/discord'
   unknown-command: Unknown command. Type "/help" for help.
   server-full: Server full!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server rebooting, please check back in a few minutes!
+  restart: Khavalon rebooting, please check back in a few minutes!
 advancements:
   disable-saving: false
   disabled:

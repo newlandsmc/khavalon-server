@@ -93,7 +93,7 @@ click-for-help: Click for help
 click-to-confirm: Click to confirm
 click-to-toggle: Click to toggle
 ui:
-    page-title: Khavalon Minecraft Server | Map | {world}
+    page-title: SemiVanilla Studios | Features | Map | Khavalon
     coordinates: Coordinates<br/>{x}, {z}
     sidebar:
         player-list: Players ({cur}/{max})
