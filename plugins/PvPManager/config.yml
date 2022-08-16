@@ -133,6 +133,9 @@ Tagged In Combat:
       Whitelist: false
       Command List: []
   Commands On Tag: []
+  Commands On Untag:
+  - '!CONSOLE examplecommand'
+  - '!PLAYER examplecommand'
   WorldGuard Exclusions: []
   Punishments:
     Punish On Kick: false
@@ -254,7 +257,7 @@ Plugin Hooks:
 
 # Should PvPManager be allowed to check for updates and tell you about them
 Update Check:
-  Enabled: false
+  Enabled: true
 
 # Informs PvPManager if the config is updated, do not touch it unless you want to reset the config
-Config Version: 78
+Config Version: 79

@@ -18,7 +18,7 @@ corpse-name: "(corpseName)'s corpse" # name in gui
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  Damage  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
 damage-debuff-percentage: 10
 damage-debuff-max-stack: 5 # max amount of times the player can stack their damage debuff
-damage-debuff-message: "You have blood on your hands. You do (x)% less damage for (y) minutes."
+damage-debuff-message: "<red>You have blood on your hands. You do (x)% less damage for (y) minutes."
 damage-debuff-durations: # in minutues
   - 5
   - 10

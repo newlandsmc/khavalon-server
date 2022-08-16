@@ -50,7 +50,7 @@ menu:
       cant-use:
         lore:
           - '<red>You don''t have any premium crates!'
-          - '<red>Buy more at <gradient:yellow:red>store.khavalon.com</gradient>'
+          - '<red>Buy more at <gradient:yellow:red>store.semivanilla.com</gradient>'
     vote:
       name: '<white>Vote Crate'
       material: 'CHEST'

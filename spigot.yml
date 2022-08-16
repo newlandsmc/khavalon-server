@@ -17,9 +17,9 @@ settings:
   save-user-cache-on-stop-only: false
   bungeecord: true
   user-cache-size: 1000
-  player-shuffle: 100
+  player-shuffle: 600
   timeout-time: 60
-  restart-on-crash: true
+  restart-on-crash: false
   restart-script: ./start.sh
   sample-count: 12
   netty-threads: 4
@@ -53,7 +53,7 @@ world-settings:
     end-portal-sound-radius: 0
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
-    mob-spawn-range: 7
+    mob-spawn-range: 8
     zombie-aggressive-towards-villager: true
     growth:
       cactus-modifier: 100
@@ -110,7 +110,7 @@ world-settings:
       other: 64
     ticks-per:
       hopper-transfer: 8
-      hopper-check: 2
+      hopper-check: 1
     hopper-amount: 1
     seed-village: 10387111
     seed-desert: 14357111

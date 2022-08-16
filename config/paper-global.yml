@@ -21,10 +21,10 @@ chunk-loading:
   global-max-chunk-load-rate: -1.0
   global-max-chunk-send-rate: -1.0
   global-max-concurrent-loads: -1.0
-  max-concurrent-sends: 1000
+  max-concurrent-sends: 12
   min-load-radius: 2
   player-max-chunk-load-rate: -1.0
-  player-max-concurrent-loads: 4.0
+  player-max-concurrent-loads: 20.0
   target-player-chunk-send-rate: -1.0
 collisions:
   enable-player-collisions: true

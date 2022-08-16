@@ -64,18 +64,18 @@ chunks:
   prevent-moving-into-unloaded-chunks: true
 collisions:
   allow-player-cramming-damage: false
-  allow-vehicle-collisions: true
-  fix-climbing-bypassing-cramming-rule: true
-  max-entity-collisions: 3
+  allow-vehicle-collisions: false
+  fix-climbing-bypassing-cramming-rule: false
+  max-entity-collisions: 8
   only-players-collide: false
 entities:
   armor-stands:
-    do-collision-entity-lookups: false
+    do-collision-entity-lookups: true
     tick: true
   behavior:
     baby-zombie-movement-modifier: 0.5
-    disable-chest-cat-detection: false
-    disable-creeper-lingering-effect: false
+    disable-chest-cat-detection: true
+    disable-creeper-lingering-effect: true
     disable-player-crits: false
     door-breaking-difficulty:
       husk:
@@ -90,7 +90,7 @@ entities:
       zombified_piglin:
       - HARD
     ender-dragons-death-always-places-dragon-egg: true
-    experience-merge-max-value: -1
+    experience-merge-max-value: 100
     mobs-can-always-pick-up-loot:
       skeletons: false
       zombies: false
@@ -176,7 +176,7 @@ entities:
     non-player-arrow-despawn-rate: '10'
     per-player-mob-spawns: true
     scan-for-legacy-ender-dragon: true
-    skeleton-horse-thunder-spawn-chance: 0.01
+    skeleton-horse-thunder-spawn-chance: 0.02
     slime-spawn-height:
       slime-chunk:
         maximum: 40.0
@@ -203,7 +203,7 @@ entities:
 environment:
   disable-explosion-knockback: false
   disable-ice-and-snow: false
-  disable-teleportation-suffocation-check: false
+  disable-teleportation-suffocation-check: true
   disable-thunder: false
   frosted-ice:
     delay:
@@ -262,7 +262,7 @@ misc:
   disable-sprint-interruption-on-attack: false
   light-queue-size: 20
   max-leash-distance: 10.0
-  redstone-implementation: EIGENCRAFT
+  redstone-implementation: ALTERNATE_CURRENT
   shield-blocking-delay: 5
   show-sign-click-command-failure-msgs-to-player: false
   update-pathfinding-on-block-update: false
@@ -278,7 +278,7 @@ tick-rates:
     villager:
       validatenearbypoi: -1
   container-update: 2
-  grass-spread: 1
+  grass-spread: 2
   mob-spawner: 1
   sensor:
     villager:

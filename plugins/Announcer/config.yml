@@ -15,7 +15,7 @@ returning-player:
     duration-seconds: 4
     fade-in: 1000
     fade-out: 1000
-    title: '<red>Khavalon</red>'
+    title: '<gold>Khavalon</gold>'
     subtitle: '<gray>The Adventure Continues</gray>'
     bedrock:
       enable: true
@@ -36,7 +36,7 @@ new-player:
     duration-seconds: 4
     fade-in: 1000
     fade-out: 1000
-    title: '<red>Khavalon</red>'
+    title: '<gold>Khavalon</gold>'
     subtitle: '<gray>The Adventure Begins</gray>'
     bedrock:
       enable: true
