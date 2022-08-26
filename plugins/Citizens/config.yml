@@ -93,6 +93,7 @@ npc:
       not-enough-money: You need at least ${0}.
       on-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
       on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+    global-delay-seconds: 1
   packets:
     update-delay: 30
   player:

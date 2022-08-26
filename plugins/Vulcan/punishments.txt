@@ -1392,3 +1392,363 @@ Potion Effects: []
 ---------------------------------------------------------------------------
 
 
+--------------[ _Itz_lord was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: -5141.004219029362
+ - Y: 102.27147293765478
+ - Z: -2055.7580623671543
+
+Information:
+ - UUID: 36103a3b-2f73-46c5-96f9-e1254de8274c
+ - Keep Alive Ping: 259
+ - Transaction Ping: 268
+ - Server TPS: 20
+ - Sensitivity: 80
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 118.7 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 2371
+ - Since Riptide Ticks: 4068
+ - Flying Delay: 50
+ - Since Velocity Ticks: 2374
+ - Since Firework Ticks: 4068
+ - Ticks Existed: 4413
+ - Since Vehicle Ticks: 3968
+ - Joined: 321 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Wolftifact was punished for Baritone (Type B) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 100.47710206945295
+ - Y: 46.0
+ - Z: 3.699999988079071
+
+Information:
+ - UUID: 26b94831-f73c-403b-bf1a-caacd828d0b8
+ - Keep Alive Ping: 93
+ - Transaction Ping: 97
+ - Server TPS: 20
+ - Sensitivity: -29
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 127.6 seconds ago
+
+Total Violations: 20
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 20
+
+Misc Information:
+ - Since Teleport Ticks: 1771
+ - Since Riptide Ticks: 47594
+ - Flying Delay: 150
+ - Since Velocity Ticks: 2552
+ - Since Firework Ticks: 2476
+ - Ticks Existed: 58400
+ - Since Vehicle Ticks: 47494
+ - Joined: 7558 seconds ago
+
+All Violations:
+ - Baritone (Type B) [VL: 20] (Checks for Baritone like rotations.)
+
+Blocks Nearby: [MANGROVE_ROOTS, AIR, OBSIDIAN, MANGROVE_ROOTS, AIR, OBSIDIAN, SAND, AIR, AIR, OBSIDIAN, AIR, END_STONE, OBSIDIAN, OBSIDIAN, OBSIDIAN, AIR, AIR, OBSIDIAN, AIR, AIR, AIR, OBSIDIAN, AIR, AIR, MANGROVE_ROOTS, AIR, END_STONE, MANGROVE_ROOTS, AIR, OBSIDIAN, MANGROVE_ROOTS, AIR, AIR, OBSIDIAN, AIR, COBBLESTONE]
+Entities Nearby: [CraftItem]
+Potion Effects: [WATER_BREATHING:200t-x0, HERO_OF_THE_VILLAGE:26523t-x0, SPEED:2147473075t-x2]
+---------------------------------------------------------------------------
+
+
+--------------[ Remigrated was punished for Bad Packets (Type M) ]--------------
+
+Location:
+ - World: world
+ - X: -2828.834350214999
+ - Y: 60.0
+ - Z: 2509.426637873212
+
+Information:
+ - UUID: 3a6df57a-b6be-45fc-afc6-eb1d58b3d523
+ - Keep Alive Ping: 160
+ - Transaction Ping: 285
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 40.4 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 808
+ - Since Riptide Ticks: 814
+ - Flying Delay: 98
+ - Since Velocity Ticks: 808
+ - Since Firework Ticks: 814
+ - Ticks Existed: 708
+ - Since Vehicle Ticks: 714
+ - Joined: 47 seconds ago
+
+All Violations:
+ - Bad Packets (Type M) [VL: 5] (Post BlockPlace packets.)
+
+Blocks Nearby: [SAND, SAND, SAND, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, SAND, SAND, SAND, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, SAND, SAND, SAND, SAND, SAND, SAND, SAND, SAND, SAND, OAK_PLANKS, OAK_PLANKS, OAK_PLANKS]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Remigrated was punished for Bad Packets (Type M) ]--------------
+
+Location:
+ - World: world
+ - X: -2836.819534488558
+ - Y: 60.0
+ - Z: 2515.7561718633838
+
+Information:
+ - UUID: 3a6df57a-b6be-45fc-afc6-eb1d58b3d523
+ - Keep Alive Ping: 0
+ - Transaction Ping: 279
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 14.3 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 286
+ - Since Riptide Ticks: 378
+ - Flying Delay: 51
+ - Since Velocity Ticks: 286
+ - Since Firework Ticks: 378
+ - Ticks Existed: 186
+ - Since Vehicle Ticks: 278
+ - Joined: 12 seconds ago
+
+All Violations:
+ - Bad Packets (Type M) [VL: 5] (Post BlockPlace packets.)
+
+Blocks Nearby: [SAND, SAND, SAND, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, SAND, SAND, SAND, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, SAND, SAND, SAND, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ ThatOneGamer2022 was punished for Jesus (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 2884.198525450223
+ - Y: -52.75081292125532
+ - Z: -9545.6849517334
+
+Information:
+ - UUID: f989eb73-36bb-45f4-a922-5a8be91bf089
+ - Keep Alive Ping: 93
+ - Transaction Ping: 104
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 134.9 seconds ago
+
+Total Violations: 24
+ - Combat Violations: 0
+ - Movement Violations: 24
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 12251
+ - Since Riptide Ticks: 8613
+ - Flying Delay: 51
+ - Since Velocity Ticks: 2698
+ - Since Firework Ticks: 8613
+ - Ticks Existed: 12151
+ - Since Vehicle Ticks: 8513
+ - Joined: 1209 seconds ago
+
+All Violations:
+ - Jesus (Type A) [VL: 15] (Walking on water.)
+ - Jesus (Type B) [VL: 4] (Invalid Y-change in water.)
+ - Jesus (Type E) [VL: 5] (Moving too quickly on water.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ ThatOneGamer2022 was punished for Jesus (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 2878.072893457825
+ - Y: -54.0
+ - Z: -9535.920419660923
+
+Information:
+ - UUID: f989eb73-36bb-45f4-a922-5a8be91bf089
+ - Keep Alive Ping: 89
+ - Transaction Ping: 111
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 10.65 seconds ago
+
+Total Violations: 19
+ - Combat Violations: 0
+ - Movement Violations: 19
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1402
+ - Since Riptide Ticks: 1231
+ - Flying Delay: 155
+ - Since Velocity Ticks: 213
+ - Since Firework Ticks: 1231
+ - Ticks Existed: 1302
+ - Since Vehicle Ticks: 1131
+ - Joined: 158 seconds ago
+
+All Violations:
+ - Jesus (Type A) [VL: 15] (Walking on water.)
+ - Jesus (Type B) [VL: 1] (Invalid Y-change in water.)
+ - Jesus (Type E) [VL: 3] (Moving too quickly on water.)
+
+Blocks Nearby: [LAVA, LAVA, LAVA, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, LAVA, LAVA, LAVA, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, LAVA, LAVA, LAVA, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ ThatOneGamer2022 was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 1340.6912366986162
+ - Y: 45.42972712776498
+ - Z: 653.0546273619644
+
+Information:
+ - UUID: f989eb73-36bb-45f4-a922-5a8be91bf089
+ - Keep Alive Ping: 97
+ - Transaction Ping: 169
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 71.8 seconds ago
+
+Total Violations: 35
+ - Combat Violations: 0
+ - Movement Violations: 35
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3974
+ - Since Riptide Ticks: 25233
+ - Flying Delay: 9
+ - Since Velocity Ticks: 1436
+ - Since Firework Ticks: 25233
+ - Ticks Existed: 30993
+ - Since Vehicle Ticks: 25133
+ - Joined: 3141 seconds ago
+
+All Violations:
+ - Flight (Type B) [VL: 6] (Invalid Y-Axis movement.)
+ - Flight (Type C) [VL: 9] (Invalid Y-Axis movement.)
+ - Flight (Type D) [VL: 5] (Invalid Y-Axis movement.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ ThatOneGamer2022 was punished for Jesus (Type B) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 56.8117357721905
+ - Y: 32.0
+ - Z: -1249.543621189434
+
+Information:
+ - UUID: f989eb73-36bb-45f4-a922-5a8be91bf089
+ - Keep Alive Ping: 96
+ - Transaction Ping: 110
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: HIGHER.THAN.SUPPORTED.VERSIONS
+ - Last Damage: 56.65 seconds ago
+
+Total Violations: 28
+ - Combat Violations: 0
+ - Movement Violations: 28
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 6796
+ - Since Riptide Ticks: 27205
+ - Flying Delay: 54
+ - Since Velocity Ticks: 1133
+ - Since Firework Ticks: 27205
+ - Ticks Existed: 35447
+ - Since Vehicle Ticks: 27105
+ - Joined: 3002 seconds ago
+
+All Violations:
+ - Jesus (Type A) [VL: 13] (Walking on water.)
+ - Jesus (Type B) [VL: 15] (Invalid Y-change in water.)
+
+Blocks Nearby: [LAVA, LAVA, LAVA, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, LAVA, LAVA, LAVA, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, LAVA, LAVA, LAVA, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
