@@ -31,3 +31,9 @@ expansions:
     Debug: false
   bungee:
     check_interval: 30
+  server:
+    tps_color:
+      high: '&a'
+      low: '&c'
+      medium: '&e'
+    server_name: Khavalon

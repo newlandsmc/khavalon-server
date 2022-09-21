@@ -254,21 +254,21 @@ veinminer:
     1:
       effects:
         - "VEIN_MINE"
-telepathy:
-  display: "%group-color%Telepathy"
-  description: "Automatically places items in your inventory."
-  applies-to: "Pickaxes, Axes, Hoes, Shovels"
-  type: "MINING"
-  group: "UNCOMMON"
-  applies:
-    - ALL_PICKAXE
-    - ALL_SHOVEL
-    - ALL_AXE
-    - ALL_HOE
-  levels:
-    1:
-      effects:
-        - "TP_DROPS"
+#telepathy:
+#  display: "%group-color%Telepathy"
+#  description: "Automatically places items in your inventory."
+#  applies-to: "Pickaxes, Axes, Hoes, Shovels"
+#  type: "MINING"
+#  group: "UNCOMMON"
+#  applies:
+#    - ALL_PICKAXE
+#    - ALL_SHOVEL
+#    - ALL_AXE
+#    - ALL_HOE
+#  levels:
+#    1:
+#      effects:
+#        - "TP_DROPS"
 enderslayer:
   display: "%group-color%Ender Slayer"
   description: "Increases damage dealt to Enderman, Endermite,\n and Ender Dragons."

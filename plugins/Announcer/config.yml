@@ -22,7 +22,7 @@ returning-player:
       duration-seconds: 4
       fade-in: 1000
       fade-out: 1000
-      title: 'Khavalon'
+      title: '<gold>Khavalon</gold>'
       subtitle: '<gray>The Adventure Continues</gray>'
   join-sounds:
     enabled: false
@@ -43,7 +43,7 @@ new-player:
       duration-seconds: 4
       fade-in: 1000
       fade-out: 1000
-      title: 'Khavalon'
+      title: '<gold>Khavalon</gold>'
       subtitle: '<gray>The Adventure Begins</gray>'
   join-sounds:
     enabled: false
@@ -53,72 +53,58 @@ new-player:
     volume: 0.8
 messages:
   0:
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
     - ''
     - 'Vote every day to support the server and get'
     - 'rewarded for it! <click:open_url:https://semivanilla.com/vote><gradient:gold:red>https://semivanilla.com/vote</gradient></click>'
     - ''
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
   1:
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
     - ''
     - 'Enjoying the server? Please consider donating'
     - 'at <click:open_url:https://store.semivanilla.com><gradient:gold:red>https://store.semivanilla.com</gradient></click>!'
     - ''
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
   2:
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
     - ''
     - 'Join the community! Find us on Discord'
     - 'at <click:open_url:https://discord.gg/3WzZ3x6wGp><gradient:gold:red>https://discord.gg/3WzZ3x6wGp</gradient></click>!'
     - ''
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
   3:
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
     - ''
     - 'Check the map! All players locations can be'
     - 'seen at <click:open_url:https://semivanilla.com/features/map><gradient:gold:red>https://semivanilla.com/features/map</gradient></click>!'
     - ''
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
-  5:
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
-    - ''
-    - 'Kill a player to get Fighting XP. Kill a bounty to'
-    - 'steal all the Fighting XP they stole from others!'
-    - ''
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
   6:
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
     - ''
     - 'Earn Vote Crates by logging in every day and'
     - 'voting every day! Claim rewards with <click:run_command:/spoils><gradient:gold:red>/spoils</gradient></click>.'
     - ''
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
   7:
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
     - ''
     - 'Grinding Skills XP? Boost XP earned for the entire'
     - 'server at <click:open_url:https://store.semivanilla.com><gradient:gold:red>https://store.semivanilla.com</gradient></click>.'
     - ''
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
-  9:
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
-    - ''
-    - 'Heads up! Land claims disappear after a'
-    - 'player is gone for 90 consecutive days!'
-    - ''
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
   10:
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
     - ''
     - 'Unclaimed land can be griefed! Make sure you claim'
     - 'your land. <click:open_url:https://semivanilla.com/features/claiming><gradient:gold:red>https://semivanilla.com/features/claiming</gradient></click>'
     - ''
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
   11:
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'
     - ''
     - 'Mana and hearts GUI getting in your way?'
     - 'You can disable it with <gradient:gold:red>/abtoggle</gradient>.'
     - ''
-    - '<gradient:gold:red:gold><strikethrough>                                                                 <reset>'
+    - '<strikethrough>                                                                 <reset>'

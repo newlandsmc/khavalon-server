@@ -1,0 +1,16 @@
+name: sudokou
+current: Global
+ignores: ''
+listen: Staff,Local,Global
+mutes: {}
+blockedcommands: ''
+host: false
+party: 8653b5db-09de-461f-bd69-8235dc9d385d
+filter: true
+notifications: true
+spy: true
+commandspy: true
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2022/Sep/21 03:22:30

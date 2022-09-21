@@ -31,7 +31,7 @@ collisions:
   send-full-pos-for-hard-colliding-entities: true
 commands:
   fix-target-selector-tag-completion: true
-  suggest-player-names-when-null-tab-completions: true
+  suggest-player-names-when-null-tab-completions: false
   time-command-affects-all-worlds: false
 console:
   enable-brigadier-completions: true

@@ -1752,3 +1752,403 @@ Potion Effects: []
 ---------------------------------------------------------------------------
 
 
+--------------[ Jackattack45649 was punished for Flight (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 5724.079321845219
+ - Y: 62.68750854467118
+ - Z: 3916.9893273461626
+
+Information:
+ - UUID: 50476cc1-34af-4fb0-8dac-a61c55c09bda
+ - Keep Alive Ping: 1089
+ - Transaction Ping: 528
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 11.55 seconds ago
+
+Total Violations: 33
+ - Combat Violations: 0
+ - Movement Violations: 33
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 212
+ - Since Riptide Ticks: 12958
+ - Flying Delay: 26
+ - Since Velocity Ticks: 231
+ - Since Firework Ticks: 12958
+ - Ticks Existed: 16128
+ - Since Vehicle Ticks: 12858
+ - Joined: 1431 seconds ago
+
+All Violations:
+ - Flight (Type B) [VL: 30] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 3] (Invalid jump motion.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DIRT, GRASS_BLOCK, GRASS_BLOCK, OAK_LOG, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Jackattack45649 was punished for Flight (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 5730.866790863102
+ - Y: 62.43186004927066
+ - Z: 3920.3827202964467
+
+Information:
+ - UUID: 50476cc1-34af-4fb0-8dac-a61c55c09bda
+ - Keep Alive Ping: 3380
+ - Transaction Ping: 484
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 12.9 seconds ago
+
+Total Violations: 30
+ - Combat Violations: 0
+ - Movement Violations: 30
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 241
+ - Since Riptide Ticks: 11246
+ - Flying Delay: 74
+ - Since Velocity Ticks: 258
+ - Since Firework Ticks: 11246
+ - Ticks Existed: 13640
+ - Since Vehicle Ticks: 11146
+ - Joined: 992 seconds ago
+
+All Violations:
+ - Flight (Type B) [VL: 30] (Invalid Y-Axis movement.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Meruwem was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 8678.776175756955
+ - Y: 141.1997916023719
+ - Z: -1326.9875195314962
+
+Information:
+ - UUID: bfae46eb-dbe1-4c17-8587-5a4563a99516
+ - Keep Alive Ping: 0
+ - Transaction Ping: 119
+ - Server TPS: 20
+ - Sensitivity: 69
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 12.45 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 249
+ - Since Riptide Ticks: 304
+ - Flying Delay: 51
+ - Since Velocity Ticks: 249
+ - Since Firework Ticks: 304
+ - Ticks Existed: 149
+ - Since Vehicle Ticks: 204
+ - Joined: 14 seconds ago
+
+All Violations:
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Meruwem was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 8607.011780242045
+ - Y: 133.14924794592326
+ - Z: -1304.405683893844
+
+Information:
+ - UUID: bfae46eb-dbe1-4c17-8587-5a4563a99516
+ - Keep Alive Ping: 82
+ - Transaction Ping: 111
+ - Server TPS: 20
+ - Sensitivity: 69
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 54.8 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 980
+ - Since Riptide Ticks: 859
+ - Flying Delay: 49
+ - Since Velocity Ticks: 1096
+ - Since Firework Ticks: 859
+ - Ticks Existed: 996
+ - Since Vehicle Ticks: 759
+ - Joined: 99 seconds ago
+
+All Violations:
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Meruwem was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 8556.999851615363
+ - Y: 125.16610926093821
+ - Z: -1310.5055957430654
+
+Information:
+ - UUID: bfae46eb-dbe1-4c17-8587-5a4563a99516
+ - Keep Alive Ping: 0
+ - Transaction Ping: 135
+ - Server TPS: 20
+ - Sensitivity: 69
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 15.6 seconds ago
+
+Total Violations: 11
+ - Combat Violations: 0
+ - Movement Violations: 6
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 143
+ - Since Riptide Ticks: 405
+ - Flying Delay: 60
+ - Since Velocity Ticks: 312
+ - Since Firework Ticks: 405
+ - Ticks Existed: 212
+ - Since Vehicle Ticks: 305
+ - Joined: 12 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 6] (Repeated vertical motions.)
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [BIRCH_LEAVES, AIR, OAK_LEAVES, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Meruwem was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 8551.496019507153
+ - Y: 120.6537296175886
+ - Z: -1279.8896468665507
+
+Information:
+ - UUID: bfae46eb-dbe1-4c17-8587-5a4563a99516
+ - Keep Alive Ping: 97
+ - Transaction Ping: 108
+ - Server TPS: 20
+ - Sensitivity: 69
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 22.9 seconds ago
+
+Total Violations: 8
+ - Combat Violations: 0
+ - Movement Violations: 3
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 454
+ - Since Riptide Ticks: 2350
+ - Flying Delay: 16
+ - Since Velocity Ticks: 458
+ - Since Firework Ticks: 2350
+ - Ticks Existed: 2516
+ - Since Vehicle Ticks: 2250
+ - Joined: 162 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 3] (Repeated vertical motions.)
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Meruwem was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 8531.039286429046
+ - Y: 98.0
+ - Z: -1254.6786657471107
+
+Information:
+ - UUID: bfae46eb-dbe1-4c17-8587-5a4563a99516
+ - Keep Alive Ping: 0
+ - Transaction Ping: 101
+ - Server TPS: 20
+ - Sensitivity: 69
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 12.6 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 252
+ - Since Riptide Ticks: 339
+ - Flying Delay: 17
+ - Since Velocity Ticks: 252
+ - Since Firework Ticks: 339
+ - Ticks Existed: 152
+ - Since Vehicle Ticks: 239
+ - Joined: 4 seconds ago
+
+All Violations:
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, DIRT, AIR, AIR, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, BIRCH_LEAVES, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, BIRCH_LEAVES, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Meruwem was punished for Criticals (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 8431.29746603819
+ - Y: 63.0
+ - Z: -1166.5661666282408
+
+Information:
+ - UUID: bfae46eb-dbe1-4c17-8587-5a4563a99516
+ - Keep Alive Ping: 25
+ - Transaction Ping: 110
+ - Server TPS: 20
+ - Sensitivity: 69
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 53.6 seconds ago
+
+Total Violations: 13
+ - Combat Violations: 10
+ - Movement Violations: 0
+ - Player Violations: 3
+
+Misc Information:
+ - Since Teleport Ticks: 502
+ - Since Riptide Ticks: 970
+ - Flying Delay: 1
+ - Since Velocity Ticks: 1072
+ - Since Firework Ticks: 970
+ - Ticks Existed: 972
+ - Since Vehicle Ticks: 870
+ - Joined: 27 seconds ago
+
+All Violations:
+ - Criticals (Type A) [VL: 10] (Tried to hit Critical hit on ground.)
+ - Ground Spoof (Type B) [VL: 3] (Spoofed OnGround value.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ WHENDOESITENDLOL was punished for Entity Speed (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: -7075.297362001798
+ - Y: 62.290251009115366
+ - Z: -8801.333014468235
+
+Information:
+ - UUID: c4fc2cd2-ee89-483d-97c0-d1f6900a548f
+ - Keep Alive Ping: 43
+ - Transaction Ping: 66
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Unresolved
+ - Vehicle: CraftBoat{boatType=OAK,status=UNDER_WATER,passengers={CraftPlayer{name=WHENDOESITENDLOL}}}
+ - Version: 1.19.1
+ - Last Damage: 151.4 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 262
+ - Since Riptide Ticks: 2738
+ - Flying Delay: 49
+ - Since Velocity Ticks: 3028
+ - Since Firework Ticks: 2738
+ - Ticks Existed: 3238
+ - Since Vehicle Ticks: 0
+ - Joined: 257 seconds ago
+
+All Violations:
+ - Entity Speed (Type A) [VL: 15] (Riding an entity too quickly.)
+
+Blocks Nearby: [WATER, WATER, WATER, WATER, WATER, WATER, AIR, AIR, AIR, AIR, AIR, AIR, WATER, WATER, WATER, WATER, WATER, WATER, AIR, AIR, AIR, AIR, AIR, AIR, WATER, WATER, WATER, WATER, WATER, WATER, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=OAK,status=UNDER_WATER,passengers={CraftPlayer{name=WHENDOESITENDLOL}}}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+

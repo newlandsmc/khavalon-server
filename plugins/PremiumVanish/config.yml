@@ -515,22 +515,22 @@ MiscellaneousOptions:
     #
     # Important: Please make sure that ip-forwarding is enabled on your Bungee AND your Bukkit servers.
     # It's also important that your database is firewalled so it's not accessible from the internet.
-    Enable: false
+    Enable: true
     # The ip of your database server
-    Ip: ""
+    Ip: "localhost"
     # The port of your database, usually 3306; just leave it empty if there is no specific port
     Port: "3306"
     # You can make PremiumVanish ignore the two options above and use a direct URI to connect instead
     # Format for MySQL servers: jdbc:mysql://<yourIp>:<yourPort>/<yourDatabase>?useSSL=false
     CustomURI: ""
     # The name of your database user
-    User: ""
+    User: "premiumvanish"
     # The password of your database user
     # WARNING: Please make sure only people who are allowed to know the password can access this file
-    Password: ""
+    Password: "p9td448Rmn46jY36"
     # The name of the database which PremiumVanish should create its tables in
     # Note: PremiumVanish won't create this database, it must be pre-created using eg. phpMyAdmin
-    Database: ""
+    Database: "premiumvanish"
     # Not recommended; Makes PV use the standard JDBC connector instead of the more powerful multi-pooled HikariCP one
     # You can give this a try if you have strange problems with connecting to your database
     BasicDatabaseConnector: false

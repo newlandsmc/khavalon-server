@@ -395,9 +395,9 @@ meta-formatting:
       - "highest"
       - "highest_on_track_prestige"
     duplicates: first-only
-    start-spacer: "<white>["
+    start-spacer: "&f["
     middle-spacer: " "
-    end-spacer: "<white>] "
+    end-spacer: "&f] "
   suffix:
     format:
       - "highest"

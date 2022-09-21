@@ -1,0 +1,16 @@
+name: '*Herobrine52983'
+current: Global
+ignores: ''
+listen: Local,Global
+mutes: {}
+blockedcommands: ''
+host: false
+party: ''
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2022/Sep/15 23:25:57

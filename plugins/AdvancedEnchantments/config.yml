@@ -149,6 +149,7 @@ alchemist:
       item:
         type: STAINED_GLASS_PANE
         damage: 5
+        custom-model-data: 0
     item-placeholder:
       name: ' '
       lore: []

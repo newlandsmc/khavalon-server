@@ -1,0 +1,16 @@
+name: MagicMukh
+current: Global
+ignores: ''
+listen: Local,Global
+mutes: {}
+blockedcommands: ''
+host: false
+party: ''
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2022/Sep/18 21:52:56
