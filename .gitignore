@@ -32,6 +32,7 @@
 /plugins/Towny/backup/
 /plugins/GriefPreventionTP/claims.json
 /plugins/RespawnHandler/data/
+/plugins/VentureChat/PlayerData/
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/
