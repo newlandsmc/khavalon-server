@@ -1,0 +1,21 @@
+{
+  "uuid": "0dcc9b25-3b06-45d1-907c-3c9e08b7a51f",
+  "name": "GiantLucas",
+  "totalVotes": 1,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 30
+    }
+  ],
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 8,
+    "day": 21
+  }
+}

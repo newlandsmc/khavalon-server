@@ -1,0 +1,15 @@
+{
+  "uuid": "6d73dcf3-3ceb-4b40-be44-016e99b14605",
+  "name": "VoteCompYT",
+  "totalVotes": 0,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [],
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 5,
+    "day": 31
+  }
+}

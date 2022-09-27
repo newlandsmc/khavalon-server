@@ -1,0 +1,32 @@
+{
+  "uuid": "f6fef21c-be82-45b2-9adc-0b99a47f7b97",
+  "name": "Randomness_",
+  "totalVotes": 12,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1658898067222,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 26
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 27
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 7,
+    "day": 28
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 7,
+    "day": 28
+  }
+}

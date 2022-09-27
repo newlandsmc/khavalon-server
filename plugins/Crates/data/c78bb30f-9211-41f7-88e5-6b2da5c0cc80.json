@@ -1,0 +1,26 @@
+{
+  "uuid": "c78bb30f-9211-41f7-88e5-6b2da5c0cc80",
+  "name": "mattdeux",
+  "totalVotes": 5,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 5
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 7,
+    "day": 5
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 7,
+    "day": 6
+  }
+}

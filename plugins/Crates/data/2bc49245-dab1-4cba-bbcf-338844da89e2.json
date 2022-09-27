@@ -1,0 +1,57 @@
+{
+  "uuid": "2bc49245-dab1-4cba-bbcf-338844da89e2",
+  "name": "ASWD234268",
+  "totalVotes": 80,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1664120192767,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 8,
+      "day": 30
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "day": 31
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "day": 1
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "day": 8
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "day": 9
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "day": 24
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "day": 25
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 9,
+    "day": 24
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 9,
+    "day": 25
+  }
+}

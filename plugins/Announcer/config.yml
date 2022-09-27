@@ -11,14 +11,14 @@ gradient:
   speed: 0.1
 returning-player:
   title-settings:
-    enabled: true
+    enabled: false
     duration-seconds: 4
     fade-in: 1000
     fade-out: 1000
     title: '<gold>Khavalon</gold>'
     subtitle: '<gray>The Adventure Continues</gray>'
     bedrock:
-      enable: true
+      enable: false
       duration-seconds: 4
       fade-in: 1000
       fade-out: 1000
@@ -32,14 +32,14 @@ returning-player:
     volume: 0.8
 new-player:
   title-settings:
-    enabled: true
+    enabled: false
     duration-seconds: 4
     fade-in: 1000
     fade-out: 1000
     title: '<gold>Khavalon</gold>'
     subtitle: '<gray>The Adventure Begins</gray>'
     bedrock:
-      enable: true
+      enable: false
       duration-seconds: 4
       fade-in: 1000
       fade-out: 1000
@@ -63,7 +63,7 @@ messages:
     - '<strikethrough>                                                                 <reset>'
     - ''
     - 'Enjoying the server? Please consider donating'
-    - 'at <click:open_url:https://store.semivanilla.com><gradient:gold:red>https://store.semivanilla.com</gradient></click>!'
+    - 'at <click:open_url:https://svmc.tebex.io><gradient:gold:red>https://svmc.tebex.io</gradient></click>!'
     - ''
     - '<strikethrough>                                                                 <reset>'
   2:
@@ -91,7 +91,7 @@ messages:
     - '<strikethrough>                                                                 <reset>'
     - ''
     - 'Grinding Skills XP? Boost XP earned for the entire'
-    - 'server at <click:open_url:https://store.semivanilla.com><gradient:gold:red>https://store.semivanilla.com</gradient></click>.'
+    - 'server at <click:open_url:https://svmc.tebex.io><gradient:gold:red>https://svmc.tebex.io</gradient></click>.'
     - ''
     - '<strikethrough>                                                                 <reset>'
   10:

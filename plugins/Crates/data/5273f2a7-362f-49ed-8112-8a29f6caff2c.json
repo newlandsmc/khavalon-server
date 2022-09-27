@@ -1,0 +1,27 @@
+{
+  "uuid": "5273f2a7-362f-49ed-8112-8a29f6caff2c",
+  "name": "phoenix_inferno_",
+  "totalVotes": 6,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1655169672390,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 14
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 6,
+    "day": 24
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 9,
+    "day": 18
+  }
+}

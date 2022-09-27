@@ -1,0 +1,21 @@
+{
+  "uuid": "56faadd2-b368-48bd-9322-17e674033c6f",
+  "name": "me144",
+  "totalVotes": 1,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 9,
+      "day": 9
+    }
+  ],
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 9,
+    "day": 11
+  }
+}

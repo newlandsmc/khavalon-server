@@ -1,0 +1,37 @@
+{
+  "uuid": "1b7d90d5-96c0-4216-93b1-52b433a442e0",
+  "name": "Frqmed_",
+  "totalVotes": 27,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1659454879582,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 23
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 25
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "day": 1
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "day": 2
+    }
+  ],
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 9,
+    "day": 17
+  }
+}

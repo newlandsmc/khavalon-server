@@ -1,0 +1,31 @@
+{
+  "uuid": "644a2b57-915c-4f54-a94f-477673401e7f",
+  "name": "NasowhipperYT",
+  "totalVotes": 10,
+  "offlineEarned": 0,
+  "votesToday": 5,
+  "crates": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 9,
+      "day": 25
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "day": 27
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 9,
+    "day": 27
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 9,
+    "day": 27
+  }
+}

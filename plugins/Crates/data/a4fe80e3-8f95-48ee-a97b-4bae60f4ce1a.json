@@ -1,0 +1,15 @@
+{
+  "uuid": "a4fe80e3-8f95-48ee-a97b-4bae60f4ce1a",
+  "name": "Immunized",
+  "totalVotes": 0,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [],
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 6,
+    "day": 3
+  }
+}

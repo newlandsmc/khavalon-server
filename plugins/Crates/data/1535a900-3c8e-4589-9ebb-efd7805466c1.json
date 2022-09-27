@@ -1,0 +1,20 @@
+{
+  "uuid": "1535a900-3c8e-4589-9ebb-efd7805466c1",
+  "name": "BladeMasters",
+  "totalVotes": 0,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 9,
+    "day": 13
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 9,
+    "day": 26
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "uuid": "52f87190-6972-4dfe-9516-27034d91d608",
+  "name": "Lejinsh",
+  "totalVotes": 0,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 7,
+    "day": 27
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 9,
+    "day": 22
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "uuid": "0ee216f8-64dd-43db-ad72-4aed770c9897",
+  "name": "Shujimi",
+  "totalVotes": 16,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1655506664281,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 14
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 17
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 6,
+    "day": 20
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 9,
+    "day": 16
+  }
+}

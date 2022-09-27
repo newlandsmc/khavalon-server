@@ -1,0 +1,15 @@
+{
+  "uuid": "80f1814b-9e10-4ae1-b9af-095b113ff720",
+  "name": "whosPuppet",
+  "totalVotes": 0,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [],
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 8,
+    "day": 1
+  }
+}

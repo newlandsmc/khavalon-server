@@ -1,0 +1,28 @@
+{
+  "uuid": "f98c664f-17ca-4599-8a89-c6b7003914ec",
+  "name": "Zohy",
+  "totalVotes": 1,
+  "offlineEarned": 0,
+  "votesToday": 1,
+  "expeditions": [
+    "VOTE"
+  ],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 17
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 7,
+    "day": 17
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 7,
+    "day": 17
+  }
+}

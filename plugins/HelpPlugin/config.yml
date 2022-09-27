@@ -84,7 +84,7 @@ items:
     commands:
       - 'info website'
 links:
-  store: 'https://store.semivanilla.com'
+  store: 'https://svmc.tebex.io/'
   map: 'https://semivanilla.com/features/map'
   vote: 'https://semivanilla.com/vote'
   website: 'https://semivanilla.com'
@@ -143,8 +143,8 @@ book:
       - '<bold>Commands:</bold>'
       - 'See our website.'
       - ''
-      - '    <click:open_url:https://semivanilla.com/features/claiming><gradient:aqua:dark_purple><bold>More help on</bold></gradient></click>'
-      - '     <click:open_url:https://semivanilla.com/features/claiming><gradient:aqua:dark_purple><bold>our website!</bold></gradient></click>'
+      - '    <click:open_url:https://semivanilla.com/features/claiming><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
+      - '     <click:open_url:https://semivanilla.com/features/claiming><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
     4:
       - ''
       - ''
@@ -180,8 +180,8 @@ book:
       - ' - /<skillname>'
       - ' - /mana'
       - ''
-      - '    <click:open_url:https://semivanilla.com/features/skills><gradient:aqua:dark_purple><bold>More help on</bold></gradient></click>'
-      - '     <click:open_url:https://semivanilla.com/features/skills><gradient:aqua:dark_purple><bold>our website!</bold></gradient></click>'
+      - '    <click:open_url:https://semivanilla.com/features/skills><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
+      - '     <click:open_url:https://semivanilla.com/features/skills><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
     7:
       - ''
       - ''
@@ -214,8 +214,8 @@ book:
       - 'books in loot chests'
       - 'and villagers.'
       - ''
-      - '    <click:open_url:https://semivanilla.com/features/enchants><gradient:aqua:dark_purple><bold>More help on</bold></gradient></click>'
-      - '     <click:open_url:https://semivanilla.com/features/enchants><gradient:aqua:dark_purple><bold>our website!</bold></gradient></click>'
+      - '    <click:open_url:https://semivanilla.com/features/enchants><gradient:gold:#b24747><bold>More help on</bold></gradient></click>'
+      - '     <click:open_url:https://semivanilla.com/features/enchants><gradient:gold:#b24747><bold>our website!</bold></gradient></click>'
     10:
       - ''
       - ''
@@ -330,11 +330,11 @@ book:
       - 'on most things in'
       - 'this book.'
       - ''
-      - '<click:open_url:%website-link%>     <gradient:aqua:dark_purple><bold>CLICK HERE</bold></gradient></click>'
+      - '<click:open_url:%website-link%>     <gradient:gold:#b24747><bold>CLICK HERE</bold></gradient></click>'
       - ''
       - 'Or, join our Discord!'
       - ''
-      - '<click:open_url:%discord-link%>     <gradient:aqua:dark_purple><bold>CLICK HERE</bold></gradient></click>'
+      - '<click:open_url:%discord-link%>     <gradient:gold:#b24747><bold>CLICK HERE</bold></gradient></click>'
   store:
     pages: 1
     0:
@@ -375,7 +375,7 @@ book:
       - '<click:open_url:%vote-link%>every day and get</click>'
       - '<click:open_url:%vote-link%>rewarded for it!</click>'
       - ''
-      - '<click:open_url:%vote-link%>/spoils to claim</click>'
+      - '<click:open_url:%vote-link%>/crates to claim</click>'
       - '<click:open_url:%vote-link%>rewards.</click>'
       - ''
       - ''

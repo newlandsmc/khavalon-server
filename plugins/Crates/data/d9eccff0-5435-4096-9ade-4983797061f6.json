@@ -1,0 +1,26 @@
+{
+  "uuid": "d9eccff0-5435-4096-9ade-4983797061f6",
+  "name": "Squevis",
+  "totalVotes": 5,
+  "offlineEarned": 0,
+  "votesToday": 5,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 14
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 7,
+    "day": 14
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 7,
+    "day": 14
+  }
+}

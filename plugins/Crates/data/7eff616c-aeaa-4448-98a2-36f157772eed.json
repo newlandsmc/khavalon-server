@@ -1,0 +1,15 @@
+{
+  "uuid": "7eff616c-aeaa-4448-98a2-36f157772eed",
+  "name": "_bit_coin",
+  "totalVotes": 0,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [],
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 8,
+    "day": 10
+  }
+}

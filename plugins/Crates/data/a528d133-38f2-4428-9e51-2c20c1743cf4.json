@@ -1,0 +1,26 @@
+{
+  "uuid": "a528d133-38f2-4428-9e51-2c20c1743cf4",
+  "name": "RS4L",
+  "totalVotes": 1,
+  "offlineEarned": 0,
+  "votesToday": 1,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 8,
+      "day": 12
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 8,
+    "day": 12
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 8,
+    "day": 12
+  }
+}

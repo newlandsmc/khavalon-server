@@ -1,0 +1,15 @@
+{
+  "uuid": "a6ad1e3a-6c59-4fc7-9fe0-6138bbef2801",
+  "name": "ZOMBIA1",
+  "totalVotes": 0,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [],
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 7,
+    "day": 7
+  }
+}

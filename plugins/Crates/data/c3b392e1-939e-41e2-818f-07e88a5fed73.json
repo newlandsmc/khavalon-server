@@ -1,0 +1,57 @@
+{
+  "uuid": "c3b392e1-939e-41e2-818f-07e88a5fed73",
+  "name": "sparkyjames",
+  "totalVotes": 60,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1658166779844,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 27
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 3
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 4
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 9
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 10
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 17
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 18
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 7,
+    "day": 18
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 8,
+    "day": 28
+  }
+}

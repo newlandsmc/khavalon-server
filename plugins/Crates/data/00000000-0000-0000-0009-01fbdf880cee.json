@@ -1,0 +1,20 @@
+{
+  "uuid": "00000000-0000-0000-0009-01fbdf880cee",
+  "name": "*Snivyburger",
+  "totalVotes": 0,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 6,
+    "day": 22
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 6,
+    "day": 22
+  }
+}

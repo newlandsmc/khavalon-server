@@ -4,10 +4,6 @@ rconHost='localhost'
 rconPort='25576'
 rconPass='JrvX3gKwNaVEgbcm2fQxnV9FCdzDnrTQ'
 
-/var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'broadcast &cKhavalon maintenance in 5 minutes.'
-
-sleep 240
-
 /var/minecraft/mcrcon/mcrcon -H $rconHost -P $rconPort -p $rconPass 'broadcast &cKhavalon maintenance in 1 minute.'
 
 sleep 30
@@ -36,4 +32,4 @@ sleep 1
 
 sleep 1
 
-sudo systemctl stop minecraft
+sudo systemctl stop khavalon

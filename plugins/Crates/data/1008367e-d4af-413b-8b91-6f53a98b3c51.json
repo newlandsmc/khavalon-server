@@ -1,0 +1,45 @@
+{
+  "uuid": "1008367e-d4af-413b-8b91-6f53a98b3c51",
+  "name": "Banana_Lord23",
+  "totalVotes": 22,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1657554053699,
+  "expeditions": [
+    "VOTE",
+    "VOTE"
+  ],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 28
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 29
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 30
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 11
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 7,
+    "day": 15
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 8,
+    "day": 1
+  }
+}

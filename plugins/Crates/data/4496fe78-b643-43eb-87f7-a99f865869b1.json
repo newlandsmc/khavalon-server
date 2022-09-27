@@ -1,0 +1,37 @@
+{
+  "uuid": "4496fe78-b643-43eb-87f7-a99f865869b1",
+  "name": "excographicguy",
+  "totalVotes": 21,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1659210333741,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 26
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 29
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 30
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 8,
+    "day": 20
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 9,
+    "day": 3
+  }
+}

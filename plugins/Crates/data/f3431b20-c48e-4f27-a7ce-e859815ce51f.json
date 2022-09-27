@@ -1,0 +1,40 @@
+{
+  "uuid": "f3431b20-c48e-4f27-a7ce-e859815ce51f",
+  "name": "neilthenail",
+  "totalVotes": 6,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1657325419994,
+  "expeditions": [],
+  "unclaimedRewards": [
+    {
+      "key": "DAILY",
+      "value": [
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgUeRgYMpMYRDLzcxLTS5KTCuxSs/JL49PSi0qykwtZmRgdc4vzSthZwAAncmHTDwAAAA\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgUeRgYMpMYRDPzcxLTS5KTCuxKi5PTS2JT0otKspMLWZkYHXOL80r4WIAAB08vx49AAAA",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgUeRgYMpMYRDLzcxLTS5KTCuxSs/JL4/PzMuOL05MZmRgdc4vzSthZQAAUyvG+jwAAAA\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgUeRgYMpMYRDOzcxLTS5KTCuxSi/NK8gvT0ktYmRgdc4vzSthZgAAE4zp5TkAAAA\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgUeRgYMpMYRDJzcxLTS5KTCuxKs/ILEmNL8/Pz2FkYHXOL80rYWUAACz8SVY6AAAA",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgUeRgYMpMYZDLzcxLTS5KTCuxKinKL8hMTsyJT8sszohPKk3OTi1hZGB1zi/NA9IAGyILfkQAAAA\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgUeRgYMpMYRDJzcxLTS5KTCuxKs7JzE2NT0rMyWFkYHXOL80rYWYAAPAsGL46AAAA"
+      ]
+    }
+  ],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 9
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 7,
+    "day": 14
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 7,
+    "day": 15
+  }
+}

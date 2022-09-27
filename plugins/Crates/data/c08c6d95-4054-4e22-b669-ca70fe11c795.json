@@ -1,0 +1,24 @@
+{
+  "uuid": "c08c6d95-4054-4e22-b669-ca70fe11c795",
+  "name": "ItsggdudeYT",
+  "totalVotes": 5,
+  "offlineEarned": 0,
+  "votesToday": 5,
+  "expeditions": [
+    "VOTE",
+    "VOTE"
+  ],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 5,
+      "day": 30
+    }
+  ],
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 5,
+    "day": 30
+  }
+}

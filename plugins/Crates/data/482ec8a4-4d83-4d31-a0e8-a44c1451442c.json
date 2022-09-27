@@ -1,0 +1,64 @@
+{
+  "uuid": "482ec8a4-4d83-4d31-a0e8-a44c1451442c",
+  "name": "CheesyCrumb",
+  "totalVotes": 12,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1658874537972,
+  "expeditions": [
+    "VOTE",
+    "VOTE",
+    "VOTE",
+    "VOTE",
+    "VOTE",
+    "VOTE"
+  ],
+  "unclaimedRewards": [
+    {
+      "key": "DAILY",
+      "value": [
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYeDLzcxLTS5KTCuxSkpNTWNkYHXOL80rYWYAAEANRHs0AAAA",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYeDNzcxLTS5KTCuxSs5PYWRgdc4vzSthYwAAFWqRVzMAAAA\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYeDNzcxLTS5KTCuxSk1PZ2Rgdc4vzSthYQAAtcesWjMAAAA\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYRDNzcxLTS5KTCuxKs/ILEmNLynNySxgZGB1zi/NK+FiAABvHeu0OwAAAA\u003d\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYRDOzcxLTS5KTCuxysjPS61Mzs9NYmRgdc4vzSthYgAAfe9MqzkAAAA\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYRDLzcxLTS5KTCuxyi9KzEtPjS8pzcksYGRgdc4vzSvhYAAABr5Q4jwAAAA\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYRDLzcxLTS5KTCuxysjPS62MT8ovKclJZWRgdc4vzSthYgAAYpCmIjwAAAA\u003d"
+      ]
+    },
+    {
+      "key": "SUPER_VOTE",
+      "value": [
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYRDLzcxLTS5KTCuxykksyCyOz0msKs3JZGRgdc4vzStRZwAAgxqvnzwAAAA\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYRDKzcxLTS5KTCuxKkpNKS7Jz0tlZGB1zi/NKxFmAAD1mw0rOAAAAA\u003d\u003d",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYRDMzcxLTS5KTCuxSs1NLUrMSWFkYHXOL80r4WQAALzLvJo3AAAA",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYRDJzcxLTS5KTCuxSs9ILC6JL0lNLGJkYHXOL80rYWEAAKFqrbs6AAAA",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYRDMzcxLTS5KTCuxSslMzM3PS2FkYHXOL80rYWMAAGEvNOI3AAAA",
+        "H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2DgMeBgYMpMYeDLzcxLTS5KTCuxSsrPz2ZkYHXOL80rUWAAAGG5Ed40AAAA",
+        "H4sIAAAAAAAA/xXBTQqAIBAG0M+kCGvfNVq3zTO4jaEmE/wBG+8fvWcAjcmSkOP6hpKBeR3RhQtLCpnPSrds0qpEPh6OicVAC3mNwVIiz/gp9HtpWRQ+b/WleFEAAAA\u003d"
+      ]
+    }
+  ],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 17
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "day": 26
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 7,
+    "day": 17
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 9,
+    "day": 19
+  }
+}

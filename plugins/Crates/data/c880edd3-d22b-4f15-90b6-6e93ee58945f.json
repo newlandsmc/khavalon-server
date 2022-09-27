@@ -1,0 +1,20 @@
+{
+  "uuid": "c880edd3-d22b-4f15-90b6-6e93ee58945f",
+  "name": "Ultronous",
+  "totalVotes": 0,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 6,
+    "day": 29
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 7,
+    "day": 29
+  }
+}

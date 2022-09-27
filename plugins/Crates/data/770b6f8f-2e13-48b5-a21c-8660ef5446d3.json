@@ -1,0 +1,47 @@
+{
+  "uuid": "770b6f8f-2e13-48b5-a21c-8660ef5446d3",
+  "name": "quesoxx",
+  "totalVotes": 30,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1661185195882,
+  "expeditions": [],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 22
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 23
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "day": 27
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "day": 11
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "day": 22
+    }
+  ],
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 8,
+    "day": 22
+  },
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 8,
+    "day": 22
+  }
+}

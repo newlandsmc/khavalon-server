@@ -1,0 +1,24 @@
+{
+  "uuid": "7c874d6a-4c13-4a5c-83c2-201cf66a53f6",
+  "name": "Jerrodenec",
+  "totalVotes": 6,
+  "offlineEarned": 0,
+  "votesToday": 0,
+  "lastSuperVote": 1659884208725,
+  "expeditions": [
+    "SUPER_VOTE"
+  ],
+  "unclaimedRewards": [],
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 8,
+      "day": 7
+    }
+  ],
+  "lastDayUpdated": {
+    "year": 2022,
+    "month": 8,
+    "day": 7
+  }
+}
