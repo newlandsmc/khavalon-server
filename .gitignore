@@ -33,6 +33,7 @@
 /plugins/GriefPreventionTP/claims.json
 /plugins/RespawnHandler/data/
 /plugins/VentureChat/PlayerData/
+/plugins/Crates/data/
 
 # Ignore bloat in plugins
 /plugins/LuckPerms/libs/
