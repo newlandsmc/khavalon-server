@@ -1,0 +1,58 @@
+version: 1
+
+storage:
+   # [ SQL ]
+   method: SQL
+   configuration:
+      sql:
+         # [ MYSQL ]
+         driver: MYSQL
+         hostname: localhost
+         port: 3306
+         username: nickname
+         password: iE0vxIkXVlCe9Ue4
+         database: nickname
+         table-prefix: nickname
+
+show-nickname:
+   enabled: true
+
+extension:
+   placeholder-api:
+      enabled: true
+
+lookup:
+  show-owner: false
+
+command-access:
+  # /nickname (self lookup is no-args)
+  nickname-lookup-self:
+    allow: true
+  # /nickname <player>
+  nickname-lookup-other:
+    allow: true
+  # /nickname set <nickname>
+  nickname-set-self:
+    allow: false
+  # /nickname set <player> <nickname>
+  nickname-set-other:
+    allow: false
+  # /nickname clear
+  nickname-clear-self:
+    allow: false
+  # /nickname clear <player>
+  nickname-clear-other:
+    allow: false
+  # /nickname off
+  nickname-off-self:
+    allow: false
+  # /nickname off <player>
+  nickname-off-other:
+    allow: false
+  # /nickname on
+  nickname-on-self:
+    allow: false
+  # /nickname on <player>
+  nickname-on-other:
+    allow: false
+

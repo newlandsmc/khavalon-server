@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cd $(realpath .)
+
+plugin_jar=../Nickname.jar
+
+java -cp $plugin_jar  com.codespunk.minecraft.nickname.runnable.CopyLibraries || exit 1
+
+class_path="
+$(echo .lib/spigot-api.jar):
+$(echo .lib/snakeyaml-*.jar):
+$(echo .lib/mysql-*.jar):
+"$plugin_jar:
+
+class_path=${class_path//:$'\n'/:}
+
+java -cp $class_path  com.codespunk.minecraft.nickname.runnable.ValidateSQL || exit 1

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./validate-config && ./validate-sql

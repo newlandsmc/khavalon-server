@@ -2152,3 +2152,1463 @@ Potion Effects: []
 ---------------------------------------------------------------------------
 
 
+--------------[ jkm27310 was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: -3547.699999988079
+ - Y: 24.0
+ - Z: -8667.333725469884
+
+Information:
+ - UUID: 84f3a5bc-1764-479c-83b4-d3359fa8bfa6
+ - Keep Alive Ping: 118
+ - Transaction Ping: 121
+ - Server TPS: 20
+ - Sensitivity: 124
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19
+ - Last Damage: 25.85 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 5
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4176
+ - Since Riptide Ticks: 2725
+ - Flying Delay: 51
+ - Since Velocity Ticks: 517
+ - Since Firework Ticks: 2725
+ - Ticks Existed: 4076
+ - Since Vehicle Ticks: 2625
+ - Joined: 350 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+
+Blocks Nearby: [WALL_TORCH, STONE, STONE, AIR, CRAFTING_TABLE, STONE, AIR, AIR, STONE, AIR, STONE, STONE, AIR, STONE, FURNACE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE, STONE, STONE, STONE, AIR, STONE, AIR, AIR, STONE, STONE, AIR, STONE, STONE]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Xbeamer242 was punished for Bad Packets (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: -1659.1929504289442
+ - Y: 59.81559657093484
+ - Z: 9782.699999988079
+
+Information:
+ - UUID: d845fa5d-532f-4e83-9b63-7565c927621d
+ - Keep Alive Ping: 66
+ - Transaction Ping: 272
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 2.9 seconds ago
+
+Total Violations: 3
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 3
+
+Misc Information:
+ - Since Teleport Ticks: 54
+ - Since Riptide Ticks: 511
+ - Flying Delay: 53
+ - Since Velocity Ticks: 58
+ - Since Firework Ticks: 511
+ - Ticks Existed: 330
+ - Since Vehicle Ticks: 411
+ - Joined: 28 seconds ago
+
+All Violations:
+ - Bad Packets (Type A) [VL: 3] (Spoofed abilities packets.)
+
+Blocks Nearby: [WATER, DIRT, DIRT, WATER, WATER, DIRT, WATER, WATER, WATER, WATER, WATER, WATER, WATER, DIRT, DIRT, WATER, WATER, DIRT, WATER, WATER, DIRT, WATER, WATER, WATER, WATER, DIRT, DIRT, WATER, WATER, DIRT, WATER, WATER, DIRT, WATER, WATER, WATER]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8172.300000011921
+ - Y: -29.0
+ - Z: -9808.237500011921
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 93
+ - Transaction Ping: 94
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 4.6 seconds ago
+
+Total Violations: 9
+ - Combat Violations: 7
+ - Movement Violations: 2
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4628
+ - Since Riptide Ticks: 3891
+ - Flying Delay: 48
+ - Since Velocity Ticks: 92
+ - Since Firework Ticks: 3891
+ - Ticks Existed: 4528
+ - Since Vehicle Ticks: 3791
+ - Joined: 357 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 2] (Post UseEntity packets.)
+ - Motion (Type A) [VL: 2] (Repeated vertical motions.)
+
+Blocks Nearby: [COBBLESTONE, COBBLESTONE, MOSSY_COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, MOSSY_COBBLESTONE, COBBLESTONE, MOSSY_COBBLESTONE, CHEST, CAVE_AIR, CHEST, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, COBBLESTONE, COBBLESTONE, MOSSY_COBBLESTONE, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR]
+Entities Nearby: [CraftZombie]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Kill Aura (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 8233.548724853637
+ - Y: -9.0
+ - Z: -9981.900726715528
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 140
+ - Transaction Ping: 96
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 8.75 seconds ago
+
+Total Violations: 6
+ - Combat Violations: 6
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3170
+ - Since Riptide Ticks: 2763
+ - Flying Delay: 41
+ - Since Velocity Ticks: 175
+ - Since Firework Ticks: 2763
+ - Ticks Existed: 3070
+ - Since Vehicle Ticks: 2663
+ - Joined: 221 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 2] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 4] (Post UseEntity packets.)
+
+Blocks Nearby: [MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, DEEPSLATE, CAVE_AIR, COBBLESTONE, DEEPSLATE, CAVE_AIR, COBBLESTONE, DEEPSLATE, CAVE_AIR, COBBLESTONE, DEEPSLATE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, DEEPSLATE, CAVE_AIR, AIR, AIR, CAVE_AIR, AIR, AIR, CAVE_AIR, COBBLESTONE, AIR, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, DEEPSLATE, COBBLESTONE, AIR, AIR, COBBLESTONE, CAVE_AIR, AIR, COBBLESTONE, CAVE_AIR, AIR]
+Entities Nearby: [CraftSkeleton]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8139.214313049622
+ - Y: 69.0
+ - Z: -10024.300000011921
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 95
+ - Transaction Ping: 96
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 0.85 seconds ago
+
+Total Violations: 7
+ - Combat Violations: 7
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1116
+ - Since Riptide Ticks: 1026
+ - Flying Delay: 99
+ - Since Velocity Ticks: 17
+ - Since Firework Ticks: 1026
+ - Ticks Existed: 1363
+ - Since Vehicle Ticks: 926
+ - Joined: 155 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 2] (Post UseEntity packets.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, DIRT, AIR, AIR, CRAFTING_TABLE, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, CHEST, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftZombie]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8132.170188870566
+ - Y: 67.0
+ - Z: -10037.924099811911
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 89
+ - Transaction Ping: 102
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 4.85 seconds ago
+
+Total Violations: 7
+ - Combat Violations: 7
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 879
+ - Since Riptide Ticks: 927
+ - Flying Delay: 55
+ - Since Velocity Ticks: 97
+ - Since Firework Ticks: 927
+ - Ticks Existed: 1049
+ - Since Vehicle Ticks: 827
+ - Joined: 162 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 2] (Post UseEntity packets.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, GRASS, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [ABSORPTION:1584t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Kill Aura (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 7623.300000011921
+ - Y: 61.0
+ - Z: -9620.349870399294
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 118
+ - Transaction Ping: 93
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 0.6 seconds ago
+
+Total Violations: 6
+ - Combat Violations: 6
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3402
+ - Since Riptide Ticks: 2449
+ - Flying Delay: 52
+ - Since Velocity Ticks: 12
+ - Since Firework Ticks: 2449
+ - Ticks Existed: 3302
+ - Since Vehicle Ticks: 2349
+ - Joined: 194 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 2] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 4] (Post UseEntity packets.)
+
+Blocks Nearby: [MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, MOSSY_COBBLESTONE, COBBLESTONE, COBBLESTONE, CAVE_AIR, CAVE_AIR, COBBLESTONE, CAVE_AIR, CAVE_AIR, COBBLESTONE, CAVE_AIR, CAVE_AIR, COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, CAVE_AIR, CHEST, COBBLESTONE, CAVE_AIR, CAVE_AIR, COBBLESTONE, CAVE_AIR, CAVE_AIR, COBBLESTONE]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Kill Aura (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 7556.3233774281325
+ - Y: 46.0
+ - Z: -9688.699999988079
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 465
+ - Transaction Ping: 104
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 35.5 seconds ago
+
+Total Violations: 12
+ - Combat Violations: 7
+ - Movement Violations: 5
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 708
+ - Since Riptide Ticks: 1521
+ - Flying Delay: 57
+ - Since Velocity Ticks: 710
+ - Since Firework Ticks: 1521
+ - Ticks Existed: 1953
+ - Since Vehicle Ticks: 1421
+ - Joined: 127 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 3] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 4] (Post UseEntity packets.)
+ - Motion (Type A) [VL: 5] (Repeated vertical motions.)
+
+Blocks Nearby: [MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, SPAWNER, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR]
+Entities Nearby: [CraftItem]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Kill Aura (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 7552.336788824147
+ - Y: 46.0
+ - Z: -9698.065450494974
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 23
+ - Transaction Ping: 96
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 0.45 seconds ago
+
+Total Violations: 6
+ - Combat Violations: 6
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 442
+ - Since Riptide Ticks: 508
+ - Flying Delay: 44
+ - Since Velocity Ticks: 9
+ - Since Firework Ticks: 508
+ - Ticks Existed: 342
+ - Since Vehicle Ticks: 408
+ - Joined: 23 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 2] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 4] (Post UseEntity packets.)
+
+Blocks Nearby: [MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, CHEST, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Kill Aura (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 7558.992693236948
+ - Y: 46.0
+ - Z: -9692.655655831608
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 24
+ - Transaction Ping: 99
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 7.0 seconds ago
+
+Total Violations: 4
+ - Combat Violations: 4
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 459
+ - Since Riptide Ticks: 514
+ - Flying Delay: 37
+ - Since Velocity Ticks: 140
+ - Since Firework Ticks: 514
+ - Ticks Existed: 359
+ - Since Vehicle Ticks: 414
+ - Joined: 22 seconds ago
+
+All Violations:
+ - Kill Aura (Type A) [VL: 4] (Post UseEntity packets.)
+
+Blocks Nearby: [COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, COBBLESTONE, CAVE_AIR, CAVE_AIR, COBBLESTONE, CAVE_AIR, CAVE_AIR, COBBLESTONE, CAVE_AIR, CAVE_AIR, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR]
+Entities Nearby: [CraftItem, CraftItem, CraftItem]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8458.779123082411
+ - Y: 73.0
+ - Z: -10406.897893543384
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 266
+ - Transaction Ping: 95
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 2.75 seconds ago
+
+Total Violations: 10
+ - Combat Violations: 7
+ - Movement Violations: 3
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3170
+ - Since Riptide Ticks: 7494
+ - Flying Delay: 47
+ - Since Velocity Ticks: 55
+ - Since Firework Ticks: 7494
+ - Ticks Existed: 10362
+ - Since Vehicle Ticks: 7394
+ - Joined: 734 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 2] (Post UseEntity packets.)
+ - Jesus (Type B) [VL: 1] (Invalid Y-change in water.)
+ - Motion (Type A) [VL: 2] (Repeated vertical motions.)
+
+Blocks Nearby: [DIRT, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, FERN, AIR, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, FERN, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftZombie]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Kill Aura (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 8462.523266925384
+ - Y: 72.6037636546968
+ - Z: -10404.417414935007
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 0
+ - Transaction Ping: 105
+ - Server TPS: 20
+ - Sensitivity: 436
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 0.2 seconds ago
+
+Total Violations: 6
+ - Combat Violations: 6
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 183
+ - Since Riptide Ticks: 248
+ - Flying Delay: 47
+ - Since Velocity Ticks: 4
+ - Since Firework Ticks: 248
+ - Ticks Existed: 83
+ - Since Vehicle Ticks: 148
+ - Joined: 6 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 2] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 4] (Post UseEntity packets.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, FERN, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8463.08181141441
+ - Y: 60.0
+ - Z: -10403.860328196602
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 52
+ - Transaction Ping: 102
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 5.0 seconds ago
+
+Total Violations: 8
+ - Combat Violations: 8
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 643
+ - Since Riptide Ticks: 522
+ - Flying Delay: 47
+ - Since Velocity Ticks: 100
+ - Since Firework Ticks: 522
+ - Ticks Existed: 543
+ - Since Vehicle Ticks: 422
+ - Joined: 40 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 3] (Post UseEntity packets.)
+
+Blocks Nearby: [CAVE_AIR, AIR, AIR, CAVE_AIR, CAVE_AIR, AIR, CAVE_AIR, CAVE_AIR, STONE, CAVE_AIR, CAVE_AIR, STONE, CAVE_AIR, COBBLESTONE, GRASS_BLOCK, CAVE_AIR, AIR, AIR, CAVE_AIR, CAVE_AIR, STONE, CAVE_AIR, CAVE_AIR, STONE, CAVE_AIR, COBBLESTONE, STONE, CAVE_AIR, COBBLESTONE, STONE, CAVE_AIR, COBBLESTONE, STONE, CAVE_AIR, COBBLESTONE, STONE]
+Entities Nearby: [CraftItem, CraftItem]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8463.363387961132
+ - Y: 59.231523797587016
+ - Z: -10405.034039005946
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 0
+ - Transaction Ping: 2297
+ - Server TPS: 20
+ - Sensitivity: 0
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 7.2 seconds ago
+
+Total Violations: 6
+ - Combat Violations: 6
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 144
+ - Since Riptide Ticks: 211
+ - Flying Delay: 48
+ - Since Velocity Ticks: 144
+ - Since Firework Ticks: 211
+ - Ticks Existed: 44
+ - Since Vehicle Ticks: 111
+ - Joined: 3 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 1] (Post UseEntity packets.)
+
+Blocks Nearby: [MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, COBBLESTONE, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Kill Aura (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 9779.7732477741
+ - Y: 56.73361948396951
+ - Z: -2826.4668206249953
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 607
+ - Transaction Ping: 103
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 0.15 seconds ago
+
+Total Violations: 10
+ - Combat Violations: 4
+ - Movement Violations: 6
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 6350
+ - Since Riptide Ticks: 7498
+ - Flying Delay: 55
+ - Since Velocity Ticks: 3
+ - Since Firework Ticks: 7498
+ - Ticks Existed: 12044
+ - Since Vehicle Ticks: 7398
+ - Joined: 968 seconds ago
+
+All Violations:
+ - Kill Aura (Type A) [VL: 4] (Post UseEntity packets.)
+ - Motion (Type A) [VL: 6] (Repeated vertical motions.)
+
+Blocks Nearby: [WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER]
+Entities Nearby: [CraftDrowned]
+Potion Effects: [REGENERATION:130t-x1, ABSORPTION:2130t-x3, FIRE_RESISTANCE:5730t-x0, DAMAGE_RESISTANCE:5730t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 8353.977614165035
+ - Y: 152.00067872483305
+ - Z: -8345.203718772253
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 5405
+ - Transaction Ping: 109
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 5.9 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 117
+ - Since Riptide Ticks: 3299
+ - Flying Delay: 3
+ - Since Velocity Ticks: 118
+ - Since Firework Ticks: 3299
+ - Ticks Existed: 4913
+ - Since Vehicle Ticks: 3199
+ - Joined: 182 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [FIRE_RESISTANCE:2070t-x0, DAMAGE_RESISTANCE:2070t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8129.494749458346
+ - Y: 68.16610926093821
+ - Z: -10040.20091435707
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 130
+ - Transaction Ping: 116
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 0.9 seconds ago
+
+Total Violations: 8
+ - Combat Violations: 8
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3451
+ - Since Riptide Ticks: 2449
+ - Flying Delay: 45
+ - Since Velocity Ticks: 18
+ - Since Firework Ticks: 2449
+ - Ticks Existed: 3351
+ - Since Vehicle Ticks: 2349
+ - Joined: 249 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 3] (Post UseEntity packets.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftSkeleton]
+Potion Effects: [ABSORPTION:2230t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8276.300000011921
+ - Y: 30.0
+ - Z: -9705.680031351261
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 105
+ - Transaction Ping: 98
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 2.35 seconds ago
+
+Total Violations: 10
+ - Combat Violations: 6
+ - Movement Violations: 4
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 2942
+ - Since Riptide Ticks: 2072
+ - Flying Delay: 49
+ - Since Velocity Ticks: 47
+ - Since Firework Ticks: 2072
+ - Ticks Existed: 2842
+ - Since Vehicle Ticks: 1972
+ - Joined: 193 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 1] (Post UseEntity packets.)
+ - Motion (Type A) [VL: 4] (Repeated vertical motions.)
+
+Blocks Nearby: [MOSSY_COBBLESTONE, COBBLESTONE, MOSSY_COBBLESTONE, COBBLESTONE, OAK_PLANKS, CAVE_AIR, COBBLESTONE, OAK_SLAB, CAVE_AIR, COBBLESTONE, CAVE_AIR, CAVE_AIR, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, COBBLESTONE, CAVE_AIR, CHEST, COBBLESTONE, CAVE_AIR, OAK_SLAB, COBBLESTONE, OAK_PLANKS, OAK_SLAB, MOSSY_COBBLESTONE, MOSSY_COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE, COBBLESTONE]
+Entities Nearby: [CraftItem, CraftItem, CraftExperienceOrb, CraftSpider, CraftSpider]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Bad Packets (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 8234.254809377439
+ - Y: 65.0
+ - Z: -10094.489521901744
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 136
+ - Transaction Ping: 108
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 214.6 seconds ago
+
+Total Violations: 6
+ - Combat Violations: 1
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 1304
+ - Since Riptide Ticks: 3904
+ - Flying Delay: 66
+ - Since Velocity Ticks: 4292
+ - Since Firework Ticks: 3904
+ - Ticks Existed: 4763
+ - Since Vehicle Ticks: 3804
+ - Joined: 502 seconds ago
+
+All Violations:
+ - Kill Aura (Type A) [VL: 1] (Post UseEntity packets.)
+ - Baritone (Type A) [VL: 4] (Checks for Baritone like rotations.)
+ - Bad Packets (Type C) [VL: 1] (Impossible pitch.)
+
+Blocks Nearby: [DIRT, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, DIRT, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftItem]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8125.609548482841
+ - Y: 64.7531999805212
+ - Z: -10061.58270428908
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 122
+ - Transaction Ping: 96
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 0.6 seconds ago
+
+Total Violations: 10
+ - Combat Violations: 7
+ - Movement Violations: 3
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4981
+ - Since Riptide Ticks: 4144
+ - Flying Delay: 20
+ - Since Velocity Ticks: 12
+ - Since Firework Ticks: 4144
+ - Ticks Existed: 4881
+ - Since Vehicle Ticks: 4044
+ - Joined: 309 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 2] (Post UseEntity packets.)
+ - Jesus (Type C) [VL: 1] (Invalid Y-Change in water.)
+ - Motion (Type A) [VL: 2] (Repeated vertical motions.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftTippedArrow]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8134.383928263673
+ - Y: 67.24918707874468
+ - Z: -10058.258233383158
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 42
+ - Transaction Ping: 92
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 1.45 seconds ago
+
+Total Violations: 6
+ - Combat Violations: 6
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 710
+ - Since Riptide Ticks: 804
+ - Flying Delay: 47
+ - Since Velocity Ticks: 29
+ - Since Firework Ticks: 804
+ - Ticks Existed: 610
+ - Since Vehicle Ticks: 704
+ - Joined: 33 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 1] (Post UseEntity packets.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftPhantom, CraftItem]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Kill Aura (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 8162.699999988079
+ - Y: 64.0
+ - Z: -10153.772498632883
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 94
+ - Transaction Ping: 99
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 58.5 seconds ago
+
+Total Violations: 10
+ - Combat Violations: 7
+ - Movement Violations: 3
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4615
+ - Since Riptide Ticks: 3830
+ - Flying Delay: 53
+ - Since Velocity Ticks: 1170
+ - Since Firework Ticks: 3830
+ - Ticks Existed: 4515
+ - Since Vehicle Ticks: 3730
+ - Joined: 551 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 3] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 4] (Post UseEntity packets.)
+ - Motion (Type A) [VL: 3] (Repeated vertical motions.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DIRT, GRASS_BLOCK, GRASS_BLOCK, OAK_LOG, AIR, AIR, OAK_LOG, AIR, AIR, OAK_LOG, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [ABSORPTION:872t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Bad Packets (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 8344.527164763342
+ - Y: 42.92159999847412
+ - Z: -10044.340315671792
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 106
+ - Transaction Ping: 95
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 33.0 seconds ago
+
+Total Violations: 7
+ - Combat Violations: 5
+ - Movement Violations: 0
+ - Player Violations: 2
+
+Misc Information:
+ - Since Teleport Ticks: 4532
+ - Since Riptide Ticks: 3316
+ - Flying Delay: 54
+ - Since Velocity Ticks: 660
+ - Since Firework Ticks: 3316
+ - Ticks Existed: 4432
+ - Since Vehicle Ticks: 3216
+ - Joined: 407 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 4] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 1] (Post UseEntity packets.)
+ - Baritone (Type A) [VL: 1] (Checks for Baritone like rotations.)
+ - Bad Packets (Type C) [VL: 1] (Impossible pitch.)
+
+Blocks Nearby: [DIORITE, DIORITE, DIORITE, DIORITE, ANDESITE, ANDESITE, DIORITE, ANDESITE, ANDESITE, STONE, ANDESITE, ANDESITE, STONE, STONE, DIORITE, AIR, AIR, ANDESITE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftItem]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: 8300.953658069375
+ - Y: 9.0
+ - Z: -10079.009412881842
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 74
+ - Transaction Ping: 89
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 72.05 seconds ago
+
+Total Violations: 6
+ - Combat Violations: 6
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1441
+ - Since Riptide Ticks: 1359
+ - Flying Delay: 48
+ - Since Velocity Ticks: 1441
+ - Since Firework Ticks: 1359
+ - Ticks Existed: 1341
+ - Since Vehicle Ticks: 1259
+ - Joined: 91 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 1] (Post UseEntity packets.)
+
+Blocks Nearby: [LAPIS_ORE, LAPIS_ORE, DIORITE, DIORITE, DIORITE, DIORITE, CAVE_AIR, RAIL, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, LAPIS_ORE, AIR, AIR, DIORITE, AIR, AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, DIORITE, DIORITE, DIORITE, DIORITE, AIR, AIR, RAIL, AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR]
+Entities Nearby: [CraftMinecartChest{inventory=org.bukkit.craftbukkit.v1_19_R1.inventory.CraftInventory@22f08}, CraftItem, CraftZombie]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Invalid (Type E) ]--------------
+
+Location:
+ - World: world
+ - X: 8268.699999988079
+ - Y: 5.0
+ - Z: -9683.699999988079
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 94
+ - Transaction Ping: 95
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 70.25 seconds ago
+
+Total Violations: 24
+ - Combat Violations: 2
+ - Movement Violations: 14
+ - Player Violations: 8
+
+Misc Information:
+ - Since Teleport Ticks: 299
+ - Since Riptide Ticks: 10604
+ - Flying Delay: 43
+ - Since Velocity Ticks: 1405
+ - Since Firework Ticks: 10604
+ - Ticks Existed: 12031
+ - Since Vehicle Ticks: 10504
+ - Joined: 712 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 2] (Generic rotation analysis heuristic.)
+ - Motion (Type A) [VL: 1] (Repeated vertical motions.)
+ - Speed (Type C) [VL: 11] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 2] (Moving incorrectly in the air.)
+ - Invalid (Type E) [VL: 8] (Too large X/Z-Axis movement.)
+
+Blocks Nearby: [DIRT, DIRT, DIRT, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DEEPSLATE, DIRT, DEEPSLATE, DEEPSLATE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE, STONE, DEEPSLATE, STONE, STONE, STONE, STONE, STONE, STONE, STONE, STONE, DEEPSLATE]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 1004.6695381315407
+ - Y: 60.0
+ - Z: -1074.7004780310365
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 92
+ - Transaction Ping: 95
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 1.15 seconds ago
+
+Total Violations: 23
+ - Combat Violations: 3
+ - Movement Violations: 20
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1200
+ - Since Riptide Ticks: 10355
+ - Flying Delay: 46
+ - Since Velocity Ticks: 23
+ - Since Firework Ticks: 10355
+ - Ticks Existed: 15215
+ - Since Vehicle Ticks: 10255
+ - Joined: 1046 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 1] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 2] (Post UseEntity packets.)
+ - Speed (Type A) [VL: 2] (Invalid friction.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 3] (Moving incorrectly in the air.)
+
+Blocks Nearby: [NETHER_BRICKS, NETHER_BRICKS, NETHER_BRICKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHER_BRICKS, NETHER_BRICKS, NETHER_BRICKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHER_BRICKS, NETHER_BRICKS, NETHER_BRICKS, NETHER_BRICKS, NETHER_BRICKS, NETHER_BRICKS, NETHERRACK, BASALT, BASALT, NETHERRACK, BASALT, BASALT]
+Entities Nearby: []
+Potion Effects: [WITHER:90t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 7269.051790017224
+ - Y: 159.0887482382986
+ - Z: -2476.1935566102748
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 125
+ - Transaction Ping: 100
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 2.3 seconds ago
+
+Total Violations: 29
+ - Combat Violations: 0
+ - Movement Violations: 29
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 474
+ - Since Riptide Ticks: 10243
+ - Flying Delay: 59
+ - Since Velocity Ticks: 46
+ - Since Firework Ticks: 10243
+ - Ticks Existed: 15501
+ - Since Vehicle Ticks: 10143
+ - Joined: 733 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 10] (Repeated vertical motions.)
+ - Motion (Type G) [VL: 4] (Took additional velocity.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [FIRE_RESISTANCE:678t-x0, DAMAGE_RESISTANCE:678t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Invalid (Type E) ]--------------
+
+Location:
+ - World: world
+ - X: 8119.26228754885
+ - Y: 70.0
+ - Z: -9951.966280963654
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 95
+ - Transaction Ping: 415
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 7.5 seconds ago
+
+Total Violations: 0
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 174
+ - Since Riptide Ticks: 10346
+ - Flying Delay: 56
+ - Since Velocity Ticks: 150
+ - Since Firework Ticks: 10346
+ - Ticks Existed: 18686
+ - Since Vehicle Ticks: 10246
+ - Joined: 883 seconds ago
+
+All Violations:
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Invalid (Type E) ]--------------
+
+Location:
+ - World: world
+ - X: 1270.2629167629789
+ - Y: -59.0
+ - Z: -1447.762499988079
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 99
+ - Transaction Ping: 97
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 1192.8 seconds ago
+
+Total Violations: 23
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 8
+
+Misc Information:
+ - Since Teleport Ticks: 3148
+ - Since Riptide Ticks: 11542
+ - Flying Delay: 51
+ - Since Velocity Ticks: 23856
+ - Since Firework Ticks: 11542
+ - Ticks Existed: 23756
+ - Since Vehicle Ticks: 2443
+ - Joined: 1296 seconds ago
+
+All Violations:
+ - Speed (Type A) [VL: 1] (Invalid friction.)
+ - Speed (Type C) [VL: 9] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 5] (Moving incorrectly in the air.)
+ - Invalid (Type E) [VL: 8] (Too large X/Z-Axis movement.)
+
+Blocks Nearby: [BEDROCK, DEEPSLATE, DEEPSLATE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, BEDROCK, DEEPSLATE, DEEPSLATE, CHEST, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DEEPSLATE, DEEPSLATE, BEDROCK, DEEPSLATE, DEEPSLATE, DEEPSLATE, DEEPSLATE, DEEPSLATE, DEEPSLATE, DEEPSLATE, DEEPSLATE, DEEPSLATE]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Dd1s was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 8240.659217443283
+ - Y: 97.89047690471492
+ - Z: -10062.566917986394
+
+Information:
+ - UUID: 3f4ddb09-6818-40e3-9d09-92314e9fc2cb
+ - Keep Alive Ping: 105
+ - Transaction Ping: 146
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 1.1 seconds ago
+
+Total Violations: 35
+ - Combat Violations: 0
+ - Movement Violations: 29
+ - Player Violations: 6
+
+Misc Information:
+ - Since Teleport Ticks: 3782
+ - Since Riptide Ticks: 10759
+ - Flying Delay: 0
+ - Since Velocity Ticks: 22
+ - Since Firework Ticks: 10759
+ - Ticks Existed: 11971
+ - Since Vehicle Ticks: 10659
+ - Joined: 819 seconds ago
+
+All Violations:
+ - Flight (Type B) [VL: 2] (Invalid Y-Axis movement.)
+ - Motion (Type A) [VL: 1] (Repeated vertical motions.)
+ - Motion (Type E) [VL: 1] (Impossible movement values.)
+ - Speed (Type A) [VL: 2] (Invalid friction.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 8] (Moving incorrectly in the air.)
+ - Ground Spoof (Type C) [VL: 1] (Spoofed OnGround value.)
+ - Invalid (Type C) [VL: 1] (Too large Y-Axis movement.)
+ - Invalid (Type E) [VL: 4] (Too large X/Z-Axis movement.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Craftingmaxilla was punished for Bad Packets (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 644.447826682094
+ - Y: 87.14521899968807
+ - Z: -423.78351925088265
+
+Information:
+ - UUID: 76cbc2ee-faa1-48ae-a497-7e858c07d83f
+ - Keep Alive Ping: 78
+ - Transaction Ping: 116
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 38.9 seconds ago
+
+Total Violations: 3
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 3
+
+Misc Information:
+ - Since Teleport Ticks: 206
+ - Since Riptide Ticks: 953
+ - Flying Delay: 10
+ - Since Velocity Ticks: 778
+ - Since Firework Ticks: 953
+ - Ticks Existed: 1031
+ - Since Vehicle Ticks: 853
+ - Joined: 67 seconds ago
+
+All Violations:
+ - Bad Packets (Type A) [VL: 3] (Spoofed abilities packets.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Craftingmaxilla was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 4329.287824980927
+ - Y: 130.89434084809704
+ - Z: -2677.8148287080894
+
+Information:
+ - UUID: 76cbc2ee-faa1-48ae-a497-7e858c07d83f
+ - Keep Alive Ping: 113
+ - Transaction Ping: 327
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 108.15 seconds ago
+
+Total Violations: 17
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 2
+
+Misc Information:
+ - Since Teleport Ticks: 2149
+ - Since Riptide Ticks: 2392
+ - Flying Delay: 49
+ - Since Velocity Ticks: 2163
+ - Since Firework Ticks: 2392
+ - Ticks Existed: 2330
+ - Since Vehicle Ticks: 2292
+ - Joined: 124 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+ - Bad Packets (Type A) [VL: 2] (Spoofed abilities packets.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+

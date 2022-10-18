@@ -84,7 +84,7 @@ items:
     commands:
       - 'info website'
 links:
-  store: 'https://svmc.tebex.io/'
+  store: 'https://svmc.tebex.io'
   map: 'https://semivanilla.com/features/map'
   vote: 'https://semivanilla.com/vote'
   website: 'https://semivanilla.com'

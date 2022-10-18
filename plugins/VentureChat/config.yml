@@ -254,7 +254,7 @@ channels:
     permissions: None
     speak_permissions: None
     channel_prefix: '&6■'
-    format: '{venturechat_channel_prefix} {luckperms_prefix}&7{player_displayname}&f:'
+    format: '{venturechat_channel_prefix} {luckperms_prefix}&7{nickname}&f:'
   Staff:
     color: yellow
     chatcolor: yellow
@@ -269,7 +269,7 @@ channels:
     permissions: staffchannel
     speak_permissions: None
     channel_prefix: '&e[Staff]'
-    format: '{venturechat_channel_prefix} {player_displayname}&e:'
+    format: '{venturechat_channel_prefix} {nickname}&e:'
   Local:
     color: gold
     chatcolor: gold
@@ -284,4 +284,4 @@ channels:
     permissions: None
     speak_permissions: None
     channel_prefix: '&6[Local]'
-    format: '{venturechat_channel_prefix} {player_displayname}&6:'
+    format: '{venturechat_channel_prefix} {nickname}&6:'
