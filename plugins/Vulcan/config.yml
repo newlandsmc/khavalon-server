@@ -579,7 +579,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -604,7 +604,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -629,7 +629,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -654,7 +654,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 8
@@ -679,7 +679,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -704,7 +704,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 12
@@ -729,7 +729,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -754,7 +754,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -779,7 +779,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -804,7 +804,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -829,7 +829,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 10
@@ -853,7 +853,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -878,7 +878,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -903,7 +903,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -928,7 +928,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -953,7 +953,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -978,7 +978,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 20
@@ -1003,7 +1003,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 20
@@ -1028,7 +1028,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         hotbar-shuffle:
           enabled: false
@@ -1049,7 +1049,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 20
@@ -1074,7 +1074,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 12
@@ -1099,7 +1099,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         hotbar-shuffle:
           enabled: false
@@ -1121,7 +1121,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         hotbar-shuffle:
           enabled: false
@@ -1142,7 +1142,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         hotbar-shuffle:
           enabled: false
@@ -1163,7 +1163,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -1188,7 +1188,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         hotbar-shuffle:
           enabled: false
@@ -1212,7 +1212,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         max-cps: 25
       b:
@@ -1226,7 +1226,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1243,7 +1243,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1260,7 +1260,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1277,7 +1277,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1294,7 +1294,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1311,7 +1311,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1328,7 +1328,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1345,7 +1345,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1362,7 +1362,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1379,7 +1379,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1396,7 +1396,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1413,7 +1413,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1430,7 +1430,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 25
@@ -1447,7 +1447,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1464,7 +1464,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -1480,7 +1480,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 35
@@ -1497,7 +1497,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 50
@@ -1514,7 +1514,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 30
@@ -1531,7 +1531,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 25
@@ -1550,7 +1550,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1568,7 +1568,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -1587,7 +1587,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1613,7 +1613,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -1638,7 +1638,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -1664,7 +1664,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1689,7 +1689,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1714,7 +1714,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -1739,7 +1739,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       #        - 'warn -s %player% Hacked client detected.'
       f:
         enabled: true
@@ -1752,7 +1752,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 10
@@ -1769,7 +1769,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1786,7 +1786,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       #        - 'warn -s %player% Hacked client detected.'
       j:
         enabled: true
@@ -1799,7 +1799,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -1816,7 +1816,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1833,7 +1833,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1859,7 +1859,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1877,7 +1877,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -1896,7 +1896,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1913,7 +1913,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1930,7 +1930,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -1947,7 +1947,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -1966,7 +1966,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -1983,7 +1983,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -2000,7 +2000,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -2017,7 +2017,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -2034,7 +2034,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 7
@@ -2054,7 +2054,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2073,7 +2073,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2092,7 +2092,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -2111,7 +2111,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2130,7 +2130,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -2149,7 +2149,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -2168,7 +2168,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2188,7 +2188,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -2207,7 +2207,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -2226,7 +2226,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       #        - 'warn -s %player% Hacked client detected.'
       b:
         enabled: true
@@ -2240,7 +2240,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -2258,7 +2258,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2276,7 +2276,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2294,7 +2294,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2312,7 +2312,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2331,7 +2331,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2349,7 +2349,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2367,7 +2367,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 8
@@ -2385,7 +2385,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -2403,7 +2403,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2423,7 +2423,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -2442,7 +2442,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 8
@@ -2460,7 +2460,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -2478,7 +2478,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -2496,7 +2496,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2514,7 +2514,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2532,7 +2532,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2550,7 +2550,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2568,7 +2568,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2588,7 +2588,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 5
@@ -2607,7 +2607,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2627,7 +2627,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2647,7 +2647,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2668,7 +2668,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2688,7 +2688,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2708,7 +2708,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2727,7 +2727,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2746,7 +2746,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 10
@@ -2765,7 +2765,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2784,7 +2784,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 10
@@ -2804,7 +2804,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2827,7 +2827,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2846,7 +2846,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2869,7 +2869,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2892,7 +2892,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -2915,7 +2915,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     #        - 'warn -s %player% Hacked client detected.'
     sprint:
       a:
@@ -2929,7 +2929,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 6
@@ -2949,7 +2949,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -2966,7 +2966,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -2985,8 +2985,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-    #        - 'warn -s %player% Hacked client detected.'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     fastplace:
       a:
         enabled: true
@@ -2999,7 +2998,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         max-blocks: 15
       b:
@@ -3013,7 +3012,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -3032,7 +3031,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3051,7 +3050,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -3069,8 +3068,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-      #        - 'warn -s %player% Hacked client detected.'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       b:
         enabled: true
         punishable: true
@@ -3082,7 +3080,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -3099,7 +3097,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3116,7 +3114,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -3133,7 +3131,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -3150,7 +3148,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -3167,7 +3165,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3184,7 +3182,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 8
@@ -3201,8 +3199,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-      #        - 'warn -s %player% Hacked client detected.'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       j:
         enabled: true
         punishable: true
@@ -3214,8 +3211,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
-      #        - 'warn -s %player% Hacked client detected.'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       k:
         enabled: false
         punishable: true
@@ -3227,7 +3223,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -3245,7 +3241,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -3262,12 +3258,24 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
           multiple: 0.5
           decay: 0.25
+      o:
+        enabled: false
+        punishable: false
+        discord-alert-interval: 1
+        broadcast-punishment: false
+        max-violations: 12
+        alert-interval: 1
+        dont-alert-until: 1
+        maximum-ping: 100000
+        minimum-tps: 19.0
+        punishment-commands:
+        - kick %player% &c[Vulcan] Unfair Advantage
     timer:
       a:
         enabled: true
@@ -3280,7 +3288,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.8
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 35
           multiple: 0.425
@@ -3297,7 +3305,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.8
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 3
           multiple: 0.5
@@ -3315,7 +3323,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 20
@@ -3332,7 +3340,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3350,7 +3358,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         cancel: true
     airplace:
@@ -3365,7 +3373,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     badpackets:
       a:
         enabled: true
@@ -3378,7 +3386,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 2
           multiple: 0.5
@@ -3394,7 +3402,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       c:
         enabled: true
         punishable: true
@@ -3406,7 +3414,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       d:
         enabled: true
         punishable: true
@@ -3418,7 +3426,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 3
           multiple: 0.25
@@ -3434,7 +3442,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       f:
         enabled: true
         punishable: true
@@ -3446,7 +3454,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       g:
         enabled: true
         punishable: true
@@ -3458,7 +3466,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       h:
         enabled: true
         punishable: true
@@ -3470,7 +3478,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       i:
         enabled: true
         punishable: true
@@ -3482,7 +3490,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       j:
         enabled: true
         punishable: true
@@ -3494,7 +3502,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       k:
         enabled: true
         punishable: true
@@ -3506,7 +3514,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 3
           multiple: 0.5
@@ -3522,7 +3530,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 5
           multiple: 0.33
@@ -3538,7 +3546,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 20
           multiple: 0.25
@@ -3554,7 +3562,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 3
           multiple: 0.5
@@ -3570,7 +3578,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 3
           multiple: 0.5
@@ -3586,7 +3594,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 3
           multiple: 0.5
@@ -3602,7 +3610,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 6
           multiple: 0.5
@@ -3618,7 +3626,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       t:
         enabled: true
         punishable: true
@@ -3630,7 +3638,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       u:
         enabled: true
         punishable: true
@@ -3642,7 +3650,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       v:
         enabled: true
         punishable: true
@@ -3654,7 +3662,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 8
           multiple: 0.5
@@ -3671,7 +3679,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 8
           multiple: 0.5
@@ -3687,7 +3695,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 6
           multiple: 0.5
@@ -3703,7 +3711,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       z:
         enabled: true
         punishable: true
@@ -3715,7 +3723,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       #        - 'warn -s %player% Hacked client detected.'
       '1':
         enabled: true
@@ -3728,7 +3736,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 12
           multiple: 0.25
@@ -3744,7 +3752,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 12
           multiple: 0.25
@@ -3760,7 +3768,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         buffer:
           max: 4
           multiple: 0.25
@@ -3776,7 +3784,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     inventory:
       a:
         enabled: false
@@ -3789,7 +3797,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3806,7 +3814,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3826,7 +3834,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3845,7 +3853,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -3862,7 +3870,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 8
@@ -3881,7 +3889,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -3900,7 +3908,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -3919,7 +3927,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 2
@@ -3938,7 +3946,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -3957,7 +3965,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 3
@@ -3976,7 +3984,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 1
@@ -3994,7 +4002,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -4011,7 +4019,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -4028,7 +4036,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         buffer:
           max: 4
@@ -4046,7 +4054,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         max-combat-violations: 25
       b:
@@ -4060,7 +4068,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         max-movement-violations: 30
       c:
@@ -4074,7 +4082,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         max-player-violations: 30
       d:
@@ -4088,7 +4096,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         max-autoclicker-violations: 30
       e:
@@ -4102,7 +4110,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         max-total-violations: 50
       f:
@@ -4116,6 +4124,6 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+        - 'kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
         #        - 'warn -s %player% Hacked client detected.'
         max-scaffold-violations: 25
