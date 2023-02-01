@@ -9575,3 +9575,2552 @@ Potion Effects: [SPEED:2147482559t-x2, JUMP:2147482559t-x2]
 ---------------------------------------------------------------------------
 
 
+--------------[ excographicguy was punished for Timer (Type D) ]--------------
+
+Location:
+ - World: world_nether
+ - X: -333.1297707252715
+ - Y: 13.0
+ - Z: 719.2655160086982
+
+Information:
+ - UUID: 4496fe78-b643-43eb-87f7-a99f865869b1
+ - Keep Alive Ping: 33
+ - Transaction Ping: 55
+ - Server TPS: 20
+ - Sensitivity: 100
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 0.1 seconds ago
+
+Total Violations: 0
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 6986
+ - Since Riptide Ticks: 83246
+ - Flying Delay: 48
+ - Since Velocity Ticks: 2
+ - Since Firework Ticks: 47845
+ - Ticks Existed: 101788
+ - Since Vehicle Ticks: 83146
+ - Since Liquid Ticks: 7525
+ - Joined: 9556 seconds ago
+
+All Violations:
+ - Timer (Type D) [VL: 35] (Increased game speed.)
+
+Blocks Nearby: [NETHERRACK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHERRACK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHERRACK, NETHERRACK, NETHERRACK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftPlayer{name=TigerTooth3600}]
+Potion Effects: [JUMP:2147471600t-x2, SLOW:(66t-x2), SPEED:2147471600t-x2]
+---------------------------------------------------------------------------
+
+
+--------------[ mantoloutre was punished for Kill Aura (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 11329.56137842041
+ - Y: 76.17675927506424
+ - Z: -3418.9514593572258
+
+Information:
+ - UUID: b6beb30d-0ca4-423a-a0d2-2d8d4ded9f3c
+ - Keep Alive Ping: 15
+ - Transaction Ping: 19
+ - Server TPS: 20
+ - Sensitivity: 50
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 53.45 seconds ago
+
+Total Violations: 4
+ - Combat Violations: 4
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1069
+ - Since Riptide Ticks: 1070
+ - Flying Delay: 51
+ - Since Velocity Ticks: 1069
+ - Since Firework Ticks: 1070
+ - Ticks Existed: 969
+ - Since Vehicle Ticks: 970
+ - Since Liquid Ticks: 970
+ - Joined: 96 seconds ago
+
+All Violations:
+ - Kill Aura (Type A) [VL: 4] (Post UseEntity packets.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftItem, CraftItem]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Citror was punished for Boat Fly (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: -3117.5330715361297
+ - Y: 62.0
+ - Z: 2027.690182730321
+
+Information:
+ - UUID: b33d2b8b-99c1-4287-94cf-ca974fb719d2
+ - Keep Alive Ping: 100
+ - Transaction Ping: 115
+ - Server TPS: 20
+ - Sensitivity: 61
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Citror}}}
+ - Version: 1.19.3
+ - Last Damage: 30.1 seconds ago
+
+Total Violations: 23
+ - Combat Violations: 0
+ - Movement Violations: 17
+ - Player Violations: 6
+
+Misc Information:
+ - Since Teleport Ticks: 459
+ - Since Riptide Ticks: 12936
+ - Flying Delay: 49
+ - Since Velocity Ticks: 602
+ - Since Firework Ticks: 12936
+ - Ticks Existed: 14476
+ - Since Vehicle Ticks: 0
+ - Since Liquid Ticks: 0
+ - Joined: 910 seconds ago
+
+All Violations:
+ - Boat Fly (Type B) [VL: 2] (Moving too quickly horizontally.)
+ - Boat Fly (Type C) [VL: 15] (Hovering in a boat.)
+ - Ground Spoof (Type A) [VL: 3] (Spoofed onGround value.)
+ - Ground Spoof (Type C) [VL: 3] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=OAK,status=IN_AIR,passengers={CraftPlayer{name=Citror}}}]
+Potion Effects: [FAST_DIGGING:(308t-x0), REGENERATION:(308t-x0)]
+---------------------------------------------------------------------------
+
+
+--------------[ Citror was punished for Boat Fly (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: -3158.3153332245147
+ - Y: 75.63503158203469
+ - Z: 2039.4042375684112
+
+Information:
+ - UUID: b33d2b8b-99c1-4287-94cf-ca974fb719d2
+ - Keep Alive Ping: 0
+ - Transaction Ping: 115
+ - Server TPS: 20
+ - Sensitivity: 61
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 11.6 seconds ago
+
+Total Violations: 28
+ - Combat Violations: 0
+ - Movement Violations: 28
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1
+ - Since Riptide Ticks: 248
+ - Flying Delay: 1
+ - Since Velocity Ticks: 232
+ - Since Firework Ticks: 248
+ - Ticks Existed: 132
+ - Since Vehicle Ticks: 45
+ - Since Liquid Ticks: 148
+ - Joined: 6 seconds ago
+
+All Violations:
+ - Boat Fly (Type A) [VL: 1] (Moving upwards in a boat.)
+ - Boat Fly (Type B) [VL: 12] (Moving too quickly horizontally.)
+ - Boat Fly (Type C) [VL: 15] (Hovering in a boat.)
+
+Blocks Nearby: [STONE_BRICKS, STONE_BRICKS, STONE_BRICKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE_BRICKS, STONE_BRICKS, STONE_BRICKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, STONE_BRICKS, STONE_BRICKS, STONE_BRICKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=OAK,status=ON_LAND,passengers={}}]
+Potion Effects: [FAST_DIGGING:(181t-x0), REGENERATION:(181t-x0)]
+---------------------------------------------------------------------------
+
+
+--------------[ Citror was punished for Jesus (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: -3221.4188313840477
+ - Y: 63.469999986886975
+ - Z: 2034.734865302838
+
+Information:
+ - UUID: b33d2b8b-99c1-4287-94cf-ca974fb719d2
+ - Keep Alive Ping: 100
+ - Transaction Ping: 104
+ - Server TPS: 20
+ - Sensitivity: 61
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 36.95 seconds ago
+
+Total Violations: 26
+ - Combat Violations: 0
+ - Movement Violations: 26
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4292
+ - Since Riptide Ticks: 4786
+ - Flying Delay: 46
+ - Since Velocity Ticks: 739
+ - Since Firework Ticks: 4786
+ - Ticks Existed: 4861
+ - Since Vehicle Ticks: 4092
+ - Since Liquid Ticks: 0
+ - Joined: 300 seconds ago
+
+All Violations:
+ - Jesus (Type A) [VL: 15] (Walking on water.)
+ - Jesus (Type B) [VL: 6] (Invalid Y-change in water.)
+ - Jesus (Type E) [VL: 2] (Moving too quickly on water.)
+ - Motion (Type D) [VL: 3] (Too small Y-axis change.)
+
+Blocks Nearby: [WATER, WATER, WATER, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, WATER, WATER, WATER, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, WATER, WATER, WATER, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Citror was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: -3186.9994825244726
+ - Y: 63.0
+ - Z: 2012.7463819930824
+
+Information:
+ - UUID: b33d2b8b-99c1-4287-94cf-ca974fb719d2
+ - Keep Alive Ping: 100
+ - Transaction Ping: 161
+ - Server TPS: 20
+ - Sensitivity: 61
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 237.55 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 5420
+ - Since Riptide Ticks: 6114
+ - Flying Delay: 1
+ - Since Velocity Ticks: 4751
+ - Since Firework Ticks: 6114
+ - Ticks Existed: 6942
+ - Since Vehicle Ticks: 6014
+ - Since Liquid Ticks: 2380
+ - Joined: 448 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, GRASS, GRASS, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, GRASS, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [INCREASE_DAMAGE:(330t-x1), DAMAGE_RESISTANCE:(330t-x1), FAST_DIGGING:(250t-x1), REGENERATION:(330t-x0), SPEED:(250t-x1), JUMP:(250t-x1)]
+---------------------------------------------------------------------------
+
+
+--------------[ XCcbomb was punished for Criticals (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: -709.1214632440261
+ - Y: 64.0
+ - Z: -9480.204948203598
+
+Information:
+ - UUID: 70c7da0b-a9f4-4682-9ad4-02b34d7d88e3
+ - Keep Alive Ping: 97
+ - Transaction Ping: 121
+ - Server TPS: 20
+ - Sensitivity: 125
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 2.9 seconds ago
+
+Total Violations: 10
+ - Combat Violations: 10
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1018
+ - Since Riptide Ticks: 1682
+ - Flying Delay: 0
+ - Since Velocity Ticks: 58
+ - Since Firework Ticks: 1682
+ - Ticks Existed: 1746
+ - Since Vehicle Ticks: 1582
+ - Since Liquid Ticks: 1247
+ - Joined: 157 seconds ago
+
+All Violations:
+ - Criticals (Type A) [VL: 10] (Tried to hit Critical hit on ground.)
+
+Blocks Nearby: [DIRT, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, CORNFLOWER, AIR, AIR, AIR, AIR, AIR, DIRT, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DIRT, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ XCcbomb was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 8703.568860551202
+ - Y: -16.883310955813972
+ - Z: 2985.557744873053
+
+Information:
+ - UUID: 70c7da0b-a9f4-4682-9ad4-02b34d7d88e3
+ - Keep Alive Ping: 62
+ - Transaction Ping: 58
+ - Server TPS: 20
+ - Sensitivity: 125
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 482.25 seconds ago
+
+Total Violations: 10
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 10
+
+Misc Information:
+ - Since Teleport Ticks: 3641
+ - Since Riptide Ticks: 30060
+ - Flying Delay: 45
+ - Since Velocity Ticks: 9645
+ - Since Firework Ticks: 506
+ - Ticks Existed: 38076
+ - Since Vehicle Ticks: 29960
+ - Since Liquid Ticks: 75
+ - Joined: 2658 seconds ago
+
+All Violations:
+ - Ground Spoof (Type A) [VL: 5] (Spoofed onGround value.)
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [WATER_BREATHING:200t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ XCcbomb was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 1071.1761313074096
+ - Y: 35.429189044186025
+ - Z: 344.4473120159535
+
+Information:
+ - UUID: 70c7da0b-a9f4-4682-9ad4-02b34d7d88e3
+ - Keep Alive Ping: 29
+ - Transaction Ping: 61
+ - Server TPS: 20
+ - Sensitivity: 125
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 40.45 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 121
+ - Since Riptide Ticks: 785
+ - Flying Delay: 61
+ - Since Velocity Ticks: 809
+ - Since Firework Ticks: 333
+ - Ticks Existed: 709
+ - Since Vehicle Ticks: 685
+ - Since Liquid Ticks: 685
+ - Joined: 46 seconds ago
+
+All Violations:
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [WATER_BREATHING:200t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ XCcbomb was punished for Bad Packets (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 8554.792692871033
+ - Y: 133.0
+ - Z: 2937.2109116088163
+
+Information:
+ - UUID: 70c7da0b-a9f4-4682-9ad4-02b34d7d88e3
+ - Keep Alive Ping: 44
+ - Transaction Ping: 57
+ - Server TPS: 20
+ - Sensitivity: 125
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 62.05 seconds ago
+
+Total Violations: 3
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 3
+
+Misc Information:
+ - Since Teleport Ticks: 1121
+ - Since Riptide Ticks: 1333
+ - Flying Delay: 53
+ - Since Velocity Ticks: 1241
+ - Since Firework Ticks: 1333
+ - Ticks Existed: 1141
+ - Since Vehicle Ticks: 1233
+ - Since Liquid Ticks: 1233
+ - Joined: 77 seconds ago
+
+All Violations:
+ - Bad Packets (Type A) [VL: 3] (Spoofed abilities packets.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ XCcbomb was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 8725.73018089542
+ - Y: 58.59563273362987
+ - Z: 2961.734103218285
+
+Information:
+ - UUID: 70c7da0b-a9f4-4682-9ad4-02b34d7d88e3
+ - Keep Alive Ping: 33
+ - Transaction Ping: 55
+ - Server TPS: 20
+ - Sensitivity: 125
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 56.35 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 1127
+ - Since Riptide Ticks: 1220
+ - Flying Delay: 42
+ - Since Velocity Ticks: 1127
+ - Since Firework Ticks: 1220
+ - Ticks Existed: 1027
+ - Since Vehicle Ticks: 1120
+ - Since Liquid Ticks: 15
+ - Joined: 51 seconds ago
+
+All Violations:
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ XCcbomb was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: 8740.647410833284
+ - Y: -13.750812921255317
+ - Z: 3012.378062090336
+
+Information:
+ - UUID: 70c7da0b-a9f4-4682-9ad4-02b34d7d88e3
+ - Keep Alive Ping: 42
+ - Transaction Ping: 66
+ - Server TPS: 20
+ - Sensitivity: 125
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 45.35 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 304
+ - Since Riptide Ticks: 933
+ - Flying Delay: 38
+ - Since Velocity Ticks: 907
+ - Since Firework Ticks: 933
+ - Ticks Existed: 807
+ - Since Vehicle Ticks: 833
+ - Since Liquid Ticks: 86
+ - Joined: 46 seconds ago
+
+All Violations:
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftTippedArrow]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ XCcbomb was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 1080.45026817251
+ - Y: 56.74718866953231
+ - Z: 348.70182483907746
+
+Information:
+ - UUID: 70c7da0b-a9f4-4682-9ad4-02b34d7d88e3
+ - Keep Alive Ping: 47
+ - Transaction Ping: 65
+ - Server TPS: 20
+ - Sensitivity: 125
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 96.3 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 556
+ - Since Riptide Ticks: 1974
+ - Flying Delay: 38
+ - Since Velocity Ticks: 1926
+ - Since Firework Ticks: 1974
+ - Ticks Existed: 1826
+ - Since Vehicle Ticks: 1874
+ - Since Liquid Ticks: 930
+ - Joined: 162 seconds ago
+
+All Violations:
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 107.8641683306736
+ - Y: 72.25220334025373
+ - Z: 1382.0517375844568
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 41
+ - Transaction Ping: 95
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 44.35 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 887
+ - Since Riptide Ticks: 822
+ - Flying Delay: 48
+ - Since Velocity Ticks: 887
+ - Since Firework Ticks: 822
+ - Ticks Existed: 787
+ - Since Vehicle Ticks: 722
+ - Since Liquid Ticks: 722
+ - Joined: 43 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 174.70599485008952
+ - Y: 47.24918707874468
+ - Z: 1575.8847256010908
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 89
+ - Transaction Ping: 89
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 730.2 seconds ago
+
+Total Violations: 43
+ - Combat Violations: 0
+ - Movement Violations: 41
+ - Player Violations: 2
+
+Misc Information:
+ - Since Teleport Ticks: 1059
+ - Since Riptide Ticks: 13646
+ - Flying Delay: 44
+ - Since Velocity Ticks: 14604
+ - Since Firework Ticks: 13646
+ - Ticks Existed: 15500
+ - Since Vehicle Ticks: 13546
+ - Since Liquid Ticks: 2492
+ - Joined: 1511 seconds ago
+
+All Violations:
+ - Flight (Type B) [VL: 5] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 3] (Invalid jump motion.)
+ - Motion (Type A) [VL: 2] (Repeated vertical motions.)
+ - Speed (Type A) [VL: 2] (Invalid friction.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 14] (Moving incorrectly in the air.)
+ - Ground Spoof (Type C) [VL: 2] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 359.7028205895482
+ - Y: 88.47494881058839
+ - Z: 1793.355679275413
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 68
+ - Transaction Ping: 106
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 54.1 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1979
+ - Since Riptide Ticks: 1709
+ - Flying Delay: 52
+ - Since Velocity Ticks: 1082
+ - Since Firework Ticks: 1709
+ - Ticks Existed: 1879
+ - Since Vehicle Ticks: 1609
+ - Since Liquid Ticks: 773
+ - Joined: 100 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, BASALT, AIR, AIR, BASALT, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [ABSORPTION:1045t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 1085.8824807000647
+ - Y: 82.5871932832793
+ - Z: 1935.4813155573993
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 86
+ - Transaction Ping: 97
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 237.55 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4751
+ - Since Riptide Ticks: 3715
+ - Flying Delay: 0
+ - Since Velocity Ticks: 4751
+ - Since Firework Ticks: 3715
+ - Ticks Existed: 4651
+ - Since Vehicle Ticks: 3615
+ - Since Liquid Ticks: 2201
+ - Joined: 276 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 87.50760645616623
+ - Y: 46.68608235421324
+ - Z: 1608.7303362585967
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 85
+ - Transaction Ping: 93
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 309.6 seconds ago
+
+Total Violations: 37
+ - Combat Violations: 0
+ - Movement Violations: 37
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 190
+ - Since Riptide Ticks: 12548
+ - Flying Delay: 0
+ - Since Velocity Ticks: 6192
+ - Since Firework Ticks: 12548
+ - Ticks Existed: 14497
+ - Since Vehicle Ticks: 12448
+ - Since Liquid Ticks: 6553
+ - Joined: 2208 seconds ago
+
+All Violations:
+ - Flight (Type A) [VL: 3] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 4] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 2] (Invalid Y-Axis movement.)
+ - Speed (Type A) [VL: 3] (Invalid friction.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 10] (Moving incorrectly in the air.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 106.9226098257372
+ - Y: 60.03548414080632
+ - Z: 1824.8281531798557
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 91
+ - Transaction Ping: 97
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 90.6 seconds ago
+
+Total Violations: 20
+ - Combat Violations: 0
+ - Movement Violations: 20
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1684
+ - Since Riptide Ticks: 5895
+ - Flying Delay: 56
+ - Since Velocity Ticks: 1812
+ - Since Firework Ticks: 5895
+ - Ticks Existed: 7071
+ - Since Vehicle Ticks: 5795
+ - Since Liquid Ticks: 573
+ - Joined: 380 seconds ago
+
+All Violations:
+ - Jesus (Type B) [VL: 5] (Invalid Y-change in water.)
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 287.5229766448991
+ - Y: 107.20000004768372
+ - Z: 1563.079442818907
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 86
+ - Transaction Ping: 88
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 124.5 seconds ago
+
+Total Violations: 17
+ - Combat Violations: 0
+ - Movement Violations: 17
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1416
+ - Since Riptide Ticks: 7200
+ - Flying Delay: 45
+ - Since Velocity Ticks: 2490
+ - Since Firework Ticks: 7200
+ - Ticks Existed: 8894
+ - Since Vehicle Ticks: 7100
+ - Since Liquid Ticks: 2074
+ - Joined: 679 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+ - Wall Climb (Type A) [VL: 2] (Climbing up a wall.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHERRACK, NETHERRACK, NETHERRACK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHERRACK, NETHERRACK, NETHERRACK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHERRACK, NETHERRACK, NETHERRACK]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 1075.8859140985458
+ - Y: 71.73941738641858
+ - Z: 2058.203882304403
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 78
+ - Transaction Ping: 110
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 59.8 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3040
+ - Since Riptide Ticks: 1961
+ - Flying Delay: 0
+ - Since Velocity Ticks: 1196
+ - Since Firework Ticks: 1961
+ - Ticks Existed: 2940
+ - Since Vehicle Ticks: 1861
+ - Since Liquid Ticks: 1861
+ - Joined: 90 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 1151.300000011921
+ - Y: 83.44287954317126
+ - Z: 1945.8787912904493
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 59
+ - Transaction Ping: 94
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 8.7 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1191
+ - Since Riptide Ticks: 1117
+ - Flying Delay: 45
+ - Since Velocity Ticks: 174
+ - Since Firework Ticks: 1117
+ - Ticks Existed: 1091
+ - Since Vehicle Ticks: 1017
+ - Since Liquid Ticks: 1017
+ - Joined: 66 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, NETHER_WART_BLOCK, AIR, AIR, NETHER_WART_BLOCK, NETHER_WART_BLOCK, AIR, NETHER_WART_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, WEEPING_VINES, AIR, AIR, WEEPING_VINES_PLANT, AIR, AIR, CRIMSON_STEM, AIR, AIR, CRIMSON_STEM, AIR, AIR, CRIMSON_STEM, AIR, AIR, CRIMSON_STEM]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 1894.9183935484168
+ - Y: 85.68010360783452
+ - Z: 2462.3615220227443
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 84
+ - Transaction Ping: 91
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 281.1 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 7779
+ - Since Riptide Ticks: 5799
+ - Flying Delay: 0
+ - Since Velocity Ticks: 5622
+ - Since Firework Ticks: 5799
+ - Ticks Existed: 7679
+ - Since Vehicle Ticks: 5699
+ - Since Liquid Ticks: 5699
+ - Joined: 575 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 2398.2336891914224
+ - Y: 50.467463747365585
+ - Z: 3278.423528147906
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 85
+ - Transaction Ping: 96
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 146.2 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 6347
+ - Since Riptide Ticks: 4732
+ - Flying Delay: 0
+ - Since Velocity Ticks: 2924
+ - Since Firework Ticks: 4732
+ - Ticks Existed: 6247
+ - Since Vehicle Ticks: 4632
+ - Since Liquid Ticks: 686
+ - Joined: 290 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 2410.865548195006
+ - Y: 73.5371766041567
+ - Z: 3685.7930821018804
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 57
+ - Transaction Ping: 91
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 77.8 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1997
+ - Since Riptide Ticks: 1579
+ - Flying Delay: 44
+ - Since Velocity Ticks: 1556
+ - Since Firework Ticks: 1579
+ - Ticks Existed: 1897
+ - Since Vehicle Ticks: 1479
+ - Since Liquid Ticks: 1327
+ - Joined: 72 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, POLISHED_BLACKSTONE_BRICKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 2781.9641800451836
+ - Y: 63.40093261960156
+ - Z: 4417.135077400609
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 86
+ - Transaction Ping: 89
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 13.3 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3849
+ - Since Riptide Ticks: 2846
+ - Flying Delay: 0
+ - Since Velocity Ticks: 266
+ - Since Firework Ticks: 2846
+ - Ticks Existed: 3749
+ - Since Vehicle Ticks: 2746
+ - Since Liquid Ticks: 1494
+ - Joined: 270 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 2995.978583123334
+ - Y: 84.23548418849003
+ - Z: 4801.42320411375
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 52
+ - Transaction Ping: 116
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 43.4 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1415
+ - Since Riptide Ticks: 1059
+ - Flying Delay: 16
+ - Since Velocity Ticks: 868
+ - Since Firework Ticks: 1059
+ - Ticks Existed: 1315
+ - Since Vehicle Ticks: 959
+ - Since Liquid Ticks: 709
+ - Joined: 50 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 3598.754662036046
+ - Y: 96.56792946099046
+ - Z: 5179.10620014382
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 84
+ - Transaction Ping: 99
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 230.7 seconds ago
+
+Total Violations: 20
+ - Combat Violations: 0
+ - Movement Violations: 20
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4614
+ - Since Riptide Ticks: 3446
+ - Flying Delay: 57
+ - Since Velocity Ticks: 4614
+ - Since Firework Ticks: 3446
+ - Ticks Existed: 4514
+ - Since Vehicle Ticks: 3346
+ - Since Liquid Ticks: 169
+ - Joined: 260 seconds ago
+
+All Violations:
+ - Jesus (Type B) [VL: 4] (Invalid Y-change in water.)
+ - Jesus (Type E) [VL: 1] (Moving too quickly on water.)
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, CAVE_AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 3686.66889038688
+ - Y: 60.37657370582496
+ - Z: 5326.004171211909
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 84
+ - Transaction Ping: 108
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 42.9 seconds ago
+
+Total Violations: 16
+ - Combat Violations: 0
+ - Movement Violations: 16
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4030
+ - Since Riptide Ticks: 3207
+ - Flying Delay: 1
+ - Since Velocity Ticks: 858
+ - Since Firework Ticks: 3207
+ - Ticks Existed: 3930
+ - Since Vehicle Ticks: 3107
+ - Since Liquid Ticks: 844
+ - Joined: 268 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+ - Wall Climb (Type A) [VL: 1] (Climbing up a wall.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [ABSORPTION:386t-x0]
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 14946.801741576013
+ - Y: 56.47571167856996
+ - Z: 14955.11945649158
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 83
+ - Transaction Ping: 113
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 304.6 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 225
+ - Since Riptide Ticks: 14242
+ - Flying Delay: 66
+ - Since Velocity Ticks: 6092
+ - Since Firework Ticks: 14242
+ - Ticks Existed: 16444
+ - Since Vehicle Ticks: 14142
+ - Since Liquid Ticks: 0
+ - Joined: 1198 seconds ago
+
+All Violations:
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+
+Blocks Nearby: [WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Entity Speed (Type A) ]--------------
+
+Location:
+ - World: world
+ - X: 14854.36202293967
+ - Y: 65.0
+ - Z: 14809.447537976474
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 86
+ - Transaction Ping: 101
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: CraftBoat{boatType=OAK,status=UNDER_WATER,passengers={CraftPlayer{name=joiscool}-CraftPlayer{name=ManlyMonke}}}
+ - Version: 1.19.1
+ - Last Damage: 201.0 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 441
+ - Since Riptide Ticks: 3334
+ - Flying Delay: 50
+ - Since Velocity Ticks: 4020
+ - Since Firework Ticks: 3334
+ - Ticks Existed: 3920
+ - Since Vehicle Ticks: 261
+ - Since Liquid Ticks: 38
+ - Joined: 259 seconds ago
+
+All Violations:
+ - Entity Speed (Type A) [VL: 15] (Riding an entity too quickly.)
+
+Blocks Nearby: [WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, AIR, AIR, AIR, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, AIR, AIR, AIR, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, AIR, AIR, AIR]
+Entities Nearby: [CraftBoat{boatType=OAK,status=UNDER_WATER,passengers={CraftPlayer{name=joiscool}-CraftPlayer{name=ManlyMonke}}}, CraftPlayer{name=ManlyMonke}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 803.9053839537305
+ - Y: 56.75852733358058
+ - Z: 12396.183390298662
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 85
+ - Transaction Ping: 92
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 342.3 seconds ago
+
+Total Violations: 48
+ - Combat Violations: 0
+ - Movement Violations: 48
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 5116
+ - Since Riptide Ticks: 11554
+ - Flying Delay: 55
+ - Since Velocity Ticks: 6846
+ - Since Firework Ticks: 11554
+ - Ticks Existed: 12963
+ - Since Vehicle Ticks: 11454
+ - Since Liquid Ticks: 0
+ - Joined: 2865 seconds ago
+
+All Violations:
+ - Flight (Type A) [VL: 5] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 4] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 3] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 5] (Invalid jump motion.)
+ - Motion (Type A) [VL: 1] (Repeated vertical motions.)
+ - Speed (Type A) [VL: 3] (Invalid friction.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+ - Step (Type B) [VL: 1] (Invalid Step motion.)
+ - Strafe (Type A) [VL: 11] (Moving incorrectly in the air.)
+
+Blocks Nearby: [WATER, WATER, KELP_PLANT, WATER, WATER, KELP_PLANT, WATER, WATER, KELP_PLANT, WATER, WATER, KELP, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER]
+Entities Nearby: [CraftSquid]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 1993.3324325852218
+ - Y: 60.200000047683716
+ - Z: 1749.5341950048123
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 86
+ - Transaction Ping: 87
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 135.8 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4789
+ - Since Riptide Ticks: 5642
+ - Flying Delay: 55
+ - Since Velocity Ticks: 2716
+ - Since Firework Ticks: 5642
+ - Ticks Existed: 6109
+ - Since Vehicle Ticks: 5542
+ - Since Liquid Ticks: 1154
+ - Joined: 485 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHERRACK, NETHERRACK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHERRACK, NETHERRACK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, NETHERRACK, NETHERRACK, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 37.77278858450892
+ - Y: 63.7531999805212
+ - Z: 10.327232811161126
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 265
+ - Transaction Ping: 89
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 235.7 seconds ago
+
+Total Violations: 29
+ - Combat Violations: 0
+ - Movement Violations: 29
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 648
+ - Since Riptide Ticks: 12227
+ - Flying Delay: 45
+ - Since Velocity Ticks: 4714
+ - Since Firework Ticks: 12227
+ - Ticks Existed: 13202
+ - Since Vehicle Ticks: 4657
+ - Since Liquid Ticks: 274
+ - Joined: 851 seconds ago
+
+All Violations:
+ - Flight (Type A) [VL: 1] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 4] (Invalid Y-Axis movement.)
+ - Flight (Type C) [VL: 2] (Invalid Y-Axis movement.)
+ - Motion (Type A) [VL: 2] (Repeated vertical motions.)
+ - Speed (Type A) [VL: 1] (Invalid friction.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 4] (Moving incorrectly in the air.)
+
+Blocks Nearby: [END_STONE, END_STONE, END_STONE, END_STONE, END_STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, END_STONE, END_STONE, END_STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, END_STONE, END_STONE, END_STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 1271.8884604916645
+ - Y: 116.87320473871661
+ - Z: 387.0389301498363
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 70
+ - Transaction Ping: 88
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 103.75 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 727
+ - Since Riptide Ticks: 1861
+ - Flying Delay: 0
+ - Since Velocity Ticks: 2075
+ - Since Firework Ticks: 1861
+ - Ticks Existed: 1975
+ - Since Vehicle Ticks: 1761
+ - Since Liquid Ticks: 1761
+ - Joined: 96 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 3031.235208200655
+ - Y: 126.20000004768372
+ - Z: 681.4883369026035
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 82
+ - Transaction Ping: 87
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 10.25 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 5597
+ - Since Riptide Ticks: 4917
+ - Flying Delay: 56
+ - Since Velocity Ticks: 205
+ - Since Firework Ticks: 4917
+ - Ticks Existed: 5983
+ - Since Vehicle Ticks: 4817
+ - Since Liquid Ticks: 4817
+ - Joined: 295 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, PURPUR_BLOCK, PURPUR_BLOCK, PURPUR_BLOCK, PURPUR_PILLAR, AIR, AIR, PURPUR_PILLAR, AIR, AIR, PURPUR_PILLAR, AIR, AIR, PURPUR_BLOCK, PURPUR_BLOCK, PURPUR_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, PURPUR_BLOCK, PURPUR_BLOCK, PURPUR_BLOCK]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 5785.084638379424
+ - Y: 69.88903402990513
+ - Z: 3546.12476846408
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 87
+ - Transaction Ping: 91
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 284.35 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 9456
+ - Since Riptide Ticks: 5421
+ - Flying Delay: 0
+ - Since Velocity Ticks: 5687
+ - Since Firework Ticks: 5421
+ - Ticks Existed: 9356
+ - Since Vehicle Ticks: 5321
+ - Since Liquid Ticks: 5321
+ - Joined: 308 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Flight (Type A) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 8157.30648649887
+ - Y: 70.08277185565586
+ - Z: 7060.1064951171775
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 91
+ - Transaction Ping: 95
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 236.0 seconds ago
+
+Total Violations: 62
+ - Combat Violations: 0
+ - Movement Violations: 62
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4694
+ - Since Riptide Ticks: 10257
+ - Flying Delay: 1
+ - Since Velocity Ticks: 4720
+ - Since Firework Ticks: 10257
+ - Ticks Existed: 16046
+ - Since Vehicle Ticks: 10157
+ - Since Liquid Ticks: 10157
+ - Joined: 699 seconds ago
+
+All Violations:
+ - Flight (Type A) [VL: 30] (Invalid Y-Axis movement.)
+ - Flight (Type D) [VL: 13] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 12] (Invalid Y-Axis movement.)
+ - Motion (Type A) [VL: 7] (Repeated vertical motions.)
+ - Timer (Type D) [VL: 1] (Increased game speed.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 9107.914181258211
+ - Y: 62.69172274738248
+ - Z: 9552.077830666656
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 81
+ - Transaction Ping: 89
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 275.25 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 5505
+ - Since Riptide Ticks: 3755
+ - Flying Delay: 1
+ - Since Velocity Ticks: 5505
+ - Since Firework Ticks: 3755
+ - Ticks Existed: 5405
+ - Since Vehicle Ticks: 3655
+ - Since Liquid Ticks: 3655
+ - Joined: 180 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 9072.400437577822
+ - Y: 95.0
+ - Z: 9692.810165696295
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 91
+ - Transaction Ping: 98
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 14.7 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3555
+ - Since Riptide Ticks: 6323
+ - Flying Delay: 44
+ - Since Velocity Ticks: 294
+ - Since Firework Ticks: 6323
+ - Ticks Existed: 6997
+ - Since Vehicle Ticks: 6223
+ - Since Liquid Ticks: 6223
+ - Joined: 506 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [PURPUR_BLOCK, PURPUR_BLOCK, PURPUR_BLOCK, END_STONE_BRICKS, END_STONE_BRICKS, END_STONE_BRICKS, END_STONE_BRICKS, MAGENTA_STAINED_GLASS, END_STONE_BRICKS, END_STONE_BRICKS, MAGENTA_STAINED_GLASS, END_STONE_BRICKS, PURPUR_STAIRS, PURPUR_STAIRS, PURPUR_STAIRS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 82.32627695369426
+ - Y: 46.46304759517403
+ - Z: 1573.626831718721
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 85
+ - Transaction Ping: 93
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 22.25 seconds ago
+
+Total Violations: 42
+ - Combat Violations: 0
+ - Movement Violations: 42
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 6232
+ - Since Riptide Ticks: 12955
+ - Flying Delay: 45
+ - Since Velocity Ticks: 445
+ - Since Firework Ticks: 12955
+ - Ticks Existed: 15166
+ - Since Vehicle Ticks: 12855
+ - Since Liquid Ticks: 34
+ - Joined: 1351 seconds ago
+
+All Violations:
+ - Flight (Type A) [VL: 4] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 4] (Invalid Y-Axis movement.)
+ - Flight (Type C) [VL: 1] (Invalid Y-Axis movement.)
+ - Jump (Type A) [VL: 6] (Invalid jump motion.)
+ - Motion (Type A) [VL: 5] (Repeated vertical motions.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+ - Step (Type B) [VL: 4] (Invalid Step motion.)
+ - Strafe (Type A) [VL: 3] (Moving incorrectly in the air.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 8.189298470980928
+ - Y: 83.30864554900425
+ - Z: 1638.5817841312644
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 75
+ - Transaction Ping: 85
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 27.8 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3191
+ - Since Riptide Ticks: 2684
+ - Flying Delay: 0
+ - Since Velocity Ticks: 556
+ - Since Firework Ticks: 2684
+ - Ticks Existed: 3091
+ - Since Vehicle Ticks: 2584
+ - Since Liquid Ticks: 1250
+ - Joined: 164 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Jesus (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 1108.0225216392116
+ - Y: 62.61604714173447
+ - Z: 12344.757210929365
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 88
+ - Transaction Ping: 91
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 357.5 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1096
+ - Since Riptide Ticks: 8657
+ - Flying Delay: 56
+ - Since Velocity Ticks: 7150
+ - Since Firework Ticks: 8657
+ - Ticks Existed: 8964
+ - Since Vehicle Ticks: 8557
+ - Since Liquid Ticks: 0
+ - Joined: 506 seconds ago
+
+All Violations:
+ - Jesus (Type C) [VL: 15] (Invalid Y-Change in water.)
+
+Blocks Nearby: [WATER, WATER, WATER, WATER, WATER, WATER, AIR, AIR, AIR, AIR, AIR, AIR, WATER, WATER, WATER, WATER, WATER, WATER, AIR, AIR, AIR, AIR, AIR, AIR, WATER, WATER, KELP, WATER, WATER, WATER, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Motion (Type A) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 309.1702475310883
+ - Y: 83.2728004124305
+ - Z: 1628.55547613907
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 95
+ - Transaction Ping: 98
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 45.55 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 3706
+ - Since Riptide Ticks: 5138
+ - Flying Delay: 0
+ - Since Velocity Ticks: 911
+ - Since Firework Ticks: 5138
+ - Ticks Existed: 5529
+ - Since Vehicle Ticks: 5038
+ - Since Liquid Ticks: 147
+ - Joined: 437 seconds ago
+
+All Violations:
+ - Motion (Type A) [VL: 15] (Repeated vertical motions.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Elytra (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 10039.735904833578
+ - Y: 124.83179948704442
+ - Z: 3336.3368540915926
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 83
+ - Transaction Ping: 92
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 177.7 seconds ago
+
+Total Violations: 22
+ - Combat Violations: 0
+ - Movement Violations: 22
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 481
+ - Since Riptide Ticks: 3590
+ - Flying Delay: 60
+ - Since Velocity Ticks: 3554
+ - Since Firework Ticks: 3590
+ - Ticks Existed: 3577
+ - Since Vehicle Ticks: 3490
+ - Since Liquid Ticks: 749
+ - Joined: 240 seconds ago
+
+All Violations:
+ - Elytra (Type C) [VL: 15] (Invalid acceleration.)
+ - Elytra (Type K) [VL: 7] (Accelerating while ascending.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 724.4273386633779
+ - Y: 71.0
+ - Z: 12409.640545526298
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 90
+ - Transaction Ping: 95
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 25.1 seconds ago
+
+Total Violations: 43
+ - Combat Violations: 0
+ - Movement Violations: 43
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 1561
+ - Since Riptide Ticks: 6948
+ - Flying Delay: 45
+ - Since Velocity Ticks: 502
+ - Since Firework Ticks: 16200
+ - Ticks Existed: 17969
+ - Since Vehicle Ticks: 16100
+ - Since Liquid Ticks: 1408
+ - Joined: 1307 seconds ago
+
+All Violations:
+ - Flight (Type A) [VL: 7] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 5] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 4] (Invalid Y-Axis movement.)
+ - Speed (Type A) [VL: 3] (Invalid friction.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 9] (Moving incorrectly in the air.)
+
+Blocks Nearby: [DIRT, DIRT, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, DIRT, DIRT, DIRT, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, GRASS, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 14938.392344120855
+ - Y: 59.87046990344299
+ - Z: 14990.617779270737
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 84
+ - Transaction Ping: 86
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 298.5 seconds ago
+
+Total Violations: 15
+ - Combat Violations: 0
+ - Movement Violations: 15
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 4947
+ - Since Riptide Ticks: 11100
+ - Flying Delay: 45
+ - Since Velocity Ticks: 5970
+ - Since Firework Ticks: 11100
+ - Ticks Existed: 12075
+ - Since Vehicle Ticks: 11000
+ - Since Liquid Ticks: 0
+ - Joined: 770 seconds ago
+
+All Violations:
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+
+Blocks Nearby: [WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER, WATER]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world_nether
+ - X: 1942.751955465778
+ - Y: 65.52590188537091
+ - Z: 1806.9158022211282
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 86
+ - Transaction Ping: 93
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 32.35 seconds ago
+
+Total Violations: 61
+ - Combat Violations: 0
+ - Movement Violations: 50
+ - Player Violations: 11
+
+Misc Information:
+ - Since Teleport Ticks: 182
+ - Since Riptide Ticks: 13534
+ - Flying Delay: 0
+ - Since Velocity Ticks: 647
+ - Since Firework Ticks: 13534
+ - Ticks Existed: 14442
+ - Since Vehicle Ticks: 13434
+ - Since Liquid Ticks: 119
+ - Joined: 824 seconds ago
+
+All Violations:
+ - Flight (Type A) [VL: 9] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 6] (Invalid Y-Axis movement.)
+ - Flight (Type D) [VL: 3] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 4] (Invalid Y-Axis movement.)
+ - Speed (Type A) [VL: 3] (Invalid friction.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 10] (Moving incorrectly in the air.)
+ - Invalid (Type G) [VL: 11] (Impossible X/Z change.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 757.9089294257236
+ - Y: 70.0
+ - Z: 12403.3250900117
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 85
+ - Transaction Ping: 86
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 12.15 seconds ago
+
+Total Violations: 37
+ - Combat Violations: 0
+ - Movement Violations: 36
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 4705
+ - Since Riptide Ticks: 3138
+ - Flying Delay: 56
+ - Since Velocity Ticks: 243
+ - Since Firework Ticks: 15535
+ - Ticks Existed: 17450
+ - Since Vehicle Ticks: 15435
+ - Since Liquid Ticks: 3155
+ - Joined: 1231 seconds ago
+
+All Violations:
+ - Flight (Type A) [VL: 3] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 5] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 1] (Invalid Y-Axis movement.)
+ - Speed (Type A) [VL: 3] (Invalid friction.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+ - Strafe (Type A) [VL: 9] (Moving incorrectly in the air.)
+ - Ground Spoof (Type C) [VL: 1] (Spoofed OnGround value.)
+
+Blocks Nearby: [POLISHED_BLACKSTONE_BRICKS, CRYING_OBSIDIAN, CRYING_OBSIDIAN, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, POLISHED_BLACKSTONE_BRICKS, POLISHED_BLACKSTONE_BRICKS, POLISHED_BLACKSTONE_BRICKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, POLISHED_BLACKSTONE_BRICKS, POLISHED_BLACKSTONE_BRICKS, POLISHED_BLACKSTONE_BRICKS, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ joiscool was punished for Speed (Type C) ]--------------
+
+Location:
+ - World: world
+ - X: 756.4746977121237
+ - Y: 72.01333975507396
+ - Z: 12440.321067519306
+
+Information:
+ - UUID: f8b00f63-0748-4eb9-93df-a7ebae199675
+ - Keep Alive Ping: 81
+ - Transaction Ping: 100
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 300.5 seconds ago
+
+Total Violations: 51
+ - Combat Violations: 0
+ - Movement Violations: 51
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 6526
+ - Since Riptide Ticks: 17222
+ - Flying Delay: 15
+ - Since Velocity Ticks: 6010
+ - Since Firework Ticks: 17222
+ - Ticks Existed: 19713
+ - Since Vehicle Ticks: 17122
+ - Since Liquid Ticks: 5525
+ - Joined: 1579 seconds ago
+
+All Violations:
+ - Flight (Type A) [VL: 13] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 15] (Invalid Y-Axis movement.)
+ - Flight (Type D) [VL: 2] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 6] (Invalid Y-Axis movement.)
+ - Speed (Type C) [VL: 15] (Moving too quickly in the air.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: [CraftPlayer{name=bacongrubber}]
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ theoneand33 was punished for Aim (Type Y) ]--------------
+
+Location:
+ - World: world
+ - X: -3631.898816974367
+ - Y: 73.0
+ - Z: -9147.390093879822
+
+Information:
+ - UUID: aee920b9-bb13-40a8-8c87-ae9c929aab70
+ - Keep Alive Ping: 219
+ - Transaction Ping: 269
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Vanilla
+ - Vehicle: null
+ - Version: 1.19.3
+ - Last Damage: 30.8 seconds ago
+
+Total Violations: 8
+ - Combat Violations: 8
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 764
+ - Since Riptide Ticks: 998
+ - Flying Delay: 248
+ - Since Velocity Ticks: 616
+ - Since Firework Ticks: 998
+ - Ticks Existed: 1152
+ - Since Vehicle Ticks: 898
+ - Since Liquid Ticks: 898
+ - Joined: 97 seconds ago
+
+All Violations:
+ - Aim (Type Y) [VL: 5] (Generic rotation analysis heuristic.)
+ - Kill Aura (Type A) [VL: 3] (Post UseEntity packets.)
+
+Blocks Nearby: [DIRT, GRASS_BLOCK, GRASS_BLOCK, OAK_LOG, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRASS_BLOCK, GRASS_BLOCK, DIRT, CAMPFIRE, AIR, OAK_LOG, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Websoket was punished for Bad Packets (Type A) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 4.3861620165195045
+ - Y: 41.0
+ - Z: -229.23176566841548
+
+Information:
+ - UUID: 4cbeaf7f-11f3-4d5c-a3cf-cec85aa61178
+ - Keep Alive Ping: 250
+ - Transaction Ping: 258
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 87.3 seconds ago
+
+Total Violations: 3
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 3
+
+Misc Information:
+ - Since Teleport Ticks: 1661
+ - Since Riptide Ticks: 5289
+ - Flying Delay: 104
+ - Since Velocity Ticks: 1746
+ - Since Firework Ticks: 5289
+ - Ticks Existed: 5794
+ - Since Vehicle Ticks: 5189
+ - Since Liquid Ticks: 4398
+ - Joined: 451 seconds ago
+
+All Violations:
+ - Bad Packets (Type A) [VL: 3] (Spoofed abilities packets.)
+
+Blocks Nearby: [OBSIDIAN, OBSIDIAN, OBSIDIAN, AIR, AIR, AIR, AIR, AIR, AIR, STONE_SLAB, STONE_SLAB, STONE_SLAB, OBSIDIAN, OBSIDIAN, OBSIDIAN, AIR, AIR, AIR, AIR, AIR, AIR, STONE_SLAB, STONE_SLAB, STONE_SLAB, OBSIDIAN, OBSIDIAN, OBSIDIAN, AIR, AIR, AIR, AIR, AIR, AIR, STONE_SLAB, STONE_SLAB, STONE_SLAB]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Websoket was punished for Criticals (Type A) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 13.468116267307495
+ - Y: 63.0
+ - Z: 5.092098682560448
+
+Information:
+ - UUID: 4cbeaf7f-11f3-4d5c-a3cf-cec85aa61178
+ - Keep Alive Ping: 261
+ - Transaction Ping: 264
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 62.7 seconds ago
+
+Total Violations: 10
+ - Combat Violations: 10
+ - Movement Violations: 0
+ - Player Violations: 0
+
+Misc Information:
+ - Since Teleport Ticks: 430
+ - Since Riptide Ticks: 4919
+ - Flying Delay: 50
+ - Since Velocity Ticks: 1254
+ - Since Firework Ticks: 4919
+ - Ticks Existed: 5605
+ - Since Vehicle Ticks: 4819
+ - Since Liquid Ticks: 2167
+ - Joined: 444 seconds ago
+
+All Violations:
+ - Criticals (Type A) [VL: 10] (Tried to hit Critical hit on ground.)
+
+Blocks Nearby: [END_STONE, END_STONE, END_STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, END_STONE, END_STONE, END_STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, END_STONE, END_STONE, END_STONE, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Websoket was punished for Ground Spoof (Type B) ]--------------
+
+Location:
+ - World: world_the_end
+ - X: 30.928191834892843
+ - Y: 71.56991975360313
+ - Z: 3.116627550300927
+
+Information:
+ - UUID: 4cbeaf7f-11f3-4d5c-a3cf-cec85aa61178
+ - Keep Alive Ping: 248
+ - Transaction Ping: 264
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 137.35 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 101
+ - Since Riptide Ticks: 2363
+ - Flying Delay: 50
+ - Since Velocity Ticks: 2747
+ - Since Firework Ticks: 2363
+ - Ticks Existed: 2647
+ - Since Vehicle Ticks: 2263
+ - Since Liquid Ticks: 424
+ - Joined: 187 seconds ago
+
+All Violations:
+ - Ground Spoof (Type B) [VL: 5] (Spoofed OnGround value.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+
+--------------[ Wolftifact was punished for Fast Place (Type B) ]--------------
+
+Location:
+ - World: world
+ - X: -3267.1160094461275
+ - Y: 38.0
+ - Z: 1956.665627467144
+
+Information:
+ - UUID: 26b94831-f73c-403b-bf1a-caacd828d0b8
+ - Keep Alive Ping: 93
+ - Transaction Ping: 102
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.19.1
+ - Last Damage: 261.5 seconds ago
+
+Total Violations: 5
+ - Combat Violations: 0
+ - Movement Violations: 0
+ - Player Violations: 5
+
+Misc Information:
+ - Since Teleport Ticks: 4980
+ - Since Riptide Ticks: 58867
+ - Flying Delay: 45
+ - Since Velocity Ticks: 5230
+ - Since Firework Ticks: 4598
+ - Ticks Existed: 62563
+ - Since Vehicle Ticks: 58767
+ - Since Liquid Ticks: 4661
+ - Joined: 6346 seconds ago
+
+All Violations:
+ - Fast Place (Type B) [VL: 5] (Sending too many BlockPlace packets.)
+
+Blocks Nearby: [GRAVEL, GRAVEL, STONE, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRAVEL, GRAVEL, GRAVEL, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, GRAVEL, GRAVEL, GRAVEL, GRASS_BLOCK, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: [INCREASE_DAMAGE:(114t-x1), SPEED:2147436778t-x2]
+---------------------------------------------------------------------------
+
+

@@ -1,5 +1,5 @@
 # The amount of time used for the interval
-interval: 60
+interval: 15
 # The unit of time used for the interval
 #  Can be SECONDS, MINUTES, or HOURS
 interval-time-unit: 'MINUTES'
@@ -53,58 +53,10 @@ new-player:
     volume: 0.8
 messages:
   0:
-    - '<strikethrough>                                                                 <reset>'
+    - '<light_red><strikethrough>                                                                 <reset>'
     - ''
-    - 'Vote every day to support the server and get'
-    - 'rewarded for it! <click:open_url:https://semivanilla.com/vote><gradient:gold:red>https://semivanilla.com/vote</gradient></click>'
+    - 'Khavalon is shutting down! Please open a Discord support'
+    - 'ticket to have your items moved to Survival!'
+    - '<gray>https://semivanilla.com/discord</gray>'
     - ''
-    - '<strikethrough>                                                                 <reset>'
-  1:
-    - '<strikethrough>                                                                 <reset>'
-    - ''
-    - 'Enjoying the server? Please consider donating'
-    - 'at <click:open_url:https://svmc.tebex.io><gradient:gold:red>https://svmc.tebex.io</gradient></click>!'
-    - ''
-    - '<strikethrough>                                                                 <reset>'
-  2:
-    - '<strikethrough>                                                                 <reset>'
-    - ''
-    - 'Join the community! Find us on Discord'
-    - 'at <click:open_url:https://discord.gg/3WzZ3x6wGp><gradient:gold:red>https://discord.gg/3WzZ3x6wGp</gradient></click>!'
-    - ''
-    - '<strikethrough>                                                                 <reset>'
-  3:
-    - '<strikethrough>                                                                 <reset>'
-    - ''
-    - 'Check the map! All players locations can be'
-    - 'seen at <click:open_url:https://semivanilla.com/features/map><gradient:gold:red>https://semivanilla.com/features/map</gradient></click>!'
-    - ''
-    - '<strikethrough>                                                                 <reset>'
-  6:
-    - '<strikethrough>                                                                 <reset>'
-    - ''
-    - 'Earn Vote Crates by logging in every day and'
-    - 'voting every day! Claim rewards with <click:run_command:/spoils><gradient:gold:red>/spoils</gradient></click>.'
-    - ''
-    - '<strikethrough>                                                                 <reset>'
-  7:
-    - '<strikethrough>                                                                 <reset>'
-    - ''
-    - 'Grinding Skills XP? Boost XP earned for the entire'
-    - 'server at <click:open_url:https://svmc.tebex.io><gradient:gold:red>https://svmc.tebex.io</gradient></click>.'
-    - ''
-    - '<strikethrough>                                                                 <reset>'
-  10:
-    - '<strikethrough>                                                                 <reset>'
-    - ''
-    - 'Unclaimed land can be griefed! Make sure you claim'
-    - 'your land. <click:open_url:https://semivanilla.com/features/claiming><gradient:gold:red>https://semivanilla.com/features/claiming</gradient></click>'
-    - ''
-    - '<strikethrough>                                                                 <reset>'
-  11:
-    - '<strikethrough>                                                                 <reset>'
-    - ''
-    - 'Mana and hearts GUI getting in your way?'
-    - 'You can disable it with <gradient:gold:red>/abtoggle</gradient>.'
-    - ''
-    - '<strikethrough>                                                                 <reset>'
+    - '<light_red><strikethrough>                                                                 <reset>'

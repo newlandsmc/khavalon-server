@@ -1,8 +1,7 @@
 aliases:
   - 'server'
   - 'servers'
-  - 'asthonia'
-  - 'khavalon'
+  - 'survival'
   - 'lobby'
   - 'creative'
 
@@ -28,23 +27,14 @@ menu:
     1:
       slot: 12
       material: 'MAGENTA_CONCRETE'
-      name: '<light_purple>Asthonia'
-      proxy-server-name: 'asthonia'
+      name: '<light_purple>Survival'
+      proxy-server-name: 'survival'
       lore:
         - '<gray>%count%/50'
         - ''
-        - '<dark_gray>Click to join Asthonia'
+        - '<dark_gray>Click to join Survival'
     2:
       slot: 14
-      material: 'ORANGE_CONCRETE'
-      name: '<gold>Khavalon'
-      proxy-server-name: 'khavalon'
-      lore:
-        - '<gray>%count%/50'
-        - ''
-        - '<dark_gray>Click to join Khavalon'
-    3:
-      slot: 16
       material: 'LIME_CONCRETE'
       name: '<green>Creative'
       proxy-server-name: 'creative'
@@ -52,3 +42,16 @@ menu:
         - '<gray>%count%/50'
         - ''
         - '<dark_gray>Click to join Creative'
+    3:
+      slot: 16
+      material: 'GRAY_CONCRETE'
+      name: '<gray>Khavalon (Legacy)'
+      proxy-server-name: 'khavalon'
+      lore:
+        - '<red>%count%/50'
+        - ''
+        - '<dark_gray>Click to join Khavalon'
+        - '<red>This server is shutting'
+        - '<red>down! Open a Discord support'
+        - '<red>ticket to move your items'
+        - '<red>to Survival.'
