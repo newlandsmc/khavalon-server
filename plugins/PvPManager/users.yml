@@ -2921,3 +2921,8 @@ players:
     newbie: true
     pvpstatus: true
     toggletime: 0
+  91ede8da-4ec0-4f66-90fe-6ac66d42db8d:
+    newbie_timeleft: 1788816
+    newbie: true
+    pvpstatus: true
+    toggletime: 0

@@ -17,41 +17,53 @@ menu:
   servers:
     0:
       slot: 10
-      material: 'LIGHT_BLUE_CONCRETE'
-      name: '<aqua>Lobby'
+      material: 'GRAY_CONCRETE'
+      name: '<white>Lobby'
       proxy-server-name: 'lobby'
+      permission: 'server.lobby'
       lore:
         - '<gray>%count%/100'
         - ''
-        - '<dark_gray>Click to join the Lobby'
+        - 'hasperm:<dark_gray>Click to join the Lobby'
+        - 'noperm:<red>You do not have permission to'
+        - 'noperm:<red>join this server.'
     1:
       slot: 12
-      material: 'MAGENTA_CONCRETE'
-      name: '<light_purple>Survival'
+      material: 'RED_CONCRETE'
+      name: '<red>Survival'
       proxy-server-name: 'survival'
+      permission: 'server.survival'
       lore:
         - '<gray>%count%/50'
         - ''
-        - '<dark_gray>Click to join Survival'
+        - 'hasperm:<dark_gray>Click to join Survival'
+        - 'noperm:<red>You do not have permission to'
+        - 'noperm:<red>join this server.'
     2:
       slot: 14
-      material: 'LIME_CONCRETE'
-      name: '<green>Creative'
+      material: 'LIGHT_BLUE_CONCRETE'
+      name: '<aqua>Creative'
       proxy-server-name: 'creative'
+      permission: 'server.creative'
       lore:
         - '<gray>%count%/50'
         - ''
-        - '<dark_gray>Click to join Creative'
+        - 'hasperm:<dark_gray>Click to join Creative'
+        - 'noperm:<red>You do not have permission to'
+        - 'noperm:<red>join this server.'
     3:
       slot: 16
-      material: 'GRAY_CONCRETE'
+      material: 'BARRIER'
       name: '<gray>Khavalon (Legacy)'
       proxy-server-name: 'khavalon'
+      permission: 'server.khavalon'
       lore:
         - '<red>%count%/50'
         - ''
-        - '<dark_gray>Click to join Khavalon'
-        - '<red>This server is shutting'
-        - '<red>down! Open a Discord support'
-        - '<red>ticket to move your items'
+        - 'hasperm:<dark_gray>Click to join Khavalon'
+        - 'noperm:<red>You do not have permission to'
+        - 'noperm:<red>join this server.'
+        - 'hasperm:<red>This server is shutting'
+        - 'hasperm:<red>down! Open a Discord support'
+        - 'hasperm:<red>ticket to move your items'
         - '<red>to Survival.'

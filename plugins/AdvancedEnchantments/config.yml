@@ -420,6 +420,7 @@ items:
       lore-display: '&8HOLY PROTECTED'
       # Keep holywhitescroll equipped to item even after death
       keep-after-death: false
+    force-glow: false
   # Orbs allow applying x number of enchants
   orb:
     lore: '&8Orb(s) Applied'
