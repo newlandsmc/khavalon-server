@@ -3,6 +3,6 @@ bypassWords: []
 
 #List of ip/websites you wish to whitelist
 bypassIP:
-  - semivanilla.com
+  - newlandsmc.com
   - discord.com
   - discord.gg

@@ -93,7 +93,7 @@ click-for-help: Click for help
 click-to-confirm: Click to confirm
 click-to-toggle: Click to toggle
 ui:
-    page-title: SemiVanilla MC | Features | Map | Khavalon
+    page-title: New Lands MC | Features | Map | Khavalon
     coordinates: Coordinates<br/>{x}, {z}
     sidebar:
         player-list: Players ({cur}/{max})

@@ -116,7 +116,7 @@ timings:
   - proxies.velocity.secret
   history-interval: 300
   history-length: 3600
-  server-name: SemiVanilla MC
+  server-name: New Lands MC
   server-name-privacy: false
   url: https://timings.aikar.co/
   verbose: true

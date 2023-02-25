@@ -1,0 +1,113 @@
+{
+  "title": "Help Menu",
+  "rows": 3,
+  "fill": {
+    "enabled": true,
+    "useDefault": true
+  },
+  "items": [
+    {
+      "slot": 10,
+      "material": "ENCHANTED_BOOK",
+      "name": "<red>Help",
+      "lore": [
+        "<white>Tutorials, list of commands,",
+        "<white>and userful links.",
+        "",
+        "<dark_gray>Click to open book.</dark_gray>"
+      ],
+      "actions": [
+        {
+          "type": "book",
+          "book": "help"
+        }
+      ]
+    },
+    {
+      "slot": 12,
+      "material": "CAMPFIRE",
+      "name": "<gold>Website",
+      "lore": [
+        "<white>A portal for everything",
+        "<white>linked in this GUI!",
+        "<white><italic>Bookmark us!",
+        "",
+        "<dark_gray>Click to get link.</dark_gray>"
+      ],
+      "actions": [
+        {
+          "type": "book",
+          "book": "website"
+        }
+      ]
+    },
+    {
+      "slot": 13,
+      "material": "PAPER",
+      "name": "<yellow>Rules",
+      "lore": [
+        "<white>Read the rules before you play!",
+        "<white><italic>Click here.",
+        "",
+        "<dark_gray>Click to get link.</dark_gray>"
+      ],
+      "actions": [
+        {
+          "type": "book",
+          "book": "rules"
+        }
+      ]
+    },
+    {
+      "slot": 14,
+      "material": "EMERALD",
+      "name": "<green>Donate",
+      "lore": [
+        "<white>Donate to support the server!",
+        "<white>Thank you!",
+        "",
+        "<dark_gray>Click to get link.</dark_gray>"
+      ],
+      "actions": [
+        {
+          "type": "book",
+          "book": "donate"
+        }
+      ]
+    },
+    {
+      "slot": 15,
+      "material": "NETHER_STAR",
+      "name": "<aqua>Vote",
+      "lore": [
+        "<white>Vote to support the server!",
+        "<white>Thank you!",
+        "",
+        "<dark_gray>Click to get link.</dark_gray>"
+      ],
+      "actions": [
+        {
+          "type": "book",
+          "book": "vote"
+        }
+      ]
+    },
+    {
+      "slot": 16,
+      "material": "AMETHYST_SHARD",
+      "name": "<light_purple>Discord",
+      "lore": [
+        "<white>Join the community!",
+        "<white>Welcome to New Lands MC!",
+        "",
+        "<dark_gray>Click to get link.</dark_gray>"
+      ],
+      "actions": [
+        {
+          "type": "book",
+          "book": "discord"
+        }
+      ]
+    }
+  ]
+}

@@ -470,7 +470,7 @@ settings:
   flight-cooldown: 40
   top-command-unresolved: Unresolved
   ignore-if-in-judgement-day: false
-  ignore-vivecraft: false
+  ignore-vivecraft: true
   lenient-scaffolding: true
   bstats: true
   entity-collision: true
@@ -524,7 +524,7 @@ discord-webhook:
     # Paste the URL to your webhook here. For how to create a webhook, please see https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
     url: https://discord.com/api/webhooks/965828215140663327/OOIpx7BzCn66ZLOcZQuvCs03Ikqg8zmvQWvvdh4RoOV-oxJRTzZhr7s8ysH8aDpDVFzu
     # The avatar for the webhook
-    avatar: https://semivanilla.com/assets/images/khavalon/apple-touch-icon.png
+    avatar: https://newlandsmc.com/assets/images/khavalon/apple-touch-icon.png
     # Thumbnail for the webhook
     thumbnail: http://cravatar.eu/avatar/%name%/64.png
     # Colors for the webhook (use a website like https://www.rapidtables.com/web/color/RGB_Color.html to pick colors)
@@ -550,7 +550,7 @@ discord-webhook:
     # Same settings and explanations as above
     enabled: true
     url: https://discord.com/api/webhooks/965828215140663327/OOIpx7BzCn66ZLOcZQuvCs03Ikqg8zmvQWvvdh4RoOV-oxJRTzZhr7s8ysH8aDpDVFzu
-    avatar: https://semivanilla.com/assets/images/khavalon/apple-touch-icon.png
+    avatar: https://newlandsmc.com/assets/images/khavalon/apple-touch-icon.png
     thumbnail: http://cravatar.eu/avatar/%name%/64.png
     color-r: 255
     color-g: 0

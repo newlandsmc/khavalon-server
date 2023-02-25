@@ -81,7 +81,7 @@ banned_message_permanent: |-
   $appealMessage
 banned_message_appeal_message: |-
   &7Appeal:
-  &7appeal@semivanilla.com
+  &7appeal@newlandsmc.com
 banned_message_geoip_blacklist: |-
   &cYou are banned from this server
   &7Your location is blacklisted:  $geoip
